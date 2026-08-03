@@ -5,7 +5,7 @@
   "category": "screen-recording",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Arcade, build an interactive product story from captured screens and hotspots. The hard boundary is capture polish, hosted playback, analytics, personalization, and collaboration, plus capture polish, hosting, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 38,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$38/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

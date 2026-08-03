@@ -5,7 +5,7 @@
   "category": "reading",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For NewsBlur, self-host a feed reader with training filters, folders, and full-text search. The hard boundary is hosted convenience, native apps, story intelligence, and community features, plus capture polish, sync, and content partnerships.",
-  "priceMonthly": 1,
+  "priceMonthly": 3,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$3/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

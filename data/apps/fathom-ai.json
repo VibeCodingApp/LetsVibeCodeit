@@ -5,7 +5,7 @@
   "category": "meeting-notes",
   "subcategory": null,
   "tagline": "A solo clone can handle recordings, transcripts, and summaries, but the product's paid value is automated capture plus CRM/workflow sync and team sharing.",
-  "priceMonthly": 1,
+  "priceMonthly": 20,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$20/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

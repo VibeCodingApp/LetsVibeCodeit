@@ -5,7 +5,7 @@
   "category": "ai-writing",
   "subcategory": null,
   "tagline": "A paraphraser/summarizer/grammar wrapper over an LLM and LanguageTool is easy to build; the paid app wins on UX, extensions, plagiarism workflows, and bundled tools.",
-  "priceMonthly": 1,
+  "priceMonthly": 19.95,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19.95/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

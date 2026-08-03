@@ -5,7 +5,7 @@
   "category": "dev-tools",
   "subcategory": null,
   "tagline": "A dev container plus code-server plus deployment can replace some value, but Replit's beginner-friendly cloud IDE, agents, secrets, hosting, and zero-setup environment are a platform.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "newsletters",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MailerLite, send newsletters, build forms, and run a small welcome sequence. The hard boundary is deliverability, editor polish, landing pages, automations, and integrations, plus deliverability, growth network, and integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

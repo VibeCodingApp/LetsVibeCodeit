@@ -5,7 +5,7 @@
   "category": "ai-writing",
   "subcategory": null,
   "tagline": "WordHero's solo core is compact: build a private AI writing workspace that sends user text to one chosen model, stores versions, applies reusable instructions, and exports Markdown. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, data, workflow.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

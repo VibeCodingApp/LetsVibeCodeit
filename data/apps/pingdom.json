@@ -5,7 +5,7 @@
   "category": "monitoring",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Pingdom, run independent uptime and transaction checks with a simple status view. The hard boundary is global probes, transaction infrastructure, alerts, reporting, and solarwinds operations, plus independent infrastructure and reliable alerting.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

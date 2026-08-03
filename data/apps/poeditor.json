@@ -5,7 +5,7 @@
   "category": "localization",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For POEditor, manage translation keys, contributors, suggestions, and standard file exports. The hard boundary is hosted collaboration, integrations, translation memory, and simple workflow, plus translation memory, collaboration, and deployment integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 14.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$14.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

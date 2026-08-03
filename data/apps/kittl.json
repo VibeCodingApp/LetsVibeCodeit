@@ -5,7 +5,7 @@
   "category": "design",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Kittl, create typography-heavy graphics, labels, posters, and merchandise-ready exports. The hard boundary is specialized templates, fonts, vector effects, asset library, and mockups, plus editor polish, assets, collaboration, and distribution.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

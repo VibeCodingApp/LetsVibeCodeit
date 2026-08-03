@@ -5,7 +5,7 @@
   "category": "docs-databases",
   "subcategory": null,
   "tagline": "A doc with tables and buttons is buildable; Coda's editor, formula engine, packs/integrations, permissions, and team workflows make full parity difficult.",
-  "priceMonthly": 1,
+  "priceMonthly": 12,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$12/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

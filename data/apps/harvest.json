@@ -5,7 +5,7 @@
   "category": "time-tracking",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Harvest, track project time, turn approved entries into simple invoices, and export reports. The hard boundary is team timesheets, integrations, invoicing, reminders, support, and reliability, plus ubiquitous capture, coaching, and team workflow.",
-  "priceMonthly": 1,
+  "priceMonthly": 13.75,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$13.75/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

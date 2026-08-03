@@ -5,7 +5,7 @@
   "category": "project-management",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Shortcut, manage software stories, epics, iterations, roadmaps, and engineering workflows. The hard boundary is git integrations, reporting, collaboration, and mature agile project semantics, plus collaboration, integrations, and organizational trust.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "podcasting",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Castmagic, turn a recording into a transcript, summary, clips, quotes, and reusable content assets. The hard boundary is large prompt library, integrations, team workflow, and hosted processing, plus audio infrastructure, distribution, and production polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

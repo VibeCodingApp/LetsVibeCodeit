@@ -5,7 +5,7 @@
   "category": "email",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Airmail, create a configurable Apple email client with actions, snooze, and send later. The hard boundary is native apps, provider quirks, automation, push, and years of compatibility work, plus mail infrastructure, integrations, and client polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 2.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$2.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

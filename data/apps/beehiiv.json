@@ -5,7 +5,7 @@
   "category": "newsletters",
   "subcategory": null,
   "tagline": "You can build a newsletter CMS and send emails, but beehiiv's moat is deliverability, growth network, recommendations, ad marketplace, automations, analytics, and migrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 49,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$49/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

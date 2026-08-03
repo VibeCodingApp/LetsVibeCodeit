@@ -5,7 +5,7 @@
   "category": "customer-support",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Crisp, combine website chat and a shared inbox for one small support team. The hard boundary is multi-channel inbox, chat delivery, knowledge base, campaigns, and workspace pricing, plus channel integrations and support operations.",
-  "priceMonthly": 1,
+  "priceMonthly": 45,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$45/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

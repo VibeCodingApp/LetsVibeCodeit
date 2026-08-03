@@ -5,7 +5,7 @@
   "category": "sales-outreach",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Apollo, run permissioned outbound sequences from an uploaded list without supplying contact data. The hard boundary is massive proprietary contact database, enrichment, intent data, and deliverability tooling, plus proprietary data, deliverability, and network effects.",
-  "priceMonthly": 1,
+  "priceMonthly": 59,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$59/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

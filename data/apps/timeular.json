@@ -5,7 +5,7 @@
   "category": "time-tracking",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Timeular, track time with projects and reminders using software-only controls. The hard boundary is physical tracker option, mobile apps, calendar integration, team features, and sync, plus ubiquitous capture, coaching, and team workflow.",
-  "priceMonthly": 1,
+  "priceMonthly": 9,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "customer-support",
   "subcategory": null,
   "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
-  "priceMonthly": 1,
+  "priceMonthly": 4.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$4.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

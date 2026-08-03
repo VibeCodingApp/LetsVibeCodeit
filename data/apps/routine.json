@@ -5,7 +5,7 @@
   "category": "tasks",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Routine, combine calendar, tasks, notes, and a command palette into one personal workspace. The hard boundary is calendar integrations, cross-platform apps, capture speed, sync, and polish, plus cross-device reliability and workflow polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 12,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$12/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

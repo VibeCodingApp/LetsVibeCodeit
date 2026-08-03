@@ -5,7 +5,7 @@
   "category": "email",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mimestream, build a native Mac Gmail client over standards-based APIs with local cache. The hard boundary is deep gmail api use, native macos polish, sync reliability, and support, plus mail infrastructure, integrations, and client polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 4.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$4.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

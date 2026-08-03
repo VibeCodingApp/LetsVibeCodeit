@@ -5,7 +5,7 @@
   "category": "seo-marketing",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Oncrawl, crawl one owned site locally and join pages to user-supplied analytics exports. The hard boundary is large-scale crawler, log analysis, data connectors, and enterprise support, plus crawl scale, rule depth, and operational polish.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

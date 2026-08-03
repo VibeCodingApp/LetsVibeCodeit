@@ -5,7 +5,7 @@
   "category": "analytics",
   "subcategory": null,
   "tagline": "The software is open source, so the cloud subscription is mostly paying for managed hosting, upgrades, and not touching a server.",
-  "priceMonthly": 1,
+  "priceMonthly": 9,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

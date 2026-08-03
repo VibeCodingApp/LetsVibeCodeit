@@ -5,7 +5,7 @@
   "category": "social-media",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Planable, collaboratively draft and approve social posts before manual or API publishing. The hard boundary is high-fidelity previews, approvals, comments, multiple workspaces, and client workflow, plus api access, connector upkeep, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "community",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pumble, run straightforward team channels, direct messages, threads, and file sharing. The hard boundary is cross-platform apps, push, guest access, admin controls, and hosted reliability, plus network, moderation, and communication infrastructure.",
-  "priceMonthly": 1,
+  "priceMonthly": 2.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$2.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

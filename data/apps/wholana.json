@@ -5,7 +5,7 @@
   "category": "social-media",
   "subcategory": null,
   "tagline": "The core idea is simple arithmetic: a video's views divided by that creator's own median. An agent can build that for a watchlist of creators you pick, over a weekend, on top of a paid scraper API. What it cannot hand you is the corpus, hundreds of thousands of videos already scraped, deduped, and labeled against a curated craft taxonomy, which is what makes search across creators useful instead of a list of your own bookmarks. So: yes for watching 25 creators you already know, no for finding the ones you don't.",
-  "priceMonthly": 1,
+  "priceMonthly": 5,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$5/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

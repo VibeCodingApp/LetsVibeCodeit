@@ -5,7 +5,7 @@
   "category": "rss-research",
   "subcategory": null,
   "tagline": "Core RSS reading, folders, search, and saved articles are very buildable; Feedly's paid moat is polished feed discovery, mobile, AI features, and reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": 7,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$7/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "design",
   "subcategory": null,
   "tagline": "Photopea Premium's solo core is compact: build a focused local browser image editor editor with import, a small set of transformations, undo, and standards-based export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on editor polish, assets, algorithms.",
-  "priceMonthly": 1,
+  "priceMonthly": 5,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$5/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

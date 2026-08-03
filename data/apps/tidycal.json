@@ -5,7 +5,7 @@
   "category": "scheduling",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For TidyCal, publish simple booking pages connected to one calendar and send confirmations. The hard boundary is lifetime hosted service, calendar integrations, and extremely low maintenance cost, plus calendar integrations and reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

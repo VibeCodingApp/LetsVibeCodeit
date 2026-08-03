@@ -5,7 +5,7 @@
   "category": "audio-video",
   "subcategory": null,
   "tagline": "The visible online video editor loop is buildable, but a credible replacement needs more than the first screen. VEED earns its keep through media pipeline, hosting, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
-  "priceMonthly": 1,
+  "priceMonthly": 24,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$24/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "diagrams",
   "subcategory": null,
   "tagline": "A constrained diagramming tool with nodes, connectors, sticky notes, and export is a very vibecodable core loop; polish and collaboration are what you lose.",
-  "priceMonthly": 1,
+  "priceMonthly": 12,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$12/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

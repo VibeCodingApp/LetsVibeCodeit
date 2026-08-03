@@ -5,7 +5,7 @@
   "category": "design",
   "subcategory": null,
   "tagline": "You can build a quick image editor and template exporter, but Adobe's stock/licensing, PDF/media tooling, brand assets, and Creative Cloud tie-ins are the product.",
-  "priceMonthly": 1,
+  "priceMonthly": 9.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

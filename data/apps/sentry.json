@@ -5,7 +5,7 @@
   "category": "monitoring",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sentry, receive bounded error events, group them, link releases, and notify one team. The hard boundary is sdk ecosystem, grouping models, tracing, replay, global ingestion, and enterprise operations, plus independent infrastructure and reliable alerting.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

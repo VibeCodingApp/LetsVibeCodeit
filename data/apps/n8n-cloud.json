@@ -5,7 +5,7 @@
   "category": "automation",
   "subcategory": null,
   "tagline": "Because n8n itself is open source, the core cloud subscription can be replaced by self-hosting if you can own hosting, updates, and backups.",
-  "priceMonthly": 1,
+  "priceMonthly": 24,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$24/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

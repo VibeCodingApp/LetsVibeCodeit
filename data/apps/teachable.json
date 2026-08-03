@@ -5,7 +5,7 @@
   "category": "creator-commerce",
   "subcategory": null,
   "tagline": "A basic course site with Stripe can be built, but student apps, tax/payments, course compliance, certificates, upsells, affiliates, and support make full parity hard.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "productivity-utilities",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Keyboard Maestro, create user-approved desktop macros from triggers and deterministic actions. The hard boundary is deep macos automation, action library, reliability, and long-term compatibility, plus os integration polish and maintenance.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

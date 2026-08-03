@@ -5,7 +5,7 @@
   "category": "generative-media",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For PhotoRoom, remove or replace backgrounds and batch-export consistent product images. The hard boundary is specialized vision models, mobile capture, templates, and high-volume apis, plus frontier models, compute, and data.",
-  "priceMonthly": 1,
+  "priceMonthly": 12.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$12.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

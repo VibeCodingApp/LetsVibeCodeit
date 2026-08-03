@@ -5,7 +5,7 @@
   "category": "podcasting",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Auphonic, normalize loudness, reduce noise, and batch-process user-owned audio locally. The hard boundary is proprietary adaptive audio processing, cloud queues, and broad format delivery, plus audio infrastructure, distribution, and production polish.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

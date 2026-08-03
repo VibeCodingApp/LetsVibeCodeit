@@ -5,7 +5,7 @@
   "category": "operations",
   "subcategory": null,
   "tagline": "A practical replacement for Dropbox Transfer.",
-  "priceMonthly": 20,
+  "priceMonthly": 32,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$20–$32/mo"
+    "native": "$32/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

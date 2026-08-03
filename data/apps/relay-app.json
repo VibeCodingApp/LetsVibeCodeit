@@ -5,7 +5,7 @@
   "category": "automation",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Relay.app, build a small human-in-the-loop workflow across two approved services. The hard boundary is polished approvals, ai steps, integrations, shared workflows, and managed execution, plus connector breadth and execution reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": 19,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

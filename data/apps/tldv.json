@@ -5,7 +5,7 @@
   "category": "meeting-notes",
   "subcategory": null,
   "tagline": "A DIY app can record, transcribe, summarize, and generate clips, but tl;dv's team library, CRM integrations, and meeting-bot reliability are real work.",
-  "priceMonthly": 1,
+  "priceMonthly": 29,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$29/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

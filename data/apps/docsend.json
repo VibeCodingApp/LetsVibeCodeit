@@ -5,7 +5,7 @@
   "category": "sales",
   "subcategory": null,
   "tagline": "A practical replacement for DocSend.",
-  "priceMonthly": 65,
+  "priceMonthly": 180,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$65–$180/mo"
+    "native": "$180/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "creator-commerce",
   "subcategory": null,
   "tagline": "You can build one course checkout or landing funnel, but Kajabi bundles site, course, community, email, automations, payments, analytics, and support.",
-  "priceMonthly": 1,
+  "priceMonthly": 179,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$179/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

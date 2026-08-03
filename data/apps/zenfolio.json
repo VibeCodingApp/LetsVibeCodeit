@@ -5,7 +5,7 @@
   "category": "photo-editing",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Zenfolio, publish a portfolio and client galleries with basic downloads. The hard boundary is hosting, templates, proofing, commerce, print labs, and photographer support, plus image pipeline quality, models, and workflow polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 9,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

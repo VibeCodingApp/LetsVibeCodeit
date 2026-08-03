@@ -5,7 +5,7 @@
   "category": "user-research",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Nolt, publish a feedback board with voting, comments, statuses, and a roadmap. The hard boundary is hosted simplicity, custom domains, integrations, and low maintenance, plus participant network, synthesis workflow, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 29,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$29/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

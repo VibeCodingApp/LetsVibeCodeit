@@ -5,7 +5,7 @@
   "category": "databases",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Grist, combine spreadsheet formulas with relational records in a small self-hosted workspace. The hard boundary is mature formula engine, access rules, collaboration, integrations, and hosting, plus data model flexibility, collaboration, and integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 8,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$8/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

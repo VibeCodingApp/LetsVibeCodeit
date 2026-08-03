@@ -5,7 +5,7 @@
   "category": "personal",
   "subcategory": null,
   "tagline": "A practical replacement for TinyPNG Pro.",
-  "priceMonthly": 25,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$25–$39/mo"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

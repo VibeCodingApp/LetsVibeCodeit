@@ -5,7 +5,7 @@
   "category": "monitoring",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Checkly, run scheduled API and browser checks from one independent worker. The hard boundary is global browser fleet, playwright operations, alerting, ci integration, and support, plus independent infrastructure and reliable alerting.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

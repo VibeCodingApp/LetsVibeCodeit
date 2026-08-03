@@ -5,7 +5,7 @@
   "category": "customer-support",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Help Scout, manage a shared email inbox and compact help center for a small team. The hard boundary is email threading, customer context, docs, workflows, reporting, and support polish, plus channel integrations and support operations.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

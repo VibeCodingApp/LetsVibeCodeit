@@ -5,7 +5,7 @@
   "category": "tasks-calendar",
   "subcategory": null,
   "tagline": "A daily planning dashboard is not hard, but Sunsama's value is many integrations, careful UX, calendar sync, and habit-forming workflow.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

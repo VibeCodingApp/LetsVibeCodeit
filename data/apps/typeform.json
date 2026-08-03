@@ -5,7 +5,7 @@
   "category": "forms & surveys",
   "subcategory": null,
   "tagline": "Beautiful one-question-at-a-time forms and surveys",
-  "priceMonthly": 29,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Basic",
     "basis": "per seat",
@@ -14,7 +14,7 @@
     "checkedOn": "2026-07-01",
     "confidence": "high",
     "notes": "",
-    "native": "$29/mo"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "high",

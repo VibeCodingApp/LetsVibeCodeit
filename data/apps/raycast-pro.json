@@ -5,7 +5,7 @@
   "category": "productivity-utilities",
   "subcategory": null,
   "tagline": "A personal launcher command or menubar utility is buildable, but Raycast's native polish, extension ecosystem, sync, AI, and Mac integration take serious product work.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

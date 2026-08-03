@@ -5,7 +5,7 @@
   "category": "productivity-utilities",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For CleanMyMac, surface large files, caches, login items, and safe cleanup suggestions without deleting automatically. The hard boundary is os-specific cleanup knowledge, malware scanning, updater integrations, and support, plus os integration polish and maintenance.",
-  "priceMonthly": 1,
+  "priceMonthly": 3.33,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$3.33/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

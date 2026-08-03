@@ -5,7 +5,7 @@
   "category": "travel",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For AllTrails Plus, organize user-imported GPX routes and offline trip notes without copying trail data. The hard boundary is massive trail database, reviews, conditions, maps, community, and mobile navigation, plus proprietary live data and network coverage.",
-  "priceMonthly": 1,
+  "priceMonthly": 3,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$3/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

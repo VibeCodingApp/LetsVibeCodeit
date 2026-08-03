@@ -5,7 +5,7 @@
   "category": "no-code-apps",
   "subcategory": null,
   "tagline": "A specific Bubble app is often vibecodable now; rebuilding Bubble's editor, workflow engine, plugin ecosystem, hosting, and scaling layer is not.",
-  "priceMonthly": 1,
+  "priceMonthly": 32,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$32/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

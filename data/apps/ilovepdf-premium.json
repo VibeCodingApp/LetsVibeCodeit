@@ -5,7 +5,7 @@
   "category": "documents-pdfs",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For ILovePDF Premium, merge, split, compress, convert, and annotate PDFs without uploading them to a vendor. The hard boundary is simple hosted delivery, mobile apps, desktop tools, ocr, and batch capacity, plus document fidelity, identity, and compliance.",
-  "priceMonthly": 1,
+  "priceMonthly": 9,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

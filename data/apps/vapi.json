@@ -5,7 +5,7 @@
   "category": "dev-tools",
   "subcategory": null,
   "tagline": "A focused inbound agent is a credible weekend build with LiveKit Agents or Pipecat. Replacing Vapi as a product is much larger: it combines realtime orchestration, provider abstraction, phone-number and SIP workflows, outbound campaigns, tool calls, testing, observability, scaling, support, and compliance options. Self-hosting can remove Vapi's $0.05 per-minute platform fee, but model, carrier, number, infrastructure, failed-call, monitoring, and engineering costs remain.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

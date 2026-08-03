@@ -5,7 +5,7 @@
   "category": "user-research",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Maze, run small unmoderated prototype tasks with consent and basic completion analytics. The hard boundary is participant panel, prototype integrations, testing infrastructure, analytics, and recruitment, plus participant network, synthesis workflow, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

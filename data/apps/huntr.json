@@ -5,7 +5,7 @@
   "category": "career",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Huntr, track job applications, contacts, tasks, documents, and tailored materials in one workspace. The hard boundary is browser capture, ai writing, resume builder, contact enrichment, and sync, plus data, distribution, and coaching.",
-  "priceMonthly": 1,
+  "priceMonthly": 40,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$40/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "ai-writing",
   "subcategory": null,
   "tagline": "A branded prompt library over an LLM is buildable, but Jasper's paid value is brand memory, workflow templates, governance, collaboration, and marketing-specific agents.",
-  "priceMonthly": 1,
+  "priceMonthly": 69,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$69/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

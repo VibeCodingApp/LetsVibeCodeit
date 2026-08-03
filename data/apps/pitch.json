@@ -5,7 +5,7 @@
   "category": "design",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pitch, build structured presentations with reusable blocks, comments, and polished export. The hard boundary is real-time collaboration, templates, analytics, and team content management, plus editor polish, assets, collaboration, and distribution.",
-  "priceMonthly": 1,
+  "priceMonthly": 20,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$20/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

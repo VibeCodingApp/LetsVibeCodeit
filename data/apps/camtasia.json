@@ -5,7 +5,7 @@
   "category": "screen-recording",
   "subcategory": null,
   "tagline": "Camtasia's solo core is compact: build a local screen recording + editing workflow that imports user-owned media, applies the core edit or transformation, previews it, and exports a standard file. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on media pipeline, hosting, distribution.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

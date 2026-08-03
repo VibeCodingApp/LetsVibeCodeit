@@ -5,7 +5,7 @@
   "category": "tasks",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Morgen, unify calendars and tasks, create booking pages, and plan work across time zones. The hard boundary is multiple calendar providers, task integrations, mobile apps, and sync reliability, plus cross-device reliability and workflow polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 14,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$14/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

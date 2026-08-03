@@ -5,7 +5,7 @@
   "category": "social-media",
   "subcategory": null,
   "tagline": "Do not mistake the interface for the product. Repurpose.io's durable value is platform APIs, distribution, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
-  "priceMonthly": 1,
+  "priceMonthly": 35,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$35/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

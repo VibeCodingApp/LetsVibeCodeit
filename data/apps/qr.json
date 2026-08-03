@@ -5,7 +5,7 @@
   "category": "qr-codes",
   "subcategory": null,
   "tagline": "A library call with a UI. Peak \"why is this a subscription.\"",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "wellness",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Cronometer Gold, log user-entered nutrition and show transparent nutrient totals without diagnosis. The hard boundary is curated food database, barcode data, device integrations, reports, and mobile apps, plus hardware data, content, coaching, and trust.",
-  "priceMonthly": 1,
+  "priceMonthly": 9.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

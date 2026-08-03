@@ -5,7 +5,7 @@
   "category": "email",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Spark Premium, create a cross-platform focused email client with snooze, send later, and local search. The hard boundary is mobile and desktop apps, push, team drafts, sync, ai, and provider compatibility, plus mail infrastructure, integrations, and client polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 7.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$7.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

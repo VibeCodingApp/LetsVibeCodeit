@@ -5,7 +5,7 @@
   "category": "notes-knowledge",
   "subcategory": null,
   "tagline": "If you already accept local Markdown files, syncing folders across devices is a solved problem; the hard part is not the app, it is conflict-free convenience.",
-  "priceMonthly": 1,
+  "priceMonthly": 5,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$5/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

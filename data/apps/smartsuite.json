@@ -5,7 +5,7 @@
   "category": "databases",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SmartSuite, configure records, views, automations, and dashboards for one team. The hard boundary is template breadth, workflow, integrations, permissions, and hosted collaboration, plus data model flexibility, collaboration, and integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 12,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$12/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

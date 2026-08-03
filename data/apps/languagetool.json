@@ -5,7 +5,7 @@
   "category": "ai-writing",
   "subcategory": null,
   "tagline": "Because the core engine is open source, a technical user can run the grammar checker locally or self-host the server for many use cases.",
-  "priceMonthly": 1,
+  "priceMonthly": 19.9,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19.9/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

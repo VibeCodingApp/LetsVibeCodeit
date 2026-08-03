@@ -5,7 +5,7 @@
   "category": "social-media",
   "subcategory": null,
   "tagline": "The personal digest pipeline is a realistic weekend build if you bring feeds or a data provider. Reliable ingestion from Instagram, X, TikTok, and LinkedIn is not a one-shot project: access restrictions, changing page formats, rate limits, and connector maintenance are the product's durable edge.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -22,7 +22,7 @@ export function Header() {
           <a href="/" className="flex items-center no-underline text-fg group shrink-0 gap-2.5">
             <span className="w-7 h-7 rounded-md bg-[#1a2a1f] border border-[#2a4a2f] text-primary flex items-center justify-center font-mono text-[12px] font-bold group-hover:border-primary group-hover:shadow-[0_0_12px_var(--primary-glow)] transition-all duration-300">&lt;/&gt;</span>
             <span className="font-display font-bold text-[17px] tracking-tight whitespace-nowrap leading-none">
-              <span className="text-primary">Lets</span>VibeCode<span className="text-primary">it</span>
+              Lets<span className="text-primary">VibeCode</span>it
               <span className="text-primary text-[9px] align-super ml-0.5 opacity-80">.com</span>
             </span>
           </a>

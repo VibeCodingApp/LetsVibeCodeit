@@ -5,7 +5,7 @@
   "category": "website-builders",
   "subcategory": null,
   "tagline": "The visible editorial website builder loop is buildable, but a credible replacement needs more than the first screen. Readymag earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
-  "priceMonthly": 1,
+  "priceMonthly": 20,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$20/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

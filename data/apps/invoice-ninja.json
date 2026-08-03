@@ -5,7 +5,7 @@
   "category": "finance-accounting",
   "subcategory": null,
   "tagline": "Invoice Ninja is open source, so the hosted subscription can be replaced by self-hosting if you can handle ops, updates, payment config, and backups.",
-  "priceMonthly": 1,
+  "priceMonthly": 14,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$14/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

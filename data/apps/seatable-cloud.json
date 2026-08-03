@@ -5,7 +5,7 @@
   "category": "databases",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SeaTable Cloud, manage structured records in grids, forms, and simple views. The hard boundary is managed collaboration, automations, plugins, storage, and support, plus data model flexibility, collaboration, and integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 8,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$8/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

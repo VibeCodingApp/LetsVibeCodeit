@@ -5,7 +5,7 @@
   "category": "meeting-notes",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supernormal, capture meetings, generate customizable notes, and maintain personal templates. The hard boundary is calendar automation, bot reliability, sharing, and team note standards, plus capture reliability, integrations, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 18,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$18/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

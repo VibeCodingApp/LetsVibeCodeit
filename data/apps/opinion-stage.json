@@ -5,7 +5,7 @@
   "category": "forms",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Opinion Stage, create a poll, quiz, or survey and embed it with basic response analytics. The hard boundary is templates, hosted delivery, lead features, and engagement reporting, plus integrations, deliverability, and workflow depth.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

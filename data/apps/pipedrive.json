@@ -5,7 +5,7 @@
   "category": "crm",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pipedrive, manage contacts and deals through a visual pipeline with activities and reminders. The hard boundary is email sync, automations, marketplace, reporting, mobile apps, and sales workflow polish, plus integrations, data quality, and workflow lock-in.",
-  "priceMonthly": 1,
+  "priceMonthly": 24,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$24/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

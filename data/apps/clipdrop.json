@@ -5,7 +5,7 @@
   "category": "generative-media",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Clipdrop, run background removal, cleanup, relighting, and upscaling on local images. The hard boundary is specialized hosted models, api capacity, and polished mobile tools, plus frontier models, compute, and data.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

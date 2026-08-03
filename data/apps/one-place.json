@@ -5,7 +5,7 @@
   "category": "ai-search",
   "subcategory": null,
   "tagline": "You can build a scheduled personal property monitor, but not One Place: the value is the maintained real-estate corpus, crawler fleet, AI extraction, deduplication, image/semantic search, geo enrichment, and constant source upkeep across millions of listings.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "dictation",
   "subcategory": null,
   "tagline": "A push-to-talk recorder that transcribes and pastes text into the active app is very buildable for one person, especially on macOS.",
-  "priceMonthly": 1,
+  "priceMonthly": 8.49,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$8.49/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

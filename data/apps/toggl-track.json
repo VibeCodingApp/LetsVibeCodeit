@@ -5,7 +5,7 @@
   "category": "time-tracking",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Toggl Track, track time quickly, edit entries, and report by project, client, and tag. The hard boundary is cross-platform apps, background tracking, integrations, team controls, and sync, plus ubiquitous capture, coaching, and team workflow.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

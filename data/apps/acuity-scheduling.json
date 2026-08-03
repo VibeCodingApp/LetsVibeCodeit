@@ -5,7 +5,7 @@
   "category": "scheduling",
   "subcategory": null,
   "tagline": "The visible appointment scheduling loop is buildable, but a credible replacement needs more than the first screen. Acuity Scheduling earns its keep through OAuth, calendar reliability, so expect a weekend or multi-day build and a narrower personal scope.",
-  "priceMonthly": 1,
+  "priceMonthly": 20,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$20/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

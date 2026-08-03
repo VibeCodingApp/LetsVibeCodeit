@@ -5,7 +5,7 @@
   "category": "analytics",
   "subcategory": null,
   "tagline": "A slug, a lookup, a 302, and a row in a table. Cloudflare Workers plus KV and D1 does the whole job on the free tier, and QR codes are one library call. The only thing you are really buying is that bit.ly resolves links created in 2012 and will presumably still resolve them in 2032, which is an institutional promise rather than a technical one. If the links are going in a magazine ad or on packaging, that promise is worth something. If they are going in this week's newsletter, it is worth nothing, and Growth is 420 USD a year.",
-  "priceMonthly": 1,
+  "priceMonthly": 35,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$35/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

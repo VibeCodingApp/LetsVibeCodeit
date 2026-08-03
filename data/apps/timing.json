@@ -5,7 +5,7 @@
   "category": "time-tracking",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Timing, track Mac application activity privately and assign blocks to projects. The hard boundary is deep macos automation, rules, sync, calendar integration, and reporting polish, plus ubiquitous capture, coaching, and team workflow.",
-  "priceMonthly": 1,
+  "priceMonthly": 11,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$11/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

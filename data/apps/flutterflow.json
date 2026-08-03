@@ -5,7 +5,7 @@
   "category": "no-code-apps",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For FlutterFlow, assemble a mobile interface from a schema and export maintainable Flutter code. The hard boundary is visual editor depth, native builds, integrations, collaboration, and code generation, plus connectors, runtime reliability, and governance.",
-  "priceMonthly": 1,
+  "priceMonthly": 30,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$30/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

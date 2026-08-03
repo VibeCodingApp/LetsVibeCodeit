@@ -5,7 +5,7 @@
   "category": "productivity-utilities",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Hazel, watch selected folders and apply transparent file rules with previews and logs. The hard boundary is mature filesystem automation, rule depth, apple integrations, and reliability, plus os integration polish and maintenance.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

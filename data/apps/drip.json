@@ -5,7 +5,7 @@
   "category": "newsletters",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Drip, send event-triggered ecommerce email from a small user-owned event stream. The hard boundary is commerce integrations, identity resolution, deliverability, segmentation, and revenue analytics, plus deliverability, growth network, and integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

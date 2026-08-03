@@ -5,7 +5,7 @@
   "category": "tasks",
   "subcategory": null,
   "tagline": "The visible project management loop is buildable, but a credible replacement needs more than the first screen. ProofHub earns its keep through collaboration, integrations, polish, so expect a weekend or multi-day build and a narrower personal scope.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

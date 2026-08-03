@@ -5,7 +5,7 @@
   "category": "meeting-notes",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sembly AI, transcribe a call and produce structured minutes, tasks, and searchable topics. The hard boundary is meeting bots, team collaboration, automations, and broad integrations, plus capture reliability, integrations, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

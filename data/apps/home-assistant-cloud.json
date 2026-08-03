@@ -5,7 +5,7 @@
   "category": "home",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Home Assistant Cloud, self-host smart-home control and use a user-owned remote-access tunnel. The hard boundary is managed remote access, voice integrations, funding for open source, and low-maintenance security, plus sync, integrations, and household adoption.",
-  "priceMonthly": 1,
+  "priceMonthly": 7.5,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$7.5/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

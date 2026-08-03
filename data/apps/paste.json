@@ -5,7 +5,7 @@
   "category": "productivity-utilities",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Paste, store a local encrypted clipboard history with search, pinboards, and expiration. The hard boundary is apple-platform polish, icloud sync, rich previews, and universal capture, plus os integration polish and maintenance.",
-  "priceMonthly": 1,
+  "priceMonthly": 3.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$3.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

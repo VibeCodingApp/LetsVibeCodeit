@@ -5,7 +5,7 @@
   "category": "website-builders",
   "subcategory": null,
   "tagline": "A custom site is buildable; Wix as a platform includes editor, templates, apps, ecommerce/bookings, hosting, domains, and a huge long-tail feature surface.",
-  "priceMonthly": 1,
+  "priceMonthly": 29,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$29/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

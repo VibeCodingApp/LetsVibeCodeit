@@ -5,7 +5,7 @@
   "category": "email",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Canary Mail, build a privacy-conscious desktop email client with local indexing and optional summaries. The hard boundary is cross-platform clients, push, encryption features, provider support, and ai polish, plus mail infrastructure, integrations, and client polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 3,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$3/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

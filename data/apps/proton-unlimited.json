@@ -5,7 +5,7 @@
   "category": "security",
   "subcategory": null,
   "tagline": "Do not mistake the interface for the product. Proton Unlimited's durable value is security, infrastructure, trust, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
-  "priceMonthly": 1,
+  "priceMonthly": 12.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$12.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

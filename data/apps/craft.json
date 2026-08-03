@@ -5,7 +5,7 @@
   "category": "notes-knowledge",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Craft, write visually polished documents, link them, and export a portable personal library. The hard boundary is native apps, sync, publishing, collaboration, and strong block-editor polish, plus sync, collaboration, and capture polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

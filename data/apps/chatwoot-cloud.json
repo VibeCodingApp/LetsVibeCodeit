@@ -5,7 +5,7 @@
   "category": "customer-support",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Chatwoot Cloud, use a managed shared inbox and website widget instead of operating Chatwoot yourself. The hard boundary is managed upgrades, backups, delivery infrastructure, support, and integrations, plus channel integrations and support operations.",
-  "priceMonthly": 1,
+  "priceMonthly": 19,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

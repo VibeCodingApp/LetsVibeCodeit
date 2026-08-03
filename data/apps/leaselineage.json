@@ -5,7 +5,7 @@
   "category": "automation",
   "subcategory": null,
   "tagline": "A solo broker can build the CRM, CSV prospecting, draft sequences, and pipeline in a weekend, but reliable contact data, Gmail and Outlook sync, deliverability, compliance operations, and brokerage collaboration are ongoing products.",
-  "priceMonthly": 1,
+  "priceMonthly": 79,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$79/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

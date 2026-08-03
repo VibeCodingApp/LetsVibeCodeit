@@ -5,7 +5,7 @@
   "category": "creator-commerce",
   "subcategory": null,
   "tagline": "Selling a few digital downloads or a course is buildable, but Podia bundles checkout, file delivery, courses, email, memberships, affiliates, and support.",
-  "priceMonthly": 1,
+  "priceMonthly": 49,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$49/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

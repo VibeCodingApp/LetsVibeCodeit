@@ -5,7 +5,7 @@
   "category": "localization",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Tolgee Cloud, use a managed localization workspace instead of operating the open-source stack. The hard boundary is managed hosting, backups, collaboration, machine translation, and support, plus translation memory, collaboration, and deployment integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

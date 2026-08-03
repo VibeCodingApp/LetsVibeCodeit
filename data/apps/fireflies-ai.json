@@ -5,7 +5,7 @@
   "category": "meeting-notes",
   "subcategory": null,
   "tagline": "The summarizer is easy; the meeting bot, calendar routing, integrations, team search, and admin layer make it more than a one-prompt clone.",
-  "priceMonthly": 1,
+  "priceMonthly": 18,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$18/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

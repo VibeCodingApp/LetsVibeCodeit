@@ -5,7 +5,7 @@
   "category": "newsletters",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For EmailOctopus, manage a small subscriber list and send compliant campaigns through a hosted provider. The hard boundary is deliverability, templates, automations, landing pages, and customer support, plus deliverability, growth network, and integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 9,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "reading",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Readwise, import highlights from user-exported files, review them with spaced repetition, and export notes. The hard boundary is broad source integrations, sync, daily review polish, and knowledge-tool exports, plus capture polish, sync, and content partnerships.",
-  "priceMonthly": 1,
+  "priceMonthly": 9.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

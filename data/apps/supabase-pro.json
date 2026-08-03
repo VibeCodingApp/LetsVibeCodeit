@@ -5,7 +5,7 @@
   "category": "hosting",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supabase Pro, self-host a Postgres backend with auth, storage, and a small API surface. The hard boundary is managed postgres, backups, auth delivery, storage, edge functions, observability, and support, plus infrastructure scale, operations, and reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

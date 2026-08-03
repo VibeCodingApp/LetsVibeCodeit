@@ -5,7 +5,7 @@
   "category": "finance-accounting",
   "subcategory": null,
   "tagline": "You can build invoicing and expense tables, but QuickBooks' value is accounting correctness, bank feeds, payroll/tax ecosystem, accountant workflows, compliance, and support.",
-  "priceMonthly": 1,
+  "priceMonthly": 38,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$38/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

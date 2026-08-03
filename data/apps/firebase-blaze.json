@@ -5,7 +5,7 @@
   "category": "hosting",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Firebase Blaze, provide a local emulator-backed backend for one app without recreating Google's global services. The hard boundary is global database, auth, push, analytics, serverless, mobile sdks, and operations, plus infrastructure scale, operations, and reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

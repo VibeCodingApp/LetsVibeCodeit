@@ -5,7 +5,7 @@
   "category": "sales",
   "subcategory": null,
   "tagline": "A practical replacement for HubSpot CRM.",
-  "priceMonthly": 20,
+  "priceMonthly": 150,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$20–$150/mo"
+    "native": "$150/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

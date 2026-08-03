@@ -5,7 +5,7 @@
   "category": "website-builders",
   "subcategory": null,
   "tagline": "The visible landing-page platform loop is buildable, but a credible replacement needs more than the first screen. Landingi earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
-  "priceMonthly": 1,
+  "priceMonthly": 29,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$29/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

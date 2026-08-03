@@ -5,7 +5,7 @@
   "category": "generative-media",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pixelcut, batch-remove backgrounds, resize product images, and apply simple local templates. The hard boundary is mobile polish, hosted models, team assets, and api scale, plus frontier models, compute, and data.",
-  "priceMonthly": 1,
+  "priceMonthly": 9.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

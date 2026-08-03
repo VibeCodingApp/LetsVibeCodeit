@@ -5,7 +5,7 @@
   "category": "localization",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Lokalise, manage translation keys, screenshots, reviews, and CI sync for a small product team. The hard boundary is integration breadth, translation memory, workflows, vendors, governance, and support, plus translation memory, collaboration, and deployment integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 120,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$120/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "community",
   "subcategory": null,
   "tagline": "A private community/course site is possible, but Mighty sells the integrated community, payments, events, AI setup, mobile, and branded-app path.",
-  "priceMonthly": 1,
+  "priceMonthly": 79.17,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$79.17/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

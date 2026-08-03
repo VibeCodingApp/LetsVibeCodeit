@@ -5,7 +5,7 @@
   "category": "photo-editing",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pixieset, publish a simple password-protected client gallery from user-owned storage. The hard boundary is gallery hosting, proofing, downloads, store, mobile apps, and photographer workflow, plus image pipeline quality, models, and workflow polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 8,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$8/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

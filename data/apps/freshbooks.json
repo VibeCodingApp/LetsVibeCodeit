@@ -5,7 +5,7 @@
   "category": "finance-accounting",
   "subcategory": null,
   "tagline": "For freelancers, invoices, time tracking, and expense logs are buildable; payments, tax/accounting reports, bank feeds, client portal, and reliability make it more than trivial.",
-  "priceMonthly": 1,
+  "priceMonthly": 23,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$23/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "wellness",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Strava, log user-entered activities and map imported GPX files without recreating Strava's network. The hard boundary is athlete social graph, segment leaderboard, route data, device integrations, and scale, plus hardware data, content, coaching, and trust.",
-  "priceMonthly": 1,
+  "priceMonthly": 11.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$11.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "no-code-apps",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Retool, build one internal CRUD tool over a trusted database with role-aware actions. The hard boundary is connectors, component library, permissions, workflows, and hosted runtime, plus connectors, runtime reliability, and governance.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

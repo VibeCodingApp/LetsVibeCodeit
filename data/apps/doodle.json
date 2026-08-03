@@ -5,7 +5,7 @@
   "category": "scheduling",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Doodle, run group availability polls and convert the selected option into a calendar event. The hard boundary is participant familiarity, calendar connections, reminders, branding, and hosted delivery, plus calendar integrations and reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": 14.95,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$14.95/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

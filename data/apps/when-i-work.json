@@ -5,7 +5,7 @@
   "category": "hr",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For When I Work, build a small shift schedule, availability form, and swap approval workflow. The hard boundary is mobile apps, time clock, notifications, scheduling edge cases, and support, plus compliance, payroll, and regulated integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 2.5,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$2.5/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

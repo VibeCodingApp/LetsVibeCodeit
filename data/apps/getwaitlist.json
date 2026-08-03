@@ -5,7 +5,7 @@
   "category": "waitlists",
   "subcategory": null,
   "tagline": "Email capture with a referral counter. This site's waitlist was built exactly this way — it took one prompt.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

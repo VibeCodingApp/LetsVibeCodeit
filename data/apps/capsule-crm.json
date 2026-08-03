@@ -5,7 +5,7 @@
   "category": "crm",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Capsule, track contacts, opportunities, tasks, and notes for a small business. The hard boundary is email integrations, workflow automation, accounting connections, and mature simplicity, plus integrations, data quality, and workflow lock-in.",
-  "priceMonthly": 1,
+  "priceMonthly": 21,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$21/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

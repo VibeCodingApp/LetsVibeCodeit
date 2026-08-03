@@ -5,7 +5,7 @@
   "category": "automation",
   "subcategory": null,
   "tagline": "For a few personal applets, a script or simple webhook worker is enough; the full consumer integration catalog and smart-home breadth are what you lose.",
-  "priceMonthly": 1,
+  "priceMonthly": 2.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$2.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

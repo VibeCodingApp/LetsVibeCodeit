@@ -5,7 +5,7 @@
   "category": "screen-recording",
   "subcategory": null,
   "tagline": "For solo async clips, a recorder plus lightweight trimming and hosted share page can be vibecoded; the paid app wins on design polish and templates.",
-  "priceMonthly": 1,
+  "priceMonthly": 13,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$13/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "screen-recording",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screen Studio, record a Mac screen and automatically apply cursor zoom, padding, and smooth framing. The hard boundary is exceptional macos capture polish, motion design, and ongoing compatibility, plus capture polish, hosting, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "forms",
   "subcategory": null,
   "tagline": "Basic forms are easy, but Jotform's broad widget library, payments, approvals, PDF generation, tables, apps, and compliance options create a large surface.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

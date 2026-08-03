@@ -5,7 +5,7 @@
   "category": "read-it-later",
   "subcategory": null,
   "tagline": "Saving articles and highlighting is easy; reliable extraction, mobile/offline reading, sync, Kindle/import integrations, RSS/PDF support, and review loops are real work.",
-  "priceMonthly": 1,
+  "priceMonthly": 12.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$12.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

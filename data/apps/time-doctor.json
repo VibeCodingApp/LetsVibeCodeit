@@ -5,7 +5,7 @@
   "category": "time-tracking",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Time Doctor, track explicit work sessions and local app categories without surveillance features. The hard boundary is workforce analytics, screenshots, payroll integrations, team controls, and support, plus ubiquitous capture, coaching, and team workflow.",
-  "priceMonthly": 1,
+  "priceMonthly": 8,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$8/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

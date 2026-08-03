@@ -5,7 +5,7 @@
   "category": "career",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Resume Worded, score a resume against transparent rules and a user-supplied job description. The hard boundary is proprietary benchmarks, recruiter-authored feedback, examples, and workflow, plus data, distribution, and coaching.",
-  "priceMonthly": 1,
+  "priceMonthly": 49,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$49/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

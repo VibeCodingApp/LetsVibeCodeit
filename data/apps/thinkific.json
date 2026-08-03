@@ -5,7 +5,7 @@
   "category": "creator-commerce",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Thinkific, host a structured course with lessons, progress, and simple quizzes. The hard boundary is course builder, payments, communities, apps, integrations, and support, plus payments, tax, distribution, and operations.",
-  "priceMonthly": 1,
+  "priceMonthly": 49,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$49/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

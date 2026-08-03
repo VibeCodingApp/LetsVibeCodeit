@@ -5,7 +5,7 @@
   "category": "monitoring",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Axiom, ingest bounded logs, search them, and retain a compact local event store. The hard boundary is high-performance cloud storage, query engine, integrations, and managed operations, plus independent infrastructure and reliable alerting.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

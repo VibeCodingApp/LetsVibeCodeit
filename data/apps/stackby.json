@@ -5,7 +5,7 @@
   "category": "databases",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Stackby, build a small table-based operational tracker with views and API columns. The hard boundary is templates, integrations, api columns, collaboration, and hosted sync, plus data model flexibility, collaboration, and integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 5,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$5/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

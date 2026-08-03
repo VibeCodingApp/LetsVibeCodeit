@@ -5,7 +5,7 @@
   "category": "ai-writing",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Writesonic, draft researched articles and marketing copy with source links and revision controls. The hard boundary is integrated research, seo data, publishing workflows, and model routing, plus workflow, data, and model tuning.",
-  "priceMonthly": 1,
+  "priceMonthly": 20,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$20/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "security",
   "subcategory": null,
   "tagline": "If your goal is to stop paying hosted Bitwarden Premium, the core vault can be self-hosted or replaced with KeePass-style local storage; the caveat is security responsibility.",
-  "priceMonthly": 1,
+  "priceMonthly": 1.65,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$1.65/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

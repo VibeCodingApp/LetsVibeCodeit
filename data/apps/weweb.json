@@ -5,7 +5,7 @@
   "category": "no-code-apps",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For WeWeb, build a responsive frontend over one API with reusable components and workflows. The hard boundary is visual frontend editor, hosting, connectors, code export, and collaboration, plus connectors, runtime reliability, and governance.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

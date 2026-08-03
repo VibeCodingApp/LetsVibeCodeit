@@ -5,7 +5,7 @@
   "category": "project-management",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Basecamp, organize projects around messages, to-dos, files, schedules, and check-ins. The hard boundary is mature opinionated workflow, email delivery, guest access, support, and reliability, plus collaboration, integrations, and organizational trust.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

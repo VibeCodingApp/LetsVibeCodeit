@@ -5,7 +5,7 @@
   "category": "customer-support",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Freshdesk, manage tickets from email and a web form with priorities, owners, and a help center. The hard boundary is omnichannel features, automations, marketplace, reporting, and freshworks ecosystem, plus channel integrations and support operations.",
-  "priceMonthly": 1,
+  "priceMonthly": 18,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$18/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

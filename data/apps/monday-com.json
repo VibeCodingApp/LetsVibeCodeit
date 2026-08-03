@@ -5,7 +5,7 @@
   "category": "project-management",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For monday.com, configure boards, fields, views, and automations for one team's workflow. The hard boundary is flexible data model, integrations, templates, dashboards, and enterprise governance, plus collaboration, integrations, and organizational trust.",
-  "priceMonthly": 1,
+  "priceMonthly": 12,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$12/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

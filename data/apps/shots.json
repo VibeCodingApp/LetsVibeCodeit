@@ -5,7 +5,7 @@
   "category": "screenshots",
   "subcategory": null,
   "tagline": "Gradient background, padding, rounded corners, export. Pure client-side canvas work — there is no server to even build.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

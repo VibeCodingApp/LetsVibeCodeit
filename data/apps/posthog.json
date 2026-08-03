@@ -5,7 +5,7 @@
   "category": "analytics",
   "subcategory": null,
   "tagline": "First-party collection and a dashboard that answers your top five questions is one sitting of work, and PostHog's free tier covers a million events a month before you pay anything. What the bill buys past that is the rest of the platform: session replay, feature flags, SQL over years of events, and ingestion that stays correct while your event schema drifts underneath it.",
-  "priceMonthly": 1,
+  "priceMonthly": 0,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "Free"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

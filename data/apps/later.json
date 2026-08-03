@@ -5,7 +5,7 @@
   "category": "social-media",
   "subcategory": null,
   "tagline": "A post calendar and queue are buildable, but Later's value is social API access, visual planning, link-in-bio, analytics, media library, and platform compliance.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

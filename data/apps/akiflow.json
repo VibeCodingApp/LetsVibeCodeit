@@ -5,7 +5,7 @@
   "category": "tasks-calendar",
   "subcategory": null,
   "tagline": "The planner UI can be built, but bringing every task source into one reliable, two-way calendar workflow means OAuth, APIs, sync conflicts, and maintenance.",
-  "priceMonthly": 1,
+  "priceMonthly": 34,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$34/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

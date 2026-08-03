@@ -5,7 +5,7 @@
   "category": "generative-media",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Magnific AI, queue local upscaling and enhancement experiments with reproducible settings. The hard boundary is proprietary enhancement models, gpu capacity, and high-resolution rendering, plus frontier models, compute, and data.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

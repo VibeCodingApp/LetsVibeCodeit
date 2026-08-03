@@ -5,7 +5,7 @@
   "category": "bookmarks",
   "subcategory": null,
   "tagline": "A personal bookmark saver with tags, full-text search, and screenshots is a very tractable small app.",
-  "priceMonthly": 1,
+  "priceMonthly": 3,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$3/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

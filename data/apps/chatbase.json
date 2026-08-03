@@ -5,7 +5,7 @@
   "category": "customer-support",
   "subcategory": null,
   "tagline": "A useful web version is a serious multi-day build, not magic: crawl or upload sources, retrieve tenant-scoped passages, stream cited answers, run one guarded business action, and hand uncertain requests to a person. Rebuilding Chatbase itself is a different project. Its paid surface combines source management and retraining, procedures and custom UI actions, a polished widget, helpdesk, identity, analytics, voice, email, social and CRM channels, plus the reliability and security work that keeps an agent safe in front of customers.",
-  "priceMonthly": 1,
+  "priceMonthly": 150,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$150/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

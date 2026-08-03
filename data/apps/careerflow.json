@@ -5,7 +5,7 @@
   "category": "career",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Careerflow, organize applications and create evidence-grounded resume and LinkedIn improvement checklists. The hard boundary is browser tooling, templates, coaching content, ai workflows, and hosted sync, plus data, distribution, and coaching.",
-  "priceMonthly": 1,
+  "priceMonthly": 23.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$23.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

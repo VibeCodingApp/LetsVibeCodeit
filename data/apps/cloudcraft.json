@@ -5,7 +5,7 @@
   "category": "diagrams",
   "subcategory": null,
   "tagline": "The visible cloud architecture diagrams loop is buildable, but a credible replacement needs more than the first screen. Cloudcraft earns its keep through interaction polish, collaboration, so expect a weekend or multi-day build and a narrower personal scope.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

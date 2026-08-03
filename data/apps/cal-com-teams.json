@@ -5,7 +5,7 @@
   "category": "scheduling",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Cal.com Teams, self-host a team booking service with event types, availability, and routing. The hard boundary is managed hosting, connectors, upgrades, support, and enterprise controls, plus calendar integrations and reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "website-builders",
   "subcategory": null,
   "tagline": "A one-page static site generator with forms and custom domains is absolutely vibecodable; Carrd's price is so low that DIY only makes sense for control or learning.",
-  "priceMonthly": 1,
+  "priceMonthly": 1.58,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$1.58/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

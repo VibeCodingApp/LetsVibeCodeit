@@ -5,7 +5,7 @@
   "category": "testimonials",
   "subcategory": null,
   "tagline": "A form, an embed widget, and a wall page. $300/yr for what is essentially a guestbook.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

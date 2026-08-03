@@ -5,7 +5,7 @@
   "category": "community",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mattermost Professional, self-host team chat with channels, threads, search, and integrations. The hard boundary is managed operations, mobile push, enterprise security, support, and governance, plus network, moderation, and communication infrastructure.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

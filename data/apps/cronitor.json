@@ -5,7 +5,7 @@
   "category": "cron-monitoring",
   "subcategory": null,
   "tagline": "Heartbeat endpoint plus dead-man's-switch alerts. A hundred lines of code wearing a SaaS badge.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

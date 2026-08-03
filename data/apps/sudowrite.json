@@ -5,7 +5,7 @@
   "category": "writing-tools",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sudowrite, brainstorm fiction, expand scenes, inspect story context, and generate constrained prose suggestions. The hard boundary is its fiction-tuned workflows, context handling, and model orchestration, plus polish, integrations, and proprietary language models.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

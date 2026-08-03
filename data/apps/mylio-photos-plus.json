@@ -5,7 +5,7 @@
   "category": "photo-editing",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mylio Photos Plus, catalog local and network photos with duplicates, tags, and device-aware storage. The hard boundary is multi-device private sync, face recognition, vault strategy, and polished photo workflow, plus image pipeline quality, models, and workflow polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 19.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

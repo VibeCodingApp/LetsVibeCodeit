@@ -5,7 +5,7 @@
   "category": "photo-editing",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pic-Time, host client galleries with favorites, downloads, and simple proofing. The hard boundary is gallery delivery, store automation, print labs, marketing, and support, plus image pipeline quality, models, and workflow polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 10,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$10/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "creator-commerce",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Ecwid, embed a small catalog and hosted checkout into an existing site. The hard boundary is commerce integrations, inventory, channels, mobile apps, tax, and support, plus payments, tax, distribution, and operations.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

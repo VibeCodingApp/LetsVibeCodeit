@@ -5,7 +5,7 @@
   "category": "generative-media",
   "subcategory": null,
   "tagline": "Chaining a few model calls is a script, and ComfyUI already gives you a free node canvas. What you will not get in a weekend is the part after generation: a track and keyframe timeline with hosted rendering, and live multiplayer inside it. The graph is vibecodable. The editor attached to it is not.",
-  "priceMonthly": 1,
+  "priceMonthly": 24,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$24/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

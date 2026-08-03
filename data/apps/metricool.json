@@ -5,7 +5,7 @@
   "category": "social-media",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Metricool, schedule posts and consolidate basic account analytics for a few profiles. The hard boundary is many social apis, reporting, ad integrations, inbox, and creator workflow, plus api access, connector upkeep, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 22,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$22/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "home",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Plan to Eat, store recipes, drag them onto a calendar, and generate a shopping list. The hard boundary is browser clipping, mobile apps, sync, household sharing, and workflow polish, plus sync, integrations, and household adoption.",
-  "priceMonthly": 1,
+  "priceMonthly": 5.95,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$5.95/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "analytics",
   "subcategory": null,
   "tagline": "Pageview analytics, events, dashboards, and exports are very buildable; paid value is hosted privacy posture, reports, reliability, and support.",
-  "priceMonthly": 1,
+  "priceMonthly": 20,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$20/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "no-code-apps",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Appsmith Cloud, compose an internal dashboard from a database and a fixed widget library. The hard boundary is connectors, enterprise permissions, workflows, support, and managed hosting, plus connectors, runtime reliability, and governance.",
-  "priceMonthly": 1,
+  "priceMonthly": 40,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$40/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

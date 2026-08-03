@@ -5,7 +5,7 @@
   "category": "wellness",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Fitbod, build moderate workout plans from user-selected equipment and recovery notes. The hard boundary is exercise library, adaptive programming, mobile capture, wearables, and coaching models, plus hardware data, content, coaching, and trust.",
-  "priceMonthly": 1,
+  "priceMonthly": 15.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

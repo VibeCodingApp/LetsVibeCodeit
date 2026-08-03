@@ -5,7 +5,7 @@
   "category": "email",
   "subcategory": null,
   "tagline": "Do not mistake the interface for the product. Helpwise's durable value is deliverability, security, integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

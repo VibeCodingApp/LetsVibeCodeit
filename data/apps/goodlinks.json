@@ -5,7 +5,7 @@
   "category": "reading",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For GoodLinks, save readable pages locally across Apple devices with tags and highlights. The hard boundary is native apple polish, icloud sync, shortcuts, and mobile capture, plus capture polish, sync, and content partnerships.",
-  "priceMonthly": 1,
+  "priceMonthly": 0.83,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$0.83/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "community",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Twist, host asynchronous team threads organized by channel and topic. The hard boundary is cross-platform apps, notifications, email integration, search, and doist reliability, plus network, moderation, and communication infrastructure.",
-  "priceMonthly": 1,
+  "priceMonthly": 8,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$8/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

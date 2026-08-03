@@ -5,7 +5,7 @@
   "category": "analytics",
   "subcategory": null,
   "tagline": "A simple privacy analytics clone is very buildable; the paid service is hosted compliance posture, uptime, data retention, and polished reporting.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

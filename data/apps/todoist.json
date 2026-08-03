@@ -5,7 +5,7 @@
   "category": "tasks",
   "subcategory": null,
   "tagline": "A personal task app with projects, recurring due dates, filters, and reminders is a one-sitting/weekend build; collaboration and sync polish are the product moat.",
-  "priceMonthly": 1,
+  "priceMonthly": 7,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$7/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

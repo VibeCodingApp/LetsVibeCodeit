@@ -5,7 +5,7 @@
   "category": "tasks",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Amazing Marvin, build a configurable personal task system from strategies, views, timers, and reviews. The hard boundary is very deep strategy library, cross-platform sync, and years of workflow experimentation, plus cross-device reliability and workflow polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 12,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$12/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

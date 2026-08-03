@@ -77,6 +77,18 @@ function parsePrice(value) {
   return /free|gratis|\u2014|-/i.test(value) ? 0 : null;
 }
 
+function priceFromSource(markdown) {
+  const promptIndex = markdown.search(/^##\s+THE PROMPT/im);
+  const head = markdown.slice(0, promptIndex < 0 ? markdown.length : promptIndex);
+  const monthly = head.match(/\$([\d.,]+)\/(mo|month|mo\.)/i);
+  if (monthly) return Math.round(Number(monthly[1].replace(',', '')) * 100) / 100;
+  const annual = markdown.match(/^\|\s*Ahorro anual[^|]*\|\s*\$([\d.,]+)\/(yr|year)/im);
+  if (annual) return Math.round((Number(annual[1].replace(',', '')) / 12) * 100) / 100;
+  const yearly = head.match(/\$([\d.,]+)\/(yr|year)/i);
+  if (yearly) return Math.round((Number(yearly[1].replace(',', '')) / 12) * 100) / 100;
+  return /free|gratis/i.test(head) ? 0 : null;
+}
+
 function parseVerdict(value) {
   const normalized = value.toLowerCase();
   if (normalized.includes('kinda')) return 'kinda';
@@ -111,6 +123,7 @@ function parseSource(file, existingBySlug) {
   const similar = links(section(markdown, 'ALSO ONE-SHOTTABLE|ALSO ONE-SHOTTABLE'));
   const replacementValue = field(markdown, 'Reemplazado por|Replaced by');
   const replacements = Number(replacementValue.match(/\d+/)?.[0] || 0);
+  const priceMonthly = priceFromSource(markdown);
   const app = {
     ...(existing || {}),
     slug,
@@ -119,9 +132,10 @@ function parseSource(file, existingBySlug) {
     category: existing?.category || categorySlug(categoryValue),
     subcategory: existing?.subcategory ?? null,
     tagline: existing?.tagline || extractDescription(markdown) || `A practical replacement for ${name}.`,
-    priceMonthly: existing?.priceMonthly ?? parsePrice(field(markdown, 'Precio|Price')),
-    pricing: existing?.pricing || {
-      plan: 'Listed plan', basis: 'subscription', unit: 'month', source: '', checkedOn: '', confidence: 'source', notes: '', native: field(markdown, 'Precio|Price'),
+    priceMonthly,
+    pricing: {
+      ...(existing?.pricing || {}),
+      native: priceMonthly === null ? 'varies' : priceMonthly === 0 ? 'Free' : `$${priceMonthly}/mo`,
     },
     verdict: parseVerdict(field(markdown, 'Veredicto|Verdict')),
     verdictConfidence: existing?.verdictConfidence || 'medium',

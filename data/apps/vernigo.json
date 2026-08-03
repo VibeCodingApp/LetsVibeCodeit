@@ -5,7 +5,7 @@
   "category": "analytics",
   "subcategory": null,
   "tagline": "You can build filters, bookmarks, and an outlier score over a small set of YouTube channels, but Vernigo's product is the continuously refreshed corpus: millions of videos, channel baselines, niche-level supply and demand signals, and ranking data improved by how thousands of users interact with the library. A one-shot app can reproduce the interface and formula, not the dataset that makes the results useful.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

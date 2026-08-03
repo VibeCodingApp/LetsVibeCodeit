@@ -5,7 +5,7 @@
   "category": "hosting",
   "subcategory": null,
   "tagline": "Static hosting and functions are easy to assemble, but Netlify's value is Git-based deploys, previews, forms, redirects, edge functions, and managed platform reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": 20,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$20/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

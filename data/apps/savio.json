@@ -5,7 +5,7 @@
   "category": "user-research",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Savio, centralize manually imported feedback, tag it, and connect it to feature decisions. The hard boundary is crm and support integrations, customer revenue context, workflow, and collaboration, plus participant network, synthesis workflow, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 49,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$49/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

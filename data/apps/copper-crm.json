@@ -5,7 +5,7 @@
   "category": "crm",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Copper, run a basic sales pipeline closely tied to Google Workspace data. The hard boundary is gmail and calendar integration, automatic activity capture, reporting, and support, plus integrations, data quality, and workflow lock-in.",
-  "priceMonthly": 1,
+  "priceMonthly": 29,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$29/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "automation",
   "subcategory": null,
   "tagline": "The local CRM and AI drafting layer are straightforward, but SalesTouch's core value is reliable access to LinkedIn's private network: authenticated sessions, live data extraction, residential IP routing, human-paced queues, limits, cooldowns, reconnection, and ongoing adaptation to platform changes. A one-shot clone either stops at manual copy and paste or becomes brittle automation that can put the LinkedIn account at risk.",
-  "priceMonthly": 1,
+  "priceMonthly": 49,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$49/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

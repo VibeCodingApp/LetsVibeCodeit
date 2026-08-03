@@ -5,7 +5,7 @@
   "category": "seo-marketing",
   "subcategory": null,
   "tagline": "The visible SEO auditing loop is buildable, but a credible replacement needs more than the first screen. WooRank earns its keep through proprietary data, index, crawl scale, so expect a weekend or multi-day build and a narrower personal scope.",
-  "priceMonthly": 1,
+  "priceMonthly": 99.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$99.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

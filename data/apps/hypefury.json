@@ -5,7 +5,7 @@
   "category": "social-media",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Hypefury, draft and schedule text-led social posts with reusable queues. The hard boundary is platform integrations, auto-reposting, cross-posting, analytics, and creator templates, plus api access, connector upkeep, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 29,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$29/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

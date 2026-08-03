@@ -5,7 +5,7 @@
   "category": "user-research",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Canny, collect feature requests, merge duplicates, publish statuses, and maintain a roadmap. The hard boundary is customer identity, integrations, changelog, prioritization, and team workflow, plus participant network, synthesis workflow, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

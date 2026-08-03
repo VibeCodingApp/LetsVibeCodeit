@@ -5,7 +5,7 @@
   "category": "scheduling",
   "subcategory": null,
   "tagline": "zcal's solo core is compact: build a personal freeform scheduling tool that reads one calendar, publishes availability, reserves a slot, and writes the event back. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on OAuth, calendar reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": 0,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "Free"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

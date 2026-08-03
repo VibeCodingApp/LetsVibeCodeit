@@ -5,7 +5,7 @@
   "category": "writing-tools",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Drafts Pro, capture text instantly, run reusable transformations, and file the result into local destinations. The hard boundary is its iphone and mac capture speed, action directory, and apple automation depth, plus polish, integrations, and proprietary language models.",
-  "priceMonthly": 1,
+  "priceMonthly": 1.67,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$1.67/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

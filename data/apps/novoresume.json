@@ -5,7 +5,7 @@
   "category": "career",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Novoresume, create one-page and multi-page resumes from structured evidence with layout constraints. The hard boundary is templates, content guidance, design polish, and reliable pdf rendering, plus data, distribution, and coaching.",
-  "priceMonthly": 1,
+  "priceMonthly": 19.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

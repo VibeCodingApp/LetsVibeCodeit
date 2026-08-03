@@ -5,7 +5,7 @@
   "category": "productivity-utilities",
   "subcategory": null,
   "tagline": "The visible screen-time control loop is buildable, but a credible replacement needs more than the first screen. Opal earns its keep through polish, OS integration, so expect a weekend or multi-day build and a narrower personal scope.",
-  "priceMonthly": 1,
+  "priceMonthly": 8.33,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$8.33/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

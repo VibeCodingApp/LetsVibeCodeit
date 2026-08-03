@@ -5,7 +5,7 @@
   "category": "analytics",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mouseflow, capture a small consented session sample and render a simple playback for debugging. The hard boundary is capture compression, privacy redaction, storage, heatmaps, funnels, and hosted scale, plus data pipeline reliability and analytical depth.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

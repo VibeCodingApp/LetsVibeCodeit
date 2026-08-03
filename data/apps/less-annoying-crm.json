@@ -5,7 +5,7 @@
   "category": "crm",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Less Annoying CRM, provide contacts, pipelines, tasks, notes, and a straightforward daily agenda. The hard boundary is excellent simplicity, email support, imports, reliability, and low maintenance, plus integrations, data quality, and workflow lock-in.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "dev-tools",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Tabnine, provide local repository completions and chat through a selected model endpoint. The hard boundary is enterprise deployment, private models, ide coverage, governance, and support, plus frontier models, context infrastructure, and execution safety.",
-  "priceMonthly": 1,
+  "priceMonthly": 9,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

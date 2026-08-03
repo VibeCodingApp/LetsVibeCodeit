@@ -5,7 +5,7 @@
   "category": "dev-tools",
   "subcategory": null,
   "tagline": "Tower's solo core is compact: build a repository-local Git client assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

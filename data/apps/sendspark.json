@@ -5,7 +5,7 @@
   "category": "screen-recording",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sendspark, record lightweight personalized videos and generate recipient-specific landing pages. The hard boundary is personalization at scale, crm workflows, hosting, and engagement tracking, plus capture polish, hosting, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

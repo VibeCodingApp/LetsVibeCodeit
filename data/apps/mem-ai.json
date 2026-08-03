@@ -5,7 +5,7 @@
   "category": "notes-knowledge",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mem, capture notes quickly and retrieve them through semantic search and related-memory suggestions. The hard boundary is hosted ai memory, sync, ingest integrations, and continuously tuned retrieval, plus sync, collaboration, and capture polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 14.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$14.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

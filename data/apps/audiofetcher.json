@@ -5,7 +5,7 @@
   "category": "audio-video",
   "subcategory": null,
   "tagline": "The core loop is genuinely one-shottable: a small local UI, yt-dlp for the fetch, ffmpeg for the encode, files land in a folder. What is not a one sitting is everything that makes a public converter feel reliable week after week · YouTube bot checks, cookies/PO tokens, geo blocks, fair queues, abuse protection, and a hosted path so non-technical people never open a terminal. Build the personal script; do not expect one prompt to replace a maintained public service.",
-  "priceMonthly": 1,
+  "priceMonthly": 6,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$6/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "finance-accounting",
   "subcategory": null,
   "tagline": "Invoices and reports are buildable, but Xero's real product is bank feeds, accounting workflows, accountant collaboration, compliance expectations, integrations, and trust.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

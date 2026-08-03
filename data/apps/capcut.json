@@ -5,7 +5,7 @@
   "category": "audio-video",
   "subcategory": null,
   "tagline": "A captioner/trimmer/exporter is buildable, but CapCut's value is mobile editing polish, effects/templates, asset library, TikTok workflow, and real-time rendering.",
-  "priceMonthly": 1,
+  "priceMonthly": 19.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

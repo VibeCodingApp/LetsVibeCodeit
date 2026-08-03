@@ -5,7 +5,7 @@
   "category": "education",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For LingQ Premium, import permitted text and audio, mark known words, and review vocabulary in context. The hard boundary is content library, import pipeline, multi-device sync, community, tutors, and polish, plus content, pedagogy, and network.",
-  "priceMonthly": 1,
+  "priceMonthly": 14.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$14.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

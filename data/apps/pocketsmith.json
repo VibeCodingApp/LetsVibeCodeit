@@ -5,7 +5,7 @@
   "category": "personal-finance",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For PocketSmith, import transactions, categorize them, and forecast cash flow on a calendar. The hard boundary is bank feeds, multi-currency data, forecasting depth, sync, and support, plus financial integrations, compliance, and trust.",
-  "priceMonthly": 1,
+  "priceMonthly": 9.95,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9.95/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

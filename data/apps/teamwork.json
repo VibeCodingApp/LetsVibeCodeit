@@ -5,7 +5,7 @@
   "category": "project-management",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Teamwork, plan client projects, log time, manage milestones, and expose a client view. The hard boundary is agency billing, workload, client permissions, integrations, and reporting, plus collaboration, integrations, and organizational trust.",
-  "priceMonthly": 1,
+  "priceMonthly": 13.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$13.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

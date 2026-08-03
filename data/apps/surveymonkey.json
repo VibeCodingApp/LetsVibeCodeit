@@ -5,7 +5,7 @@
   "category": "forms",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SurveyMonkey, run a structured survey, calculate transparent summaries, and export responses. The hard boundary is panel access, benchmarking, templates, advanced logic, and enterprise governance, plus integrations, deliverability, and workflow depth.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

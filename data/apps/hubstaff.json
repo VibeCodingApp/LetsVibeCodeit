@@ -5,7 +5,7 @@
   "category": "time-tracking",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Hubstaff, track opt-in work time without screenshots, keystrokes, or hidden monitoring. The hard boundary is workforce tracking, payroll, gps, scheduling, reports, and compliance operations, plus ubiquitous capture, coaching, and team workflow.",
-  "priceMonthly": 1,
+  "priceMonthly": 7,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$7/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "career",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Kickresume, build a structured resume and cover-letter workspace with templates and PDF export. The hard boundary is template library, document rendering, ai, websites, mobile apps, and polish, plus data, distribution, and coaching.",
-  "priceMonthly": 1,
+  "priceMonthly": 19,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "email",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mailbird, build a Windows email client with unified inbox, local search, and simple integrations. The hard boundary is windows polish, provider compatibility, app integrations, sync, and support, plus mail infrastructure, integrations, and client polish.",
-  "priceMonthly": 1,
+  "priceMonthly": null,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "varies"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

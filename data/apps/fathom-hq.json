@@ -5,7 +5,7 @@
   "category": "finance-accounting",
   "subcategory": null,
   "tagline": "A KPI dashboard over accounting exports is buildable, but Fathom's value is accounting integrations, consolidation, forecasting, polished board reports, and accountant workflows.",
-  "priceMonthly": 1,
+  "priceMonthly": 53,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$53/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

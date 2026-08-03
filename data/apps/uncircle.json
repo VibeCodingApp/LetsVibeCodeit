@@ -5,7 +5,7 @@
   "category": "dev-tools",
   "subcategory": null,
   "tagline": "The core loop · read a yml of processes from the repo, run them, stream logs into terminals, show status dots · is a genuine one-sitting build with node-pty and xterm.js, and mprocs already gives you most of it in a TUI for free. What does not one-shot is everything around it: a native window with tray and notifications, killing whole process trees without orphans on three OSes, crash auto-restart that does not flap, and signed auto-updating builds. And since the paid tier is $19 once rather than a subscription, the usual death-list math barely applies.",
-  "priceMonthly": 49,
+  "priceMonthly": 0,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$49"
+    "native": "Free"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "crm",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Folk, organize relationship lists, enrich context manually, and run lightweight outreach. The hard boundary is collaborative contact enrichment, integrations, messaging, and polished relationship workflows, plus integrations, data quality, and workflow lock-in.",
-  "priceMonthly": 1,
+  "priceMonthly": 30,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$30/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

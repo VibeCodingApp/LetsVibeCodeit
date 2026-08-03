@@ -5,7 +5,7 @@
   "category": "email",
   "subcategory": null,
   "tagline": "You can build an email client, but replacing HEY means running a trustworthy email service: deliverability, spam filtering, abuse handling, storage, mobile apps, and reputation.",
-  "priceMonthly": 1,
+  "priceMonthly": 8.25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$8.25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

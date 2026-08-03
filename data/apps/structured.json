@@ -5,7 +5,7 @@
   "category": "tasks",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Structured, turn tasks into a visual daily timeline with reminders and simple recurring items. The hard boundary is native mobile polish, widgets, apple sync, and accessibility refinement, plus cross-device reliability and workflow polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 2.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$2.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "scheduling",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Fantastical, create a polished Apple calendar client with natural-language event entry and local sets. The hard boundary is native apple integrations, widgets, sync, proposals, and years of calendar edge cases, plus calendar integrations and reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": 4.75,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$4.75/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

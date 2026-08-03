@@ -5,7 +5,7 @@
   "category": "uptime",
   "subcategory": null,
   "tagline": "A cron loop, a fetch, an alert webhook, and a status page. The $30/mo is for the dashboard gloss.",
-  "priceMonthly": 1,
+  "priceMonthly": 30,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$30/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "seo-marketing",
   "subcategory": null,
   "tagline": "A personal dashboard for an owned site is a weekend build with Search Console and model APIs, but TrueDR, backlink intelligence, historical monitoring, and the partner marketplace depend on paid data, operations, and a live network.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "screen-recording",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supademo, capture clicks and screenshots into an interactive walkthrough with editable annotations. The hard boundary is hosted embeds, analytics, personalization, integrations, and team libraries, plus capture polish, hosting, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 36,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$36/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

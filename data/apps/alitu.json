@@ -5,7 +5,7 @@
   "category": "podcasting",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Alitu, clean, assemble, publish, and package a recurring spoken-word podcast episode. The hard boundary is production automation, hosting integrations, support, and creator-specific polish, plus audio infrastructure, distribution, and production polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 38,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$38/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

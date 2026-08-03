@@ -15,8 +15,7 @@ export default function HomePage() {
   const rows = getAppRows();
   const appCount = getAppCount();
   const mrr = computeMRR(allApps);
-  const yesApps = allApps.filter(a => a.verdict === 'yes');
-  const yesPricedCount = yesApps.filter(a => !!a.priceMonthly && a.priceMonthly > 0).length;
+  const pricedCount = allApps.filter(a => !!a.priceMonthly && a.priceMonthly > 0).length;
   const categories = getTopCategories(allApps, 13);
 
   return (
@@ -52,7 +51,7 @@ export default function HomePage() {
               <Odometer target={mrr} />
               <span className="text-muted text-sm font-mono">/mo</span>
             </div>
-            <p className="text-[11px] text-muted-2 font-mono mt-1">{yesPricedCount} YES apps with listed prices counted</p>
+            <p className="text-[11px] text-muted-2 font-mono mt-1">{pricedCount} apps with listed prices counted</p>
           </div>
         </div>
       </section>

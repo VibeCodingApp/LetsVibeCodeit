@@ -5,7 +5,7 @@
   "category": "analytics",
   "subcategory": null,
   "tagline": "Basic pageview/event analytics are easy, and Plausible's own code is open source; the paid value is hosted reliability, maintenance, and support.",
-  "priceMonthly": 1,
+  "priceMonthly": 9,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

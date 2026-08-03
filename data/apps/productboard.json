@@ -5,7 +5,7 @@
   "category": "user-research",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Productboard, link manually imported feedback to features and a small roadmap. The hard boundary is customer-insight integrations, prioritization, roadmap governance, and organizational adoption, plus participant network, synthesis workflow, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 25,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$25/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

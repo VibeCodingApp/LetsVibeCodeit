@@ -5,7 +5,7 @@
   "category": "community",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Heartbeat, run a private community with channels, events, courses, and lightweight workflows. The hard boundary is mobile apps, automations, analytics, payments, and community onboarding, plus network, moderation, and communication infrastructure.",
-  "priceMonthly": 1,
+  "priceMonthly": 49,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$49/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

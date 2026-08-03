@@ -5,7 +5,7 @@
   "category": "ai-video",
   "subcategory": null,
   "tagline": "A UI around video models is buildable; the video-generation model quality, compute, safety, editing stack, and continuous research are not a solo afternoon project.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

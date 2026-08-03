@@ -5,7 +5,7 @@
   "category": "forms",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Reform, publish a clean branded lead form with routing, notifications, and exports. The hard boundary is polished ux, spam controls, integrations, and reliable hosted delivery, plus integrations, deliverability, and workflow depth.",
-  "priceMonthly": 1,
+  "priceMonthly": 35,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$35/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

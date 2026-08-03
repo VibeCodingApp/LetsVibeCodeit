@@ -5,7 +5,7 @@
   "category": "meeting-notes",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MeetGeek, record supported meetings, create summaries, and track recurring themes. The hard boundary is auto-join, integrations, team analytics, and long-running capture reliability, plus capture reliability, integrations, and collaboration.",
-  "priceMonthly": 1,
+  "priceMonthly": 19,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

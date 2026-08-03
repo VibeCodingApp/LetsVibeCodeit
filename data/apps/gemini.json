@@ -5,7 +5,7 @@
   "category": "ai-assistants",
   "subcategory": null,
   "tagline": "A chat UI is easy, but Gemini's model access, Google ecosystem integration, multimodality, storage tie-ins, and platform distribution are not solo-buildable.",
-  "priceMonthly": 1,
+  "priceMonthly": 19.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

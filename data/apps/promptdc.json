@@ -5,7 +5,7 @@
   "category": "ai-writing",
   "subcategory": null,
   "tagline": "A useful personal version is highly one-shot-able: an MV3 content script can capture selected text, send it to an LLM with one of two system prompts, then replace a normal editable field or copy the result. The commercial product earns its keep through Writing profiles (grammar fix, email, social post, shorten, tone), a Coding mode that auto-detects which AI tool you are prompting and tailors the rewrite, polished interaction design, and defensive handling of complex editors where naive DOM replacement can fail or corrupt text.",
-  "priceMonthly": 1,
+  "priceMonthly": 9,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

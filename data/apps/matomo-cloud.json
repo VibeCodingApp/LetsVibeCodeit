@@ -5,7 +5,7 @@
   "category": "analytics",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Matomo Cloud, run first-party web analytics with goals, campaigns, and user-owned data. The hard boundary is mature analytics depth, privacy controls, hosted operations, and premium plugins, plus data pipeline reliability and analytical depth.",
-  "priceMonthly": 1,
+  "priceMonthly": 26,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$26/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

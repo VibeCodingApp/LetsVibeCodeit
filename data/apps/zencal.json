@@ -5,7 +5,7 @@
   "category": "scheduling",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Zencal, publish booking pages and collect optional payments through a simple workflow. The hard boundary is calendar connections, payments, reminders, team access, and hosted reliability, plus calendar integrations and reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": 9.5,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9.5/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "databases",
   "subcategory": null,
   "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Equals, query a database into a spreadsheet-style analysis workbook. The hard boundary is warehouse connectors, sql, collaboration, versioning, and finance workflow polish, plus data model flexibility, collaboration, and integrations.",
-  "priceMonthly": 1,
+  "priceMonthly": 39,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$39/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "tasks-calendar",
   "subcategory": null,
   "tagline": "You can build an auto-scheduler for your own tasks, but robust calendar conflict handling, integrations, and productized rescheduling take real engineering.",
-  "priceMonthly": 1,
+  "priceMonthly": 34,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$34/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

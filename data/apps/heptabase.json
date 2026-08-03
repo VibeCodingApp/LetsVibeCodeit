@@ -5,7 +5,7 @@
   "category": "notes-knowledge",
   "subcategory": null,
   "tagline": "Heptabase's solo core is compact: build a local-first visual knowledge mapping app with fast capture, full-text search, backlinks, tags, and Markdown export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, sync, importers.",
-  "priceMonthly": 1,
+  "priceMonthly": 8.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$8.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

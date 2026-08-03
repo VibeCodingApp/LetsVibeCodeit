@@ -5,7 +5,7 @@
   "category": "tasks",
   "subcategory": null,
   "tagline": "A focused work-order and preventive-maintenance tracker is a weekend build, but dependable field use, notifications, permissions, backups, and long-lived asset history require ongoing operations.",
-  "priceMonthly": 1,
+  "priceMonthly": 49,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$49/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

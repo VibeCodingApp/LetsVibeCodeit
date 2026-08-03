@@ -5,7 +5,7 @@
   "category": "automation",
   "subcategory": null,
   "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Albato, connect two services and expose every transformation and retry. The hard boundary is connector library, app integrator, oauth, hosted execution, and support, plus connector breadth and execution reliability.",
-  "priceMonthly": 1,
+  "priceMonthly": 19,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$19/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

@@ -5,7 +5,7 @@
   "category": "personal-finance",
   "subcategory": null,
   "tagline": "The core loop, logging expenses by typing a sentence into a chat box and having an LLM extract amount, payee, and category, is very buildable with an Anthropic API key. Budgets, categories, and spending reports are standard CRUD. The real gap is statement import: getting one clean CSV parsed by an LLM is a demo, but reliably parsing messy multi-page bank PDFs across many banks needs batching, fallbacks, and cross-checks that take far longer than a weekend.",
-  "priceMonthly": 1,
+  "priceMonthly": 3,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$3/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

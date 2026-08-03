@@ -5,7 +5,7 @@
   "category": "seo-marketing",
   "subcategory": null,
   "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screaming Frog SEO Spider, crawl an owned site locally, inspect technical signals, and export raw audit data. The hard boundary is years of crawl edge cases, javascript rendering, integrations, and desktop performance, plus crawl scale, rule depth, and operational polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 21.58,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$21.58/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

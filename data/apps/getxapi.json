@@ -5,7 +5,7 @@
   "category": "dev-tools",
   "subcategory": null,
   "tagline": "For personal, read-only scale this is genuinely kinda: twscrape plus a throwaway account gets you tweets from a few handles in a weekend. The gaps are the product: X actively fights automated access, so the DIY version breaks whenever X changes something, burns the accounts it runs on, cannot safely post or DM, has no real-time push, and does not scale. You pay for requests that keep working next week.",
-  "priceMonthly": 1,
+  "priceMonthly": 15,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$15/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",

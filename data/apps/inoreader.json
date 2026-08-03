@@ -5,7 +5,7 @@
   "category": "rss-research",
   "subcategory": null,
   "tagline": "A single-user RSS reader with rules and alerts can be built quickly on top of existing parsers, though not with Inoreader's scale and polish.",
-  "priceMonthly": 1,
+  "priceMonthly": 9.99,
   "pricing": {
     "plan": "Listed plan",
     "basis": "subscription",
@@ -14,7 +14,7 @@
     "checkedOn": "",
     "confidence": "source",
     "notes": "",
-    "native": "$1"
+    "native": "$9.99/mo"
   },
   "verdict": "yes",
   "verdictConfidence": "medium",
