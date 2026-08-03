@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "For solo async clips, a recorder plus lightweight trimming and hosted share page can be vibecoded; the paid app wins on design polish and templates.",
-  "reportedReplacements": 4
+  "reportedReplacements": 4,
+  "prompt": "Build me a screen recorder with share pages to replace Tella. Requirements:\n\n- A local web page (Node + Express on localhost:4600) using getDisplayMedia +\n  getUserMedia: record screen and webcam together, webcam as a circular overlay in\n  the bottom-left, captured with MediaRecorder to webm.\n- After recording, a trim step: set in/out points on a simple timeline, preview,\n  then render the final 1080p H.264 MP4 with ffmpeg.\n- One-click publish: rsync the MP4 to my VPS, where a tiny share app serves\n  /v/<id>, a page with the player, title, and my name. Copy the URL to my clipboard.\n- Share page extras: a poster frame extracted with ffmpeg for the og:image tag, and\n  a view counter in SQLite. Nothing else on the page.\n- Keep originals and renders in ~/Recordings/YYYY-MM-DD-<title>/.\n- No accounts, no telemetry; the share pages are the only public surface.\n- Out of scope: layout templates, zoom/pan effects, and a team library. Trim only,\n  this is not an editor.\n- README: browser screen-capture permissions, ffmpeg install, VPS + Caddy snippet\n  for the share domain."
 }

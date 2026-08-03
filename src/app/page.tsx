@@ -1,4 +1,4 @@
-import { getAppRows, getAppCount, getPricedCount, getAllApps } from '@/lib/apps';
+import { getAppRows, getAppCount, getAllApps } from '@/lib/apps';
 import { computeMRR, getTopCategories } from '@/lib/filter-apps';
 import { SearchBar } from '@/components/search-bar';
 import { Ticker } from '@/components/ticker';
@@ -14,8 +14,9 @@ export default function HomePage() {
   const allApps = getAllApps();
   const rows = getAppRows();
   const appCount = getAppCount();
-  const pricedCount = getPricedCount();
   const mrr = computeMRR(allApps);
+  const yesApps = allApps.filter(a => a.verdict === 'yes');
+  const yesPricedCount = yesApps.filter(a => !!a.priceMonthly && a.priceMonthly > 0).length;
   const categories = getTopCategories(allApps, 13);
 
   return (
@@ -25,10 +26,10 @@ export default function HomePage() {
           <AdSlotHero side="left" />
           <div className="flex-1 max-w-[600px] text-center mx-auto">
             <h1 className="font-display font-bold text-[clamp(44px,7vw,80px)] leading-tight mb-3">
-              Can I vibecode{' '}
+              Lets{' '}
               <span className="relative inline-block text-primary">
-                ___<span className="absolute bottom-0 left-0 right-0 border-b-[3px] border-primary animate-pulse" />
-              </span>{' '}?
+                VibeCode it
+              </span>{' '}!
             </h1>
             <p className="text-muted text-base md:text-lg mx-auto mb-10">
               {appCount} apps. One question each: can AI replace it, or does a real moat keep it alive?
@@ -51,7 +52,7 @@ export default function HomePage() {
               <Odometer target={mrr} />
               <span className="text-muted text-sm font-mono">/mo</span>
             </div>
-            <p className="text-[11px] text-muted-2 font-mono mt-1">{pricedCount} apps with listed prices</p>
+            <p className="text-[11px] text-muted-2 font-mono mt-1">{yesPricedCount} YES apps with listed prices counted</p>
           </div>
         </div>
       </section>

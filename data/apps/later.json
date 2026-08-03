@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A post calendar and queue are buildable, but Later's value is social API access, visual planning, link-in-bio, analytics, media library, and platform compliance.",
-  "reportedReplacements": 1
+  "reportedReplacements": 1,
+  "prompt": "Build me a personal social post scheduler to replace Later. Requirements:\n\n- Node + Express + better-sqlite3 on localhost:4870. Posts table: text, media\n  paths, platform, scheduled time, status (queued/posted/failed).\n- A month-grid calendar page plus a queue list; compose form with image preview and\n  a per-platform character counter. Media files live in a media/ folder.\n- node-cron checks the queue every minute and publishes via official APIs where\n  they are sane: Bluesky and Mastodon first (tokens in .env). Add X only if my API\n  tier allows posting, check before building it.\n- For Instagram, do not fight the API: at post time send me an ntfy.sh push with\n  the caption and image path so I can post by hand in twenty seconds.\n- Failed posts retry twice, then flag red on the calendar with the API error saved.\n- Published posts store the live URL so the calendar links to the real post.\n- Single user, binds to localhost only, no accounts, no telemetry.\n- Out of scope: analytics, link-in-bio pages, and approval workflows.\n- README: per-platform token setup, plus an honest note that social APIs drift and\n  this needs occasional patching, that upkeep is what Later was charging for."
 }

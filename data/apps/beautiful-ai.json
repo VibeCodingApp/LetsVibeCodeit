@@ -48,5 +48,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "You can build a template deck generator, but auto-layout slide behavior, template polish, brand controls, PowerPoint import/export, and collaboration are real work.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a Markdown slide deck tool to replace Beautiful.ai. Requirements:\n\n- A CLI plus local preview: Node, decks are Markdown files rendered with\n  reveal.js. deck serve talk.md gives a live-reload preview on localhost;\n  deck export talk.md prints a PDF with Playwright.\n- Slide syntax: --- starts a new slide, Note: lines become speaker notes.\n- 4 layouts picked by a comment on the slide's first line: title, bullets,\n  big-number, and image+text two-column. Layouts are plain CSS files I can\n  edit.\n- Auto-fit instead of clipping: when a slide overflows, step the text size\n  down once and print a terminal warning naming the tight slides.\n- theme.json for brand: two fonts, 4 colors, and a logo in the corner of\n  every slide.\n- Optional: deck draft \"topic\" < notes.txt sends my rough notes to an LLM\n  (Anthropic or OpenAI key in .env) and writes a starter deck for me to\n  edit; the LLM is never involved in rendering.\n- Decks are plain files in a folder, fully local, no accounts, no telemetry.\n- Out of scope: PPTX export and collaboration; the HTML deck plus PDF is\n  enough. Do not chase Beautiful.ai's self-designing layouts, that engine is\n  the product.\n- README: setup and the whole slide syntax in ten lines."
 }

@@ -46,5 +46,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "The software is open source, so the cloud subscription is mostly paying for managed hosting, upgrades, and not touching a server.",
-  "reportedReplacements": 6
+  "reportedReplacements": 6,
+  "prompt": "Build me a self-hosted analytics stack to replace Umami Cloud. Requirements:\n\n- Do not write analytics code. Umami is open source, deploy the real thing: a\n  docker-compose.yml with the official umami image + postgres:15, data in a named\n  volume. The subscription pays for hosting, so the build is a deployment.\n- All secrets in .env: postgres password and Umami APP_SECRET. Umami binds to\n  localhost; Caddy reverse-proxies stats.<mydomain> to it with automatic HTTPS.\n- backup.sh on a nightly cron: pg_dump to ~/backups/umami-YYYY-MM-DD.sql.gz, keep\n  14, with the restore command documented next to it.\n- update.sh: pull the new image, restart, and print the release-notes URL so I can\n  check for breaking changes before upgrading.\n- Add the tracking script tag to my sites and verify pageviews arrive; create one\n  custom event as proof the event pipeline works.\n- No third-party telemetry; visitor data stays in my postgres.\n- Out of scope: modifying Umami itself or building custom dashboards on top. And\n  accept the honest cost: uptime, upgrades, and 2am breakage are mine now.\n- README: DNS record for the stats subdomain, first-login default credentials, and\n  change the admin password immediately."
 }

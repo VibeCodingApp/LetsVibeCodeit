@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A paraphraser/summarizer/grammar wrapper over an LLM and LanguageTool is easy to build; the paid app wins on UX, extensions, plagiarism workflows, and bundled tools.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a local paraphrasing and grammar tool to replace QuillBot. Requirements:\n\n- A local web page on localhost:5170: Node + Express, one textarea in, one output pane,\n  buttons for Paraphrase, Summarize, Fix grammar, and a tone select (standard, formal,\n  casual, shorter).\n- Paraphrase, summarize, and tone modes call an LLM (Anthropic or OpenAI key in .env)\n  with a fixed prompt per mode; stream the output.\n- Grammar mode calls a local LanguageTool server and lists each issue with its suggested\n  fix, click to apply. No LLM needed for grammar.\n- A diff view between input and output with word-level highlights (the `diff` npm\n  package).\n- Every run saved to SQLite via better-sqlite3: timestamp, mode, input, output. A\n  history page lists the last 100 with copy buttons.\n- Cmd+Enter runs the selected mode.\n- No accounts, no telemetry; text leaves my machine only for LLM calls, grammar checking\n  stays fully local.\n- Out of scope: browser and Word extensions, plagiarism and AI detection. This lives in\n  one tab.\n- README: LanguageTool setup (needs Java or Docker) and which API key to add."
 }

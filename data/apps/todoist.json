@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A personal task app with projects, recurring due dates, filters, and reminders is a one-sitting/weekend build; collaboration and sync polish are the product moat.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a personal task manager to replace Todoist. Requirements:\n\n- A local web app: Node + Express + better-sqlite3, server-rendered, binds to\n  localhost only. Keyboard-first: n for new task, x to complete, / to search.\n- Quick-add parses natural language with chrono-node: \"call Sam tomorrow 4pm\n  #home p2\" sets due date, project, and priority in one line.\n- Projects via #tags, priorities p1-p3, free-text notes on any task.\n- Recurring tasks stored as rrule strings (\"every 1st\", \"every mon,thu\");\n  completing one schedules the next occurrence.\n- Views: Today, Upcoming (next 7 days grouped by day), and per-project. Overdue\n  tasks pinned red at the top of Today.\n- Reminders: node-cron checks each minute and pushes due tasks to my phone via ntfy\n  (topic in .env), plus a 7am digest of today's list.\n- A t add \"...\" CLI for capture from any terminal.\n- No accounts, no telemetry, everything in one SQLite file I can back up.\n- Out of scope: collaboration, native mobile apps, and offline sync. Phone access\n  is ntfy notifications, that is the trade.\n- README: ntfy app setup on the phone and where the DB lives."
 }

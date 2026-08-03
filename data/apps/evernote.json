@@ -55,5 +55,6 @@
   "pagePriority": 4,
   "verifiedOneShot": true,
   "notes": "Joplin is a great open-source alternative if you don't want to build your own",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a personal capture-and-notes app to replace Evernote. Requirements:\n\n- A local web app: Node + Express + better-sqlite3, server-rendered pages,\n  binds to localhost.\n- Notes are Markdown stored in SQLite with tags, edited in a textarea with live\n  preview via marked.\n- Attachments: drag a file or image onto a note, stored in ./data/files/ and\n  linked from the note. On upload, run tesseract.js OCR over images and PDF\n  pages and store the extracted text so scans and receipts are searchable.\n- Full-text search across notes plus OCR text with SQLite FTS5, search box in\n  the header, tag filters beside it.\n- Capture via bookmarklet: POSTs the current page's title, URL, and selected\n  text into a new note. A bookmarklet, not an extension.\n- An import script for Evernote .enex exports: notes, tags, and attachments,\n  so my old data actually moves in.\n- Weekly export of everything to a folder of .md files plus attachments, so\n  nothing is ever trapped in the app.\n- No accounts, no telemetry, all data on my machine.\n- Out of scope: mobile apps, cross-device sync, a real browser extension.\n- README: setup steps and where the data lives on disk."
 }

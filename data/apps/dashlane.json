@@ -46,5 +46,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A simple vault is buildable, but matching Dashlane's extension/mobile autofill, passkey support, breach monitoring, sharing, and trust posture is not a casual clone.",
-  "reportedReplacements": 1
+  "reportedReplacements": 1,
+  "prompt": "Build me a personal password vault to replace Dashlane. Requirements:\n\n- A Node CLI: `vault add <name>`, `vault get <name>`, `vault list`, `vault gen`.\n  `get` copies the secret to the clipboard with clipboardy and clears it after\n  20 seconds.\n- The vault is one encrypted file at ~/.vault/store.age, encrypted with age\n  (shell out to the age binary), key derived from a master passphrase prompted\n  at runtime and never written to disk.\n- Each entry: name, username, password, URL, notes, updated timestamp. JSON\n  inside the encrypted file, decrypted only in memory.\n- `vault gen` produces a 24-char random password via crypto.randomBytes, plus a\n  4-word diceware option for passphrases.\n- `vault backup` writes a datestamped encrypted copy to ~/.vault/backups/ so I\n  can sync it with any file-sync tool I already trust.\n- Fully local: no accounts, no telemetry, zero network calls.\n- Out of scope: browser-extension autofill, passkeys, breach alerts, sharing.\n  Do not invent any crypto, use age exactly as shipped.\n- README: state plainly that KeePassXC or Bitwarden is the sane choice for most\n  people, and that a forgotten master passphrase means the vault is gone."
 }

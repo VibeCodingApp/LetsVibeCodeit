@@ -46,5 +46,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For GoodLinks, save readable pages locally across Apple devices with tags and highlights. The hard boundary is native apple polish, icloud sync, shortcuts, and mobile capture, plus capture polish, sync, and content partnerships.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "**Data & Privacy:**\nThe architecture must be entirely no-account. Store all data locally in SQLite. Provide a seamless way to backup and export data in open formats: OPML, JSON backups, HTML bookmarks, and Markdown for individual articles and highlights. Put any required generic configuration in `.env` and ship a `.env.example`.\n\n**Robustness:**\nInclude clear, beautiful empty states, skeleton loaders, and graceful error handling (e.g., if a page cannot be parsed, save it as a simple bookmark). Write focused unit tests for the HTML extraction logic and at least one end-to-end happy path test covering URL saving, tagging, and highlighting. Include a comprehensive README detailing setup, data location, and backup procedures. Finish by running the tests and detailing the exact setup commands."
 }

@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A constrained diagramming tool with nodes, connectors, sticky notes, and export is a very vibecodable core loop; polish and collaboration are what you lose.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a single-player flowchart tool like Whimsical. Requirements:\n\n- A local web app: Vite + React, shapes rendered as SVG. No backend, runs as a\n  static build, fully offline.\n- Shapes: rectangle, rounded rectangle, diamond, ellipse, sticky note, text label.\n  Drag to move, handles to resize, double-click to edit text inline.\n- Connectors attach to shape anchor points, stay attached when shapes move, route\n  orthogonally with arrowheads, and can carry a text label.\n- Snap-to-grid plus alignment guides while dragging; keyboard support for\n  copy/paste, delete, arrow-key nudge, and undo/redo via a history stack.\n- A toolbar with the shape palette and 8 preset fill colors. No free-form style\n  panel.\n- Boards autosave to IndexedDB (via localforage), with JSON import/export; export\n  the selection or the whole board as PNG and SVG.\n- No accounts, no telemetry, nothing leaves the browser.\n- Out of scope: real-time multiplayer, comments, wireframe component kits, and\n  mind-map mode. Flowcharts and stickies only.\n- README: npm install / npm run dev, plus the keyboard shortcut list."
 }

@@ -56,5 +56,6 @@
   "pagePriority": 4,
   "verifiedOneShot": false,
   "notes": "Sendy is the classic DIY approach. For a one-shot, use Resend for email delivery and build the template editor yourself.",
-  "reportedReplacements": 2
+  "reportedReplacements": 2,
+  "prompt": "Build me a small-list email campaign tool to replace Mailchimp. Requirements:\n\n- Node + Express + better-sqlite3 on my VPS. Admin UI bound to localhost/VPN; only\n  the subscribe and unsubscribe endpoints are public.\n- Contacts with tags and custom fields, CSV import and export, and segments saved\n  as filters (has tag X, joined after date, opened last campaign).\n- Campaigns written in Markdown, rendered into one clean single-column HTML email\n  with mjml, plain-text alternative generated automatically.\n- Send through Amazon SES (keys in .env) with throttling and per-recipient status;\n  SES bounce and complaint notifications auto-suppress those addresses.\n- Compliance baked in: unsubscribe link and postal address in every footer, a\n  List-Unsubscribe header, double opt-in on the public signup form.\n- Open tracking is a per-campaign toggle, default off. Campaign report shows sent,\n  bounced, and unsubscribed counts.\n- One SQLite file holds everything; no telemetry, no third-party trackers.\n- Out of scope: the drag-and-drop template editor, automation journeys, and\n  ecommerce integrations. One good template, sent well.\n- README warning: inbox placement is earned, not coded. Document SPF, DKIM, and\n  DMARC setup and tell me to warm up sending volume gradually."
 }

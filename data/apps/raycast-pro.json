@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A personal launcher command or menubar utility is buildable, but Raycast's native polish, extension ecosystem, sync, AI, and Mac integration take serious product work.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a Mac command palette covering the parts of Raycast Pro I actually use:\nclipboard history, snippets, and AI commands. Requirements:\n\n- An Electron tray app with a global hotkey (alt+space) opening one centered input\n  window; electron-store for settings, better-sqlite3 for data.\n- Clipboard history: watch the clipboard, keep the last 500 text entries with timestamp\n  and source app, fuzzy-search them with fuse.js, Enter pastes the selection.\n- Snippets: a snippets.json of {keyword, expansion}; picking one copies the expansion\n  with {date} and {clipboard} placeholders filled in.\n- AI commands: Fix Grammar, Summarize, and Translate run the current clipboard through\n  an LLM (key in .env) and put the result back on the clipboard with a notification.\n- Custom commands: shell scripts in a commands/ folder appear in the palette by\n  filename; their output is copied or shown.\n- Everything local except the LLM calls; no accounts, no telemetry.\n- Out of scope: an extension store, file search, window management, and cloud sync. Do\n  not chase native launcher speed, this is Electron and that is the tradeoff.\n- README: the macOS accessibility permission needed for paste simulation, and how to\n  change the hotkey."
 }

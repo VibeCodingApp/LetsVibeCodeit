@@ -63,5 +63,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
-  "reportedReplacements": 1
+  "reportedReplacements": 1,
+  "prompt": "Build me a push-to-talk dictation tool for macOS to replace Superscribe's desktop app.\nRequirements:\n\n- Swift menu bar app, SPM only, no Xcode project. A global hotkey (default: hold\n  Option+Space) records while held, stops on release.\n- Capture the mic with AVAudioEngine, downsample to 16kHz mono PCM, and stream it\n  over WebSocket to ElevenLabs Scribe realtime (key in .env). Show partial\n  transcripts in a small floating panel while I speak.\n- On release, run one LLM cleanup pass over the final transcript (fix punctuation,\n  drop filler words; key in the same .env), then paste it into the focused app via\n  NSPasteboard + CGEvent Cmd-V and restore my previous clipboard afterwards.\n- Fallback: with no ElevenLabs key, record to a temp wav and transcribe locally\n  with whisper.cpp instead. Slower is fine.\n- Menu bar icon shows idle/recording/transcribing states; a history window lists\n  the last 20 transcripts with copy buttons, persisted to ~/Dictation/history.jsonl.\n- Ad-hoc codesign for my own machine only. README documents the Microphone and\n  Accessibility permission prompts and the whisper.cpp model download.\n- Out of scope: live word-by-word typing into the field (paste on release only),\n  Windows support, accounts and billing, and the phone-call capture product. If I\n  want call notes I will upload recordings by hand."
 }

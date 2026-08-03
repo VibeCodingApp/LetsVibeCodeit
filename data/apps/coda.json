@@ -48,5 +48,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A doc with tables and buttons is buildable; Coda's editor, formula engine, packs/integrations, permissions, and team workflows make full parity difficult.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a docs-with-tables workspace to replace Coda, single-user.\nRequirements:\n\n- Local web app: Node + Express + better-sqlite3, server-rendered pages with\n  vanilla JS, no build step.\n- Docs are Markdown edited in a textarea with live preview (marked); a\n  fenced block naming a table, like table:Expenses, renders that table live\n  inside the doc.\n- Tables have typed columns (text/number/date/select/checkbox), inline row\n  editing, and are real SQLite tables I can query with other tools.\n- Formula columns: a JS expression over the row's other fields (price * qty)\n  evaluated server-side with new Function over plain values only, recomputed\n  on edit. No imports, no network access in formulas.\n- Buttons in docs: a doc can declare a button that runs one whitelisted\n  server action (add row with defaults, mark done); docs never execute\n  arbitrary code.\n- Named views per table: filter + sort saved and embeddable in any doc.\n- CSV export per table, Markdown export per doc; localhost only, no\n  accounts, no telemetry.\n- Out of scope: collaboration, permissions, and packs/integrations. Coda's\n  formula language and pack ecosystem are the product; this is my personal\n  version.\n- README: setup and where the data lives on disk."
 }

@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getAppsByCategory, getAllApps } from '@/lib/apps';
+import { categoryEmoji, categoryLabel } from '@/lib/constants';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-static';
@@ -10,7 +11,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: { cat: string } }): Promise<Metadata> {
-  return { title: `${params.cat} · LetsVibeCodeit` };
+  return { title: `${categoryLabel(params.cat)} · LetsVibeCodeit` };
 }
 
 export default function CategoryPage({ params }: { params: { cat: string } }) {
@@ -20,7 +21,9 @@ export default function CategoryPage({ params }: { params: { cat: string } }) {
   return (
     <div className="container-main py-10 md:py-12">
       <a href="/categories" className="text-xs text-muted hover:text-fg no-underline font-mono transition-colors">← All categories</a>
-      <h1 className="font-display text-3xl md:text-4xl font-bold mt-3 mb-1 capitalize">{params.cat}</h1>
+      <h1 className="font-display text-3xl md:text-4xl font-bold mt-3 mb-1 flex items-center gap-3 capitalize">
+        <span aria-hidden="true">{categoryEmoji(params.cat)}</span>{categoryLabel(params.cat)}
+      </h1>
       <p className="text-muted text-sm mb-8">{apps.length} app{apps.length !== 1 ? 's' : ''}</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
         {apps.map(a => (

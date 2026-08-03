@@ -54,5 +54,6 @@
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "The UI is easy. The data is the moat.",
-  "reportedReplacements": 1
+  "reportedReplacements": 1,
+  "prompt": "Build me a rank-and-health tracker for sites I own, covering the\nself-collectable slice of Semrush. Requirements:\n\n- A Node CLI on a nightly cron: better-sqlite3 for history, and a static HTML\n  report regenerated each run.\n- Track 20-50 chosen keywords through a SERP API (Serper or DataForSEO, key in\n  .env); store position per keyword per day and draw movement sparklines in the\n  report.\n- Pull clicks, impressions, and average position per query from the Google\n  Search Console API for my own properties (OAuth creds in .env).\n- A technical crawl of my own site with crawlee: broken links, missing titles\n  and descriptions, redirect chains, slow pages, as a table in the report.\n- Email the report weekly via Resend (key in .env), but only when something\n  moved: a position swing over 3 places or new 404s.\n- No accounts, no telemetry; all history lives in one SQLite file.\n- Out of scope: competitor keyword gaps, backlink databases, and traffic\n  estimates for sites I do not own. Do not scrape or estimate third-party data.\n- README: the cheapest SERP API tier for daily checks, the GSC OAuth steps, and\n  a note that Semrush's moat is years of crawled keyword, backlink, and SERP\n  data no solo build can collect; this tracks only what I own."
 }

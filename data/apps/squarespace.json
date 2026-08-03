@@ -55,5 +55,6 @@
   "pagePriority": 4,
   "verifiedOneShot": true,
   "notes": "This is less 'build a Squarespace clone' and more 'you already have a better solution by knowing Next.js'",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a personal website to replace Squarespace: portfolio, blog, and a contact form. Requirements:\n\n- A static site built with Eleventy: home, about, a projects grid, and a blog.\n  Content is Markdown files in content/, front matter for title/date/tags.\n- One layout system: a base template plus Nunjucks partials for header/footer/cards,\n  system font stack, responsive images via @11ty/eleventy-img. No CSS framework.\n- Blog gets tag pages and an RSS feed generated at build time.\n- Contact form POSTs to a tiny Express handler that emails me via SMTP creds in .env\n  and appends each message to data/messages.jsonl. Honeypot field for spam, no captcha.\n- npm run build outputs dist/; npm run deploy rsyncs dist/ to my VPS, served by Caddy\n  with automatic HTTPS. Put the Caddyfile snippet in the README.\n- No accounts, no telemetry, no CMS database. Content lives in git, edits are commits.\n- Out of scope: a drag-and-drop editor, ecommerce, and switchable themes. I edit\n  Markdown and CSS directly, that is the trade.\n- README: DNS records to set, Caddy snippet, SMTP setup for the form handler."
 }

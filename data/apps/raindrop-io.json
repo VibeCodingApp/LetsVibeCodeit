@@ -46,5 +46,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A personal bookmark saver with tags, full-text search, and screenshots is a very tractable small app.",
-  "reportedReplacements": 1
+  "reportedReplacements": 1,
+  "prompt": "Build me a personal bookmark manager to replace Raindrop.io. Requirements:\n\n- A local web app: Node + Express + better-sqlite3 on localhost:4040, server-rendered,\n  minimal JS.\n- Save via a bookmarklet that POSTs the current URL to /save; the server fetches the\n  page, pulls title/description/og:image with metascraper, and stores the readable\n  article text (@mozilla/readability) for search.\n- Bookmarks take free-form tags (comma entry, autocomplete from existing tags) and an\n  optional note.\n- Full-text search across title, note, and archived page text with SQLite FTS5; filter\n  by tag, newest first.\n- List view: favicon, title, domain, tags, saved date. A weekly node-cron job re-checks\n  links and flags 404s.\n- Import from a Netscape bookmarks HTML export; export everything as JSON and CSV from\n  an /export route.\n- Binds to localhost only; no accounts, no telemetry, the whole archive is one SQLite\n  file I can back up.\n- Out of scope: mobile apps and full page-snapshot archiving, the stored text is the\n  archive. No team collections.\n- README: how to install the bookmarklet and where the DB file lives."
 }

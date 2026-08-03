@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A daily planning dashboard is not hard, but Sunsama's value is many integrations, careful UX, calendar sync, and habit-forming workflow.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a solo daily planner like Sunsama. Requirements:\n\n- A local web app on localhost:4400: Node + Express + better-sqlite3, server-rendered\n  with a little vanilla JS for drag and drop. No frontend framework.\n- Today view, two columns: my Google Calendar events (read-only via googleapis, OAuth\n  creds in .env) as a timeline, and today's task list beside it.\n- Tasks have title, estimate in minutes, project tag, done flag. Quick-add box at the\n  top, plus a backlog panel of unplanned tasks I can drag into today.\n- Header shows planned minutes vs a daily budget from config (default 6h) and turns\n  red when I overplan.\n- A /shutdown page for the end of day: walks each unfinished task, one keystroke to\n  roll to tomorrow, send to backlog, or drop, then shows planned vs actual.\n- Keep per-day history in SQLite so a /week page can show the last 7 days of planned\n  vs done.\n- Calendar is read-only: never write events. Out of scope: task-tool integrations\n  (Todoist, Trello, email), mobile apps, and two-way calendar sync.\n- No accounts, no telemetry, everything local except the Google API calls.\n- README: Google Cloud console steps for the OAuth client · budget an hour, that\n  console is the worst part of this build."
 }

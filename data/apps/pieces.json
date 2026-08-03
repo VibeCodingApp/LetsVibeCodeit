@@ -53,5 +53,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "Pieces's solo core is compact: build a repository-local developer memory + AI assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "- Deliberately exclude paid-product advantages: massive large-context cloud infrastructure, cross-IDE GUI integrations, enterprise telemetry, and managed cloud sync.\n\nDeliverables:\n- Complete source code for the Python CLI tool.\n- Write focused unit tests for the SQLite data model and the diff-parsing logic.\n- Add one end-to-end smoke test that proves the core loop works (saving a snippet, querying it, and getting a response).\n- Create a README with setup, architecture, vector DB details, and limitations.\n- Provide a `requirements.txt` or `pyproject.toml`, run tests, and fix errors before concluding.\n"
 }

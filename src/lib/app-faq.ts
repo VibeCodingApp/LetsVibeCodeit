@@ -13,7 +13,7 @@ export function getAppFaq(app: AppData) {
     { q: `Can I vibecode ${app.name}?`, a: `${verdict} ${app.tagline}` },
     { q: `How much does ${app.name} cost?`, a: price },
     { q: `What do I lose by replacing ${app.name}?`, a: `You give up ${losses}.` },
-    { q: 'Why is the full build prompt not shown?', a: 'The source prompt is kept private. The public page intentionally focuses on the verdict, trade-offs, alternatives, and scope of the replacement.' },
+    { q: 'Where is the full build prompt?', a: app.prompt ? 'The full build prompt is published on this page under The Build Prompt. Copy it and paste it into your favorite coding agent.' : 'The full build prompt for this app is not published yet.' },
     { q: `Why would people still pay for ${app.name}?`, a: app.whyPeopleStillPay || 'Convenience, integrations, support, and the maturity of the hosted product.' },
   ];
 }

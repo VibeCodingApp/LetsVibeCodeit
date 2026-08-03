@@ -4,7 +4,7 @@ export default function VibecodePage() {
   return (
     <div className="container-main py-10 md:py-12">
       <h1 className="font-display text-3xl md:text-4xl font-bold mb-2">Vibecode This Site</h1>
-      <p className="text-muted text-sm mb-8">The public repository keeps the original generation prompt private.</p>
+      <p className="text-muted text-sm mb-8">This repository is public. Every product page in the catalog ships with its full build prompt under The Build Prompt.</p>
 
       <div className="bg-surface-2 border border-[var(--border)] rounded-xl p-6 mb-6">
         <h2 className="font-display text-xl font-bold mb-4">Public architecture summary</h2>
@@ -18,7 +18,7 @@ export default function VibecodePage() {
       </div>
 
       <p className="text-muted-2 text-xs text-center">
-        The exact generation prompt is intentionally excluded from this public mirror.
+        Build prompts live in data/apps alongside each product. Sync from the private source runs with npm run sync:vibelist.
       </p>
     </div>
   );

@@ -46,5 +46,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A push-to-talk recorder that transcribes and pastes text into the active app is very buildable for one person, especially on macOS.",
-  "reportedReplacements": 4
+  "reportedReplacements": 4,
+  "prompt": "Build me a push-to-talk dictation tool for macOS to replace Superwhisper. Requirements:\n\n- A global hotkey (default: hold right Option) records my mic while held, stops on\n  release. A small Swift menu bar app or a Hammerspoon script, pick the simpler to\n  ship.\n- Record with ffmpeg (avfoundation) to a temp wav, transcribe locally with whisper.cpp\n  (small.en by default, model path in a config file). Works fully offline, no cloud\n  speech APIs.\n- Paste the result into whatever field has focus (simulate Cmd+V via CGEvent or\n  osascript, then restore my previous clipboard).\n- Optional cleanup mode on a second hotkey: send the transcript to an LLM (key in\n  .env) to fix punctuation and drop filler words, then paste. If no key is set, this\n  mode just does a plain paste.\n- Menu bar icon shows idle/recording/transcribing; clicking it lists the last 10\n  transcripts with copy buttons.\n- Append every transcript to ~/Dictation/YYYY-MM.md with a timestamp, and delete the\n  audio after transcription. No accounts, no telemetry.\n- Out of scope: per-app presets and custom vocabulary tuning. One good general mode.\n- README: mic + accessibility permissions to grant, how to download the whisper\n  model, and a note that the first run will trigger macOS permission prompts."
 }

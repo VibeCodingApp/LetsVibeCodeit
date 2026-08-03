@@ -4,20 +4,20 @@
 
 Next.js 14 App Router product catalog for deciding whether SaaS products can be replaced by focused personal builds.
 
-## Non-negotiable data boundary
+## Data boundary
 
-- This repository is public-facing. Never commit or publish full build prompts, source research, private prompt pages, API keys, tokens, passwords, private keys, `.env` files, deployment credentials, or private exports.
+- This repository is public-facing. Never commit or publish API keys, tokens, passwords, private keys, `.env` files, deployment credentials, or private exports.
 - The private source of truth is `D:\Work\vibelist\apps`. It is outside this repository and must remain outside GitHub.
-- `data/apps/*.json` is the public catalog. It may contain product metadata, verdict explanations, trade-offs, alternatives, categories, pricing context, and replacement counts. It must not contain `prompt` or `promptCurated` fields.
-- `scripts/sync-vibelist.mjs` may read private Markdown to derive public-safe metadata and loss notes, but it must never write the prompt into `data/apps`. Treat any generated prompt text as sensitive and verify the target before publishing.
-- If a prompt appears in a tracked file, stop, remove it from the public diff, scan again, and do not push until clean.
+- `data/apps/*.json` is the public catalog. It contains product metadata, verdict explanations, trade-offs, alternatives, categories, pricing context, replacement counts, and — by explicit owner decision — the full `prompt` field for every product.
+- `scripts/sync-vibelist.mjs` reads the private Markdown and writes the `prompt` field into `data/apps`. Keep the prompt verbatim; never hand-edit generated prompts by hand.
+- Treat any credential-like content in the source as sensitive. If a source file ever contains tokens, keys, or private URLs, stop, remove it from the public diff, scan again, and do not push until clean.
 
 ## Product interpretation contract
 
 - `yes`: a focused personal replacement is realistic in one sitting or a similarly bounded effort; this does not mean feature parity.
 - `kinda`: the core workflow is buildable, but the original has meaningful advantages in integrations, polish, scale, proprietary data, support, or ecosystem.
 - `no`: the original depends heavily on network effects, proprietary data, regulated infrastructure, trust, or a mature ecosystem that a small build cannot honestly reproduce.
-- Product pages must explain the verdict through price/build-time context, moat tags, tagline, what users lose, prior art, related products, vote/share actions, and FAQ. Do not expose private prompts as a substitute for this explanation.
+- Product pages must explain the verdict through price/build-time context, moat tags, tagline, what users lose, prior art, related products, vote/share actions, FAQ, and the published build prompt.
 
 ## Ads and layout contract
 
@@ -46,8 +46,8 @@ src/app/[slug]/          Public product detail pages
 src/components/          Shared UI, ad, FAQ, vote, and layout components
 src/lib/apps.ts          Public catalog loader and related-app queries
 src/lib/types.ts         Public data contracts
-scripts/sync-vibelist.mjs Public-safe catalog importer
-data/apps/               Public metadata only
+scripts/sync-vibelist.mjs Public-safe catalog importer (writes public prompts)
+data/apps/               Public metadata + prompts
 docs/                    Agent-facing policies and project map
 ```
 
@@ -62,7 +62,7 @@ docs/                    Agent-facing policies and project map
 
 ## Security validation before push
 
-1. Verify no tracked file contains `prompt`, `promptCurated`, full prompt text, `.env` content, tokens, keys, or private credentials.
+1. Verify no tracked file contains `.env` content, tokens, keys, or private credentials. (Prompts are intentionally public now.)
 2. Verify `data/apps` still contains the expected public record count.
 3. Run lint, LOC, TypeScript, build, and `git diff --check`.
 4. Review the exact staged file list and remote before pushing.

@@ -54,5 +54,6 @@
   "pagePriority": 3,
   "verifiedOneShot": true,
   "notes": "You can build the wrapper, but you still need the models",
-  "reportedReplacements": 6
+  "reportedReplacements": 6,
+  "prompt": "Build me a personal chat client on the OpenAI and Anthropic APIs to replace the\ntext-chat part of ChatGPT Plus. Requirements:\n\n- A local web app: Node + Express + better-sqlite3, one page with a streaming\n  reply pane (SSE), a model picker, and a conversation sidebar.\n- OpenAI and Anthropic keys in .env; system prompt editable per conversation.\n- Conversations stored in SQLite with FTS5 search; export any thread to\n  Markdown.\n- File upload for text and PDF (pdf-parse); contents go straight into the\n  context window, no vector database.\n- A usage footer: tokens and estimated cost per conversation and per month,\n  computed from the usage field in API responses, so I can compare real spend\n  against the $20 flat fee.\n- Localhost only. No accounts, no telemetry, everything stays on my machine\n  except the API calls.\n- Out of scope: image generation, voice mode, browsing agents, memory, and\n  mobile apps. Do not attempt any of them; that gap is the subscription.\n- README: where to get each key, links to current per-token pricing, and state\n  plainly that this replaces text chat only, the frontier model itself cannot\n  be rebuilt."
 }

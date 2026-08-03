@@ -44,6 +44,7 @@ export interface AppData {
   verifiedOneShot: boolean;
   notes: string;
   reportedReplacements: number;
+  prompt: string | null;
 }
 
 export interface AppRow {

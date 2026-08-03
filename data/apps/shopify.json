@@ -57,5 +57,6 @@
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "For selling a single digital product, DIY with Stripe is fine. For a real store, use Shopify or Medusa.",
-  "reportedReplacements": 2
+  "reportedReplacements": 2,
+  "prompt": "Build me a small self-hosted shop for a handful of products, the honest small\nslice of Shopify. Requirements:\n\n- Node + Express + better-sqlite3 on a VPS; products in products.json (slug,\n  name, price, images, stock count), server-rendered catalog and product pages.\n- Cart in a session cookie; checkout hands off entirely to Stripe Checkout\n  (keys in .env). Never touch card data.\n- Stripe webhook records the order, decrements stock, and emails me and the\n  buyer via Resend (key in .env).\n- An /admin page behind basic auth: order list and a mark-shipped button that\n  emails the buyer with an optional tracking number.\n- Flat shipping rates per region in a config file; sold-out products stay\n  visible but cannot be bought.\n- No customer accounts, no telemetry; orders stay in my SQLite file.\n- Out of scope: discount engines, multi-currency, POS, and tax automation. Use\n  Stripe Tax for tax; do not write tax logic.\n- README: Stripe webhook setup, a plain warning that I am now the fraud\n  department, and a note that this is not Shopify, whose trusted checkout,\n  payment risk handling, and app ecosystem cannot be rebuilt; if volume grows,\n  move to Shopify or Medusa rather than growing this."
 }

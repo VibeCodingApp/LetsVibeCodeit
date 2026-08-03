@@ -48,5 +48,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A client portal over Airtable can be built, but Softr's block library, auth, roles, data sources, payments, and publishing workflow are the product.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a client portal to replace Softr: one portal for my own clients, not a portal\nbuilder. Requirements:\n\n- Node + Express + nunjucks, server-rendered; data stays in Airtable via its REST API\n  (base ID and token in .env) so records keep being edited there.\n- Magic-link login: a client enters their email, gets a signed link via Resend (secret\n  in .env); sessions in signed cookies. Allowed emails live in an Airtable Clients\n  table.\n- Each client sees only rows linked to their client record: a list view with the columns\n  named in views.json, and a detail view per record.\n- One submission form that appends a row to a chosen table, with file upload passed\n  through to Airtable attachments.\n- A role flag on the client record (client vs admin); admins see all rows.\n- Cache Airtable reads for 60 seconds to stay under rate limits.\n- Runs on my VPS behind HTTPS; no telemetry, no third parties beyond Airtable and the\n  email sender.\n- Out of scope: a drag-and-drop page builder, payments, and memberships. Pages are\n  defined in config files, that is the builder.\n- README: Airtable token scopes, expected table and field names, and email sender setup."
 }

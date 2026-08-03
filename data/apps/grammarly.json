@@ -56,5 +56,6 @@
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "LanguageTool is a solid open-source alternative. The tone detection is Grammarly's unique selling point.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a personal writing checker to replace Grammarly. Requirements:\n\n- Grammar engine: LanguageTool running locally via its official Docker image;\n  grammar checks never leave my machine.\n- A local web page (Node + Express, binds to localhost): paste text, see\n  LanguageTool issues underlined with hover explanations, click a suggestion\n  to apply it.\n- An LLM rewrite pane (key in .env) with three buttons: tighten, friendlier,\n  formal. Show a diff against my original before I accept anything.\n- A personal dictionary file (dictionary.txt) of names and jargon to never\n  flag, passed to LanguageTool on every check.\n- CLI mode: `check <file.md>` prints issues with line numbers, exits nonzero\n  if any, so it can run as a git pre-commit hook on docs.\n- Everything local except the optional LLM call; no accounts, no telemetry.\n- Out of scope: a browser extension and inline suggestions inside Gmail,\n  Docs, or Slack. This is a destination I paste into, that is the honest\n  trade against Grammarly.\n- README: Docker setup for LanguageTool, the roughly 1 GB of RAM it wants,\n  and where the LLM key goes."
 }

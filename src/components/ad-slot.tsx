@@ -119,7 +119,7 @@ export function AdSlot({
           <span className="text-primary font-display font-bold text-base">$79</span>
           <span className="text-[10px] text-muted-2 font-mono">/30 days</span>
         </div>
-        <span className="text-[11px] text-muted-2 font-mono">promote your product in the death list</span>
+        <span className="text-[11px] text-muted-2 font-mono">promote your product in the vibecoded list</span>
       </div>
     </div>
   );

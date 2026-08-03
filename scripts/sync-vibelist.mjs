@@ -131,7 +131,7 @@ function parseSource(file, existingBySlug) {
     requirements: existing?.requirements || [],
     whatYouLose: lose.length ? lose : (existing?.whatYouLose?.length ? existing.whatYouLose : derivedLosses),
     moatTags: existing?.moatTags?.length ? existing.moatTags : moat.map(slugify),
-    moatNotes: moat.length ? moat.join(' Ãƒâ€šÃ‚Â· ') : (existing?.moatNotes || null),
+    moatNotes: moat.length ? moat.join(' \u00b7 ') : (existing?.moatNotes || null),
     whyPeopleStillPay: existing?.whyPeopleStillPay || extractDescription(markdown),
     priorArt: priorArt.length ? priorArt : (existing?.priorArt || []),
     relatedSlugs: similar.length ? similar.map(item => item.url.split('/').filter(Boolean).pop()).filter(Boolean) : (existing?.relatedSlugs || []),
@@ -139,6 +139,7 @@ function parseSource(file, existingBySlug) {
     verifiedOneShot: existing?.verifiedOneShot ?? parseVerdict(field(markdown, 'Veredicto|Verdict')) === 'yes',
     notes: existing?.notes || extractDescription(markdown),
     reportedReplacements: existing?.reportedReplacements ?? replacements,
+    prompt: existing?.prompt || promptFrom(markdown),
   };
 app.name = clean(app.name);
   app.tagline = clean(app.tagline);

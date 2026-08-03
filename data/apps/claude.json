@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A Claude-like UI is trivial; the model, safety/reliability layer, long-context performance, artifacts/projects, and platform distribution are not.",
-  "reportedReplacements": 5
+  "reportedReplacements": 5,
+  "prompt": "Build me a personal chat client on the Anthropic API to replace my Claude Pro\nsubscription with per-token billing. Requirements:\n\n- A local web app: Node + Express + better-sqlite3, streaming replies over SSE,\n  a conversation sidebar, Markdown rendering with marked.\n- Anthropic API key in .env; model picker with Sonnet as the default and Opus\n  on demand; system prompt editable and saved per project.\n- Projects: a project groups conversations and holds a few reference docs\n  (plain text or PDF via pdf-parse) prepended as context for every chat inside\n  it.\n- Use prompt caching on the project docs to cut token costs, the API supports\n  it directly.\n- SQLite FTS5 search across all conversations; export any thread to Markdown.\n- A cost meter per conversation plus a monthly total from the API usage fields,\n  so the keep-paying-or-not decision is a number, not a feeling.\n- Localhost only, no accounts, no telemetry.\n- Out of scope: artifacts, mobile apps, and agent features. If the cost meter\n  shows heavy use, flat-rate Pro or Max wins; include that comparison logic in\n  the README.\n- README: key setup, a link to current per-token prices, and state that the\n  model is the product; this wrapper only changes how I pay for it."
 }

@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "The visible business diagramming loop is buildable, but a credible replacement needs more than the first screen. SmartDraw earns its keep through interaction polish, collaboration, so expect a weekend or multi-day build and a narrower personal scope.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "8. Import/Export: Allow users to export diagrams as high-quality PNGs, SVGs, and PDFs. Implement robust local storage with multi-document management, allowing users to switch between different projects.\n9. Collaboration Ready Foundation: Structure the state management using CRDTs (Conflict-free Replicated Data Types) or an event-sourcing pattern so that real-time multiplayer co-editing could be easily dropped in later.\n\nProvide a complete, production-ready implementation, ensuring the highest level of execution polish and a genuinely premium user experience. Write focused unit tests for the core canvas state logic and the undo/redo stack."
 }

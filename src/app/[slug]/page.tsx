@@ -7,6 +7,7 @@ import { FAQ } from '@/components/faq';
 import { PriorArt } from '@/components/prior-art';
 import { RelatedApps } from '@/components/related-apps';
 import { ReplaceButton } from '@/components/replace-button';
+import { PromptViewer } from '@/components/prompt-viewer';
 import { VerdictBadge } from '@/components/verdict-badge';
 import { WhatYouLose } from '@/components/what-you-lose';
 import { getAppFaq } from '@/lib/app-faq';
@@ -67,7 +68,7 @@ export default function AppDetailPage({ params }: { params: { slug: string } }) 
         <div className="container-main">
           <div className="detail-stack">
             <div className="font-mono text-xs text-muted">
-              <a href="/" className="no-underline transition-colors hover:text-fg">the death list</a>
+              <a href="/" className="no-underline transition-colors hover:text-fg">the vibecoded list</a>
               <span className="px-2">/</span>
               <a href={`/category/${encodeURIComponent(app.category)}`} className="no-underline transition-colors hover:text-fg">{app.category}</a>
               <span className="px-2">/</span><span className="text-fg">{app.slug}</span>
@@ -96,11 +97,9 @@ export default function AppDetailPage({ params }: { params: { slug: string } }) 
             <section>
               <div className="mb-2 flex flex-wrap items-center justify-between gap-3">
                 <h2 className="font-display text-lg font-bold uppercase tracking-[0.08em] text-muted">The Build Prompt</h2>
-                <span className="font-mono text-[11px] text-muted-2">protected content</span>
+                <span className="font-mono text-[11px] text-muted-2">copy it and go build</span>
               </div>
-              <div className="rounded-xl border border-[var(--border)] bg-surface-2 p-5">
-                <p className="font-mono text-sm leading-relaxed text-muted">The detailed build prompt is kept private. This public page gives you the verdict, trade-offs, alternatives, and practical scope needed to interpret the result without exposing the source prompt.</p>
-              </div>
+              {app.prompt ? <PromptViewer slug={app.slug} prompt={app.prompt} /> : <div className="rounded-xl border border-[var(--border)] bg-surface-2 p-5"><p className="font-mono text-sm leading-relaxed text-muted">No public prompt available for {app.name} yet.</p></div>}
             </section>
 
             <DetailAdBreak slot={`detail-middle-${app.slug}`} />
@@ -122,7 +121,7 @@ export default function AppDetailPage({ params }: { params: { slug: string } }) 
             <section className="flex flex-wrap items-center gap-3 rounded-xl border border-[var(--border)] bg-surface-2 p-4">
               <ReplaceButton slug={app.slug} appName={app.name} initialVotes={app.reportedReplacements} />
               <a href={`https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-lg border border-[var(--border)] bg-surface-3 px-4 py-2 font-mono text-xs font-semibold text-fg-2 no-underline transition-colors hover:border-[var(--border-2)] hover:text-fg">Share on X -&gt;</a>
-              <span className="text-xs text-muted-2">Your vote helps rank the death list.</span>
+              <span className="text-xs text-muted-2">Your vote helps rank the vibecoded list.</span>
             </section>
 
             <section>

@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A form builder that stores responses and sends webhooks/email is a classic one-sitting/weekend app.",
-  "reportedReplacements": 7
+  "reportedReplacements": 7,
+  "prompt": "Build me a personal form builder to replace Tally. Requirements:\n\n- One Node + Express + better-sqlite3 app, server-rendered pages, deployed on my VPS\n  behind Caddy. No frontend framework.\n- Admin UI at /admin, protected by a single ADMIN_TOKEN from .env, no user accounts:\n  create a form, add fields (text, textarea, email, select, checkbox, file upload),\n  mark required, reorder.\n- Each form gets a public page at /f/<slug>: single column, one accent color, client\n  and server validation, honeypot field plus a per-IP rate limit for spam.\n- Responses stored in SQLite; file uploads go to uploads/<form-slug>/, 10 MB cap.\n- Per form, two optional notifications: email me each response via SMTP creds in\n  .env, and POST the response JSON to a webhook URL.\n- Admin response view: sortable table per form with a CSV export button.\n- No telemetry, no third-party form service; respondent data stays in my SQLite file.\n- Out of scope: partial submissions, conditional logic, payments, and team\n  workspaces. Do not build a template gallery.\n- README: .env vars, Caddy snippet, where uploads and the DB live on disk."
 }

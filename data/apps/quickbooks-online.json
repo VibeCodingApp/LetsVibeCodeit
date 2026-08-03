@@ -48,5 +48,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "You can build invoicing and expense tables, but QuickBooks' value is accounting correctness, bank feeds, payroll/tax ecosystem, accountant workflows, compliance, and support.",
-  "reportedReplacements": 2
+  "reportedReplacements": 2,
+  "prompt": "Build me a bookkeeping-lite app covering the safe personal slice of QuickBooks\nOnline: invoicing a few clients and tracking expenses. Requirements:\n\n- A local web app: Node + Express + better-sqlite3, binds to localhost, no\n  hosting.\n- Invoices: client, line items, tax rate, due date; render to PDF with\n  Playwright's page.pdf; a manual mark-paid flag.\n- Expenses: import my bank's CSV export, categorize with a rules table that\n  auto-matches repeat payees, edit the rest by hand.\n- Reports: a cash-basis P&L and per-quarter totals, plus CSV export of\n  everything for the accountant.\n- No accounts, no telemetry, the books never leave my machine; write a nightly\n  dated backup copy of the SQLite file.\n- Out of scope: bank feeds, reconciliation, payroll, and anything that files\n  taxes. Do not build tax logic of any kind.\n- README: state plainly that this is bookkeeping-lite, not accounting.\n  QuickBooks' real product is accounting correctness, bank feeds, and the\n  accountant ecosystem, none of which this rebuilds; when the numbers start to\n  matter, the honest move is real software or an accountant."
 }

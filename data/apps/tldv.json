@@ -48,5 +48,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A DIY app can record, transcribe, summarize, and generate clips, but tl;dv's team library, CRM integrations, and meeting-bot reliability are real work.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a personal meeting recorder with clips to replace tl;dv. Requirements:\n\n- A macOS menu bar app (or a rec start / rec stop CLI, pick the simpler to ship)\n  that records system audio + mic locally with ffmpeg. No bot joins the call.\n- On stop: transcribe with whisper.cpp with timestamps, or the Whisper API if a key\n  is in .env.\n- Send the transcript to an LLM (key in .env) for a 5-bullet summary and action\n  items; save everything to ~/Meetings/YYYY-MM-DD-<title>/ as notes.md, the\n  transcript, and the audio file.\n- While recording, a global hotkey drops a highlight marker; afterwards each marker\n  becomes a clip, ffmpeg cutting 30 seconds either side into clips/.\n- A local library page (Express on localhost:4700): list meetings, full-text search\n  across transcripts with SQLite FTS5, play recordings and clips inline.\n- No accounts, no telemetry; nothing leaves my machine except optional API calls.\n- Out of scope: a bot that auto-joins Zoom/Meet, CRM sync, and a shared team\n  library. This records what I can hear locally.\n- README: mic + screen-recording permissions, whisper model download, and a\n  reminder that recording other people still requires their consent."
 }

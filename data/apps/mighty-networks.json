@@ -47,5 +47,6 @@
   "pagePriority": 2,
   "verifiedOneShot": true,
   "notes": "A private community/course site is possible, but Mighty sells the integrated community, payments, events, AI setup, mobile, and branded-app path.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a small paid-membership community site to replace Mighty Networks. Requirements:\n\n- Node + Express + better-sqlite3 on my VPS behind a reverse proxy, server-rendered\n  pages, no frontend framework. Built for a community of dozens, not thousands;\n  note in the README that self-hosted Discourse is the heavyweight alternative.\n- Stripe subscription (keys in .env) gates membership: a webhook activates access\n  on payment and revokes it on cancellation. Sign-in by emailed magic link, no\n  passwords.\n- One chronological feed of member posts (Markdown, images to an uploads/ folder)\n  with threaded comments and like counts.\n- An events page: title, date, location or call link, RSVP list of member names.\n- A weekly digest email of new posts and upcoming events via Resend or SMTP (creds\n  in .env), with one-click digest unsubscribe.\n- Admin page for my account only: remove posts, comp memberships, member list with\n  payment status.\n- All member data in one SQLite file. No analytics, no telemetry.\n- Out of scope: mobile apps, courses, live streaming, and algorithmic discovery\n  feeds. Chronological posts from paying members is the product.\n- README: Stripe webhook setup, .env keys, and backup steps for the DB plus\n  uploads folder."
 }

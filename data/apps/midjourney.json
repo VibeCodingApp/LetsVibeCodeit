@@ -55,5 +55,6 @@
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "For a DIY version, call Stable Diffusion or DALL-E APIs. The UI is the easy part — the model quality gap is real.",
-  "reportedReplacements": 2
+  "reportedReplacements": 2,
+  "prompt": "Build me a local image-generation studio wrapping open models, in place of\nMidjourney. Requirements:\n\n- A local web app (Node + Express, plain HTML/JS) on localhost:4890: prompt box,\n  a generate-4 button, and a gallery grid of results.\n- Backend targets whichever engine I have: a local ComfyUI instance running Flux\n  or SDXL if there is a GPU, otherwise a hosted API like Replicate or fal.ai\n  (key in .env). Same UI either way.\n- Save every image to ~/ImageGen/YYYY-MM/ with a sidecar JSON: prompt, seed,\n  model, steps, so any result is reproducible later.\n- Gallery search over past prompts via SQLite FTS5, favorites, and one-click\n  re-run with the same seed or a new variation.\n- Style presets in a styles.json of prompt prefixes and suffixes I can toggle,\n  a poor man's style reference.\n- No accounts, no telemetry, everything stays local except the hosted-API calls.\n- Out of scope: training or fine-tuning models, and matching Midjourney's look.\n  Build for reproducibility and control, not a taste layer.\n- README: both engine setups, the rough cost per image on the hosted route, and\n  a plain note that this is not Midjourney, the proprietary model and its years\n  of aesthetic tuning cannot be rebuilt, this trades that for privacy and control."
 }

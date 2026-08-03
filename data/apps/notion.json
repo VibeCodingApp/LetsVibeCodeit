@@ -55,5 +55,6 @@
   "pagePriority": 4,
   "verifiedOneShot": false,
   "notes": "For personal note-taking with basic blocks, DIY is viable. For team wikis, use Notion or AppFlowy.",
-  "reportedReplacements": 0
+  "reportedReplacements": 0,
+  "prompt": "Build me a personal notes-and-databases app to replace Notion. Requirements:\n\n- A local web app: Node + Express + better-sqlite3, server-rendered pages with a little\n  vanilla JS. No frontend framework, no build step.\n- Pages are Markdown, stored in SQLite, edited in a plain textarea with a live preview\n  pane (render with marked). Markdown is the format, not blocks.\n- [[Wiki-style]] links between pages, with a backlinks section rendered at the bottom of\n  every page.\n- Simple databases: a page can define a table (columns typed text/number/date/select),\n  rows editable inline, stored as JSON in SQLite.\n- Full-text search across everything via SQLite FTS5, search box in the header.\n- A nightly export of all pages to a folder of plain .md files, so my notes are never\n  trapped in the app.\n- Binds to localhost only. No accounts, no telemetry, everything on my machine.\n- Out of scope: real-time collaboration, cross-device sync, and a block editor. Do not\n  build auth or hosting config, this runs on my own machine.\n- Include a README with setup steps and where the data lives on disk."
 }

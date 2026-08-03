@@ -48,7 +48,7 @@ export function AppTable({ apps, categories }: { apps: AppRow[]; categories: str
       <div className="container-main">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-2">
           <div>
-            <span className="text-[11px] font-medium uppercase tracking-[0.08em] text-primary font-mono">The Death List</span>
+            <span className="text-[11px] font-medium uppercase tracking-[0.08em] text-primary font-mono">The Vibecoded List</span>
             <h2 className="font-display text-3xl md:text-4xl font-bold mt-1">ranked by &ldquo;I replaced this&rdquo; votes</h2>
           </div>
           <div className="flex items-center gap-2">

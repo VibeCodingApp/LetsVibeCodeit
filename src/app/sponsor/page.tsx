@@ -117,7 +117,7 @@ export default function SponsorPage() {
         </div>
         <div className="border-y border-[var(--border)] py-6 lg:border-y-0 lg:border-l lg:pl-10">
           <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-primary">Why rotation works</p>
-          <p className="mt-3 text-sm leading-relaxed text-muted">A visitor may open one app detail, browse a category, compare a moat, and return to the death list. Each page view creates another relevant opportunity. Rotation shares those opportunities across sponsors instead of letting one buyer occupy every view.</p>
+          <p className="mt-3 text-sm leading-relaxed text-muted">A visitor may open one app detail, browse a category, compare a moat, and return to the vibecoded list. Each page view creates another relevant opportunity. Rotation shares those opportunities across sponsors instead of letting one buyer occupy every view.</p>
           <p className="mt-4 text-sm leading-relaxed text-muted">We do not promise a fixed impression count because traffic changes. We do promise honest placement rules, clear labeling, and a real chance to be seen as users navigate the catalog.</p>
         </div>
       </section>
