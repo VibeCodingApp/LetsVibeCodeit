@@ -1,9 +1,17 @@
 'use client';
 import { useState } from 'react';
+import posthog from 'posthog-js';
 
 export function DigestCard() {
   const [email, setEmail] = useState('');
-  const handle = (e: React.FormEvent) => { e.preventDefault(); if(email){alert(`Subscribed ${email}! (demo)`);setEmail('');} };
+  const handle = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email) {
+      if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN && process.env.NEXT_PUBLIC_POSTHOG_HOST) posthog.capture('digest_subscription_submitted');
+      alert(`Subscribed ${email}! (demo)`);
+      setEmail('');
+    }
+  };
   return (
     <section className="section-pad">
       <div className="container-main">

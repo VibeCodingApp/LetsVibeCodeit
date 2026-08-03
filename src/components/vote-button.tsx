@@ -16,7 +16,7 @@ export function VoteButton({ slug }: { slug: string }) {
     try {
       const response = await fetch(`/api/vote/${slug}`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ verdict: v }) });
       if (!response.ok) throw new Error('Vote request failed');
-      if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN) posthog.capture('verdict_vote', { app_slug: slug, verdict: v });
+      if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN && process.env.NEXT_PUBLIC_POSTHOG_HOST) posthog.capture('verdict_vote', { app_slug: slug, verdict: v });
       setVoted(v);
       setToast(`Voted ${v.toUpperCase()} on ${slug}`);
       setTimeout(() => setToast(''), 3000);
