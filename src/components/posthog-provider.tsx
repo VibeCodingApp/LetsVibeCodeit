@@ -28,6 +28,9 @@ export function PostHogProvider({ children }: { children: ReactNode }) {
       capture_pageleave: true,
       autocapture: true,
       capture_exceptions: true,
+      request_batching: false,
+      opt_out_useragent_filter: true,
+      debug: process.env.NODE_ENV === 'development',
     });
 
     if (synthetic) {

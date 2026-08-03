@@ -1,4 +1,3 @@
-import { connect as tcpConnect } from 'node:net';
 import { chromium } from 'playwright';
 import { fetchProxyList } from './proxy-list.mjs';
 
@@ -9,8 +8,8 @@ const DEFAULT_MIN_PAGES = 3;
 const DEFAULT_MAX_PAGES = 6;
 const DEFAULT_PROBE = 30;
 const NAV_TIMEOUT_MS = 25000;
-const CAPTURE_WAIT_MS = 8000;
-const PROBE_TIMEOUT_MS = 6000;
+const CAPTURE_WAIT_MS = 12000;
+const PROBE_TIMEOUT_MS = 20000;
 
 const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
@@ -64,33 +63,88 @@ function shuffle(list) {
   return copy;
 }
 
-function probeProxy(proxy, targetHost, targetPort) {
-  return new Promise(resolve => {
-    const socket = tcpConnect({ host: proxy.ip, port: proxy.port });
-    let buffer = '';
-    const finish = ok => {
-      clearTimeout(timer);
-      socket.destroy();
-      resolve(ok);
-    };
-    const timer = setTimeout(() => finish(false), PROBE_TIMEOUT_MS);
-    socket.on('error', () => finish(false));
-    socket.on('connect', () => {
-      socket.write(`CONNECT ${targetHost}:${targetPort} HTTP/1.1\r\nHost: ${targetHost}:${targetPort}\r\n\r\n`);
-    });
-    socket.on('data', chunk => {
-      buffer += chunk.toString('latin1');
-      if (buffer.includes('\r\n\r\n')) finish(buffer.includes(' 200 '));
-    });
+function watchCapture(page) {
+  page.on('response', response => {
+    const url = response.url();
+    if (
+      url.includes('posthog') &&
+      (url.includes('/e/') || url.includes('/batch/') || url.includes('/i/v0')) &&
+      response.ok()
+    ) {
+      page.evaluate(() => {
+        window.__phWatch = (window.__phWatch || 0) + 1;
+      }).catch(() => {});
+    }
   });
 }
 
-async function probeProxies(proxies, probeCount, targetHost) {
+async function humanRead(page, minMs, maxMs) {
+  await page.waitForTimeout(randomInt(minMs, maxMs));
+}
+
+async function humanScroll(page) {
+  const steps = randomInt(2, 5);
+  for (let step = 0; step < steps; step += 1) {
+    const x = randomInt(200, 1200);
+    const y = randomInt(100, 700);
+    await page.mouse.move(x, y);
+    await humanRead(page, 120, 420);
+    await page.mouse.wheel(0, randomInt(250, 900));
+    await humanRead(page, 180, 650);
+  }
+  if (Math.random() < 0.35) {
+    await page.mouse.wheel(0, -randomInt(400, 1600));
+    await humanRead(page, 300, 800);
+  }
+}
+
+async function probeProxy(browser, proxy, baseUrl, runId) {
+  const context = await browser.newContext({
+    proxy: { server: `http://${proxy.ip}:${proxy.port}` },
+    ignoreHTTPSErrors: true,
+    userAgent: pick(USER_AGENTS),
+    locale: pick(LOCALES),
+    timezoneId: pick(TIMEZONES),
+  });
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+  });
+  try {
+    const page = await context.newPage();
+    watchCapture(page);
+    await page.goto(`${baseUrl}?ph_synthetic=1&ph_run=${runId}-probe`, {
+      waitUntil: 'domcontentloaded',
+      timeout: PROBE_TIMEOUT_MS,
+    });
+    await page.waitForFunction(() => (window.__phWatch || 0) > 0, { timeout: PROBE_TIMEOUT_MS });
+    return true;
+  } catch {
+    return false;
+  } finally {
+    await context.close().catch(() => {});
+  }
+}
+
+async function probeProxies(browser, proxies, probeCount, baseUrl, runId) {
   const candidates = shuffle(proxies).slice(0, probeCount);
-  const results = await Promise.all(candidates.map(proxy => probeProxy(proxy, targetHost, 443)));
-  const live = candidates.filter((proxy, index) => results[index]);
-  console.log(`probe=${candidates.length} live=${live.length}`);
-  return live.length > 0 ? live : proxies;
+  let cursor = 0;
+  let live = 0;
+  const liveList = [];
+
+  async function worker() {
+    while (cursor < candidates.length) {
+      const proxy = candidates[cursor];
+      cursor += 1;
+      if (await probeProxy(browser, proxy, baseUrl, runId)) {
+        live += 1;
+        liveList.push(proxy);
+      }
+    }
+  }
+
+  await Promise.all(Array.from({ length: 6 }, worker));
+  console.log(`probe=${candidates.length} live=${live}`);
+  return liveList;
 }
 
 async function collectInternalLinks(page) {
@@ -106,35 +160,25 @@ async function collectInternalLinks(page) {
 async function runSession(browser, proxy, runId, baseUrl, minPages, maxPages) {
   const context = await browser.newContext({
     proxy: proxy ? { server: `http://${proxy.ip}:${proxy.port}` } : undefined,
+    ignoreHTTPSErrors: true,
     userAgent: pick(USER_AGENTS),
     viewport: { width: randomInt(1280, 1920), height: randomInt(800, 1080) },
     locale: pick(LOCALES),
     timezoneId: pick(TIMEZONES),
     colorScheme: pick(['light', 'dark']),
   });
+  await context.addInitScript(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+  });
 
   try {
-    await context.addInitScript(() => {
-      Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-    });
-
     const page = await context.newPage();
-    let captureOk = false;
-    page.on('response', response => {
-      const url = response.url();
-      if (
-        (url.includes('/e/') || url.includes('/batch/') || url.includes('/s/')) &&
-        url.includes('posthog') &&
-        response.ok()
-      ) {
-        captureOk = true;
-      }
-    });
+    watchCapture(page);
 
     const entry = `${baseUrl}?ph_synthetic=1&ph_run=${runId}`;
     await page.goto(entry, { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT_MS });
-    await page.waitForFunction(() => typeof window.posthog === 'object', { timeout: 10000 });
-    await page.waitForTimeout(randomInt(1500, 3500));
+    await humanRead(page, 1800, 4200);
+    await humanScroll(page);
 
     const visited = new Set(['/']);
     const pagesToVisit = randomInt(minPages, maxPages);
@@ -155,16 +199,11 @@ async function runSession(browser, proxy, runId, baseUrl, minPages, maxPages) {
         waitUntil: 'domcontentloaded',
         timeout: NAV_TIMEOUT_MS,
       });
-      await page.waitForTimeout(randomInt(700, 2400));
-      await page.mouse.wheel(0, randomInt(300, 1400));
-      await page.waitForTimeout(randomInt(300, 1000));
+      await humanRead(page, 1000, 3000);
+      await humanScroll(page);
     }
 
-    const deadline = Date.now() + CAPTURE_WAIT_MS;
-    while (!captureOk && Date.now() < deadline) {
-      await page.waitForTimeout(500);
-    }
-    if (!captureOk) throw new Error('no PostHog capture response (proxy blocked analytics)');
+    await page.waitForFunction(() => (window.__phWatch || 0) > 0, { timeout: CAPTURE_WAIT_MS });
   } finally {
     await context.close().catch(() => {});
   }
@@ -197,10 +236,10 @@ async function main() {
     throw new Error('--proxy-mode route needs proxies; could not fetch the free proxy list. Use --proxy-file or retry.');
   }
   if (!Number.isInteger(probeCount) || probeCount < 0) throw new Error('--probe must be a non-negative integer.');
-  const liveProxies =
-    proxyMode === 'route' && probeCount > 0 ? await probeProxies(proxies, probeCount, new URL(baseUrl).host) : proxies;
 
   const browser = await chromium.launch({ headless: !headed });
+  const liveProxies =
+    proxyMode === 'route' && probeCount > 0 ? await probeProxies(browser, proxies, probeCount, baseUrl, runId) : proxies;
   let cursor = 0;
   let ok = 0;
   let failed = 0;
@@ -210,7 +249,7 @@ async function main() {
       const sessionIndex = cursor;
       cursor += 1;
       let success = false;
-      for (let attempt = 0; attempt < 3 && !success; attempt += 1) {
+      for (let attempt = 0; attempt < 4 && !success; attempt += 1) {
         const proxy = liveProxies.length > 0 ? pick(liveProxies) : null;
         try {
           await runSession(browser, proxy, runId, baseUrl, minPages, maxPages);
