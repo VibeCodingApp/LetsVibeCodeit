@@ -14,6 +14,14 @@ export function PostHogProvider({ children }: { children: ReactNode }) {
     const host = process.env.NEXT_PUBLIC_POSTHOG_HOST;
     if (!token || !host) return;
 
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('ph_synthetic') === '1') {
+      posthog.register({
+        synthetic_test: true,
+        test_run: params.get('ph_run') || 'unknown',
+      });
+    }
+
     posthog.init(token, {
       api_host: host,
       defaults: '2026-05-30',

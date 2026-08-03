@@ -6,6 +6,8 @@ export type PostHogStats = {
   updatedAt: string;
 };
 
+const PAGEVIEW_EVENTS = "event IN ('$pageview', 'synthetic_pageview')";
+
 type QueryRow = unknown[];
 type QueryResponse = { results?: QueryRow[] };
 
@@ -60,15 +62,15 @@ export async function getPostHogStats(): Promise<PostHogStats | null> {
 
   const overview = await runQuery(
     `SELECT
-      countIf(event = '$pageview' AND timestamp >= now() - interval 24 hour),
-      countIf(event = '$pageview' AND timestamp >= now() - interval 7 day),
-      uniqExactIf(distinct_id, event = '$pageview' AND timestamp >= now() - interval 7 day),
+      countIf(${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 24 hour),
+      countIf(${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 7 day),
+      uniqExactIf(distinct_id, ${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 7 day),
     FROM events`,
     'letsvibecodeit live analytics overview',
   );
   const peak = await runQuery(
     `SELECT count() FROM events
-      WHERE event = '$pageview' AND timestamp >= now() - interval 30 day
+      WHERE ${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 30 day
       GROUP BY toDate(timestamp) ORDER BY count() DESC LIMIT 1`,
     'letsvibecodeit peak daily pageviews',
   );

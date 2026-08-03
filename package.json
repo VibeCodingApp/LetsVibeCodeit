@@ -8,6 +8,8 @@
     "start": "next start -p 8095",
     "lint": "next lint",
     "check:loc": "node scripts/check-loc.mjs",
+    "posthog:synthetic": "node --env-file=.env.local scripts/posthog-synthetic.mjs",
+    "browser:sim": "node scripts/browser-simulation.mjs",
     "sync:vibelist": "node scripts/sync-vibelist.mjs D:/Work/vibelist/apps data/apps"
   },
   "dependencies": {
@@ -23,6 +25,7 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",
     "eslint-config-next": "^14.2.35",
+    "playwright": "^1.62.1",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
     "typescript": "^5.5.0"
