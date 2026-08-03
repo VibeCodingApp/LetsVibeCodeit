@@ -1,0 +1,62 @@
+{
+  "slug": "wireflow",
+  "name": "Wireflow",
+  "domain": "wireflow.com",
+  "category": "generative-media",
+  "subcategory": null,
+  "tagline": "Chaining a few model calls is a script, and ComfyUI already gives you a free node canvas. What you will not get in a weekend is the part after generation: a track and keyframe timeline with hosted rendering, and live multiplayer inside it. The graph is vibecodable. The editor attached to it is not.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Wireflow costs $24/mo ($288/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Chaining a few model calls is a script, and ComfyUI already gives you a free node canvas. What you will not get in a weekend is the part after generation: a track and keyframe timeline with hosted rendering, and live multiplayer inside it. The graph is vibecodable. The editor attached to it is not.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Wireflow",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "Chaining a few model calls is a script, and ComfyUI already gives you a free node canvas. What you will not get in a weekend is the part after generation: a track and keyframe timeline with hosted rendering, and live multiplayer inside it. The graph is vibecodable. The editor attached to it is not.",
+  "priorArt": [
+    {
+      "name": "ComfyUI free node graph for image and video models, with a large shared-workflow scene around",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "desc": "ComfyUI free node graph for image and video models, with a large shared-workflow scene around it · the honest starting point ↗"
+    },
+    {
+      "name": "n8n self-hostable visual workflow engine, weaker on media ↗",
+      "url": "https://github.com/n8n-io/n8n",
+      "desc": "n8n self-hostable visual workflow engine, weaker on media ↗"
+    },
+    {
+      "name": "Flowise drag-and-drop LLM chains, self-hosted ↗",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "desc": "Flowise drag-and-drop LLM chains, self-hosted ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "n8n-cloud",
+    "krea",
+    "runway"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Chaining a few model calls is a script, and ComfyUI already gives you a free node canvas. What you will not get in a weekend is the part after generation: a track and keyframe timeline with hosted rendering, and live multiplayer inside it. The graph is vibecodable. The editor attached to it is not.",
+  "reportedReplacements": 0
+}

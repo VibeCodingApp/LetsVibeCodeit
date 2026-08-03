@@ -1,0 +1,56 @@
+{
+  "slug": "feedhive",
+  "name": "FeedHive",
+  "domain": "feedhive.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "The visible AI social scheduling loop is buildable, but a credible replacement needs more than the first screen. FeedHive earns its keep through platform APIs, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: FeedHive has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible AI social scheduling loop is buildable, but a credible replacement needs more than the first screen. FeedHive earns its keep through platform APIs, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from FeedHive",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The visible AI social scheduling loop is buildable, but a credible replacement needs more than the first screen. FeedHive earns its keep through platform APIs, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Postiz Open-source social scheduling and publishing platform. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Open-source social scheduling and publishing platform. ↗"
+    },
+    {
+      "name": "Mixpost Self-hosted social media management software. ↗",
+      "url": "https://github.com/inovector/mixpost",
+      "desc": "Mixpost Self-hosted social media management software. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ocoya",
+    "predis-ai",
+    "authoredup"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible AI social scheduling loop is buildable, but a credible replacement needs more than the first screen. FeedHive earns its keep through platform APIs, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

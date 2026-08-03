@@ -1,0 +1,51 @@
+{
+  "slug": "mouseflow",
+  "name": "Mouseflow",
+  "domain": "mouseflow.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mouseflow, capture a small consented session sample and render a simple playback for debugging. The hard boundary is capture compression, privacy redaction, storage, heatmaps, funnels, and hosted scale, plus data pipeline reliability and analytical depth.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Mouseflow costs $39/mo ($468/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mouseflow, capture a small consented session sample and render a simple playback for debugging. The hard boundary is capture compression, privacy redaction, storage, heatmaps, funnels, and hosted scale, plus data pipeline reliability and analytical depth.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mouseflow",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mouseflow, capture a small consented session sample and render a simple playback for debugging. The hard boundary is capture compression, privacy redaction, storage, heatmaps, funnels, and hosted scale, plus data pipeline reliability and analytical depth.",
+  "priorArt": [
+    {
+      "name": "Umami Popular open-source privacy-focused web analytics platform. ↗",
+      "url": "https://github.com/umami-software/umami",
+      "desc": "Umami Popular open-source privacy-focused web analytics platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "matomo-cloud",
+    "posthog",
+    "mixpanel"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mouseflow, capture a small consented session sample and render a simple playback for debugging. The hard boundary is capture compression, privacy redaction, storage, heatmaps, funnels, and hosted scale, plus data pipeline reliability and analytical depth.",
+  "reportedReplacements": 0
+}

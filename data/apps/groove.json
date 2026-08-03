@@ -1,0 +1,52 @@
+{
+  "slug": "groove",
+  "name": "Groove",
+  "domain": "groove.com",
+  "category": "customer-support",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Groove, turn one support mailbox into an assigned team inbox with a knowledge base. The hard boundary is email reliability, reporting, rules, integrations, and mature simplicity, plus channel integrations and support operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Groove costs $20/mo ($240/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Groove, turn one support mailbox into an assigned team inbox with a knowledge base. The hard boundary is email reliability, reporting, rules, integrations, and mature simplicity, plus channel integrations and support operations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Groove",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Groove, turn one support mailbox into an assigned team inbox with a knowledge base. The hard boundary is email reliability, reporting, rules, integrations, and mature simplicity, plus channel integrations and support operations.",
+  "priorArt": [
+    {
+      "name": "Chatwoot Mature open-source customer engagement and shared-inbox platform. ↗",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "desc": "Chatwoot Mature open-source customer engagement and shared-inbox platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "intercom",
+    "zendesk",
+    "help-scout"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Groove, turn one support mailbox into an assigned team inbox with a knowledge base. The hard boundary is email reliability, reporting, rules, integrations, and mature simplicity, plus channel integrations and support operations.",
+  "reportedReplacements": 0
+}

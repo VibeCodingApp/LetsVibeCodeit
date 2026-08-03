@@ -1,0 +1,56 @@
+{
+  "slug": "workato",
+  "name": "Workato",
+  "domain": "workato.com",
+  "category": "automation",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Workato's durable value is connectors, auth, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Workato has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Workato's durable value is connectors, auth, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Workato",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Workato's durable value is connectors, auth, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Activepieces Open-source automation builder with connectors and self-hosting. ↗",
+      "url": "https://github.com/activepieces/activepieces",
+      "desc": "Activepieces Open-source automation builder with connectors and self-hosting. ↗"
+    },
+    {
+      "name": "n8n Source-available workflow automation engine and connector reference. ↗",
+      "url": "https://github.com/n8n-io/n8n",
+      "desc": "n8n Source-available workflow automation engine and connector reference. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "tray-io",
+    "gumloop",
+    "pabbly-connect"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Workato's durable value is connectors, auth, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

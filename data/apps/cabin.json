@@ -1,0 +1,56 @@
+{
+  "slug": "cabin",
+  "name": "Cabin",
+  "domain": "cabin.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "The visible privacy web analytics loop is buildable, but a credible replacement needs more than the first screen. Cabin earns its keep through ingestion, storage, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Cabin has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible privacy web analytics loop is buildable, but a credible replacement needs more than the first screen. Cabin earns its keep through ingestion, storage, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "weekend to multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Cabin",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The visible privacy web analytics loop is buildable, but a credible replacement needs more than the first screen. Cabin earns its keep through ingestion, storage, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Plausible Analytics Open-source privacy-focused web analytics. ↗",
+      "url": "https://github.com/plausible/analytics",
+      "desc": "Plausible Analytics Open-source privacy-focused web analytics. ↗"
+    },
+    {
+      "name": "Umami Lightweight self-hosted web analytics. ↗",
+      "url": "https://github.com/umami-software/umami",
+      "desc": "Umami Lightweight self-hosted web analytics. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "posthog",
+    "mixpanel",
+    "pirsch"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible privacy web analytics loop is buildable, but a credible replacement needs more than the first screen. Cabin earns its keep through ingestion, storage, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

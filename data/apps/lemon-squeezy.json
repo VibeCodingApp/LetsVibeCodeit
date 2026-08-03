@@ -1,0 +1,51 @@
+{
+  "slug": "lemon-squeezy",
+  "name": "Lemon Squeezy",
+  "domain": "lemon-squeezy.com",
+  "category": "creator-commerce",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Lemon Squeezy, sell a digital product with Stripe while explicitly leaving tax remittance to the creator. The hard boundary is merchant-of-record tax, payments, fraud, licensing, subscriptions, and global compliance, plus payments, tax, distribution, and operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Lemon Squeezy has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Lemon Squeezy, sell a digital product with Stripe while explicitly leaving tax remittance to the creator. The hard boundary is merchant-of-record tax, payments, fraud, licensing, subscriptions, and global compliance, plus payments, tax, distribution, and operations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Lemon Squeezy",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Lemon Squeezy, sell a digital product with Stripe while explicitly leaving tax remittance to the creator. The hard boundary is merchant-of-record tax, payments, fraud, licensing, subscriptions, and global compliance, plus payments, tax, distribution, and operations.",
+  "priorArt": [
+    {
+      "name": "Medusa Active open-source commerce platform with modular checkout and fulfillment primitives. ↗",
+      "url": "https://github.com/medusajs/medusa",
+      "desc": "Medusa Active open-source commerce platform with modular checkout and fulfillment primitives. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "gumroad",
+    "paddle",
+    "bigcommerce"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Lemon Squeezy, sell a digital product with Stripe while explicitly leaving tax remittance to the creator. The hard boundary is merchant-of-record tax, payments, fraud, licensing, subscriptions, and global compliance, plus payments, tax, distribution, and operations.",
+  "reportedReplacements": 0
+}

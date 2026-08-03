@@ -1,0 +1,52 @@
+{
+  "slug": "reply-io",
+  "name": "Reply.io",
+  "domain": "reply-io.com",
+  "category": "sales-outreach",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Reply.io, manage a short compliant sequence over one email provider and log replies. The hard boundary is multichannel integrations, data, calling, ai agents, and mature sales operations, plus proprietary data, deliverability, and network effects.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Reply.io costs $89/mo ($1068/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Reply.io, manage a short compliant sequence over one email provider and log replies. The hard boundary is multichannel integrations, data, calling, ai agents, and mature sales operations, plus proprietary data, deliverability, and network effects.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Reply.io",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "infrastructure-scale",
+    "network-effects"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Reply.io, manage a short compliant sequence over one email provider and log replies. The hard boundary is multichannel integrations, data, calling, ai agents, and mature sales operations, plus proprietary data, deliverability, and network effects.",
+  "priorArt": [
+    {
+      "name": "Mautic Open-source marketing automation platform with campaigns, contacts, and email workflows. ↗",
+      "url": "https://github.com/mautic/mautic",
+      "desc": "Mautic Open-source marketing automation platform with campaigns, contacts, and email workflows. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "apollo-io",
+    "clay",
+    "lemlist"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Reply.io, manage a short compliant sequence over one email provider and log replies. The hard boundary is multichannel integrations, data, calling, ai agents, and mature sales operations, plus proprietary data, deliverability, and network effects.",
+  "reportedReplacements": 0
+}

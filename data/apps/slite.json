@@ -1,0 +1,51 @@
+{
+  "slug": "slite",
+  "name": "Slite",
+  "domain": "slite.com",
+  "category": "notes-knowledge",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Slite, create a clean team wiki with documents, collections, search, and lightweight answers. The hard boundary is team search, permissions, integrations, ai answers, and polished collaborative editing, plus sync, collaboration, and capture polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Slite costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Slite, create a clean team wiki with documents, collections, search, and lightweight answers. The hard boundary is team search, permissions, integrations, ai answers, and polished collaborative editing, plus sync, collaboration, and capture polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Slite",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Slite, create a clean team wiki with documents, collections, search, and lightweight answers. The hard boundary is team search, permissions, integrations, ai answers, and polished collaborative editing, plus sync, collaboration, and capture polish.",
+  "priorArt": [
+    {
+      "name": "AppFlowy Active open-source workspace with local-first documents and databases. ↗",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "desc": "AppFlowy Active open-source workspace with local-first documents and databases. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "craft",
+    "nuclino",
+    "bear-pro"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Slite, create a clean team wiki with documents, collections, search, and lightweight answers. The hard boundary is team search, permissions, integrations, ai answers, and polished collaborative editing, plus sync, collaboration, and capture polish.",
+  "reportedReplacements": 0
+}

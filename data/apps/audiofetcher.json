@@ -1,0 +1,60 @@
+{
+  "slug": "audiofetcher",
+  "name": "AudioFetcher",
+  "domain": "audiofetcher.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "The core loop is genuinely one-shottable: a small local UI, yt-dlp for the fetch, ffmpeg for the encode, files land in a folder. What is not a one sitting is everything that makes a public converter feel reliable week after week · YouTube bot checks, cookies/PO tokens, geo blocks, fair queues, abuse protection, and a hosted path so non-technical people never open a terminal. Build the personal script; do not expect one prompt to replace a maintained public service.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: AudioFetcher costs $6/mo ($72/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is genuinely one-shottable: a small local UI, yt-dlp for the fetch, ffmpeg for the encode, files land in a folder. What is not a one sitting is everything that makes a public converter feel reliable week after week · YouTube bot checks, cookies/PO tokens, geo blocks, fair queues, abuse protection, and a hosted path so non-technical people never open a terminal. Build the personal script; do not expect one prompt to replace a maintained public service.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from AudioFetcher",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is genuinely one-shottable: a small local UI, yt-dlp for the fetch, ffmpeg for the encode, files land in a folder. What is not a one sitting is everything that makes a public converter feel reliable week after week · YouTube bot checks, cookies/PO tokens, geo blocks, fair queues, abuse protection, and a hosted path so non-technical people never open a terminal. Build the personal script; do not expect one prompt to replace a maintained public service.",
+  "priorArt": [
+    {
+      "name": "yt-dlp The actual download engine almost every converter wraps. Best DIY path is using it directly. ↗",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "desc": "yt-dlp The actual download engine almost every converter wraps. Best DIY path is using it directly. ↗"
+    },
+    {
+      "name": "cobalt Open-source multi-service media downloader with a self-hostable API and web UI. ↗",
+      "url": "https://github.com/imputnet/cobalt",
+      "desc": "cobalt Open-source multi-service media downloader with a self-hostable API and web UI. ↗"
+    },
+    {
+      "name": "youtube-dl Older predecessor; still useful context for how long this cat-and-mouse has run. ↗",
+      "url": "https://github.com/ytdl-org/youtube-dl",
+      "desc": "youtube-dl Older predecessor; still useful context for how long this cat-and-mouse has run. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "descript",
+    "capcut",
+    "elevenlabs"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is genuinely one-shottable: a small local UI, yt-dlp for the fetch, ffmpeg for the encode, files land in a folder. What is not a one sitting is everything that makes a public converter feel reliable week after week · YouTube bot checks, cookies/PO tokens, geo blocks, fair queues, abuse protection, and a hosted path so non-technical people never open a terminal. Build the personal script; do not expect one prompt to replace a maintained public service.",
+  "reportedReplacements": 0
+}

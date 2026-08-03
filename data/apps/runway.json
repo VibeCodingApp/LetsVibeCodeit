@@ -1,0 +1,51 @@
+{
+  "slug": "runway",
+  "name": "Runway",
+  "domain": "runway.com",
+  "category": "ai-video",
+  "subcategory": null,
+  "tagline": "A UI around video models is buildable; the video-generation model quality, compute, safety, editing stack, and continuous research are not a solo afternoon project.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Runway costs $15/mo ($180/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A UI around video models is buildable; the video-generation model quality, compute, safety, editing stack, and continuous research are not a solo afternoon project.",
+  "diyTimeEstimate": "not realistically solo",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Runway",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A UI around video models is buildable; the video-generation model quality, compute, safety, editing stack, and continuous research are not a solo afternoon project.",
+  "priorArt": [
+    {
+      "name": "diffusers Open-source library for diffusion models; useful for experimentation, not a Runway replace ↗",
+      "url": "https://github.com/huggingface/diffusers",
+      "desc": "diffusers Open-source library for diffusion models; useful for experimentation, not a Runway replace ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "elevenlabs",
+    "chatgpt",
+    "claude"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A UI around video models is buildable; the video-generation model quality, compute, safety, editing stack, and continuous research are not a solo afternoon project.",
+  "reportedReplacements": 0
+}

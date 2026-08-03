@@ -1,32 +1,44 @@
-## Session: 2026-08-03 — PostHog integration and public repository publication
+# CODEX_STATE
 
-**Status:** Ready for public push — the implementation, redaction pass, docs, and local validation are complete.
+## Current session
 
-**Completed in this session:**
-- Installed posthog-js.
-- Added a client PostHog provider with pageview, pageleave, and autocapture support.
-- Added explicit custom events for prompt copies, successful votes, and search selections.
-- Replaced hardcoded /stats values and homepage analytics values with live PostHog Query API data.
-- Added safe server-only environment variables and a 503/502 fallback when PostHog is not configured or temporarily unavailable.
-- Added a detailed README and refreshed the project index.
-- Removed prompt contents from all public app JSON records and redacted the site-generation prompt page.
-- Added ignore rules for real environment files, build output, logs, and TypeScript build metadata.
-- Created the GitHub repository VibeCodingApp/LetsVibeCodeit and configured it as origin.
-- Ran the official npx -y @posthog/wizard@latest command; the published wizard required an interactive TTY/authentication flow and could not complete in this terminal.
+- Date: 2026-08-03
+- Status: Public-data sanitization in progress; local pre-sanitization commit `55ce8b3` was not pushed.
+- Repository: `D:\Work\vebecoder`
+- Private source: `D:\Work\vibelist\apps`
+- Intended GitHub repository: `letsvibecodeit`
 
-**Validation completed:**
-- npm run lint passes.
-- npm run check:loc passes.
-- tsc --noEmit passes.
-- npm run build passes and generates 72 pages.
-- Local /stats returns 200.
-- Local /api/stats returns the expected 503 while PostHog server credentials are absent.
-- Prompt audit reports 34 app files and zero non-empty prompt values.
-- Secret-pattern audit reports no GitHub token, PostHog key, private key, or populated secret environment value.
-- Local dev server is running at http://localhost:8095.
+## Completed before sanitization
 
-**Current focus:** Push the clean public snapshot to origin and verify the remote commit and repository tree.
+- Connected all 948 product records and added `linktree`, `getwaitlist`, `qr`, `shots`, `testimonial-to`, and `uptime`.
+- Added product detail routes with real favicons, metadata, verdicts, what-you-lose, prior art, related apps, FAQ, vote/share actions, hero ads, in-list ads, and centered footer.
+- Added `scripts/sync-vibelist.mjs` and `npm run sync:vibelist`.
+- Verified desktop/mobile pages locally and generated 1,061 routes in the production build.
 
-**Branch:** main
+## Security decision now in force
 
-**Secrets:** No PostHog or GitHub token values are stored in the repository or remote URL.
+- Full prompts are private source material and must not be committed, pushed, served, embedded, copied into analytics, or hidden in public HTML/JSON-LD/build artifacts.
+- `data/apps/*.json` has been sanitized to public metadata only; 948 records remain.
+- Product pages now show a protected-content notice instead of prompt text or agent/copy actions.
+- Prompt-copy analytics and agent-variant UI were removed from the public app.
+- README is user-facing and intentionally avoids internal implementation detail.
+- `AGENTS.md`, `PROJECT_INDEX.md`, and `docs/PUBLIC_DATA_POLICY.md` contain the detailed agent contract.
+
+## Validation already known
+
+- Before this sanitization: `npm run lint`, `npm run check:loc`, strict TypeScript, and `npm run build` passed; build generated 1,061 routes.
+- Desktop/mobile QA passed on `/testimonial-to` and `/uptime` before the privacy recut.
+- Autoreview could not complete because its review bundle rejects the 948-record catalog and prompt-like descriptions as secret-like content; this limitation must be reported, not bypassed by publishing sensitive material.
+
+## Next actions
+
+1. Run the sanitized catalog scan, lint, LOC, strict typecheck, build, and diff check.
+2. Run autoreview on the code/documentation diff if the bundle permits; otherwise record the size limitation.
+3. Amend the local commit so its history contains only public-safe data.
+4. Authenticate to the intended GitHub account without exposing the token, push, and verify the remote SHA.
+5. Confirm the public remote contains no prompt fields or prompt text.
+
+## Security
+
+- No environment files, API keys, GitHub tokens, private keys, or deployment credentials belong in this repository.
+- Any credential pasted into chat should be rotated by the owner after use.

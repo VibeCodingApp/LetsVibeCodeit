@@ -1,0 +1,52 @@
+{
+  "slug": "alitu",
+  "name": "Alitu",
+  "domain": "alitu.com",
+  "category": "podcasting",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Alitu, clean, assemble, publish, and package a recurring spoken-word podcast episode. The hard boundary is production automation, hosting integrations, support, and creator-specific polish, plus audio infrastructure, distribution, and production polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Alitu costs $38/mo ($456/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Alitu, clean, assemble, publish, and package a recurring spoken-word podcast episode. The hard boundary is production automation, hosting integrations, support, and creator-specific polish, plus audio infrastructure, distribution, and production polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Alitu",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale",
+    "content-rights"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Alitu, clean, assemble, publish, and package a recurring spoken-word podcast episode. The hard boundary is production automation, hosting integrations, support, and creator-specific polish, plus audio infrastructure, distribution, and production polish.",
+  "priorArt": [
+    {
+      "name": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗",
+      "url": "https://github.com/audacity/audacity",
+      "desc": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "riverside",
+    "auphonic",
+    "castmagic"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Alitu, clean, assemble, publish, and package a recurring spoken-word podcast episode. The hard boundary is production automation, hosting integrations, support, and creator-specific polish, plus audio infrastructure, distribution, and production polish.",
+  "reportedReplacements": 0
+}

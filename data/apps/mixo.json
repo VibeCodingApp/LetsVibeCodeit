@@ -1,0 +1,56 @@
+{
+  "slug": "mixo",
+  "name": "Mixo",
+  "domain": "mixo.com",
+  "category": "website-builders",
+  "subcategory": null,
+  "tagline": "Mixo's solo core is compact: build a focused AI website builder generator that edits structured page sections, previews responsive layouts, and publishes static files. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on editor, CMS, hosting, polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Mixo has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Mixo's solo core is compact: build a focused AI website builder generator that edits structured page sections, previews responsive layouts, and publishes static files. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on editor, CMS, hosting, polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mixo",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "Mixo's solo core is compact: build a focused AI website builder generator that edits structured page sections, previews responsive layouts, and publishes static files. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on editor, CMS, hosting, polish.",
+  "priorArt": [
+    {
+      "name": "Webstudio Open-source visual website builder. ↗",
+      "url": "https://github.com/webstudio-is/webstudio",
+      "desc": "Webstudio Open-source visual website builder. ↗"
+    },
+    {
+      "name": "GrapesJS Open-source web-builder framework. ↗",
+      "url": "https://github.com/GrapesJS/grapesjs",
+      "desc": "GrapesJS Open-source web-builder framework. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "dorik",
+    "typedream",
+    "pixieset"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Mixo's solo core is compact: build a focused AI website builder generator that edits structured page sections, previews responsive layouts, and publishes static files. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on editor, CMS, hosting, polish.",
+  "reportedReplacements": 0
+}

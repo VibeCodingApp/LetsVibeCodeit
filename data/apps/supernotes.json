@@ -1,0 +1,51 @@
+{
+  "slug": "supernotes",
+  "name": "Supernotes",
+  "domain": "supernotes.com",
+  "category": "notes-knowledge",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Supernotes, capture small linked cards, tag them, and review or share focused collections. The hard boundary is real-time collaboration, mobile polish, sync, and card-based workflow refinement, plus sync, collaboration, and capture polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Supernotes costs $11/mo ($132/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Supernotes, capture small linked cards, tag them, and review or share focused collections. The hard boundary is real-time collaboration, mobile polish, sync, and card-based workflow refinement, plus sync, collaboration, and capture polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Supernotes",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Supernotes, capture small linked cards, tag them, and review or share focused collections. The hard boundary is real-time collaboration, mobile polish, sync, and card-based workflow refinement, plus sync, collaboration, and capture polish.",
+  "priorArt": [
+    {
+      "name": "AppFlowy Active open-source workspace with local-first documents and databases. ↗",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "desc": "AppFlowy Active open-source workspace with local-first documents and databases. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "craft",
+    "slite",
+    "nuclino"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Supernotes, capture small linked cards, tag them, and review or share focused collections. The hard boundary is real-time collaboration, mobile polish, sync, and card-based workflow refinement, plus sync, collaboration, and capture polish.",
+  "reportedReplacements": 0
+}

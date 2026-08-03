@@ -1,0 +1,50 @@
+{
+  "slug": "amazing-marvin",
+  "name": "Amazing Marvin",
+  "domain": "amazing-marvin.com",
+  "category": "tasks",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Amazing Marvin, build a configurable personal task system from strategies, views, timers, and reviews. The hard boundary is very deep strategy library, cross-platform sync, and years of workflow experimentation, plus cross-device reliability and workflow polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Amazing Marvin costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Amazing Marvin, build a configurable personal task system from strategies, views, timers, and reviews. The hard boundary is very deep strategy library, cross-platform sync, and years of workflow experimentation, plus cross-device reliability and workflow polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Amazing Marvin",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Amazing Marvin, build a configurable personal task system from strategies, views, timers, and reviews. The hard boundary is very deep strategy library, cross-platform sync, and years of workflow experimentation, plus cross-device reliability and workflow polish.",
+  "priorArt": [
+    {
+      "name": "Vikunja Mature open-source task and project manager with lists, kanban, and recurring work. ↗",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "desc": "Vikunja Mature open-source task and project manager with lists, kanban, and recurring work. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ticktick",
+    "things-3",
+    "routine"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Amazing Marvin, build a configurable personal task system from strategies, views, timers, and reviews. The hard boundary is very deep strategy library, cross-platform sync, and years of workflow experimentation, plus cross-device reliability and workflow polish.",
+  "reportedReplacements": 0
+}

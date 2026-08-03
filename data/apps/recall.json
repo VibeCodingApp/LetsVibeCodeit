@@ -1,0 +1,51 @@
+{
+  "slug": "recall",
+  "name": "Recall",
+  "domain": "recall.com",
+  "category": "reading",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Recall, save user-provided sources, summarize them, and build a linked personal knowledge graph. The hard boundary is hosted extraction, model routing, browser capture, sync, and knowledge-graph polish, plus capture polish, sync, and content partnerships.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Recall costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Recall, save user-provided sources, summarize them, and build a linked personal knowledge graph. The hard boundary is hosted extraction, model routing, browser capture, sync, and knowledge-graph polish, plus capture polish, sync, and content partnerships.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Recall",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Recall, save user-provided sources, summarize them, and build a linked personal knowledge graph. The hard boundary is hosted extraction, model routing, browser capture, sync, and knowledge-graph polish, plus capture polish, sync, and content partnerships.",
+  "priorArt": [
+    {
+      "name": "FreshRSS Mature open-source RSS reader with feeds, filters, and self-hosting support. ↗",
+      "url": "https://github.com/FreshRSS/FreshRSS",
+      "desc": "FreshRSS Mature open-source RSS reader with feeds, filters, and self-hosting support. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "readwise",
+    "raindrop-io",
+    "inoreader"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Recall, save user-provided sources, summarize them, and build a linked personal knowledge graph. The hard boundary is hosted extraction, model routing, browser capture, sync, and knowledge-graph polish, plus capture polish, sync, and content partnerships.",
+  "reportedReplacements": 0
+}

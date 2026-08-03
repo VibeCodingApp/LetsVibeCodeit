@@ -1,0 +1,52 @@
+{
+  "slug": "podcastle",
+  "name": "Podcastle",
+  "domain": "podcastle.com",
+  "category": "podcasting",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Podcastle, record or import spoken audio, clean it, transcribe it, and assemble a simple episode. The hard boundary is hosted studio, ai voices, collaboration, asset library, and cloud rendering, plus audio infrastructure, distribution, and production polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Podcastle costs $14.99/mo ($179.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Podcastle, record or import spoken audio, clean it, transcribe it, and assemble a simple episode. The hard boundary is hosted studio, ai voices, collaboration, asset library, and cloud rendering, plus audio infrastructure, distribution, and production polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Podcastle",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish",
+    "content-rights"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Podcastle, record or import spoken audio, clean it, transcribe it, and assemble a simple episode. The hard boundary is hosted studio, ai voices, collaboration, asset library, and cloud rendering, plus audio infrastructure, distribution, and production polish.",
+  "priorArt": [
+    {
+      "name": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗",
+      "url": "https://github.com/audacity/audacity",
+      "desc": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "riverside",
+    "alitu",
+    "auphonic"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Podcastle, record or import spoken audio, clean it, transcribe it, and assemble a simple episode. The hard boundary is hosted studio, ai voices, collaboration, asset library, and cloud rendering, plus audio infrastructure, distribution, and production polish.",
+  "reportedReplacements": 0
+}

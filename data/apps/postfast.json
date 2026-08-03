@@ -1,0 +1,51 @@
+{
+  "slug": "postfast",
+  "name": "PostFast",
+  "domain": "postfast.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: PostFast costs $33/mo ($396/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from PostFast",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "Postiz AGPL social scheduler, self-hostable, covers the DIY core for the open-API networks. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz AGPL social scheduler, self-hostable, covers the DIY core for the open-API networks. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "post-bridge",
+    "postiz",
+    "buffer"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 0
+}

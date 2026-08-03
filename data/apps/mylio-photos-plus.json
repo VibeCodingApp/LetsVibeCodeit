@@ -1,0 +1,50 @@
+{
+  "slug": "mylio-photos-plus",
+  "name": "Mylio Photos Plus",
+  "domain": "mylio-photos-plus.com",
+  "category": "photo-editing",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mylio Photos Plus, catalog local and network photos with duplicates, tags, and device-aware storage. The hard boundary is multi-device private sync, face recognition, vault strategy, and polished photo workflow, plus image pipeline quality, models, and workflow polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Mylio Photos Plus costs $19.99/mo ($239.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mylio Photos Plus, catalog local and network photos with duplicates, tags, and device-aware storage. The hard boundary is multi-device private sync, face recognition, vault strategy, and polished photo workflow, plus image pipeline quality, models, and workflow polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mylio Photos Plus",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mylio Photos Plus, catalog local and network photos with duplicates, tags, and device-aware storage. The hard boundary is multi-device private sync, face recognition, vault strategy, and polished photo workflow, plus image pipeline quality, models, and workflow polish.",
+  "priorArt": [
+    {
+      "name": "Immich Active open-source self-hosted photo and video management platform. ↗",
+      "url": "https://github.com/immich-app/immich",
+      "desc": "Immich Active open-source self-hosted photo and video management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "adobe-lightroom",
+    "capture-one",
+    "ente-photos"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mylio Photos Plus, catalog local and network photos with duplicates, tags, and device-aware storage. The hard boundary is multi-device private sync, face recognition, vault strategy, and polished photo workflow, plus image pipeline quality, models, and workflow polish.",
+  "reportedReplacements": 0
+}

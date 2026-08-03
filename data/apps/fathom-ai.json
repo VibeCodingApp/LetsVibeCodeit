@@ -1,0 +1,51 @@
+{
+  "slug": "fathom-ai",
+  "name": "Fathom",
+  "domain": "fathom-ai.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "A solo clone can handle recordings, transcripts, and summaries, but the product's paid value is automated capture plus CRM/workflow sync and team sharing.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Fathom costs $20/mo ($240/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A solo clone can handle recordings, transcripts, and summaries, but the product's paid value is automated capture plus CRM/workflow sync and team sharing.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Fathom",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "A solo clone can handle recordings, transcripts, and summaries, but the product's paid value is automated capture plus CRM/workflow sync and team sharing.",
+  "priorArt": [
+    {
+      "name": "whisperX Useful for transcript alignment and speaker-labeled call records. ↗",
+      "url": "https://github.com/m-bain/whisperX",
+      "desc": "whisperX Useful for transcript alignment and speaker-labeled call records. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "tldv",
+    "krisp",
+    "superwhisper"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A solo clone can handle recordings, transcripts, and summaries, but the product's paid value is automated capture plus CRM/workflow sync and team sharing.",
+  "reportedReplacements": 1
+}

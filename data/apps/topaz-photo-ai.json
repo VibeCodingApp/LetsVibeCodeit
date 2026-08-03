@@ -1,0 +1,56 @@
+{
+  "slug": "topaz-photo-ai",
+  "name": "Topaz Photo AI",
+  "domain": "topaz-photo-ai.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Topaz Photo AI's durable value is editor polish, assets, algorithms, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Topaz Photo AI has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Topaz Photo AI's durable value is editor polish, assets, algorithms, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Topaz Photo AI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "execution-polish"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Topaz Photo AI's durable value is editor polish, assets, algorithms, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Penpot Open-source collaborative design and prototyping platform. ↗",
+      "url": "https://github.com/penpot/penpot",
+      "desc": "Penpot Open-source collaborative design and prototyping platform. ↗"
+    },
+    {
+      "name": "PhotoPrism Self-hosted photo organization and search. ↗",
+      "url": "https://github.com/photoprism/photoprism",
+      "desc": "PhotoPrism Self-hosted photo organization and search. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sketch",
+    "kittl",
+    "dxo-photolab"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Topaz Photo AI's durable value is editor polish, assets, algorithms, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

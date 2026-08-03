@@ -1,0 +1,51 @@
+{
+  "slug": "castmagic",
+  "name": "Castmagic",
+  "domain": "castmagic.com",
+  "category": "podcasting",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Castmagic, turn a recording into a transcript, summary, clips, quotes, and reusable content assets. The hard boundary is large prompt library, integrations, team workflow, and hosted processing, plus audio infrastructure, distribution, and production polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Castmagic costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Castmagic, turn a recording into a transcript, summary, clips, quotes, and reusable content assets. The hard boundary is large prompt library, integrations, team workflow, and hosted processing, plus audio infrastructure, distribution, and production polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Castmagic",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Castmagic, turn a recording into a transcript, summary, clips, quotes, and reusable content assets. The hard boundary is large prompt library, integrations, team workflow, and hosted processing, plus audio infrastructure, distribution, and production polish.",
+  "priorArt": [
+    {
+      "name": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗",
+      "url": "https://github.com/audacity/audacity",
+      "desc": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "riverside",
+    "alitu",
+    "auphonic"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Castmagic, turn a recording into a transcript, summary, clips, quotes, and reusable content assets. The hard boundary is large prompt library, integrations, team workflow, and hosted processing, plus audio infrastructure, distribution, and production polish.",
+  "reportedReplacements": 0
+}

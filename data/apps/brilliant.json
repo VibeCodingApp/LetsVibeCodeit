@@ -1,0 +1,51 @@
+{
+  "slug": "brilliant",
+  "name": "Brilliant",
+  "domain": "brilliant.com",
+  "category": "education",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Brilliant, build interactive practice around user-authored math and science lessons. The hard boundary is expert curriculum, interactive problem library, pedagogy, apps, and content rights, plus content, pedagogy, and network.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Brilliant costs $24.99/mo ($299.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Brilliant, build interactive practice around user-authored math and science lessons. The hard boundary is expert curriculum, interactive problem library, pedagogy, apps, and content rights, plus content, pedagogy, and network.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Brilliant",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "content-rights",
+    "network-effects"
+  ],
+  "moatNotes": "🎟️ content & rights Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Brilliant, build interactive practice around user-authored math and science lessons. The hard boundary is expert curriculum, interactive problem library, pedagogy, apps, and content rights, plus content, pedagogy, and network.",
+  "priorArt": [
+    {
+      "name": "Moodle Long-running open-source learning platform with courses, assessments, and progress tracking. ↗",
+      "url": "https://github.com/moodle/moodle",
+      "desc": "Moodle Long-running open-source learning platform with courses, assessments, and progress tracking. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "duolingo-super",
+    "babbel",
+    "busuu-premium"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Brilliant, build interactive practice around user-authored math and science lessons. The hard boundary is expert curriculum, interactive problem library, pedagogy, apps, and content rights, plus content, pedagogy, and network.",
+  "reportedReplacements": 0
+}

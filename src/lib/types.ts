@@ -43,8 +43,7 @@ export interface AppData {
   pagePriority: number;
   verifiedOneShot: boolean;
   notes: string;
-  prompt: string;
-  promptCurated: boolean;
+  reportedReplacements: number;
 }
 
 export interface AppRow {
@@ -56,6 +55,7 @@ export interface AppRow {
   verdict: Verdict;
   votes: number;
   pagePriority: number;
+  reportedReplacements: number;
 }
 
 export interface FilterState {
@@ -71,5 +71,4 @@ export interface Stats {
   viewsToday: number;
   views7d: number;
   visitors7d: number;
-  promptsCopied7d: number;
 }

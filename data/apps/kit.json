@@ -1,0 +1,52 @@
+{
+  "slug": "kit",
+  "name": "Kit",
+  "domain": "kit.com",
+  "category": "newsletters",
+  "subcategory": null,
+  "tagline": "A simple newsletter sender is buildable, but Kit's value is deliverability, subscriber forms, automations, recommendations, commerce, migrations, and creator-specific flows.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Kit costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A simple newsletter sender is buildable, but Kit's value is deliverability, subscriber forms, automations, recommendations, commerce, migrations, and creator-specific flows.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Kit",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "network-effects",
+    "integrations"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🕸️ network effects Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A simple newsletter sender is buildable, but Kit's value is deliverability, subscriber forms, automations, recommendations, commerce, migrations, and creator-specific flows.",
+  "priorArt": [
+    {
+      "name": "Listmonk Open-source newsletter and mailing-list manager suitable for self-hosted campaigns. ↗",
+      "url": "https://github.com/knadh/listmonk",
+      "desc": "Listmonk Open-source newsletter and mailing-list manager suitable for self-hosted campaigns. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "mailchimp",
+    "ghost-pro",
+    "shopify"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A simple newsletter sender is buildable, but Kit's value is deliverability, subscriber forms, automations, recommendations, commerce, migrations, and creator-specific flows.",
+  "reportedReplacements": 1
+}

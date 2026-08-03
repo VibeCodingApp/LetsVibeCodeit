@@ -1,0 +1,52 @@
+{
+  "slug": "otter-ai",
+  "name": "Otter.ai",
+  "domain": "otter-ai.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "You can build transcription and summaries, but Otter's value includes live meeting assistant behavior, account sync, speaker workflow, integrations, and mobile/web reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Otter.ai costs $16.99/mo ($203.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "You can build transcription and summaries, but Otter's value includes live meeting assistant behavior, account sync, speaker workflow, integrations, and mobile/web reliability.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Otter.ai",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "You can build transcription and summaries, but Otter's value includes live meeting assistant behavior, account sync, speaker workflow, integrations, and mobile/web reliability.",
+  "priorArt": [
+    {
+      "name": "whisperX Open-source transcription alignment and diarization tooling useful for DIY Otter-like work ↗",
+      "url": "https://github.com/m-bain/whisperX",
+      "desc": "whisperX Open-source transcription alignment and diarization tooling useful for DIY Otter-like work ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fireflies-ai",
+    "fathom-ai",
+    "tldv"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build transcription and summaries, but Otter's value includes live meeting assistant behavior, account sync, speaker workflow, integrations, and mobile/web reliability.",
+  "reportedReplacements": 0
+}

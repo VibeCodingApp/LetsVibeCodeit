@@ -1,0 +1,52 @@
+{
+  "slug": "ynab",
+  "name": "YNAB",
+  "domain": "ynab.com",
+  "category": "personal-finance",
+  "subcategory": null,
+  "tagline": "A zero-based budget app with accounts, categories, envelopes, and reports is very buildable; bank sync and habit coaching are the main paid value.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: YNAB costs $14.99/mo ($179.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A zero-based budget app with accounts, categories, envelopes, and reports is very buildable; bank sync and habit coaching are the main paid value.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from YNAB",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "content-rights",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🎟️ content & rights Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A zero-based budget app with accounts, categories, envelopes, and reports is very buildable; bank sync and habit coaching are the main paid value.",
+  "priorArt": [
+    {
+      "name": "Actual Budget Open-source local-first budgeting app and one of the strongest YNAB alternatives. ↗",
+      "url": "https://github.com/actualbudget/actual",
+      "desc": "Actual Budget Open-source local-first budgeting app and one of the strongest YNAB alternatives. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "monarch-money",
+    "copilot-money",
+    "fathom-hq"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A zero-based budget app with accounts, categories, envelopes, and reports is very buildable; bank sync and habit coaching are the main paid value.",
+  "reportedReplacements": 0
+}

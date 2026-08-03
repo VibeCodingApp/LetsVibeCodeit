@@ -1,0 +1,57 @@
+{
+  "slug": "cinesend",
+  "name": "CineSend",
+  "domain": "cinesend.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: CineSend costs $797/mo ($9564/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "not realistically solo",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from CineSend",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "brand-trust",
+    "compliance-regulation",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🛡️ brand & trust Ã‚Â· 🏛️ compliance & regulation Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "Nextcloud Self-hosted file sharing with password-protected, expiring share links and access logs. Genuinely solves the delivery half, and stops exactly where the licensed half starts. ↗",
+      "url": "https://github.com/nextcloud/server",
+      "desc": "Nextcloud Self-hosted file sharing with password-protected, expiring share links and access logs. Genuinely solves the delivery half, and stops exactly where the licensed half starts. ↗"
+    },
+    {
+      "name": "Shaka Packager Open-source packaging with Common Encryption for Widevine and other DRM systems. Shows the wall clearly: you can encrypt the stream, but the license server and the device keys are not yours to issue. ↗",
+      "url": "https://github.com/shaka-project/shaka-packager",
+      "desc": "Shaka Packager Open-source packaging with Common Encryption for Widevine and other DRM systems. Shows the wall clearly: you can encrypt the stream, but the license server and the device keys are not yours to issue. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "frame-io",
+    "vimeo",
+    "iconik"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 0
+}

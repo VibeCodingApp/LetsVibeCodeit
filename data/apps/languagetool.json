@@ -1,0 +1,50 @@
+{
+  "slug": "languagetool",
+  "name": "LanguageTool",
+  "domain": "languagetool.com",
+  "category": "ai-writing",
+  "subcategory": null,
+  "tagline": "Because the core engine is open source, a technical user can run the grammar checker locally or self-host the server for many use cases.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: LanguageTool costs $19.9/mo ($238.79999999999998/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Because the core engine is open source, a technical user can run the grammar checker locally or self-host the server for many use cases.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from LanguageTool",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "Because the core engine is open source, a technical user can run the grammar checker locally or self-host the server for many use cases.",
+  "priorArt": [
+    {
+      "name": "LanguageTool The product's own open-source core engine. ↗",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "desc": "LanguageTool The product's own open-source core engine. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "canva",
+    "figma",
+    "whimsical"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Because the core engine is open source, a technical user can run the grammar checker locally or self-host the server for many use cases.",
+  "reportedReplacements": 0
+}

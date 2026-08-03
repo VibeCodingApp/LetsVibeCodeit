@@ -1,0 +1,52 @@
+{
+  "slug": "mealime-pro",
+  "name": "Mealime Pro",
+  "domain": "mealime-pro.com",
+  "category": "home",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mealime Pro, plan meals from user-entered recipes and create a combined shopping list. The hard boundary is licensed recipe catalog, nutrition data, retailer links, mobile apps, and personalization, plus sync, integrations, and household adoption.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Mealime Pro costs $2.99/mo ($35.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mealime Pro, plan meals from user-entered recipes and create a combined shopping list. The hard boundary is licensed recipe catalog, nutrition data, retailer links, mobile apps, and personalization, plus sync, integrations, and household adoption.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mealime Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "content-rights",
+    "collaboration",
+    "integrations"
+  ],
+  "moatNotes": "🎟️ content & rights Ã‚Â· 👥 collaboration Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mealime Pro, plan meals from user-entered recipes and create a combined shopping list. The hard boundary is licensed recipe catalog, nutrition data, retailer links, mobile apps, and personalization, plus sync, integrations, and household adoption.",
+  "priorArt": [
+    {
+      "name": "Mealie Active open-source recipe manager and meal planner for households. ↗",
+      "url": "https://github.com/mealie-recipes/mealie",
+      "desc": "Mealie Active open-source recipe manager and meal planner for households. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "paprika-recipe-manager",
+    "home-assistant-cloud",
+    "cozi-gold"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mealime Pro, plan meals from user-entered recipes and create a combined shopping list. The hard boundary is licensed recipe catalog, nutrition data, retailer links, mobile apps, and personalization, plus sync, integrations, and household adoption.",
+  "reportedReplacements": 0
+}

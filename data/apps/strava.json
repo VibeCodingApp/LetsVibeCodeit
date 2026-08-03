@@ -1,0 +1,52 @@
+{
+  "slug": "strava",
+  "name": "Strava",
+  "domain": "strava.com",
+  "category": "wellness",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Strava, log user-entered activities and map imported GPX files without recreating Strava's network. The hard boundary is athlete social graph, segment leaderboard, route data, device integrations, and scale, plus hardware data, content, coaching, and trust.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Strava costs $11.99/mo ($143.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Strava, log user-entered activities and map imported GPX files without recreating Strava's network. The hard boundary is athlete social graph, segment leaderboard, route data, device integrations, and scale, plus hardware data, content, coaching, and trust.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Strava",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "network-effects",
+    "hardware",
+    "proprietary-data"
+  ],
+  "moatNotes": "🕸️ network effects Ã‚Â· 🔩 hardware Ã‚Â· 💎 proprietary data",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Strava, log user-entered activities and map imported GPX files without recreating Strava's network. The hard boundary is athlete social graph, segment leaderboard, route data, device integrations, and scale, plus hardware data, content, coaching, and trust.",
+  "priorArt": [
+    {
+      "name": "wger Active open-source fitness and workout management application. ↗",
+      "url": "https://github.com/wger-project/wger",
+      "desc": "wger Active open-source fitness and workout management application. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "myfitnesspal-premium",
+    "macrofactor",
+    "cronometer-gold"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Strava, log user-entered activities and map imported GPX files without recreating Strava's network. The hard boundary is athlete social graph, segment leaderboard, route data, device integrations, and scale, plus hardware data, content, coaching, and trust.",
+  "reportedReplacements": 0
+}

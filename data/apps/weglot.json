@@ -1,0 +1,51 @@
+{
+  "slug": "weglot",
+  "name": "Weglot",
+  "domain": "weglot.com",
+  "category": "localization",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Weglot, translate a small static site build and generate localized routes at deploy time. The hard boundary is website proxy, automatic discovery, machine translation, seo routing, and hosted delivery, plus translation memory, collaboration, and deployment integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Weglot costs $17/mo ($204/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Weglot, translate a small static site build and generate localized routes at deploy time. The hard boundary is website proxy, automatic discovery, machine translation, seo routing, and hosted delivery, plus translation memory, collaboration, and deployment integrations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Weglot",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Weglot, translate a small static site build and generate localized routes at deploy time. The hard boundary is website proxy, automatic discovery, machine translation, seo routing, and hosted delivery, plus translation memory, collaboration, and deployment integrations.",
+  "priorArt": [
+    {
+      "name": "Tolgee Active open-source localization platform with translation memory and in-context tooling. ↗",
+      "url": "https://github.com/tolgee/tolgee-platform",
+      "desc": "Tolgee Active open-source localization platform with translation memory and in-context tooling. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "lokalise",
+    "crowdin",
+    "deepl-pro"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Weglot, translate a small static site build and generate localized routes at deploy time. The hard boundary is website proxy, automatic discovery, machine translation, seo routing, and hosted delivery, plus translation memory, collaboration, and deployment integrations.",
+  "reportedReplacements": 0
+}

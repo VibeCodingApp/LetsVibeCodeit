@@ -1,0 +1,51 @@
+{
+  "slug": "opinion-stage",
+  "name": "Opinion Stage",
+  "domain": "opinion-stage.com",
+  "category": "forms",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Opinion Stage, create a poll, quiz, or survey and embed it with basic response analytics. The hard boundary is templates, hosted delivery, lead features, and engagement reporting, plus integrations, deliverability, and workflow depth.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Opinion Stage costs $25/mo ($300/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Opinion Stage, create a poll, quiz, or survey and embed it with basic response analytics. The hard boundary is templates, hosted delivery, lead features, and engagement reporting, plus integrations, deliverability, and workflow depth.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Opinion Stage",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Opinion Stage, create a poll, quiz, or survey and embed it with basic response analytics. The hard boundary is templates, hosted delivery, lead features, and engagement reporting, plus integrations, deliverability, and workflow depth.",
+  "priorArt": [
+    {
+      "name": "Formbricks Active open-source survey and experience-management platform. ↗",
+      "url": "https://github.com/formbricks/formbricks",
+      "desc": "Formbricks Active open-source survey and experience-management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "surveymonkey",
+    "fillout",
+    "paperform"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Opinion Stage, create a poll, quiz, or survey and embed it with basic response analytics. The hard boundary is templates, hosted delivery, lead features, and engagement reporting, plus integrations, deliverability, and workflow depth.",
+  "reportedReplacements": 0
+}

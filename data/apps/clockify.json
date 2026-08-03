@@ -1,0 +1,52 @@
+{
+  "slug": "clockify",
+  "name": "Clockify",
+  "domain": "clockify.com",
+  "category": "time-tracking",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Clockify, track time, approve entries, and generate basic client or project reports. The hard boundary is many platforms, team administration, kiosks, scheduling, and hosted scale, plus ubiquitous capture, coaching, and team workflow.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Clockify costs $4.99/mo ($59.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Clockify, track time, approve entries, and generate basic client or project reports. The hard boundary is many platforms, team administration, kiosks, scheduling, and hosted scale, plus ubiquitous capture, coaching, and team workflow.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Clockify",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Clockify, track time, approve entries, and generate basic client or project reports. The hard boundary is many platforms, team administration, kiosks, scheduling, and hosted scale, plus ubiquitous capture, coaching, and team workflow.",
+  "priorArt": [
+    {
+      "name": "Kimai Mature open-source time-tracking application with projects, reports, and exports. ↗",
+      "url": "https://github.com/kimai/kimai",
+      "desc": "Kimai Mature open-source time-tracking application with projects, reports, and exports. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "toggl-track",
+    "harvest",
+    "timely"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Clockify, track time, approve entries, and generate basic client or project reports. The hard boundary is many platforms, team administration, kiosks, scheduling, and hosted scale, plus ubiquitous capture, coaching, and team workflow.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "screen-studio",
+  "name": "Screen Studio",
+  "domain": "screen-studio.com",
+  "category": "screen-recording",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screen Studio, record a Mac screen and automatically apply cursor zoom, padding, and smooth framing. The hard boundary is exceptional macos capture polish, motion design, and ongoing compatibility, plus capture polish, hosting, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Screen Studio has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screen Studio, record a Mac screen and automatically apply cursor zoom, padding, and smooth framing. The hard boundary is exceptional macos capture polish, motion design, and ongoing compatibility, plus capture polish, hosting, and collaboration.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Screen Studio",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screen Studio, record a Mac screen and automatically apply cursor zoom, padding, and smooth framing. The hard boundary is exceptional macos capture polish, motion design, and ongoing compatibility, plus capture polish, hosting, and collaboration.",
+  "priorArt": [
+    {
+      "name": "Cap Open-source screen recording and sharing product with modern desktop architecture. ↗",
+      "url": "https://github.com/CapSoftware/Cap",
+      "desc": "Cap Open-source screen recording and sharing product with modern desktop architecture. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "cleanshot-x",
+    "scribe",
+    "vidyard"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screen Studio, record a Mac screen and automatically apply cursor zoom, padding, and smooth framing. The hard boundary is exceptional macos capture polish, motion design, and ongoing compatibility, plus capture polish, hosting, and collaboration.",
+  "reportedReplacements": 2
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "rank-math-pro",
+  "name": "Rank Math PRO",
+  "domain": "rank-math-pro.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "Rank Math PRO's solo core is compact: build a focused WordPress SEO plugin audit for user-owned sites that crawls pages, records technical signals, and exports a prioritized CSV and HTML report. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on proprietary data, index, crawl scale.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Rank Math PRO costs $6.99/mo ($83.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Rank Math PRO's solo core is compact: build a focused WordPress SEO plugin audit for user-owned sites that crawls pages, records technical signals, and exports a prioritized CSV and HTML report. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on proprietary data, index, crawl scale.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Rank Math PRO",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "Rank Math PRO's solo core is compact: build a focused WordPress SEO plugin audit for user-owned sites that crawls pages, records technical signals, and exports a prioritized CSV and HTML report. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on proprietary data, index, crawl scale.",
+  "priorArt": [
+    {
+      "name": "Lighthouse Open-source automated auditing for performance, accessibility, and SEO. ↗",
+      "url": "https://github.com/GoogleChrome/lighthouse",
+      "desc": "Lighthouse Open-source automated auditing for performance, accessibility, and SEO. ↗"
+    },
+    {
+      "name": "Unlighthouse Open-source site-wide Lighthouse crawler and dashboard. ↗",
+      "url": "https://github.com/harlan-zw/unlighthouse",
+      "desc": "Unlighthouse Open-source site-wide Lighthouse crawler and dashboard. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "yoast-seo-premium",
+    "aioseo",
+    "woorank"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Rank Math PRO's solo core is compact: build a focused WordPress SEO plugin audit for user-owned sites that crawls pages, records technical signals, and exports a prioritized CSV and HTML report. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on proprietary data, index, crawl scale.",
+  "reportedReplacements": 0
+}

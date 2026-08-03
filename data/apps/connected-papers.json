@@ -1,0 +1,51 @@
+{
+  "slug": "connected-papers",
+  "name": "Connected Papers",
+  "domain": "connected-papers.com",
+  "category": "read-it-later",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Connected Papers's durable value is data, import reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Connected Papers has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Connected Papers's durable value is data, import reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Connected Papers",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "execution-polish"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Connected Papers's durable value is data, import reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Zotero Mature open-source research and citation manager. ↗",
+      "url": "https://github.com/zotero/zotero",
+      "desc": "Zotero Mature open-source research and citation manager. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "genei",
+    "afforai",
+    "researchrabbit"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Connected Papers's durable value is data, import reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$24/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "The core idea — transcribe audio, then edit the transcript to cut the video — is buildable with Whisper for transcription and a basic timeline editor. But Descript's polish includes filler word removal, studio sound (AI noise reduction), AI voice cloning for corrections (Overdub), screen recording, and the collaborative editing workflow. You can build a transcript-based trimmer, but the AI audio magic is proprietary.",
   "coreLoopDIY": "Upload video, auto-transcribe, edit transcript to cut corresponding video segments",
@@ -39,23 +39,22 @@
     "proprietary-models",
     "execution-polish"
   ],
-  "moatNotes": "Overdub and Studio Sound are trained on proprietary datasets — those AI audio models are the genuine moat, not the transcript editor",
+  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models Ã‚Â· 👥 collaboration",
   "whyPeopleStillPay": "The Overdub voice cloning saves hours of re-recording, and Studio Sound makes any microphone sound professional",
   "priorArt": [
     {
-      "name": "Davinci Resolve",
-      "url": "https://blackmagicdesign.com/products/davinciresolve",
-      "desc": "Free professional video editor with transcription"
+      "name": "Kdenlive Mature open-source video editor; useful alternative but not text-first SaaS clone. ↗",
+      "url": "https://github.com/KDE/kdenlive",
+      "desc": "Kdenlive Mature open-source video editor; useful alternative but not text-first SaaS clone. ↗"
     }
   ],
   "relatedSlugs": [
-    "riverside",
-    "capcut",
-    "premiere"
+    "loom",
+    "tella",
+    "capcut"
   ],
   "pagePriority": 2,
   "verifiedOneShot": false,
   "notes": "The transcript-based editing flow is buildable. The AI audio magic (Overdub, Studio Sound) is what people actually pay for.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 1
 }

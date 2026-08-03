@@ -1,0 +1,45 @@
+{
+  "slug": "shots",
+  "name": "Shots.so",
+  "domain": "shots.so",
+  "category": "screenshots",
+  "subcategory": null,
+  "tagline": "Gradient background, padding, rounded corners, export. Pure client-side canvas work — there is no server to even build.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Shots.so / Xnapper costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Gradient background, padding, rounded corners, export. Pure client-side canvas work — there is no server to even build.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Shots.so",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "content-rights"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "Gradient background, padding, rounded corners, export. Pure client-side canvas work — there is no server to even build.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "shotomatic",
+    "granola",
+    "wispr-flow"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Gradient background, padding, rounded corners, export. Pure client-side canvas work — there is no server to even build.",
+  "reportedReplacements": 1
+}

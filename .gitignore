@@ -9,3 +9,7 @@ out/
 .env.*.local
 .agents/tmp/
 .codex/tmp/
+# Private source mirrors and prompt exports
+data/private/
+private-prompts/
+*.prompts.json

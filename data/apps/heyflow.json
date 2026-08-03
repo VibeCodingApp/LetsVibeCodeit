@@ -1,0 +1,57 @@
+{
+  "slug": "heyflow",
+  "name": "Heyflow",
+  "domain": "heyflow.com",
+  "category": "forms",
+  "subcategory": null,
+  "tagline": "The visible interactive form flows loop is buildable, but a credible replacement needs more than the first screen. Heyflow earns its keep through delivery, integrations, compliance, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Heyflow costs $45/mo ($540/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible interactive form flows loop is buildable, but a credible replacement needs more than the first screen. Heyflow earns its keep through delivery, integrations, compliance, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "weekend to multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Heyflow",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations",
+    "compliance-regulation"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations Ã‚Â· 🏛️ compliance & regulation",
+  "whyPeopleStillPay": "The visible interactive form flows loop is buildable, but a credible replacement needs more than the first screen. Heyflow earns its keep through delivery, integrations, compliance, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Formbricks Open-source surveys and experience management. ↗",
+      "url": "https://github.com/formbricks/formbricks",
+      "desc": "Formbricks Open-source surveys and experience management. ↗"
+    },
+    {
+      "name": "HeyForm Open-source form builder and collection backend. ↗",
+      "url": "https://github.com/heyform/heyform",
+      "desc": "HeyForm Open-source form builder and collection backend. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "involve-me",
+    "outgrow",
+    "youform"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible interactive form flows loop is buildable, but a credible replacement needs more than the first screen. Heyflow earns its keep through delivery, integrations, compliance, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

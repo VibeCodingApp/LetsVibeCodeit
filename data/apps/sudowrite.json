@@ -1,0 +1,52 @@
+{
+  "slug": "sudowrite",
+  "name": "Sudowrite",
+  "domain": "sudowrite.com",
+  "category": "writing-tools",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sudowrite, brainstorm fiction, expand scenes, inspect story context, and generate constrained prose suggestions. The hard boundary is its fiction-tuned workflows, context handling, and model orchestration, plus polish, integrations, and proprietary language models.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Sudowrite has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sudowrite, brainstorm fiction, expand scenes, inspect story context, and generate constrained prose suggestions. The hard boundary is its fiction-tuned workflows, context handling, and model orchestration, plus polish, integrations, and proprietary language models.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Sudowrite",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sudowrite, brainstorm fiction, expand scenes, inspect story context, and generate constrained prose suggestions. The hard boundary is its fiction-tuned workflows, context handling, and model orchestration, plus polish, integrations, and proprietary language models.",
+  "priorArt": [
+    {
+      "name": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "desc": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "prowritingaid",
+    "languagetool",
+    "wordtune"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sudowrite, brainstorm fiction, expand scenes, inspect story context, and generate constrained prose suggestions. The hard boundary is its fiction-tuned workflows, context handling, and model orchestration, plus polish, integrations, and proprietary language models.",
+  "reportedReplacements": 0
+}

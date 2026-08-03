@@ -1,0 +1,57 @@
+{
+  "slug": "linear",
+  "name": "Linear",
+  "domain": "linear.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "The object model is small: issues, states, labels, cycles, projects. A keyboard-first single-player tracker with a board, cycles, and one-way GitHub sync is a weekend build. What does not survive the copy is the sync engine, real-time multiplayer, and the integration surface (GitHub two-way, Slack, Figma, Sentry) that make Linear the place a team actually agrees on what is being built.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Linear costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The object model is small: issues, states, labels, cycles, projects. A keyboard-first single-player tracker with a board, cycles, and one-way GitHub sync is a weekend build. What does not survive the copy is the sync engine, real-time multiplayer, and the integration surface (GitHub two-way, Slack, Figma, Sentry) that make Linear the place a team actually agrees on what is being built.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Linear",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The object model is small: issues, states, labels, cycles, projects. A keyboard-first single-player tracker with a board, cycles, and one-way GitHub sync is a weekend build. What does not survive the copy is the sync engine, real-time multiplayer, and the integration surface (GitHub two-way, Slack, Figma, Sentry) that make Linear the place a team actually agrees on what is being built.",
+  "priorArt": [
+    {
+      "name": "Plane Open-source project and issue tracker with cycles, modules, and boards; the closest self-hosted Linear analogue. ↗",
+      "url": "https://github.com/makeplane/plane",
+      "desc": "Plane Open-source project and issue tracker with cycles, modules, and boards; the closest self-hosted Linear analogue. ↗"
+    },
+    {
+      "name": "Huly Open-source all-in-one platform whose tracker module is an explicit Linear alternative. ↗",
+      "url": "https://github.com/hcengineering/platform",
+      "desc": "Huly Open-source all-in-one platform whose tracker module is an explicit Linear alternative. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "todoist",
+    "notion",
+    "motion"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The object model is small: issues, states, labels, cycles, projects. A keyboard-first single-player tracker with a board, cycles, and one-way GitHub sync is a weekend build. What does not survive the copy is the sync engine, real-time multiplayer, and the integration surface (GitHub two-way, Slack, Figma, Sentry) that make Linear the place a team actually agrees on what is being built.",
+  "reportedReplacements": 0
+}

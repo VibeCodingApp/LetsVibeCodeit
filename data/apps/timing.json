@@ -1,0 +1,50 @@
+{
+  "slug": "timing",
+  "name": "Timing",
+  "domain": "timing.com",
+  "category": "time-tracking",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Timing, track Mac application activity privately and assign blocks to projects. The hard boundary is deep macos automation, rules, sync, calendar integration, and reporting polish, plus ubiquitous capture, coaching, and team workflow.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Timing costs $11/mo ($132/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Timing, track Mac application activity privately and assign blocks to projects. The hard boundary is deep macos automation, rules, sync, calendar integration, and reporting polish, plus ubiquitous capture, coaching, and team workflow.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Timing",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Timing, track Mac application activity privately and assign blocks to projects. The hard boundary is deep macos automation, rules, sync, calendar integration, and reporting polish, plus ubiquitous capture, coaching, and team workflow.",
+  "priorArt": [
+    {
+      "name": "Kimai Mature open-source time-tracking application with projects, reports, and exports. ↗",
+      "url": "https://github.com/kimai/kimai",
+      "desc": "Kimai Mature open-source time-tracking application with projects, reports, and exports. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "toggl-track",
+    "harvest",
+    "clockify"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Timing, track Mac application activity privately and assign blocks to projects. The hard boundary is deep macos automation, rules, sync, calendar integration, and reporting polish, plus ubiquitous capture, coaching, and team workflow.",
+  "reportedReplacements": 0
+}

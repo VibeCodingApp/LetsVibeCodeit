@@ -1,0 +1,52 @@
+{
+  "slug": "adobe-acrobat-pro",
+  "name": "Adobe Acrobat Pro",
+  "domain": "adobe-acrobat-pro.com",
+  "category": "documents-pdfs",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adobe Acrobat Pro, perform a focused set of PDF edits and conversions while preserving originals. The hard boundary is decades of pdf engine work, format fidelity, integrations, signatures, and enterprise trust, plus document fidelity, identity, and compliance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Adobe Acrobat Pro costs $29.99/mo ($359.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adobe Acrobat Pro, perform a focused set of PDF edits and conversions while preserving originals. The hard boundary is decades of pdf engine work, format fidelity, integrations, signatures, and enterprise trust, plus document fidelity, identity, and compliance.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Adobe Acrobat Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "compliance-regulation",
+    "brand-trust"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏛️ compliance & regulation Ã‚Â· 🛡️ brand & trust",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adobe Acrobat Pro, perform a focused set of PDF edits and conversions while preserving originals. The hard boundary is decades of pdf engine work, format fidelity, integrations, signatures, and enterprise trust, plus document fidelity, identity, and compliance.",
+  "priorArt": [
+    {
+      "name": "Stirling PDF Active open-source web application for a broad set of PDF operations. ↗",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "desc": "Stirling PDF Active open-source web application for a broad set of PDF operations. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "pdf-expert",
+    "smallpdf",
+    "pandadoc"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adobe Acrobat Pro, perform a focused set of PDF edits and conversions while preserving originals. The hard boundary is decades of pdf engine work, format fidelity, integrations, signatures, and enterprise trust, plus document fidelity, identity, and compliance.",
+  "reportedReplacements": 0
+}

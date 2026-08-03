@@ -1,0 +1,52 @@
+{
+  "slug": "teal-plus",
+  "name": "Teal Plus",
+  "domain": "teal-plus.com",
+  "category": "career",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Teal Plus, track applications, maintain an evidence bank, and tailor truthful resume variants. The hard boundary is job-board capture, guidance, templates, keyword tooling, and hosted convenience, plus data, distribution, and coaching.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Teal Plus costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Teal Plus, track applications, maintain an evidence bank, and tailor truthful resume variants. The hard boundary is job-board capture, guidance, templates, keyword tooling, and hosted convenience, plus data, distribution, and coaching.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Teal Plus",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "integrations",
+    "content-rights"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🔌 integrations Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Teal Plus, track applications, maintain an evidence bank, and tailor truthful resume variants. The hard boundary is job-board capture, guidance, templates, keyword tooling, and hosted convenience, plus data, distribution, and coaching.",
+  "priorArt": [
+    {
+      "name": "Reactive Resume Active open-source resume builder with structured data and PDF export. ↗",
+      "url": "https://github.com/AmruthPillai/Reactive-Resume",
+      "desc": "Reactive Resume Active open-source resume builder with structured data and PDF export. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "jobscan",
+    "huntr",
+    "resume-worded"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Teal Plus, track applications, maintain an evidence bank, and tailor truthful resume variants. The hard boundary is job-board capture, guidance, templates, keyword tooling, and hosted convenience, plus data, distribution, and coaching.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "constant-contact",
+  "name": "Constant Contact",
+  "domain": "constant-contact.com",
+  "category": "newsletters",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Constant Contact, send simple newsletters, manage contacts, and publish signup forms. The hard boundary is deliverability, templates, event and social tools, integrations, and support, plus deliverability, growth network, and integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Constant Contact costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Constant Contact, send simple newsletters, manage contacts, and publish signup forms. The hard boundary is deliverability, templates, event and social tools, integrations, and support, plus deliverability, growth network, and integrations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Constant Contact",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Constant Contact, send simple newsletters, manage contacts, and publish signup forms. The hard boundary is deliverability, templates, event and social tools, integrations, and support, plus deliverability, growth network, and integrations.",
+  "priorArt": [
+    {
+      "name": "Listmonk Mature open-source newsletter and mailing-list manager. ↗",
+      "url": "https://github.com/knadh/listmonk",
+      "desc": "Listmonk Mature open-source newsletter and mailing-list manager. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "substack",
+    "mailerlite",
+    "activecampaign"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Constant Contact, send simple newsletters, manage contacts, and publish signup forms. The hard boundary is deliverability, templates, event and social tools, integrations, and support, plus deliverability, growth network, and integrations.",
+  "reportedReplacements": 0
+}

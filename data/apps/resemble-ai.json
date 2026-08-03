@@ -1,0 +1,56 @@
+{
+  "slug": "resemble-ai",
+  "name": "Resemble AI",
+  "domain": "resemble-ai.com",
+  "category": "ai-audio",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Resemble AI's durable value is proprietary model, inference, safety, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Resemble AI has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Resemble AI's durable value is proprietary model, inference, safety, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Resemble AI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Resemble AI's durable value is proprietary model, inference, safety, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "ComfyUI Node-based open-source generative image workflow engine. ↗",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "desc": "ComfyUI Node-based open-source generative image workflow engine. ↗"
+    },
+    {
+      "name": "whisper.cpp Local speech-to-text engine suitable for private transcription. ↗",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "whisper.cpp Local speech-to-text engine suitable for private transcription. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "wellsaid-labs",
+    "lovo",
+    "playht"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Resemble AI's durable value is proprietary model, inference, safety, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

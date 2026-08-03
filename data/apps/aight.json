@@ -1,0 +1,57 @@
+{
+  "slug": "aight",
+  "name": "Aight",
+  "domain": "aight.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "A focused multi-backend iPhone prototype is a realistic multi-day build when a local companion normalizes each agent protocol, but hardening all four adapters plus Aight's hosted relay, voice, orchestration, sync, and App Store polish is multi-week product work.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Aight costs $4.99/mo ($59.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A focused multi-backend iPhone prototype is a realistic multi-day build when a local companion normalizes each agent protocol, but hardening all four adapters plus Aight's hosted relay, voice, orchestration, sync, and App Store polish is multi-week product work.",
+  "diyTimeEstimate": "multi-day prototype; multi-week to harden",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Aight",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A focused multi-backend iPhone prototype is a realistic multi-day build when a local companion normalizes each agent protocol, but hardening all four adapters plus Aight's hosted relay, voice, orchestration, sync, and App Store polish is multi-week product work.",
+  "priorArt": [
+    {
+      "name": "Happy Open-source mobile and web client for Codex and Claude Code with end-to-end encryption. ↗",
+      "url": "https://github.com/slopus/happy",
+      "desc": "Happy Open-source mobile and web client for Codex and Claude Code with end-to-end encryption. ↗"
+    },
+    {
+      "name": "CodexAppMobile Open-source SwiftUI iOS client for a remote Codex app-server. ↗",
+      "url": "https://github.com/shuto-S/codex-app-mobile",
+      "desc": "CodexAppMobile Open-source SwiftUI iOS client for a remote Codex app-server. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "github-copilot",
+    "cursor",
+    "claude"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A focused multi-backend iPhone prototype is a realistic multi-day build when a local companion normalizes each agent protocol, but hardening all four adapters plus Aight's hosted relay, voice, orchestration, sync, and App Store polish is multi-week product work.",
+  "reportedReplacements": 0
+}

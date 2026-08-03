@@ -1,0 +1,52 @@
+{
+  "slug": "quickbooks-online",
+  "name": "QuickBooks Online",
+  "domain": "quickbooks-online.com",
+  "category": "finance-accounting",
+  "subcategory": null,
+  "tagline": "You can build invoicing and expense tables, but QuickBooks' value is accounting correctness, bank feeds, payroll/tax ecosystem, accountant workflows, compliance, and support.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: QuickBooks Online costs $38/mo ($456/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "You can build invoicing and expense tables, but QuickBooks' value is accounting correctness, bank feeds, payroll/tax ecosystem, accountant workflows, compliance, and support.",
+  "diyTimeEstimate": "not realistically solo",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from QuickBooks Online",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "integrations",
+    "network-effects"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🔌 integrations Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "You can build invoicing and expense tables, but QuickBooks' value is accounting correctness, bank feeds, payroll/tax ecosystem, accountant workflows, compliance, and support.",
+  "priorArt": [
+    {
+      "name": "Akaunting Open-source accounting software for invoicing, expenses, and small-business books. ↗",
+      "url": "https://github.com/akaunting/akaunting",
+      "desc": "Akaunting Open-source accounting software for invoicing, expenses, and small-business books. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "xero",
+    "freshbooks",
+    "invoice-ninja"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build invoicing and expense tables, but QuickBooks' value is accounting correctness, bank feeds, payroll/tax ecosystem, accountant workflows, compliance, and support.",
+  "reportedReplacements": 2
+}

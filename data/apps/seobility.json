@@ -1,0 +1,52 @@
+{
+  "slug": "seobility",
+  "name": "Seobility",
+  "domain": "seobility.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Seobility, crawl an owned site, track selected keywords, and organize remediation tasks. The hard boundary is hosted crawling, keyword data, backlink monitoring, reports, and support, plus crawl scale, rule depth, and operational polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Seobility costs $49.9/mo ($598.8/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Seobility, crawl an owned site, track selected keywords, and organize remediation tasks. The hard boundary is hosted crawling, keyword data, backlink monitoring, reports, and support, plus crawl scale, rule depth, and operational polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Seobility",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish",
+    "proprietary-data"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish Ã‚Â· 💎 proprietary data",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Seobility, crawl an owned site, track selected keywords, and organize remediation tasks. The hard boundary is hosted crawling, keyword data, backlink monitoring, reports, and support, plus crawl scale, rule depth, and operational polish.",
+  "priorArt": [
+    {
+      "name": "SEOnaut Open-source technical SEO auditing application. ↗",
+      "url": "https://github.com/stjudewashere/seonaut",
+      "desc": "SEOnaut Open-source technical SEO auditing application. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "screaming-frog-seo-spider",
+    "sitebulb",
+    "contentking"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Seobility, crawl an owned site, track selected keywords, and organize remediation tasks. The hard boundary is hosted crawling, keyword data, backlink monitoring, reports, and support, plus crawl scale, rule depth, and operational polish.",
+  "reportedReplacements": 0
+}

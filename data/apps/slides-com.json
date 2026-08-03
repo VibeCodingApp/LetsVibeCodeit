@@ -1,0 +1,51 @@
+{
+  "slug": "slides-com",
+  "name": "Slides.com",
+  "domain": "slides-com.com",
+  "category": "presentations",
+  "subcategory": null,
+  "tagline": "Slides.com's solo core is compact: build a browser-based web presentations editor with drag, resize, connect, keyboard shortcuts, autosave, and SVG or PNG export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on interaction polish, collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Slides.com has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Slides.com's solo core is compact: build a browser-based web presentations editor with drag, resize, connect, keyboard shortcuts, autosave, and SVG or PNG export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on interaction polish, collaboration.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Slides.com",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "Slides.com's solo core is compact: build a browser-based web presentations editor with drag, resize, connect, keyboard shortcuts, autosave, and SVG or PNG export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on interaction polish, collaboration.",
+  "priorArt": [
+    {
+      "name": "Excalidraw Open-source diagram canvas with an approachable interaction model. ↗",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "desc": "Excalidraw Open-source diagram canvas with an approachable interaction model. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "decktopus",
+    "visme",
+    "prezi"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Slides.com's solo core is compact: build a browser-based web presentations editor with drag, resize, connect, keyboard shortcuts, autosave, and SVG or PNG export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on interaction polish, collaboration.",
+  "reportedReplacements": 0
+}

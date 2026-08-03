@@ -1,0 +1,52 @@
+{
+  "slug": "softr",
+  "name": "Softr",
+  "domain": "softr.com",
+  "category": "no-code-apps",
+  "subcategory": null,
+  "tagline": "A client portal over Airtable can be built, but Softr's block library, auth, roles, data sources, payments, and publishing workflow are the product.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Softr costs $59/mo ($708/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A client portal over Airtable can be built, but Softr's block library, auth, roles, data sources, payments, and publishing workflow are the product.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Softr",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A client portal over Airtable can be built, but Softr's block library, auth, roles, data sources, payments, and publishing workflow are the product.",
+  "priorArt": [
+    {
+      "name": "Budibase Open-source low-code platform for internal tools and portals. ↗",
+      "url": "https://github.com/Budibase/budibase",
+      "desc": "Budibase Open-source low-code platform for internal tools and portals. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "glide",
+    "bubble",
+    "zapier"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A client portal over Airtable can be built, but Softr's block library, auth, roles, data sources, payments, and publishing workflow are the product.",
+  "reportedReplacements": 0
+}

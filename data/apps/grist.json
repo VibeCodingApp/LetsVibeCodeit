@@ -1,0 +1,52 @@
+{
+  "slug": "grist",
+  "name": "Grist",
+  "domain": "grist.com",
+  "category": "databases",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Grist, combine spreadsheet formulas with relational records in a small self-hosted workspace. The hard boundary is mature formula engine, access rules, collaboration, integrations, and hosting, plus data model flexibility, collaboration, and integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Grist costs $8/mo ($96/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Grist, combine spreadsheet formulas with relational records in a small self-hosted workspace. The hard boundary is mature formula engine, access rules, collaboration, integrations, and hosting, plus data model flexibility, collaboration, and integrations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Grist",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations",
+    "switching-costs"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🔌 integrations Ã‚Â· ⛓️ switching costs",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Grist, combine spreadsheet formulas with relational records in a small self-hosted workspace. The hard boundary is mature formula engine, access rules, collaboration, integrations, and hosting, plus data model flexibility, collaboration, and integrations.",
+  "priorArt": [
+    {
+      "name": "NocoDB Active open-source no-code database interface and Airtable alternative. ↗",
+      "url": "https://github.com/nocodb/nocodb",
+      "desc": "NocoDB Active open-source no-code database interface and Airtable alternative. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "baserow-cloud",
+    "nocodb-cloud",
+    "rows"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Grist, combine spreadsheet formulas with relational records in a small self-hosted workspace. The hard boundary is mature formula engine, access rules, collaboration, integrations, and hosting, plus data model flexibility, collaboration, and integrations.",
+  "reportedReplacements": 0
+}

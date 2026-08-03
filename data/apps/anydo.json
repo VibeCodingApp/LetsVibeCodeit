@@ -1,0 +1,50 @@
+{
+  "slug": "anydo",
+  "name": "Any.do",
+  "domain": "anydo.com",
+  "category": "tasks",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Any.do, manage personal tasks, lists, reminders, recurring items, and a daily planning flow. The hard boundary is mobile capture, widgets, family features, calendar integration, and sync, plus cross-device reliability and workflow polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Any.do costs $7.99/mo ($95.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Any.do, manage personal tasks, lists, reminders, recurring items, and a daily planning flow. The hard boundary is mobile capture, widgets, family features, calendar integration, and sync, plus cross-device reliability and workflow polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Any.do",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Any.do, manage personal tasks, lists, reminders, recurring items, and a daily planning flow. The hard boundary is mobile capture, widgets, family features, calendar integration, and sync, plus cross-device reliability and workflow polish.",
+  "priorArt": [
+    {
+      "name": "Vikunja Mature open-source task and project manager with lists, kanban, and recurring work. ↗",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "desc": "Vikunja Mature open-source task and project manager with lists, kanban, and recurring work. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ticktick",
+    "things-3",
+    "routine"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Any.do, manage personal tasks, lists, reminders, recurring items, and a daily planning flow. The hard boundary is mobile capture, widgets, family features, calendar integration, and sync, plus cross-device reliability and workflow polish.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "mailerlite",
+  "name": "MailerLite",
+  "domain": "mailerlite.com",
+  "category": "newsletters",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MailerLite, send newsletters, build forms, and run a small welcome sequence. The hard boundary is deliverability, editor polish, landing pages, automations, and integrations, plus deliverability, growth network, and integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: MailerLite costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MailerLite, send newsletters, build forms, and run a small welcome sequence. The hard boundary is deliverability, editor polish, landing pages, automations, and integrations, plus deliverability, growth network, and integrations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from MailerLite",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "network-effects",
+    "integrations"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🕸️ network effects Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MailerLite, send newsletters, build forms, and run a small welcome sequence. The hard boundary is deliverability, editor polish, landing pages, automations, and integrations, plus deliverability, growth network, and integrations.",
+  "priorArt": [
+    {
+      "name": "Listmonk Mature open-source newsletter and mailing-list manager. ↗",
+      "url": "https://github.com/knadh/listmonk",
+      "desc": "Listmonk Mature open-source newsletter and mailing-list manager. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "substack",
+    "activecampaign",
+    "buttondown"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MailerLite, send newsletters, build forms, and run a small welcome sequence. The hard boundary is deliverability, editor polish, landing pages, automations, and integrations, plus deliverability, growth network, and integrations.",
+  "reportedReplacements": 0
+}

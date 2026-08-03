@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$40/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "An email client that connects to Gmail/Outlook via IMAP or API and renders emails in a clean UI is buildable. But Superhuman's value is UX polish — the keyboard-first workflow (everything has a shortcut), the split inbox with AI triage, the instant search that indexes everything locally, and the read status tracking. The email client part is easy; the productivity workflow is hard.",
   "coreLoopDIY": "Email client with Gmail API integration, inbox view, and compose/reply",
@@ -40,23 +40,22 @@
     "execution-polish",
     "integrations"
   ],
-  "moatNotes": "The UX polish — sub-100ms interactions, keyboard shortcuts for everything, and the AI triage model — is built over years with a maniacal focus on speed",
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
   "whyPeopleStillPay": "Power users who spend 3+ hours in email daily and will pay for every second saved per action",
   "priorArt": [
     {
-      "name": "Thunderbird",
-      "url": "https://thunderbird.net",
-      "desc": "Open-source email client"
+      "name": "mailcow Popular open-source mail-server suite that demonstrates the operational complexity of hosted mail. ↗",
+      "url": "https://github.com/mailcow/mailcow-dockerized",
+      "desc": "mailcow Popular open-source mail-server suite that demonstrates the operational complexity of hosted mail. ↗"
     }
   ],
   "relatedSlugs": [
-    "hey",
-    "spark",
-    "mimestream"
+    "front",
+    "fastmail",
+    "spark-premium"
   ],
   "pagePriority": 2,
   "verifiedOneShot": false,
   "notes": "The email client itself is buildable. The UX obsession — sub-100ms interactions, AI triage, keyboard shortcuts for everything — is the real product.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 1
 }

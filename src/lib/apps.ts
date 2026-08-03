@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from 'fs';
+﻿import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 import type { AppData, AppRow } from './types';
 
@@ -17,7 +17,7 @@ export function getAppBySlug(slug: string): AppData | undefined {
 }
 
 export function getAppRows(): AppRow[] {
-  return getAllApps().map(a => ({ slug: a.slug, name: a.name, domain: a.domain, category: a.category, priceMonthly: a.priceMonthly, verdict: a.verdict, votes: 0, pagePriority: a.pagePriority }));
+  return getAllApps().map(a => ({ slug: a.slug, name: a.name, domain: a.domain, category: a.category, priceMonthly: a.priceMonthly, verdict: a.verdict, votes: a.reportedReplacements, pagePriority: a.pagePriority, reportedReplacements: a.reportedReplacements }));
 }
 
 export function getAppCount(): number { return getAllApps().length; }

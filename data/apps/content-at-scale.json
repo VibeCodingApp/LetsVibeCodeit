@@ -1,0 +1,51 @@
+{
+  "slug": "content-at-scale",
+  "name": "Content at Scale",
+  "domain": "content-at-scale.com",
+  "category": "ai-writing",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Content at Scale, assemble a rigorous source-grounded content workflow without claiming its proprietary optimization stack. The hard boundary is opaque enterprise packaging, proprietary models, and managed content operations, plus workflow, data, and model tuning.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Content at Scale has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Content at Scale, assemble a rigorous source-grounded content workflow without claiming its proprietary optimization stack. The hard boundary is opaque enterprise packaging, proprietary models, and managed content operations, plus workflow, data, and model tuning.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Content at Scale",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "proprietary-data"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 💎 proprietary data",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Content at Scale, assemble a rigorous source-grounded content workflow without claiming its proprietary optimization stack. The hard boundary is opaque enterprise packaging, proprietary models, and managed content operations, plus workflow, data, and model tuning.",
+  "priorArt": [
+    {
+      "name": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗",
+      "url": "https://github.com/open-webui/open-webui",
+      "desc": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "writesonic",
+    "copy-ai",
+    "anyword"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Content at Scale, assemble a rigorous source-grounded content workflow without claiming its proprietary optimization stack. The hard boundary is opaque enterprise packaging, proprietary models, and managed content operations, plus workflow, data, and model tuning.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "tabnine",
+  "name": "Tabnine",
+  "domain": "tabnine.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Tabnine, provide local repository completions and chat through a selected model endpoint. The hard boundary is enterprise deployment, private models, ide coverage, governance, and support, plus frontier models, context infrastructure, and execution safety.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Tabnine costs $9/mo ($108/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Tabnine, provide local repository completions and chat through a selected model endpoint. The hard boundary is enterprise deployment, private models, ide coverage, governance, and support, plus frontier models, context infrastructure, and execution safety.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Tabnine",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Tabnine, provide local repository completions and chat through a selected model endpoint. The hard boundary is enterprise deployment, private models, ide coverage, governance, and support, plus frontier models, context infrastructure, and execution safety.",
+  "priorArt": [
+    {
+      "name": "Continue Active open-source coding-assistant framework for IDEs and multiple model providers. ↗",
+      "url": "https://github.com/continuedev/continue",
+      "desc": "Continue Active open-source coding-assistant framework for IDEs and multiple model providers. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "windsurf",
+    "replit",
+    "bolt-new"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Tabnine, provide local repository completions and chat through a selected model endpoint. The hard boundary is enterprise deployment, private models, ide coverage, governance, and support, plus frontier models, context infrastructure, and execution safety.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "tally",
+  "name": "Tally",
+  "domain": "tally.com",
+  "category": "forms",
+  "subcategory": null,
+  "tagline": "A form builder that stores responses and sends webhooks/email is a classic one-sitting/weekend app.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Tally costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A form builder that stores responses and sends webhooks/email is a classic one-sitting/weekend app.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Tally",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A form builder that stores responses and sends webhooks/email is a classic one-sitting/weekend app.",
+  "priorArt": [
+    {
+      "name": "Formbricks Open-source form/survey platform useful for response collection and feedback workflows. ↗",
+      "url": "https://github.com/formbricks/formbricks",
+      "desc": "Formbricks Open-source form/survey platform useful for response collection and feedback workflows. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "typeform",
+    "jotform",
+    "softr"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A form builder that stores responses and sends webhooks/email is a classic one-sitting/weekend app.",
+  "reportedReplacements": 7
+}

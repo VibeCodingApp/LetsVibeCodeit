@@ -1,0 +1,52 @@
+{
+  "slug": "retool",
+  "name": "Retool",
+  "domain": "retool.com",
+  "category": "no-code-apps",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Retool, build one internal CRUD tool over a trusted database with role-aware actions. The hard boundary is connectors, component library, permissions, workflows, and hosted runtime, plus connectors, runtime reliability, and governance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Retool costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Retool, build one internal CRUD tool over a trusted database with role-aware actions. The hard boundary is connectors, component library, permissions, workflows, and hosted runtime, plus connectors, runtime reliability, and governance.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Retool",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Retool, build one internal CRUD tool over a trusted database with role-aware actions. The hard boundary is connectors, component library, permissions, workflows, and hosted runtime, plus connectors, runtime reliability, and governance.",
+  "priorArt": [
+    {
+      "name": "Appsmith Large open-source low-code platform for internal applications and data sources. ↗",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "desc": "Appsmith Large open-source low-code platform for internal applications and data sources. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "flutterflow",
+    "weweb",
+    "adalo"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Retool, build one internal CRUD tool over a trusted database with role-aware actions. The hard boundary is connectors, component library, permissions, workflows, and hosted runtime, plus connectors, runtime reliability, and governance.",
+  "reportedReplacements": 0
+}

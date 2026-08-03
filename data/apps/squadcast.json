@@ -1,0 +1,51 @@
+{
+  "slug": "squadcast",
+  "name": "SquadCast",
+  "domain": "squadcast.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. SquadCast's durable value is media pipeline, hosting, distribution, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: SquadCast has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. SquadCast's durable value is media pipeline, hosting, distribution, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from SquadCast",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. SquadCast's durable value is media pipeline, hosting, distribution, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Kdenlive Open-source non-linear video editor. ↗",
+      "url": "https://github.com/KDE/kdenlive",
+      "desc": "Kdenlive Open-source non-linear video editor. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "podcastle",
+    "alitu",
+    "zencastr"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. SquadCast's durable value is media pipeline, hosting, distribution, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

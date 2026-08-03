@@ -1,0 +1,50 @@
+{
+  "slug": "post-bridge",
+  "name": "Post Bridge",
+  "domain": "post-bridge.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Post Bridge costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Post Bridge",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations"
+  ],
+  "moatNotes": "🔌 integrations",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "Postiz Open-source social scheduler, self-hostable, covers much of the DIY core for open-API networks. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Open-source social scheduler, self-hostable, covers much of the DIY core for open-API networks. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "buffer",
+    "postiz",
+    "later"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 22
+}

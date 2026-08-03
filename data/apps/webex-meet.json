@@ -1,0 +1,51 @@
+{
+  "slug": "webex-meet",
+  "name": "Webex Meet",
+  "domain": "webex-meet.com",
+  "category": "video-calls",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Webex Meet, host basic private calls without reproducing enterprise media and telephony infrastructure. The hard boundary is global conferencing, devices, calling, security, compliance, and support, plus real-time media infrastructure and reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Webex Meet costs $14.5/mo ($174/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Webex Meet, host basic private calls without reproducing enterprise media and telephony infrastructure. The hard boundary is global conferencing, devices, calling, security, compliance, and support, plus real-time media infrastructure and reliability.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Webex Meet",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Webex Meet, host basic private calls without reproducing enterprise media and telephony infrastructure. The hard boundary is global conferencing, devices, calling, security, compliance, and support, plus real-time media infrastructure and reliability.",
+  "priorArt": [
+    {
+      "name": "Jitsi Meet Widely deployed open-source video-conferencing platform. ↗",
+      "url": "https://github.com/jitsi/jitsi-meet",
+      "desc": "Jitsi Meet Widely deployed open-source video-conferencing platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "zoom-pro",
+    "google-workspace-business-starter",
+    "microsoft-teams-essentials"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Webex Meet, host basic private calls without reproducing enterprise media and telephony infrastructure. The hard boundary is global conferencing, devices, calling, security, compliance, and support, plus real-time media infrastructure and reliability.",
+  "reportedReplacements": 0
+}

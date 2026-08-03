@@ -1,0 +1,46 @@
+{
+  "slug": "surfshark",
+  "name": "Surfshark",
+  "domain": "surfshark.com",
+  "category": "security",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Surfshark's durable value is security, infrastructure, trust, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Surfshark costs $15.45/mo ($185.39999999999998/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Surfshark's durable value is security, infrastructure, trust, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Surfshark",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "brand-trust",
+    "compliance-regulation"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🛡️ brand & trust Ã‚Â· 🏛️ compliance & regulation",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Surfshark's durable value is security, infrastructure, trust, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "icloud-plus",
+    "google-one",
+    "mullvad"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Surfshark's durable value is security, infrastructure, trust, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

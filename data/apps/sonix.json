@@ -1,0 +1,51 @@
+{
+  "slug": "sonix",
+  "name": "Sonix",
+  "domain": "sonix.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "The visible automated transcription loop is buildable, but a credible replacement needs more than the first screen. Sonix earns its keep through capture, integrations, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Sonix has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible automated transcription loop is buildable, but a credible replacement needs more than the first screen. Sonix earns its keep through capture, integrations, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Sonix",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The visible automated transcription loop is buildable, but a credible replacement needs more than the first screen. Sonix earns its keep through capture, integrations, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Local speech-to-text engine suitable for private transcription. ↗",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "whisper.cpp Local speech-to-text engine suitable for private transcription. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "tactiq",
+    "circleback",
+    "notta"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible automated transcription loop is buildable, but a credible replacement needs more than the first screen. Sonix earns its keep through capture, integrations, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

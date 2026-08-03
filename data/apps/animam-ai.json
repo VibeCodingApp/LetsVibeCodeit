@@ -1,0 +1,61 @@
+{
+  "slug": "animam-ai",
+  "name": "Animam.ai",
+  "domain": "animam-ai.com",
+  "category": "no-code-apps",
+  "subcategory": null,
+  "tagline": "The chat is a weekend. Everything that makes it safe to point at customers is not. Ingest a site, search it, stream an answer · that part is commoditised and the prompt below really does it. What resists is the boring half: an amount computed by the server and never by the model, a visitor email verified before it triggers anything, signed webhooks with retries, and a sending domain whose reputation you did not build in an afternoon.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Animam.ai costs $32/mo ($384/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The chat is a weekend. Everything that makes it safe to point at customers is not. Ingest a site, search it, stream an answer · that part is commoditised and the prompt below really does it. What resists is the boring half: an amount computed by the server and never by the model, a visitor email verified before it triggers anything, signed webhooks with retries, and a sending domain whose reputation you did not build in an afternoon.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Animam.ai",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The chat is a weekend. Everything that makes it safe to point at customers is not. Ingest a site, search it, stream an answer · that part is commoditised and the prompt below really does it. What resists is the boring half: an amount computed by the server and never by the model, a visitor email verified before it triggers anything, signed webhooks with retries, and a sending domain whose reputation you did not build in an afternoon.",
+  "priorArt": [
+    {
+      "name": "Chatwoot Self-hosted support inbox with a website widget ↗",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "desc": "Chatwoot Self-hosted support inbox with a website widget ↗"
+    },
+    {
+      "name": "Typebot Open-source conversational forms and chat flows ↗",
+      "url": "https://github.com/baptisteArno/typebot.io",
+      "desc": "Typebot Open-source conversational forms and chat flows ↗"
+    },
+    {
+      "name": "Onyx (ex-Danswer) Open-source RAG chat over your own documents ↗",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "desc": "Onyx (ex-Danswer) Open-source RAG chat over your own documents ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "teleminute",
+    "bubble",
+    "flutterflow"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The chat is a weekend. Everything that makes it safe to point at customers is not. Ingest a site, search it, stream an answer · that part is commoditised and the prompt below really does it. What resists is the boring half: an amount computed by the server and never by the model, a visitor email verified before it triggers anything, signed webhooks with retries, and a sending domain whose reputation you did not build in an afternoon.",
+  "reportedReplacements": 0
+}

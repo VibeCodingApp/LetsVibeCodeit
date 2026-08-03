@@ -1,0 +1,52 @@
+{
+  "slug": "google-ai-pro",
+  "name": "Google AI Pro",
+  "domain": "google-ai-pro.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Google AI Pro, build a local assistant client that connects to user-supplied model APIs and stores history. The hard boundary is gemini frontier models, google ecosystem integration, storage bundle, and global infrastructure, plus frontier models, context infrastructure, and execution safety.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Google AI Pro costs $19.99/mo ($239.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Google AI Pro, build a local assistant client that connects to user-supplied model APIs and stores history. The hard boundary is gemini frontier models, google ecosystem integration, storage bundle, and global infrastructure, plus frontier models, context infrastructure, and execution safety.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Google AI Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "infrastructure-scale",
+    "integrations"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Google AI Pro, build a local assistant client that connects to user-supplied model APIs and stores history. The hard boundary is gemini frontier models, google ecosystem integration, storage bundle, and global infrastructure, plus frontier models, context infrastructure, and execution safety.",
+  "priorArt": [
+    {
+      "name": "Continue Active open-source coding-assistant framework for IDEs and multiple model providers. ↗",
+      "url": "https://github.com/continuedev/continue",
+      "desc": "Continue Active open-source coding-assistant framework for IDEs and multiple model providers. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "windsurf",
+    "replit",
+    "bolt-new"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Google AI Pro, build a local assistant client that connects to user-supplied model APIs and stores history. The hard boundary is gemini frontier models, google ecosystem integration, storage bundle, and global infrastructure, plus frontier models, context infrastructure, and execution safety.",
+  "reportedReplacements": 0
+}

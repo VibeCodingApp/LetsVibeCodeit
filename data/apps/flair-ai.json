@@ -1,0 +1,51 @@
+{
+  "slug": "flair-ai",
+  "name": "Flair AI",
+  "domain": "flair-ai.com",
+  "category": "generative-media",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Flair AI, compose product scenes from cutouts, props, and generated backgrounds. The hard boundary is specialized product-photo workflow, templates, model quality, and hosted rendering, plus frontier models, compute, and data.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Flair AI costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Flair AI, compose product scenes from cutouts, props, and generated backgrounds. The hard boundary is specialized product-photo workflow, templates, model quality, and hosted rendering, plus frontier models, compute, and data.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Flair AI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Flair AI, compose product scenes from cutouts, props, and generated backgrounds. The hard boundary is specialized product-photo workflow, templates, model quality, and hosted rendering, plus frontier models, compute, and data.",
+  "priorArt": [
+    {
+      "name": "ComfyUI Node-based open-source diffusion workflow engine with a large ecosystem. ↗",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "desc": "ComfyUI Node-based open-source diffusion workflow engine with a large ecosystem. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ideogram",
+    "recraft",
+    "photoroom"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Flair AI, compose product scenes from cutouts, props, and generated backgrounds. The hard boundary is specialized product-photo workflow, templates, model quality, and hosted rendering, plus frontier models, compute, and data.",
+  "reportedReplacements": 0
+}

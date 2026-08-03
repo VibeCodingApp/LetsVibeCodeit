@@ -1,0 +1,56 @@
+{
+  "slug": "omnisend",
+  "name": "Omnisend",
+  "domain": "omnisend.com",
+  "category": "newsletters",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Omnisend's durable value is deliverability, reputation, network, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Omnisend costs $16/mo ($192/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Omnisend's durable value is deliverability, reputation, network, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Omnisend",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Omnisend's durable value is deliverability, reputation, network, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "listmonk High-performance self-hosted newsletter and mailing-list manager. ↗",
+      "url": "https://github.com/knadh/listmonk",
+      "desc": "listmonk High-performance self-hosted newsletter and mailing-list manager. ↗"
+    },
+    {
+      "name": "Mautic Open-source marketing automation platform. ↗",
+      "url": "https://github.com/mautic/mautic",
+      "desc": "Mautic Open-source marketing automation platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "substack",
+    "buttondown",
+    "klaviyo"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Omnisend's durable value is deliverability, reputation, network, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

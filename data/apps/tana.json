@@ -1,0 +1,56 @@
+{
+  "slug": "tana",
+  "name": "Tana",
+  "domain": "tana.com",
+  "category": "notes-knowledge",
+  "subcategory": null,
+  "tagline": "The visible structured networked notes loop is buildable, but a credible replacement needs more than the first screen. Tana earns its keep through polish, sync, importers, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Tana costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible structured networked notes loop is buildable, but a credible replacement needs more than the first screen. Tana earns its keep through polish, sync, importers, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Tana",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The visible structured networked notes loop is buildable, but a credible replacement needs more than the first screen. Tana earns its keep through polish, sync, importers, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "AppFlowy Local-first open-source workspace with documents and databases. ↗",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "desc": "AppFlowy Local-first open-source workspace with documents and databases. ↗"
+    },
+    {
+      "name": "Logseq Open-source local knowledge graph and outliner. ↗",
+      "url": "https://github.com/logseq/logseq",
+      "desc": "Logseq Open-source local knowledge graph and outliner. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "capacities",
+    "reflect",
+    "roam-research"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible structured networked notes loop is buildable, but a credible replacement needs more than the first screen. Tana earns its keep through polish, sync, importers, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

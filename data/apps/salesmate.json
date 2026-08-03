@@ -1,0 +1,51 @@
+{
+  "slug": "salesmate",
+  "name": "Salesmate",
+  "domain": "salesmate.com",
+  "category": "crm",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Salesmate, track contacts and deals and send low-volume permissioned email through a user provider. The hard boundary is built-in calling, texting, sequences, automations, and sales integrations, plus integrations, data quality, and workflow lock-in.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Salesmate costs $29/mo ($348/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Salesmate, track contacts and deals and send low-volume permissioned email through a user provider. The hard boundary is built-in calling, texting, sequences, automations, and sales integrations, plus integrations, data quality, and workflow lock-in.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Salesmate",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "switching-costs",
+    "integrations"
+  ],
+  "moatNotes": "⛓️ switching costs Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Salesmate, track contacts and deals and send low-volume permissioned email through a user provider. The hard boundary is built-in calling, texting, sequences, automations, and sales integrations, plus integrations, data quality, and workflow lock-in.",
+  "priorArt": [
+    {
+      "name": "Twenty Active open-source modern CRM with extensible data models. ↗",
+      "url": "https://github.com/twentyhq/twenty",
+      "desc": "Twenty Active open-source modern CRM with extensible data models. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "pipedrive",
+    "close-crm",
+    "attio"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Salesmate, track contacts and deals and send low-volume permissioned email through a user provider. The hard boundary is built-in calling, texting, sequences, automations, and sales integrations, plus integrations, data quality, and workflow lock-in.",
+  "reportedReplacements": 0
+}

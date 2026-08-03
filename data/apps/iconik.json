@@ -1,0 +1,57 @@
+{
+  "slug": "iconik",
+  "name": "Iconik",
+  "domain": "iconik.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Iconik costs $65/mo ($780/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "not realistically solo",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Iconik",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "ResourceSpace Genuine open-source DAM with metadata, collections, and user permissions. Development lives on the project's own repo, the GitHub copy tracks it. ↗",
+      "url": "https://github.com/resourcespace/resourcespace",
+      "desc": "ResourceSpace Genuine open-source DAM with metadata, collections, and user permissions. Development lives on the project's own repo, the GitHub copy tracks it. ↗"
+    },
+    {
+      "name": "Kitsu Open-source production platform with versioned media, review, and per-project access. Closer to a facility tool than a personal catalog. ↗",
+      "url": "https://github.com/cgwire/kitsu",
+      "desc": "Kitsu Open-source production platform with versioned media, review, and per-project access. Closer to a facility tool than a personal catalog. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "shade",
+    "frame-io",
+    "descript"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "auritrack",
+  "name": "Auritrack",
+  "domain": "auritrack.com",
+  "category": "personal-finance",
+  "subcategory": null,
+  "tagline": "The core loop, logging expenses by typing a sentence into a chat box and having an LLM extract amount, payee, and category, is very buildable with an Anthropic API key. Budgets, categories, and spending reports are standard CRUD. The real gap is statement import: getting one clean CSV parsed by an LLM is a demo, but reliably parsing messy multi-page bank PDFs across many banks needs batching, fallbacks, and cross-checks that take far longer than a weekend.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Auritrack costs $3/mo ($36/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop, logging expenses by typing a sentence into a chat box and having an LLM extract amount, payee, and category, is very buildable with an Anthropic API key. Budgets, categories, and spending reports are standard CRUD. The real gap is statement import: getting one clean CSV parsed by an LLM is a demo, but reliably parsing messy multi-page bank PDFs across many banks needs batching, fallbacks, and cross-checks that take far longer than a weekend.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Auritrack",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop, logging expenses by typing a sentence into a chat box and having an LLM extract amount, payee, and category, is very buildable with an Anthropic API key. Budgets, categories, and spending reports are standard CRUD. The real gap is statement import: getting one clean CSV parsed by an LLM is a demo, but reliably parsing messy multi-page bank PDFs across many banks needs batching, fallbacks, and cross-checks that take far longer than a weekend.",
+  "priorArt": [
+    {
+      "name": "Firefly III Mature self-hosted personal finance manager with a full API and CSV importer, a solid non-AI base to bolt an LLM onto. ↗",
+      "url": "https://github.com/firefly-iii/firefly-iii",
+      "desc": "Firefly III Mature self-hosted personal finance manager with a full API and CSV importer, a solid non-AI base to bolt an LLM onto. ↗"
+    },
+    {
+      "name": "Actual Budget Open-source local-first budgeting app with strong transaction import tooling. ↗",
+      "url": "https://github.com/actualbudget/actual",
+      "desc": "Actual Budget Open-source local-first budgeting app with strong transaction import tooling. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ynab",
+    "monarch-money",
+    "copilot-money"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop, logging expenses by typing a sentence into a chat box and having an LLM extract amount, payee, and category, is very buildable with an Anthropic API key. Budgets, categories, and spending reports are standard CRUD. The real gap is statement import: getting one clean CSV parsed by an LLM is a demo, but reliably parsing messy multi-page bank PDFs across many banks needs batching, fallbacks, and cross-checks that take far longer than a weekend.",
+  "reportedReplacements": 0
+}

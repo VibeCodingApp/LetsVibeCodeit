@@ -1,0 +1,52 @@
+{
+  "slug": "beautiful-ai",
+  "name": "Beautiful.ai",
+  "domain": "beautiful-ai.com",
+  "category": "presentations",
+  "subcategory": null,
+  "tagline": "You can build a template deck generator, but auto-layout slide behavior, template polish, brand controls, PowerPoint import/export, and collaboration are real work.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Beautiful.ai costs $45/mo ($540/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "You can build a template deck generator, but auto-layout slide behavior, template polish, brand controls, PowerPoint import/export, and collaboration are real work.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Beautiful.ai",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "content-rights",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🎟️ content & rights Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "You can build a template deck generator, but auto-layout slide behavior, template polish, brand controls, PowerPoint import/export, and collaboration are real work.",
+  "priorArt": [
+    {
+      "name": "reveal.js Open-source HTML presentation framework; useful rendering layer but not the smart-template ↗",
+      "url": "https://github.com/hakimel/reveal.js",
+      "desc": "reveal.js Open-source HTML presentation framework; useful rendering layer but not the smart-template ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "jasper",
+    "quillbot",
+    "grammarly"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build a template deck generator, but auto-layout slide behavior, template polish, brand controls, PowerPoint import/export, and collaboration are real work.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "verifieddr",
+  "name": "VerifiedDR",
+  "domain": "verifieddr.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "A personal dashboard for an owned site is a weekend build with Search Console and model APIs, but TrueDR, backlink intelligence, historical monitoring, and the partner marketplace depend on paid data, operations, and a live network.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: VerifiedDR costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A personal dashboard for an owned site is a weekend build with Search Console and model APIs, but TrueDR, backlink intelligence, historical monitoring, and the partner marketplace depend on paid data, operations, and a live network.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from VerifiedDR",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "network-effects",
+    "integrations"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🕸️ network effects Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A personal dashboard for an owned site is a weekend build with Search Console and model APIs, but TrueDR, backlink intelligence, historical monitoring, and the partner marketplace depend on paid data, operations, and a live network.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "semrush",
+    "ahrefs",
+    "surfer-seo"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A personal dashboard for an owned site is a weekend build with Search Console and model APIs, but TrueDR, backlink intelligence, historical monitoring, and the partner marketplace depend on paid data, operations, and a live network.",
+  "reportedReplacements": 0
+}

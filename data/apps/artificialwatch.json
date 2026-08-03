@@ -1,0 +1,56 @@
+{
+  "slug": "artificialwatch",
+  "name": "ArtificialWatch",
+  "domain": "artificialwatch.com",
+  "category": "rss-research",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: ArtificialWatch costs $19.99/mo ($239.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "one sitting for the poller, a weekend to make it trustworthy",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from ArtificialWatch",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "models.dev open-source database of AI models, providers and",
+      "url": "https://github.com/anomalyco/models.dev",
+      "desc": "models.dev open-source database of AI models, providers and pricing · the data layer a DIY watcher can diff against ↗"
+    },
+    {
+      "name": "changedetection.io self-hosted page-change monitoring with",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "desc": "changedetection.io self-hosted page-change monitoring with notifications · covers the docs and pricing pages an API cannot ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "claude",
+    "chatgpt",
+    "cronitor"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 0
+}

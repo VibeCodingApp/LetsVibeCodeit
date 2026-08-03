@@ -1,0 +1,52 @@
+{
+  "slug": "fireflies-ai",
+  "name": "Fireflies.ai",
+  "domain": "fireflies-ai.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "The summarizer is easy; the meeting bot, calendar routing, integrations, team search, and admin layer make it more than a one-prompt clone.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Fireflies.ai costs $18/mo ($216/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The summarizer is easy; the meeting bot, calendar routing, integrations, team search, and admin layer make it more than a one-prompt clone.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Fireflies.ai",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The summarizer is easy; the meeting bot, calendar routing, integrations, team search, and admin layer make it more than a one-prompt clone.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Provides the commodity transcription layer; the SaaS moat is the meeting/integration layer ↗",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "whisper.cpp Provides the commodity transcription layer; the SaaS moat is the meeting/integration layer ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fathom-ai",
+    "tldv",
+    "krisp"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The summarizer is easy; the meeting bot, calendar routing, integrations, team search, and admin layer make it more than a one-prompt clone.",
+  "reportedReplacements": 0
+}

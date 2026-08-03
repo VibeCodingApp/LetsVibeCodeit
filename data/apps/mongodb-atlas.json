@@ -1,0 +1,55 @@
+{
+  "slug": "mongodb-atlas",
+  "name": "MongoDB Atlas",
+  "domain": "mongodb-atlas.com",
+  "category": "hosting",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. MongoDB Atlas's durable value is infrastructure, uptime, operations, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: MongoDB Atlas has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. MongoDB Atlas's durable value is infrastructure, uptime, operations, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from MongoDB Atlas",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🏗️ infrastructure scale",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. MongoDB Atlas's durable value is infrastructure, uptime, operations, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Coolify Self-hosted application deployment and infrastructure control plane. ↗",
+      "url": "https://github.com/coollabsio/coolify",
+      "desc": "Coolify Self-hosted application deployment and infrastructure control plane. ↗"
+    },
+    {
+      "name": "Dokku Open-source platform-as-a-service toolkit for a single server. ↗",
+      "url": "https://github.com/dokku/dokku",
+      "desc": "Dokku Open-source platform-as-a-service toolkit for a single server. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sentry",
+    "uptime",
+    "convex"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. MongoDB Atlas's durable value is infrastructure, uptime, operations, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

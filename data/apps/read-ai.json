@@ -1,0 +1,51 @@
+{
+  "slug": "read-ai",
+  "name": "Read AI",
+  "domain": "read-ai.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Read AI, capture meetings and turn them into transcripts, notes, and engagement summaries. The hard boundary is meeting-platform bots, email recaps, analytics, and team workspaces, plus capture reliability, integrations, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Read AI costs $19.75/mo ($237/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Read AI, capture meetings and turn them into transcripts, notes, and engagement summaries. The hard boundary is meeting-platform bots, email recaps, analytics, and team workspaces, plus capture reliability, integrations, and collaboration.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Read AI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Read AI, capture meetings and turn them into transcripts, notes, and engagement summaries. The hard boundary is meeting-platform bots, email recaps, analytics, and team workspaces, plus capture reliability, integrations, and collaboration.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Widely used local Whisper inference implementation suitable for private transcription. ↗",
+      "url": "https://github.com/ggerganov/whisper.cpp",
+      "desc": "whisper.cpp Widely used local Whisper inference implementation suitable for private transcription. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fathom-ai",
+    "avoma",
+    "meetgeek"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Read AI, capture meetings and turn them into transcripts, notes, and engagement summaries. The hard boundary is meeting-platform bots, email recaps, analytics, and team workspaces, plus capture reliability, integrations, and collaboration.",
+  "reportedReplacements": 0
+}

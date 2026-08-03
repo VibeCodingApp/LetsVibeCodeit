@@ -1,0 +1,52 @@
+{
+  "slug": "wix",
+  "name": "Wix",
+  "domain": "wix.com",
+  "category": "website-builders",
+  "subcategory": null,
+  "tagline": "A custom site is buildable; Wix as a platform includes editor, templates, apps, ecommerce/bookings, hosting, domains, and a huge long-tail feature surface.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Wix costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A custom site is buildable; Wix as a platform includes editor, templates, apps, ecommerce/bookings, hosting, domains, and a huge long-tail feature surface.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Wix",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish",
+    "content-rights"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "A custom site is buildable; Wix as a platform includes editor, templates, apps, ecommerce/bookings, hosting, domains, and a huge long-tail feature surface.",
+  "priorArt": [
+    {
+      "name": "GrapesJS Open-source web builder library for visual page editing. ↗",
+      "url": "https://github.com/GrapesJS/grapesjs",
+      "desc": "GrapesJS Open-source web builder library for visual page editing. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "github-copilot",
+    "cursor",
+    "replit"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A custom site is buildable; Wix as a platform includes editor, templates, apps, ecommerce/bookings, hosting, domains, and a huge long-tail feature surface.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "shade",
+  "name": "Shade",
+  "domain": "shade.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Shade costs $35/mo ($420/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Shade",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "infrastructure-scale",
+    "proprietary-models"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🧠 proprietary models",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "Immich Self-hosted photo and video library with CLIP semantic search and face recognition already built in. The closest working proof the search half is solved. ↗",
+      "url": "https://github.com/immich-app/immich",
+      "desc": "Immich Self-hosted photo and video library with CLIP semantic search and face recognition already built in. The closest working proof the search half is solved. ↗"
+    },
+    {
+      "name": "PhotoPrism Self-hosted AI-tagged media library with local indexing and search. Photo-first, but the same pattern. ↗",
+      "url": "https://github.com/photoprism/photoprism",
+      "desc": "PhotoPrism Self-hosted AI-tagged media library with local indexing and search. Photo-first, but the same pattern. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "iconik",
+    "frame-io",
+    "descript"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 0
+}

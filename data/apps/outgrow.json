@@ -1,0 +1,51 @@
+{
+  "slug": "outgrow",
+  "name": "Outgrow",
+  "domain": "outgrow.com",
+  "category": "forms",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Outgrow, create a constrained calculator or quiz with formula-driven results. The hard boundary is template library, lead capture, analytics, integrations, and hosted embeds, plus integrations, deliverability, and workflow depth.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Outgrow costs $22/mo ($264/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Outgrow, create a constrained calculator or quiz with formula-driven results. The hard boundary is template library, lead capture, analytics, integrations, and hosted embeds, plus integrations, deliverability, and workflow depth.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Outgrow",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Outgrow, create a constrained calculator or quiz with formula-driven results. The hard boundary is template library, lead capture, analytics, integrations, and hosted embeds, plus integrations, deliverability, and workflow depth.",
+  "priorArt": [
+    {
+      "name": "Formbricks Active open-source survey and experience-management platform. ↗",
+      "url": "https://github.com/formbricks/formbricks",
+      "desc": "Formbricks Active open-source survey and experience-management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "surveymonkey",
+    "fillout",
+    "paperform"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Outgrow, create a constrained calculator or quiz with formula-driven results. The hard boundary is template library, lead capture, analytics, integrations, and hosted embeds, plus integrations, deliverability, and workflow depth.",
+  "reportedReplacements": 0
+}

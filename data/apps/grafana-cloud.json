@@ -1,0 +1,51 @@
+{
+  "slug": "grafana-cloud",
+  "name": "Grafana Cloud",
+  "domain": "grafana-cloud.com",
+  "category": "monitoring",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Grafana Cloud, host Grafana, Prometheus, Loki, and Tempo for a small stack on user-owned infrastructure. The hard boundary is managed global telemetry, integrations, retention, support, and scalable operations, plus independent infrastructure and reliable alerting.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Grafana Cloud has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Grafana Cloud, host Grafana, Prometheus, Loki, and Tempo for a small stack on user-owned infrastructure. The hard boundary is managed global telemetry, integrations, retention, support, and scalable operations, plus independent infrastructure and reliable alerting.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Grafana Cloud",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Grafana Cloud, host Grafana, Prometheus, Loki, and Tempo for a small stack on user-owned infrastructure. The hard boundary is managed global telemetry, integrations, retention, support, and scalable operations, plus independent infrastructure and reliable alerting.",
+  "priorArt": [
+    {
+      "name": "Uptime Kuma Popular open-source uptime monitoring dashboard with many check types. ↗",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "desc": "Uptime Kuma Popular open-source uptime monitoring dashboard with many check types. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sentry",
+    "uptime",
+    "datadog"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Grafana Cloud, host Grafana, Prometheus, Loki, and Tempo for a small stack on user-owned infrastructure. The hard boundary is managed global telemetry, integrations, retention, support, and scalable operations, plus independent infrastructure and reliable alerting.",
+  "reportedReplacements": 0
+}

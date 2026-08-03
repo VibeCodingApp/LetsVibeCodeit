@@ -1,0 +1,51 @@
+{
+  "slug": "scribe",
+  "name": "Scribe",
+  "domain": "scribe.com",
+  "category": "screen-recording",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Scribe, capture a browser workflow and produce editable step-by-step documentation. The hard boundary is automatic capture quality, redaction, team libraries, integrations, and sharing, plus capture polish, hosting, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Scribe costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Scribe, capture a browser workflow and produce editable step-by-step documentation. The hard boundary is automatic capture quality, redaction, team libraries, integrations, and sharing, plus capture polish, hosting, and collaboration.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Scribe",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Scribe, capture a browser workflow and produce editable step-by-step documentation. The hard boundary is automatic capture quality, redaction, team libraries, integrations, and sharing, plus capture polish, hosting, and collaboration.",
+  "priorArt": [
+    {
+      "name": "Cap Open-source screen recording and sharing product with modern desktop architecture. ↗",
+      "url": "https://github.com/CapSoftware/Cap",
+      "desc": "Cap Open-source screen recording and sharing product with modern desktop architecture. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "screen-studio",
+    "cleanshot-x",
+    "vidyard"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Scribe, capture a browser workflow and produce editable step-by-step documentation. The hard boundary is automatic capture quality, redaction, team libraries, integrations, and sharing, plus capture polish, hosting, and collaboration.",
+  "reportedReplacements": 0
+}

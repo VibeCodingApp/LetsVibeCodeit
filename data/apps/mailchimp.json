@@ -39,23 +39,22 @@
     "integrations",
     "execution-polish"
   ],
-  "moatNotes": "Email deliverability at scale is surprisingly hard — inbox placement, bounce handling, and domain reputation are real moats",
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations Ã‚Â· 🏛️ compliance & regulation",
   "whyPeopleStillPay": "Deliverability guarantees and the marketing automation workflows that connect email to their CRM, ecommerce, and analytics",
   "priorArt": [
     {
-      "name": "Sendy",
-      "url": "https://sendy.co",
-      "desc": "Self-hosted email newsletter app using SES"
+      "name": "Mautic Open-source marketing automation platform with email campaigns and contact management. ↗",
+      "url": "https://github.com/mautic/mautic",
+      "desc": "Mautic Open-source marketing automation platform with email campaigns and contact management. ↗"
     }
   ],
   "relatedSlugs": [
-    "convertkit",
-    "brevo",
-    "sendgrid"
+    "ghost-pro",
+    "shopify",
+    "podia"
   ],
   "pagePriority": 4,
   "verifiedOneShot": false,
   "notes": "Sendy is the classic DIY approach. For a one-shot, use Resend for email delivery and build the template editor yourself.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 2
 }

@@ -1,0 +1,52 @@
+{
+  "slug": "wrike",
+  "name": "Wrike",
+  "domain": "wrike.com",
+  "category": "project-management",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Wrike, track projects through tasks, boards, custom fields, and team dashboards. The hard boundary is enterprise workflow, approvals, integrations, reporting, and governance, plus collaboration, integrations, and organizational trust.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Wrike costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Wrike, track projects through tasks, boards, custom fields, and team dashboards. The hard boundary is enterprise workflow, approvals, integrations, reporting, and governance, plus collaboration, integrations, and organizational trust.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Wrike",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations",
+    "brand-trust"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🔌 integrations Ã‚Â· 🛡️ brand & trust",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Wrike, track projects through tasks, boards, custom fields, and team dashboards. The hard boundary is enterprise workflow, approvals, integrations, reporting, and governance, plus collaboration, integrations, and organizational trust.",
+  "priorArt": [
+    {
+      "name": "Plane Active open-source project and issue tracking platform. ↗",
+      "url": "https://github.com/makeplane/plane",
+      "desc": "Plane Active open-source project and issue tracking platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "asana",
+    "monday-com",
+    "clickup"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Wrike, track projects through tasks, boards, custom fields, and team dashboards. The hard boundary is enterprise workflow, approvals, integrations, reporting, and governance, plus collaboration, integrations, and organizational trust.",
+  "reportedReplacements": 0
+}

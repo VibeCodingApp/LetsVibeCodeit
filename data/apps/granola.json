@@ -35,22 +35,27 @@
     "execution-polish",
     "integrations"
   ],
-  "moatNotes": null,
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
   "whyPeopleStillPay": "Teams that need shared meeting notes with calendar sync",
   "priorArt": [
     {
-      "name": "Otter.ai",
-      "url": "https://otter.ai",
-      "desc": "Original AI transcription tool"
+      "name": "quill open-source Granola alternative ↗",
+      "url": "https://github.com/dremnik/quill",
+      "desc": "quill open-source Granola alternative ↗"
+    },
+    {
+      "name": "whisper.cpp local transcription engine ↗",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "whisper.cpp local transcription engine ↗"
     }
   ],
   "relatedSlugs": [
-    "otter",
-    "fireflies"
+    "otter-ai",
+    "fireflies-ai",
+    "fathom-ai"
   ],
   "pagePriority": 5,
   "verifiedOneShot": true,
   "notes": "One of the highest-voted apps on the site. The prompt is battle-tested.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 94
 }

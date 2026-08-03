@@ -1,0 +1,57 @@
+{
+  "slug": "portfolio-coach",
+  "name": "Portfolio Coach",
+  "domain": "portfolio-coach.com",
+  "category": "personal-finance",
+  "subcategory": null,
+  "tagline": "A private dashboard for holdings, family members, projections, and CSV imports is a credible weekend build. Reliable live pricing for UK funds, a ledger-correct Vanguard importer, household data boundaries, maintained tax rules, and AI advice grounded in every account turn the complete product into a multi-day project.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Portfolio Coach has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A private dashboard for holdings, family members, projections, and CSV imports is a credible weekend build. Reliable live pricing for UK funds, a ledger-correct Vanguard importer, household data boundaries, maintained tax rules, and AI advice grounded in every account turn the complete product into a multi-day project.",
+  "diyTimeEstimate": "weekend for a local version, multi-day for the hosted product",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Portfolio Coach",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "compliance-regulation",
+    "execution-polish"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏛️ compliance & regulation Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A private dashboard for holdings, family members, projections, and CSV imports is a credible weekend build. Reliable live pricing for UK funds, a ledger-correct Vanguard importer, household data boundaries, maintained tax rules, and AI advice grounded in every account turn the complete product into a multi-day project.",
+  "priorArt": [
+    {
+      "name": "Ghostfolio Open-source wealth management software with portfolio analytics ↗",
+      "url": "https://github.com/ghostfolio/ghostfolio",
+      "desc": "Ghostfolio Open-source wealth management software with portfolio analytics ↗"
+    },
+    {
+      "name": "Portfolio Performance Open-source desktop portfolio tracker with detailed performance analysis ↗",
+      "url": "https://github.com/portfolio-performance/portfolio",
+      "desc": "Portfolio Performance Open-source desktop portfolio tracker with detailed performance analysis ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "monarch-money",
+    "copilot-money",
+    "ynab"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A private dashboard for holdings, family members, projections, and CSV imports is a credible weekend build. Reliable live pricing for UK funds, a ledger-correct Vanguard importer, household data boundaries, maintained tax rules, and AI advice grounded in every account turn the complete product into a multi-day project.",
+  "reportedReplacements": 2
+}

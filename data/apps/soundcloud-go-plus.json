@@ -1,0 +1,52 @@
+{
+  "slug": "soundcloud-go-plus",
+  "name": "SoundCloud Go Plus",
+  "domain": "soundcloud-go-plus.com",
+  "category": "music-audio",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For SoundCloud Go Plus, host and stream user-owned creator audio with comments on a private server. The hard boundary is creator network, licensed catalog, discovery, rights handling, uploads, and social graph, plus licensed content, rights, and distribution network.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: SoundCloud Go Plus costs $10.99/mo ($131.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For SoundCloud Go Plus, host and stream user-owned creator audio with comments on a private server. The hard boundary is creator network, licensed catalog, discovery, rights handling, uploads, and social graph, plus licensed content, rights, and distribution network.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from SoundCloud Go Plus",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "content-rights",
+    "network-effects",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🎟️ content & rights Ã‚Â· 🕸️ network effects Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For SoundCloud Go Plus, host and stream user-owned creator audio with comments on a private server. The hard boundary is creator network, licensed catalog, discovery, rights handling, uploads, and social graph, plus licensed content, rights, and distribution network.",
+  "priorArt": [
+    {
+      "name": "Navidrome Active open-source personal music server for legally owned libraries. ↗",
+      "url": "https://github.com/navidrome/navidrome",
+      "desc": "Navidrome Active open-source personal music server for legally owned libraries. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "spotify-premium",
+    "apple-music",
+    "youtube-music-premium"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For SoundCloud Go Plus, host and stream user-owned creator audio with comments on a private server. The hard boundary is creator network, licensed catalog, discovery, rights handling, uploads, and social graph, plus licensed content, rights, and distribution network.",
+  "reportedReplacements": 0
+}

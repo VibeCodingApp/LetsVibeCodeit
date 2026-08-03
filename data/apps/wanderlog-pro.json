@@ -1,0 +1,52 @@
+{
+  "slug": "wanderlog-pro",
+  "name": "Wanderlog Pro",
+  "domain": "wanderlog-pro.com",
+  "category": "travel",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Wanderlog Pro, build a collaborative itinerary from user-entered places, notes, and reservations. The hard boundary is maps, travel data, collaboration, offline access, route optimization, and mobile apps, plus proprietary live data and network coverage.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Wanderlog Pro costs $5.99/mo ($71.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Wanderlog Pro, build a collaborative itinerary from user-entered places, notes, and reservations. The hard boundary is maps, travel data, collaboration, offline access, route optimization, and mobile apps, plus proprietary live data and network coverage.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Wanderlog Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 👥 collaboration Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Wanderlog Pro, build a collaborative itinerary from user-entered places, notes, and reservations. The hard boundary is maps, travel data, collaboration, offline access, route optimization, and mobile apps, plus proprietary live data and network coverage.",
+  "priorArt": [
+    {
+      "name": "Wanderer Open-source self-hosted trail database and route explorer using open map data. ↗",
+      "url": "https://github.com/Flomp/wanderer",
+      "desc": "Wanderer Open-source self-hosted trail database and route explorer using open map data. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "tripit-pro",
+    "alltrails-plus",
+    "flighty-pro"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Wanderlog Pro, build a collaborative itinerary from user-entered places, notes, and reservations. The hard boundary is maps, travel data, collaboration, offline access, route optimization, and mobile apps, plus proprietary live data and network coverage.",
+  "reportedReplacements": 0
+}

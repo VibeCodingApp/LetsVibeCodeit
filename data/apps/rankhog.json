@@ -1,0 +1,51 @@
+{
+  "slug": "rankhog",
+  "name": "Rankhog",
+  "domain": "rankhog.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Rankhog costs $99/mo ($1188/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Rankhog",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "brand-trust",
+    "execution-polish"
+  ],
+  "moatNotes": "🛡️ brand & trust Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "redsignal Watches subreddits for keyword matches, filters the noise with an LLM, and drafts replies. Covers the finder half, no license declared. ↗",
+      "url": "https://github.com/ivucicev/redsignal",
+      "desc": "redsignal Watches subreddits for keyword matches, filters the noise with an LLM, and drafts replies. Covers the finder half, no license declared. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "surfer-seo",
+    "semrush",
+    "ahrefs"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 1
+}

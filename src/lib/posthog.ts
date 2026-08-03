@@ -2,7 +2,6 @@ export type PostHogStats = {
   viewsToday: number;
   views7d: number;
   visitors7d: number;
-  promptsCopied7d: number;
   peakDay: number;
   updatedAt: string;
 };
@@ -64,7 +63,6 @@ export async function getPostHogStats(): Promise<PostHogStats | null> {
       countIf(event = '$pageview' AND timestamp >= now() - interval 24 hour),
       countIf(event = '$pageview' AND timestamp >= now() - interval 7 day),
       uniqExactIf(distinct_id, event = '$pageview' AND timestamp >= now() - interval 7 day),
-      countIf(event = 'prompt_copied' AND timestamp >= now() - interval 7 day)
     FROM events`,
     'letsvibecodeit live analytics overview',
   );
@@ -79,7 +77,6 @@ export async function getPostHogStats(): Promise<PostHogStats | null> {
     viewsToday: toNumber(overview?.[0]),
     views7d: toNumber(overview?.[1]),
     visitors7d: toNumber(overview?.[2]),
-    promptsCopied7d: toNumber(overview?.[3]),
     peakDay: toNumber(peak?.[0]),
     updatedAt: new Date().toISOString(),
   };

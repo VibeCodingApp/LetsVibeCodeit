@@ -1,0 +1,57 @@
+{
+  "slug": "moxie",
+  "name": "Moxie",
+  "domain": "moxie.com",
+  "category": "finance-accounting",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Moxie's durable value is banking, compliance, trust, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Moxie has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Moxie's durable value is banking, compliance, trust, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Moxie",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "integrations",
+    "brand-trust"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🔌 integrations Ã‚Â· 🛡️ brand & trust",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Moxie's durable value is banking, compliance, trust, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Actual Budget Local-first open-source personal finance and envelope budgeting. ↗",
+      "url": "https://github.com/actualbudget/actual",
+      "desc": "Actual Budget Local-first open-source personal finance and envelope budgeting. ↗"
+    },
+    {
+      "name": "Invoice Ninja Open-source invoicing, payments, and client management. ↗",
+      "url": "https://github.com/invoiceninja/invoiceninja",
+      "desc": "Invoice Ninja Open-source invoicing, payments, and client management. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "indy",
+    "plutio",
+    "dubsado"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Moxie's durable value is banking, compliance, trust, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

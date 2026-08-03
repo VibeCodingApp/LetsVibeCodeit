@@ -1,0 +1,61 @@
+{
+  "slug": "lnkflow",
+  "name": "LnkFlow",
+  "domain": "lnkflow.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: LnkFlow costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from LnkFlow",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "Dub The most complete open-source link",
+      "url": "https://github.com/dubinc/dub",
+      "desc": "Dub The most complete open-source link platform · analytics, custom domains, and a conversion API. Self-hostable. ↗"
+    },
+    {
+      "name": "Shlink Self-hosted URL shortener with a REST API, click stats, and QR codes. ↗",
+      "url": "https://github.com/shlinkio/shlink",
+      "desc": "Shlink Self-hosted URL shortener with a REST API, click stats, and QR codes. ↗"
+    },
+    {
+      "name": "YOURLS The long-running PHP",
+      "url": "https://github.com/YOURLS/YOURLS",
+      "desc": "YOURLS The long-running PHP shortener · drop it on any LAMP host and it works. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "plausible",
+    "fathom-analytics",
+    "linktree"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 1
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "flighty-pro",
+  "name": "Flighty Pro",
+  "domain": "flighty-pro.com",
+  "category": "travel",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Flighty Pro, organize booked flights and display user-entered status updates offline. The hard boundary is live aviation data, predictive alerts, apple integration, push infrastructure, and polish, plus proprietary live data and network coverage.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Flighty Pro has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Flighty Pro, organize booked flights and display user-entered status updates offline. The hard boundary is live aviation data, predictive alerts, apple integration, push infrastructure, and polish, plus proprietary live data and network coverage.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Flighty Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Flighty Pro, organize booked flights and display user-entered status updates offline. The hard boundary is live aviation data, predictive alerts, apple integration, push infrastructure, and polish, plus proprietary live data and network coverage.",
+  "priorArt": [
+    {
+      "name": "Wanderer Open-source self-hosted trail database and route explorer using open map data. ↗",
+      "url": "https://github.com/Flomp/wanderer",
+      "desc": "Wanderer Open-source self-hosted trail database and route explorer using open map data. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "tripit-pro",
+    "wanderlog-pro",
+    "alltrails-plus"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Flighty Pro, organize booked flights and display user-entered status updates offline. The hard boundary is live aviation data, predictive alerts, apple integration, push infrastructure, and polish, plus proprietary live data and network coverage.",
+  "reportedReplacements": 0
+}

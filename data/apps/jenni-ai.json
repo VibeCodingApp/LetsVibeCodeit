@@ -1,0 +1,51 @@
+{
+  "slug": "jenni-ai",
+  "name": "Jenni AI",
+  "domain": "jenni-ai.com",
+  "category": "ai-writing",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Jenni AI, draft academic-style prose from uploaded sources while keeping citation provenance visible. The hard boundary is citation search, document workflow, and polished editor integrations, plus workflow, data, and model tuning.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Jenni AI costs $20/mo ($240/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Jenni AI, draft academic-style prose from uploaded sources while keeping citation provenance visible. The hard boundary is citation search, document workflow, and polished editor integrations, plus workflow, data, and model tuning.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Jenni AI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-data"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 💎 proprietary data",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Jenni AI, draft academic-style prose from uploaded sources while keeping citation provenance visible. The hard boundary is citation search, document workflow, and polished editor integrations, plus workflow, data, and model tuning.",
+  "priorArt": [
+    {
+      "name": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗",
+      "url": "https://github.com/open-webui/open-webui",
+      "desc": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "writesonic",
+    "copy-ai",
+    "anyword"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Jenni AI, draft academic-style prose from uploaded sources while keeping citation provenance visible. The hard boundary is citation search, document workflow, and polished editor integrations, plus workflow, data, and model tuning.",
+  "reportedReplacements": 0
+}

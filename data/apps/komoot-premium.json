@@ -1,0 +1,51 @@
+{
+  "slug": "komoot-premium",
+  "name": "Komoot Premium",
+  "domain": "komoot-premium.com",
+  "category": "travel",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Komoot Premium, plan routes from open map data and export GPX files with clear data sources. The hard boundary is routing profiles, regional maps, community highlights, navigation, and offline apps, plus proprietary live data and network coverage.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Komoot Premium costs $5/mo ($60/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Komoot Premium, plan routes from open map data and export GPX files with clear data sources. The hard boundary is routing profiles, regional maps, community highlights, navigation, and offline apps, plus proprietary live data and network coverage.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Komoot Premium",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "network-effects"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Komoot Premium, plan routes from open map data and export GPX files with clear data sources. The hard boundary is routing profiles, regional maps, community highlights, navigation, and offline apps, plus proprietary live data and network coverage.",
+  "priorArt": [
+    {
+      "name": "Wanderer Open-source self-hosted trail database and route explorer using open map data. ↗",
+      "url": "https://github.com/Flomp/wanderer",
+      "desc": "Wanderer Open-source self-hosted trail database and route explorer using open map data. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "tripit-pro",
+    "wanderlog-pro",
+    "alltrails-plus"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Komoot Premium, plan routes from open map data and export GPX files with clear data sources. The hard boundary is routing profiles, regional maps, community highlights, navigation, and offline apps, plus proprietary live data and network coverage.",
+  "reportedReplacements": 0
+}

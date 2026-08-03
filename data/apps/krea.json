@@ -1,0 +1,51 @@
+{
+  "slug": "krea",
+  "name": "Krea",
+  "domain": "krea.com",
+  "category": "generative-media",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Krea, manage real-time and batch generation workflows from user-owned models or APIs. The hard boundary is proprietary real-time models, gpu fleet, enhancement stack, and creative tools, plus frontier models, compute, and data.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Krea costs $10/mo ($120/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Krea, manage real-time and batch generation workflows from user-owned models or APIs. The hard boundary is proprietary real-time models, gpu fleet, enhancement stack, and creative tools, plus frontier models, compute, and data.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Krea",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Krea, manage real-time and batch generation workflows from user-owned models or APIs. The hard boundary is proprietary real-time models, gpu fleet, enhancement stack, and creative tools, plus frontier models, compute, and data.",
+  "priorArt": [
+    {
+      "name": "ComfyUI Node-based open-source diffusion workflow engine with a large ecosystem. ↗",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "desc": "ComfyUI Node-based open-source diffusion workflow engine with a large ecosystem. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ideogram",
+    "recraft",
+    "photoroom"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Krea, manage real-time and batch generation workflows from user-owned models or APIs. The hard boundary is proprietary real-time models, gpu fleet, enhancement stack, and creative tools, plus frontier models, compute, and data.",
+  "reportedReplacements": 1
+}

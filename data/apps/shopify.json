@@ -16,7 +16,7 @@
     "notes": "Plus transaction fees",
     "native": "$39/mo"
   },
-  "verdict": "no",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "A product listing page with Stripe checkout is easy. The hard parts: PCI compliance, inventory management across channels, shipping integrations, tax calculation, fraud detection, and the app store ecosystem.",
   "coreLoopDIY": "Product catalog with Stripe checkout",
@@ -40,22 +40,22 @@
     "compliance-regulatory",
     "scale-infra"
   ],
-  "moatNotes": "E-commerce is deceptively complex. The checkout page is 1% of the product.",
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🏪 marketplace liquidity Ã‚Â· 🛡️ brand & trust",
   "whyPeopleStillPay": "Running a real store requires PCI compliance, tax remittance, and shipping logistics",
   "priorArt": [
     {
-      "name": "Medusa",
-      "url": "https://medusajs.com",
-      "desc": "Open-source commerce platform"
+      "name": "Medusa Open-source commerce platform for custom stores; substantial prior art but not Shopify's h ↗",
+      "url": "https://github.com/medusajs/medusa",
+      "desc": "Medusa Open-source commerce platform for custom stores; substantial prior art but not Shopify's h ↗"
     }
   ],
   "relatedSlugs": [
-    "woocommerce",
-    "bigcommerce"
+    "podia",
+    "teachable",
+    "kajabi"
   ],
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "For selling a single digital product, DIY with Stripe is fine. For a real store, use Shopify or Medusa.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 2
 }

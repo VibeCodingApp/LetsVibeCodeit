@@ -1,0 +1,55 @@
+{
+  "slug": "on1-photo-raw",
+  "name": "ON1 Photo RAW",
+  "domain": "on1-photo-raw.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "The visible photo editing suite loop is buildable, but a credible replacement needs more than the first screen. ON1 Photo RAW earns its keep through editor polish, assets, algorithms, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: ON1 Photo RAW has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible photo editing suite loop is buildable, but a credible replacement needs more than the first screen. ON1 Photo RAW earns its keep through editor polish, assets, algorithms, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from ON1 Photo RAW",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The visible photo editing suite loop is buildable, but a credible replacement needs more than the first screen. ON1 Photo RAW earns its keep through editor polish, assets, algorithms, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Penpot Open-source collaborative design and prototyping platform. ↗",
+      "url": "https://github.com/penpot/penpot",
+      "desc": "Penpot Open-source collaborative design and prototyping platform. ↗"
+    },
+    {
+      "name": "PhotoPrism Self-hosted photo organization and search. ↗",
+      "url": "https://github.com/photoprism/photoprism",
+      "desc": "PhotoPrism Self-hosted photo organization and search. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "dxo-photolab",
+    "topaz-photo-ai",
+    "capture-one"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible photo editing suite loop is buildable, but a credible replacement needs more than the first screen. ON1 Photo RAW earns its keep through editor polish, assets, algorithms, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

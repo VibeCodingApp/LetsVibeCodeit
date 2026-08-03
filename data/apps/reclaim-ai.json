@@ -1,0 +1,51 @@
+{
+  "slug": "reclaim-ai",
+  "name": "Reclaim.ai",
+  "domain": "reclaim-ai.com",
+  "category": "tasks-calendar",
+  "subcategory": null,
+  "tagline": "A personal auto-blocker is buildable, but two-way calendar sync, scheduling links, team features, and conflict-safe automation are upkeep-heavy.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Reclaim.ai costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A personal auto-blocker is buildable, but two-way calendar sync, scheduling links, team features, and conflict-safe automation are upkeep-heavy.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Reclaim.ai",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A personal auto-blocker is buildable, but two-way calendar sync, scheduling links, team features, and conflict-safe automation are upkeep-heavy.",
+  "priorArt": [
+    {
+      "name": "Cal.com Open-source scheduling platform; useful prior art for calendar OAuth and scheduling workfl ↗",
+      "url": "https://github.com/calcom/cal.com",
+      "desc": "Cal.com Open-source scheduling platform; useful prior art for calendar OAuth and scheduling workfl ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "calendly",
+    "savvycal",
+    "raycast-pro"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A personal auto-blocker is buildable, but two-way calendar sync, scheduling links, team features, and conflict-safe automation are upkeep-heavy.",
+  "reportedReplacements": 0
+}

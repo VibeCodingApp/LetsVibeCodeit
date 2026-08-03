@@ -1,0 +1,67 @@
+{
+  "slug": "superscribe",
+  "name": "Superscribe",
+  "domain": "superscribe.com",
+  "category": "dictation",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Superscribe costs $38/mo ($456/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "one sitting (dictation only), multi-week with call capture",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Superscribe",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "Handy MIT cross-platform push-to-talk dictation app in Tauri, built to be forked; covers the whole desktop core loop. ↗",
+      "url": "https://github.com/cjpais/Handy",
+      "desc": "Handy MIT cross-platform push-to-talk dictation app in Tauri, built to be forked; covers the whole desktop core loop. ↗"
+    },
+    {
+      "name": "VoiceInk GPL native Swift macOS dictation app with local whisper.cpp and per-app modes; closest open clone of the mac side. ↗",
+      "url": "https://github.com/Beingpax/VoiceInk",
+      "desc": "VoiceInk GPL native Swift macOS dictation app with local whisper.cpp and per-app modes; closest open clone of the mac side. ↗"
+    },
+    {
+      "name": "FreeFlow Solo-built open Wispr Flow clone; working example of cloud STT plus LLM cleanup with active-window context. ↗",
+      "url": "https://github.com/zachlatta/freeflow",
+      "desc": "FreeFlow Solo-built open Wispr Flow clone; working example of cloud STT plus LLM cleanup with active-window context. ↗"
+    },
+    {
+      "name": "Twilio Media Streams Official docs and tutorials for streaming live call audio to STT; the happy path of the call-capture half. ↗",
+      "url": "https://www.twilio.com/docs/voice/media-streams",
+      "desc": "Twilio Media Streams Official docs and tutorials for streaming live call audio to STT; the happy path of the call-capture half. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "superwhisper",
+    "wispr-flow",
+    "otter-ai"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 1
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "codesandbox",
+  "name": "CodeSandbox",
+  "domain": "codesandbox.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "You can self-host a browser IDE, but fast templates, previews, cloud VMs, collaboration, and workflow integrations are the product.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: CodeSandbox costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "You can self-host a browser IDE, but fast templates, previews, cloud VMs, collaboration, and workflow integrations are the product.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from CodeSandbox",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "collaboration"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "You can self-host a browser IDE, but fast templates, previews, cloud VMs, collaboration, and workflow integrations are the product.",
+  "priorArt": [
+    {
+      "name": "code-server Open-source VS Code in browser; building block for a self-hosted sandbox. ↗",
+      "url": "https://github.com/coder/code-server",
+      "desc": "code-server Open-source VS Code in browser; building block for a self-hosted sandbox. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "vercel",
+    "netlify",
+    "webflow"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can self-host a browser IDE, but fast templates, previews, cloud VMs, collaboration, and workflow integrations are the product.",
+  "reportedReplacements": 1
+}

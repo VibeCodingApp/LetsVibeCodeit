@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$24/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "A table with rows, columns, and basic filtering is buildable with a spreadsheet-like grid component. But Airtable's real product is the relational database engine underneath — linked records, calculated fields, multiple views (grid, kanban, calendar, gallery), form builder, and the automation engine. You can build a basic grid, but the relational magic that makes Airtable powerful is hard.",
   "coreLoopDIY": "Spreadsheet-like table editor with filtering, sorting, and multiple views",
@@ -41,23 +41,22 @@
     "integrations",
     "execution-polish"
   ],
-  "moatNotes": "The relational database under a spreadsheet UI is genuinely hard — linked records, rollup fields, and cross-table filtering are the deep moat",
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations Ã‚Â· 👥 collaboration",
   "whyPeopleStillPay": "Non-technical teams get a relational database they can actually use without writing SQL",
   "priorArt": [
     {
-      "name": "NocoDB",
-      "url": "https://nocodb.com",
-      "desc": "Open-source Airtable alternative that turns databases into smart spreadsheets"
+      "name": "NocoDB Open-source Airtable-like no-code database built on existing SQL databases. ↗",
+      "url": "https://github.com/nocodb/nocodb",
+      "desc": "NocoDB Open-source Airtable-like no-code database built on existing SQL databases. ↗"
     }
   ],
   "relatedSlugs": [
-    "notion",
-    "baserow",
-    "noco-db"
+    "coda",
+    "tally",
+    "typeform"
   ],
   "pagePriority": 2,
   "verifiedOneShot": false,
   "notes": "NocoDB is the go-to open-source alternative. For a DIY, focus on the spreadsheet UI and skip the relational complexity.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 0
 }

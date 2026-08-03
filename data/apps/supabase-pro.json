@@ -1,0 +1,51 @@
+{
+  "slug": "supabase-pro",
+  "name": "Supabase Pro",
+  "domain": "supabase-pro.com",
+  "category": "hosting",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supabase Pro, self-host a Postgres backend with auth, storage, and a small API surface. The hard boundary is managed postgres, backups, auth delivery, storage, edge functions, observability, and support, plus infrastructure scale, operations, and reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Supabase Pro has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supabase Pro, self-host a Postgres backend with auth, storage, and a small API surface. The hard boundary is managed postgres, backups, auth delivery, storage, edge functions, observability, and support, plus infrastructure scale, operations, and reliability.",
+  "diyTimeEstimate": "closest consolation build: multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Supabase Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supabase Pro, self-host a Postgres backend with auth, storage, and a small API surface. The hard boundary is managed postgres, backups, auth delivery, storage, edge functions, observability, and support, plus infrastructure scale, operations, and reliability.",
+  "priorArt": [
+    {
+      "name": "Coolify Active open-source self-hosting platform for applications, databases, and services. ↗",
+      "url": "https://github.com/coollabsio/coolify",
+      "desc": "Coolify Active open-source self-hosting platform for applications, databases, and services. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "vercel",
+    "railway",
+    "firebase-blaze"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supabase Pro, self-host a Postgres backend with auth, storage, and a small API surface. The hard boundary is managed postgres, backups, auth delivery, storage, edge functions, observability, and support, plus infrastructure scale, operations, and reliability.",
+  "reportedReplacements": 1
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "macrofactor",
+  "name": "MacroFactor",
+  "domain": "macrofactor.com",
+  "category": "wellness",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MacroFactor, record user-chosen nutrition information and show neutral trends without aggressive targets. The hard boundary is food database, adaptive coaching models, mobile capture, and ongoing nutrition expertise, plus hardware data, content, coaching, and trust.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: MacroFactor costs $11.99/mo ($143.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MacroFactor, record user-chosen nutrition information and show neutral trends without aggressive targets. The hard boundary is food database, adaptive coaching models, mobile capture, and ongoing nutrition expertise, plus hardware data, content, coaching, and trust.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from MacroFactor",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "content-rights",
+    "hardware"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🎟️ content & rights Ã‚Â· 🔩 hardware",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MacroFactor, record user-chosen nutrition information and show neutral trends without aggressive targets. The hard boundary is food database, adaptive coaching models, mobile capture, and ongoing nutrition expertise, plus hardware data, content, coaching, and trust.",
+  "priorArt": [
+    {
+      "name": "wger Active open-source fitness and workout management application. ↗",
+      "url": "https://github.com/wger-project/wger",
+      "desc": "wger Active open-source fitness and workout management application. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "strava",
+    "myfitnesspal-premium",
+    "cronometer-gold"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For MacroFactor, record user-chosen nutrition information and show neutral trends without aggressive targets. The hard boundary is food database, adaptive coaching models, mobile capture, and ongoing nutrition expertise, plus hardware data, content, coaching, and trust.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "marketmuse",
+  "name": "MarketMuse",
+  "domain": "marketmuse.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For MarketMuse, organize a content inventory and calculate transparent internal topic coverage from user files. The hard boundary is proprietary topic model, site inventory, strategic scoring, and enterprise workflow, plus crawl scale, rule depth, and operational polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: MarketMuse has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For MarketMuse, organize a content inventory and calculate transparent internal topic coverage from user files. The hard boundary is proprietary topic model, site inventory, strategic scoring, and enterprise workflow, plus crawl scale, rule depth, and operational polish.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from MarketMuse",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "proprietary-data"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💎 proprietary data",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For MarketMuse, organize a content inventory and calculate transparent internal topic coverage from user files. The hard boundary is proprietary topic model, site inventory, strategic scoring, and enterprise workflow, plus crawl scale, rule depth, and operational polish.",
+  "priorArt": [
+    {
+      "name": "SEOnaut Open-source technical SEO auditing application. ↗",
+      "url": "https://github.com/stjudewashere/seonaut",
+      "desc": "SEOnaut Open-source technical SEO auditing application. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "screaming-frog-seo-spider",
+    "sitebulb",
+    "contentking"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For MarketMuse, organize a content inventory and calculate transparent internal topic coverage from user files. The hard boundary is proprietary topic model, site inventory, strategic scoring, and enterprise workflow, plus crawl scale, rule depth, and operational polish.",
+  "reportedReplacements": 0
+}

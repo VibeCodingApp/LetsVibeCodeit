@@ -16,7 +16,7 @@
     "notes": "Usage-based beyond Pro limits",
     "native": "$20/mo"
   },
-  "verdict": "no",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "You cannot vibecode global edge infrastructure. The product is the CDN, the build system, the serverless runtime, and the reliability at scale.",
   "coreLoopDIY": "Static site deploy via rsync",
@@ -36,23 +36,22 @@
     "scale-infra",
     "execution-polish"
   ],
-  "moatNotes": "The moat is the infrastructure, not the deployment button. You can deploy a Next.js app anywhere, but you can't replicate the edge network.",
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
   "whyPeopleStillPay": "Teams that want push-to-deploy with edge infrastructure without managing servers",
   "priorArt": [
     {
-      "name": "Coolify",
-      "url": "https://coolify.io",
-      "desc": "Self-hosted Vercel/Netlify alternative"
+      "name": "Coolify Open-source self-hosted Heroku/Vercel-like deployment platform. ↗",
+      "url": "https://github.com/coollabsio/coolify",
+      "desc": "Coolify Open-source self-hosted Heroku/Vercel-like deployment platform. ↗"
     }
   ],
   "relatedSlugs": [
     "netlify",
-    "railway",
-    "fly-io"
+    "webflow",
+    "framer"
   ],
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "For personal projects, use the free tier. For teams, use Vercel or self-host with Coolify.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 6
 }

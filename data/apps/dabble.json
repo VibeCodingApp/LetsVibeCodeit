@@ -1,0 +1,50 @@
+{
+  "slug": "dabble",
+  "name": "Dabble",
+  "domain": "dabble.com",
+  "category": "writing-tools",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Dabble, plan chapters, draft a manuscript, track plot threads, and sync a structured writing project. The hard boundary is cloud sync, mobile access, goals, and polished manuscript organization, plus polish, integrations, and proprietary language models.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Dabble costs $14/mo ($168/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Dabble, plan chapters, draft a manuscript, track plot threads, and sync a structured writing project. The hard boundary is cloud sync, mobile access, goals, and polished manuscript organization, plus polish, integrations, and proprietary language models.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Dabble",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Dabble, plan chapters, draft a manuscript, track plot threads, and sync a structured writing project. The hard boundary is cloud sync, mobile access, goals, and polished manuscript organization, plus polish, integrations, and proprietary language models.",
+  "priorArt": [
+    {
+      "name": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "desc": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sudowrite",
+    "prowritingaid",
+    "languagetool"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Dabble, plan chapters, draft a manuscript, track plot threads, and sync a structured writing project. The hard boundary is cloud sync, mobile access, goals, and polished manuscript organization, plus polish, integrations, and proprietary language models.",
+  "reportedReplacements": 0
+}

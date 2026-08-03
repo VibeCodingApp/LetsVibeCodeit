@@ -1,0 +1,51 @@
+{
+  "slug": "akiflow",
+  "name": "Akiflow",
+  "domain": "akiflow.com",
+  "category": "tasks-calendar",
+  "subcategory": null,
+  "tagline": "The planner UI can be built, but bringing every task source into one reliable, two-way calendar workflow means OAuth, APIs, sync conflicts, and maintenance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Akiflow costs $34/mo ($408/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The planner UI can be built, but bringing every task source into one reliable, two-way calendar workflow means OAuth, APIs, sync conflicts, and maintenance.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Akiflow",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The planner UI can be built, but bringing every task source into one reliable, two-way calendar workflow means OAuth, APIs, sync conflicts, and maintenance.",
+  "priorArt": [
+    {
+      "name": "Super Productivity Open-source personal productivity app that covers portions of time blocking and task plann ↗",
+      "url": "https://github.com/johannesjo/super-productivity",
+      "desc": "Super Productivity Open-source personal productivity app that covers portions of time blocking and task plann ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "motion",
+    "reclaim-ai",
+    "calendly"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The planner UI can be built, but bringing every task source into one reliable, two-way calendar workflow means OAuth, APIs, sync conflicts, and maintenance.",
+  "reportedReplacements": 0
+}

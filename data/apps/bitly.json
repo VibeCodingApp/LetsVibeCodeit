@@ -1,0 +1,61 @@
+{
+  "slug": "bitly",
+  "name": "Bitly",
+  "domain": "bitly.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "A slug, a lookup, a 302, and a row in a table. Cloudflare Workers plus KV and D1 does the whole job on the free tier, and QR codes are one library call. The only thing you are really buying is that bit.ly resolves links created in 2012 and will presumably still resolve them in 2032, which is an institutional promise rather than a technical one. If the links are going in a magazine ad or on packaging, that promise is worth something. If they are going in this week's newsletter, it is worth nothing, and Growth is 420 USD a year.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Bitly costs $35/mo ($420/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A slug, a lookup, a 302, and a row in a table. Cloudflare Workers plus KV and D1 does the whole job on the free tier, and QR codes are one library call. The only thing you are really buying is that bit.ly resolves links created in 2012 and will presumably still resolve them in 2032, which is an institutional promise rather than a technical one. If the links are going in a magazine ad or on packaging, that promise is worth something. If they are going in this week's newsletter, it is worth nothing, and Growth is 420 USD a year.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Bitly",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "brand-trust",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🛡️ brand & trust Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A slug, a lookup, a 302, and a row in a table. Cloudflare Workers plus KV and D1 does the whole job on the free tier, and QR codes are one library call. The only thing you are really buying is that bit.ly resolves links created in 2012 and will presumably still resolve them in 2032, which is an institutional promise rather than a technical one. If the links are going in a magazine ad or on packaging, that promise is worth something. If they are going in this week's newsletter, it is worth nothing, and Growth is 420 USD a year.",
+  "priorArt": [
+    {
+      "name": "Dub The most complete open-source link",
+      "url": "https://github.com/dubinc/dub",
+      "desc": "Dub The most complete open-source link platform · analytics, custom domains, QR codes. Self-hostable. ↗"
+    },
+    {
+      "name": "Shlink Self-hosted URL shortener with a REST API, click stats, and QR codes. ↗",
+      "url": "https://github.com/shlinkio/shlink",
+      "desc": "Shlink Self-hosted URL shortener with a REST API, click stats, and QR codes. ↗"
+    },
+    {
+      "name": "YOURLS The long-running PHP",
+      "url": "https://github.com/YOURLS/YOURLS",
+      "desc": "YOURLS The long-running PHP shortener · drop it on any LAMP host and it works. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "linktree",
+    "qr",
+    "umami-cloud"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A slug, a lookup, a 302, and a row in a table. Cloudflare Workers plus KV and D1 does the whole job on the free tier, and QR codes are one library call. The only thing you are really buying is that bit.ly resolves links created in 2012 and will presumably still resolve them in 2032, which is an institutional promise rather than a technical one. If the links are going in a magazine ad or on packaging, that promise is worth something. If they are going in this week's newsletter, it is worth nothing, and Growth is 420 USD a year.",
+  "reportedReplacements": 1
+}

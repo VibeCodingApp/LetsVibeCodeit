@@ -1,0 +1,51 @@
+{
+  "slug": "clockwise",
+  "name": "Clockwise",
+  "domain": "clockwise.com",
+  "category": "scheduling",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Clockwise, rearrange flexible holds around fixed meetings for one user's calendar. The hard boundary is organization-wide optimization, calendar graph, team adoption, and conflict safety, plus calendar integrations and reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Clockwise costs $6.75/mo ($81/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Clockwise, rearrange flexible holds around fixed meetings for one user's calendar. The hard boundary is organization-wide optimization, calendar graph, team adoption, and conflict safety, plus calendar integrations and reliability.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Clockwise",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Clockwise, rearrange flexible holds around fixed meetings for one user's calendar. The hard boundary is organization-wide optimization, calendar graph, team adoption, and conflict safety, plus calendar integrations and reliability.",
+  "priorArt": [
+    {
+      "name": "Cal.com Mature open-source scheduling platform with calendar integrations and booking workflows. ↗",
+      "url": "https://github.com/calcom/cal.com",
+      "desc": "Cal.com Mature open-source scheduling platform with calendar integrations and booking workflows. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "cal-com-teams",
+    "fantastical",
+    "tidycal"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Clockwise, rearrange flexible holds around fixed meetings for one user's calendar. The hard boundary is organization-wide optimization, calendar graph, team adoption, and conflict safety, plus calendar integrations and reliability.",
+  "reportedReplacements": 0
+}

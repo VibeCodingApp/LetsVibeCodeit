@@ -1,0 +1,56 @@
+{
+  "slug": "carbonmade",
+  "name": "Carbonmade",
+  "domain": "carbonmade.com",
+  "category": "website-builders",
+  "subcategory": null,
+  "tagline": "The visible portfolio builder loop is buildable, but a credible replacement needs more than the first screen. Carbonmade earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Carbonmade has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible portfolio builder loop is buildable, but a credible replacement needs more than the first screen. Carbonmade earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "weekend to multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Carbonmade",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The visible portfolio builder loop is buildable, but a credible replacement needs more than the first screen. Carbonmade earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Webstudio Open-source visual website builder. ↗",
+      "url": "https://github.com/webstudio-is/webstudio",
+      "desc": "Webstudio Open-source visual website builder. ↗"
+    },
+    {
+      "name": "GrapesJS Open-source web-builder framework. ↗",
+      "url": "https://github.com/GrapesJS/grapesjs",
+      "desc": "GrapesJS Open-source web-builder framework. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "cargo",
+    "pixieset",
+    "format"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible portfolio builder loop is buildable, but a credible replacement needs more than the first screen. Carbonmade earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

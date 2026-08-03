@@ -1,0 +1,51 @@
+{
+  "slug": "proton-mail-plus",
+  "name": "Proton Mail Plus",
+  "domain": "proton-mail-plus.com",
+  "category": "email",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Proton Mail Plus's durable value is deliverability, security, integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Proton Mail Plus costs $4.99/mo ($59.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Proton Mail Plus's durable value is deliverability, security, integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Proton Mail Plus",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "brand-trust"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🛡️ brand & trust",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Proton Mail Plus's durable value is deliverability, security, integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Mailspring Open-source desktop mail client and useful IMAP prior art. ↗",
+      "url": "https://github.com/Foundry376/Mailspring",
+      "desc": "Mailspring Open-source desktop mail client and useful IMAP prior art. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fastmail",
+    "mailbutler",
+    "mailbird"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Proton Mail Plus's durable value is deliverability, security, integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

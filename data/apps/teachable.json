@@ -1,0 +1,52 @@
+{
+  "slug": "teachable",
+  "name": "Teachable",
+  "domain": "teachable.com",
+  "category": "creator-commerce",
+  "subcategory": null,
+  "tagline": "A basic course site with Stripe can be built, but student apps, tax/payments, course compliance, certificates, upsells, affiliates, and support make full parity hard.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Teachable costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A basic course site with Stripe can be built, but student apps, tax/payments, course compliance, certificates, upsells, affiliates, and support make full parity hard.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Teachable",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A basic course site with Stripe can be built, but student apps, tax/payments, course compliance, certificates, upsells, affiliates, and support make full parity hard.",
+  "priorArt": [
+    {
+      "name": "Moodle Mature open-source learning management system; powerful but heavier than Teachable. ↗",
+      "url": "https://github.com/moodle/moodle",
+      "desc": "Moodle Mature open-source learning management system; powerful but heavier than Teachable. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "kajabi",
+    "circle",
+    "mighty-networks"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A basic course site with Stripe can be built, but student apps, tax/payments, course compliance, certificates, upsells, affiliates, and support make full parity hard.",
+  "reportedReplacements": 0
+}

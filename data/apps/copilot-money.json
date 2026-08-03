@@ -1,0 +1,51 @@
+{
+  "slug": "copilot-money",
+  "name": "Copilot Money",
+  "domain": "copilot-money.com",
+  "category": "personal-finance",
+  "subcategory": null,
+  "tagline": "A beautiful spending dashboard can be vibecoded, but Copilot's bank/investment sync, categorization, native Apple apps, and data-security posture are the product.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Copilot Money costs $13/mo ($156/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A beautiful spending dashboard can be vibecoded, but Copilot's bank/investment sync, categorization, native Apple apps, and data-security posture are the product.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Copilot Money",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A beautiful spending dashboard can be vibecoded, but Copilot's bank/investment sync, categorization, native Apple apps, and data-security posture are the product.",
+  "priorArt": [
+    {
+      "name": "Actual Budget Open-source budgeting app; good starting point for a DIY personal finance workflow. ↗",
+      "url": "https://github.com/actualbudget/actual",
+      "desc": "Actual Budget Open-source budgeting app; good starting point for a DIY personal finance workflow. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fathom-hq",
+    "ahrefs",
+    "semrush"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A beautiful spending dashboard can be vibecoded, but Copilot's bank/investment sync, categorization, native Apple apps, and data-security posture are the product.",
+  "reportedReplacements": 0
+}

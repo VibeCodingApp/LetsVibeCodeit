@@ -1,0 +1,52 @@
+{
+  "slug": "hunter-io",
+  "name": "Hunter",
+  "domain": "hunter-io.com",
+  "category": "sales-outreach",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Hunter, manage domain-based contact research notes and a small compliant campaign. The hard boundary is proprietary web index, email verification infrastructure, and deliverability data, plus proprietary data, deliverability, and network effects.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Hunter costs $49/mo ($588/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Hunter, manage domain-based contact research notes and a small compliant campaign. The hard boundary is proprietary web index, email verification infrastructure, and deliverability data, plus proprietary data, deliverability, and network effects.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Hunter",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "infrastructure-scale",
+    "network-effects"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Hunter, manage domain-based contact research notes and a small compliant campaign. The hard boundary is proprietary web index, email verification infrastructure, and deliverability data, plus proprietary data, deliverability, and network effects.",
+  "priorArt": [
+    {
+      "name": "Mautic Open-source marketing automation platform with campaigns, contacts, and email workflows. ↗",
+      "url": "https://github.com/mautic/mautic",
+      "desc": "Mautic Open-source marketing automation platform with campaigns, contacts, and email workflows. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "apollo-io",
+    "clay",
+    "lemlist"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Hunter, manage domain-based contact research notes and a small compliant campaign. The hard boundary is proprietary web index, email verification infrastructure, and deliverability data, plus proprietary data, deliverability, and network effects.",
+  "reportedReplacements": 0
+}

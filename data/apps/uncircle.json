@@ -1,0 +1,55 @@
+{
+  "slug": "uncircle",
+  "name": "Uncircle",
+  "domain": "uncircle.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "The core loop · read a yml of processes from the repo, run them, stream logs into terminals, show status dots · is a genuine one-sitting build with node-pty and xterm.js, and mprocs already gives you most of it in a TUI for free. What does not one-shot is everything around it: a native window with tray and notifications, killing whole process trees without orphans on three OSes, crash auto-restart that does not flap, and signed auto-updating builds. And since the paid tier is $19 once rather than a subscription, the usual death-list math barely applies.",
+  "priceMonthly": 49,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$49"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Uncircle has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop · read a yml of processes from the repo, run them, stream logs into terminals, show status dots · is a genuine one-sitting build with node-pty and xterm.js, and mprocs already gives you most of it in a TUI for free. What does not one-shot is everything around it: a native window with tray and notifications, killing whole process trees without orphans on three OSes, crash auto-restart that does not flap, and signed auto-updating builds. And since the paid tier is $19 once rather than a subscription, the usual death-list math barely applies.",
+  "diyTimeEstimate": "one sitting for the dashboard, a weekend-plus for native app polish",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Uncircle",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop · read a yml of processes from the repo, run them, stream logs into terminals, show status dots · is a genuine one-sitting build with node-pty and xterm.js, and mprocs already gives you most of it in a TUI for free. What does not one-shot is everything around it: a native window with tray and notifications, killing whole process trees without orphans on three OSes, crash auto-restart that does not flap, and signed auto-updating builds. And since the paid tier is $19 once rather than a subscription, the usual death-list math barely applies.",
+  "priorArt": [
+    {
+      "name": "mprocs open-source TUI for running multiple commands with per-process panes ↗",
+      "url": "https://github.com/pvolok/mprocs",
+      "desc": "mprocs open-source TUI for running multiple commands with per-process panes ↗"
+    },
+    {
+      "name": "process-compose scheduler for non-containerized apps from a compose-style yml ↗",
+      "url": "https://github.com/F1bonacc1/process-compose",
+      "desc": "process-compose scheduler for non-containerized apps from a compose-style yml ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "cursor",
+    "socialfetch",
+    "lovable"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop · read a yml of processes from the repo, run them, stream logs into terminals, show status dots · is a genuine one-sitting build with node-pty and xterm.js, and mprocs already gives you most of it in a TUI for free. What does not one-shot is everything around it: a native window with tray and notifications, killing whole process trees without orphans on three OSes, crash auto-restart that does not flap, and signed auto-updating builds. And since the paid tier is $19 once rather than a subscription, the usual death-list math barely applies.",
+  "reportedReplacements": 1
+}

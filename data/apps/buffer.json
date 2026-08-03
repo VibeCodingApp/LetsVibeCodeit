@@ -1,0 +1,51 @@
+{
+  "slug": "buffer",
+  "name": "Buffer",
+  "domain": "buffer.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "Posting to one or two APIs is easy, but maintaining social platform auth, queues, previews, analytics, and API-policy compliance is real ongoing work.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Buffer costs $6/mo ($72/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Posting to one or two APIs is easy, but maintaining social platform auth, queues, previews, analytics, and API-policy compliance is real ongoing work.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Buffer",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Posting to one or two APIs is easy, but maintaining social platform auth, queues, previews, analytics, and API-policy compliance is real ongoing work.",
+  "priorArt": [
+    {
+      "name": "Postiz Open-source social media scheduling tool and strong Buffer-like prior art. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Open-source social media scheduling tool and strong Buffer-like prior art. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "later",
+    "typefully",
+    "beehiiv"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Posting to one or two APIs is easy, but maintaining social platform auth, queues, previews, analytics, and API-policy compliance is real ongoing work.",
+  "reportedReplacements": 2
+}

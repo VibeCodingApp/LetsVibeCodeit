@@ -1,0 +1,45 @@
+{
+  "slug": "vernigo",
+  "name": "Vernigo",
+  "domain": "vernigo.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "You can build filters, bookmarks, and an outlier score over a small set of YouTube channels, but Vernigo's product is the continuously refreshed corpus: millions of videos, channel baselines, niche-level supply and demand signals, and ranking data improved by how thousands of users interact with the library. A one-shot app can reproduce the interface and formula, not the dataset that makes the results useful.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Vernigo costs $39/mo ($468/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "You can build filters, bookmarks, and an outlier score over a small set of YouTube channels, but Vernigo's product is the continuously refreshed corpus: millions of videos, channel baselines, niche-level supply and demand signals, and ranking data improved by how thousands of users interact with the library. A one-shot app can reproduce the interface and formula, not the dataset that makes the results useful.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Vernigo",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "network-effects"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "You can build filters, bookmarks, and an outlier score over a small set of YouTube channels, but Vernigo's product is the continuously refreshed corpus: millions of videos, channel baselines, niche-level supply and demand signals, and ranking data improved by how thousands of users interact with the library. A one-shot app can reproduce the interface and formula, not the dataset that makes the results useful.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "umami-cloud",
+    "plausible",
+    "posthog"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build filters, bookmarks, and an outlier score over a small set of YouTube channels, but Vernigo's product is the continuously refreshed corpus: millions of videos, channel baselines, niche-level supply and demand signals, and ranking data improved by how thousands of users interact with the library. A one-shot app can reproduce the interface and formula, not the dataset that makes the results useful.",
+  "reportedReplacements": 0
+}

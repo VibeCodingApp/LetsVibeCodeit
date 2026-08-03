@@ -1,0 +1,50 @@
+{
+  "slug": "lunatask",
+  "name": "Lunatask",
+  "domain": "lunatask.com",
+  "category": "productivity-utilities",
+  "subcategory": null,
+  "tagline": "Lunatask's solo core is compact: build a local desktop utility that captures the essential private task planner workflow with keyboard-first controls and local storage. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, OS integration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Lunatask costs $6/mo ($72/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Lunatask's solo core is compact: build a local desktop utility that captures the essential private task planner workflow with keyboard-first controls and local storage. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, OS integration.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Lunatask",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "Lunatask's solo core is compact: build a local desktop utility that captures the essential private task planner workflow with keyboard-first controls and local storage. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, OS integration.",
+  "priorArt": [
+    {
+      "name": "ActivityWatch Local-first automatic time tracking with an extensible event model. ↗",
+      "url": "https://github.com/ActivityWatch/activitywatch",
+      "desc": "ActivityWatch Local-first automatic time tracking with an extensible event model. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "skedpal",
+    "timehero",
+    "amazing-marvin"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Lunatask's solo core is compact: build a local desktop utility that captures the essential private task planner workflow with keyboard-first controls and local storage. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, OS integration.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "mermaid-chart",
+  "name": "Mermaid Chart",
+  "domain": "mermaid-chart.com",
+  "category": "diagrams",
+  "subcategory": null,
+  "tagline": "Mermaid Chart's solo core is compact: build a browser-based diagram-as-code editor with drag, resize, connect, keyboard shortcuts, autosave, and SVG or PNG export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on interaction polish, collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Mermaid Chart has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Mermaid Chart's solo core is compact: build a browser-based diagram-as-code editor with drag, resize, connect, keyboard shortcuts, autosave, and SVG or PNG export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on interaction polish, collaboration.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mermaid Chart",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "Mermaid Chart's solo core is compact: build a browser-based diagram-as-code editor with drag, resize, connect, keyboard shortcuts, autosave, and SVG or PNG export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on interaction polish, collaboration.",
+  "priorArt": [
+    {
+      "name": "Mermaid Text-to-diagram renderer with broad diagram syntax. ↗",
+      "url": "https://github.com/mermaid-js/mermaid",
+      "desc": "Mermaid Text-to-diagram renderer with broad diagram syntax. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "cloudcraft",
+    "gleek",
+    "eraser"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Mermaid Chart's solo core is compact: build a browser-based diagram-as-code editor with drag, resize, connect, keyboard shortcuts, autosave, and SVG or PNG export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on interaction polish, collaboration.",
+  "reportedReplacements": 0
+}

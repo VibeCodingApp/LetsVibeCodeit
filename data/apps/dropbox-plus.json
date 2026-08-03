@@ -1,0 +1,51 @@
+{
+  "slug": "dropbox-plus",
+  "name": "Dropbox Plus",
+  "domain": "dropbox-plus.com",
+  "category": "cloud-storage",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Dropbox Plus, back up selected folders to a user-owned encrypted object store with version history. The hard boundary is global sync, conflict handling, sharing, mobile apps, recovery, and infrastructure durability, plus reliability, durability, and cross-device sync.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Dropbox Plus costs $11.99/mo ($143.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Dropbox Plus, back up selected folders to a user-owned encrypted object store with version history. The hard boundary is global sync, conflict handling, sharing, mobile apps, recovery, and infrastructure durability, plus reliability, durability, and cross-device sync.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Dropbox Plus",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Dropbox Plus, back up selected folders to a user-owned encrypted object store with version history. The hard boundary is global sync, conflict handling, sharing, mobile apps, recovery, and infrastructure durability, plus reliability, durability, and cross-device sync.",
+  "priorArt": [
+    {
+      "name": "Nextcloud Mature open-source file sync and collaboration server. ↗",
+      "url": "https://github.com/nextcloud/server",
+      "desc": "Nextcloud Mature open-source file sync and collaboration server. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "google-one",
+    "icloud-plus",
+    "microsoft-365-personal"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Dropbox Plus, back up selected folders to a user-owned encrypted object store with version history. The hard boundary is global sync, conflict handling, sharing, mobile apps, recovery, and infrastructure durability, plus reliability, durability, and cross-device sync.",
+  "reportedReplacements": 0
+}

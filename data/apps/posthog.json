@@ -1,0 +1,51 @@
+{
+  "slug": "posthog",
+  "name": "PostHog",
+  "domain": "posthog.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "First-party collection and a dashboard that answers your top five questions is one sitting of work, and PostHog's free tier covers a million events a month before you pay anything. What the bill buys past that is the rest of the platform: session replay, feature flags, SQL over years of events, and ingestion that stays correct while your event schema drifts underneath it.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: PostHog has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "First-party collection and a dashboard that answers your top five questions is one sitting of work, and PostHog's free tier covers a million events a month before you pay anything. What the bill buys past that is the rest of the platform: session replay, feature flags, SQL over years of events, and ingestion that stays correct while your event schema drifts underneath it.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from PostHog",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "switching-costs"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· ⛓️ switching costs",
+  "whyPeopleStillPay": "First-party collection and a dashboard that answers your top five questions is one sitting of work, and PostHog's free tier covers a million events a month before you pay anything. What the bill buys past that is the rest of the platform: session replay, feature flags, SQL over years of events, and ingestion that stays correct while your event schema drifts underneath it.",
+  "priorArt": [
+    {
+      "name": "Umami Popular open-source privacy-focused web analytics platform. ↗",
+      "url": "https://github.com/umami-software/umami",
+      "desc": "Umami Popular open-source privacy-focused web analytics platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "matomo-cloud",
+    "mixpanel",
+    "amplitude"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "First-party collection and a dashboard that answers your top five questions is one sitting of work, and PostHog's free tier covers a million events a month before you pay anything. What the bill buys past that is the rest of the platform: session replay, feature flags, SQL over years of events, and ingestion that stays correct while your event schema drifts underneath it.",
+  "reportedReplacements": 2
+}

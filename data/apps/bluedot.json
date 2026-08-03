@@ -1,0 +1,52 @@
+{
+  "slug": "bluedot",
+  "name": "Bluedot",
+  "domain": "bluedot.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "The visible meeting recorder loop is buildable, but a credible replacement needs more than the first screen. Bluedot earns its keep through capture, integrations, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Bluedot has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible meeting recorder loop is buildable, but a credible replacement needs more than the first screen. Bluedot earns its keep through capture, integrations, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Bluedot",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The visible meeting recorder loop is buildable, but a credible replacement needs more than the first screen. Bluedot earns its keep through capture, integrations, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Local speech-to-text engine suitable for private transcription. ↗",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "whisper.cpp Local speech-to-text engine suitable for private transcription. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "notta",
+    "sonix",
+    "jamie"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible meeting recorder loop is buildable, but a credible replacement needs more than the first screen. Bluedot earns its keep through capture, integrations, reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

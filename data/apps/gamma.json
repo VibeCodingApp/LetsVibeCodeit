@@ -1,0 +1,51 @@
+{
+  "slug": "gamma",
+  "name": "Gamma",
+  "domain": "gamma.com",
+  "category": "presentations",
+  "subcategory": null,
+  "tagline": "An AI slide generator is buildable, but Gamma's strength is layouts, editing model, exports, hosting, analytics, and shareable deck/site UX.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Gamma costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "An AI slide generator is buildable, but Gamma's strength is layouts, editing model, exports, hosting, analytics, and shareable deck/site UX.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Gamma",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "content-rights"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "An AI slide generator is buildable, but Gamma's strength is layouts, editing model, exports, hosting, analytics, and shareable deck/site UX.",
+  "priorArt": [
+    {
+      "name": "Slidev Open-source Markdown/HTML slide deck generator; good foundation for a developer-oriented c ↗",
+      "url": "https://github.com/slidevjs/slidev",
+      "desc": "Slidev Open-source Markdown/HTML slide deck generator; good foundation for a developer-oriented c ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "beautiful-ai",
+    "jasper",
+    "quillbot"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "An AI slide generator is buildable, but Gamma's strength is layouts, editing model, exports, hosting, analytics, and shareable deck/site UX.",
+  "reportedReplacements": 1
+}

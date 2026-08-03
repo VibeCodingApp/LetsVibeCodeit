@@ -1,0 +1,50 @@
+{
+  "slug": "raindrop-io",
+  "name": "Raindrop.io",
+  "domain": "raindrop-io.com",
+  "category": "bookmarks",
+  "subcategory": null,
+  "tagline": "A personal bookmark saver with tags, full-text search, and screenshots is a very tractable small app.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Raindrop.io costs $3/mo ($36/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A personal bookmark saver with tags, full-text search, and screenshots is a very tractable small app.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Raindrop.io",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "A personal bookmark saver with tags, full-text search, and screenshots is a very tractable small app.",
+  "priorArt": [
+    {
+      "name": "linkwarden Open-source bookmark manager with archiving, collections, and collaborative saving. ↗",
+      "url": "https://github.com/linkwarden/linkwarden",
+      "desc": "linkwarden Open-source bookmark manager with archiving, collections, and collaborative saving. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "feedly",
+    "inoreader",
+    "todoist"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A personal bookmark saver with tags, full-text search, and screenshots is a very tractable small app.",
+  "reportedReplacements": 1
+}

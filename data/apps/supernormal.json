@@ -1,0 +1,52 @@
+{
+  "slug": "supernormal",
+  "name": "Supernormal",
+  "domain": "supernormal.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supernormal, capture meetings, generate customizable notes, and maintain personal templates. The hard boundary is calendar automation, bot reliability, sharing, and team note standards, plus capture reliability, integrations, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Supernormal costs $18/mo ($216/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supernormal, capture meetings, generate customizable notes, and maintain personal templates. The hard boundary is calendar automation, bot reliability, sharing, and team note standards, plus capture reliability, integrations, and collaboration.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Supernormal",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supernormal, capture meetings, generate customizable notes, and maintain personal templates. The hard boundary is calendar automation, bot reliability, sharing, and team note standards, plus capture reliability, integrations, and collaboration.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Widely used local Whisper inference implementation suitable for private transcription. ↗",
+      "url": "https://github.com/ggerganov/whisper.cpp",
+      "desc": "whisper.cpp Widely used local Whisper inference implementation suitable for private transcription. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fathom-ai",
+    "read-ai",
+    "avoma"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supernormal, capture meetings, generate customizable notes, and maintain personal templates. The hard boundary is calendar automation, bot reliability, sharing, and team note standards, plus capture reliability, integrations, and collaboration.",
+  "reportedReplacements": 0
+}

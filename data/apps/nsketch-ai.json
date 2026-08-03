@@ -1,0 +1,52 @@
+{
+  "slug": "nsketch-ai",
+  "name": "Nsketch AI",
+  "domain": "nsketch-ai.com",
+  "category": "generative-media",
+  "subcategory": null,
+  "tagline": "The personal core is a focused prompt-to-media workbench over one or two user-supplied model APIs, and that is a credible weekend build. A true Nsketch AI replacement is not: the subscription bundles a fast-changing model catalog, credits, queues, media storage, templates, voice and motion workflows, safety, and failure recovery.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Nsketch AI costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The personal core is a focused prompt-to-media workbench over one or two user-supplied model APIs, and that is a credible weekend build. A true Nsketch AI replacement is not: the subscription bundles a fast-changing model catalog, credits, queues, media storage, templates, voice and motion workflows, safety, and failure recovery.",
+  "diyTimeEstimate": "weekend project",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Nsketch AI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The personal core is a focused prompt-to-media workbench over one or two user-supplied model APIs, and that is a credible weekend build. A true Nsketch AI replacement is not: the subscription bundles a fast-changing model catalog, credits, queues, media storage, templates, voice and motion workflows, safety, and failure recovery.",
+  "priorArt": [
+    {
+      "name": "ComfyUI Open-source node-based workflows for local and hosted generative media models. ↗",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "desc": "ComfyUI Open-source node-based workflows for local and hosted generative media models. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "krea",
+    "runway",
+    "openart"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The personal core is a focused prompt-to-media workbench over one or two user-supplied model APIs, and that is a credible weekend build. A true Nsketch AI replacement is not: the subscription bundles a fast-changing model catalog, credits, queues, media storage, templates, voice and motion workflows, safety, and failure recovery.",
+  "reportedReplacements": 1
+}

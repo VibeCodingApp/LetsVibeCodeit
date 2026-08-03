@@ -1,0 +1,51 @@
+{
+  "slug": "livestorm",
+  "name": "Livestorm",
+  "domain": "livestorm.com",
+  "category": "video-calls",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Livestorm, run a small browser webinar with registrations and a simple replay page. The hard boundary is global media, email delivery, engagement, integrations, analytics, and reliability, plus real-time media infrastructure and reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Livestorm costs $99/mo ($1188/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Livestorm, run a small browser webinar with registrations and a simple replay page. The hard boundary is global media, email delivery, engagement, integrations, analytics, and reliability, plus real-time media infrastructure and reliability.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Livestorm",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Livestorm, run a small browser webinar with registrations and a simple replay page. The hard boundary is global media, email delivery, engagement, integrations, analytics, and reliability, plus real-time media infrastructure and reliability.",
+  "priorArt": [
+    {
+      "name": "Jitsi Meet Widely deployed open-source video-conferencing platform. ↗",
+      "url": "https://github.com/jitsi/jitsi-meet",
+      "desc": "Jitsi Meet Widely deployed open-source video-conferencing platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "zoom-pro",
+    "google-workspace-business-starter",
+    "microsoft-teams-essentials"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Livestorm, run a small browser webinar with registrations and a simple replay page. The hard boundary is global media, email delivery, engagement, integrations, analytics, and reliability, plus real-time media infrastructure and reliability.",
+  "reportedReplacements": 0
+}

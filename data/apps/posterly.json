@@ -1,0 +1,52 @@
+{
+  "slug": "posterly",
+  "name": "posterly",
+  "domain": "posterly.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: posterly costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from posterly",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "switching-costs",
+    "collaboration"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· ⛓️ switching costs Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "Postiz Open-source social scheduler, self-hostable, covers much of the DIY core for open-API networks. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Open-source social scheduler, self-hostable, covers much of the DIY core for open-API networks. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "postiz",
+    "post-bridge",
+    "buffer"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 0
+}

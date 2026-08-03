@@ -1,0 +1,51 @@
+{
+  "slug": "drafts-pro",
+  "name": "Drafts Pro",
+  "domain": "drafts-pro.com",
+  "category": "writing-tools",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Drafts Pro, capture text instantly, run reusable transformations, and file the result into local destinations. The hard boundary is its iphone and mac capture speed, action directory, and apple automation depth, plus polish, integrations, and proprietary language models.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Drafts Pro costs $1.67/mo ($20.04/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Drafts Pro, capture text instantly, run reusable transformations, and file the result into local destinations. The hard boundary is its iphone and mac capture speed, action directory, and apple automation depth, plus polish, integrations, and proprietary language models.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Drafts Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Drafts Pro, capture text instantly, run reusable transformations, and file the result into local destinations. The hard boundary is its iphone and mac capture speed, action directory, and apple automation depth, plus polish, integrations, and proprietary language models.",
+  "priorArt": [
+    {
+      "name": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "desc": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sudowrite",
+    "prowritingaid",
+    "languagetool"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Drafts Pro, capture text instantly, run reusable transformations, and file the result into local destinations. The hard boundary is its iphone and mac capture speed, action directory, and apple automation depth, plus polish, integrations, and proprietary language models.",
+  "reportedReplacements": 0
+}

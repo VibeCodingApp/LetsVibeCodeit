@@ -1,0 +1,57 @@
+{
+  "slug": "wufoo",
+  "name": "Wufoo",
+  "domain": "wufoo.com",
+  "category": "forms",
+  "subcategory": null,
+  "tagline": "Wufoo's solo core is compact: build a online forms tool with a schema-based form editor, public share link, validation, response table, CSV export, and webhook. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on delivery, integrations, compliance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Wufoo costs $19/mo ($228/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Wufoo's solo core is compact: build a online forms tool with a schema-based form editor, public share link, validation, response table, CSV export, and webhook. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on delivery, integrations, compliance.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Wufoo",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Wufoo's solo core is compact: build a online forms tool with a schema-based form editor, public share link, validation, response table, CSV export, and webhook. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on delivery, integrations, compliance.",
+  "priorArt": [
+    {
+      "name": "Formbricks Open-source surveys and experience management. ↗",
+      "url": "https://github.com/formbricks/formbricks",
+      "desc": "Formbricks Open-source surveys and experience management. ↗"
+    },
+    {
+      "name": "HeyForm Open-source form builder and collection backend. ↗",
+      "url": "https://github.com/heyform/heyform",
+      "desc": "HeyForm Open-source form builder and collection backend. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "cognito-forms",
+    "formsite",
+    "formstack-forms"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Wufoo's solo core is compact: build a online forms tool with a schema-based form editor, public share link, validation, response table, CSV export, and webhook. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on delivery, integrations, compliance.",
+  "reportedReplacements": 0
+}

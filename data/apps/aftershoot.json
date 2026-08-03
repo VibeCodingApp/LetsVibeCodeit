@@ -1,0 +1,51 @@
+{
+  "slug": "aftershoot",
+  "name": "Aftershoot",
+  "domain": "aftershoot.com",
+  "category": "photo-editing",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Aftershoot, run local duplicate detection and transparent culling heuristics over a photo folder. The hard boundary is proprietary culling and editing models, photographer training data, speed, and workflow, plus image pipeline quality, models, and workflow polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Aftershoot costs $24.99/mo ($299.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Aftershoot, run local duplicate detection and transparent culling heuristics over a photo folder. The hard boundary is proprietary culling and editing models, photographer training data, speed, and workflow, plus image pipeline quality, models, and workflow polish.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Aftershoot",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "execution-polish"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Aftershoot, run local duplicate detection and transparent culling heuristics over a photo folder. The hard boundary is proprietary culling and editing models, photographer training data, speed, and workflow, plus image pipeline quality, models, and workflow polish.",
+  "priorArt": [
+    {
+      "name": "Immich Active open-source self-hosted photo and video management platform. ↗",
+      "url": "https://github.com/immich-app/immich",
+      "desc": "Immich Active open-source self-hosted photo and video management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "adobe-lightroom",
+    "capture-one",
+    "ente-photos"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Aftershoot, run local duplicate detection and transparent culling heuristics over a photo folder. The hard boundary is proprietary culling and editing models, photographer training data, speed, and workflow, plus image pipeline quality, models, and workflow polish.",
+  "reportedReplacements": 0
+}

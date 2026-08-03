@@ -1,0 +1,52 @@
+{
+  "slug": "ulysses",
+  "name": "Ulysses",
+  "domain": "ulysses.com",
+  "category": "writing-tools",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Ulysses, write in a focused Markdown library, organize sheets, set goals, and export polished documents. The hard boundary is native apple polish, icloud sync, mobile apps, and publishing integrations, plus polish, integrations, and proprietary language models.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Ulysses costs $5.99/mo ($71.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Ulysses, write in a focused Markdown library, organize sheets, set goals, and export polished documents. The hard boundary is native apple polish, icloud sync, mobile apps, and publishing integrations, plus polish, integrations, and proprietary language models.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Ulysses",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-models",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Ulysses, write in a focused Markdown library, organize sheets, set goals, and export polished documents. The hard boundary is native apple polish, icloud sync, mobile apps, and publishing integrations, plus polish, integrations, and proprietary language models.",
+  "priorArt": [
+    {
+      "name": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "desc": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sudowrite",
+    "prowritingaid",
+    "languagetool"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Ulysses, write in a focused Markdown library, organize sheets, set goals, and export polished documents. The hard boundary is native apple polish, icloud sync, mobile apps, and publishing integrations, plus polish, integrations, and proprietary language models.",
+  "reportedReplacements": 0
+}

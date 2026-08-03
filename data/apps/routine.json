@@ -1,0 +1,51 @@
+{
+  "slug": "routine",
+  "name": "Routine",
+  "domain": "routine.com",
+  "category": "tasks",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Routine, combine calendar, tasks, notes, and a command palette into one personal workspace. The hard boundary is calendar integrations, cross-platform apps, capture speed, sync, and polish, plus cross-device reliability and workflow polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Routine costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Routine, combine calendar, tasks, notes, and a command palette into one personal workspace. The hard boundary is calendar integrations, cross-platform apps, capture speed, sync, and polish, plus cross-device reliability and workflow polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Routine",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Routine, combine calendar, tasks, notes, and a command palette into one personal workspace. The hard boundary is calendar integrations, cross-platform apps, capture speed, sync, and polish, plus cross-device reliability and workflow polish.",
+  "priorArt": [
+    {
+      "name": "Vikunja Mature open-source task and project manager with lists, kanban, and recurring work. ↗",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "desc": "Vikunja Mature open-source task and project manager with lists, kanban, and recurring work. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ticktick",
+    "things-3",
+    "morgen"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Routine, combine calendar, tasks, notes, and a command palette into one personal workspace. The hard boundary is calendar integrations, cross-platform apps, capture speed, sync, and polish, plus cross-device reliability and workflow polish.",
+  "reportedReplacements": 0
+}

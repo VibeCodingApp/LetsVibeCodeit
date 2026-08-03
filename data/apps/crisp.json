@@ -1,0 +1,51 @@
+{
+  "slug": "crisp",
+  "name": "Crisp",
+  "domain": "crisp.com",
+  "category": "customer-support",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Crisp, combine website chat and a shared inbox for one small support team. The hard boundary is multi-channel inbox, chat delivery, knowledge base, campaigns, and workspace pricing, plus channel integrations and support operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Crisp costs $45/mo ($540/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Crisp, combine website chat and a shared inbox for one small support team. The hard boundary is multi-channel inbox, chat delivery, knowledge base, campaigns, and workspace pricing, plus channel integrations and support operations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Crisp",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Crisp, combine website chat and a shared inbox for one small support team. The hard boundary is multi-channel inbox, chat delivery, knowledge base, campaigns, and workspace pricing, plus channel integrations and support operations.",
+  "priorArt": [
+    {
+      "name": "Chatwoot Mature open-source customer engagement and shared-inbox platform. ↗",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "desc": "Chatwoot Mature open-source customer engagement and shared-inbox platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "intercom",
+    "zendesk",
+    "help-scout"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Crisp, combine website chat and a shared inbox for one small support team. The hard boundary is multi-channel inbox, chat delivery, knowledge base, campaigns, and workspace pricing, plus channel integrations and support operations.",
+  "reportedReplacements": 0
+}

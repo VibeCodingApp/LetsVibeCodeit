@@ -1,0 +1,50 @@
+{
+  "slug": "qr",
+  "name": "QR Tiger",
+  "domain": "qrtiger.com",
+  "category": "qr-codes",
+  "subcategory": null,
+  "tagline": "A library call with a UI. Peak \"why is this a subscription.\"",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: QR Tiger costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A library call with a UI. Peak \"why is this a subscription.\"",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from QR Tiger",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "A library call with a UI. Peak \"why is this a subscription.\"",
+  "priorArt": [
+    {
+      "name": "qr-code-styling the styling library that does the heavy lifting ↗",
+      "url": "https://github.com/kozakdenys/qr-code-styling",
+      "desc": "qr-code-styling the styling library that does the heavy lifting ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "granola",
+    "wispr-flow",
+    "testimonial-to"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A library call with a UI. Peak \"why is this a subscription.\"",
+  "reportedReplacements": 0
+}

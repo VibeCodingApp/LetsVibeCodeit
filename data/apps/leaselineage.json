@@ -1,0 +1,52 @@
+{
+  "slug": "leaselineage",
+  "name": "LeaseLineage",
+  "domain": "leaselineage.com",
+  "category": "automation",
+  "subcategory": null,
+  "tagline": "A solo broker can build the CRM, CSV prospecting, draft sequences, and pipeline in a weekend, but reliable contact data, Gmail and Outlook sync, deliverability, compliance operations, and brokerage collaboration are ongoing products.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: LeaseLineage costs $79/mo ($948/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A solo broker can build the CRM, CSV prospecting, draft sequences, and pipeline in a weekend, but reliable contact data, Gmail and Outlook sync, deliverability, compliance operations, and brokerage collaboration are ongoing products.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from LeaseLineage",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A solo broker can build the CRM, CSV prospecting, draft sequences, and pipeline in a weekend, but reliable contact data, Gmail and Outlook sync, deliverability, compliance operations, and brokerage collaboration are ongoing products.",
+  "priorArt": [
+    {
+      "name": "Mautic Open-source marketing automation platform that covers campaigns and contact management, without the commercial real estate workflow. ↗",
+      "url": "https://github.com/mautic/mautic",
+      "desc": "Mautic Open-source marketing automation platform that covers campaigns and contact management, without the commercial real estate workflow. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "mailchimp",
+    "hey-email",
+    "n8n-cloud"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A solo broker can build the CRM, CSV prospecting, draft sequences, and pipeline in a weekend, but reliable contact data, Gmail and Outlook sync, deliverability, compliance operations, and brokerage collaboration are ongoing products.",
+  "reportedReplacements": 0
+}

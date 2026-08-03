@@ -1,0 +1,51 @@
+{
+  "slug": "netlify",
+  "name": "Netlify",
+  "domain": "netlify.com",
+  "category": "hosting",
+  "subcategory": null,
+  "tagline": "Static hosting and functions are easy to assemble, but Netlify's value is Git-based deploys, previews, forms, redirects, edge functions, and managed platform reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Netlify costs $20/mo ($240/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Static hosting and functions are easy to assemble, but Netlify's value is Git-based deploys, previews, forms, redirects, edge functions, and managed platform reliability.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Netlify",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Static hosting and functions are easy to assemble, but Netlify's value is Git-based deploys, previews, forms, redirects, edge functions, and managed platform reliability.",
+  "priorArt": [
+    {
+      "name": "Coolify Open-source self-hosted deployment platform for apps, databases, and static sites. ↗",
+      "url": "https://github.com/coollabsio/coolify",
+      "desc": "Coolify Open-source self-hosted deployment platform for apps, databases, and static sites. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "webflow",
+    "framer",
+    "carrd"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Static hosting and functions are easy to assemble, but Netlify's value is Git-based deploys, previews, forms, redirects, edge functions, and managed platform reliability.",
+  "reportedReplacements": 1
+}

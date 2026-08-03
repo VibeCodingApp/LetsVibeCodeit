@@ -1,0 +1,51 @@
+{
+  "slug": "circle",
+  "name": "Circle",
+  "domain": "circle.com",
+  "category": "community",
+  "subcategory": null,
+  "tagline": "A private forum/community is buildable, but Circle's value is member management, courses, events, payments, mobile apps, automations, AI, and migrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Circle costs $99/mo ($1188/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A private forum/community is buildable, but Circle's value is member management, courses, events, payments, mobile apps, automations, AI, and migrations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Circle",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "network-effects",
+    "execution-polish"
+  ],
+  "moatNotes": "🕸️ network effects Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A private forum/community is buildable, but Circle's value is member management, courses, events, payments, mobile apps, automations, AI, and migrations.",
+  "priorArt": [
+    {
+      "name": "Discourse Mature open-source community/forum software suitable for many Circle-like communities. ↗",
+      "url": "https://github.com/discourse/discourse",
+      "desc": "Discourse Mature open-source community/forum software suitable for many Circle-like communities. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "mighty-networks",
+    "buffer",
+    "later"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A private forum/community is buildable, but Circle's value is member management, courses, events, payments, mobile apps, automations, AI, and migrations.",
+  "reportedReplacements": 0
+}

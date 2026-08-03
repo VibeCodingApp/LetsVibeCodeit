@@ -1,0 +1,52 @@
+{
+  "slug": "gmelius",
+  "name": "Gmelius",
+  "domain": "gmelius.com",
+  "category": "email",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Gmelius's durable value is deliverability, security, integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Gmelius has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Gmelius's durable value is deliverability, security, integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Gmelius",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Gmelius's durable value is deliverability, security, integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Mailspring Open-source desktop mail client and useful IMAP prior art. ↗",
+      "url": "https://github.com/Foundry376/Mailspring",
+      "desc": "Mailspring Open-source desktop mail client and useful IMAP prior art. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "mimestream",
+    "spike",
+    "helpwise"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Gmelius's durable value is deliverability, security, integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

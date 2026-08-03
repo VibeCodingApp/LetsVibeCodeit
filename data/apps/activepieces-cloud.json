@@ -1,0 +1,51 @@
+{
+  "slug": "activepieces-cloud",
+  "name": "Activepieces Cloud",
+  "domain": "activepieces-cloud.com",
+  "category": "automation",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Activepieces Cloud, use a managed open-source workflow runner instead of operating queues and upgrades. The hard boundary is managed hosting, connector updates, execution capacity, support, and reliability, plus connector breadth and execution reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Activepieces Cloud has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Activepieces Cloud, use a managed open-source workflow runner instead of operating queues and upgrades. The hard boundary is managed hosting, connector updates, execution capacity, support, and reliability, plus connector breadth and execution reliability.",
+  "diyTimeEstimate": "closest consolation build: multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Activepieces Cloud",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Activepieces Cloud, use a managed open-source workflow runner instead of operating queues and upgrades. The hard boundary is managed hosting, connector updates, execution capacity, support, and reliability, plus connector breadth and execution reliability.",
+  "priorArt": [
+    {
+      "name": "Activepieces Active open-source automation platform with connectors and durable workflow execution. ↗",
+      "url": "https://github.com/activepieces/activepieces",
+      "desc": "Activepieces Active open-source automation platform with connectors and durable workflow execution. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "pipedream",
+    "ifttt",
+    "relay-app"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Activepieces Cloud, use a managed open-source workflow runner instead of operating queues and upgrades. The hard boundary is managed hosting, connector updates, execution capacity, support, and reliability, plus connector breadth and execution reliability.",
+  "reportedReplacements": 0
+}

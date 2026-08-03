@@ -1,0 +1,50 @@
+{
+  "slug": "reeder",
+  "name": "Reeder",
+  "domain": "reeder.com",
+  "category": "reading",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Reeder, build a native feed and read-later client with local search and sync through a chosen account. The hard boundary is native apple polish, broad account support, gestures, and long-term maintenance, plus capture polish, sync, and content partnerships.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Reeder costs $1/mo ($12/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Reeder, build a native feed and read-later client with local search and sync through a chosen account. The hard boundary is native apple polish, broad account support, gestures, and long-term maintenance, plus capture polish, sync, and content partnerships.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Reeder",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Reeder, build a native feed and read-later client with local search and sync through a chosen account. The hard boundary is native apple polish, broad account support, gestures, and long-term maintenance, plus capture polish, sync, and content partnerships.",
+  "priorArt": [
+    {
+      "name": "FreshRSS Mature open-source RSS reader with feeds, filters, and self-hosting support. ↗",
+      "url": "https://github.com/FreshRSS/FreshRSS",
+      "desc": "FreshRSS Mature open-source RSS reader with feeds, filters, and self-hosting support. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "readwise",
+    "raindrop-io",
+    "inoreader"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Reeder, build a native feed and read-later client with local search and sync through a chosen account. The hard boundary is native apple polish, broad account support, gestures, and long-term maintenance, plus capture polish, sync, and content partnerships.",
+  "reportedReplacements": 0
+}

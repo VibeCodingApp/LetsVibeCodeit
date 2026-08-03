@@ -1,0 +1,51 @@
+{
+  "slug": "novoresume",
+  "name": "Novoresume",
+  "domain": "novoresume.com",
+  "category": "career",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Novoresume, create one-page and multi-page resumes from structured evidence with layout constraints. The hard boundary is templates, content guidance, design polish, and reliable pdf rendering, plus data, distribution, and coaching.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Novoresume costs $19.99/mo ($239.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Novoresume, create one-page and multi-page resumes from structured evidence with layout constraints. The hard boundary is templates, content guidance, design polish, and reliable pdf rendering, plus data, distribution, and coaching.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Novoresume",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "content-rights"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Novoresume, create one-page and multi-page resumes from structured evidence with layout constraints. The hard boundary is templates, content guidance, design polish, and reliable pdf rendering, plus data, distribution, and coaching.",
+  "priorArt": [
+    {
+      "name": "Reactive Resume Active open-source resume builder with structured data and PDF export. ↗",
+      "url": "https://github.com/AmruthPillai/Reactive-Resume",
+      "desc": "Reactive Resume Active open-source resume builder with structured data and PDF export. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "teal-plus",
+    "jobscan",
+    "huntr"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Novoresume, create one-page and multi-page resumes from structured evidence with layout constraints. The hard boundary is templates, content guidance, design polish, and reliable pdf rendering, plus data, distribution, and coaching.",
+  "reportedReplacements": 0
+}

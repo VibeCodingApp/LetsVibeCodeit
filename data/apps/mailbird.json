@@ -1,0 +1,51 @@
+{
+  "slug": "mailbird",
+  "name": "Mailbird",
+  "domain": "mailbird.com",
+  "category": "email",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mailbird, build a Windows email client with unified inbox, local search, and simple integrations. The hard boundary is windows polish, provider compatibility, app integrations, sync, and support, plus mail infrastructure, integrations, and client polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Mailbird has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mailbird, build a Windows email client with unified inbox, local search, and simple integrations. The hard boundary is windows polish, provider compatibility, app integrations, sync, and support, plus mail infrastructure, integrations, and client polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mailbird",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mailbird, build a Windows email client with unified inbox, local search, and simple integrations. The hard boundary is windows polish, provider compatibility, app integrations, sync, and support, plus mail infrastructure, integrations, and client polish.",
+  "priorArt": [
+    {
+      "name": "mailcow Popular open-source mail-server suite that demonstrates the operational complexity of hosted mail. ↗",
+      "url": "https://github.com/mailcow/mailcow-dockerized",
+      "desc": "mailcow Popular open-source mail-server suite that demonstrates the operational complexity of hosted mail. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "superhuman",
+    "front",
+    "fastmail"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mailbird, build a Windows email client with unified inbox, local search, and simple integrations. The hard boundary is windows polish, provider compatibility, app integrations, sync, and support, plus mail infrastructure, integrations, and client polish.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "pixieset",
+  "name": "Pixieset",
+  "domain": "pixieset.com",
+  "category": "photo-editing",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pixieset, publish a simple password-protected client gallery from user-owned storage. The hard boundary is gallery hosting, proofing, downloads, store, mobile apps, and photographer workflow, plus image pipeline quality, models, and workflow polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Pixieset costs $8/mo ($96/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pixieset, publish a simple password-protected client gallery from user-owned storage. The hard boundary is gallery hosting, proofing, downloads, store, mobile apps, and photographer workflow, plus image pipeline quality, models, and workflow polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Pixieset",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pixieset, publish a simple password-protected client gallery from user-owned storage. The hard boundary is gallery hosting, proofing, downloads, store, mobile apps, and photographer workflow, plus image pipeline quality, models, and workflow polish.",
+  "priorArt": [
+    {
+      "name": "Immich Active open-source self-hosted photo and video management platform. ↗",
+      "url": "https://github.com/immich-app/immich",
+      "desc": "Immich Active open-source self-hosted photo and video management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "adobe-lightroom",
+    "capture-one",
+    "ente-photos"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pixieset, publish a simple password-protected client gallery from user-owned storage. The hard boundary is gallery hosting, proofing, downloads, store, mobile apps, and photographer workflow, plus image pipeline quality, models, and workflow polish.",
+  "reportedReplacements": 0
+}

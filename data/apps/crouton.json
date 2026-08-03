@@ -1,0 +1,51 @@
+{
+  "slug": "crouton",
+  "name": "Crouton",
+  "domain": "crouton.com",
+  "category": "home",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Crouton, organize recipes, meal plans, timers, and a grocery list locally. The hard boundary is native apple apps, recipe capture, household sharing, sync, and cooking polish, plus sync, integrations, and household adoption.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Crouton costs $1.99/mo ($23.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Crouton, organize recipes, meal plans, timers, and a grocery list locally. The hard boundary is native apple apps, recipe capture, household sharing, sync, and cooking polish, plus sync, integrations, and household adoption.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Crouton",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Crouton, organize recipes, meal plans, timers, and a grocery list locally. The hard boundary is native apple apps, recipe capture, household sharing, sync, and cooking polish, plus sync, integrations, and household adoption.",
+  "priorArt": [
+    {
+      "name": "Mealie Active open-source recipe manager and meal planner for households. ↗",
+      "url": "https://github.com/mealie-recipes/mealie",
+      "desc": "Mealie Active open-source recipe manager and meal planner for households. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "paprika-recipe-manager",
+    "home-assistant-cloud",
+    "cozi-gold"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Crouton, organize recipes, meal plans, timers, and a grocery list locally. The hard boundary is native apple apps, recipe capture, household sharing, sync, and cooking polish, plus sync, integrations, and household adoption.",
+  "reportedReplacements": 0
+}

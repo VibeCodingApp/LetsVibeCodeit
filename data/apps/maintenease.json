@@ -1,0 +1,52 @@
+{
+  "slug": "maintenease",
+  "name": "MaintenEase",
+  "domain": "maintenease.com",
+  "category": "tasks",
+  "subcategory": null,
+  "tagline": "A focused work-order and preventive-maintenance tracker is a weekend build, but dependable field use, notifications, permissions, backups, and long-lived asset history require ongoing operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: MaintenEase costs $49/mo ($588/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A focused work-order and preventive-maintenance tracker is a weekend build, but dependable field use, notifications, permissions, backups, and long-lived asset history require ongoing operations.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from MaintenEase",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "switching-costs",
+    "collaboration",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "⛓️ switching costs Ã‚Â· 👥 collaboration Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A focused work-order and preventive-maintenance tracker is a weekend build, but dependable field use, notifications, permissions, backups, and long-lived asset history require ongoing operations.",
+  "priorArt": [
+    {
+      "name": "Atlas CMMS Open-source, self-hosted CMMS with web and mobile applications for work orders, assets, and preventive maintenance. ↗",
+      "url": "https://github.com/Grashjs/cmms",
+      "desc": "Atlas CMMS Open-source, self-hosted CMMS with web and mobile applications for work orders, assets, and preventive maintenance. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "todoist",
+    "airtable",
+    "things-3"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A focused work-order and preventive-maintenance tracker is a weekend build, but dependable field use, notifications, permissions, backups, and long-lived asset history require ongoing operations.",
+  "reportedReplacements": 0
+}

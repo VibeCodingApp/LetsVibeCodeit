@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "You can build a UI that calls Stable Diffusion via Replicate or the Stability AI API and get decent image generation. But Midjourney's proprietary models, curated aesthetic, style consistency, and creative control features (style references, character consistency, inpainting) come from custom training and fine-tuning that can't be replicated with off-the-shelf API calls.",
   "coreLoopDIY": "Image generation UI calling Stable Diffusion API with prompt input and gallery",
@@ -38,23 +38,22 @@
     "proprietary-models",
     "scale-infra"
   ],
-  "moatNotes": "Midjourney's models are trained on their own curated aesthetic — no API can match that output quality consistently",
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🕸️ network effects",
   "whyPeopleStillPay": "The image quality and aesthetic coherence are substantially better than any open-source model",
   "priorArt": [
     {
-      "name": "Stable Diffusion WebUI",
-      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "desc": "Open-source SD interface with extensive features"
+      "name": "ComfyUI Open-source node-based UI for running image-generation workflows locally or on a GPU serve ↗",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "desc": "ComfyUI Open-source node-based UI for running image-generation workflows locally or on a GPU serve ↗"
     }
   ],
   "relatedSlugs": [
-    "dall-e",
-    "leonardo",
-    "ideogram"
+    "runway",
+    "elevenlabs",
+    "chatgpt"
   ],
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "For a DIY version, call Stable Diffusion or DALL-E APIs. The UI is the easy part — the model quality gap is real.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 2
 }

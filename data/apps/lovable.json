@@ -1,0 +1,61 @@
+{
+  "slug": "lovable",
+  "name": "Lovable",
+  "domain": "lovable.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "The wrapper is easy: a CLI that sends your brief to a model, writes the files, and starts the dev server is one sitting of work. The model doing the writing is the actual product, and you cannot rebuild that. Everything Lovable puts around it, the hosted preview, the deploy, the database wired up for you, and a non-developer being able to use any of it, goes with the subscription.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Lovable costs $25/mo ($300/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "The wrapper is easy: a CLI that sends your brief to a model, writes the files, and starts the dev server is one sitting of work. The model doing the writing is the actual product, and you cannot rebuild that. Everything Lovable puts around it, the hosted preview, the deploy, the database wired up for you, and a non-developer being able to use any of it, goes with the subscription.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Lovable",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The wrapper is easy: a CLI that sends your brief to a model, writes the files, and starts the dev server is one sitting of work. The model doing the writing is the actual product, and you cannot rebuild that. Everything Lovable puts around it, the hosted preview, the deploy, the database wired up for you, and a non-developer being able to use any of it, goes with the subscription.",
+  "priorArt": [
+    {
+      "name": "bolt.diy Open-source prompt-to-app builder, bring your own model. ↗",
+      "url": "https://github.com/stackblitz-labs/bolt.diy",
+      "desc": "bolt.diy Open-source prompt-to-app builder, bring your own model. ↗"
+    },
+    {
+      "name": "Aider Terminal coding agent that commits its own diffs. ↗",
+      "url": "https://github.com/Aider-AI/aider",
+      "desc": "Aider Terminal coding agent that commits its own diffs. ↗"
+    },
+    {
+      "name": "Continue Open-source coding agent for IDEs and multiple model providers. ↗",
+      "url": "https://github.com/continuedev/continue",
+      "desc": "Continue Open-source coding agent for IDEs and multiple model providers. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "windsurf",
+    "replit",
+    "bolt-new"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The wrapper is easy: a CLI that sends your brief to a model, writes the files, and starts the dev server is one sitting of work. The model doing the writing is the actual product, and you cannot rebuild that. Everything Lovable puts around it, the hosted preview, the deploy, the database wired up for you, and a non-developer being able to use any of it, goes with the subscription.",
+  "reportedReplacements": 1
+}

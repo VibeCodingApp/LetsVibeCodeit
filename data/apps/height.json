@@ -1,0 +1,57 @@
+{
+  "slug": "height",
+  "name": "Height",
+  "domain": "height.com",
+  "category": "tasks",
+  "subcategory": null,
+  "tagline": "Height's solo core is compact: build a single-user AI project management workspace with projects, tasks, statuses, filters, recurring items, and JSON export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on collaboration, integrations, polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Height has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Height's solo core is compact: build a single-user AI project management workspace with projects, tasks, statuses, filters, recurring items, and JSON export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on collaboration, integrations, polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Height",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Height's solo core is compact: build a single-user AI project management workspace with projects, tasks, statuses, filters, recurring items, and JSON export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on collaboration, integrations, polish.",
+  "priorArt": [
+    {
+      "name": "Vikunja Open-source task manager with lists, boards, and collaboration. ↗",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "desc": "Vikunja Open-source task manager with lists, boards, and collaboration. ↗"
+    },
+    {
+      "name": "Plane Open-source issue and project tracker. ↗",
+      "url": "https://github.com/makeplane/plane",
+      "desc": "Plane Open-source issue and project tracker. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fibery",
+    "slite",
+    "linear"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Height's solo core is compact: build a single-user AI project management workspace with projects, tasks, statuses, filters, recurring items, and JSON export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on collaboration, integrations, polish.",
+  "reportedReplacements": 0
+}

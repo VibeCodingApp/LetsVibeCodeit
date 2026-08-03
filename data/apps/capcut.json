@@ -1,0 +1,52 @@
+{
+  "slug": "capcut",
+  "name": "CapCut",
+  "domain": "capcut.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "A captioner/trimmer/exporter is buildable, but CapCut's value is mobile editing polish, effects/templates, asset library, TikTok workflow, and real-time rendering.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: CapCut costs $19.99/mo ($239.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A captioner/trimmer/exporter is buildable, but CapCut's value is mobile editing polish, effects/templates, asset library, TikTok workflow, and real-time rendering.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from CapCut",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "content-rights",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🎟️ content & rights Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A captioner/trimmer/exporter is buildable, but CapCut's value is mobile editing polish, effects/templates, asset library, TikTok workflow, and real-time rendering.",
+  "priorArt": [
+    {
+      "name": "Shotcut Open-source video editor; powerful prior art but not mobile/template-first like CapCut. ↗",
+      "url": "https://github.com/mltframework/shotcut",
+      "desc": "Shotcut Open-source video editor; powerful prior art but not mobile/template-first like CapCut. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "granola",
+    "otter-ai",
+    "fireflies-ai"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A captioner/trimmer/exporter is buildable, but CapCut's value is mobile editing polish, effects/templates, asset library, TikTok workflow, and real-time rendering.",
+  "reportedReplacements": 0
+}

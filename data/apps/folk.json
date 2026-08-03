@@ -1,0 +1,52 @@
+{
+  "slug": "folk",
+  "name": "Folk",
+  "domain": "folk.com",
+  "category": "crm",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Folk, organize relationship lists, enrich context manually, and run lightweight outreach. The hard boundary is collaborative contact enrichment, integrations, messaging, and polished relationship workflows, plus integrations, data quality, and workflow lock-in.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Folk costs $30/mo ($360/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Folk, organize relationship lists, enrich context manually, and run lightweight outreach. The hard boundary is collaborative contact enrichment, integrations, messaging, and polished relationship workflows, plus integrations, data quality, and workflow lock-in.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Folk",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "switching-costs",
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "⛓️ switching costs Ã‚Â· 🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Folk, organize relationship lists, enrich context manually, and run lightweight outreach. The hard boundary is collaborative contact enrichment, integrations, messaging, and polished relationship workflows, plus integrations, data quality, and workflow lock-in.",
+  "priorArt": [
+    {
+      "name": "Twenty Active open-source modern CRM with extensible data models. ↗",
+      "url": "https://github.com/twentyhq/twenty",
+      "desc": "Twenty Active open-source modern CRM with extensible data models. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "pipedrive",
+    "close-crm",
+    "attio"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Folk, organize relationship lists, enrich context manually, and run lightweight outreach. The hard boundary is collaborative contact enrichment, integrations, messaging, and polished relationship workflows, plus integrations, data quality, and workflow lock-in.",
+  "reportedReplacements": 0
+}

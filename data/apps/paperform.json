@@ -1,0 +1,51 @@
+{
+  "slug": "paperform",
+  "name": "Paperform",
+  "domain": "paperform.com",
+  "category": "forms",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Paperform, compose branded document-like forms with payments left out of scope. The hard boundary is editor polish, calculations, commerce, integrations, and hosted delivery, plus integrations, deliverability, and workflow depth.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Paperform costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Paperform, compose branded document-like forms with payments left out of scope. The hard boundary is editor polish, calculations, commerce, integrations, and hosted delivery, plus integrations, deliverability, and workflow depth.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Paperform",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Paperform, compose branded document-like forms with payments left out of scope. The hard boundary is editor polish, calculations, commerce, integrations, and hosted delivery, plus integrations, deliverability, and workflow depth.",
+  "priorArt": [
+    {
+      "name": "Formbricks Active open-source survey and experience-management platform. ↗",
+      "url": "https://github.com/formbricks/formbricks",
+      "desc": "Formbricks Active open-source survey and experience-management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "surveymonkey",
+    "fillout",
+    "formstack-forms"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Paperform, compose branded document-like forms with payments left out of scope. The hard boundary is editor polish, calculations, commerce, integrations, and hosted delivery, plus integrations, deliverability, and workflow depth.",
+  "reportedReplacements": 0
+}

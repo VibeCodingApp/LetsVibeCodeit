@@ -1,0 +1,51 @@
+{
+  "slug": "mailbutler",
+  "name": "Mailbutler",
+  "domain": "mailbutler.com",
+  "category": "email",
+  "subcategory": null,
+  "tagline": "The visible email productivity add-on loop is buildable, but a credible replacement needs more than the first screen. Mailbutler earns its keep through deliverability, security, integration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Mailbutler has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible email productivity add-on loop is buildable, but a credible replacement needs more than the first screen. Mailbutler earns its keep through deliverability, security, integration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "weekend to multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mailbutler",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The visible email productivity add-on loop is buildable, but a credible replacement needs more than the first screen. Mailbutler earns its keep through deliverability, security, integration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Mailspring Open-source desktop mail client and useful IMAP prior art. ↗",
+      "url": "https://github.com/Foundry376/Mailspring",
+      "desc": "Mailspring Open-source desktop mail client and useful IMAP prior art. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "boomerang-for-gmail",
+    "superhuman",
+    "fastmail"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible email productivity add-on loop is buildable, but a credible replacement needs more than the first screen. Mailbutler earns its keep through deliverability, security, integration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

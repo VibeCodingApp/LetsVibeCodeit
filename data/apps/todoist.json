@@ -1,0 +1,51 @@
+{
+  "slug": "todoist",
+  "name": "Todoist",
+  "domain": "todoist.com",
+  "category": "tasks",
+  "subcategory": null,
+  "tagline": "A personal task app with projects, recurring due dates, filters, and reminders is a one-sitting/weekend build; collaboration and sync polish are the product moat.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Todoist costs $7/mo ($84/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A personal task app with projects, recurring due dates, filters, and reminders is a one-sitting/weekend build; collaboration and sync polish are the product moat.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Todoist",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A personal task app with projects, recurring due dates, filters, and reminders is a one-sitting/weekend build; collaboration and sync polish are the product moat.",
+  "priorArt": [
+    {
+      "name": "Vikunja Open-source task/project management app suitable as a Todoist-style alternative. ↗",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "desc": "Vikunja Open-source task/project management app suitable as a Todoist-style alternative. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sunsama",
+    "akiflow",
+    "motion"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A personal task app with projects, recurring due dates, filters, and reminders is a one-sitting/weekend build; collaboration and sync polish are the product moat.",
+  "reportedReplacements": 0
+}

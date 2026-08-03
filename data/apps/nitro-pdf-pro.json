@@ -1,0 +1,51 @@
+{
+  "slug": "nitro-pdf-pro",
+  "name": "Nitro PDF Pro",
+  "domain": "nitro-pdf-pro.com",
+  "category": "documents-pdfs",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Nitro PDF Pro, edit, convert, combine, and sign ordinary business PDFs locally. The hard boundary is format fidelity, office integration, ocr, support, and enterprise deployment, plus document fidelity, identity, and compliance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Nitro PDF Pro costs $17.69/mo ($212.28000000000003/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Nitro PDF Pro, edit, convert, combine, and sign ordinary business PDFs locally. The hard boundary is format fidelity, office integration, ocr, support, and enterprise deployment, plus document fidelity, identity, and compliance.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Nitro PDF Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "compliance-regulation"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏛️ compliance & regulation",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Nitro PDF Pro, edit, convert, combine, and sign ordinary business PDFs locally. The hard boundary is format fidelity, office integration, ocr, support, and enterprise deployment, plus document fidelity, identity, and compliance.",
+  "priorArt": [
+    {
+      "name": "Stirling PDF Active open-source web application for a broad set of PDF operations. ↗",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "desc": "Stirling PDF Active open-source web application for a broad set of PDF operations. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "adobe-acrobat-pro",
+    "pdf-expert",
+    "smallpdf"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Nitro PDF Pro, edit, convert, combine, and sign ordinary business PDFs locally. The hard boundary is format fidelity, office integration, ocr, support, and enterprise deployment, plus document fidelity, identity, and compliance.",
+  "reportedReplacements": 0
+}

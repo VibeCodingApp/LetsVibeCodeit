@@ -1,0 +1,51 @@
+{
+  "slug": "deepl-pro",
+  "name": "DeepL Pro",
+  "domain": "deepl-pro.com",
+  "category": "localization",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DeepL Pro, connect a local translation memory editor to a user-supplied model API. The hard boundary is deepl's proprietary translation model, document handling, privacy operations, and language quality, plus translation memory, collaboration, and deployment integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: DeepL Pro costs $10.49/mo ($125.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DeepL Pro, connect a local translation memory editor to a user-supplied model API. The hard boundary is deepl's proprietary translation model, document handling, privacy operations, and language quality, plus translation memory, collaboration, and deployment integrations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from DeepL Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "execution-polish"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DeepL Pro, connect a local translation memory editor to a user-supplied model API. The hard boundary is deepl's proprietary translation model, document handling, privacy operations, and language quality, plus translation memory, collaboration, and deployment integrations.",
+  "priorArt": [
+    {
+      "name": "Tolgee Active open-source localization platform with translation memory and in-context tooling. ↗",
+      "url": "https://github.com/tolgee/tolgee-platform",
+      "desc": "Tolgee Active open-source localization platform with translation memory and in-context tooling. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "lokalise",
+    "crowdin",
+    "weglot"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DeepL Pro, connect a local translation memory editor to a user-supplied model API. The hard boundary is deepl's proprietary translation model, document handling, privacy operations, and language quality, plus translation memory, collaboration, and deployment integrations.",
+  "reportedReplacements": 0
+}

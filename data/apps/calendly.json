@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "Core booking UI + Google Calendar API is doable in one sitting. The hard parts are timezone edge cases, team routing, and CRM integrations.",
   "coreLoopDIY": "Booking page with Google Calendar integration",
@@ -35,22 +35,22 @@
     "integrations",
     "execution-polish"
   ],
-  "moatNotes": "Calendly's scheduling intelligence for large teams is genuinely hard to replicate",
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
   "whyPeopleStillPay": "Teams needing advanced routing and CRM sync",
   "priorArt": [
     {
-      "name": "Cal.com",
-      "url": "https://cal.com",
-      "desc": "Open-source Calendly alternative"
+      "name": "cal.com open-source Calendly — self-host and skip the OAuth pain ↗",
+      "url": "https://github.com/calcom/cal.com",
+      "desc": "cal.com open-source Calendly — self-host and skip the OAuth pain ↗"
     }
   ],
   "relatedSlugs": [
     "savvycal",
-    "cal-com"
+    "raycast-pro",
+    "notion"
   ],
   "pagePriority": 4,
   "verifiedOneShot": false,
   "notes": "Popular entry-level replacement project",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 1
 }

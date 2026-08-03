@@ -1,0 +1,52 @@
+{
+  "slug": "flickr-pro",
+  "name": "Flickr Pro",
+  "domain": "flickr-pro.com",
+  "category": "photo-editing",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Flickr Pro, host a personal photo gallery and metadata archive on user-owned storage. The hard boundary is large photography community, discovery, hosting, moderation, and mobile apps, plus image pipeline quality, models, and workflow polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Flickr Pro costs $8.25/mo ($99/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Flickr Pro, host a personal photo gallery and metadata archive on user-owned storage. The hard boundary is large photography community, discovery, hosting, moderation, and mobile apps, plus image pipeline quality, models, and workflow polish.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Flickr Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "network-effects",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🕸️ network effects Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Flickr Pro, host a personal photo gallery and metadata archive on user-owned storage. The hard boundary is large photography community, discovery, hosting, moderation, and mobile apps, plus image pipeline quality, models, and workflow polish.",
+  "priorArt": [
+    {
+      "name": "Immich Active open-source self-hosted photo and video management platform. ↗",
+      "url": "https://github.com/immich-app/immich",
+      "desc": "Immich Active open-source self-hosted photo and video management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "adobe-lightroom",
+    "capture-one",
+    "ente-photos"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Flickr Pro, host a personal photo gallery and metadata archive on user-owned storage. The hard boundary is large photography community, discovery, hosting, moderation, and mobile apps, plus image pipeline quality, models, and workflow polish.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "adobe-express",
+  "name": "Adobe Express",
+  "domain": "adobe-express.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "You can build a quick image editor and template exporter, but Adobe's stock/licensing, PDF/media tooling, brand assets, and Creative Cloud tie-ins are the product.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Adobe Express costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "You can build a quick image editor and template exporter, but Adobe's stock/licensing, PDF/media tooling, brand assets, and Creative Cloud tie-ins are the product.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Adobe Express",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "content-rights",
+    "integrations"
+  ],
+  "moatNotes": "🎟️ content & rights Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "You can build a quick image editor and template exporter, but Adobe's stock/licensing, PDF/media tooling, brand assets, and Creative Cloud tie-ins are the product.",
+  "priorArt": [
+    {
+      "name": "GrapesJS Open-source visual builder useful for layout/template-editor concepts, though not a full E ↗",
+      "url": "https://github.com/GrapesJS/grapesjs",
+      "desc": "GrapesJS Open-source visual builder useful for layout/template-editor concepts, though not a full E ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "midjourney",
+    "runway",
+    "elevenlabs"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build a quick image editor and template exporter, but Adobe's stock/licensing, PDF/media tooling, brand assets, and Creative Cloud tie-ins are the product.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "ifttt",
+  "name": "IFTTT",
+  "domain": "ifttt.com",
+  "category": "automation",
+  "subcategory": null,
+  "tagline": "For a few personal applets, a script or simple webhook worker is enough; the full consumer integration catalog and smart-home breadth are what you lose.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: IFTTT costs $2.99/mo ($35.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "For a few personal applets, a script or simple webhook worker is enough; the full consumer integration catalog and smart-home breadth are what you lose.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from IFTTT",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "For a few personal applets, a script or simple webhook worker is enough; the full consumer integration catalog and smart-home breadth are what you lose.",
+  "priorArt": [
+    {
+      "name": "Huginn Open-source system for building agents that monitor and act on events; useful IFTTT-style ↗",
+      "url": "https://github.com/huginn/huginn",
+      "desc": "Huginn Open-source system for building agents that monitor and act on events; useful IFTTT-style ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "n8n-cloud",
+    "plausible",
+    "fathom-analytics"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "For a few personal applets, a script or simple webhook worker is enough; the full consumer integration catalog and smart-home breadth are what you lose.",
+  "reportedReplacements": 1
+}

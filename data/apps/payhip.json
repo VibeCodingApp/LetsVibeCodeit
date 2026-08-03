@@ -1,0 +1,51 @@
+{
+  "slug": "payhip",
+  "name": "Payhip",
+  "domain": "payhip.com",
+  "category": "creator-commerce",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Payhip, sell downloads and simple courses through Stripe or PayPal. The hard boundary is payment integration, eu and uk vat handling, affiliates, courses, and hosted delivery, plus payments, tax, distribution, and operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Payhip has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Payhip, sell downloads and simple courses through Stripe or PayPal. The hard boundary is payment integration, eu and uk vat handling, affiliates, courses, and hosted delivery, plus payments, tax, distribution, and operations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Payhip",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "brand-trust"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🛡️ brand & trust",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Payhip, sell downloads and simple courses through Stripe or PayPal. The hard boundary is payment integration, eu and uk vat handling, affiliates, courses, and hosted delivery, plus payments, tax, distribution, and operations.",
+  "priorArt": [
+    {
+      "name": "Medusa Active open-source commerce platform with modular checkout and fulfillment primitives. ↗",
+      "url": "https://github.com/medusajs/medusa",
+      "desc": "Medusa Active open-source commerce platform with modular checkout and fulfillment primitives. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "gumroad",
+    "lemon-squeezy",
+    "paddle"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Payhip, sell downloads and simple courses through Stripe or PayPal. The hard boundary is payment integration, eu and uk vat handling, affiliates, courses, and hosted delivery, plus payments, tax, distribution, and operations.",
+  "reportedReplacements": 0
+}

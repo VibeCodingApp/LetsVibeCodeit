@@ -1,0 +1,52 @@
+{
+  "slug": "prowritingaid",
+  "name": "ProWritingAid",
+  "domain": "prowritingaid.com",
+  "category": "writing-tools",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For ProWritingAid, run deep style reports, manuscript checks, and guided rewrites for long-form prose. The hard boundary is its mature report library, integrations, and fiction-specific analysis, plus polish, integrations, and proprietary language models.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: ProWritingAid has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For ProWritingAid, run deep style reports, manuscript checks, and guided rewrites for long-form prose. The hard boundary is its mature report library, integrations, and fiction-specific analysis, plus polish, integrations, and proprietary language models.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from ProWritingAid",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For ProWritingAid, run deep style reports, manuscript checks, and guided rewrites for long-form prose. The hard boundary is its mature report library, integrations, and fiction-specific analysis, plus polish, integrations, and proprietary language models.",
+  "priorArt": [
+    {
+      "name": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "desc": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sudowrite",
+    "languagetool",
+    "wordtune"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For ProWritingAid, run deep style reports, manuscript checks, and guided rewrites for long-form prose. The hard boundary is its mature report library, integrations, and fiction-specific analysis, plus polish, integrations, and proprietary language models.",
+  "reportedReplacements": 0
+}

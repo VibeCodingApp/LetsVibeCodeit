@@ -1,0 +1,56 @@
+{
+  "slug": "plausible",
+  "name": "Plausible",
+  "domain": "plausible.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "Basic pageview/event analytics are easy, and Plausible's own code is open source; the paid value is hosted reliability, maintenance, and support.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Plausible costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Basic pageview/event analytics are easy, and Plausible's own code is open source; the paid value is hosted reliability, maintenance, and support.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Plausible",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "compliance-regulation"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🏛️ compliance & regulation",
+  "whyPeopleStillPay": "Basic pageview/event analytics are easy, and Plausible's own code is open source; the paid value is hosted reliability, maintenance, and support.",
+  "priorArt": [
+    {
+      "name": "plausible/analytics Plausible itself is open source — self-host it ↗",
+      "url": "https://github.com/plausible/analytics",
+      "desc": "plausible/analytics Plausible itself is open source — self-host it ↗"
+    },
+    {
+      "name": "umami lightweight self-hosted analytics ↗",
+      "url": "https://github.com/umami-software/umami",
+      "desc": "umami lightweight self-hosted analytics ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fathom-analytics",
+    "simple-analytics",
+    "umami-cloud"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Basic pageview/event analytics are easy, and Plausible's own code is open source; the paid value is hosted reliability, maintenance, and support.",
+  "reportedReplacements": 5
+}

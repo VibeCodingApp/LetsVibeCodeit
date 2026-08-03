@@ -1,0 +1,51 @@
+{
+  "slug": "alfred-powerpack",
+  "name": "Alfred Powerpack",
+  "domain": "alfred-powerpack.com",
+  "category": "productivity-utilities",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Alfred Powerpack, build a local launcher with search, snippets, clipboard history, and workflows. The hard boundary is years of macos integration, workflow ecosystem, reliability, and community, plus os integration polish and maintenance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Alfred Powerpack has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Alfred Powerpack, build a local launcher with search, snippets, clipboard history, and workflows. The hard boundary is years of macos integration, workflow ecosystem, reliability, and community, plus os integration polish and maintenance.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Alfred Powerpack",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "network-effects"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Alfred Powerpack, build a local launcher with search, snippets, clipboard history, and workflows. The hard boundary is years of macos integration, workflow ecosystem, reliability, and community, plus os integration polish and maintenance.",
+  "priorArt": [
+    {
+      "name": "Espanso Active open-source cross-platform text expansion utility with system integration. ↗",
+      "url": "https://github.com/espanso/espanso",
+      "desc": "Espanso Active open-source cross-platform text expansion utility with system integration. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "setapp",
+    "bartender",
+    "bettertouchtool"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Alfred Powerpack, build a local launcher with search, snippets, clipboard history, and workflows. The hard boundary is years of macos integration, workflow ecosystem, reliability, and community, plus os integration polish and maintenance.",
+  "reportedReplacements": 0
+}

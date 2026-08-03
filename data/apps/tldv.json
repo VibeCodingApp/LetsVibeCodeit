@@ -1,0 +1,52 @@
+{
+  "slug": "tldv",
+  "name": "tl;dv",
+  "domain": "tldv.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "A DIY app can record, transcribe, summarize, and generate clips, but tl;dv's team library, CRM integrations, and meeting-bot reliability are real work.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: tl;dv costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A DIY app can record, transcribe, summarize, and generate clips, but tl;dv's team library, CRM integrations, and meeting-bot reliability are real work.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from tl;dv",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A DIY app can record, transcribe, summarize, and generate clips, but tl;dv's team library, CRM integrations, and meeting-bot reliability are real work.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Can power the transcription layer for a simpler local clone. ↗",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "whisper.cpp Can power the transcription layer for a simpler local clone. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "krisp",
+    "superwhisper",
+    "descript"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A DIY app can record, transcribe, summarize, and generate clips, but tl;dv's team library, CRM integrations, and meeting-bot reliability are real work.",
+  "reportedReplacements": 0
+}

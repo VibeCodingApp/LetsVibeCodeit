@@ -1,0 +1,50 @@
+{
+  "slug": "bitwarden",
+  "name": "Bitwarden",
+  "domain": "bitwarden.com",
+  "category": "security",
+  "subcategory": null,
+  "tagline": "If your goal is to stop paying hosted Bitwarden Premium, the core vault can be self-hosted or replaced with KeePass-style local storage; the caveat is security responsibility.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Bitwarden costs $1.65/mo ($19.799999999999997/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "If your goal is to stop paying hosted Bitwarden Premium, the core vault can be self-hosted or replaced with KeePass-style local storage; the caveat is security responsibility.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Bitwarden",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "brand-trust",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🛡️ brand & trust Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "If your goal is to stop paying hosted Bitwarden Premium, the core vault can be self-hosted or replaced with KeePass-style local storage; the caveat is security responsibility.",
+  "priorArt": [
+    {
+      "name": "vaultwarden Unofficial Bitwarden-compatible self-hosted server used by many technical users. ↗",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "desc": "vaultwarden Unofficial Bitwarden-compatible self-hosted server used by many technical users. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "dashlane",
+    "hey-email"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "If your goal is to stop paying hosted Bitwarden Premium, the core vault can be self-hosted or replaced with KeePass-style local storage; the caveat is security responsibility.",
+  "reportedReplacements": 1
+}

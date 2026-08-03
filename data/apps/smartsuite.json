@@ -1,0 +1,52 @@
+{
+  "slug": "smartsuite",
+  "name": "SmartSuite",
+  "domain": "smartsuite.com",
+  "category": "databases",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SmartSuite, configure records, views, automations, and dashboards for one team. The hard boundary is template breadth, workflow, integrations, permissions, and hosted collaboration, plus data model flexibility, collaboration, and integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: SmartSuite costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SmartSuite, configure records, views, automations, and dashboards for one team. The hard boundary is template breadth, workflow, integrations, permissions, and hosted collaboration, plus data model flexibility, collaboration, and integrations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from SmartSuite",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations",
+    "switching-costs"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🔌 integrations Ã‚Â· ⛓️ switching costs",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SmartSuite, configure records, views, automations, and dashboards for one team. The hard boundary is template breadth, workflow, integrations, permissions, and hosted collaboration, plus data model flexibility, collaboration, and integrations.",
+  "priorArt": [
+    {
+      "name": "NocoDB Active open-source no-code database interface and Airtable alternative. ↗",
+      "url": "https://github.com/nocodb/nocodb",
+      "desc": "NocoDB Active open-source no-code database interface and Airtable alternative. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "baserow-cloud",
+    "nocodb-cloud",
+    "grist"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SmartSuite, configure records, views, automations, and dashboards for one team. The hard boundary is template breadth, workflow, integrations, permissions, and hosted collaboration, plus data model flexibility, collaboration, and integrations.",
+  "reportedReplacements": 0
+}

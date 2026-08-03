@@ -1,0 +1,51 @@
+{
+  "slug": "postiz",
+  "name": "Postiz",
+  "domain": "postiz.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "The core loop (compose, queue, cron tick, publish) is one-shottable for networks with open APIs like Mastodon, Bluesky, and Telegram. What you cannot one-shot is the reason schedulers exist as products: OAuth apps for Instagram, LinkedIn, TikTok, and X are approval-gated or paid, and keeping 28+ integrations alive as platforms change policies is permanent maintenance. Postiz is also fully open source, so the honest DIY move for the full feature set is self-hosting it rather than rebuilding it.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Postiz costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop (compose, queue, cron tick, publish) is one-shottable for networks with open APIs like Mastodon, Bluesky, and Telegram. What you cannot one-shot is the reason schedulers exist as products: OAuth apps for Instagram, LinkedIn, TikTok, and X are approval-gated or paid, and keeping 28+ integrations alive as platforms change policies is permanent maintenance. Postiz is also fully open source, so the honest DIY move for the full feature set is self-hosting it rather than rebuilding it.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Postiz",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop (compose, queue, cron tick, publish) is one-shottable for networks with open APIs like Mastodon, Bluesky, and Telegram. What you cannot one-shot is the reason schedulers exist as products: OAuth apps for Instagram, LinkedIn, TikTok, and X are approval-gated or paid, and keeping 28+ integrations alive as platforms change policies is permanent maintenance. Postiz is also fully open source, so the honest DIY move for the full feature set is self-hosting it rather than rebuilding it.",
+  "priorArt": [
+    {
+      "name": "Postiz (open source) The app itself is AGPL open source and self-hostable, which is the shortest path to the full feature set. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz (open source) The app itself is AGPL open source and self-hostable, which is the shortest path to the full feature set. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "buffer",
+    "later",
+    "typefully"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop (compose, queue, cron tick, publish) is one-shottable for networks with open APIs like Mastodon, Bluesky, and Telegram. What you cannot one-shot is the reason schedulers exist as products: OAuth apps for Instagram, LinkedIn, TikTok, and X are approval-gated or paid, and keeping 28+ integrations alive as platforms change policies is permanent maintenance. Postiz is also fully open source, so the honest DIY move for the full feature set is self-hosting it rather than rebuilding it.",
+  "reportedReplacements": 10
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "ilovepdf-premium",
+  "name": "iLovePDF Premium",
+  "domain": "ilovepdf-premium.com",
+  "category": "documents-pdfs",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For ILovePDF Premium, merge, split, compress, convert, and annotate PDFs without uploading them to a vendor. The hard boundary is simple hosted delivery, mobile apps, desktop tools, ocr, and batch capacity, plus document fidelity, identity, and compliance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: iLovePDF Premium costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For ILovePDF Premium, merge, split, compress, convert, and annotate PDFs without uploading them to a vendor. The hard boundary is simple hosted delivery, mobile apps, desktop tools, ocr, and batch capacity, plus document fidelity, identity, and compliance.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from iLovePDF Premium",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "compliance-regulation"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏛️ compliance & regulation",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For ILovePDF Premium, merge, split, compress, convert, and annotate PDFs without uploading them to a vendor. The hard boundary is simple hosted delivery, mobile apps, desktop tools, ocr, and batch capacity, plus document fidelity, identity, and compliance.",
+  "priorArt": [
+    {
+      "name": "Stirling PDF Active open-source web application for a broad set of PDF operations. ↗",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "desc": "Stirling PDF Active open-source web application for a broad set of PDF operations. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "adobe-acrobat-pro",
+    "pdf-expert",
+    "smallpdf"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For ILovePDF Premium, merge, split, compress, convert, and annotate PDFs without uploading them to a vendor. The hard boundary is simple hosted delivery, mobile apps, desktop tools, ocr, and batch capacity, plus document fidelity, identity, and compliance.",
+  "reportedReplacements": 0
+}

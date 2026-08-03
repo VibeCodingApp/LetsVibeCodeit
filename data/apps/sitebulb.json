@@ -1,0 +1,51 @@
+{
+  "slug": "sitebulb",
+  "name": "Sitebulb",
+  "domain": "sitebulb.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sitebulb, crawl an owned site and turn technical findings into prioritized, evidenced hints. The hard boundary is rule depth, visualization, reporting, javascript crawling, and agency workflow, plus crawl scale, rule depth, and operational polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Sitebulb costs $18/mo ($216/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sitebulb, crawl an owned site and turn technical findings into prioritized, evidenced hints. The hard boundary is rule depth, visualization, reporting, javascript crawling, and agency workflow, plus crawl scale, rule depth, and operational polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Sitebulb",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sitebulb, crawl an owned site and turn technical findings into prioritized, evidenced hints. The hard boundary is rule depth, visualization, reporting, javascript crawling, and agency workflow, plus crawl scale, rule depth, and operational polish.",
+  "priorArt": [
+    {
+      "name": "SEOnaut Open-source technical SEO auditing application. ↗",
+      "url": "https://github.com/stjudewashere/seonaut",
+      "desc": "SEOnaut Open-source technical SEO auditing application. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "screaming-frog-seo-spider",
+    "contentking",
+    "clearscope"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sitebulb, crawl an owned site and turn technical findings into prioritized, evidenced hints. The hard boundary is rule depth, visualization, reporting, javascript crawling, and agency workflow, plus crawl scale, rule depth, and operational polish.",
+  "reportedReplacements": 0
+}

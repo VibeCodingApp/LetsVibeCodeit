@@ -1,0 +1,51 @@
+{
+  "slug": "twist",
+  "name": "Twist",
+  "domain": "twist.com",
+  "category": "community",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Twist, host asynchronous team threads organized by channel and topic. The hard boundary is cross-platform apps, notifications, email integration, search, and doist reliability, plus network, moderation, and communication infrastructure.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Twist costs $8/mo ($96/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Twist, host asynchronous team threads organized by channel and topic. The hard boundary is cross-platform apps, notifications, email integration, search, and doist reliability, plus network, moderation, and communication infrastructure.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Twist",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Twist, host asynchronous team threads organized by channel and topic. The hard boundary is cross-platform apps, notifications, email integration, search, and doist reliability, plus network, moderation, and communication infrastructure.",
+  "priorArt": [
+    {
+      "name": "Discourse Mature open-source community discussion platform with strong moderation and search. ↗",
+      "url": "https://github.com/discourse/discourse",
+      "desc": "Discourse Mature open-source community discussion platform with strong moderation and search. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "slack-pro",
+    "discord-nitro",
+    "circle"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Twist, host asynchronous team threads organized by channel and topic. The hard boundary is cross-platform apps, notifications, email integration, search, and doist reliability, plus network, moderation, and communication infrastructure.",
+  "reportedReplacements": 0
+}

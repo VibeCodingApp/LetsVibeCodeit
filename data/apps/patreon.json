@@ -1,0 +1,57 @@
+{
+  "slug": "patreon",
+  "name": "Patreon",
+  "domain": "patreon.com",
+  "category": "creator-commerce",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Patreon's durable value is payments, network, compliance, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Patreon has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Patreon's durable value is payments, network, compliance, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Patreon",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "network-effects",
+    "brand-trust"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🕸️ network effects Ã‚Â· 🛡️ brand & trust",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Patreon's durable value is payments, network, compliance, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Medusa Open-source commerce modules and backend. ↗",
+      "url": "https://github.com/medusajs/medusa",
+      "desc": "Medusa Open-source commerce modules and backend. ↗"
+    },
+    {
+      "name": "Ghost Open-source publishing and membership platform. ↗",
+      "url": "https://github.com/TryGhost/Ghost",
+      "desc": "Ghost Open-source publishing and membership platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "memberful",
+    "memberstack",
+    "buy-me-a-coffee"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Patreon's durable value is payments, network, compliance, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

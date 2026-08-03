@@ -1,0 +1,51 @@
+{
+  "slug": "mighty-networks",
+  "name": "Mighty Networks",
+  "domain": "mighty-networks.com",
+  "category": "community",
+  "subcategory": null,
+  "tagline": "A private community/course site is possible, but Mighty sells the integrated community, payments, events, AI setup, mobile, and branded-app path.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Mighty Networks costs $79.17/mo ($950.04/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A private community/course site is possible, but Mighty sells the integrated community, payments, events, AI setup, mobile, and branded-app path.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mighty Networks",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "network-effects",
+    "execution-polish"
+  ],
+  "moatNotes": "🕸️ network effects Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A private community/course site is possible, but Mighty sells the integrated community, payments, events, AI setup, mobile, and branded-app path.",
+  "priorArt": [
+    {
+      "name": "Discourse Open-source community platform; can replace discussion/community parts but not every creat ↗",
+      "url": "https://github.com/discourse/discourse",
+      "desc": "Discourse Open-source community platform; can replace discussion/community parts but not every creat ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "buffer",
+    "later",
+    "typefully"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A private community/course site is possible, but Mighty sells the integrated community, payments, events, AI setup, mobile, and branded-app path.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "paprika-recipe-manager",
+  "name": "Paprika Recipe Manager",
+  "domain": "paprika-recipe-manager.com",
+  "category": "home",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Paprika Recipe Manager, store recipes, plan meals, create grocery lists, and keep data in a portable local database. The hard boundary is native apps, browser capture, sync, grocery workflow, and long-term maintenance, plus sync, integrations, and household adoption.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Paprika Recipe Manager has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Paprika Recipe Manager, store recipes, plan meals, create grocery lists, and keep data in a portable local database. The hard boundary is native apps, browser capture, sync, grocery workflow, and long-term maintenance, plus sync, integrations, and household adoption.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Paprika Recipe Manager",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Paprika Recipe Manager, store recipes, plan meals, create grocery lists, and keep data in a portable local database. The hard boundary is native apps, browser capture, sync, grocery workflow, and long-term maintenance, plus sync, integrations, and household adoption.",
+  "priorArt": [
+    {
+      "name": "Mealie Active open-source recipe manager and meal planner for households. ↗",
+      "url": "https://github.com/mealie-recipes/mealie",
+      "desc": "Mealie Active open-source recipe manager and meal planner for households. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "home-assistant-cloud",
+    "cozi-gold",
+    "anylist-complete"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Paprika Recipe Manager, store recipes, plan meals, create grocery lists, and keep data in a portable local database. The hard boundary is native apps, browser capture, sync, grocery workflow, and long-term maintenance, plus sync, integrations, and household adoption.",
+  "reportedReplacements": 0
+}

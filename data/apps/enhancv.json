@@ -1,0 +1,52 @@
+{
+  "slug": "enhancv",
+  "name": "Enhancv",
+  "domain": "enhancv.com",
+  "category": "career",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Enhancv, create visually polished resume variants from structured user evidence. The hard boundary is template design, content guidance, scoring, document rendering, and support, plus data, distribution, and coaching.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Enhancv costs $24.99/mo ($299.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Enhancv, create visually polished resume variants from structured user evidence. The hard boundary is template design, content guidance, scoring, document rendering, and support, plus data, distribution, and coaching.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Enhancv",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "content-rights",
+    "proprietary-data",
+    "execution-polish"
+  ],
+  "moatNotes": "🎟️ content & rights Ã‚Â· 💎 proprietary data Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Enhancv, create visually polished resume variants from structured user evidence. The hard boundary is template design, content guidance, scoring, document rendering, and support, plus data, distribution, and coaching.",
+  "priorArt": [
+    {
+      "name": "Reactive Resume Active open-source resume builder with structured data and PDF export. ↗",
+      "url": "https://github.com/AmruthPillai/Reactive-Resume",
+      "desc": "Reactive Resume Active open-source resume builder with structured data and PDF export. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "teal-plus",
+    "jobscan",
+    "huntr"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Enhancv, create visually polished resume variants from structured user evidence. The hard boundary is template design, content guidance, scoring, document rendering, and support, plus data, distribution, and coaching.",
+  "reportedReplacements": 0
+}

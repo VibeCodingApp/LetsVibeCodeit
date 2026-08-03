@@ -1,0 +1,50 @@
+{
+  "slug": "freedom",
+  "name": "Freedom",
+  "domain": "freedom.com",
+  "category": "productivity-utilities",
+  "subcategory": null,
+  "tagline": "The visible distraction blocking loop is buildable, but a credible replacement needs more than the first screen. Freedom earns its keep through polish, OS integration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Freedom costs $3.33/mo ($39.96/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible distraction blocking loop is buildable, but a credible replacement needs more than the first screen. Freedom earns its keep through polish, OS integration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Freedom",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The visible distraction blocking loop is buildable, but a credible replacement needs more than the first screen. Freedom earns its keep through polish, OS integration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "ActivityWatch Local-first automatic time tracking with an extensible event model. ↗",
+      "url": "https://github.com/ActivityWatch/activitywatch",
+      "desc": "ActivityWatch Local-first automatic time tracking with an extensible event model. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "opal",
+    "session",
+    "focusmate"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible distraction blocking loop is buildable, but a credible replacement needs more than the first screen. Freedom earns its keep through polish, OS integration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

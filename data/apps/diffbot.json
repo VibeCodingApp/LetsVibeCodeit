@@ -1,0 +1,57 @@
+{
+  "slug": "diffbot",
+  "name": "Diffbot",
+  "domain": "diffbot.com",
+  "category": "automation",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Diffbot's durable value is connectors, auth, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Diffbot has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Diffbot's durable value is connectors, auth, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Diffbot",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "infrastructure-scale",
+    "integrations"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Diffbot's durable value is connectors, auth, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Activepieces Open-source automation builder with connectors and self-hosting. ↗",
+      "url": "https://github.com/activepieces/activepieces",
+      "desc": "Activepieces Open-source automation builder with connectors and self-hosting. ↗"
+    },
+    {
+      "name": "n8n Source-available workflow automation engine and connector reference. ↗",
+      "url": "https://github.com/n8n-io/n8n",
+      "desc": "n8n Source-available workflow automation engine and connector reference. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "hexomatic",
+    "robomotion",
+    "import-io"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Diffbot's durable value is connectors, auth, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

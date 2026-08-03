@@ -1,0 +1,51 @@
+{
+  "slug": "publer",
+  "name": "Publer",
+  "domain": "publer.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Publer, schedule posts across a small set of networks and maintain reusable media. The hard boundary is connector breadth, bulk workflows, analytics, collaboration, and hosted reliability, plus api access, connector upkeep, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Publer costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Publer, schedule posts across a small set of networks and maintain reusable media. The hard boundary is connector breadth, bulk workflows, analytics, collaboration, and hosted reliability, plus api access, connector upkeep, and collaboration.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Publer",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Publer, schedule posts across a small set of networks and maintain reusable media. The hard boundary is connector breadth, bulk workflows, analytics, collaboration, and hosted reliability, plus api access, connector upkeep, and collaboration.",
+  "priorArt": [
+    {
+      "name": "Postiz Active open-source social media scheduling platform. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Active open-source social media scheduling platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "hootsuite",
+    "metricool",
+    "hypefury"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Publer, schedule posts across a small set of networks and maintain reusable media. The hard boundary is connector breadth, bulk workflows, analytics, collaboration, and hosted reliability, plus api access, connector upkeep, and collaboration.",
+  "reportedReplacements": 0
+}

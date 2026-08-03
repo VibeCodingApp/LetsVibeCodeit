@@ -1,0 +1,52 @@
+{
+  "slug": "inoreader",
+  "name": "Inoreader",
+  "domain": "inoreader.com",
+  "category": "rss-research",
+  "subcategory": null,
+  "tagline": "A single-user RSS reader with rules and alerts can be built quickly on top of existing parsers, though not with Inoreader's scale and polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Inoreader costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A single-user RSS reader with rules and alerts can be built quickly on top of existing parsers, though not with Inoreader's scale and polish.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Inoreader",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A single-user RSS reader with rules and alerts can be built quickly on top of existing parsers, though not with Inoreader's scale and polish.",
+  "priorArt": [
+    {
+      "name": "Miniflux Minimalist open-source RSS reader with self-hosting support. ↗",
+      "url": "https://github.com/miniflux/v2",
+      "desc": "Miniflux Minimalist open-source RSS reader with self-hosting support. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "todoist",
+    "sunsama",
+    "akiflow"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A single-user RSS reader with rules and alerts can be built quickly on top of existing parsers, though not with Inoreader's scale and polish.",
+  "reportedReplacements": 0
+}

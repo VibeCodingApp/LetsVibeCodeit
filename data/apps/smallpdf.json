@@ -1,0 +1,51 @@
+{
+  "slug": "smallpdf",
+  "name": "Smallpdf Pro",
+  "domain": "smallpdf.com",
+  "category": "documents-pdfs",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Smallpdf Pro, offer common PDF transformations through a private self-hosted interface. The hard boundary is hosted convenience, broad tools, mobile apps, signatures, ocr, and high-volume processing, plus document fidelity, identity, and compliance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Smallpdf Pro costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Smallpdf Pro, offer common PDF transformations through a private self-hosted interface. The hard boundary is hosted convenience, broad tools, mobile apps, signatures, ocr, and high-volume processing, plus document fidelity, identity, and compliance.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Smallpdf Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "compliance-regulation"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏛️ compliance & regulation",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Smallpdf Pro, offer common PDF transformations through a private self-hosted interface. The hard boundary is hosted convenience, broad tools, mobile apps, signatures, ocr, and high-volume processing, plus document fidelity, identity, and compliance.",
+  "priorArt": [
+    {
+      "name": "Stirling PDF Active open-source web application for a broad set of PDF operations. ↗",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "desc": "Stirling PDF Active open-source web application for a broad set of PDF operations. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "adobe-acrobat-pro",
+    "pdf-expert",
+    "pandadoc"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Smallpdf Pro, offer common PDF transformations through a private self-hosted interface. The hard boundary is hosted convenience, broad tools, mobile apps, signatures, ocr, and high-volume processing, plus document fidelity, identity, and compliance.",
+  "reportedReplacements": 0
+}

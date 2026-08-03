@@ -1,0 +1,51 @@
+{
+  "slug": "replit",
+  "name": "Replit",
+  "domain": "replit.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "A dev container plus code-server plus deployment can replace some value, but Replit's beginner-friendly cloud IDE, agents, secrets, hosting, and zero-setup environment are a platform.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Replit costs $25/mo ($300/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A dev container plus code-server plus deployment can replace some value, but Replit's beginner-friendly cloud IDE, agents, secrets, hosting, and zero-setup environment are a platform.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Replit",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A dev container plus code-server plus deployment can replace some value, but Replit's beginner-friendly cloud IDE, agents, secrets, hosting, and zero-setup environment are a platform.",
+  "priorArt": [
+    {
+      "name": "code-server Open-source VS Code in the browser; useful base for a DIY cloud IDE. ↗",
+      "url": "https://github.com/coder/code-server",
+      "desc": "code-server Open-source VS Code in the browser; useful base for a DIY cloud IDE. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "codesandbox",
+    "vercel",
+    "netlify"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A dev container plus code-server plus deployment can replace some value, but Replit's beginner-friendly cloud IDE, agents, secrets, hosting, and zero-setup environment are a platform.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "pieces",
+  "name": "Pieces",
+  "domain": "pieces.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "Pieces's solo core is compact: build a repository-local developer memory + AI assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Pieces has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Pieces's solo core is compact: build a repository-local developer memory + AI assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Pieces",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Pieces's solo core is compact: build a repository-local developer memory + AI assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
+  "priorArt": [
+    {
+      "name": "Continue Open-source coding assistant for editors and terminals. ↗",
+      "url": "https://github.com/continuedev/continue",
+      "desc": "Continue Open-source coding assistant for editors and terminals. ↗"
+    },
+    {
+      "name": "Aider Open-source terminal coding agent with repository-aware edits. ↗",
+      "url": "https://github.com/Aider-AI/aider",
+      "desc": "Aider Open-source terminal coding agent with repository-aware edits. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "warp",
+    "bito",
+    "gitlab-duo"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Pieces's solo core is compact: build a repository-local developer memory + AI assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "xero",
+  "name": "Xero",
+  "domain": "xero.com",
+  "category": "finance-accounting",
+  "subcategory": null,
+  "tagline": "Invoices and reports are buildable, but Xero's real product is bank feeds, accounting workflows, accountant collaboration, compliance expectations, integrations, and trust.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Xero costs $25/mo ($300/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "Invoices and reports are buildable, but Xero's real product is bank feeds, accounting workflows, accountant collaboration, compliance expectations, integrations, and trust.",
+  "diyTimeEstimate": "not realistically solo",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Xero",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "integrations",
+    "network-effects"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🔌 integrations Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "Invoices and reports are buildable, but Xero's real product is bank feeds, accounting workflows, accountant collaboration, compliance expectations, integrations, and trust.",
+  "priorArt": [
+    {
+      "name": "Odoo Open-source business suite with accounting modules; heavier than a solo DIY clone. ↗",
+      "url": "https://github.com/odoo/odoo",
+      "desc": "Odoo Open-source business suite with accounting modules; heavier than a solo DIY clone. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "freshbooks",
+    "invoice-ninja",
+    "ynab"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Invoices and reports are buildable, but Xero's real product is bank feeds, accounting workflows, accountant collaboration, compliance expectations, integrations, and trust.",
+  "reportedReplacements": 1
+}

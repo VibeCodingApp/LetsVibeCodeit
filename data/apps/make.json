@@ -1,0 +1,51 @@
+{
+  "slug": "make",
+  "name": "Make",
+  "domain": "make.com",
+  "category": "automation",
+  "subcategory": null,
+  "tagline": "A handful of workflows can be coded quickly, but Make's paid value is the visual builder, app modules, scheduling, observability, and maintenance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Make costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A handful of workflows can be coded quickly, but Make's paid value is the visual builder, app modules, scheduling, observability, and maintenance.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Make",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A handful of workflows can be coded quickly, but Make's paid value is the visual builder, app modules, scheduling, observability, and maintenance.",
+  "priorArt": [
+    {
+      "name": "Activepieces Open-source automation platform with app pieces, triggers, and actions. ↗",
+      "url": "https://github.com/activepieces/activepieces",
+      "desc": "Activepieces Open-source automation platform with app pieces, triggers, and actions. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ifttt",
+    "n8n-cloud",
+    "plausible"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A handful of workflows can be coded quickly, but Make's paid value is the visual builder, app modules, scheduling, observability, and maintenance.",
+  "reportedReplacements": 0
+}

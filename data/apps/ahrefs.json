@@ -1,0 +1,51 @@
+{
+  "slug": "ahrefs",
+  "name": "Ahrefs",
+  "domain": "ahrefs.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "You can build a keyword tracker or site audit script, but Ahrefs' value is its proprietary web crawl, backlink index, keyword data, SERP data, and historical datasets.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Ahrefs costs $29/mo ($348/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "You can build a keyword tracker or site audit script, but Ahrefs' value is its proprietary web crawl, backlink index, keyword data, SERP data, and historical datasets.",
+  "diyTimeEstimate": "not realistically solo",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Ahrefs",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "You can build a keyword tracker or site audit script, but Ahrefs' value is its proprietary web crawl, backlink index, keyword data, SERP data, and historical datasets.",
+  "priorArt": [
+    {
+      "name": "Screaming Frog alternatives: SEO Macroscope Open-source website crawler for technical SEO; does not replace Ahrefs' external data moat ↗",
+      "url": "https://github.com/smac89/SEO-Macroscope",
+      "desc": "Screaming Frog alternatives: SEO Macroscope Open-source website crawler for technical SEO; does not replace Ahrefs' external data moat ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "semrush",
+    "surfer-seo",
+    "frase"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build a keyword tracker or site audit script, but Ahrefs' value is its proprietary web crawl, backlink index, keyword data, SERP data, and historical datasets.",
+  "reportedReplacements": 0
+}

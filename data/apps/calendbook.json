@@ -1,0 +1,51 @@
+{
+  "slug": "calendbook",
+  "name": "Calendbook",
+  "domain": "calendbook.com",
+  "category": "scheduling",
+  "subcategory": null,
+  "tagline": "Calendbook's solo core is compact: build a personal booking pages tool that reads one calendar, publishes availability, reserves a slot, and writes the event back. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on OAuth, calendar reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Calendbook has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Calendbook's solo core is compact: build a personal booking pages tool that reads one calendar, publishes availability, reserves a slot, and writes the event back. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on OAuth, calendar reliability.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Calendbook",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Calendbook's solo core is compact: build a personal booking pages tool that reads one calendar, publishes availability, reserves a slot, and writes the event back. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on OAuth, calendar reliability.",
+  "priorArt": [
+    {
+      "name": "Cal.com Mature open-source scheduling platform and OAuth reference. ↗",
+      "url": "https://github.com/calcom/cal.diy",
+      "desc": "Cal.com Mature open-source scheduling platform and OAuth reference. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "lemcal",
+    "clockwise",
+    "doodle"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Calendbook's solo core is compact: build a personal booking pages tool that reads one calendar, publishes availability, reserves a slot, and writes the event back. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on OAuth, calendar reliability.",
+  "reportedReplacements": 0
+}

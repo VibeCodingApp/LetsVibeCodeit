@@ -1,0 +1,56 @@
+{
+  "slug": "hypotenuse-ai",
+  "name": "Hypotenuse AI",
+  "domain": "hypotenuse-ai.com",
+  "category": "ai-writing",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Hypotenuse AI's durable value is model, data, workflow, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Hypotenuse AI has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Hypotenuse AI's durable value is model, data, workflow, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Hypotenuse AI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "execution-polish"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Hypotenuse AI's durable value is model, data, workflow, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "Ollama Local model runner for private text-generation workflows. ↗",
+      "url": "https://github.com/ollama/ollama",
+      "desc": "Ollama Local model runner for private text-generation workflows. ↗"
+    },
+    {
+      "name": "Open WebUI Open-source interface and workflow layer for local or hosted language models. ↗",
+      "url": "https://github.com/open-webui/open-webui",
+      "desc": "Open WebUI Open-source interface and workflow layer for local or hosted language models. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "scalenut",
+    "koalawriter",
+    "closerscopy"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Hypotenuse AI's durable value is model, data, workflow, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

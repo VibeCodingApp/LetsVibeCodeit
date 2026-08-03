@@ -1,0 +1,67 @@
+{
+  "slug": "chatbase",
+  "name": "Chatbase",
+  "domain": "chatbase.com",
+  "category": "customer-support",
+  "subcategory": null,
+  "tagline": "A useful web version is a serious multi-day build, not magic: crawl or upload sources, retrieve tenant-scoped passages, stream cited answers, run one guarded business action, and hand uncertain requests to a person. Rebuilding Chatbase itself is a different project. Its paid surface combines source management and retraining, procedures and custom UI actions, a polished widget, helpdesk, identity, analytics, voice, email, social and CRM channels, plus the reliability and security work that keeps an agent safe in front of customers.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Chatbase costs $150/mo ($1800/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A useful web version is a serious multi-day build, not magic: crawl or upload sources, retrieve tenant-scoped passages, stream cited answers, run one guarded business action, and hand uncertain requests to a person. Rebuilding Chatbase itself is a different project. Its paid surface combines source management and retraining, procedures and custom UI actions, a polished widget, helpdesk, identity, analytics, voice, email, social and CRM channels, plus the reliability and security work that keeps an agent safe in front of customers.",
+  "diyTimeEstimate": "multi-day for one web agent; multi-week for the platform",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Chatbase",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A useful web version is a serious multi-day build, not magic: crawl or upload sources, retrieve tenant-scoped passages, stream cited answers, run one guarded business action, and hand uncertain requests to a person. Rebuilding Chatbase itself is a different project. Its paid surface combines source management and retraining, procedures and custom UI actions, a polished widget, helpdesk, identity, analytics, voice, email, social and CRM channels, plus the reliability and security work that keeps an agent safe in front of customers.",
+  "priorArt": [
+    {
+      "name": "Mastra TypeScript agent framework with RAG, tools, memory, evals, and an AI SDK UI adapter. The core is Apache-2.0; enterprise directories are separately licensed. ↗",
+      "url": "https://github.com/mastra-ai/mastra",
+      "desc": "Mastra TypeScript agent framework with RAG, tools, memory, evals, and an AI SDK UI adapter. The core is Apache-2.0; enterprise directories are separately licensed. ↗"
+    },
+    {
+      "name": "VoltAgent MIT TypeScript agent framework with retrievers, memory, typed tools, evals, and observability. Ingestion, widget, and helpdesk product work remain yours. ↗",
+      "url": "https://github.com/VoltAgent/voltagent",
+      "desc": "VoltAgent MIT TypeScript agent framework with retrievers, memory, typed tools, evals, and observability. Ingestion, widget, and helpdesk product work remain yours. ↗"
+    },
+    {
+      "name": "Vercel AI SDK Apache-2.0 TypeScript toolkit for streaming model responses, typed tool parts, and framework UI bindings. It is the transport and UI layer, not a support platform. ↗",
+      "url": "https://github.com/vercel/ai",
+      "desc": "Vercel AI SDK Apache-2.0 TypeScript toolkit for streaming model responses, typed tool parts, and framework UI bindings. It is the transport and UI layer, not a support platform. ↗"
+    },
+    {
+      "name": "Flue Apache-2.0 sandbox-first TypeScript agent framework with typed tools and Node or Cloudflare deployment targets. Retrieval and the support application still need to be built. ↗",
+      "url": "https://github.com/withastro/flue",
+      "desc": "Flue Apache-2.0 sandbox-first TypeScript agent framework with typed tools and Node or Cloudflare deployment targets. Retrieval and the support application still need to be built. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "animam-ai",
+    "chatwoot-cloud",
+    "intercom"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A useful web version is a serious multi-day build, not magic: crawl or upload sources, retrieve tenant-scoped passages, stream cited answers, run one guarded business action, and hand uncertain requests to a person. Rebuilding Chatbase itself is a different project. Its paid surface combines source management and retraining, procedures and custom UI actions, a polished widget, helpdesk, identity, analytics, voice, email, social and CRM channels, plus the reliability and security work that keeps an agent safe in front of customers.",
+  "reportedReplacements": 1
+}

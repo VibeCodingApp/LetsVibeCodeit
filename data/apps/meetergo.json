@@ -1,0 +1,52 @@
+{
+  "slug": "meetergo",
+  "name": "meetergo",
+  "domain": "meetergo.com",
+  "category": "scheduling",
+  "subcategory": null,
+  "tagline": "The public booking loop is weekend-buildable. The honest replacement, however, stops being a scheduler almost immediately: meetergo combines maintained multi-calendar sync, time-zone and conflict handling, round-robin and conditional routing, resource and multi-location booking, automated reminders, payments, video, CRM, client portals, e-signatures, invoicing, and AI across one EU-hosted system. An agent can reproduce the solo front door; replacing the operating layer behind customer meetings is an ongoing product and compliance job.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: meetergo costs $11/mo ($132/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The public booking loop is weekend-buildable. The honest replacement, however, stops being a scheduler almost immediately: meetergo combines maintained multi-calendar sync, time-zone and conflict handling, round-robin and conditional routing, resource and multi-location booking, automated reminders, payments, video, CRM, client portals, e-signatures, invoicing, and AI across one EU-hosted system. An agent can reproduce the solo front door; replacing the operating layer behind customer meetings is an ongoing product and compliance job.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from meetergo",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish",
+    "compliance-regulation"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish Ã‚Â· 🏛️ compliance & regulation",
+  "whyPeopleStillPay": "The public booking loop is weekend-buildable. The honest replacement, however, stops being a scheduler almost immediately: meetergo combines maintained multi-calendar sync, time-zone and conflict handling, round-robin and conditional routing, resource and multi-location booking, automated reminders, payments, video, CRM, client portals, e-signatures, invoicing, and AI across one EU-hosted system. An agent can reproduce the solo front door; replacing the operating layer behind customer meetings is an ongoing product and compliance job.",
+  "priorArt": [
+    {
+      "name": "Cal.com open-source scheduling platform that can be self-hosted ↗",
+      "url": "https://github.com/calcom/cal.com",
+      "desc": "Cal.com open-source scheduling platform that can be self-hosted ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "calendly",
+    "savvycal",
+    "reclaim-ai"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The public booking loop is weekend-buildable. The honest replacement, however, stops being a scheduler almost immediately: meetergo combines maintained multi-calendar sync, time-zone and conflict handling, round-robin and conditional routing, resource and multi-location booking, automated reminders, payments, video, CRM, client portals, e-signatures, invoicing, and AI across one EU-hosted system. An agent can reproduce the solo front door; replacing the operating layer behind customer meetings is an ongoing product and compliance job.",
+  "reportedReplacements": 0
+}

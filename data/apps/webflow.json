@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$25/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "You can build a static site generator with a CMS backend (Next.js + a headless CMS) that covers the output side. But Webflow's visual editor — a WYSIWYG that outputs production-ready HTML/CSS — is a genuinely hard engineering problem. The visual CMS, interactions builder, and hosting CDN are each full products. You get the output, not the editor.",
   "coreLoopDIY": "Next.js site with headless CMS for content editing, deployed to Vercel",
@@ -39,23 +39,22 @@
     "execution-polish",
     "integrations"
   ],
-  "moatNotes": "The visual canvas that generates clean HTML/CSS is the core moat — it's a code generator disguised as a design tool",
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🎟️ content & rights",
   "whyPeopleStillPay": "Professional designers who want pixel-perfect control without writing code, plus managed hosting and CMS",
   "priorArt": [
     {
-      "name": "Plasmic",
-      "url": "https://plasmic.app",
-      "desc": "Open-source visual builder for React"
+      "name": "Webstudio Open-source visual website builder and serious Webflow-like prior art. ↗",
+      "url": "https://github.com/webstudio-is/webstudio",
+      "desc": "Webstudio Open-source visual website builder and serious Webflow-like prior art. ↗"
     }
   ],
   "relatedSlugs": [
-    "squarespace",
     "framer",
-    "wordpress"
+    "carrd",
+    "airtable"
   ],
   "pagePriority": 2,
   "verifiedOneShot": false,
   "notes": "The visual editor is the hard part. If you just need a website, Next.js + a CMS gives you the same output.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 1
 }

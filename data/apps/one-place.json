@@ -1,0 +1,45 @@
+{
+  "slug": "one-place",
+  "name": "One Place",
+  "domain": "one-place.com",
+  "category": "ai-search",
+  "subcategory": null,
+  "tagline": "You can build a scheduled personal property monitor, but not One Place: the value is the maintained real-estate corpus, crawler fleet, AI extraction, deduplication, image/semantic search, geo enrichment, and constant source upkeep across millions of listings.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: One Place costs $39/mo ($468/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "You can build a scheduled personal property monitor, but not One Place: the value is the maintained real-estate corpus, crawler fleet, AI extraction, deduplication, image/semantic search, geo enrichment, and constant source upkeep across millions of listings.",
+  "diyTimeEstimate": "multi-week",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from One Place",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "You can build a scheduled personal property monitor, but not One Place: the value is the maintained real-estate corpus, crawler fleet, AI extraction, deduplication, image/semantic search, geo enrichment, and constant source upkeep across millions of listings.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "perplexity",
+    "replit",
+    "zapier"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build a scheduled personal property monitor, but not One Place: the value is the maintained real-estate corpus, crawler fleet, AI extraction, deduplication, image/semantic search, geo enrichment, and constant source upkeep across millions of listings.",
+  "reportedReplacements": 20
+}

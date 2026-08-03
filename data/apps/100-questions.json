@@ -1,0 +1,45 @@
+{
+  "slug": "100-questions",
+  "name": "100 Questions",
+  "domain": "100-questions.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "A personal CLI that asks the same questions across four model APIs and compares the answers is weekend-buildable, but matching the product's web-grounded runs, source normalization, failure handling, durable evidence, scoring, and polished reports takes substantially more work.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: 100 Questions costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A personal CLI that asks the same questions across four model APIs and compares the answers is weekend-buildable, but matching the product's web-grounded runs, source normalization, failure handling, durable evidence, scoring, and polished reports takes substantially more work.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from 100 Questions",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A personal CLI that asks the same questions across four model APIs and compares the answers is weekend-buildable, but matching the product's web-grounded runs, source normalization, failure handling, durable evidence, scoring, and polished reports takes substantially more work.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "ahrefs",
+    "semrush",
+    "surfer-seo"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A personal CLI that asks the same questions across four model APIs and compares the answers is weekend-buildable, but matching the product's web-grounded runs, source normalization, failure handling, durable evidence, scoring, and polished reports takes substantially more work.",
+  "reportedReplacements": 0
+}

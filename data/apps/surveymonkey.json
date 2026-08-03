@@ -1,0 +1,52 @@
+{
+  "slug": "surveymonkey",
+  "name": "SurveyMonkey",
+  "domain": "surveymonkey.com",
+  "category": "forms",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SurveyMonkey, run a structured survey, calculate transparent summaries, and export responses. The hard boundary is panel access, benchmarking, templates, advanced logic, and enterprise governance, plus integrations, deliverability, and workflow depth.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: SurveyMonkey costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SurveyMonkey, run a structured survey, calculate transparent summaries, and export responses. The hard boundary is panel access, benchmarking, templates, advanced logic, and enterprise governance, plus integrations, deliverability, and workflow depth.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from SurveyMonkey",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale",
+    "network-effects"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SurveyMonkey, run a structured survey, calculate transparent summaries, and export responses. The hard boundary is panel access, benchmarking, templates, advanced logic, and enterprise governance, plus integrations, deliverability, and workflow depth.",
+  "priorArt": [
+    {
+      "name": "Formbricks Active open-source survey and experience-management platform. ↗",
+      "url": "https://github.com/formbricks/formbricks",
+      "desc": "Formbricks Active open-source survey and experience-management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fillout",
+    "paperform",
+    "formstack-forms"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SurveyMonkey, run a structured survey, calculate transparent summaries, and export responses. The hard boundary is panel access, benchmarking, templates, advanced logic, and enterprise governance, plus integrations, deliverability, and workflow depth.",
+  "reportedReplacements": 0
+}

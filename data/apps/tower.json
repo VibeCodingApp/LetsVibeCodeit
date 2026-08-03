@@ -1,0 +1,56 @@
+{
+  "slug": "tower",
+  "name": "Tower",
+  "domain": "tower.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "Tower's solo core is compact: build a repository-local Git client assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Tower has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Tower's solo core is compact: build a repository-local Git client assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Tower",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "execution-polish"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Tower's solo core is compact: build a repository-local Git client assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
+  "priorArt": [
+    {
+      "name": "Continue Open-source coding assistant for editors and terminals. ↗",
+      "url": "https://github.com/continuedev/continue",
+      "desc": "Continue Open-source coding assistant for editors and terminals. ↗"
+    },
+    {
+      "name": "Aider Open-source terminal coding agent with repository-aware edits. ↗",
+      "url": "https://github.com/Aider-AI/aider",
+      "desc": "Aider Open-source terminal coding agent with repository-aware edits. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "windsurf",
+    "tabnine",
+    "gitkraken"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Tower's solo core is compact: build a repository-local Git client assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
+  "reportedReplacements": 0
+}

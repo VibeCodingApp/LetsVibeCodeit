@@ -1,0 +1,52 @@
+{
+  "slug": "vistacreate",
+  "name": "VistaCreate",
+  "domain": "vistacreate.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For VistaCreate, adapt reusable social and marketing templates across common formats. The hard boundary is large template and stock library, background tools, team assets, and scheduler, plus editor polish, assets, collaboration, and distribution.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: VistaCreate costs $13/mo ($156/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For VistaCreate, adapt reusable social and marketing templates across common formats. The hard boundary is large template and stock library, background tools, team assets, and scheduler, plus editor polish, assets, collaboration, and distribution.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from VistaCreate",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "content-rights",
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "🎟️ content & rights Ã‚Â· 👥 collaboration Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For VistaCreate, adapt reusable social and marketing templates across common formats. The hard boundary is large template and stock library, background tools, team assets, and scheduler, plus editor polish, assets, collaboration, and distribution.",
+  "priorArt": [
+    {
+      "name": "Penpot Mature open-source collaborative design platform with SVG-native editing. ↗",
+      "url": "https://github.com/penpot/penpot",
+      "desc": "Penpot Mature open-source collaborative design platform with SVG-native editing. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "kittl",
+    "pitch",
+    "visme"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For VistaCreate, adapt reusable social and marketing templates across common formats. The hard boundary is large template and stock library, background tools, team assets, and scheduler, plus editor polish, assets, collaboration, and distribution.",
+  "reportedReplacements": 0
+}

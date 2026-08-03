@@ -1,0 +1,51 @@
+{
+  "slug": "tella",
+  "name": "Tella",
+  "domain": "tella.com",
+  "category": "screen-recording",
+  "subcategory": null,
+  "tagline": "For solo async clips, a recorder plus lightweight trimming and hosted share page can be vibecoded; the paid app wins on design polish and templates.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Tella costs $13/mo ($156/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "For solo async clips, a recorder plus lightweight trimming and hosted share page can be vibecoded; the paid app wins on design polish and templates.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Tella",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "For solo async clips, a recorder plus lightweight trimming and hosted share page can be vibecoded; the paid app wins on design polish and templates.",
+  "priorArt": [
+    {
+      "name": "OBS Studio Can cover the recording layer; a vibecoded clone would add opinionated hosting and layouts ↗",
+      "url": "https://github.com/obsproject/obs-studio",
+      "desc": "OBS Studio Can cover the recording layer; a vibecoded clone would add opinionated hosting and layouts ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "capcut",
+    "granola",
+    "otter-ai"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "For solo async clips, a recorder plus lightweight trimming and hosted share page can be vibecoded; the paid app wins on design polish and templates.",
+  "reportedReplacements": 4
+}

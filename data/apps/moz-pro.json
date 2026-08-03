@@ -1,0 +1,50 @@
+{
+  "slug": "moz-pro",
+  "name": "Moz Pro",
+  "domain": "moz-pro.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Moz Pro, track selected keywords and audit one owned site without recreating Moz's link index. The hard boundary is proprietary link index, keyword data, scoring, education, and campaign history, plus proprietary web index and data acquisition.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Moz Pro costs $49/mo ($588/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Moz Pro, track selected keywords and audit one owned site without recreating Moz's link index. The hard boundary is proprietary link index, keyword data, scoring, education, and campaign history, plus proprietary web index and data acquisition.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Moz Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data"
+  ],
+  "moatNotes": "💎 proprietary data",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Moz Pro, track selected keywords and audit one owned site without recreating Moz's link index. The hard boundary is proprietary link index, keyword data, scoring, education, and campaign history, plus proprietary web index and data acquisition.",
+  "priorArt": [
+    {
+      "name": "SerpBear Open-source search ranking tracker for owned keyword sets. ↗",
+      "url": "https://github.com/towfiqi/serpbear",
+      "desc": "SerpBear Open-source search ranking tracker for owned keyword sets. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "se-ranking",
+    "mangools",
+    "ubersuggest"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Moz Pro, track selected keywords and audit one owned site without recreating Moz's link index. The hard boundary is proprietary link index, keyword data, scoring, education, and campaign history, plus proprietary web index and data acquisition.",
+  "reportedReplacements": 0
+}

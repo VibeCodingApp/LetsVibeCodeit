@@ -1,0 +1,50 @@
+{
+  "slug": "obsidian-sync",
+  "name": "Obsidian Sync",
+  "domain": "obsidian-sync.com",
+  "category": "notes-knowledge",
+  "subcategory": null,
+  "tagline": "If you already accept local Markdown files, syncing folders across devices is a solved problem; the hard part is not the app, it is conflict-free convenience.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Obsidian Sync costs $5/mo ($60/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "If you already accept local Markdown files, syncing folders across devices is a solved problem; the hard part is not the app, it is conflict-free convenience.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Obsidian Sync",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "If you already accept local Markdown files, syncing folders across devices is a solved problem; the hard part is not the app, it is conflict-free convenience.",
+  "priorArt": [
+    {
+      "name": "Syncthing Open-source continuous file synchronization that can replace much of Obsidian Sync for tec ↗",
+      "url": "https://github.com/syncthing/syncthing",
+      "desc": "Syncthing Open-source continuous file synchronization that can replace much of Obsidian Sync for tec ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "readwise-reader",
+    "raindrop-io",
+    "feedly"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "If you already accept local Markdown files, syncing folders across devices is a solved problem; the hard part is not the app, it is conflict-free convenience.",
+  "reportedReplacements": 3
+}

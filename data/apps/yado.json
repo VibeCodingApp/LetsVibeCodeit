@@ -1,0 +1,56 @@
+{
+  "slug": "yado",
+  "name": "Yado",
+  "domain": "yado.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "Claude Code was never built to leave the laptop. A chat interface is easy. A terminal into a remote container, also fine. The pain starts when you want Claude, the container, and the app to forget they're three completely distinct entities and behave as one thing: signing in with one tap, when on paper that can only happen in a terminal. A chat, when underneath it is always a terminal. Infra that's fast and that keeps one person's AI away from everyone else's code. I thought that was weeks of work. It was months.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Yado costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Claude Code was never built to leave the laptop. A chat interface is easy. A terminal into a remote container, also fine. The pain starts when you want Claude, the container, and the app to forget they're three completely distinct entities and behave as one thing: signing in with one tap, when on paper that can only happen in a terminal. A chat, when underneath it is always a terminal. Infra that's fast and that keeps one person's AI away from everyone else's code. I thought that was weeks of work. It was months.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Yado",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Claude Code was never built to leave the laptop. A chat interface is easy. A terminal into a remote container, also fine. The pain starts when you want Claude, the container, and the app to forget they're three completely distinct entities and behave as one thing: signing in with one tap, when on paper that can only happen in a terminal. A chat, when underneath it is always a terminal. Infra that's fast and that keeps one person's AI away from everyone else's code. I thought that was weeks of work. It was months.",
+  "priorArt": [
+    {
+      "name": "Happy MIT mobile and web client for Claude Code, self-hostable, but it remote-controls Claude running on a computer you keep on ↗",
+      "url": "https://github.com/slopus/happy",
+      "desc": "Happy MIT mobile and web client for Claude Code, self-hostable, but it remote-controls Claude running on a computer you keep on ↗"
+    },
+    {
+      "name": "Moshi a polished mobile terminal that drives Claude Code over SSH, freemium rather than open source, and the machine it connects to has to be yours and switched on ↗",
+      "url": "https://getmoshi.app/docs/introduction",
+      "desc": "Moshi a polished mobile terminal that drives Claude Code over SSH, freemium rather than open source, and the machine it connects to has to be yours and switched on ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "cursor",
+    "claude",
+    "replit"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Claude Code was never built to leave the laptop. A chat interface is easy. A terminal into a remote container, also fine. The pain starts when you want Claude, the container, and the app to forget they're three completely distinct entities and behave as one thing: signing in with one tap, when on paper that can only happen in a terminal. A chat, when underneath it is always a terminal. Infra that's fast and that keeps one person's AI away from everyone else's code. I thought that was weeks of work. It was months.",
+  "reportedReplacements": 0
+}

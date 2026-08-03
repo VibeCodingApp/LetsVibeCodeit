@@ -1,0 +1,52 @@
+{
+  "slug": "front",
+  "name": "Front",
+  "domain": "front.com",
+  "category": "customer-support",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Front, operate a shared mailbox with assignments, comments, and simple rules. The hard boundary is email infrastructure, many channels, workflow automation, crm context, and enterprise governance, plus channel integrations and support operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Front costs $29/mo ($348/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Front, operate a shared mailbox with assignments, comments, and simple rules. The hard boundary is email infrastructure, many channels, workflow automation, crm context, and enterprise governance, plus channel integrations and support operations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Front",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Front, operate a shared mailbox with assignments, comments, and simple rules. The hard boundary is email infrastructure, many channels, workflow automation, crm context, and enterprise governance, plus channel integrations and support operations.",
+  "priorArt": [
+    {
+      "name": "Chatwoot Mature open-source customer engagement and shared-inbox platform. ↗",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "desc": "Chatwoot Mature open-source customer engagement and shared-inbox platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "intercom",
+    "zendesk",
+    "help-scout"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Front, operate a shared mailbox with assignments, comments, and simple rules. The hard boundary is email infrastructure, many channels, workflow automation, crm context, and enterprise governance, plus channel integrations and support operations.",
+  "reportedReplacements": 0
+}

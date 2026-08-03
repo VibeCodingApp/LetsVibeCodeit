@@ -1,0 +1,51 @@
+{
+  "slug": "personio",
+  "name": "Personio",
+  "domain": "personio.com",
+  "category": "hr",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Personio, maintain a small employee directory and leave workflow without payroll or recruiting automation. The hard boundary is european hr compliance, payroll, recruiting, workflows, integrations, and support, plus compliance, payroll, and regulated integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Personio has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Personio, maintain a small employee directory and leave workflow without payroll or recruiting automation. The hard boundary is european hr compliance, payroll, recruiting, workflows, integrations, and support, plus compliance, payroll, and regulated integrations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Personio",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "integrations"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Personio, maintain a small employee directory and leave workflow without payroll or recruiting automation. The hard boundary is european hr compliance, payroll, recruiting, workflows, integrations, and support, plus compliance, payroll, and regulated integrations.",
+  "priorArt": [
+    {
+      "name": "Frappe HR Active open-source human-resources and payroll application built on Frappe. ↗",
+      "url": "https://github.com/frappe/hrms",
+      "desc": "Frappe HR Active open-source human-resources and payroll application built on Frappe. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "gusto",
+    "rippling",
+    "deel"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Personio, maintain a small employee directory and leave workflow without payroll or recruiting automation. The hard boundary is european hr compliance, payroll, recruiting, workflows, integrations, and support, plus compliance, payroll, and regulated integrations.",
+  "reportedReplacements": 0
+}

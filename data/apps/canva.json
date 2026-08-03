@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$18/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "You can one-shot a basic photo editor with text overlays, shapes, and image filters using a canvas library. But Canva's moat is the template library (500k+ professionally designed templates), the stock photo/video/audio library, Brand Kit, and the real-time collaboration engine. A simple editor covers 20% of Canva use cases.",
   "coreLoopDIY": "Canvas-based image editor with drag-and-drop shapes, text, and filters",
@@ -39,23 +39,22 @@
     "brand-trust",
     "network-effects"
   ],
-  "moatNotes": "Canva's template marketplace and asset library are network-effect moats — designers upload templates, users buy them",
+  "moatNotes": "🎟️ content & rights Ã‚Â· 👥 collaboration Ã‚Â· 💅 execution polish",
   "whyPeopleStillPay": "Professional templates and stock assets so non-designers can produce marketing-ready graphics instantly",
   "priorArt": [
     {
-      "name": "Polotno Studio",
-      "url": "https://studio.polotno.com",
-      "desc": "Open-source Canva-like editor built on Konva.js"
+      "name": "Penpot Open-source design/prototyping platform; not a Canva clone, but real prior art for browser ↗",
+      "url": "https://github.com/penpot/penpot",
+      "desc": "Penpot Open-source design/prototyping platform; not a Canva clone, but real prior art for browser ↗"
     }
   ],
   "relatedSlugs": [
     "figma",
-    "adobe-express",
-    "piktochart"
+    "whimsical",
+    "adobe-express"
   ],
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "The editor itself is buildable — the content library is the actual product",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 0
 }

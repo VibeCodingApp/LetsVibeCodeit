@@ -1,0 +1,52 @@
+{
+  "slug": "incogni",
+  "name": "Incogni",
+  "domain": "incogni.com",
+  "category": "security",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Incogni, track manual data-removal requests and reminders without impersonating the user or bypassing identity checks. The hard boundary is broker network, legal authorization, repeated removals, support, and operational scale, plus security assurance, infrastructure, and trust.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Incogni costs $14.98/mo ($179.76/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Incogni, track manual data-removal requests and reminders without impersonating the user or bypassing identity checks. The hard boundary is broker network, legal authorization, repeated removals, support, and operational scale, plus security assurance, infrastructure, and trust.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Incogni",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "brand-trust",
+    "compliance-regulation",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🛡️ brand & trust Ã‚Â· 🏛️ compliance & regulation Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Incogni, track manual data-removal requests and reminders without impersonating the user or bypassing identity checks. The hard boundary is broker network, legal authorization, repeated removals, support, and operational scale, plus security assurance, infrastructure, and trust.",
+  "priorArt": [
+    {
+      "name": "Vaultwarden Widely used Bitwarden-compatible self-hosted password server implementation. ↗",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "desc": "Vaultwarden Widely used Bitwarden-compatible self-hosted password server implementation. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "bitwarden",
+    "deleteme",
+    "nordvpn"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Incogni, track manual data-removal requests and reminders without impersonating the user or bypassing identity checks. The hard boundary is broker network, legal authorization, repeated removals, support, and operational scale, plus security assurance, infrastructure, and trust.",
+  "reportedReplacements": 0
+}

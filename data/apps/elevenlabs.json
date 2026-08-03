@@ -38,23 +38,22 @@
   "moatTags": [
     "proprietary-models"
   ],
-  "moatNotes": "Voice quality and emotional range of ElevenLabs models are currently unmatched — your DIY app relies on their API or a worse model",
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🎟️ content & rights",
   "whyPeopleStillPay": "The voice quality and naturalness are substantially better than free alternatives like browser SpeechSynthesis or open-source TTS models",
   "priorArt": [
     {
-      "name": "Coqui TTS",
-      "url": "https://github.com/coqui-ai/TTS",
-      "desc": "Open-source text-to-speech toolkit"
+      "name": "OpenVoice Open-source voice cloning/TTS research implementation; useful prior art but not full SaaS ↗",
+      "url": "https://github.com/myshell-ai/OpenVoice",
+      "desc": "OpenVoice Open-source voice cloning/TTS research implementation; useful prior art but not full SaaS ↗"
     }
   ],
   "relatedSlugs": [
-    "murf",
-    "wellsaid",
-    "play-ht"
+    "chatgpt",
+    "claude",
+    "perplexity"
   ],
   "pagePriority": 3,
   "verifiedOneShot": true,
   "notes": "The simplest app on the list. A TTS wrapper is basically a form + audio player. The voice quality is the only differentiator.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 2
 }

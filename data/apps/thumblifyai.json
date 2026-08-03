@@ -1,0 +1,45 @@
+{
+  "slug": "thumblifyai",
+  "name": "ThumblifyAI",
+  "domain": "thumblifyai.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "A basic AI thumbnail generator can be built quickly using existing image models, but recreating ThumblifyAI requires much more than connecting an image API. The product's advantage comes from specialized thumbnail-focused system prompts, AI workflows, creator-focused features, thumbnail inspiration, style matching, AI customization features, and continuous iteration around generating clickable YouTube thumbnails.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: ThumblifyAI costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A basic AI thumbnail generator can be built quickly using existing image models, but recreating ThumblifyAI requires much more than connecting an image API. The product's advantage comes from specialized thumbnail-focused system prompts, AI workflows, creator-focused features, thumbnail inspiration, style matching, AI customization features, and continuous iteration around generating clickable YouTube thumbnails.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from ThumblifyAI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-models"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models",
+  "whyPeopleStillPay": "A basic AI thumbnail generator can be built quickly using existing image models, but recreating ThumblifyAI requires much more than connecting an image API. The product's advantage comes from specialized thumbnail-focused system prompts, AI workflows, creator-focused features, thumbnail inspiration, style matching, AI customization features, and continuous iteration around generating clickable YouTube thumbnails.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "sleek",
+    "canva",
+    "figma"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A basic AI thumbnail generator can be built quickly using existing image models, but recreating ThumblifyAI requires much more than connecting an image API. The product's advantage comes from specialized thumbnail-focused system prompts, AI workflows, creator-focused features, thumbnail inspiration, style matching, AI customization features, and continuous iteration around generating clickable YouTube thumbnails.",
+  "reportedReplacements": 0
+}

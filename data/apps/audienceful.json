@@ -1,0 +1,56 @@
+{
+  "slug": "audienceful",
+  "name": "Audienceful",
+  "domain": "audienceful.com",
+  "category": "newsletters",
+  "subcategory": null,
+  "tagline": "The visible newsletter + CRM loop is buildable, but a credible replacement needs more than the first screen. Audienceful earns its keep through deliverability, reputation, network, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Audienceful has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible newsletter + CRM loop is buildable, but a credible replacement needs more than the first screen. Audienceful earns its keep through deliverability, reputation, network, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Audienceful",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "network-effects"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "The visible newsletter + CRM loop is buildable, but a credible replacement needs more than the first screen. Audienceful earns its keep through deliverability, reputation, network, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "listmonk High-performance self-hosted newsletter and mailing-list manager. ↗",
+      "url": "https://github.com/knadh/listmonk",
+      "desc": "listmonk High-performance self-hosted newsletter and mailing-list manager. ↗"
+    },
+    {
+      "name": "Mautic Open-source marketing automation platform. ↗",
+      "url": "https://github.com/mautic/mautic",
+      "desc": "Mautic Open-source marketing automation platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "feedblitz",
+    "sendfox",
+    "letterdrop"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible newsletter + CRM loop is buildable, but a credible replacement needs more than the first screen. Audienceful earns its keep through deliverability, reputation, network, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start -p 8095",
     "lint": "next lint",
-    "check:loc": "node scripts/check-loc.mjs"
+    "check:loc": "node scripts/check-loc.mjs",
+    "sync:vibelist": "node scripts/sync-vibelist.mjs D:/Work/vibelist/apps data/apps"
   },
   "dependencies": {
     "next": "^14.2.0",

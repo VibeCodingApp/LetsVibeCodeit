@@ -1,0 +1,52 @@
+{
+  "slug": "shortwave",
+  "name": "Shortwave",
+  "domain": "shortwave.com",
+  "category": "email",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Shortwave, group Gmail conversations, add bundles and todos, and index mail locally. The hard boundary is deep gmail semantics, cloud search, ai, team features, and mobile sync, plus mail infrastructure, integrations, and client polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Shortwave costs $8.5/mo ($102/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Shortwave, group Gmail conversations, add bundles and todos, and index mail locally. The hard boundary is deep gmail semantics, cloud search, ai, team features, and mobile sync, plus mail infrastructure, integrations, and client polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Shortwave",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Shortwave, group Gmail conversations, add bundles and todos, and index mail locally. The hard boundary is deep gmail semantics, cloud search, ai, team features, and mobile sync, plus mail infrastructure, integrations, and client polish.",
+  "priorArt": [
+    {
+      "name": "mailcow Popular open-source mail-server suite that demonstrates the operational complexity of hosted mail. ↗",
+      "url": "https://github.com/mailcow/mailcow-dockerized",
+      "desc": "mailcow Popular open-source mail-server suite that demonstrates the operational complexity of hosted mail. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "superhuman",
+    "front",
+    "fastmail"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Shortwave, group Gmail conversations, add bundles and todos, and index mail locally. The hard boundary is deep gmail semantics, cloud search, ai, team features, and mobile sync, plus mail infrastructure, integrations, and client polish.",
+  "reportedReplacements": 0
+}

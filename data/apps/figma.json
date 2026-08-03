@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "no",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "You cannot one-shot a collaborative vector editor with multiplayer, component variants, auto-layout, and a plugin ecosystem. The rendering engine alone is years of work.",
   "coreLoopDIY": "Single-user vector canvas",
@@ -39,23 +39,27 @@
     "network-effects",
     "execution-polish"
   ],
-  "moatNotes": "Figma's canvas rendering and multiplayer are genuinely world-class engineering",
+  "moatNotes": "👥 collaboration Ã‚Â· 🕸️ network effects Ã‚Â· 💅 execution polish",
   "whyPeopleStillPay": "Nothing comes close for professional collaborative design",
   "priorArt": [
     {
-      "name": "Penpot",
-      "url": "https://penpot.app",
-      "desc": "Open-source design tool"
+      "name": "Penpot open-source design tool — the serious alternative ↗",
+      "url": "https://github.com/penpot/penpot",
+      "desc": "Penpot open-source design tool — the serious alternative ↗"
+    },
+    {
+      "name": "Excalidraw collaborative whiteboard, open source ↗",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "desc": "Excalidraw collaborative whiteboard, open source ↗"
     }
   ],
   "relatedSlugs": [
-    "sketch",
-    "adobe-xd",
-    "canva"
+    "whimsical",
+    "adobe-express",
+    "midjourney"
   ],
   "pagePriority": 4,
   "verifiedOneShot": false,
   "notes": "Replacing Figma is a full startup, not a side project",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 0
 }

@@ -1,0 +1,56 @@
+{
+  "slug": "vimeo",
+  "name": "Vimeo",
+  "domain": "vimeo.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Vimeo costs $41/mo ($492/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Vimeo",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "PeerTube Mature self-hosted video platform with transcoding, playlists, and federation. Heavier than a personal host, and the closest full replacement that exists. ↗",
+      "url": "https://github.com/Chocobozzz/PeerTube",
+      "desc": "PeerTube Mature self-hosted video platform with transcoding, playlists, and federation. Heavier than a personal host, and the closest full replacement that exists. ↗"
+    },
+    {
+      "name": "Owncast Self-hosted live streaming with chat, covering the one part of Vimeo a static file host cannot. ↗",
+      "url": "https://github.com/owncast/owncast",
+      "desc": "Owncast Self-hosted live streaming with chat, covering the one part of Vimeo a static file host cannot. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "loom",
+    "frame-io",
+    "descript"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 0
+}

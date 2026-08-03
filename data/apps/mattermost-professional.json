@@ -1,0 +1,51 @@
+{
+  "slug": "mattermost-professional",
+  "name": "Mattermost Professional",
+  "domain": "mattermost-professional.com",
+  "category": "community",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mattermost Professional, self-host team chat with channels, threads, search, and integrations. The hard boundary is managed operations, mobile push, enterprise security, support, and governance, plus network, moderation, and communication infrastructure.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Mattermost Professional costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mattermost Professional, self-host team chat with channels, threads, search, and integrations. The hard boundary is managed operations, mobile push, enterprise security, support, and governance, plus network, moderation, and communication infrastructure.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mattermost Professional",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "collaboration"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mattermost Professional, self-host team chat with channels, threads, search, and integrations. The hard boundary is managed operations, mobile push, enterprise security, support, and governance, plus network, moderation, and communication infrastructure.",
+  "priorArt": [
+    {
+      "name": "Discourse Mature open-source community discussion platform with strong moderation and search. ↗",
+      "url": "https://github.com/discourse/discourse",
+      "desc": "Discourse Mature open-source community discussion platform with strong moderation and search. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "slack-pro",
+    "discord-nitro",
+    "circle"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mattermost Professional, self-host team chat with channels, threads, search, and integrations. The hard boundary is managed operations, mobile push, enterprise security, support, and governance, plus network, moderation, and communication infrastructure.",
+  "reportedReplacements": 0
+}

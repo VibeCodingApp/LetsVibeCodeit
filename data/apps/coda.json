@@ -1,0 +1,52 @@
+{
+  "slug": "coda",
+  "name": "Coda",
+  "domain": "coda.com",
+  "category": "docs-databases",
+  "subcategory": null,
+  "tagline": "A doc with tables and buttons is buildable; Coda's editor, formula engine, packs/integrations, permissions, and team workflows make full parity difficult.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Coda costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A doc with tables and buttons is buildable; Coda's editor, formula engine, packs/integrations, permissions, and team workflows make full parity difficult.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Coda",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A doc with tables and buttons is buildable; Coda's editor, formula engine, packs/integrations, permissions, and team workflows make full parity difficult.",
+  "priorArt": [
+    {
+      "name": "AFFiNE Open-source workspace with docs, whiteboard, and knowledge-base features; partial Coda-lik ↗",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "desc": "AFFiNE Open-source workspace with docs, whiteboard, and knowledge-base features; partial Coda-lik ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "tally",
+    "typeform",
+    "jotform"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A doc with tables and buttons is buildable; Coda's editor, formula engine, packs/integrations, permissions, and team workflows make full parity difficult.",
+  "reportedReplacements": 0
+}

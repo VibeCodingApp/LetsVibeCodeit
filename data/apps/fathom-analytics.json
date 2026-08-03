@@ -1,0 +1,51 @@
+{
+  "slug": "fathom-analytics",
+  "name": "Fathom Analytics",
+  "domain": "fathom-analytics.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "A simple privacy analytics clone is very buildable; the paid service is hosted compliance posture, uptime, data retention, and polished reporting.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Fathom Analytics costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A simple privacy analytics clone is very buildable; the paid service is hosted compliance posture, uptime, data retention, and polished reporting.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Fathom Analytics",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "brand-trust"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🛡️ brand & trust",
+  "whyPeopleStillPay": "A simple privacy analytics clone is very buildable; the paid service is hosted compliance posture, uptime, data retention, and polished reporting.",
+  "priorArt": [
+    {
+      "name": "Umami Open-source privacy-focused analytics platform and practical DIY alternative. ↗",
+      "url": "https://github.com/umami-software/umami",
+      "desc": "Umami Open-source privacy-focused analytics platform and practical DIY alternative. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "simple-analytics",
+    "umami-cloud",
+    "squarespace"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A simple privacy analytics clone is very buildable; the paid service is hosted compliance posture, uptime, data retention, and polished reporting.",
+  "reportedReplacements": 0
+}

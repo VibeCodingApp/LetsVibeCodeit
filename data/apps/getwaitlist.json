@@ -1,0 +1,45 @@
+{
+  "slug": "getwaitlist",
+  "name": "GetWaitlist",
+  "domain": "getwaitlist.com",
+  "category": "waitlists",
+  "subcategory": null,
+  "tagline": "Email capture with a referral counter. This site's waitlist was built exactly this way — it took one prompt.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: GetWaitlist / LaunchList costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Email capture with a referral counter. This site's waitlist was built exactly this way — it took one prompt.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from GetWaitlist",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "Email capture with a referral counter. This site's waitlist was built exactly this way — it took one prompt.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "granola",
+    "wispr-flow",
+    "testimonial-to"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Email capture with a referral counter. This site's waitlist was built exactly this way — it took one prompt.",
+  "reportedReplacements": 0
+}

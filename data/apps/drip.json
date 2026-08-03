@@ -1,0 +1,51 @@
+{
+  "slug": "drip",
+  "name": "Drip",
+  "domain": "drip.com",
+  "category": "newsletters",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Drip, send event-triggered ecommerce email from a small user-owned event stream. The hard boundary is commerce integrations, identity resolution, deliverability, segmentation, and revenue analytics, plus deliverability, growth network, and integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Drip costs $39/mo ($468/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Drip, send event-triggered ecommerce email from a small user-owned event stream. The hard boundary is commerce integrations, identity resolution, deliverability, segmentation, and revenue analytics, plus deliverability, growth network, and integrations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Drip",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Drip, send event-triggered ecommerce email from a small user-owned event stream. The hard boundary is commerce integrations, identity resolution, deliverability, segmentation, and revenue analytics, plus deliverability, growth network, and integrations.",
+  "priorArt": [
+    {
+      "name": "Listmonk Mature open-source newsletter and mailing-list manager. ↗",
+      "url": "https://github.com/knadh/listmonk",
+      "desc": "Listmonk Mature open-source newsletter and mailing-list manager. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "substack",
+    "mailerlite",
+    "activecampaign"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Drip, send event-triggered ecommerce email from a small user-owned event stream. The hard boundary is commerce integrations, identity resolution, deliverability, segmentation, and revenue analytics, plus deliverability, growth network, and integrations.",
+  "reportedReplacements": 0
+}

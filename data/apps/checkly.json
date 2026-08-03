@@ -1,0 +1,51 @@
+{
+  "slug": "checkly",
+  "name": "Checkly",
+  "domain": "checkly.com",
+  "category": "monitoring",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Checkly, run scheduled API and browser checks from one independent worker. The hard boundary is global browser fleet, playwright operations, alerting, ci integration, and support, plus independent infrastructure and reliable alerting.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Checkly costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Checkly, run scheduled API and browser checks from one independent worker. The hard boundary is global browser fleet, playwright operations, alerting, ci integration, and support, plus independent infrastructure and reliable alerting.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Checkly",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Checkly, run scheduled API and browser checks from one independent worker. The hard boundary is global browser fleet, playwright operations, alerting, ci integration, and support, plus independent infrastructure and reliable alerting.",
+  "priorArt": [
+    {
+      "name": "Uptime Kuma Popular open-source uptime monitoring dashboard with many check types. ↗",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "desc": "Uptime Kuma Popular open-source uptime monitoring dashboard with many check types. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sentry",
+    "uptime",
+    "datadog"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Checkly, run scheduled API and browser checks from one independent worker. The hard boundary is global browser fleet, playwright operations, alerting, ci integration, and support, plus independent infrastructure and reliable alerting.",
+  "reportedReplacements": 0
+}

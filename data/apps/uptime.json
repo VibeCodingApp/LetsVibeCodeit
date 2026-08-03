@@ -1,0 +1,51 @@
+{
+  "slug": "uptime",
+  "name": "Better Stack",
+  "domain": "betterstack.com",
+  "category": "uptime",
+  "subcategory": null,
+  "tagline": "A cron loop, a fetch, an alert webhook, and a status page. The $30/mo is for the dashboard gloss.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Better Stack / UptimeRobot paid costs $30/mo ($360/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A cron loop, a fetch, an alert webhook, and a status page. The $30/mo is for the dashboard gloss.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Better Stack",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A cron loop, a fetch, an alert webhook, and a status page. The $30/mo is for the dashboard gloss.",
+  "priorArt": [
+    {
+      "name": "Uptime Kuma beloved self-hosted uptime monitor ↗",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "desc": "Uptime Kuma beloved self-hosted uptime monitor ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "granola",
+    "wispr-flow",
+    "testimonial-to"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A cron loop, a fetch, an alert webhook, and a status page. The $30/mo is for the dashboard gloss.",
+  "reportedReplacements": 0
+}

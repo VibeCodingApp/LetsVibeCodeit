@@ -35,22 +35,22 @@
   "moatTags": [
     "execution-polish"
   ],
-  "moatNotes": null,
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
   "whyPeopleStillPay": "Convenience and analytics for professional Twitter creators",
   "priorArt": [
     {
-      "name": "Hypefury",
-      "url": "https://hypefury.com",
-      "desc": "Similar Twitter growth tool"
+      "name": "Postiz Open-source social scheduling prior art; can be adapted for thread workflows. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Open-source social scheduling prior art; can be adapted for thread workflows. ↗"
     }
   ],
   "relatedSlugs": [
-    "hypefury",
-    "tweet-hunter"
+    "beehiiv",
+    "kit",
+    "mailchimp"
   ],
   "pagePriority": 3,
   "verifiedOneShot": true,
   "notes": "Surprisingly easy to build. The thread visualization is the hardest part.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 2
 }

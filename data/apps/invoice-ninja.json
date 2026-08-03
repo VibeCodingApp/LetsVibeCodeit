@@ -1,0 +1,51 @@
+{
+  "slug": "invoice-ninja",
+  "name": "Invoice Ninja",
+  "domain": "invoice-ninja.com",
+  "category": "finance-accounting",
+  "subcategory": null,
+  "tagline": "Invoice Ninja is open source, so the hosted subscription can be replaced by self-hosting if you can handle ops, updates, payment config, and backups.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Invoice Ninja costs $14/mo ($168/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Invoice Ninja is open source, so the hosted subscription can be replaced by self-hosting if you can handle ops, updates, payment config, and backups.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Invoice Ninja",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Invoice Ninja is open source, so the hosted subscription can be replaced by self-hosting if you can handle ops, updates, payment config, and backups.",
+  "priorArt": [
+    {
+      "name": "Invoice Ninja The product's own open-source invoicing platform. ↗",
+      "url": "https://github.com/invoiceninja/invoiceninja",
+      "desc": "Invoice Ninja The product's own open-source invoicing platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ynab",
+    "monarch-money",
+    "copilot-money"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Invoice Ninja is open source, so the hosted subscription can be replaced by self-hosting if you can handle ops, updates, payment config, and backups.",
+  "reportedReplacements": 7
+}

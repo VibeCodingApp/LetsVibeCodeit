@@ -1,0 +1,52 @@
+{
+  "slug": "feedly",
+  "name": "Feedly",
+  "domain": "feedly.com",
+  "category": "rss-research",
+  "subcategory": null,
+  "tagline": "Core RSS reading, folders, search, and saved articles are very buildable; Feedly's paid moat is polished feed discovery, mobile, AI features, and reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Feedly costs $7/mo ($84/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Core RSS reading, folders, search, and saved articles are very buildable; Feedly's paid moat is polished feed discovery, mobile, AI features, and reliability.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Feedly",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "Core RSS reading, folders, search, and saved articles are very buildable; Feedly's paid moat is polished feed discovery, mobile, AI features, and reliability.",
+  "priorArt": [
+    {
+      "name": "FreshRSS Mature self-hosted RSS aggregator and reader. ↗",
+      "url": "https://github.com/FreshRSS/FreshRSS",
+      "desc": "FreshRSS Mature self-hosted RSS aggregator and reader. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "inoreader",
+    "todoist",
+    "sunsama"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Core RSS reading, folders, search, and saved articles are very buildable; Feedly's paid moat is polished feed discovery, mobile, AI features, and reliability.",
+  "reportedReplacements": 0
+}

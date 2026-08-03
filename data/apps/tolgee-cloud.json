@@ -1,0 +1,52 @@
+{
+  "slug": "tolgee-cloud",
+  "name": "Tolgee Cloud",
+  "domain": "tolgee-cloud.com",
+  "category": "localization",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Tolgee Cloud, use a managed localization workspace instead of operating the open-source stack. The hard boundary is managed hosting, backups, collaboration, machine translation, and support, plus translation memory, collaboration, and deployment integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Tolgee Cloud costs $25/mo ($300/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Tolgee Cloud, use a managed localization workspace instead of operating the open-source stack. The hard boundary is managed hosting, backups, collaboration, machine translation, and support, plus translation memory, collaboration, and deployment integrations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Tolgee Cloud",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "collaboration",
+    "integrations"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 👥 collaboration Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Tolgee Cloud, use a managed localization workspace instead of operating the open-source stack. The hard boundary is managed hosting, backups, collaboration, machine translation, and support, plus translation memory, collaboration, and deployment integrations.",
+  "priorArt": [
+    {
+      "name": "Tolgee Active open-source localization platform with translation memory and in-context tooling. ↗",
+      "url": "https://github.com/tolgee/tolgee-platform",
+      "desc": "Tolgee Active open-source localization platform with translation memory and in-context tooling. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "lokalise",
+    "crowdin",
+    "weglot"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Tolgee Cloud, use a managed localization workspace instead of operating the open-source stack. The hard boundary is managed hosting, backups, collaboration, machine translation, and support, plus translation memory, collaboration, and deployment integrations.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "photopea-premium",
+  "name": "Photopea Premium",
+  "domain": "photopea-premium.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "Photopea Premium's solo core is compact: build a focused local browser image editor editor with import, a small set of transformations, undo, and standards-based export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on editor polish, assets, algorithms.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Photopea Premium costs $5/mo ($60/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Photopea Premium's solo core is compact: build a focused local browser image editor editor with import, a small set of transformations, undo, and standards-based export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on editor polish, assets, algorithms.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Photopea Premium",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "Photopea Premium's solo core is compact: build a focused local browser image editor editor with import, a small set of transformations, undo, and standards-based export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on editor polish, assets, algorithms.",
+  "priorArt": [
+    {
+      "name": "Penpot Open-source collaborative design and prototyping platform. ↗",
+      "url": "https://github.com/penpot/penpot",
+      "desc": "Penpot Open-source collaborative design and prototyping platform. ↗"
+    },
+    {
+      "name": "PhotoPrism Self-hosted photo organization and search. ↗",
+      "url": "https://github.com/photoprism/photoprism",
+      "desc": "PhotoPrism Self-hosted photo organization and search. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "luminar-neo",
+    "capture-one",
+    "linearity-curve"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Photopea Premium's solo core is compact: build a focused local browser image editor editor with import, a small set of transformations, undo, and standards-based export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on editor polish, assets, algorithms.",
+  "reportedReplacements": 0
+}

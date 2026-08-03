@@ -1,0 +1,51 @@
+{
+  "slug": "whimsical",
+  "name": "Whimsical",
+  "domain": "whimsical.com",
+  "category": "diagrams",
+  "subcategory": null,
+  "tagline": "A constrained diagramming tool with nodes, connectors, sticky notes, and export is a very vibecodable core loop; polish and collaboration are what you lose.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Whimsical costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A constrained diagramming tool with nodes, connectors, sticky notes, and export is a very vibecodable core loop; polish and collaboration are what you lose.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Whimsical",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "A constrained diagramming tool with nodes, connectors, sticky notes, and export is a very vibecodable core loop; polish and collaboration are what you lose.",
+  "priorArt": [
+    {
+      "name": "Excalidraw Open-source virtual whiteboard with diagramming, shapes, collaboration options, and export ↗",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "desc": "Excalidraw Open-source virtual whiteboard with diagramming, shapes, collaboration options, and export ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "adobe-express",
+    "midjourney",
+    "runway"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A constrained diagramming tool with nodes, connectors, sticky notes, and export is a very vibecodable core loop; polish and collaboration are what you lose.",
+  "reportedReplacements": 0
+}

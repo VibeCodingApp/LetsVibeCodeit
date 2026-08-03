@@ -1,0 +1,51 @@
+{
+  "slug": "fathom-hq",
+  "name": "Fathom HQ",
+  "domain": "fathom-hq.com",
+  "category": "finance-accounting",
+  "subcategory": null,
+  "tagline": "A KPI dashboard over accounting exports is buildable, but Fathom's value is accounting integrations, consolidation, forecasting, polished board reports, and accountant workflows.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Fathom HQ costs $53/mo ($636/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A KPI dashboard over accounting exports is buildable, but Fathom's value is accounting integrations, consolidation, forecasting, polished board reports, and accountant workflows.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Fathom HQ",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A KPI dashboard over accounting exports is buildable, but Fathom's value is accounting integrations, consolidation, forecasting, polished board reports, and accountant workflows.",
+  "priorArt": [
+    {
+      "name": "Metabase Open-source BI/dashboard platform that can power custom KPI dashboards. ↗",
+      "url": "https://github.com/metabase/metabase",
+      "desc": "Metabase Open-source BI/dashboard platform that can power custom KPI dashboards. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "ahrefs",
+    "semrush",
+    "surfer-seo"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A KPI dashboard over accounting exports is buildable, but Fathom's value is accounting integrations, consolidation, forecasting, polished board reports, and accountant workflows.",
+  "reportedReplacements": 0
+}

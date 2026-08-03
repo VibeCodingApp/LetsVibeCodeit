@@ -1,0 +1,60 @@
+{
+  "slug": "sleek",
+  "name": "Sleek",
+  "domain": "sleek.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Sleek costs $24.99/mo ($299.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Sleek",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "dom-to-figma MIT converter turning a DOM tree into editable Figma layers on paste; Sleek's own team ships it and the README says it runs in production there ↗",
+      "url": "https://github.com/figitdesign/web-to-figma",
+      "desc": "dom-to-figma MIT converter turning a DOM tree into editable Figma layers on paste; Sleek's own team ships it and the README says it runs in production there ↗"
+    },
+    {
+      "name": "Penpot open-source design tool where a multi-screen mobile file stays editable, if you want layers rather than a folder of PNGs ↗",
+      "url": "https://github.com/penpot/penpot",
+      "desc": "Penpot open-source design tool where a multi-screen mobile file stays editable, if you want layers rather than a folder of PNGs ↗"
+    },
+    {
+      "name": "Onlook Apache-2.0 visual editor for React codebases, the nearest thing to click-to-edit; web-focused, and the hosted product is now waitlisted ↗",
+      "url": "https://github.com/onlook-dev/onlook",
+      "desc": "Onlook Apache-2.0 visual editor for React codebases, the nearest thing to click-to-edit; web-focused, and the hosted product is now waitlisted ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "figma",
+    "canva",
+    "gamma"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 50
+}

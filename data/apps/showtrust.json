@@ -1,0 +1,44 @@
+{
+  "slug": "showtrust",
+  "name": "ShowTrust",
+  "domain": "showtrust.com",
+  "category": "testimonials",
+  "subcategory": null,
+  "tagline": "A submission form, an approval queue, and a grid of cards you can embed elsewhere. There is no algorithm here and no network effect · an agent will produce a working version in one sitting, same as it will for the $25 and $29 tools in this category. The catch is the same one Eloqra has: the hosted version is free for a single site, with no cap on testimonials, so you'd be spending a weekend and a hosting bill to replace zero dollars. Worth building if you want the data on your own box or you enjoy the exercise. Not worth building to save money, because there isn't any to save.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: ShowTrust costs $4.99/mo ($59.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A submission form, an approval queue, and a grid of cards you can embed elsewhere. There is no algorithm here and no network effect · an agent will produce a working version in one sitting, same as it will for the $25 and $29 tools in this category. The catch is the same one Eloqra has: the hosted version is free for a single site, with no cap on testimonials, so you'd be spending a weekend and a hosting bill to replace zero dollars. Worth building if you want the data on your own box or you enjoy the exercise. Not worth building to save money, because there isn't any to save.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from ShowTrust",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "A submission form, an approval queue, and a grid of cards you can embed elsewhere. There is no algorithm here and no network effect · an agent will produce a working version in one sitting, same as it will for the $25 and $29 tools in this category. The catch is the same one Eloqra has: the hosted version is free for a single site, with no cap on testimonials, so you'd be spending a weekend and a hosting bill to replace zero dollars. Worth building if you want the data on your own box or you enjoy the exercise. Not worth building to save money, because there isn't any to save.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "testimonial-to",
+    "proofling",
+    "granola"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A submission form, an approval queue, and a grid of cards you can embed elsewhere. There is no algorithm here and no network effect · an agent will produce a working version in one sitting, same as it will for the $25 and $29 tools in this category. The catch is the same one Eloqra has: the hosted version is free for a single site, with no cap on testimonials, so you'd be spending a weekend and a hosting bill to replace zero dollars. Worth building if you want the data on your own box or you enjoy the exercise. Not worth building to save money, because there isn't any to save.",
+  "reportedReplacements": 0
+}

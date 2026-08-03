@@ -1,0 +1,51 @@
+{
+  "slug": "appsmith-cloud",
+  "name": "Appsmith Cloud",
+  "domain": "appsmith-cloud.com",
+  "category": "no-code-apps",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Appsmith Cloud, compose an internal dashboard from a database and a fixed widget library. The hard boundary is connectors, enterprise permissions, workflows, support, and managed hosting, plus connectors, runtime reliability, and governance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Appsmith Cloud costs $40/mo ($480/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Appsmith Cloud, compose an internal dashboard from a database and a fixed widget library. The hard boundary is connectors, enterprise permissions, workflows, support, and managed hosting, plus connectors, runtime reliability, and governance.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Appsmith Cloud",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Appsmith Cloud, compose an internal dashboard from a database and a fixed widget library. The hard boundary is connectors, enterprise permissions, workflows, support, and managed hosting, plus connectors, runtime reliability, and governance.",
+  "priorArt": [
+    {
+      "name": "Appsmith Large open-source low-code platform for internal applications and data sources. ↗",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "desc": "Appsmith Large open-source low-code platform for internal applications and data sources. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "flutterflow",
+    "retool",
+    "weweb"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Appsmith Cloud, compose an internal dashboard from a database and a fixed widget library. The hard boundary is connectors, enterprise permissions, workflows, support, and managed hosting, plus connectors, runtime reliability, and governance.",
+  "reportedReplacements": 0
+}

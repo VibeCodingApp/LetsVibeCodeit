@@ -1,0 +1,51 @@
+{
+  "slug": "adobe-lightroom",
+  "name": "Adobe Lightroom",
+  "domain": "adobe-lightroom.com",
+  "category": "photo-editing",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adobe Lightroom, catalog local photos and apply basic non-destructive adjustments. The hard boundary is adobe raw engine, cloud sync, mobile apps, ai masks, ecosystem, and long-term camera support, plus image pipeline quality, models, and workflow polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Adobe Lightroom costs $11.99/mo ($143.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adobe Lightroom, catalog local photos and apply basic non-destructive adjustments. The hard boundary is adobe raw engine, cloud sync, mobile apps, ai masks, ecosystem, and long-term camera support, plus image pipeline quality, models, and workflow polish.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Adobe Lightroom",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-models"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adobe Lightroom, catalog local photos and apply basic non-destructive adjustments. The hard boundary is adobe raw engine, cloud sync, mobile apps, ai masks, ecosystem, and long-term camera support, plus image pipeline quality, models, and workflow polish.",
+  "priorArt": [
+    {
+      "name": "Immich Active open-source self-hosted photo and video management platform. ↗",
+      "url": "https://github.com/immich-app/immich",
+      "desc": "Immich Active open-source self-hosted photo and video management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "capture-one",
+    "ente-photos",
+    "smugmug"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adobe Lightroom, catalog local photos and apply basic non-destructive adjustments. The hard boundary is adobe raw engine, cloud sync, mobile apps, ai masks, ecosystem, and long-term camera support, plus image pipeline quality, models, and workflow polish.",
+  "reportedReplacements": 2
+}

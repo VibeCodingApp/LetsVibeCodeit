@@ -1,0 +1,51 @@
+{
+  "slug": "zenfolio",
+  "name": "Zenfolio",
+  "domain": "zenfolio.com",
+  "category": "photo-editing",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Zenfolio, publish a portfolio and client galleries with basic downloads. The hard boundary is hosting, templates, proofing, commerce, print labs, and photographer support, plus image pipeline quality, models, and workflow polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Zenfolio costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Zenfolio, publish a portfolio and client galleries with basic downloads. The hard boundary is hosting, templates, proofing, commerce, print labs, and photographer support, plus image pipeline quality, models, and workflow polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Zenfolio",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Zenfolio, publish a portfolio and client galleries with basic downloads. The hard boundary is hosting, templates, proofing, commerce, print labs, and photographer support, plus image pipeline quality, models, and workflow polish.",
+  "priorArt": [
+    {
+      "name": "Immich Active open-source self-hosted photo and video management platform. ↗",
+      "url": "https://github.com/immich-app/immich",
+      "desc": "Immich Active open-source self-hosted photo and video management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "adobe-lightroom",
+    "capture-one",
+    "ente-photos"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Zenfolio, publish a portfolio and client galleries with basic downloads. The hard boundary is hosting, templates, proofing, commerce, print labs, and photographer support, plus image pipeline quality, models, and workflow polish.",
+  "reportedReplacements": 0
+}

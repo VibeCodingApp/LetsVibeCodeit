@@ -1,0 +1,51 @@
+{
+  "slug": "soundtrap",
+  "name": "Soundtrap",
+  "domain": "soundtrap.com",
+  "category": "music-audio",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Soundtrap, record and arrange a simple multitrack song in a browser and export stems. The hard boundary is realtime collaboration, loops, instruments, education workflow, and hosted rendering, plus licensed content, rights, and distribution network.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Soundtrap costs $13.99/mo ($167.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Soundtrap, record and arrange a simple multitrack song in a browser and export stems. The hard boundary is realtime collaboration, loops, instruments, education workflow, and hosted rendering, plus licensed content, rights, and distribution network.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Soundtrap",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "content-rights",
+    "collaboration"
+  ],
+  "moatNotes": "🎟️ content & rights Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Soundtrap, record and arrange a simple multitrack song in a browser and export stems. The hard boundary is realtime collaboration, loops, instruments, education workflow, and hosted rendering, plus licensed content, rights, and distribution network.",
+  "priorArt": [
+    {
+      "name": "Navidrome Active open-source personal music server for legally owned libraries. ↗",
+      "url": "https://github.com/navidrome/navidrome",
+      "desc": "Navidrome Active open-source personal music server for legally owned libraries. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "spotify-premium",
+    "apple-music",
+    "youtube-music-premium"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Soundtrap, record and arrange a simple multitrack song in a browser and export stems. The hard boundary is realtime collaboration, loops, instruments, education workflow, and hosted rendering, plus licensed content, rights, and distribution network.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "rezi",
+  "name": "Rezi",
+  "domain": "rezi.com",
+  "category": "career",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Rezi, build ATS-friendly resume variants from a verified evidence bank and export PDF. The hard boundary is templates, scoring, ai workflow, document rendering, and hosted convenience, plus data, distribution, and coaching.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Rezi costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Rezi, build ATS-friendly resume variants from a verified evidence bank and export PDF. The hard boundary is templates, scoring, ai workflow, document rendering, and hosted convenience, plus data, distribution, and coaching.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Rezi",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-data",
+    "content-rights"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 💎 proprietary data Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Rezi, build ATS-friendly resume variants from a verified evidence bank and export PDF. The hard boundary is templates, scoring, ai workflow, document rendering, and hosted convenience, plus data, distribution, and coaching.",
+  "priorArt": [
+    {
+      "name": "Reactive Resume Active open-source resume builder with structured data and PDF export. ↗",
+      "url": "https://github.com/AmruthPillai/Reactive-Resume",
+      "desc": "Reactive Resume Active open-source resume builder with structured data and PDF export. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "teal-plus",
+    "jobscan",
+    "huntr"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Rezi, build ATS-friendly resume variants from a verified evidence bank and export PDF. The hard boundary is templates, scoring, ai workflow, document rendering, and hosted convenience, plus data, distribution, and coaching.",
+  "reportedReplacements": 0
+}

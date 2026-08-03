@@ -1,0 +1,52 @@
+{
+  "slug": "less-annoying-crm",
+  "name": "Less Annoying CRM",
+  "domain": "less-annoying-crm.com",
+  "category": "crm",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Less Annoying CRM, provide contacts, pipelines, tasks, notes, and a straightforward daily agenda. The hard boundary is excellent simplicity, email support, imports, reliability, and low maintenance, plus integrations, data quality, and workflow lock-in.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Less Annoying CRM costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Less Annoying CRM, provide contacts, pipelines, tasks, notes, and a straightforward daily agenda. The hard boundary is excellent simplicity, email support, imports, reliability, and low maintenance, plus integrations, data quality, and workflow lock-in.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Less Annoying CRM",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "switching-costs",
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "⛓️ switching costs Ã‚Â· 💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Less Annoying CRM, provide contacts, pipelines, tasks, notes, and a straightforward daily agenda. The hard boundary is excellent simplicity, email support, imports, reliability, and low maintenance, plus integrations, data quality, and workflow lock-in.",
+  "priorArt": [
+    {
+      "name": "Twenty Active open-source modern CRM with extensible data models. ↗",
+      "url": "https://github.com/twentyhq/twenty",
+      "desc": "Twenty Active open-source modern CRM with extensible data models. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "pipedrive",
+    "close-crm",
+    "attio"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Less Annoying CRM, provide contacts, pipelines, tasks, notes, and a straightforward daily agenda. The hard boundary is excellent simplicity, email support, imports, reliability, and low maintenance, plus integrations, data quality, and workflow lock-in.",
+  "reportedReplacements": 0
+}

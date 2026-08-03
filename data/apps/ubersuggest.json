@@ -1,0 +1,51 @@
+{
+  "slug": "ubersuggest",
+  "name": "Ubersuggest",
+  "domain": "ubersuggest.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Ubersuggest, track a small site and keyword set using user-imported or compliant API data. The hard boundary is proprietary keyword and traffic datasets, content ideas, and browser integrations, plus proprietary web index and data acquisition.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Ubersuggest has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Ubersuggest, track a small site and keyword set using user-imported or compliant API data. The hard boundary is proprietary keyword and traffic datasets, content ideas, and browser integrations, plus proprietary web index and data acquisition.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Ubersuggest",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Ubersuggest, track a small site and keyword set using user-imported or compliant API data. The hard boundary is proprietary keyword and traffic datasets, content ideas, and browser integrations, plus proprietary web index and data acquisition.",
+  "priorArt": [
+    {
+      "name": "SerpBear Open-source search ranking tracker for owned keyword sets. ↗",
+      "url": "https://github.com/towfiqi/serpbear",
+      "desc": "SerpBear Open-source search ranking tracker for owned keyword sets. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "moz-pro",
+    "se-ranking",
+    "mangools"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Ubersuggest, track a small site and keyword set using user-imported or compliant API data. The hard boundary is proprietary keyword and traffic datasets, content ideas, and browser integrations, plus proprietary web index and data acquisition.",
+  "reportedReplacements": 0
+}

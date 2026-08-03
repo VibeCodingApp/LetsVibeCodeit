@@ -1,0 +1,52 @@
+{
+  "slug": "harvest",
+  "name": "Harvest",
+  "domain": "harvest.com",
+  "category": "time-tracking",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Harvest, track project time, turn approved entries into simple invoices, and export reports. The hard boundary is team timesheets, integrations, invoicing, reminders, support, and reliability, plus ubiquitous capture, coaching, and team workflow.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Harvest costs $13.75/mo ($165/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Harvest, track project time, turn approved entries into simple invoices, and export reports. The hard boundary is team timesheets, integrations, invoicing, reminders, support, and reliability, plus ubiquitous capture, coaching, and team workflow.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Harvest",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Harvest, track project time, turn approved entries into simple invoices, and export reports. The hard boundary is team timesheets, integrations, invoicing, reminders, support, and reliability, plus ubiquitous capture, coaching, and team workflow.",
+  "priorArt": [
+    {
+      "name": "Kimai Mature open-source time-tracking application with projects, reports, and exports. ↗",
+      "url": "https://github.com/kimai/kimai",
+      "desc": "Kimai Mature open-source time-tracking application with projects, reports, and exports. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "toggl-track",
+    "clockify",
+    "timely"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Harvest, track project time, turn approved entries into simple invoices, and export reports. The hard boundary is team timesheets, integrations, invoicing, reminders, support, and reliability, plus ubiquitous capture, coaching, and team workflow.",
+  "reportedReplacements": 0
+}

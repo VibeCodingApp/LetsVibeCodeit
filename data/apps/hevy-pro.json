@@ -1,0 +1,52 @@
+{
+  "slug": "hevy-pro",
+  "name": "Hevy Pro",
+  "domain": "hevy-pro.com",
+  "category": "wellness",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Hevy Pro, log workouts and routines locally with neutral progress charts. The hard boundary is mobile apps, social features, watch integration, sync, and polished tracking, plus hardware data, content, coaching, and trust.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Hevy Pro costs $2.99/mo ($35.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Hevy Pro, log workouts and routines locally with neutral progress charts. The hard boundary is mobile apps, social features, watch integration, sync, and polished tracking, plus hardware data, content, coaching, and trust.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Hevy Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "hardware",
+    "network-effects"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔩 hardware Ã‚Â· 🕸️ network effects",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Hevy Pro, log workouts and routines locally with neutral progress charts. The hard boundary is mobile apps, social features, watch integration, sync, and polished tracking, plus hardware data, content, coaching, and trust.",
+  "priorArt": [
+    {
+      "name": "wger Active open-source fitness and workout management application. ↗",
+      "url": "https://github.com/wger-project/wger",
+      "desc": "wger Active open-source fitness and workout management application. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "strava",
+    "myfitnesspal-premium",
+    "macrofactor"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Hevy Pro, log workouts and routines locally with neutral progress charts. The hard boundary is mobile apps, social features, watch integration, sync, and polished tracking, plus hardware data, content, coaching, and trust.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "attio",
+  "name": "Attio",
+  "domain": "attio.com",
+  "category": "crm",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Attio, model contacts and companies flexibly, create views, and manage a pipeline. The hard boundary is real-time data model, enrichment, email sync, automations, and collaborative polish, plus integrations, data quality, and workflow lock-in.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Attio costs $36/mo ($432/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Attio, model contacts and companies flexibly, create views, and manage a pipeline. The hard boundary is real-time data model, enrichment, email sync, automations, and collaborative polish, plus integrations, data quality, and workflow lock-in.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Attio",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "switching-costs",
+    "integrations"
+  ],
+  "moatNotes": "⛓️ switching costs Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Attio, model contacts and companies flexibly, create views, and manage a pipeline. The hard boundary is real-time data model, enrichment, email sync, automations, and collaborative polish, plus integrations, data quality, and workflow lock-in.",
+  "priorArt": [
+    {
+      "name": "Twenty Active open-source modern CRM with extensible data models. ↗",
+      "url": "https://github.com/twentyhq/twenty",
+      "desc": "Twenty Active open-source modern CRM with extensible data models. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "pipedrive",
+    "close-crm",
+    "zoho-crm"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Attio, model contacts and companies flexibly, create views, and manage a pipeline. The hard boundary is real-time data model, enrichment, email sync, automations, and collaborative polish, plus integrations, data quality, and workflow lock-in.",
+  "reportedReplacements": 0
+}

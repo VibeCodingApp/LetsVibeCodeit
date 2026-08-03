@@ -1,0 +1,46 @@
+{
+  "slug": "surfer-seo",
+  "name": "Surfer SEO",
+  "domain": "surfer-seo.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "A SERP-scrape-to-content-brief tool is buildable, but reliable SERP data, NLP scoring, editor workflow, AI articles, audits, and integrations create ongoing work.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Surfer SEO costs $99/mo ($1188/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A SERP-scrape-to-content-brief tool is buildable, but reliable SERP data, NLP scoring, editor workflow, AI articles, audits, and integrations create ongoing work.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Surfer SEO",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A SERP-scrape-to-content-brief tool is buildable, but reliable SERP data, NLP scoring, editor workflow, AI articles, audits, and integrations create ongoing work.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "frase",
+    "quickbooks-online",
+    "xero"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A SERP-scrape-to-content-brief tool is buildable, but reliable SERP data, NLP scoring, editor workflow, AI articles, audits, and integrations create ongoing work.",
+  "reportedReplacements": 1
+}

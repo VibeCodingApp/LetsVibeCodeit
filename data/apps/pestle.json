@@ -1,0 +1,51 @@
+{
+  "slug": "pestle",
+  "name": "Pestle",
+  "domain": "pestle.com",
+  "category": "home",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Pestle, save recipes, guide cooking steps, plan meals, and share a household list. The hard boundary is native apple polish, recipe import, hands-free mode, sync, and family sharing, plus sync, integrations, and household adoption.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Pestle costs $1.99/mo ($23.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Pestle, save recipes, guide cooking steps, plan meals, and share a household list. The hard boundary is native apple polish, recipe import, hands-free mode, sync, and family sharing, plus sync, integrations, and household adoption.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Pestle",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Pestle, save recipes, guide cooking steps, plan meals, and share a household list. The hard boundary is native apple polish, recipe import, hands-free mode, sync, and family sharing, plus sync, integrations, and household adoption.",
+  "priorArt": [
+    {
+      "name": "Mealie Active open-source recipe manager and meal planner for households. ↗",
+      "url": "https://github.com/mealie-recipes/mealie",
+      "desc": "Mealie Active open-source recipe manager and meal planner for households. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "paprika-recipe-manager",
+    "home-assistant-cloud",
+    "cozi-gold"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Pestle, save recipes, guide cooking steps, plan meals, and share a household list. The hard boundary is native apple polish, recipe import, hands-free mode, sync, and family sharing, plus sync, integrations, and household adoption.",
+  "reportedReplacements": 0
+}

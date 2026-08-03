@@ -1,0 +1,51 @@
+{
+  "slug": "newton-mail",
+  "name": "Newton Mail",
+  "domain": "newton-mail.com",
+  "category": "email",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Newton Mail, build a cross-platform email client with read receipts, snooze, and send later. The hard boundary is push infrastructure, provider compatibility, mobile apps, sync, and support, plus mail infrastructure, integrations, and client polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Newton Mail costs $4.17/mo ($50.04/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Newton Mail, build a cross-platform email client with read receipts, snooze, and send later. The hard boundary is push infrastructure, provider compatibility, mobile apps, sync, and support, plus mail infrastructure, integrations, and client polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Newton Mail",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Newton Mail, build a cross-platform email client with read receipts, snooze, and send later. The hard boundary is push infrastructure, provider compatibility, mobile apps, sync, and support, plus mail infrastructure, integrations, and client polish.",
+  "priorArt": [
+    {
+      "name": "mailcow Popular open-source mail-server suite that demonstrates the operational complexity of hosted mail. ↗",
+      "url": "https://github.com/mailcow/mailcow-dockerized",
+      "desc": "mailcow Popular open-source mail-server suite that demonstrates the operational complexity of hosted mail. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "superhuman",
+    "front",
+    "fastmail"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Newton Mail, build a cross-platform email client with read receipts, snooze, and send later. The hard boundary is push infrastructure, provider compatibility, mobile apps, sync, and support, plus mail infrastructure, integrations, and client polish.",
+  "reportedReplacements": 0
+}

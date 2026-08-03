@@ -1,0 +1,51 @@
+{
+  "slug": "later",
+  "name": "Later",
+  "domain": "later.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "A post calendar and queue are buildable, but Later's value is social API access, visual planning, link-in-bio, analytics, media library, and platform compliance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Later costs $25/mo ($300/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A post calendar and queue are buildable, but Later's value is social API access, visual planning, link-in-bio, analytics, media library, and platform compliance.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Later",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A post calendar and queue are buildable, but Later's value is social API access, visual planning, link-in-bio, analytics, media library, and platform compliance.",
+  "priorArt": [
+    {
+      "name": "Postiz Open-source social media scheduler that can cover much of the DIY core. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Open-source social media scheduler that can cover much of the DIY core. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "typefully",
+    "beehiiv",
+    "kit"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A post calendar and queue are buildable, but Later's value is social API access, visual planning, link-in-bio, analytics, media library, and platform compliance.",
+  "reportedReplacements": 1
+}

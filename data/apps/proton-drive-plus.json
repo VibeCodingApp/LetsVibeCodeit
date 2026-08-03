@@ -1,0 +1,51 @@
+{
+  "slug": "proton-drive-plus",
+  "name": "Proton Drive Plus",
+  "domain": "proton-drive-plus.com",
+  "category": "cloud-storage",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Proton Drive Plus, back up files into an encrypted user-owned store and expose simple share links. The hard boundary is end-to-end encryption, proton identity, mobile apps, recovery, and privacy operations, plus reliability, durability, and cross-device sync.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Proton Drive Plus costs $4.99/mo ($59.88/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Proton Drive Plus, back up files into an encrypted user-owned store and expose simple share links. The hard boundary is end-to-end encryption, proton identity, mobile apps, recovery, and privacy operations, plus reliability, durability, and cross-device sync.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Proton Drive Plus",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "brand-trust"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🛡️ brand & trust",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Proton Drive Plus, back up files into an encrypted user-owned store and expose simple share links. The hard boundary is end-to-end encryption, proton identity, mobile apps, recovery, and privacy operations, plus reliability, durability, and cross-device sync.",
+  "priorArt": [
+    {
+      "name": "Nextcloud Mature open-source file sync and collaboration server. ↗",
+      "url": "https://github.com/nextcloud/server",
+      "desc": "Nextcloud Mature open-source file sync and collaboration server. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "dropbox-plus",
+    "google-one",
+    "icloud-plus"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Proton Drive Plus, back up files into an encrypted user-owned store and expose simple share links. The hard boundary is end-to-end encryption, proton identity, mobile apps, recovery, and privacy operations, plus reliability, durability, and cross-device sync.",
+  "reportedReplacements": 0
+}

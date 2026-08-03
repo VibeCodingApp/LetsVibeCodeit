@@ -1,0 +1,51 @@
+{
+  "slug": "craft",
+  "name": "Craft",
+  "domain": "craft.com",
+  "category": "notes-knowledge",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Craft, write visually polished documents, link them, and export a portable personal library. The hard boundary is native apps, sync, publishing, collaboration, and strong block-editor polish, plus sync, collaboration, and capture polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Craft costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Craft, write visually polished documents, link them, and export a portable personal library. The hard boundary is native apps, sync, publishing, collaboration, and strong block-editor polish, plus sync, collaboration, and capture polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Craft",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Craft, write visually polished documents, link them, and export a portable personal library. The hard boundary is native apps, sync, publishing, collaboration, and strong block-editor polish, plus sync, collaboration, and capture polish.",
+  "priorArt": [
+    {
+      "name": "AppFlowy Active open-source workspace with local-first documents and databases. ↗",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "desc": "AppFlowy Active open-source workspace with local-first documents and databases. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "slite",
+    "nuclino",
+    "bear-pro"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Craft, write visually polished documents, link them, and export a portable personal library. The hard boundary is native apps, sync, publishing, collaboration, and strong block-editor polish, plus sync, collaboration, and capture polish.",
+  "reportedReplacements": 0
+}

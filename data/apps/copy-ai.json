@@ -1,0 +1,52 @@
+{
+  "slug": "copy-ai",
+  "name": "Copy.ai",
+  "domain": "copy-ai.com",
+  "category": "ai-writing",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Copy.ai, build repeatable go-to-market drafting workflows from approved company context. The hard boundary is workflow templates, account data, team collaboration, and model routing, plus workflow, data, and model tuning.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Copy.ai has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Copy.ai, build repeatable go-to-market drafting workflows from approved company context. The hard boundary is workflow templates, account data, team collaboration, and model routing, plus workflow, data, and model tuning.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Copy.ai",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-models",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Copy.ai, build repeatable go-to-market drafting workflows from approved company context. The hard boundary is workflow templates, account data, team collaboration, and model routing, plus workflow, data, and model tuning.",
+  "priorArt": [
+    {
+      "name": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗",
+      "url": "https://github.com/open-webui/open-webui",
+      "desc": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "writesonic",
+    "anyword",
+    "jenni-ai"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Copy.ai, build repeatable go-to-market drafting workflows from approved company context. The hard boundary is workflow templates, account data, team collaboration, and model routing, plus workflow, data, and model tuning.",
+  "reportedReplacements": 0
+}

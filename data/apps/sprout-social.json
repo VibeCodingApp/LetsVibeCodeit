@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$249/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "Posting to social media APIs is straightforward — each platform has a publishing API. A content calendar with scheduling, draft management, and a basic analytics dashboard is a weekend project. But Sprout Social's moat is the breadth of platform integrations (10+ networks), the unified inbox for engagement, the AI-powered listening and sentiment analysis, and the enterprise approval workflows.",
   "coreLoopDIY": "Content calendar + multi-platform post scheduling + basic analytics dashboard",
@@ -40,23 +40,27 @@
     "integrations",
     "execution-polish"
   ],
-  "moatNotes": "The breadth of platform integrations and keeping them working through API changes is a full-time maintenance burden",
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration",
   "whyPeopleStillPay": "Enterprise teams need the unified inbox, approval flows, and compliance features that a DIY tool can't offer",
   "priorArt": [
     {
-      "name": "Postiz",
-      "url": "https://postiz.com",
-      "desc": "Open-source social media scheduling tool"
+      "name": "Postiz Open-source social scheduling and publishing platform. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Open-source social scheduling and publishing platform. ↗"
+    },
+    {
+      "name": "Mixpost Self-hosted social media management software. ↗",
+      "url": "https://github.com/inovector/mixpost",
+      "desc": "Mixpost Self-hosted social media management software. ↗"
     }
   ],
   "relatedSlugs": [
-    "buffer",
-    "hootsuite",
-    "later"
+    "socialpilot",
+    "missinglettr",
+    "agorapulse"
   ],
   "pagePriority": 1,
   "verifiedOneShot": false,
   "notes": "Postiz is a solid open-source starting point for social scheduling. The enterprise features are where Sprout wins.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 0
 }

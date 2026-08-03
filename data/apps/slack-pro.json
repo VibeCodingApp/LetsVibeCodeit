@@ -1,0 +1,52 @@
+{
+  "slug": "slack-pro",
+  "name": "Slack Pro",
+  "domain": "slack-pro.com",
+  "category": "community",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Slack Pro, run a small private team chat with channels, threads, files, and search. The hard boundary is existing team network, integrations, push delivery, enterprise controls, and global reliability, plus network, moderation, and communication infrastructure.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Slack Pro costs $8.75/mo ($105/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Slack Pro, run a small private team chat with channels, threads, files, and search. The hard boundary is existing team network, integrations, push delivery, enterprise controls, and global reliability, plus network, moderation, and communication infrastructure.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Slack Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "network-effects",
+    "infrastructure-scale",
+    "integrations"
+  ],
+  "moatNotes": "🕸️ network effects Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Slack Pro, run a small private team chat with channels, threads, files, and search. The hard boundary is existing team network, integrations, push delivery, enterprise controls, and global reliability, plus network, moderation, and communication infrastructure.",
+  "priorArt": [
+    {
+      "name": "Discourse Mature open-source community discussion platform with strong moderation and search. ↗",
+      "url": "https://github.com/discourse/discourse",
+      "desc": "Discourse Mature open-source community discussion platform with strong moderation and search. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "discord-nitro",
+    "circle",
+    "heartbeat-community"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Slack Pro, run a small private team chat with channels, threads, files, and search. The hard boundary is existing team network, integrations, push delivery, enterprise controls, and global reliability, plus network, moderation, and communication infrastructure.",
+  "reportedReplacements": 0
+}

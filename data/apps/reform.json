@@ -1,0 +1,52 @@
+{
+  "slug": "reform",
+  "name": "Reform",
+  "domain": "reform.com",
+  "category": "forms",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Reform, publish a clean branded lead form with routing, notifications, and exports. The hard boundary is polished ux, spam controls, integrations, and reliable hosted delivery, plus integrations, deliverability, and workflow depth.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Reform costs $35/mo ($420/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Reform, publish a clean branded lead form with routing, notifications, and exports. The hard boundary is polished ux, spam controls, integrations, and reliable hosted delivery, plus integrations, deliverability, and workflow depth.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Reform",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Reform, publish a clean branded lead form with routing, notifications, and exports. The hard boundary is polished ux, spam controls, integrations, and reliable hosted delivery, plus integrations, deliverability, and workflow depth.",
+  "priorArt": [
+    {
+      "name": "Formbricks Active open-source survey and experience-management platform. ↗",
+      "url": "https://github.com/formbricks/formbricks",
+      "desc": "Formbricks Active open-source survey and experience-management platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "surveymonkey",
+    "fillout",
+    "paperform"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Reform, publish a clean branded lead form with routing, notifications, and exports. The hard boundary is polished ux, spam controls, integrations, and reliable hosted delivery, plus integrations, deliverability, and workflow depth.",
+  "reportedReplacements": 0
+}

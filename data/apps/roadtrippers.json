@@ -1,0 +1,50 @@
+{
+  "slug": "roadtrippers",
+  "name": "Roadtrippers",
+  "domain": "roadtrippers.com",
+  "category": "travel",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Roadtrippers, map a user-planned road trip with manually entered stops and notes. The hard boundary is proprietary place database, route intelligence, rv data, maps, and mobile navigation, plus proprietary live data and network coverage.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Roadtrippers costs $3/mo ($36/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Roadtrippers, map a user-planned road trip with manually entered stops and notes. The hard boundary is proprietary place database, route intelligence, rv data, maps, and mobile navigation, plus proprietary live data and network coverage.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Roadtrippers",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data"
+  ],
+  "moatNotes": "💎 proprietary data",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Roadtrippers, map a user-planned road trip with manually entered stops and notes. The hard boundary is proprietary place database, route intelligence, rv data, maps, and mobile navigation, plus proprietary live data and network coverage.",
+  "priorArt": [
+    {
+      "name": "Wanderer Open-source self-hosted trail database and route explorer using open map data. ↗",
+      "url": "https://github.com/Flomp/wanderer",
+      "desc": "Wanderer Open-source self-hosted trail database and route explorer using open map data. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "tripit-pro",
+    "wanderlog-pro",
+    "alltrails-plus"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Roadtrippers, map a user-planned road trip with manually entered stops and notes. The hard boundary is proprietary place database, route intelligence, rv data, maps, and mobile navigation, plus proprietary live data and network coverage.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "zendesk",
+  "name": "Zendesk",
+  "domain": "zendesk.com",
+  "category": "customer-support",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Zendesk, operate a small email and web support inbox with tickets and an audit trail. The hard boundary is omnichannel routing, marketplace, workforce tools, reporting, compliance, and support, plus channel integrations and support operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Zendesk costs $69/mo ($828/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Zendesk, operate a small email and web support inbox with tickets and an audit trail. The hard boundary is omnichannel routing, marketplace, workforce tools, reporting, compliance, and support, plus channel integrations and support operations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Zendesk",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Zendesk, operate a small email and web support inbox with tickets and an audit trail. The hard boundary is omnichannel routing, marketplace, workforce tools, reporting, compliance, and support, plus channel integrations and support operations.",
+  "priorArt": [
+    {
+      "name": "Chatwoot Mature open-source customer engagement and shared-inbox platform. ↗",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "desc": "Chatwoot Mature open-source customer engagement and shared-inbox platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "intercom",
+    "help-scout",
+    "gorgias"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Zendesk, operate a small email and web support inbox with tickets and an audit trail. The hard boundary is omnichannel routing, marketplace, workforce tools, reporting, compliance, and support, plus channel integrations and support operations.",
+  "reportedReplacements": 0
+}

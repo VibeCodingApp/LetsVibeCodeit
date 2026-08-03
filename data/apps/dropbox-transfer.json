@@ -1,0 +1,38 @@
+{
+  "slug": "dropbox-transfer",
+  "name": "Dropbox Transfer",
+  "domain": "dropbox-transfer.com",
+  "category": "operations",
+  "subcategory": null,
+  "tagline": "A practical replacement for Dropbox Transfer.",
+  "priceMonthly": 20,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$20–$32/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "Upload files, send one expiring link, move on.",
+  "coreLoopDIY": "",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Dropbox Transfer",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [],
+  "moatNotes": null,
+  "whyPeopleStillPay": null,
+  "priorArt": [],
+  "relatedSlugs": [],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "",
+  "reportedReplacements": 0
+}

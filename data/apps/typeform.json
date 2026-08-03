@@ -36,22 +36,22 @@
   "moatTags": [
     "execution-polish"
   ],
-  "moatNotes": null,
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations Ã‚Â· 🎟️ content & rights",
   "whyPeopleStillPay": "Non-technical teams that need the visual builder and analytics",
   "priorArt": [
     {
-      "name": "Youform",
-      "url": "https://youform.io",
-      "desc": "Typeform alternative"
+      "name": "HeyForm Open-source form builder with surveys and forms; useful prior art for Typeform-like flows. ↗",
+      "url": "https://github.com/heyform/heyform",
+      "desc": "HeyForm Open-source form builder with surveys and forms; useful prior art for Typeform-like flows. ↗"
     }
   ],
   "relatedSlugs": [
-    "tally",
-    "jotform"
+    "jotform",
+    "softr",
+    "glide"
   ],
   "pagePriority": 3,
   "verifiedOneShot": true,
   "notes": "Building a hardcoded form is trivial. Building a form builder that non-technical people can use is harder.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 0
 }

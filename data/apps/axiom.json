@@ -1,0 +1,50 @@
+{
+  "slug": "axiom",
+  "name": "Axiom",
+  "domain": "axiom.com",
+  "category": "monitoring",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Axiom, ingest bounded logs, search them, and retain a compact local event store. The hard boundary is high-performance cloud storage, query engine, integrations, and managed operations, plus independent infrastructure and reliable alerting.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Axiom costs $25/mo ($300/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Axiom, ingest bounded logs, search them, and retain a compact local event store. The hard boundary is high-performance cloud storage, query engine, integrations, and managed operations, plus independent infrastructure and reliable alerting.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Axiom",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Axiom, ingest bounded logs, search them, and retain a compact local event store. The hard boundary is high-performance cloud storage, query engine, integrations, and managed operations, plus independent infrastructure and reliable alerting.",
+  "priorArt": [
+    {
+      "name": "Uptime Kuma Popular open-source uptime monitoring dashboard with many check types. ↗",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "desc": "Uptime Kuma Popular open-source uptime monitoring dashboard with many check types. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sentry",
+    "uptime",
+    "datadog"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Axiom, ingest bounded logs, search them, and retain a compact local event store. The hard boundary is high-performance cloud storage, query engine, integrations, and managed operations, plus independent infrastructure and reliable alerting.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "meetrecord",
+  "name": "MeetRecord",
+  "domain": "meetrecord.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. MeetRecord's durable value is capture, integrations, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: MeetRecord has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. MeetRecord's durable value is capture, integrations, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from MeetRecord",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. MeetRecord's durable value is capture, integrations, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Local speech-to-text engine suitable for private transcription. ↗",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "whisper.cpp Local speech-to-text engine suitable for private transcription. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "macwhisper",
+    "read-ai",
+    "wudpecker"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. MeetRecord's durable value is capture, integrations, reliability, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

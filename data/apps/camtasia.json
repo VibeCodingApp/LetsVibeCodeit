@@ -1,0 +1,51 @@
+{
+  "slug": "camtasia",
+  "name": "Camtasia",
+  "domain": "camtasia.com",
+  "category": "screen-recording",
+  "subcategory": null,
+  "tagline": "Camtasia's solo core is compact: build a local screen recording + editing workflow that imports user-owned media, applies the core edit or transformation, previews it, and exports a standard file. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on media pipeline, hosting, distribution.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Camtasia has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Camtasia's solo core is compact: build a local screen recording + editing workflow that imports user-owned media, applies the core edit or transformation, previews it, and exports a standard file. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on media pipeline, hosting, distribution.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Camtasia",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "Camtasia's solo core is compact: build a local screen recording + editing workflow that imports user-owned media, applies the core edit or transformation, previews it, and exports a standard file. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on media pipeline, hosting, distribution.",
+  "priorArt": [
+    {
+      "name": "Kdenlive Open-source non-linear video editor. ↗",
+      "url": "https://github.com/KDE/kdenlive",
+      "desc": "Kdenlive Open-source non-linear video editor. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "riverside",
+    "zencastr",
+    "screenflow"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Camtasia's solo core is compact: build a local screen recording + editing workflow that imports user-owned media, applies the core edit or transformation, previews it, and exports a standard file. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on media pipeline, hosting, distribution.",
+  "reportedReplacements": 0
+}

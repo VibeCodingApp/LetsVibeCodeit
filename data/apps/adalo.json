@@ -1,0 +1,51 @@
+{
+  "slug": "adalo",
+  "name": "Adalo",
+  "domain": "adalo.com",
+  "category": "no-code-apps",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adalo, build a constrained PWA from a schema and fixed mobile components. The hard boundary is native app builds, app-store workflow, marketplace components, hosting, and support, plus connectors, runtime reliability, and governance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Adalo costs $45/mo ($540/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adalo, build a constrained PWA from a schema and fixed mobile components. The hard boundary is native app builds, app-store workflow, marketplace components, hosting, and support, plus connectors, runtime reliability, and governance.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Adalo",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adalo, build a constrained PWA from a schema and fixed mobile components. The hard boundary is native app builds, app-store workflow, marketplace components, hosting, and support, plus connectors, runtime reliability, and governance.",
+  "priorArt": [
+    {
+      "name": "Appsmith Large open-source low-code platform for internal applications and data sources. ↗",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "desc": "Appsmith Large open-source low-code platform for internal applications and data sources. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "flutterflow",
+    "retool",
+    "weweb"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adalo, build a constrained PWA from a schema and fixed mobile components. The hard boundary is native app builds, app-store workflow, marketplace components, hosting, and support, plus connectors, runtime reliability, and governance.",
+  "reportedReplacements": 0
+}

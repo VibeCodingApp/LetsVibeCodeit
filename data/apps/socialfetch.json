@@ -1,0 +1,51 @@
+{
+  "slug": "socialfetch",
+  "name": "Social Fetch",
+  "domain": "socialfetch.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "A personal TikTok or Instagram profile fetcher with Playwright and SQLite is a one-sitting build. Social Fetch is not that. It is kept-alive scrapers on 20+ platforms, proxy routing, anti-bot handling, a stable response schema, and credit metering. Your DIY script breaks when TikTok changes markup. The API bill is for that not being your problem.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Social Fetch costs $29/mo ($348/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A personal TikTok or Instagram profile fetcher with Playwright and SQLite is a one-sitting build. Social Fetch is not that. It is kept-alive scrapers on 20+ platforms, proxy routing, anti-bot handling, a stable response schema, and credit metering. Your DIY script breaks when TikTok changes markup. The API bill is for that not being your problem.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Social Fetch",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A personal TikTok or Instagram profile fetcher with Playwright and SQLite is a one-sitting build. Social Fetch is not that. It is kept-alive scrapers on 20+ platforms, proxy routing, anti-bot handling, a stable response schema, and credit metering. Your DIY script breaks when TikTok changes markup. The API bill is for that not being your problem.",
+  "priorArt": [
+    {
+      "name": "yt-dlp open-source media/metadata extraction for some",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "desc": "yt-dlp open-source media/metadata extraction for some platforms · not a multi-platform profile API ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "bardeen",
+    "zapier",
+    "n8n-cloud"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A personal TikTok or Instagram profile fetcher with Playwright and SQLite is a one-sitting build. Social Fetch is not that. It is kept-alive scrapers on 20+ platforms, proxy routing, anti-bot handling, a stable response schema, and credit metering. Your DIY script breaks when TikTok changes markup. The API bill is for that not being your problem.",
+  "reportedReplacements": 4
+}

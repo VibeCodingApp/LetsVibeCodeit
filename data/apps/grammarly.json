@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$30/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "A grammar checker that calls an LLM API with a proofreading prompt works well for basic spelling and grammar. You can one-shot a text editor with a 'check grammar' button. But Grammarly's real product is tone detection (confidence, formality, politeness scores), real-time inline suggestions across every text field (browser extension at OS level), and the clarity/engagement rewrites that require sophisticated language models.",
   "coreLoopDIY": "Text editor with AI-powered grammar and style checking via LLM API",
@@ -39,23 +39,22 @@
     "proprietary-models",
     "integrations"
   ],
-  "moatNotes": "Tone detection is a custom NLP pipeline trained on labeled datasets — generic LLM APIs don't provide the same granularity or consistency",
+  "moatNotes": "🔌 integrations Ã‚Â· 🧠 proprietary models Ã‚Â· 💅 execution polish",
   "whyPeopleStillPay": "Real-time corrections in every text field (email, docs, social media) via the browser extension, plus tone guidance that generic AI can't match",
   "priorArt": [
     {
-      "name": "LanguageTool",
-      "url": "https://languagetool.org",
-      "desc": "Open-source grammar and style checker"
+      "name": "LanguageTool Open-source grammar and style checker and the primary Grammarly-like prior art. ↗",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "desc": "LanguageTool Open-source grammar and style checker and the primary Grammarly-like prior art. ↗"
     }
   ],
   "relatedSlugs": [
-    "pro-writing-aid",
-    "hemingway",
-    "quillbot"
+    "languagetool",
+    "canva",
+    "figma"
   ],
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "LanguageTool is a solid open-source alternative. The tone detection is Grammarly's unique selling point.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 0
 }

@@ -1,0 +1,51 @@
+{
+  "slug": "frase",
+  "name": "Frase",
+  "domain": "frase.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "A content-brief generator over SERP pages and an LLM is reachable, but Frase's workflow combines SERP retrieval, scoring, editor UX, AI-search tracking, and reporting.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Frase costs $49/mo ($588/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A content-brief generator over SERP pages and an LLM is reachable, but Frase's workflow combines SERP retrieval, scoring, editor UX, AI-search tracking, and reporting.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Frase",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "execution-polish"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A content-brief generator over SERP pages and an LLM is reachable, but Frase's workflow combines SERP retrieval, scoring, editor UX, AI-search tracking, and reporting.",
+  "priorArt": [
+    {
+      "name": "Danswer/Onyx Open-source enterprise search/answering app; not a Frase clone, but prior art for retrieva ↗",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "desc": "Danswer/Onyx Open-source enterprise search/answering app; not a Frase clone, but prior art for retrieva ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "quickbooks-online",
+    "xero",
+    "freshbooks"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A content-brief generator over SERP pages and an LLM is reachable, but Frase's workflow combines SERP retrieval, scoring, editor UX, AI-search tracking, and reporting.",
+  "reportedReplacements": 0
+}

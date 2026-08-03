@@ -1,0 +1,51 @@
+{
+  "slug": "sembly-ai",
+  "name": "Sembly AI",
+  "domain": "sembly-ai.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sembly AI, transcribe a call and produce structured minutes, tasks, and searchable topics. The hard boundary is meeting bots, team collaboration, automations, and broad integrations, plus capture reliability, integrations, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Sembly AI costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sembly AI, transcribe a call and produce structured minutes, tasks, and searchable topics. The hard boundary is meeting bots, team collaboration, automations, and broad integrations, plus capture reliability, integrations, and collaboration.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Sembly AI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sembly AI, transcribe a call and produce structured minutes, tasks, and searchable topics. The hard boundary is meeting bots, team collaboration, automations, and broad integrations, plus capture reliability, integrations, and collaboration.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Widely used local Whisper inference implementation suitable for private transcription. ↗",
+      "url": "https://github.com/ggerganov/whisper.cpp",
+      "desc": "whisper.cpp Widely used local Whisper inference implementation suitable for private transcription. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fathom-ai",
+    "read-ai",
+    "avoma"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sembly AI, transcribe a call and produce structured minutes, tasks, and searchable topics. The hard boundary is meeting bots, team collaboration, automations, and broad integrations, plus capture reliability, integrations, and collaboration.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "lingq-premium",
+  "name": "LingQ Premium",
+  "domain": "lingq-premium.com",
+  "category": "education",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For LingQ Premium, import permitted text and audio, mark known words, and review vocabulary in context. The hard boundary is content library, import pipeline, multi-device sync, community, tutors, and polish, plus content, pedagogy, and network.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: LingQ Premium costs $14.99/mo ($179.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For LingQ Premium, import permitted text and audio, mark known words, and review vocabulary in context. The hard boundary is content library, import pipeline, multi-device sync, community, tutors, and polish, plus content, pedagogy, and network.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from LingQ Premium",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "content-rights",
+    "network-effects",
+    "execution-polish"
+  ],
+  "moatNotes": "🎟️ content & rights Ã‚Â· 🕸️ network effects Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For LingQ Premium, import permitted text and audio, mark known words, and review vocabulary in context. The hard boundary is content library, import pipeline, multi-device sync, community, tutors, and polish, plus content, pedagogy, and network.",
+  "priorArt": [
+    {
+      "name": "Moodle Long-running open-source learning platform with courses, assessments, and progress tracking. ↗",
+      "url": "https://github.com/moodle/moodle",
+      "desc": "Moodle Long-running open-source learning platform with courses, assessments, and progress tracking. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "duolingo-super",
+    "brilliant",
+    "babbel"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For LingQ Premium, import permitted text and audio, mark known words, and review vocabulary in context. The hard boundary is content library, import pipeline, multi-device sync, community, tutors, and polish, plus content, pedagogy, and network.",
+  "reportedReplacements": 0
+}

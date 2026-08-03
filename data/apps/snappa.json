@@ -1,0 +1,52 @@
+{
+  "slug": "snappa",
+  "name": "Snappa",
+  "domain": "snappa.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Snappa, compose fixed-size social graphics from local images, text, and a small template set. The hard boundary is stock-photo allowance, templates, team sharing, and cloud convenience, plus editor polish, assets, collaboration, and distribution.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Snappa costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Snappa, compose fixed-size social graphics from local images, text, and a small template set. The hard boundary is stock-photo allowance, templates, team sharing, and cloud convenience, plus editor polish, assets, collaboration, and distribution.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Snappa",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "content-rights",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🎟️ content & rights Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Snappa, compose fixed-size social graphics from local images, text, and a small template set. The hard boundary is stock-photo allowance, templates, team sharing, and cloud convenience, plus editor polish, assets, collaboration, and distribution.",
+  "priorArt": [
+    {
+      "name": "Penpot Mature open-source collaborative design platform with SVG-native editing. ↗",
+      "url": "https://github.com/penpot/penpot",
+      "desc": "Penpot Mature open-source collaborative design platform with SVG-native editing. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "kittl",
+    "pitch",
+    "vistacreate"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Snappa, compose fixed-size social graphics from local images, text, and a small template set. The hard boundary is stock-photo allowance, templates, team sharing, and cloud convenience, plus editor polish, assets, collaboration, and distribution.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "outstand",
+  "name": "Outstand",
+  "domain": "outstand.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "Writing your own posting service is a weekend build, and for the networks with open APIs (Bluesky, Mastodon, Telegram) it genuinely is: a queue, a cron tick, one adapter per network, done. The wall is not code. Instagram, TikTok, YouTube, LinkedIn, and Pinterest each require your own developer app and a platform review before they will accept a single post, X meters writes on a paid tier, and then eleven integrations keep changing under you: token refresh, media specs, rate-limit budgets, deprecated endpoints. You can build the API. You cannot one-shot permission to use it.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Outstand costs $19/mo ($228/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Writing your own posting service is a weekend build, and for the networks with open APIs (Bluesky, Mastodon, Telegram) it genuinely is: a queue, a cron tick, one adapter per network, done. The wall is not code. Instagram, TikTok, YouTube, LinkedIn, and Pinterest each require your own developer app and a platform review before they will accept a single post, X meters writes on a paid tier, and then eleven integrations keep changing under you: token refresh, media specs, rate-limit budgets, deprecated endpoints. You can build the API. You cannot one-shot permission to use it.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Outstand",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations"
+  ],
+  "moatNotes": "🔌 integrations",
+  "whyPeopleStillPay": "Writing your own posting service is a weekend build, and for the networks with open APIs (Bluesky, Mastodon, Telegram) it genuinely is: a queue, a cron tick, one adapter per network, done. The wall is not code. Instagram, TikTok, YouTube, LinkedIn, and Pinterest each require your own developer app and a platform review before they will accept a single post, X meters writes on a paid tier, and then eleven integrations keep changing under you: token refresh, media specs, rate-limit budgets, deprecated endpoints. You can build the API. You cannot one-shot permission to use it.",
+  "priorArt": [
+    {
+      "name": "postiz-app AGPL social scheduler with a public API and per-network adapters, self-hostable as a starting point ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "postiz-app AGPL social scheduler with a public API and per-network adapters, self-hostable as a starting point ↗"
+    },
+    {
+      "name": "mixpost self-hosted social publishing app (Laravel) you point your own platform apps at ↗",
+      "url": "https://github.com/inovector/mixpost",
+      "desc": "mixpost self-hosted social publishing app (Laravel) you point your own platform apps at ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "post-bridge",
+    "postiz",
+    "buffer"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Writing your own posting service is a weekend build, and for the networks with open APIs (Bluesky, Mastodon, Telegram) it genuinely is: a queue, a cron tick, one adapter per network, done. The wall is not code. Instagram, TikTok, YouTube, LinkedIn, and Pinterest each require your own developer app and a platform review before they will accept a single post, X meters writes on a paid tier, and then eleven integrations keep changing under you: token refresh, media specs, rate-limit budgets, deprecated endpoints. You can build the API. You cannot one-shot permission to use it.",
+  "reportedReplacements": 0
+}

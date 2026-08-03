@@ -1,0 +1,57 @@
+{
+  "slug": "slab",
+  "name": "Slab",
+  "domain": "slab.com",
+  "category": "tasks",
+  "subcategory": null,
+  "tagline": "The visible team knowledge base loop is buildable, but a credible replacement needs more than the first screen. Slab earns its keep through collaboration, integrations, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Slab has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible team knowledge base loop is buildable, but a credible replacement needs more than the first screen. Slab earns its keep through collaboration, integrations, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Slab",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The visible team knowledge base loop is buildable, but a credible replacement needs more than the first screen. Slab earns its keep through collaboration, integrations, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Vikunja Open-source task manager with lists, boards, and collaboration. ↗",
+      "url": "https://github.com/go-vikunja/vikunja",
+      "desc": "Vikunja Open-source task manager with lists, boards, and collaboration. ↗"
+    },
+    {
+      "name": "Plane Open-source issue and project tracker. ↗",
+      "url": "https://github.com/makeplane/plane",
+      "desc": "Plane Open-source issue and project tracker. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "tettra",
+    "guru",
+    "nuclino"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible team knowledge base loop is buildable, but a credible replacement needs more than the first screen. Slab earns its keep through collaboration, integrations, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

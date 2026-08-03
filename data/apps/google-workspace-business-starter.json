@@ -1,0 +1,51 @@
+{
+  "slug": "google-workspace-business-starter",
+  "name": "Google Workspace Business Starter",
+  "domain": "google-workspace-business-starter.com",
+  "category": "video-calls",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Google Workspace Business Starter, host basic video rooms and team documents without recreating Google's collaboration suite. The hard boundary is google identity, meet infrastructure, gmail, drive, docs, admin, and global operations, plus real-time media infrastructure and reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Google Workspace Business Starter costs $7/mo ($84/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Google Workspace Business Starter, host basic video rooms and team documents without recreating Google's collaboration suite. The hard boundary is google identity, meet infrastructure, gmail, drive, docs, admin, and global operations, plus real-time media infrastructure and reliability.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Google Workspace Business Starter",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "collaboration"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Google Workspace Business Starter, host basic video rooms and team documents without recreating Google's collaboration suite. The hard boundary is google identity, meet infrastructure, gmail, drive, docs, admin, and global operations, plus real-time media infrastructure and reliability.",
+  "priorArt": [
+    {
+      "name": "Jitsi Meet Widely deployed open-source video-conferencing platform. ↗",
+      "url": "https://github.com/jitsi/jitsi-meet",
+      "desc": "Jitsi Meet Widely deployed open-source video-conferencing platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "zoom-pro",
+    "microsoft-teams-essentials",
+    "whereby"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Google Workspace Business Starter, host basic video rooms and team documents without recreating Google's collaboration suite. The hard boundary is google identity, meet infrastructure, gmail, drive, docs, admin, and global operations, plus real-time media infrastructure and reliability.",
+  "reportedReplacements": 1
+}

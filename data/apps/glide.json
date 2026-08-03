@@ -1,0 +1,51 @@
+{
+  "slug": "glide",
+  "name": "Glide",
+  "domain": "glide.com",
+  "category": "no-code-apps",
+  "subcategory": null,
+  "tagline": "You can build one specific Glide app; you are not rebuilding the no-code app builder, data editor, permissions, and deployment platform in one sitting.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Glide costs $60/mo ($720/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "You can build one specific Glide app; you are not rebuilding the no-code app builder, data editor, permissions, and deployment platform in one sitting.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Glide",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "You can build one specific Glide app; you are not rebuilding the no-code app builder, data editor, permissions, and deployment platform in one sitting.",
+  "priorArt": [
+    {
+      "name": "NocoDB Open-source no-code database; combine with a frontend for many Glide-like apps. ↗",
+      "url": "https://github.com/nocodb/nocodb",
+      "desc": "NocoDB Open-source no-code database; combine with a frontend for many Glide-like apps. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "bubble",
+    "zapier",
+    "make"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build one specific Glide app; you are not rebuilding the no-code app builder, data editor, permissions, and deployment platform in one sitting.",
+  "reportedReplacements": 0
+}

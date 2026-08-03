@@ -1,0 +1,52 @@
+{
+  "slug": "freshbooks",
+  "name": "FreshBooks",
+  "domain": "freshbooks.com",
+  "category": "finance-accounting",
+  "subcategory": null,
+  "tagline": "For freelancers, invoices, time tracking, and expense logs are buildable; payments, tax/accounting reports, bank feeds, client portal, and reliability make it more than trivial.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: FreshBooks costs $23/mo ($276/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "For freelancers, invoices, time tracking, and expense logs are buildable; payments, tax/accounting reports, bank feeds, client portal, and reliability make it more than trivial.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from FreshBooks",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "For freelancers, invoices, time tracking, and expense logs are buildable; payments, tax/accounting reports, bank feeds, client portal, and reliability make it more than trivial.",
+  "priorArt": [
+    {
+      "name": "Invoice Ninja Open-source invoicing platform with payments, clients, and quotes. ↗",
+      "url": "https://github.com/invoiceninja/invoiceninja",
+      "desc": "Invoice Ninja Open-source invoicing platform with payments, clients, and quotes. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "invoice-ninja",
+    "ynab",
+    "monarch-money"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "For freelancers, invoices, time tracking, and expense logs are buildable; payments, tax/accounting reports, bank feeds, client portal, and reliability make it more than trivial.",
+  "reportedReplacements": 1
+}

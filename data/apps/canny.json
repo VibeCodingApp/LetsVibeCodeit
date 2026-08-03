@@ -1,0 +1,51 @@
+{
+  "slug": "canny",
+  "name": "Canny",
+  "domain": "canny.com",
+  "category": "user-research",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Canny, collect feature requests, merge duplicates, publish statuses, and maintain a roadmap. The hard boundary is customer identity, integrations, changelog, prioritization, and team workflow, plus participant network, synthesis workflow, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Canny costs $99/mo ($1188/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Canny, collect feature requests, merge duplicates, publish statuses, and maintain a roadmap. The hard boundary is customer identity, integrations, changelog, prioritization, and team workflow, plus participant network, synthesis workflow, and collaboration.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Canny",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Canny, collect feature requests, merge duplicates, publish statuses, and maintain a roadmap. The hard boundary is customer identity, integrations, changelog, prioritization, and team workflow, plus participant network, synthesis workflow, and collaboration.",
+  "priorArt": [
+    {
+      "name": "Fider Open-source customer-feedback portal with voting and status workflows. ↗",
+      "url": "https://github.com/getfider/fider",
+      "desc": "Fider Open-source customer-feedback portal with voting and status workflows. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "productboard",
+    "dovetail",
+    "maze"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Canny, collect feature requests, merge duplicates, publish statuses, and maintain a roadmap. The hard boundary is customer identity, integrations, changelog, prioritization, and team workflow, plus participant network, synthesis workflow, and collaboration.",
+  "reportedReplacements": 0
+}

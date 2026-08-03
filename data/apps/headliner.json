@@ -1,0 +1,52 @@
+{
+  "slug": "headliner",
+  "name": "Headliner",
+  "domain": "headliner.com",
+  "category": "podcasting",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Headliner, create captioned audiograms and short social clips from user-owned audio. The hard boundary is rendering infrastructure, templates, media hosting, and platform-specific presets, plus audio infrastructure, distribution, and production polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Headliner costs $19.99/mo ($239.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Headliner, create captioned audiograms and short social clips from user-owned audio. The hard boundary is rendering infrastructure, templates, media hosting, and platform-specific presets, plus audio infrastructure, distribution, and production polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Headliner",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish",
+    "content-rights"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Headliner, create captioned audiograms and short social clips from user-owned audio. The hard boundary is rendering infrastructure, templates, media hosting, and platform-specific presets, plus audio infrastructure, distribution, and production polish.",
+  "priorArt": [
+    {
+      "name": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗",
+      "url": "https://github.com/audacity/audacity",
+      "desc": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "riverside",
+    "alitu",
+    "auphonic"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Headliner, create captioned audiograms and short social clips from user-owned audio. The hard boundary is rendering infrastructure, templates, media hosting, and platform-specific presets, plus audio infrastructure, distribution, and production polish.",
+  "reportedReplacements": 0
+}

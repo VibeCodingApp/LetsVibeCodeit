@@ -1,0 +1,51 @@
+{
+  "slug": "quillbot",
+  "name": "QuillBot",
+  "domain": "quillbot.com",
+  "category": "ai-writing",
+  "subcategory": null,
+  "tagline": "A paraphraser/summarizer/grammar wrapper over an LLM and LanguageTool is easy to build; the paid app wins on UX, extensions, plagiarism workflows, and bundled tools.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: QuillBot costs $19.95/mo ($239.39999999999998/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A paraphraser/summarizer/grammar wrapper over an LLM and LanguageTool is easy to build; the paid app wins on UX, extensions, plagiarism workflows, and bundled tools.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from QuillBot",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "A paraphraser/summarizer/grammar wrapper over an LLM and LanguageTool is easy to build; the paid app wins on UX, extensions, plagiarism workflows, and bundled tools.",
+  "priorArt": [
+    {
+      "name": "LanguageTool Open-source grammar/style checking engine useful for a QuillBot-lite clone. ↗",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "desc": "LanguageTool Open-source grammar/style checking engine useful for a QuillBot-lite clone. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "grammarly",
+    "languagetool",
+    "canva"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A paraphraser/summarizer/grammar wrapper over an LLM and LanguageTool is easy to build; the paid app wins on UX, extensions, plagiarism workflows, and bundled tools.",
+  "reportedReplacements": 0
+}

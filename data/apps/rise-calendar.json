@@ -1,0 +1,51 @@
+{
+  "slug": "rise-calendar",
+  "name": "Rise Calendar",
+  "domain": "rise-calendar.com",
+  "category": "scheduling",
+  "subcategory": null,
+  "tagline": "The visible calendar + tasks loop is buildable, but a credible replacement needs more than the first screen. Rise Calendar earns its keep through OAuth, calendar reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Rise Calendar has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible calendar + tasks loop is buildable, but a credible replacement needs more than the first screen. Rise Calendar earns its keep through OAuth, calendar reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "weekend to multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Rise Calendar",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The visible calendar + tasks loop is buildable, but a credible replacement needs more than the first screen. Rise Calendar earns its keep through OAuth, calendar reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Cal.com Mature open-source scheduling platform and OAuth reference. ↗",
+      "url": "https://github.com/calcom/cal.diy",
+      "desc": "Cal.com Mature open-source scheduling platform and OAuth reference. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "vimcal",
+    "book-like-a-boss",
+    "clockwise"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible calendar + tasks loop is buildable, but a credible replacement needs more than the first screen. Rise Calendar earns its keep through OAuth, calendar reliability, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

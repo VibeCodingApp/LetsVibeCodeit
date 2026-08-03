@@ -1,0 +1,56 @@
+{
+  "slug": "predis-ai",
+  "name": "Predis.ai",
+  "domain": "predis-ai.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "The visible AI social content loop is buildable, but a credible replacement needs more than the first screen. Predis.ai earns its keep through platform APIs, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Predis.ai has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible AI social content loop is buildable, but a credible replacement needs more than the first screen. Predis.ai earns its keep through platform APIs, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Predis.ai",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The visible AI social content loop is buildable, but a credible replacement needs more than the first screen. Predis.ai earns its keep through platform APIs, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Postiz Open-source social scheduling and publishing platform. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Open-source social scheduling and publishing platform. ↗"
+    },
+    {
+      "name": "Mixpost Self-hosted social media management software. ↗",
+      "url": "https://github.com/inovector/mixpost",
+      "desc": "Mixpost Self-hosted social media management software. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "flick",
+    "hypefury",
+    "ocoya"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible AI social content loop is buildable, but a credible replacement needs more than the first screen. Predis.ai earns its keep through platform APIs, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

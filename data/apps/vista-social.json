@@ -1,0 +1,52 @@
+{
+  "slug": "vista-social",
+  "name": "Vista Social",
+  "domain": "vista-social.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Vista Social, schedule and review content across several profiles with a shared calendar. The hard boundary is social inbox, review tools, listening, analytics, and agency collaboration, plus api access, connector upkeep, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Vista Social costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Vista Social, schedule and review content across several profiles with a shared calendar. The hard boundary is social inbox, review tools, listening, analytics, and agency collaboration, plus api access, connector upkeep, and collaboration.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Vista Social",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 👥 collaboration Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Vista Social, schedule and review content across several profiles with a shared calendar. The hard boundary is social inbox, review tools, listening, analytics, and agency collaboration, plus api access, connector upkeep, and collaboration.",
+  "priorArt": [
+    {
+      "name": "Postiz Active open-source social media scheduling platform. ↗",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "desc": "Postiz Active open-source social media scheduling platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "hootsuite",
+    "metricool",
+    "hypefury"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Vista Social, schedule and review content across several profiles with a shared calendar. The hard boundary is social inbox, review tools, listening, analytics, and agency collaboration, plus api access, connector upkeep, and collaboration.",
+  "reportedReplacements": 0
+}

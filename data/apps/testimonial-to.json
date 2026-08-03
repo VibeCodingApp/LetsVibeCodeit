@@ -1,0 +1,44 @@
+{
+  "slug": "testimonial-to",
+  "name": "Senja",
+  "domain": "testimonial.to",
+  "category": "testimonials",
+  "subcategory": null,
+  "tagline": "A form, an embed widget, and a wall page. $300/yr for what is essentially a guestbook.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Senja / Testimonial.to costs $25/mo ($300/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A form, an embed widget, and a wall page. $300/yr for what is essentially a guestbook.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Senja",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "A form, an embed widget, and a wall page. $300/yr for what is essentially a guestbook.",
+  "priorArt": [],
+  "relatedSlugs": [
+    "showtrust",
+    "proofling",
+    "granola"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A form, an embed widget, and a wall page. $300/yr for what is essentially a guestbook.",
+  "reportedReplacements": 12
+}

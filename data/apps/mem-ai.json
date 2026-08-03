@@ -1,0 +1,51 @@
+{
+  "slug": "mem-ai",
+  "name": "Mem",
+  "domain": "mem-ai.com",
+  "category": "notes-knowledge",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mem, capture notes quickly and retrieve them through semantic search and related-memory suggestions. The hard boundary is hosted ai memory, sync, ingest integrations, and continuously tuned retrieval, plus sync, collaboration, and capture polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Mem costs $14.99/mo ($179.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mem, capture notes quickly and retrieve them through semantic search and related-memory suggestions. The hard boundary is hosted ai memory, sync, ingest integrations, and continuously tuned retrieval, plus sync, collaboration, and capture polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Mem",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-models"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mem, capture notes quickly and retrieve them through semantic search and related-memory suggestions. The hard boundary is hosted ai memory, sync, ingest integrations, and continuously tuned retrieval, plus sync, collaboration, and capture polish.",
+  "priorArt": [
+    {
+      "name": "AppFlowy Active open-source workspace with local-first documents and databases. ↗",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "desc": "AppFlowy Active open-source workspace with local-first documents and databases. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "craft",
+    "slite",
+    "nuclino"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mem, capture notes quickly and retrieve them through semantic search and related-memory suggestions. The hard boundary is hosted ai memory, sync, ingest integrations, and continuously tuned retrieval, plus sync, collaboration, and capture polish.",
+  "reportedReplacements": 0
+}

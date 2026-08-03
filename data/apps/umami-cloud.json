@@ -1,0 +1,50 @@
+{
+  "slug": "umami-cloud",
+  "name": "Umami Cloud",
+  "domain": "umami-cloud.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "The software is open source, so the cloud subscription is mostly paying for managed hosting, upgrades, and not touching a server.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Umami Cloud costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The software is open source, so the cloud subscription is mostly paying for managed hosting, upgrades, and not touching a server.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Umami Cloud",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The software is open source, so the cloud subscription is mostly paying for managed hosting, upgrades, and not touching a server.",
+  "priorArt": [
+    {
+      "name": "Umami The product's own open-source analytics platform. ↗",
+      "url": "https://github.com/umami-software/umami",
+      "desc": "Umami The product's own open-source analytics platform. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "squarespace",
+    "wix",
+    "github-copilot"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The software is open source, so the cloud subscription is mostly paying for managed hosting, upgrades, and not touching a server.",
+  "reportedReplacements": 6
+}

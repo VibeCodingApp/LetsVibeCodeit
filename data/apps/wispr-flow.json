@@ -1,0 +1,56 @@
+{
+  "slug": "wispr-flow",
+  "name": "Wispr Flow",
+  "domain": "wispr-flow.com",
+  "category": "dictation",
+  "subcategory": null,
+  "tagline": "Hotkey → record → Whisper → paste at cursor. One of the most-cloned apps of the trend for a reason.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Wispr Flow costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Hotkey → record → Whisper → paste at cursor. One of the most-cloned apps of the trend for a reason.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Wispr Flow",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "execution-polish"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Hotkey → record → Whisper → paste at cursor. One of the most-cloned apps of the trend for a reason.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp local transcription engine ↗",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "whisper.cpp local transcription engine ↗"
+    },
+    {
+      "name": "VoiceInk open-source macOS dictation app ↗",
+      "url": "https://github.com/Beingpax/VoiceInk",
+      "desc": "VoiceInk open-source macOS dictation app ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "superwhisper",
+    "superscribe",
+    "macwhisper"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Hotkey → record → Whisper → paste at cursor. One of the most-cloned apps of the trend for a reason.",
+  "reportedReplacements": 43
+}

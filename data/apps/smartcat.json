@@ -1,0 +1,52 @@
+{
+  "slug": "smartcat",
+  "name": "Smartcat",
+  "domain": "smartcat.com",
+  "category": "localization",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Smartcat, manage translation jobs and approved machine translation without recreating its marketplace. The hard boundary is translator marketplace, payments, vendor management, ai, and enterprise workflow, plus translation memory, collaboration, and deployment integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Smartcat has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Smartcat, manage translation jobs and approved machine translation without recreating its marketplace. The hard boundary is translator marketplace, payments, vendor management, ai, and enterprise workflow, plus translation memory, collaboration, and deployment integrations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Smartcat",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "marketplace-liquidity",
+    "integrations",
+    "proprietary-data"
+  ],
+  "moatNotes": "🏪 marketplace liquidity Ã‚Â· 🔌 integrations Ã‚Â· 💎 proprietary data",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Smartcat, manage translation jobs and approved machine translation without recreating its marketplace. The hard boundary is translator marketplace, payments, vendor management, ai, and enterprise workflow, plus translation memory, collaboration, and deployment integrations.",
+  "priorArt": [
+    {
+      "name": "Tolgee Active open-source localization platform with translation memory and in-context tooling. ↗",
+      "url": "https://github.com/tolgee/tolgee-platform",
+      "desc": "Tolgee Active open-source localization platform with translation memory and in-context tooling. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "lokalise",
+    "crowdin",
+    "weglot"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Smartcat, manage translation jobs and approved machine translation without recreating its marketplace. The hard boundary is translator marketplace, payments, vendor management, ai, and enterprise workflow, plus translation memory, collaboration, and deployment integrations.",
+  "reportedReplacements": 0
+}

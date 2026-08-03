@@ -1,0 +1,51 @@
+{
+  "slug": "anytype",
+  "name": "Anytype",
+  "domain": "anytype.com",
+  "category": "notes-knowledge",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Anytype, manage a local-first object graph with pages, collections, relations, and peer sync. The hard boundary is local-first sync protocol, mobile apps, collaboration, and identity infrastructure, plus sync, collaboration, and capture polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Anytype costs $8.25/mo ($99/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Anytype, manage a local-first object graph with pages, collections, relations, and peer sync. The hard boundary is local-first sync protocol, mobile apps, collaboration, and identity infrastructure, plus sync, collaboration, and capture polish.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Anytype",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Anytype, manage a local-first object graph with pages, collections, relations, and peer sync. The hard boundary is local-first sync protocol, mobile apps, collaboration, and identity infrastructure, plus sync, collaboration, and capture polish.",
+  "priorArt": [
+    {
+      "name": "AppFlowy Active open-source workspace with local-first documents and databases. ↗",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "desc": "AppFlowy Active open-source workspace with local-first documents and databases. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "craft",
+    "slite",
+    "nuclino"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Anytype, manage a local-first object graph with pages, collections, relations, and peer sync. The hard boundary is local-first sync protocol, mobile apps, collaboration, and identity infrastructure, plus sync, collaboration, and capture polish.",
+  "reportedReplacements": 0
+}

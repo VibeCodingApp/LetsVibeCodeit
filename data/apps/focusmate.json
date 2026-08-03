@@ -1,0 +1,51 @@
+{
+  "slug": "focusmate",
+  "name": "Focusmate",
+  "domain": "focusmate.com",
+  "category": "productivity-utilities",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Focusmate's durable value is polish, OS integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Focusmate costs $8/mo ($96/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Focusmate's durable value is polish, OS integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Focusmate",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "network-effects",
+    "execution-polish"
+  ],
+  "moatNotes": "🕸️ network effects Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Focusmate's durable value is polish, OS integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "ActivityWatch Local-first automatic time tracking with an extensible event model. ↗",
+      "url": "https://github.com/ActivityWatch/activitywatch",
+      "desc": "ActivityWatch Local-first automatic time tracking with an extensible event model. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "freedom",
+    "opal",
+    "rize"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Focusmate's durable value is polish, OS integration, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

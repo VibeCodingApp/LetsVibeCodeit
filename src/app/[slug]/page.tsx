@@ -1,28 +1,44 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAppBySlug, getRelatedApps, getAllApps } from '@/lib/apps';
-import { VerdictBadge } from '@/components/verdict-badge';
-import { PromptBox } from '@/components/prompt-box';
-import { WhatYouLose } from '@/components/what-you-lose';
+import { AdSlotHero } from '@/components/ad-hero';
+import { DetailAdBreak } from '@/components/detail-ad-break';
+import { FAQ } from '@/components/faq';
 import { PriorArt } from '@/components/prior-art';
 import { RelatedApps } from '@/components/related-apps';
-import { VoteButton } from '@/components/vote-button';
-import { FAQ } from '@/components/faq';
+import { ReplaceButton } from '@/components/replace-button';
+import { VerdictBadge } from '@/components/verdict-badge';
+import { WhatYouLose } from '@/components/what-you-lose';
+import { getAppFaq } from '@/lib/app-faq';
 
 export const dynamic = 'force-static';
 
 export async function generateStaticParams() {
-  return getAllApps().map(a => ({ slug: a.slug }));
+  return getAllApps().map(app => ({ slug: app.slug }));
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const app = getAppBySlug(params.slug);
-  if (!app) return { title: 'Not Found · LetsVibeCodeit.com' };
+  if (!app) return { title: 'Not Found Ã‚Â· LetsVibeCodeit.com' };
   return {
-    title: `Can I vibecode ${app.name}? · LetsVibeCodeit.com`,
+    title: `Can I vibecode ${app.name}? Ã‚Â· LetsVibeCodeit.com`,
     description: app.verdictSummary,
     openGraph: { title: `Can I vibecode ${app.name}?`, description: app.verdictSummary },
   };
+}
+
+function AppMeta({ app }: { app: NonNullable<ReturnType<typeof getAppBySlug>> }) {
+  const price = app.priceMonthly === null ? 'Ã¢â‚¬â€' : app.priceMonthly === 0 ? 'Free' : `$${app.priceMonthly}/mo`;
+  const savings = app.priceMonthly ? `$${app.priceMonthly * 12}/yr` : 'no subscription';
+  return (
+    <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs text-muted">
+      <span><strong className="text-fg">price</strong> {price}</span>
+      <span><strong className="text-fg">you&apos;d save</strong> <span className="text-primary">{savings}</span></span>
+      <span><strong className="text-fg">build time</strong> {app.diyTimeEstimate}</span>
+      <span><strong className="text-fg">category</strong> {app.category}</span>
+      <span><strong className="text-fg">replaced by</strong> {app.reportedReplacements || 0} people</span>
+    </div>
+  );
 }
 
 export default function AppDetailPage({ params }: { params: { slug: string } }) {
@@ -30,76 +46,90 @@ export default function AppDetailPage({ params }: { params: { slug: string } }) 
   if (!app) notFound();
 
   const related = getRelatedApps(params.slug, 6);
-  const price = app.priceMonthly === null ? '—' : app.priceMonthly === 0 ? 'Free' : `$${app.priceMonthly}/mo`;
   const shareUrl = `https://letsvibecodeit.com/${params.slug}`;
-  const shareText = `Can you vibecode ${app.name}? ${app.verdict.toUpperCase()} — ${app.verdictSummary.split('.')[0]}.`;
-
+  const shareText = `I just replaced ${app.name} with a focused build`;
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
     name: app.name,
     description: app.verdictSummary,
     applicationCategory: app.category,
+    url: `https://${app.domain}`,
     offers: app.priceMonthly ? { '@type': 'Offer', price: app.priceMonthly, priceCurrency: 'USD' } : undefined,
   };
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <div className="container-main py-10 md:py-12">
-        <div className="mb-6">
-          <a href="/" className="text-xs text-muted hover:text-fg no-underline font-mono transition-colors">← the death list</a>
-        </div>
-
-        <div className="flex flex-col md:flex-row gap-6 mb-8 items-start">
-          <img src={`https://www.google.com/s2/favicons?domain=${app.domain}&sz=64`} alt="" width={40} height={40} className="w-10 h-10 rounded-lg shrink-0" style={{ imageRendering: 'auto' }} />
-          <div>
-            <h1 className="font-display text-3xl md:text-4xl font-bold mb-2">{app.name}</h1>
-            <div className="flex flex-wrap items-center gap-3 text-sm text-muted font-mono mb-3">
-              <span>{app.category}</span><span>·</span><span>{price}</span><span>·</span><VerdictBadge verdict={app.verdict} />
+      <div className="relative py-8 md:py-10">
+        <AdSlotHero side="left" />
+        <AdSlotHero side="right" />
+        <div className="container-main max-w-[1120px]">
+          <div className="mx-auto max-w-[1080px]">
+            <div className="mb-7 font-mono text-xs text-muted">
+              <a href="/" className="no-underline transition-colors hover:text-fg">the death list</a>
+              <span className="px-2">/</span>
+              <a href={`/category/${encodeURIComponent(app.category)}`} className="no-underline transition-colors hover:text-fg">{app.category}</a>
+              <span className="px-2">/</span><span className="text-fg">{app.slug}</span>
             </div>
-            <p className="text-muted text-sm leading-relaxed max-w-[640px]">{app.verdictSummary}</p>
-          </div>
-        </div>
 
-        <div className="mb-10">
-          <h3 className="font-display text-lg font-bold mb-3">The Prompt</h3>
-          {app.prompt ? <PromptBox prompt={app.prompt} appName={app.name} /> : <div className="bg-surface-2 border border-[var(--border)] rounded-xl p-5 text-sm text-muted">Prompt content withheld from the public repository.</div>}
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-10 mb-10">
-          <WhatYouLose items={app.whatYouLose} />
-          <div className="space-y-6">
-            <PriorArt items={app.priorArt} />
-            {app.moatTags.length > 0 && (
-              <div>
-                <h3 className="font-display text-lg font-bold mb-2">Moats</h3>
-                <div className="flex flex-wrap gap-1.5">
-                  {app.moatTags.map(t => <span key={t} className="px-2.5 py-1 rounded-full font-mono text-[11px] font-medium bg-surface-3 text-muted border border-[var(--border)]">{t}</span>)}
+            <section className="mx-auto max-w-[1080px]">
+              <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
+                <div className="flex min-w-0 items-start gap-4">
+                  <img src={`https://www.google.com/s2/favicons?domain=${app.domain}&sz=128`} alt={`${app.name} icon`} width={56} height={56} className="mt-1 h-14 w-14 shrink-0 rounded-2xl border border-[var(--border)] bg-surface-2 p-2" />
+                  <div className="min-w-0">
+                    <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-6xl">Can I vibecode {app.name}?</h1>
+                    <div className="mt-5"><AppMeta app={app} /></div>
+                  </div>
                 </div>
+                <div className="shrink-0 pt-1"><VerdictBadge verdict={app.verdict} /></div>
               </div>
-            )}
+              <div className="mt-7 flex flex-wrap items-center gap-2 font-mono text-xs text-muted">
+                <span className="uppercase tracking-[0.08em] text-muted-2">MOAT</span>
+                {app.moatTags.length ? app.moatTags.map(tag => <span key={tag} className="rounded-full border border-[var(--border)] bg-surface-2 px-3 py-1 text-fg-2">{tag.replace(/-/g, ' ')}</span>) : <span className="rounded-full border border-[var(--border)] bg-surface-2 px-3 py-1">execution polish</span>}
+              </div>
+              <p className="mt-7 max-w-[760px] text-base leading-relaxed text-muted md:text-lg">{app.tagline}</p>
+            </section>
+
+            <DetailAdBreak slot={`detail-hero-${app.slug}`} />
+
+            <section className="mb-10">
+              <div className="mb-2 flex flex-wrap items-center justify-between gap-3">
+                <h2 className="font-display text-lg font-bold uppercase tracking-[0.08em] text-muted">The Build Prompt</h2>
+                <span className="font-mono text-[11px] text-muted-2">protected content</span>
+              </div>
+              <div className="rounded-xl border border-[var(--border)] bg-surface-2 p-5">
+                <p className="font-mono text-sm leading-relaxed text-muted">The detailed build prompt is kept private. This public page gives you the verdict, trade-offs, alternatives, and practical scope needed to interpret the result without exposing the source prompt.</p>
+              </div>
+            </section>
+
+            <DetailAdBreak slot={`detail-middle-${app.slug}`} />
+
+            <section className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_360px]">
+              <WhatYouLose items={app.whatYouLose} />
+              <div className="space-y-8">
+                <PriorArt items={app.priorArt} />
+                {app.moatNotes && <div><h2 className="mb-3 font-display text-lg font-bold">Why it still works</h2><p className="text-sm leading-relaxed text-muted">{app.moatNotes}</p></div>}
+              </div>
+            </section>
+
+            <DetailAdBreak slot={`detail-lower-${app.slug}`} />
+
+            <section className="mb-10">
+              <RelatedApps apps={related} />
+            </section>
+
+            <section className="mb-12 flex flex-wrap items-center gap-3 rounded-xl border border-[var(--border)] bg-surface-2 p-4">
+              <ReplaceButton slug={app.slug} appName={app.name} initialVotes={app.reportedReplacements} />
+              <a href={`https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-lg border border-[var(--border)] bg-surface-3 px-4 py-2 font-mono text-xs font-semibold text-fg-2 no-underline transition-colors hover:border-[var(--border-2)] hover:text-fg">Ã°Ââ€¢Â share on X Ã¢â€ â€”</a>
+              <span className="text-xs text-muted-2">Your vote helps rank the death list.</span>
+            </section>
+
+            <section className="mb-12">
+              <div className="mb-4 flex items-center justify-between"><h2 className="font-mono text-xs uppercase tracking-[0.1em] text-muted-2">Questions</h2><span className="font-mono text-xs text-muted-2">{getAppFaq(app).length} answers</span></div>
+              <FAQ items={getAppFaq(app)} />
+            </section>
           </div>
-        </div>
-
-        <div className="mb-10"><RelatedApps apps={related} /></div>
-
-        <div className="flex flex-wrap items-center gap-4 mb-10 p-4 rounded-xl border border-[var(--border)] bg-surface-2">
-          <VoteButton slug={params.slug} />
-          <a href={`https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full font-mono text-xs font-semibold border border-[var(--border)] bg-surface-3 text-fg-2 hover:text-fg hover:border-[var(--border-2)] transition-all no-underline">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            Share on X
-          </a>
-          <span className="text-xs text-muted-2">Community votes determine the leaderboard</span>
-        </div>
-
-        <div className="mb-10">
-          <FAQ items={[
-            { q: 'What does this verdict mean?', a: app.verdict === 'yes' ? 'YES means you can vibecode a personal replacement in one sitting. The app does one thing well, and that thing is reproducible by an AI coding agent.' : app.verdict === 'kinda' ? 'KINDA means you can build a working version in a weekend, but real gaps remain — lost integrations, polish, or scale features.' : 'NOT REALLY means the value of the product is the network, the data, or the infrastructure. You cannot one-shot a replacement.' },
-            { q: 'Is the prompt really free?', a: 'Yes. Every prompt on this site is free forever. Paywalling the prompts would be brand poison. The whole site is MIT licensed.' },
-            { q: "Why would people still pay for this?", a: app.whyPeopleStillPay || 'For the convenience, integrations, and ecosystem that a DIY build cannot replicate.' },
-          ]} />
         </div>
       </div>
     </>

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "kinda",
+  "verdict": "yes",
   "verdictConfidence": "medium",
   "verdictSummary": "A block-based editor with markdown is doable. But Notion's database views, formula engine, and real-time collaboration are genuine engineering challenges.",
   "coreLoopDIY": "Block-based note editor with markdown",
@@ -38,23 +38,22 @@
     "integrations",
     "execution-polish"
   ],
-  "moatNotes": "Notion's block editor is complex but not impossible. The collaboration layer is the real challenge.",
+  "moatNotes": "👥 collaboration Ã‚Â· 💅 execution polish Ã‚Â· 🔌 integrations",
   "whyPeopleStillPay": "Teams using Notion as their knowledge base with interconnected databases",
   "priorArt": [
     {
-      "name": "AppFlowy",
-      "url": "https://appflowy.io",
-      "desc": "Open-source Notion alternative"
+      "name": "AppFlowy Open-source Notion-like workspace with databases and docs. ↗",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "desc": "AppFlowy Open-source Notion-like workspace with databases and docs. ↗"
     }
   ],
   "relatedSlugs": [
     "evernote",
-    "obsidian",
-    "roam-research"
+    "obsidian-sync",
+    "readwise-reader"
   ],
   "pagePriority": 4,
   "verifiedOneShot": false,
   "notes": "For personal note-taking with basic blocks, DIY is viable. For team wikis, use Notion or AppFlowy.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 0
 }

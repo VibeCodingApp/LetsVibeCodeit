@@ -1,0 +1,55 @@
+{
+  "slug": "picsart",
+  "name": "Picsart",
+  "domain": "picsart.com",
+  "category": "ai-images",
+  "subcategory": null,
+  "tagline": "Do not mistake the interface for the product. Picsart's durable value is proprietary model, inference, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Picsart costs $13/mo ($156/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "Do not mistake the interface for the product. Picsart's durable value is proprietary model, inference, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "diyTimeEstimate": "not a true replacement; consolation build in one to two days",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Picsart",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models"
+  ],
+  "moatNotes": "🧠 proprietary models",
+  "whyPeopleStillPay": "Do not mistake the interface for the product. Picsart's durable value is proprietary model, inference, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "priorArt": [
+    {
+      "name": "ComfyUI Node-based open-source generative image workflow engine. ↗",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "desc": "ComfyUI Node-based open-source generative image workflow engine. ↗"
+    },
+    {
+      "name": "Stable Diffusion WebUI Widely used local Stable Diffusion interface and extension ecosystem. ↗",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "desc": "Stable Diffusion WebUI Widely used local Stable Diffusion interface and extension ecosystem. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "leonardo-ai",
+    "ideogram",
+    "lensa"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Do not mistake the interface for the product. Picsart's durable value is proprietary model, inference, which a solo one-shot build cannot reproduce responsibly. The prompt therefore builds only the closest honest personal consolation tool.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "wabery",
+  "name": "Wabery",
+  "domain": "wabery.com",
+  "category": "dev-tools",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Wabery costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Wabery",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "Meta WhatsApp Cloud API The official API is the shortest DIY path for a single business that can complete Meta's setup and verification. ↗",
+      "url": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+      "desc": "Meta WhatsApp Cloud API The official API is the shortest DIY path for a single business that can complete Meta's setup and verification. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "n8n-cloud",
+    "zapier",
+    "postiz"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 1
+}

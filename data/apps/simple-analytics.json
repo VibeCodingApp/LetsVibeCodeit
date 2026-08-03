@@ -1,0 +1,52 @@
+{
+  "slug": "simple-analytics",
+  "name": "Simple Analytics",
+  "domain": "simple-analytics.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "Pageview analytics, events, dashboards, and exports are very buildable; paid value is hosted privacy posture, reports, reliability, and support.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Simple Analytics costs $20/mo ($240/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Pageview analytics, events, dashboards, and exports are very buildable; paid value is hosted privacy posture, reports, reliability, and support.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Simple Analytics",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Pageview analytics, events, dashboards, and exports are very buildable; paid value is hosted privacy posture, reports, reliability, and support.",
+  "priorArt": [
+    {
+      "name": "Umami Open-source web analytics platform for privacy-friendly tracking. ↗",
+      "url": "https://github.com/umami-software/umami",
+      "desc": "Umami Open-source web analytics platform for privacy-friendly tracking. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "umami-cloud",
+    "squarespace",
+    "wix"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Pageview analytics, events, dashboards, and exports are very buildable; paid value is hosted privacy posture, reports, reliability, and support.",
+  "reportedReplacements": 2
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "readwise",
+  "name": "Readwise",
+  "domain": "readwise.com",
+  "category": "reading",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Readwise, import highlights from user-exported files, review them with spaced repetition, and export notes. The hard boundary is broad source integrations, sync, daily review polish, and knowledge-tool exports, plus capture polish, sync, and content partnerships.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Readwise costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Readwise, import highlights from user-exported files, review them with spaced repetition, and export notes. The hard boundary is broad source integrations, sync, daily review polish, and knowledge-tool exports, plus capture polish, sync, and content partnerships.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Readwise",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish",
+    "content-rights"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Readwise, import highlights from user-exported files, review them with spaced repetition, and export notes. The hard boundary is broad source integrations, sync, daily review polish, and knowledge-tool exports, plus capture polish, sync, and content partnerships.",
+  "priorArt": [
+    {
+      "name": "FreshRSS Mature open-source RSS reader with feeds, filters, and self-hosting support. ↗",
+      "url": "https://github.com/FreshRSS/FreshRSS",
+      "desc": "FreshRSS Mature open-source RSS reader with feeds, filters, and self-hosting support. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "raindrop-io",
+    "inoreader",
+    "matter"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Readwise, import highlights from user-exported files, review them with spaced repetition, and export notes. The hard boundary is broad source integrations, sync, daily review polish, and knowledge-tool exports, plus capture polish, sync, and content partnerships.",
+  "reportedReplacements": 1
+}

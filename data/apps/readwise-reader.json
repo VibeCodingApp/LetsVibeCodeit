@@ -1,0 +1,52 @@
+{
+  "slug": "readwise-reader",
+  "name": "Readwise Reader",
+  "domain": "readwise-reader.com",
+  "category": "read-it-later",
+  "subcategory": null,
+  "tagline": "Saving articles and highlighting is easy; reliable extraction, mobile/offline reading, sync, Kindle/import integrations, RSS/PDF support, and review loops are real work.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Readwise Reader costs $12.99/mo ($155.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Saving articles and highlighting is easy; reliable extraction, mobile/offline reading, sync, Kindle/import integrations, RSS/PDF support, and review loops are real work.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Readwise Reader",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish",
+    "switching-costs"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish Ã‚Â· ⛓️ switching costs",
+  "whyPeopleStillPay": "Saving articles and highlighting is easy; reliable extraction, mobile/offline reading, sync, Kindle/import integrations, RSS/PDF support, and review loops are real work.",
+  "priorArt": [
+    {
+      "name": "wallabag Open-source read-it-later app with article extraction and self-hosted reading workflows. ↗",
+      "url": "https://github.com/wallabag/wallabag",
+      "desc": "wallabag Open-source read-it-later app with article extraction and self-hosted reading workflows. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "raindrop-io",
+    "feedly",
+    "inoreader"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Saving articles and highlighting is easy; reliable extraction, mobile/offline reading, sync, Kindle/import integrations, RSS/PDF support, and review loops are real work.",
+  "reportedReplacements": 0
+}

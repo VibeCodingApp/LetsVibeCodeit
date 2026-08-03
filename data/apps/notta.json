@@ -1,0 +1,52 @@
+{
+  "slug": "notta",
+  "name": "Notta",
+  "domain": "notta.com",
+  "category": "meeting-notes",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Notta, transcribe uploaded or live audio, summarize it, and organize a personal archive. The hard boundary is mobile apps, cloud sync, language coverage, meeting bots, and exports, plus capture reliability, integrations, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Notta costs $13.49/mo ($161.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Notta, transcribe uploaded or live audio, summarize it, and organize a personal archive. The hard boundary is mobile apps, cloud sync, language coverage, meeting bots, and exports, plus capture reliability, integrations, and collaboration.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Notta",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Notta, transcribe uploaded or live audio, summarize it, and organize a personal archive. The hard boundary is mobile apps, cloud sync, language coverage, meeting bots, and exports, plus capture reliability, integrations, and collaboration.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Widely used local Whisper inference implementation suitable for private transcription. ↗",
+      "url": "https://github.com/ggerganov/whisper.cpp",
+      "desc": "whisper.cpp Widely used local Whisper inference implementation suitable for private transcription. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "fathom-ai",
+    "read-ai",
+    "avoma"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Notta, transcribe uploaded or live audio, summarize it, and organize a personal archive. The hard boundary is mobile apps, cloud sync, language coverage, meeting bots, and exports, plus capture reliability, integrations, and collaboration.",
+  "reportedReplacements": 0
+}

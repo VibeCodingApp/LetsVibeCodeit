@@ -1,0 +1,51 @@
+{
+  "slug": "productlane",
+  "name": "Productlane",
+  "domain": "productlane.com",
+  "category": "user-research",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Productlane, connect interview notes and support feedback to product issues and decisions. The hard boundary is linear integration, call workflows, customer portal, sync, and team collaboration, plus participant network, synthesis workflow, and collaboration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Productlane costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Productlane, connect interview notes and support feedback to product issues and decisions. The hard boundary is linear integration, call workflows, customer portal, sync, and team collaboration, plus participant network, synthesis workflow, and collaboration.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Productlane",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations"
+  ],
+  "moatNotes": "👥 collaboration Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Productlane, connect interview notes and support feedback to product issues and decisions. The hard boundary is linear integration, call workflows, customer portal, sync, and team collaboration, plus participant network, synthesis workflow, and collaboration.",
+  "priorArt": [
+    {
+      "name": "Fider Open-source customer-feedback portal with voting and status workflows. ↗",
+      "url": "https://github.com/getfider/fider",
+      "desc": "Fider Open-source customer-feedback portal with voting and status workflows. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "canny",
+    "productboard",
+    "dovetail"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Productlane, connect interview notes and support feedback to product issues and decisions. The hard boundary is linear integration, call workflows, customer portal, sync, and team collaboration, plus participant network, synthesis workflow, and collaboration.",
+  "reportedReplacements": 0
+}

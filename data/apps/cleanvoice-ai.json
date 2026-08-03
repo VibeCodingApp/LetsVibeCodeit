@@ -1,0 +1,51 @@
+{
+  "slug": "cleanvoice-ai",
+  "name": "Cleanvoice AI",
+  "domain": "cleanvoice-ai.com",
+  "category": "podcasting",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Cleanvoice AI, remove filler words, mouth sounds, and long silences from a transcript-aligned edit list. The hard boundary is specialized cleanup models, cloud processing, and batch speed, plus audio infrastructure, distribution, and production polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Cleanvoice AI has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Cleanvoice AI, remove filler words, mouth sounds, and long silences from a transcript-aligned edit list. The hard boundary is specialized cleanup models, cloud processing, and batch speed, plus audio infrastructure, distribution, and production polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Cleanvoice AI",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Cleanvoice AI, remove filler words, mouth sounds, and long silences from a transcript-aligned edit list. The hard boundary is specialized cleanup models, cloud processing, and batch speed, plus audio infrastructure, distribution, and production polish.",
+  "priorArt": [
+    {
+      "name": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗",
+      "url": "https://github.com/audacity/audacity",
+      "desc": "Audacity Long-running open-source multitrack audio editor and useful implementation prior art. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "riverside",
+    "alitu",
+    "auphonic"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Cleanvoice AI, remove filler words, mouth sounds, and long silences from a transcript-aligned edit list. The hard boundary is specialized cleanup models, cloud processing, and batch speed, plus audio infrastructure, distribution, and production polish.",
+  "reportedReplacements": 0
+}

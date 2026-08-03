@@ -1,0 +1,56 @@
+{
+  "slug": "ideafast",
+  "name": "IdeaFast",
+  "domain": "ideafast.com",
+  "category": "user-research",
+  "subcategory": null,
+  "tagline": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: IdeaFast costs $19/mo ($228/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from IdeaFast",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "priorArt": [
+    {
+      "name": "PRAW Python Reddit API wrapper, the usual starting point for the ingestion half ↗",
+      "url": "https://github.com/praw-dev/praw",
+      "desc": "PRAW Python Reddit API wrapper, the usual starting point for the ingestion half ↗"
+    },
+    {
+      "name": "BERTopic Topic clustering over embeddings, covers the grouping step without an LLM ↗",
+      "url": "https://github.com/MaartenGr/BERTopic",
+      "desc": "BERTopic Topic clustering over embeddings, covers the grouping step without an LLM ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "dovetail",
+    "maze",
+    "apify"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",
+  "reportedReplacements": 0
+}

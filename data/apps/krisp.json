@@ -1,0 +1,51 @@
+{
+  "slug": "krisp",
+  "name": "Krisp",
+  "domain": "krisp.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "You can build post-processing and maybe route audio through open models, but real-time low-latency virtual-device noise cancellation is not a one-sitting web app.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Krisp costs $16/mo ($192/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "You can build post-processing and maybe route audio through open models, but real-time low-latency virtual-device noise cancellation is not a one-sitting web app.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Krisp",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-models"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models",
+  "whyPeopleStillPay": "You can build post-processing and maybe route audio through open models, but real-time low-latency virtual-device noise cancellation is not a one-sitting web app.",
+  "priorArt": [
+    {
+      "name": "RNNoise Open-source recurrent noise suppression model; useful but not a full Krisp replacement. ↗",
+      "url": "https://github.com/xiph/rnnoise",
+      "desc": "RNNoise Open-source recurrent noise suppression model; useful but not a full Krisp replacement. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "superwhisper",
+    "descript",
+    "loom"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build post-processing and maybe route audio through open models, but real-time low-latency virtual-device noise cancellation is not a one-sitting web app.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "opusclip",
+  "name": "OpusClip",
+  "domain": "opusclip.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "The visible AI video repurposing loop is buildable, but a credible replacement needs more than the first screen. OpusClip earns its keep through media pipeline, hosting, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: OpusClip has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible AI video repurposing loop is buildable, but a credible replacement needs more than the first screen. OpusClip earns its keep through media pipeline, hosting, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from OpusClip",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The visible AI video repurposing loop is buildable, but a credible replacement needs more than the first screen. OpusClip earns its keep through media pipeline, hosting, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Kdenlive Open-source non-linear video editor. ↗",
+      "url": "https://github.com/KDE/kdenlive",
+      "desc": "Kdenlive Open-source non-linear video editor. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "veed",
+    "kapwing",
+    "headliner"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible AI video repurposing loop is buildable, but a credible replacement needs more than the first screen. OpusClip earns its keep through media pipeline, hosting, distribution, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

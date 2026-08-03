@@ -1,0 +1,56 @@
+{
+  "slug": "dailygram",
+  "name": "Dailygram",
+  "domain": "dailygram.com",
+  "category": "social-media",
+  "subcategory": null,
+  "tagline": "The personal digest pipeline is a realistic weekend build if you bring feeds or a data provider. Reliable ingestion from Instagram, X, TikTok, and LinkedIn is not a one-shot project: access restrictions, changing page formats, rate limits, and connector maintenance are the product's durable edge.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Dailygram costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The personal digest pipeline is a realistic weekend build if you bring feeds or a data provider. Reliable ingestion from Instagram, X, TikTok, and LinkedIn is not a one-shot project: access restrictions, changing page formats, rate limits, and connector maintenance are the product's durable edge.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Dailygram",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "integrations"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The personal digest pipeline is a realistic weekend build if you bring feeds or a data provider. Reliable ingestion from Instagram, X, TikTok, and LinkedIn is not a one-shot project: access restrictions, changing page formats, rate limits, and connector maintenance are the product's durable edge.",
+  "priorArt": [
+    {
+      "name": "RSSHub Open-source RSS generator with routes for many sites and services. ↗",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "desc": "RSSHub Open-source RSS generator with routes for many sites and services. ↗"
+    },
+    {
+      "name": "Huginn Self-hosted agents that watch sources and build automated digests. ↗",
+      "url": "https://github.com/huginn/huginn",
+      "desc": "Huginn Self-hosted agents that watch sources and build automated digests. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "feedly",
+    "inoreader",
+    "hootsuite"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The personal digest pipeline is a realistic weekend build if you bring feeds or a data provider. Reliable ingestion from Instagram, X, TikTok, and LinkedIn is not a one-shot project: access restrictions, changing page formats, rate limits, and connector maintenance are the product's durable edge.",
+  "reportedReplacements": 0
+}

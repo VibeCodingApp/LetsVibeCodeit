@@ -1,0 +1,57 @@
+{
+  "slug": "vidnotes",
+  "name": "VidNotes",
+  "domain": "vidnotes.com",
+  "category": "audio-video",
+  "subcategory": null,
+  "tagline": "The narrow DIY loop is achievable in a weekend: import a file or YouTube URL, transcribe it, generate notes, and save the result locally. VidNotes as a product is broader than that prototype. It maintains ingestion across changing video sites, runs long jobs reliably, ships iOS, Android, web, and a Chrome extension, keeps account state consistent, and exposes the workflow to agents through an API, CLI, and MCP server. Rebuilding all of that is a multi-day integration project with an ongoing operations burden.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: VidNotes costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The narrow DIY loop is achievable in a weekend: import a file or YouTube URL, transcribe it, generate notes, and save the result locally. VidNotes as a product is broader than that prototype. It maintains ingestion across changing video sites, runs long jobs reliably, ships iOS, Android, web, and a Chrome extension, keeps account state consistent, and exposes the workflow to agents through an API, CLI, and MCP server. Rebuilding all of that is a multi-day integration project with an ongoing operations burden.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from VidNotes",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "integrations",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The narrow DIY loop is achievable in a weekend: import a file or YouTube URL, transcribe it, generate notes, and save the result locally. VidNotes as a product is broader than that prototype. It maintains ingestion across changing video sites, runs long jobs reliably, ships iOS, Android, web, and a Chrome extension, keeps account state consistent, and exposes the workflow to agents through an API, CLI, and MCP server. Rebuilding all of that is a multi-day integration project with an ongoing operations burden.",
+  "priorArt": [
+    {
+      "name": "whisper.cpp Local speech-to-text engine that can replace the hosted transcription step. ↗",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "whisper.cpp Local speech-to-text engine that can replace the hosted transcription step. ↗"
+    },
+    {
+      "name": "yt-dlp Open-source media downloader that covers the DIY URL import step. ↗",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "desc": "yt-dlp Open-source media downloader that covers the DIY URL import step. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "notta",
+    "descript",
+    "castmagic"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The narrow DIY loop is achievable in a weekend: import a file or YouTube URL, transcribe it, generate notes, and save the result locally. VidNotes as a product is broader than that prototype. It maintains ingestion across changing video sites, runs long jobs reliably, ships iOS, Android, web, and a Chrome extension, keeps account state consistent, and exposes the workflow to agents through an API, CLI, and MCP server. Rebuilding all of that is a multi-day integration project with an ongoing operations burden.",
+  "reportedReplacements": 0
+}

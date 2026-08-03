@@ -1,0 +1,51 @@
+{
+  "slug": "koalawriter",
+  "name": "KoalaWriter",
+  "domain": "koalawriter.com",
+  "category": "ai-writing",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For KoalaWriter, create source-grounded article drafts with reusable presets and automatic internal outlines. The hard boundary is live serp retrieval, model routing, wordpress publishing, and bulk workflows, plus workflow, data, and model tuning.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: KoalaWriter costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For KoalaWriter, create source-grounded article drafts with reusable presets and automatic internal outlines. The hard boundary is live serp retrieval, model routing, wordpress publishing, and bulk workflows, plus workflow, data, and model tuning.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from KoalaWriter",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-data"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 💎 proprietary data",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For KoalaWriter, create source-grounded article drafts with reusable presets and automatic internal outlines. The hard boundary is live serp retrieval, model routing, wordpress publishing, and bulk workflows, plus workflow, data, and model tuning.",
+  "priorArt": [
+    {
+      "name": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗",
+      "url": "https://github.com/open-webui/open-webui",
+      "desc": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "writesonic",
+    "copy-ai",
+    "anyword"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For KoalaWriter, create source-grounded article drafts with reusable presets and automatic internal outlines. The hard boundary is live serp retrieval, model routing, wordpress publishing, and bulk workflows, plus workflow, data, and model tuning.",
+  "reportedReplacements": 0
+}

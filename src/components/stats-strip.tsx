@@ -31,7 +31,7 @@ function StatCard({ value, label, delay = 0 }: { value: number | null; label: st
 
   return (
     <div ref={ref} className="text-center group">
-      <div className="font-display text-3xl md:text-4xl font-bold text-primary mb-1 tabular-nums">{value === null ? '—' : display.toLocaleString()}</div>
+      <div className="font-display text-3xl md:text-4xl font-bold text-primary mb-1 tabular-nums">{value === null ? 'â€”' : display.toLocaleString()}</div>
       <div className="text-[11px] text-muted-2 uppercase tracking-[0.06em] font-medium">{label}</div>
     </div>
   );
@@ -49,10 +49,9 @@ export function StatsStrip() {
 
   const cards = [
     { value: stats?.peakDay ?? null, label: 'Peak Day Views' },
-    { value: stats?.viewsToday ?? null, label: 'Views · 24h' },
-    { value: stats?.views7d ?? null, label: 'Views · 7d' },
-    { value: stats?.visitors7d ?? null, label: 'Visitors · 7d' },
-    { value: stats?.promptsCopied7d ?? null, label: 'Prompts Copied · 7d' },
+    { value: stats?.viewsToday ?? null, label: 'Views Â· 24h' },
+    { value: stats?.views7d ?? null, label: 'Views Â· 7d' },
+    { value: stats?.visitors7d ?? null, label: 'Visitors Â· 7d' },
   ];
 
   return (
@@ -63,9 +62,9 @@ export function StatsStrip() {
             <span className="text-[11px] font-medium uppercase tracking-[0.08em] text-primary font-mono">Site Analytics</span>
             <h2 className="font-display text-3xl md:text-4xl font-bold mt-1">Public, because why not</h2>
           </div>
-          <span className="text-xs text-muted-2 font-mono">first-party · every minute</span>
+          <span className="text-xs text-muted-2 font-mono">first-party Â· every minute</span>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-4 gap-y-10">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10">
           {cards.map((card, index) => <StatCard key={card.label} value={card.value} label={card.label} delay={index * 100} />)}
         </div>
       </div>

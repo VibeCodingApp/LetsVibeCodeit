@@ -1,0 +1,51 @@
+{
+  "slug": "enpass",
+  "name": "Enpass",
+  "domain": "enpass.com",
+  "category": "security",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Enpass, store an encrypted vault locally and optionally sync it through the user's own cloud folder. The hard boundary is mature apps, browser extensions, platform biometrics, and ongoing security maintenance, plus security assurance, infrastructure, and trust.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Enpass costs $1.99/mo ($23.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Enpass, store an encrypted vault locally and optionally sync it through the user's own cloud folder. The hard boundary is mature apps, browser extensions, platform biometrics, and ongoing security maintenance, plus security assurance, infrastructure, and trust.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Enpass",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "brand-trust",
+    "execution-polish"
+  ],
+  "moatNotes": "🛡️ brand & trust Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Enpass, store an encrypted vault locally and optionally sync it through the user's own cloud folder. The hard boundary is mature apps, browser extensions, platform biometrics, and ongoing security maintenance, plus security assurance, infrastructure, and trust.",
+  "priorArt": [
+    {
+      "name": "Vaultwarden Widely used Bitwarden-compatible self-hosted password server implementation. ↗",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "desc": "Vaultwarden Widely used Bitwarden-compatible self-hosted password server implementation. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "bitwarden",
+    "deleteme",
+    "nordvpn"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Enpass, store an encrypted vault locally and optionally sync it through the user's own cloud folder. The hard boundary is mature apps, browser extensions, platform biometrics, and ongoing security maintenance, plus security assurance, infrastructure, and trust.",
+  "reportedReplacements": 0
+}

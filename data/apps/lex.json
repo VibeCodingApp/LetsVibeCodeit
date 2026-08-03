@@ -1,0 +1,51 @@
+{
+  "slug": "lex",
+  "name": "Lex",
+  "domain": "lex.com",
+  "category": "ai-writing",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Lex, write and revise long-form documents with comments, version history, and AI actions. The hard boundary is collaborative editor polish, sync, and embedded model access, plus workflow, data, and model tuning.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Lex costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Lex, write and revise long-form documents with comments, version history, and AI actions. The hard boundary is collaborative editor polish, sync, and embedded model access, plus workflow, data, and model tuning.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Lex",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Lex, write and revise long-form documents with comments, version history, and AI actions. The hard boundary is collaborative editor polish, sync, and embedded model access, plus workflow, data, and model tuning.",
+  "priorArt": [
+    {
+      "name": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗",
+      "url": "https://github.com/open-webui/open-webui",
+      "desc": "Open WebUI Active open-source interface for local and API-backed language models with retrieval features. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "writesonic",
+    "copy-ai",
+    "anyword"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Lex, write and revise long-form documents with comments, version history, and AI actions. The hard boundary is collaborative editor polish, sync, and embedded model access, plus workflow, data, and model tuning.",
+  "reportedReplacements": 0
+}

@@ -38,23 +38,22 @@
     "switching-costs",
     "execution-polish"
   ],
-  "moatNotes": "Users with thousands of notes face significant friction to migrate — that's the real retention moat",
+  "moatNotes": "⛓️ switching costs Ã‚Â· 💅 execution polish",
   "whyPeopleStillPay": "Years of notes already stored in Evernote — migrating thousands of notes with attachments is painful",
   "priorArt": [
     {
-      "name": "Joplin",
-      "url": "https://joplinapp.org",
-      "desc": "Open-source note app with markdown and sync"
+      "name": "Joplin Mature open-source note app with sync, markdown notes, clipping, and end-to-end encryption ↗",
+      "url": "https://github.com/laurent22/joplin",
+      "desc": "Joplin Mature open-source note app with sync, markdown notes, clipping, and end-to-end encryption ↗"
     }
   ],
   "relatedSlugs": [
-    "notion",
-    "obsidian",
-    "bear"
+    "obsidian-sync",
+    "readwise-reader",
+    "raindrop-io"
   ],
   "pagePriority": 4,
   "verifiedOneShot": true,
   "notes": "Joplin is a great open-source alternative if you don't want to build your own",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 0
 }

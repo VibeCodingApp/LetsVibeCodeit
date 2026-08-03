@@ -1,0 +1,57 @@
+{
+  "slug": "textcortex",
+  "name": "TextCortex",
+  "domain": "textcortex.com",
+  "category": "ai-writing",
+  "subcategory": null,
+  "tagline": "TextCortex's solo core is compact: build a private AI writing workspace workspace that sends user text to one chosen model, stores versions, applies reusable instructions, and exports Markdown. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, data, workflow.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: TextCortex has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "TextCortex's solo core is compact: build a private AI writing workspace workspace that sends user text to one chosen model, stores versions, applies reusable instructions, and exports Markdown. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, data, workflow.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from TextCortex",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-models",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "TextCortex's solo core is compact: build a private AI writing workspace workspace that sends user text to one chosen model, stores versions, applies reusable instructions, and exports Markdown. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, data, workflow.",
+  "priorArt": [
+    {
+      "name": "Ollama Local model runner for private text-generation workflows. ↗",
+      "url": "https://github.com/ollama/ollama",
+      "desc": "Ollama Local model runner for private text-generation workflows. ↗"
+    },
+    {
+      "name": "Open WebUI Open-source interface and workflow layer for local or hosted language models. ↗",
+      "url": "https://github.com/open-webui/open-webui",
+      "desc": "Open WebUI Open-source interface and workflow layer for local or hosted language models. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "jenni-ai",
+    "paperpal",
+    "gptzero"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "TextCortex's solo core is compact: build a private AI writing workspace workspace that sends user text to one chosen model, stores versions, applies reusable instructions, and exports Markdown. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, data, workflow.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "naturalreader",
+  "name": "NaturalReader",
+  "domain": "naturalreader.com",
+  "category": "voice-ai",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For NaturalReader, read user-provided text and documents aloud with a small set of licensed or local voices. The hard boundary is voice catalog, ocr, document formats, mobile apps, and commercial licensing options, plus models, compute, rights, and safety operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: NaturalReader costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For NaturalReader, read user-provided text and documents aloud with a small set of licensed or local voices. The hard boundary is voice catalog, ocr, document formats, mobile apps, and commercial licensing options, plus models, compute, rights, and safety operations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from NaturalReader",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "content-rights"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🎟️ content & rights",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For NaturalReader, read user-provided text and documents aloud with a small set of licensed or local voices. The hard boundary is voice catalog, ocr, document formats, mobile apps, and commercial licensing options, plus models, compute, rights, and safety operations.",
+  "priorArt": [
+    {
+      "name": "Piper Active community continuation of the fast local Piper text-to-speech engine. ↗",
+      "url": "https://github.com/OHF-Voice/piper1-gpl",
+      "desc": "Piper Active community continuation of the fast local Piper text-to-speech engine. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "speechify",
+    "synthesia",
+    "heygen"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For NaturalReader, read user-provided text and documents aloud with a small set of licensed or local voices. The hard boundary is voice catalog, ocr, document formats, mobile apps, and commercial licensing options, plus models, compute, rights, and safety operations.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "digitalocean-app-platform",
+  "name": "DigitalOcean App Platform",
+  "domain": "digitalocean-app-platform.com",
+  "category": "hosting",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DigitalOcean App Platform, deploy a small containerized service with TLS, logs, and backups on one server. The hard boundary is managed builds, runtime, scaling, databases, networking, and support, plus infrastructure scale, operations, and reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: DigitalOcean App Platform costs $5/mo ($60/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DigitalOcean App Platform, deploy a small containerized service with TLS, logs, and backups on one server. The hard boundary is managed builds, runtime, scaling, databases, networking, and support, plus infrastructure scale, operations, and reliability.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from DigitalOcean App Platform",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DigitalOcean App Platform, deploy a small containerized service with TLS, logs, and backups on one server. The hard boundary is managed builds, runtime, scaling, databases, networking, and support, plus infrastructure scale, operations, and reliability.",
+  "priorArt": [
+    {
+      "name": "Coolify Active open-source self-hosting platform for applications, databases, and services. ↗",
+      "url": "https://github.com/coollabsio/coolify",
+      "desc": "Coolify Active open-source self-hosting platform for applications, databases, and services. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "vercel",
+    "railway",
+    "supabase-pro"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DigitalOcean App Platform, deploy a small containerized service with TLS, logs, and backups on one server. The hard boundary is managed builds, runtime, scaling, databases, networking, and support, plus infrastructure scale, operations, and reliability.",
+  "reportedReplacements": 0
+}

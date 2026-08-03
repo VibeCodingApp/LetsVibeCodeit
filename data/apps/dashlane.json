@@ -1,0 +1,50 @@
+{
+  "slug": "dashlane",
+  "name": "Dashlane",
+  "domain": "dashlane.com",
+  "category": "security",
+  "subcategory": null,
+  "tagline": "A simple vault is buildable, but matching Dashlane's extension/mobile autofill, passkey support, breach monitoring, sharing, and trust posture is not a casual clone.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Dashlane costs $4.99/mo ($59.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A simple vault is buildable, but matching Dashlane's extension/mobile autofill, passkey support, breach monitoring, sharing, and trust posture is not a casual clone.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Dashlane",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "brand-trust",
+    "execution-polish"
+  ],
+  "moatNotes": "🛡️ brand & trust Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "A simple vault is buildable, but matching Dashlane's extension/mobile autofill, passkey support, breach monitoring, sharing, and trust posture is not a casual clone.",
+  "priorArt": [
+    {
+      "name": "KeePassXC Open-source local password manager prior art; not a Dashlane clone but covers the core vau ↗",
+      "url": "https://github.com/KeePassXreboot/keepassxc",
+      "desc": "KeePassXC Open-source local password manager prior art; not a Dashlane clone but covers the core vau ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "hey-email",
+    "bitwarden"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A simple vault is buildable, but matching Dashlane's extension/mobile autofill, passkey support, breach monitoring, sharing, and trust posture is not a casual clone.",
+  "reportedReplacements": 1
+}

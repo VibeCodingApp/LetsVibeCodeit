@@ -1,0 +1,50 @@
+{
+  "slug": "gojo",
+  "name": "Gojo",
+  "domain": "gojo.com",
+  "category": "productivity-utilities",
+  "subcategory": null,
+  "tagline": "A weekend is enough for the useful part: a notch panel with clipboard history, a file shelf, music controls, window snapping, and screen warmth. Getting it ready for daily use takes longer because macOS permissions, dictation, multiple displays, and tiny UI details add up fast.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Gojo costs $4.99/mo ($59.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A weekend is enough for the useful part: a notch panel with clipboard history, a file shelf, music controls, window snapping, and screen warmth. Getting it ready for daily use takes longer because macOS permissions, dictation, multiple displays, and tiny UI details add up fast.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Gojo",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "A weekend is enough for the useful part: a notch panel with clipboard history, a file shelf, music controls, window snapping, and screen warmth. Getting it ready for daily use takes longer because macOS permissions, dictation, multiple displays, and tiny UI details add up fast.",
+  "priorArt": [
+    {
+      "name": "Gojo source The full GPL-3.0 codebase for the native app ↗",
+      "url": "https://github.com/rohoswagger/gojo",
+      "desc": "Gojo source The full GPL-3.0 codebase for the native app ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "raycast-pro",
+    "superwhisper",
+    "alfred-powerpack"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A weekend is enough for the useful part: a notch panel with clipboard history, a file shelf, music controls, window snapping, and screen warmth. Getting it ready for daily use takes longer because macOS permissions, dictation, multiple displays, and tiny UI details add up fast.",
+  "reportedReplacements": 0
+}

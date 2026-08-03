@@ -1,0 +1,50 @@
+{
+  "slug": "session",
+  "name": "Session",
+  "domain": "session.com",
+  "category": "productivity-utilities",
+  "subcategory": null,
+  "tagline": "Session's solo core is compact: build a local desktop utility that captures the essential focus timer workflow with keyboard-first controls and local storage. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, OS integration.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Session costs $3.33/mo ($39.96/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Session's solo core is compact: build a local desktop utility that captures the essential focus timer workflow with keyboard-first controls and local storage. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, OS integration.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Session",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "Session's solo core is compact: build a local desktop utility that captures the essential focus timer workflow with keyboard-first controls and local storage. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, OS integration.",
+  "priorArt": [
+    {
+      "name": "ActivityWatch Local-first automatic time tracking with an extensible event model. ↗",
+      "url": "https://github.com/ActivityWatch/activitywatch",
+      "desc": "ActivityWatch Local-first automatic time tracking with an extensible event model. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "serene",
+    "morgen",
+    "opal"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Session's solo core is compact: build a local desktop utility that captures the essential focus timer workflow with keyboard-first controls and local storage. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, OS integration.",
+  "reportedReplacements": 0
+}

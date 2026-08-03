@@ -1,0 +1,52 @@
+{
+  "slug": "thinkific",
+  "name": "Thinkific",
+  "domain": "thinkific.com",
+  "category": "creator-commerce",
+  "subcategory": null,
+  "tagline": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Thinkific, host a structured course with lessons, progress, and simple quizzes. The hard boundary is course builder, payments, communities, apps, integrations, and support, plus payments, tax, distribution, and operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Thinkific costs $49/mo ($588/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Thinkific, host a structured course with lessons, progress, and simple quizzes. The hard boundary is course builder, payments, communities, apps, integrations, and support, plus payments, tax, distribution, and operations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Thinkific",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Thinkific, host a structured course with lessons, progress, and simple quizzes. The hard boundary is course builder, payments, communities, apps, integrations, and support, plus payments, tax, distribution, and operations.",
+  "priorArt": [
+    {
+      "name": "Medusa Active open-source commerce platform with modular checkout and fulfillment primitives. ↗",
+      "url": "https://github.com/medusajs/medusa",
+      "desc": "Medusa Active open-source commerce platform with modular checkout and fulfillment primitives. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "gumroad",
+    "lemon-squeezy",
+    "paddle"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Thinkific, host a structured course with lessons, progress, and simple quizzes. The hard boundary is course builder, payments, communities, apps, integrations, and support, plus payments, tax, distribution, and operations.",
+  "reportedReplacements": 0
+}

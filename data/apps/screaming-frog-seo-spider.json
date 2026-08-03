@@ -1,0 +1,50 @@
+{
+  "slug": "screaming-frog-seo-spider",
+  "name": "Screaming Frog SEO Spider",
+  "domain": "screaming-frog-seo-spider.com",
+  "category": "seo-marketing",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screaming Frog SEO Spider, crawl an owned site locally, inspect technical signals, and export raw audit data. The hard boundary is years of crawl edge cases, javascript rendering, integrations, and desktop performance, plus crawl scale, rule depth, and operational polish.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Screaming Frog SEO Spider costs $21.58/mo ($258.96/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screaming Frog SEO Spider, crawl an owned site locally, inspect technical signals, and export raw audit data. The hard boundary is years of crawl edge cases, javascript rendering, integrations, and desktop performance, plus crawl scale, rule depth, and operational polish.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Screaming Frog SEO Spider",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screaming Frog SEO Spider, crawl an owned site locally, inspect technical signals, and export raw audit data. The hard boundary is years of crawl edge cases, javascript rendering, integrations, and desktop performance, plus crawl scale, rule depth, and operational polish.",
+  "priorArt": [
+    {
+      "name": "SEOnaut Open-source technical SEO auditing application. ↗",
+      "url": "https://github.com/stjudewashere/seonaut",
+      "desc": "SEOnaut Open-source technical SEO auditing application. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sitebulb",
+    "contentking",
+    "clearscope"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Screaming Frog SEO Spider, crawl an owned site locally, inspect technical signals, and export raw audit data. The hard boundary is years of crawl edge cases, javascript rendering, integrations, and desktop performance, plus crawl scale, rule depth, and operational polish.",
+  "reportedReplacements": 5
+}

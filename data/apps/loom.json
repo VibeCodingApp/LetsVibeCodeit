@@ -36,22 +36,22 @@
   "moatTags": [
     "execution-polish"
   ],
-  "moatNotes": "Browser screen recording is straightforward. Loom's desktop app for system audio is the edge.",
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 👥 collaboration Ã‚Â· 💅 execution polish",
   "whyPeopleStillPay": "Teams needing the desktop app with system audio and viewer analytics",
   "priorArt": [
     {
-      "name": "Screenity",
-      "url": "https://screenity.io",
-      "desc": "Open-source screen recorder Chrome extension"
+      "name": "OBS Studio Excellent open-source recording engine; hosting/sharing remains the DIY gap. ↗",
+      "url": "https://github.com/obsproject/obs-studio",
+      "desc": "OBS Studio Excellent open-source recording engine; hosting/sharing remains the DIY gap. ↗"
     }
   ],
   "relatedSlugs": [
-    "berrycast",
-    "vidyard"
+    "tella",
+    "capcut",
+    "granola"
   ],
   "pagePriority": 4,
   "verifiedOneShot": true,
   "notes": "Very doable as a browser app. Native desktop recording is harder.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 0
 }

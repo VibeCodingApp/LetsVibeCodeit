@@ -1,0 +1,52 @@
+{
+  "slug": "hemingway-editor-plus",
+  "name": "Hemingway Editor Plus",
+  "domain": "hemingway-editor-plus.com",
+  "category": "writing-tools",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Hemingway Editor Plus, flag readability problems and offer optional AI rewrites inside a distraction-free editor. The hard boundary is its polished deterministic readability rules and hosted ai allowance, plus polish, integrations, and proprietary language models.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Hemingway Editor Plus has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Hemingway Editor Plus, flag readability problems and offer optional AI rewrites inside a distraction-free editor. The hard boundary is its polished deterministic readability rules and hosted ai allowance, plus polish, integrations, and proprietary language models.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Hemingway Editor Plus",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "proprietary-models",
+    "integrations"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models Ã‚Â· 🔌 integrations",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Hemingway Editor Plus, flag readability problems and offer optional AI rewrites inside a distraction-free editor. The hard boundary is its polished deterministic readability rules and hosted ai allowance, plus polish, integrations, and proprietary language models.",
+  "priorArt": [
+    {
+      "name": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "desc": "LanguageTool Mature open-source grammar and style checker with desktop and server components. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "sudowrite",
+    "prowritingaid",
+    "languagetool"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Hemingway Editor Plus, flag readability problems and offer optional AI rewrites inside a distraction-free editor. The hard boundary is its polished deterministic readability rules and hosted ai allowance, plus polish, integrations, and proprietary language models.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "simvoly",
+  "name": "Simvoly",
+  "domain": "simvoly.com",
+  "category": "website-builders",
+  "subcategory": null,
+  "tagline": "The visible website + funnel builder loop is buildable, but a credible replacement needs more than the first screen. Simvoly earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Simvoly has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible website + funnel builder loop is buildable, but a credible replacement needs more than the first screen. Simvoly earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "weekend to multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Simvoly",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The visible website + funnel builder loop is buildable, but a credible replacement needs more than the first screen. Simvoly earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Webstudio Open-source visual website builder. ↗",
+      "url": "https://github.com/webstudio-is/webstudio",
+      "desc": "Webstudio Open-source visual website builder. ↗"
+    },
+    {
+      "name": "GrapesJS Open-source web-builder framework. ↗",
+      "url": "https://github.com/GrapesJS/grapesjs",
+      "desc": "GrapesJS Open-source web-builder framework. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "pixpa",
+    "format",
+    "duda"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible website + funnel builder loop is buildable, but a credible replacement needs more than the first screen. Simvoly earns its keep through editor, CMS, hosting, polish, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

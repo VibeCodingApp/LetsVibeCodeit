@@ -1,0 +1,51 @@
+{
+  "slug": "glasp",
+  "name": "Glasp",
+  "domain": "glasp.com",
+  "category": "read-it-later",
+  "subcategory": null,
+  "tagline": "Glasp's solo core is compact: build a private web highlighting workspace that imports user-supplied URLs or files, extracts metadata, supports notes, and searches the local corpus. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on data, import reliability.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Glasp has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Glasp's solo core is compact: build a private web highlighting workspace that imports user-supplied URLs or files, extracts metadata, supports notes, and searches the local corpus. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on data, import reliability.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Glasp",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "execution-polish"
+  ],
+  "moatNotes": "💎 proprietary data Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "Glasp's solo core is compact: build a private web highlighting workspace that imports user-supplied URLs or files, extracts metadata, supports notes, and searches the local corpus. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on data, import reliability.",
+  "priorArt": [
+    {
+      "name": "Zotero Mature open-source research and citation manager. ↗",
+      "url": "https://github.com/zotero/zotero",
+      "desc": "Zotero Mature open-source research and citation manager. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "goodlinks",
+    "feedbin",
+    "matter"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Glasp's solo core is compact: build a private web highlighting workspace that imports user-supplied URLs or files, extracts metadata, supports notes, and searches the local corpus. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on data, import reliability.",
+  "reportedReplacements": 0
+}

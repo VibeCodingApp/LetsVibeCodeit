@@ -1,0 +1,51 @@
+{
+  "slug": "carrd",
+  "name": "Carrd",
+  "domain": "carrd.com",
+  "category": "website-builders",
+  "subcategory": null,
+  "tagline": "A one-page static site generator with forms and custom domains is absolutely vibecodable; Carrd's price is so low that DIY only makes sense for control or learning.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Carrd costs $1.58/mo ($18.96/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A one-page static site generator with forms and custom domains is absolutely vibecodable; Carrd's price is so low that DIY only makes sense for control or learning.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Carrd",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A one-page static site generator with forms and custom domains is absolutely vibecodable; Carrd's price is so low that DIY only makes sense for control or learning.",
+  "priorArt": [
+    {
+      "name": "GrapesJS Open-source web builder library; enough to build a simple Carrd-like editor. ↗",
+      "url": "https://github.com/GrapesJS/grapesjs",
+      "desc": "GrapesJS Open-source web builder library; enough to build a simple Carrd-like editor. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "airtable",
+    "coda",
+    "tally"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A one-page static site generator with forms and custom domains is absolutely vibecodable; Carrd's price is so low that DIY only makes sense for control or learning.",
+  "reportedReplacements": 0
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "buttondown",
+  "name": "Buttondown",
+  "domain": "buttondown.com",
+  "category": "newsletters",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Buttondown, send Markdown newsletters from a small list with archives and simple automations. The hard boundary is excellent deliverability, hosted simplicity, integrations, and creator-friendly support, plus deliverability, growth network, and integrations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Buttondown costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Buttondown, send Markdown newsletters from a small list with archives and simple automations. The hard boundary is excellent deliverability, hosted simplicity, integrations, and creator-friendly support, plus deliverability, growth network, and integrations.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Buttondown",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "execution-polish"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Buttondown, send Markdown newsletters from a small list with archives and simple automations. The hard boundary is excellent deliverability, hosted simplicity, integrations, and creator-friendly support, plus deliverability, growth network, and integrations.",
+  "priorArt": [
+    {
+      "name": "Listmonk Mature open-source newsletter and mailing-list manager. ↗",
+      "url": "https://github.com/knadh/listmonk",
+      "desc": "Listmonk Mature open-source newsletter and mailing-list manager. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "substack",
+    "mailerlite",
+    "activecampaign"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Buttondown, send Markdown newsletters from a small list with archives and simple automations. The hard boundary is excellent deliverability, hosted simplicity, integrations, and creator-friendly support, plus deliverability, growth network, and integrations.",
+  "reportedReplacements": 0
+}

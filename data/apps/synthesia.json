@@ -1,0 +1,52 @@
+{
+  "slug": "synthesia",
+  "name": "Synthesia",
+  "domain": "synthesia.com",
+  "category": "voice-ai",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Synthesia, combine user-owned visuals with clearly labeled synthetic narration and captions. The hard boundary is proprietary avatars, rendering fleet, templates, localization, rights, and enterprise controls, plus models, compute, rights, and safety operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Synthesia costs $29/mo ($348/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Synthesia, combine user-owned visuals with clearly labeled synthetic narration and captions. The hard boundary is proprietary avatars, rendering fleet, templates, localization, rights, and enterprise controls, plus models, compute, rights, and safety operations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Synthesia",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "content-rights",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🧠 proprietary models Ã‚Â· 🎟️ content & rights Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Synthesia, combine user-owned visuals with clearly labeled synthetic narration and captions. The hard boundary is proprietary avatars, rendering fleet, templates, localization, rights, and enterprise controls, plus models, compute, rights, and safety operations.",
+  "priorArt": [
+    {
+      "name": "Piper Active community continuation of the fast local Piper text-to-speech engine. ↗",
+      "url": "https://github.com/OHF-Voice/piper1-gpl",
+      "desc": "Piper Active community continuation of the fast local Piper text-to-speech engine. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "speechify",
+    "heygen",
+    "playht"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Synthesia, combine user-owned visuals with clearly labeled synthetic narration and captions. The hard boundary is proprietary avatars, rendering fleet, templates, localization, rights, and enterprise controls, plus models, compute, rights, and safety operations.",
+  "reportedReplacements": 0
+}

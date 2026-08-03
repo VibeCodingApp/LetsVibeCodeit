@@ -1,0 +1,50 @@
+{
+  "slug": "n8n-cloud",
+  "name": "n8n Cloud",
+  "domain": "n8n-cloud.com",
+  "category": "automation",
+  "subcategory": null,
+  "tagline": "Because n8n itself is open source, the core cloud subscription can be replaced by self-hosting if you can own hosting, updates, and backups.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: n8n Cloud costs $24/mo ($288/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Because n8n itself is open source, the core cloud subscription can be replaced by self-hosting if you can own hosting, updates, and backups.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from n8n Cloud",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale"
+  ],
+  "moatNotes": "🏗️ infrastructure scale",
+  "whyPeopleStillPay": "Because n8n itself is open source, the core cloud subscription can be replaced by self-hosting if you can own hosting, updates, and backups.",
+  "priorArt": [
+    {
+      "name": "n8n The product's open-source workflow automation core. ↗",
+      "url": "https://github.com/n8n-io/n8n",
+      "desc": "n8n The product's open-source workflow automation core. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "plausible",
+    "fathom-analytics",
+    "simple-analytics"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Because n8n itself is open source, the core cloud subscription can be replaced by self-hosting if you can own hosting, updates, and backups.",
+  "reportedReplacements": 3
+}

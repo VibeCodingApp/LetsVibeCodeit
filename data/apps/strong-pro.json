@@ -1,0 +1,50 @@
+{
+  "slug": "strong-pro",
+  "name": "Strong Pro",
+  "domain": "strong-pro.com",
+  "category": "wellness",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Strong Pro, log workouts, templates, sets, rest timers, and personal history locally. The hard boundary is mobile polish, widgets, watch app, cloud sync, and exercise database, plus hardware data, content, coaching, and trust.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Strong Pro costs $4.99/mo ($59.88/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Strong Pro, log workouts, templates, sets, rest timers, and personal history locally. The hard boundary is mobile polish, widgets, watch app, cloud sync, and exercise database, plus hardware data, content, coaching, and trust.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Strong Pro",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Strong Pro, log workouts, templates, sets, rest timers, and personal history locally. The hard boundary is mobile polish, widgets, watch app, cloud sync, and exercise database, plus hardware data, content, coaching, and trust.",
+  "priorArt": [
+    {
+      "name": "wger Active open-source fitness and workout management application. ↗",
+      "url": "https://github.com/wger-project/wger",
+      "desc": "wger Active open-source fitness and workout management application. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "strava",
+    "myfitnesspal-premium",
+    "macrofactor"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Strong Pro, log workouts, templates, sets, rest timers, and personal history locally. The hard boundary is mobile polish, widgets, watch app, cloud sync, and exercise database, plus hardware data, content, coaching, and trust.",
+  "reportedReplacements": 0
+}

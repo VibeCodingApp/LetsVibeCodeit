@@ -1,0 +1,50 @@
+{
+  "slug": "hey-email",
+  "name": "HEY",
+  "domain": "hey-email.com",
+  "category": "email",
+  "subcategory": null,
+  "tagline": "You can build an email client, but replacing HEY means running a trustworthy email service: deliverability, spam filtering, abuse handling, storage, mobile apps, and reputation.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: HEY costs $8.25/mo ($99/yr). Here's why it survives vibecoding.",
+  "coreLoopDIY": "You can build an email client, but replacing HEY means running a trustworthy email service: deliverability, spam filtering, abuse handling, storage, mobile apps, and reputation.",
+  "diyTimeEstimate": "not realistically solo",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from HEY",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "infrastructure-scale",
+    "brand-trust"
+  ],
+  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🛡️ brand & trust",
+  "whyPeopleStillPay": "You can build an email client, but replacing HEY means running a trustworthy email service: deliverability, spam filtering, abuse handling, storage, mobile apps, and reputation.",
+  "priorArt": [
+    {
+      "name": "Mail-in-a-Box Open-source personal mail server stack; useful prior art but deliverability remains the mo ↗",
+      "url": "https://github.com/mail-in-a-box/mailinabox",
+      "desc": "Mail-in-a-Box Open-source personal mail server stack; useful prior art but deliverability remains the mo ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "bitwarden",
+    "dashlane"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "You can build an email client, but replacing HEY means running a trustworthy email service: deliverability, spam filtering, abuse handling, storage, mobile apps, and reputation.",
+  "reportedReplacements": 1
+}

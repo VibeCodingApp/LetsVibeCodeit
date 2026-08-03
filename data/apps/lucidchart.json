@@ -1,0 +1,51 @@
+{
+  "slug": "lucidchart",
+  "name": "Lucidchart",
+  "domain": "lucidchart.com",
+  "category": "diagrams",
+  "subcategory": null,
+  "tagline": "The visible diagramming loop is buildable, but a credible replacement needs more than the first screen. Lucidchart earns its keep through interaction polish, collaboration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Lucidchart costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The visible diagramming loop is buildable, but a credible replacement needs more than the first screen. Lucidchart earns its keep through interaction polish, collaboration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Lucidchart",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "collaboration"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration",
+  "whyPeopleStillPay": "The visible diagramming loop is buildable, but a credible replacement needs more than the first screen. Lucidchart earns its keep through interaction polish, collaboration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "priorArt": [
+    {
+      "name": "Excalidraw Open-source diagram canvas with an approachable interaction model. ↗",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "desc": "Excalidraw Open-source diagram canvas with an approachable interaction model. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "lucidspark",
+    "creately",
+    "visme"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The visible diagramming loop is buildable, but a credible replacement needs more than the first screen. Lucidchart earns its keep through interaction polish, collaboration, so expect a weekend or multi-day build and a narrower personal scope.",
+  "reportedReplacements": 0
+}

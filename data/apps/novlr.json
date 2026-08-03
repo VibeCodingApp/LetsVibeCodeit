@@ -1,0 +1,55 @@
+{
+  "slug": "novlr",
+  "name": "Novlr",
+  "domain": "novlr.com",
+  "category": "notes-knowledge",
+  "subcategory": null,
+  "tagline": "Novlr's solo core is compact: build a local-first novel writing app with fast capture, full-text search, backlinks, tags, and Markdown export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, sync, importers.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Novlr has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "Novlr's solo core is compact: build a local-first novel writing app with fast capture, full-text search, backlinks, tags, and Markdown export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, sync, importers.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Novlr",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "Novlr's solo core is compact: build a local-first novel writing app with fast capture, full-text search, backlinks, tags, and Markdown export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, sync, importers.",
+  "priorArt": [
+    {
+      "name": "AppFlowy Local-first open-source workspace with documents and databases. ↗",
+      "url": "https://github.com/AppFlowy-IO/AppFlowy",
+      "desc": "AppFlowy Local-first open-source workspace with documents and databases. ↗"
+    },
+    {
+      "name": "Logseq Open-source local knowledge graph and outliner. ↗",
+      "url": "https://github.com/logseq/logseq",
+      "desc": "Logseq Open-source local knowledge graph and outliner. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "craft",
+    "ulysses",
+    "dabble"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "Novlr's solo core is compact: build a local-first novel writing app with fast capture, full-text search, backlinks, tags, and Markdown export. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on polish, sync, importers.",
+  "reportedReplacements": 0
+}

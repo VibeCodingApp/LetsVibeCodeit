@@ -1,0 +1,52 @@
+{
+  "slug": "gumroad",
+  "name": "Gumroad",
+  "domain": "gumroad.com",
+  "category": "creator-commerce",
+  "subcategory": null,
+  "tagline": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Gumroad, sell a few digital files through Stripe Checkout and a user-owned delivery page. The hard boundary is buyer familiarity, payment operations, tax handling, discovery, and creator workflow, plus payments, tax, distribution, and operations.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "NOT REALLY: Gumroad has usage-based pricing. Here's why it survives vibecoding.",
+  "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Gumroad, sell a few digital files through Stripe Checkout and a user-owned delivery page. The hard boundary is buyer familiarity, payment operations, tax handling, discovery, and creator workflow, plus payments, tax, distribution, and operations.",
+  "diyTimeEstimate": "closest consolation build: one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Gumroad",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "compliance-regulation",
+    "brand-trust",
+    "marketplace-liquidity"
+  ],
+  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🛡️ brand & trust Ã‚Â· 🏪 marketplace liquidity",
+  "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Gumroad, sell a few digital files through Stripe Checkout and a user-owned delivery page. The hard boundary is buyer familiarity, payment operations, tax handling, discovery, and creator workflow, plus payments, tax, distribution, and operations.",
+  "priorArt": [
+    {
+      "name": "Medusa Active open-source commerce platform with modular checkout and fulfillment primitives. ↗",
+      "url": "https://github.com/medusajs/medusa",
+      "desc": "Medusa Active open-source commerce platform with modular checkout and fulfillment primitives. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "lemon-squeezy",
+    "paddle",
+    "bigcommerce"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Gumroad, sell a few digital files through Stripe Checkout and a user-owned delivery page. The hard boundary is buyer familiarity, payment operations, tax handling, discovery, and creator workflow, plus payments, tax, distribution, and operations.",
+  "reportedReplacements": 0
+}

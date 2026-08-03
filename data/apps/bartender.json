@@ -1,0 +1,50 @@
+{
+  "slug": "bartender",
+  "name": "Bartender",
+  "domain": "bartender.com",
+  "category": "productivity-utilities",
+  "subcategory": null,
+  "tagline": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Bartender, hide, reveal, and arrange menu-bar items with user-defined rules. The hard boundary is deep macos menu-bar handling, os update compatibility, and polished interaction, plus os integration polish and maintenance.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "YES: Bartender has usage-based pricing. Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Bartender, hide, reveal, and arrange menu-bar items with user-defined rules. The hard boundary is deep macos menu-bar handling, os update compatibility, and polished interaction, plus os integration polish and maintenance.",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Bartender",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "💅 execution polish",
+  "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Bartender, hide, reveal, and arrange menu-bar items with user-defined rules. The hard boundary is deep macos menu-bar handling, os update compatibility, and polished interaction, plus os integration polish and maintenance.",
+  "priorArt": [
+    {
+      "name": "Espanso Active open-source cross-platform text expansion utility with system integration. ↗",
+      "url": "https://github.com/espanso/espanso",
+      "desc": "Espanso Active open-source cross-platform text expansion utility with system integration. ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "alfred-powerpack",
+    "setapp",
+    "bettertouchtool"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Bartender, hide, reveal, and arrange menu-bar items with user-defined rules. The hard boundary is deep macos menu-bar handling, os update compatibility, and polished interaction, plus os integration polish and maintenance.",
+  "reportedReplacements": 0
+}

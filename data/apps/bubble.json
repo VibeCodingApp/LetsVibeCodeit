@@ -1,0 +1,52 @@
+{
+  "slug": "bubble",
+  "name": "Bubble",
+  "domain": "bubble.com",
+  "category": "no-code-apps",
+  "subcategory": null,
+  "tagline": "A specific Bubble app is often vibecodable now; rebuilding Bubble's editor, workflow engine, plugin ecosystem, hosting, and scaling layer is not.",
+  "priceMonthly": 1,
+  "pricing": {
+    "plan": "Listed plan",
+    "basis": "subscription",
+    "unit": "month",
+    "source": "",
+    "checkedOn": "",
+    "confidence": "source",
+    "notes": "",
+    "native": "$1"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "medium",
+  "verdictSummary": "KINDA: Bubble costs $32/mo ($384/yr). Here is the practical trade-off and what you lose.",
+  "coreLoopDIY": "A specific Bubble app is often vibecodable now; rebuilding Bubble's editor, workflow engine, plugin ecosystem, hosting, and scaling layer is not.",
+  "diyTimeEstimate": "multi-day",
+  "requirements": [],
+  "whatYouLose": [
+    "Hosted infrastructure and managed operations from Bubble",
+    "The original service's mature integrations and ecosystem"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations",
+    "infrastructure-scale"
+  ],
+  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "whyPeopleStillPay": "A specific Bubble app is often vibecodable now; rebuilding Bubble's editor, workflow engine, plugin ecosystem, hosting, and scaling layer is not.",
+  "priorArt": [
+    {
+      "name": "Appsmith Open-source low-code builder for internal tools; partial prior art for visual app building ↗",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "desc": "Appsmith Open-source low-code builder for internal tools; partial prior art for visual app building ↗"
+    }
+  ],
+  "relatedSlugs": [
+    "zapier",
+    "make",
+    "ifttt"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": true,
+  "notes": "A specific Bubble app is often vibecodable now; rebuilding Bubble's editor, workflow engine, plugin ecosystem, hosting, and scaling layer is not.",
+  "reportedReplacements": 0
+}

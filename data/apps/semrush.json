@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$139.95/mo"
   },
-  "verdict": "no",
+  "verdict": "yes",
   "verdictConfidence": "high",
   "verdictSummary": "The value is the data: billions of keywords, backlink graphs, SERP history, and competitor ad intelligence. You can't one-shot a web-scale crawler and data pipeline.",
   "coreLoopDIY": "Basic keyword position checker",
@@ -37,22 +37,22 @@
     "proprietary-data",
     "scale-infra"
   ],
-  "moatNotes": "Semrush's moat is their web-scale data collection infrastructure, not the UI",
+  "moatNotes": "💎 proprietary data Ã‚Â· 🏗️ infrastructure scale",
   "whyPeopleStillPay": "The data is irreplaceable for professional SEO work",
   "priorArt": [
     {
-      "name": "Ahrefs",
-      "url": "https://ahrefs.com",
-      "desc": "Similar web-scale SEO tool"
+      "name": "SEO Macroscope Open-source technical SEO crawler; useful only for a narrow slice of Semrush. ↗",
+      "url": "https://github.com/smac89/SEO-Macroscope",
+      "desc": "SEO Macroscope Open-source technical SEO crawler; useful only for a narrow slice of Semrush. ↗"
     }
   ],
   "relatedSlugs": [
-    "ahrefs",
-    "moz-pro"
+    "surfer-seo",
+    "frase",
+    "quickbooks-online"
   ],
   "pagePriority": 3,
   "verifiedOneShot": false,
   "notes": "The UI is easy. The data is the moat.",
-  "prompt": "",
-  "promptCurated": false
+  "reportedReplacements": 1
 }
