@@ -57,29 +57,42 @@ function toNumber(value: unknown) {
   return Number.isFinite(result) ? result : 0;
 }
 
+const STATS_TTL_MS = 60_000;
+let cachedStats: { stats: PostHogStats; at: number } | null = null;
+
 export async function getPostHogStats(): Promise<PostHogStats | null> {
   if (!isPostHogStatsConfigured()) return null;
 
-  const overview = await runQuery(
-    `SELECT
-      countIf(${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 24 hour),
-      countIf(${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 7 day),
-      uniqExactIf(distinct_id, ${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 7 day),
-    FROM events`,
-    'letsvibecodeit live analytics overview',
-  );
-  const peak = await runQuery(
-    `SELECT count() FROM events
-      WHERE ${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 30 day
-      GROUP BY toDate(timestamp) ORDER BY count() DESC LIMIT 1`,
-    'letsvibecodeit peak daily pageviews',
-  );
+  if (cachedStats && Date.now() - cachedStats.at < STATS_TTL_MS) {
+    return cachedStats.stats;
+  }
 
-  return {
+  const [overview, peak] = await Promise.all([
+    runQuery(
+      `SELECT
+        countIf(${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 24 hour),
+        countIf(${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 7 day),
+        uniqExactIf(distinct_id, ${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 7 day),
+      FROM events
+      WHERE ${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 7 day`,
+      'letsvibecodeit live analytics overview',
+    ),
+    runQuery(
+      `SELECT count() FROM events
+        WHERE ${PAGEVIEW_EVENTS} AND timestamp >= now() - interval 30 day
+        GROUP BY toDate(timestamp) ORDER BY count() DESC LIMIT 1`,
+      'letsvibecodeit peak daily pageviews',
+    ),
+  ]);
+
+  const stats: PostHogStats = {
     viewsToday: toNumber(overview?.[0]),
     views7d: toNumber(overview?.[1]),
     visitors7d: toNumber(overview?.[2]),
     peakDay: toNumber(peak?.[0]),
     updatedAt: new Date().toISOString(),
   };
+
+  cachedStats = { stats, at: Date.now() };
+  return stats;
 }
