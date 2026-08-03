@@ -60,7 +60,7 @@ Ads remain in normal document flow at each interval, but their active visual is 
 
 ## Known risks
 
-- This checkout started without .git metadata; GitHub publication requires initializing Git locally.
+- GitHub origin is configured as VibeCodingApp/LetsVibeCodeit; the clean public snapshot is ready for the first push.
 - PostHog live values remain unavailable until the five environment variables are configured in local/production hosting.
 - npm install reports five high-severity dependency advisories; no forced audit fix was applied.
 - The published PostHog wizard needs an interactive authenticated terminal; its command is documented in README and the integration is kept explicit in source.
