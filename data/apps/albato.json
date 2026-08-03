@@ -30,7 +30,7 @@
     "integrations",
     "infrastructure-scale"
   ],
-  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🔌 integrations · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Albato, connect two services and expose every transformation and retry. The hard boundary is connector library, app integrator, oauth, hosted execution, and support, plus connector breadth and execution reliability.",
   "priorArt": [
     {

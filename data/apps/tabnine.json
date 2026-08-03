@@ -30,7 +30,7 @@
     "proprietary-models",
     "infrastructure-scale"
   ],
-  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🧠 proprietary models · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Tabnine, provide local repository completions and chat through a selected model endpoint. The hard boundary is enterprise deployment, private models, ide coverage, governance, and support, plus frontier models, context infrastructure, and execution safety.",
   "priorArt": [
     {

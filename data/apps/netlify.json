@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "execution-polish"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "moatNotes": "🏗️ infrastructure scale · 💅 execution polish",
   "whyPeopleStillPay": "Static hosting and functions are easy to assemble, but Netlify's value is Git-based deploys, previews, forms, redirects, edge functions, and managed platform reliability.",
   "priorArt": [
     {

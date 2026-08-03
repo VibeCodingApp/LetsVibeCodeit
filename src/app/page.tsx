@@ -21,7 +21,7 @@ export default function HomePage() {
   return (
     <>
       <section className="pt-16 pb-10 md:pt-24 md:pb-14">
-        <div className="relative max-w-[1120px] 2xl:max-w-[960px] mx-auto px-5 flex items-start justify-center">
+        <div className="container-main hero-frame">
           <AdSlotHero side="left" />
           <div className="flex-1 max-w-[600px] text-center mx-auto">
             <h1 className="font-display font-bold text-[clamp(44px,7vw,80px)] leading-tight mb-3">

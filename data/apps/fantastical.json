@@ -30,7 +30,7 @@
     "execution-polish",
     "integrations"
   ],
-  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations",
+  "moatNotes": "💅 execution polish · 🔌 integrations",
   "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Fantastical, create a polished Apple calendar client with natural-language event entry and local sets. The hard boundary is native apple integrations, widgets, sync, proposals, and years of calendar edge cases, plus calendar integrations and reliability.",
   "priorArt": [
     {

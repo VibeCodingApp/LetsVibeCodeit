@@ -30,7 +30,7 @@
     "execution-polish",
     "proprietary-models"
   ],
-  "moatNotes": "💅 execution polish Ã‚Â· 🧠 proprietary models",
+  "moatNotes": "💅 execution polish · 🧠 proprietary models",
   "whyPeopleStillPay": "You can build post-processing and maybe route audio through open models, but real-time low-latency virtual-device noise cancellation is not a one-sitting web app.",
   "priorArt": [
     {

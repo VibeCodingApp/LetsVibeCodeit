@@ -31,7 +31,7 @@
     "integrations",
     "collaboration"
   ],
-  "moatNotes": "💅 execution polish Ã‚Â· 🔌 integrations Ã‚Â· 👥 collaboration",
+  "moatNotes": "💅 execution polish · 🔌 integrations · 👥 collaboration",
   "whyPeopleStillPay": "The core loop is small enough for a capable coding agent to produce a useful local version in one sitting. For Tactiq, capture browser meeting captions, clean the transcript, and generate notes on demand. The hard boundary is browser integration polish, multilingual handling, sharing, and automations, plus capture reliability, integrations, and collaboration.",
   "priorArt": [
     {

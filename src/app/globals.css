@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 :root {
+  --page-gutter: 40px;
+  --content-max: 1120px;
+  --rail-width: 240px;
+  --hero-ad-gap: 24px;
   --bg: #0b0d0b; --surface: #131613; --surface-2: #1a1e1a; --surface-3: #1f231f;
   --border: #262b26; --border-2: #313731; --fg: #e8e6e0; --fg-2: #c5c3bd;
   --muted: #9aa29a; --muted-2: #6c7268;
@@ -34,6 +38,14 @@
   --glass-bg: rgba(255,255,255,0.8); --glass-border: rgba(0,0,0,0.05);
 }
 
+@media (min-width: 1536px) {
+  :root { --content-max: 960px; }
+}
+
+@media (max-width: 639px) {
+  :root { --page-gutter: 32px; }
+}
+
 @layer base {
   html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
   body {
@@ -53,7 +65,17 @@
     border-bottom:1px solid var(--glass-border);
   }
   .section-pad { @apply py-20 md:py-24; }
-  .container-main { @apply max-w-[1120px] 2xl:max-w-[960px] mx-auto px-5; }
+  .container-main {
+    width: min(var(--content-max), calc(100% - var(--page-gutter)));
+    max-width: none;
+    margin-inline: auto;
+  }
+  .detail-stack { display: flex; width: 100%; flex-direction: column; gap: 48px; }
+  .hero-frame { position: relative; }
+  .hero-ad { display: none; position: absolute; top: 0; width: 200px; }
+  .hero-ad-left { right: calc(50% + (var(--content-max) / 2) + var(--hero-ad-gap)); }
+  .hero-ad-right { left: calc(50% + (var(--content-max) / 2) + var(--hero-ad-gap)); }
+  .site-header-inner { min-height: 54px; }
   .chip {
     @apply font-mono text-xs px-3.5 py-1.5 rounded-full border cursor-pointer whitespace-nowrap select-none transition-all;
     border-color:var(--border); background:var(--surface-2); color:var(--fg-2);
@@ -62,4 +84,12 @@
   .chip-active { background:var(--primary); border-color:var(--primary); color:#000; font-weight:600; }
   .reveal { opacity:0; transform:translateY(24px); transition:opacity .6s cubic-bezier(.22,1,.36,1),transform .6s cubic-bezier(.22,1,.36,1); }
   .reveal.visible { opacity:1; transform:translateY(0); }
+}
+
+@media (min-width: 2000px) {
+  .hero-ad { display: block; }
+}
+
+@media (max-width: 767px) {
+  .detail-stack { gap: 32px; }
 }

@@ -31,7 +31,7 @@
     "execution-polish",
     "infrastructure-scale"
   ],
-  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🔌 integrations · 💅 execution polish · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For WeWeb, build a responsive frontend over one API with reusable components and workflows. The hard boundary is visual frontend editor, hosting, connectors, code export, and collaboration, plus connectors, runtime reliability, and governance.",
   "priorArt": [
     {

@@ -31,7 +31,7 @@
     "execution-polish",
     "compliance-regulation"
   ],
-  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish Ã‚Â· 🏛️ compliance & regulation",
+  "moatNotes": "🔌 integrations · 💅 execution polish · 🏛️ compliance & regulation",
   "whyPeopleStillPay": "The public booking loop is weekend-buildable. The honest replacement, however, stops being a scheduler almost immediately: meetergo combines maintained multi-calendar sync, time-zone and conflict handling, round-robin and conditional routing, resource and multi-location booking, automated reminders, payments, video, CRM, client portals, e-signatures, invoicing, and AI across one EU-hosted system. An agent can reproduce the solo front door; replacing the operating layer behind customer meetings is an ongoing product and compliance job.",
   "priorArt": [
     {

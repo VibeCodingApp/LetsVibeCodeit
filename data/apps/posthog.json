@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "switching-costs"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· ⛓️ switching costs",
+  "moatNotes": "🏗️ infrastructure scale · ⛓️ switching costs",
   "whyPeopleStillPay": "First-party collection and a dashboard that answers your top five questions is one sitting of work, and PostHog's free tier covers a million events a month before you pay anything. What the bill buys past that is the rest of the platform: session replay, feature flags, SQL over years of events, and ingestion that stays correct while your event schema drifts underneath it.",
   "priorArt": [
     {

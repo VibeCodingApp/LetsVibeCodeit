@@ -31,7 +31,7 @@
     "integrations",
     "execution-polish"
   ],
-  "moatNotes": "🧠 proprietary models Ã‚Â· 🔌 integrations Ã‚Â· 💅 execution polish",
+  "moatNotes": "🧠 proprietary models · 🔌 integrations · 💅 execution polish",
   "whyPeopleStillPay": "GitKraken's solo core is compact: build a repository-local Git client assistant that indexes one codebase, calls one model, proposes diffs, runs tests, and records every change. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on model, context, integration.",
   "priorArt": [
     {

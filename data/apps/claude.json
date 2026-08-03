@@ -30,7 +30,7 @@
     "proprietary-models",
     "infrastructure-scale"
   ],
-  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🧠 proprietary models · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "A Claude-like UI is trivial; the model, safety/reliability layer, long-context performance, artifacts/projects, and platform distribution are not.",
   "priorArt": [
     {

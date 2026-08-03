@@ -31,7 +31,7 @@
     "infrastructure-scale",
     "execution-polish"
   ],
-  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "moatNotes": "🔌 integrations · 🏗️ infrastructure scale · 💅 execution polish",
   "whyPeopleStillPay": "The narrow DIY loop is achievable in a weekend: import a file or YouTube URL, transcribe it, generate notes, and save the result locally. VidNotes as a product is broader than that prototype. It maintains ingestion across changing video sites, runs long jobs reliably, ships iOS, Android, web, and a Chrome extension, keeps account state consistent, and exposes the workflow to agents through an API, CLI, and MCP server. Rebuilding all of that is a multi-day integration project with an ongoing operations burden.",
   "priorArt": [
     {

@@ -11,7 +11,7 @@ const sg = Space_Grotesk({ subsets: ['latin'], weight: ['300','400','500','600',
 const jm = JetBrains_Mono({ subsets: ['latin'], weight: ['400','500','700'], variable: '--font-mono' });
 
 export const metadata: Metadata = {
-  title: 'LetsVibeCodeit.com â€” Which subscriptions are one prompt away from free',
+  title: 'LetsVibeCodeit.com - Which subscriptions are one prompt away from free',
   description: 'The leaderboard of SaaS apps you can replace with a focused build, with honest verdicts and the trade-offs of leaving.',
   openGraph: { title: 'LetsVibeCodeit.com', description: 'Which subscriptions are one prompt away from free' },
   twitter: { card: 'summary_large_image', title: 'LetsVibeCodeit.com', description: 'Which subscriptions are one prompt away from free' },

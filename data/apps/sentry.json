@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "integrations"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "moatNotes": "🏗️ infrastructure scale · 🔌 integrations",
   "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sentry, receive bounded error events, group them, link releases, and notify one team. The hard boundary is sdk ecosystem, grouping models, tracing, replay, global ingestion, and enterprise operations, plus independent infrastructure and reliable alerting.",
   "priorArt": [
     {

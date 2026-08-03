@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "integrations"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "moatNotes": "🏗️ infrastructure scale · 🔌 integrations",
   "whyPeopleStillPay": "A personal TikTok or Instagram profile fetcher with Playwright and SQLite is a one-sitting build. Social Fetch is not that. It is kept-alive scrapers on 20+ platforms, proxy routing, anti-bot handling, a stable response schema, and credit metering. Your DIY script breaks when TikTok changes markup. The API bill is for that not being your problem.",
   "priorArt": [
     {

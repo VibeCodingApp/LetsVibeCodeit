@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "execution-polish"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "moatNotes": "🏗️ infrastructure scale · 💅 execution polish",
   "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Checkly, run scheduled API and browser checks from one independent worker. The hard boundary is global browser fleet, playwright operations, alerting, ci integration, and support, plus independent infrastructure and reliable alerting.",
   "priorArt": [
     {

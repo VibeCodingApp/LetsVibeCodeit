@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "execution-polish"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "moatNotes": "🏗️ infrastructure scale · 💅 execution polish",
   "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supabase Pro, self-host a Postgres backend with auth, storage, and a small API surface. The hard boundary is managed postgres, backups, auth delivery, storage, edge functions, observability, and support, plus infrastructure scale, operations, and reliability.",
   "priorArt": [
     {

@@ -30,7 +30,7 @@
     "proprietary-models",
     "infrastructure-scale"
   ],
-  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🧠 proprietary models · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For v0, generate React components from a brief and write them into a local project with previews. The hard boundary is vercel models, design tuning, component data, deployment, and ecosystem integration, plus frontier models, context infrastructure, and execution safety.",
   "priorArt": [
     {

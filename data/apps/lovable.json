@@ -30,7 +30,7 @@
     "proprietary-models",
     "infrastructure-scale"
   ],
-  "moatNotes": "🧠 proprietary models Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🧠 proprietary models · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "The wrapper is easy: a CLI that sends your brief to a model, writes the files, and starts the dev server is one sitting of work. The model doing the writing is the actual product, and you cannot rebuild that. Everything Lovable puts around it, the hosted preview, the deploy, the database wired up for you, and a non-developer being able to use any of it, goes with the subscription.",
   "priorArt": [
     {

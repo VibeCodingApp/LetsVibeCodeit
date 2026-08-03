@@ -23,7 +23,7 @@ export function DigestCard() {
             <input type="text" className="absolute opacity-0 h-0 w-0 -z-10 pointer-events-none" name="website" autoComplete="off" tabIndex={-1} placeholder="Leave this empty" />
             <button type="submit" className="px-6 py-3.5 rounded-lg bg-primary text-black font-display font-semibold text-sm hover:brightness-110 hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_var(--primary-glow)] hover:shadow-[0_6px_24px_var(--primary-glow-strong)] whitespace-nowrap">Get the digest</button>
           </form>
-          <p className="text-xs text-muted-2 mt-4">free forever Â· no spam Â· plain-language analysis</p>
+          <p className="text-xs text-muted-2 mt-4">free forever - no spam - plain-language analysis</p>
         </div>
       </div>
     </section>

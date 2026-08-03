@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "execution-polish"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "moatNotes": "🏗️ infrastructure scale · 💅 execution polish",
   "whyPeopleStillPay": "A cron loop, a fetch, an alert webhook, and a status page. The $30/mo is for the dashboard gloss.",
   "priorArt": [
     {

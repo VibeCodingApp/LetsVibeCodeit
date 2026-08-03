@@ -31,7 +31,7 @@
     "execution-polish",
     "infrastructure-scale"
   ],
-  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🔌 integrations · 💅 execution polish · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For ToolJet Cloud, build and deploy a constrained internal data tool for a small team. The hard boundary is connectors, runtime, permissions, enterprise controls, and hosted operations, plus connectors, runtime reliability, and governance.",
   "priorArt": [
     {

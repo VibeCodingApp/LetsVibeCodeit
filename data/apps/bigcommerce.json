@@ -31,7 +31,7 @@
     "integrations",
     "infrastructure-scale"
   ],
-  "moatNotes": "🏛️ compliance & regulation Ã‚Â· 🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🏛️ compliance & regulation · 🔌 integrations · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For BigCommerce, build a small catalog and hand off payments to Stripe Checkout. The hard boundary is hosted commerce engine, tax, channels, integrations, scale, and support, plus payments, tax, distribution, and operations.",
   "priorArt": [
     {

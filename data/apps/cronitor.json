@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "integrations"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "moatNotes": "🏗️ infrastructure scale · 🔌 integrations",
   "whyPeopleStillPay": "Heartbeat endpoint plus dead-man's-switch alerts. A hundred lines of code wearing a SaaS badge.",
   "priorArt": [
     {

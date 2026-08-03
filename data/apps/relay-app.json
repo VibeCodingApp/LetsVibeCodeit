@@ -30,7 +30,7 @@
     "integrations",
     "infrastructure-scale"
   ],
-  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🔌 integrations · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Relay.app, build a small human-in-the-loop workflow across two approved services. The hard boundary is polished approvals, ai steps, integrations, shared workflows, and managed execution, plus connector breadth and execution reliability.",
   "priorArt": [
     {

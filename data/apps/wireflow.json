@@ -31,7 +31,7 @@
     "collaboration",
     "integrations"
   ],
-  "moatNotes": "💅 execution polish Ã‚Â· 👥 collaboration Ã‚Â· 🔌 integrations",
+  "moatNotes": "💅 execution polish · 👥 collaboration · 🔌 integrations",
   "whyPeopleStillPay": "Chaining a few model calls is a script, and ComfyUI already gives you a free node canvas. What you will not get in a weekend is the part after generation: a track and keyframe timeline with hosted rendering, and live multiplayer inside it. The graph is vibecodable. The editor attached to it is not.",
   "priorArt": [
     {

@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "execution-polish"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "moatNotes": "🏗️ infrastructure scale · 💅 execution polish",
   "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Grafana Cloud, host Grafana, Prometheus, Loki, and Tempo for a small stack on user-owned infrastructure. The hard boundary is managed global telemetry, integrations, retention, support, and scalable operations, plus independent infrastructure and reliable alerting.",
   "priorArt": [
     {

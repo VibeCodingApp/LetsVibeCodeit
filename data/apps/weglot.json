@@ -30,7 +30,7 @@
     "integrations",
     "infrastructure-scale"
   ],
-  "moatNotes": "🔌 integrations Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "🔌 integrations · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Weglot, translate a small static site build and generate localized routes at deploy time. The hard boundary is website proxy, automatic discovery, machine translation, seo routing, and hosted delivery, plus translation memory, collaboration, and deployment integrations.",
   "priorArt": [
     {

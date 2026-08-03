@@ -18,7 +18,7 @@ export function Header() {
       {open && <div className="md:hidden fixed inset-0 z-40 bg-black/40 backdrop-blur-sm" onClick={() => setOpen(false)} />}
 
       <header data-site-header className="sticky top-0 z-50 bg-transparent">
-        <div className="max-w-[1120px] 2xl:max-w-[960px] mx-auto glass px-5 h-[54px] flex items-center justify-between rounded-b-xl">
+        <div className="container-main site-header-inner glass px-5 flex items-center justify-between rounded-b-xl">
           <a href="/" className="flex items-center no-underline text-fg group shrink-0 gap-2.5">
             <span className="w-7 h-7 rounded-md bg-[#1a2a1f] border border-[#2a4a2f] text-primary flex items-center justify-center font-mono text-[12px] font-bold group-hover:border-primary group-hover:shadow-[0_0_12px_var(--primary-glow)] transition-all duration-300">&lt;/&gt;</span>
             <span className="font-display font-bold text-[17px] tracking-tight whitespace-nowrap leading-none">

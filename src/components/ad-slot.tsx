@@ -116,7 +116,7 @@ export function AdSlot({
       <div className={surfaceClassName} data-sticky-surface={sticky ? 'true' : undefined}>
         <div className="flex items-center gap-3">
           <span className="text-[10px] uppercase tracking-[0.08em] text-muted-2 font-mono">In-List Ad</span>
-          <span className="text-primary font-display font-bold text-base">$99</span>
+          <span className="text-primary font-display font-bold text-base">$79</span>
           <span className="text-[10px] text-muted-2 font-mono">/30 days</span>
         </div>
         <span className="text-[11px] text-muted-2 font-mono">promote your product in the death list</span>
@@ -130,7 +130,7 @@ export function StickyAdLayer({ slot }: StickyAdLayerProps) {
 
   return (
     <div
-      className="fixed inset-x-0 z-40 container-main pointer-events-auto"
+      className="fixed left-1/2 z-40 container-main -translate-x-1/2 pointer-events-auto"
       style={{ top: SITE_HEADER_HEIGHT }}
       data-sticky-ad-layer
       data-sticky-state="active"

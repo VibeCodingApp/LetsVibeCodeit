@@ -31,7 +31,7 @@
     "hardware",
     "proprietary-data"
   ],
-  "moatNotes": "🕸️ network effects Ã‚Â· 🔩 hardware Ã‚Â· 💎 proprietary data",
+  "moatNotes": "🕸️ network effects · 🔩 hardware · 💎 proprietary data",
   "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Strava, log user-entered activities and map imported GPX files without recreating Strava's network. The hard boundary is athlete social graph, segment leaderboard, route data, device integrations, and scale, plus hardware data, content, coaching, and trust.",
   "priorArt": [
     {

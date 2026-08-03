@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "integrations"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 🔌 integrations",
+  "moatNotes": "🏗️ infrastructure scale · 🔌 integrations",
   "whyPeopleStillPay": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Datadog, collect a bounded set of host metrics and logs into a self-hosted dashboard. The hard boundary is huge integration catalog, global ingestion, correlation, retention, security, and support, plus independent infrastructure and reliable alerting.",
   "priorArt": [
     {

@@ -30,7 +30,7 @@
     "integrations",
     "execution-polish"
   ],
-  "moatNotes": "🔌 integrations Ã‚Â· 💅 execution polish",
+  "moatNotes": "🔌 integrations · 💅 execution polish",
   "whyPeopleStillPay": "The personal Gmail loop is a weekend project: classify new mail, apply labels, draft replies, and surface bulk cleanup. The gap is making it trustworthy enough to sit inside a real inbox every day: OAuth setup and review, token refresh, provider quirks, continuous sync, retries, rate limits, security, and integrations. Inbox Zero itself is open source, so anyone wanting the full product should self-host the official code instead of rebuilding all of it.",
   "priorArt": [
     {

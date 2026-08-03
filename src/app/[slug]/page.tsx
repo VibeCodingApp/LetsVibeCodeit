@@ -19,16 +19,16 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const app = getAppBySlug(params.slug);
-  if (!app) return { title: 'Not Found Ã‚Â· LetsVibeCodeit.com' };
+  if (!app) return { title: 'Not Found - LetsVibeCodeit.com' };
   return {
-    title: `Can I vibecode ${app.name}? Ã‚Â· LetsVibeCodeit.com`,
+    title: `Can I vibecode ${app.name}? - LetsVibeCodeit.com`,
     description: app.verdictSummary,
     openGraph: { title: `Can I vibecode ${app.name}?`, description: app.verdictSummary },
   };
 }
 
 function AppMeta({ app }: { app: NonNullable<ReturnType<typeof getAppBySlug>> }) {
-  const price = app.priceMonthly === null ? 'Ã¢â‚¬â€' : app.priceMonthly === 0 ? 'Free' : `$${app.priceMonthly}/mo`;
+  const price = app.priceMonthly === null ? 'varies' : app.priceMonthly === 0 ? 'Free' : `$${app.priceMonthly}/mo`;
   const savings = app.priceMonthly ? `$${app.priceMonthly * 12}/yr` : 'no subscription';
   return (
     <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-xs text-muted">
@@ -64,16 +64,16 @@ export default function AppDetailPage({ params }: { params: { slug: string } }) 
       <div className="relative py-8 md:py-10">
         <AdSlotHero side="left" />
         <AdSlotHero side="right" />
-        <div className="container-main max-w-[1120px]">
-          <div className="mx-auto max-w-[1080px]">
-            <div className="mb-7 font-mono text-xs text-muted">
+        <div className="container-main">
+          <div className="detail-stack">
+            <div className="font-mono text-xs text-muted">
               <a href="/" className="no-underline transition-colors hover:text-fg">the death list</a>
               <span className="px-2">/</span>
               <a href={`/category/${encodeURIComponent(app.category)}`} className="no-underline transition-colors hover:text-fg">{app.category}</a>
               <span className="px-2">/</span><span className="text-fg">{app.slug}</span>
             </div>
 
-            <section className="mx-auto max-w-[1080px]">
+            <section>
               <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
                 <div className="flex min-w-0 items-start gap-4">
                   <img src={`https://www.google.com/s2/favicons?domain=${app.domain}&sz=128`} alt={`${app.name} icon`} width={56} height={56} className="mt-1 h-14 w-14 shrink-0 rounded-2xl border border-[var(--border)] bg-surface-2 p-2" />
@@ -93,7 +93,7 @@ export default function AppDetailPage({ params }: { params: { slug: string } }) 
 
             <DetailAdBreak slot={`detail-hero-${app.slug}`} />
 
-            <section className="mb-10">
+            <section>
               <div className="mb-2 flex flex-wrap items-center justify-between gap-3">
                 <h2 className="font-display text-lg font-bold uppercase tracking-[0.08em] text-muted">The Build Prompt</h2>
                 <span className="font-mono text-[11px] text-muted-2">protected content</span>
@@ -115,17 +115,17 @@ export default function AppDetailPage({ params }: { params: { slug: string } }) 
 
             <DetailAdBreak slot={`detail-lower-${app.slug}`} />
 
-            <section className="mb-10">
+            <section>
               <RelatedApps apps={related} />
             </section>
 
-            <section className="mb-12 flex flex-wrap items-center gap-3 rounded-xl border border-[var(--border)] bg-surface-2 p-4">
+            <section className="flex flex-wrap items-center gap-3 rounded-xl border border-[var(--border)] bg-surface-2 p-4">
               <ReplaceButton slug={app.slug} appName={app.name} initialVotes={app.reportedReplacements} />
-              <a href={`https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-lg border border-[var(--border)] bg-surface-3 px-4 py-2 font-mono text-xs font-semibold text-fg-2 no-underline transition-colors hover:border-[var(--border-2)] hover:text-fg">Ã°Ââ€¢Â share on X Ã¢â€ â€”</a>
+              <a href={`https://x.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-lg border border-[var(--border)] bg-surface-3 px-4 py-2 font-mono text-xs font-semibold text-fg-2 no-underline transition-colors hover:border-[var(--border-2)] hover:text-fg">Share on X -&gt;</a>
               <span className="text-xs text-muted-2">Your vote helps rank the death list.</span>
             </section>
 
-            <section className="mb-12">
+            <section>
               <div className="mb-4 flex items-center justify-between"><h2 className="font-mono text-xs uppercase tracking-[0.1em] text-muted-2">Questions</h2><span className="font-mono text-xs text-muted-2">{getAppFaq(app).length} answers</span></div>
               <FAQ items={getAppFaq(app)} />
             </section>

@@ -30,7 +30,7 @@
     "proprietary-data",
     "integrations"
   ],
-  "moatNotes": "💎 proprietary data Ã‚Â· 🔌 integrations",
+  "moatNotes": "💎 proprietary data · 🔌 integrations",
   "whyPeopleStillPay": "The personal core (a composer with an LLM writing in your voice, a slot-based scheduler, and basic analytics) is a weekend build, exactly like every scheduler on this list. What you cannot one-shot: X's write API costs real money before your first post goes out, the 10M-post viral library and timing models are proprietary data collected over years, and the engagement automations live in rate-limit and ToS territory that a personal script will get wrong. Full disclosure: SuperX is built by the person who runs this site. The verdict got no mercy anyway.",
   "priorArt": [
     {

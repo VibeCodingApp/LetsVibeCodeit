@@ -30,7 +30,7 @@
     "execution-polish",
     "infrastructure-scale"
   ],
-  "moatNotes": "💅 execution polish Ã‚Â· 🏗️ infrastructure scale",
+  "moatNotes": "💅 execution polish · 🏗️ infrastructure scale",
   "whyPeopleStillPay": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Newton Mail, build a cross-platform email client with read receipts, snooze, and send later. The hard boundary is push infrastructure, provider compatibility, mobile apps, sync, and support, plus mail infrastructure, integrations, and client polish.",
   "priorArt": [
     {

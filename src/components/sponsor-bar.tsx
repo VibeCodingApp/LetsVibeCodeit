@@ -14,7 +14,7 @@ export function SponsorBar() {
           <SponsorBanner name="Postiz" url="https://postiz.com" description="Social media scheduling" tier="silver" />
         </div>
         <div className="text-center mt-4">
-          <a href="/sponsor" className="text-[11px] font-mono text-muted-2 hover:text-muted no-underline transition-colors">+ your product — $1,799/30 days →</a>
+          <a href="/sponsor" className="text-[11px] font-mono text-muted-2 hover:text-muted no-underline transition-colors">+ promote your product - see transparent pricing →</a>
         </div>
       </div>
     </div>

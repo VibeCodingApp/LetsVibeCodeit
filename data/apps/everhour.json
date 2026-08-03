@@ -30,7 +30,7 @@
     "integrations",
     "compliance-regulation"
   ],
-  "moatNotes": "🔌 integrations Ã‚Â· 🏛️ compliance & regulation",
+  "moatNotes": "🔌 integrations · 🏛️ compliance & regulation",
   "whyPeopleStillPay": "Everhour's solo core is compact: build a private time + budget tracking ledger that imports user-supplied CSV files, categorizes entries, reconciles balances, and exports reports. A competent builder can reach a useful personal version in one sitting, while the paid product mainly wins on banking, compliance, trust.",
   "priorArt": [
     {

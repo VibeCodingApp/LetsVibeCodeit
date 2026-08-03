@@ -26,7 +26,7 @@ module.exports = {
         mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
       },
       animation: {
-        ticker: 'ticker 120s linear infinite',
+        ticker: 'ticker var(--ticker-duration, 180s) linear infinite',
         'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
         'fade-up': 'fade-up 0.6s cubic-bezier(0.22,1,0.36,1) forwards',
         'badge-pop': 'badge-pop 0.3s cubic-bezier(0.34,1.56,0.64,1)',

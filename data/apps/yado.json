@@ -30,7 +30,7 @@
     "infrastructure-scale",
     "execution-polish"
   ],
-  "moatNotes": "🏗️ infrastructure scale Ã‚Â· 💅 execution polish",
+  "moatNotes": "🏗️ infrastructure scale · 💅 execution polish",
   "whyPeopleStillPay": "Claude Code was never built to leave the laptop. A chat interface is easy. A terminal into a remote container, also fine. The pain starts when you want Claude, the container, and the app to forget they're three completely distinct entities and behave as one thing: signing in with one tap, when on paper that can only happen in a terminal. A chat, when underneath it is always a terminal. Infra that's fast and that keeps one person's AI away from everyone else's code. I thought that was weeks of work. It was months.",
   "priorArt": [
     {
