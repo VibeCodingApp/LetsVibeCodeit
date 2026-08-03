@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+*.log
+*.err.log
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+.agents/tmp/
+.codex/tmp/

@@ -1,0 +1,60 @@
+{
+  "slug": "trello",
+  "name": "Trello",
+  "domain": "trello.com",
+  "category": "project management",
+  "subcategory": null,
+  "tagline": "Visual kanban board for task and project management",
+  "priceMonthly": 6,
+  "pricing": {
+    "plan": "Standard",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "trello.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$6/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "A kanban board is drag-and-drop columns with cards. That's a CRUD app with a drag-and-drop library (dnd-kit). Add card details, checklists, due dates, and labels. The core loop — create columns, add cards, drag between columns — is trivially one-shot buildable.",
+  "coreLoopDIY": "Drag-and-drop kanban board with columns, cards, checklists, and labels",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "Next.js",
+    "dnd-kit (drag and drop library)",
+    "Database (PostgreSQL or SQLite)"
+  ],
+  "whatYouLose": [
+    "Power-Ups (Butler automation, calendar view, timeline view)",
+    "Team collaboration with real-time sync",
+    "File attachments from Google Drive/Dropbox",
+    "Advanced checklists with due dates and assignees",
+    "Trello mobile apps",
+    "Admin controls and team management"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "The Power-Ups ecosystem is what makes Trello extensible beyond basic Kanban — 200+ integrations that a DIY board won't have",
+  "whyPeopleStillPay": "Power-Ups that extend Trello into a full project management suite, plus team management features",
+  "priorArt": [
+    {
+      "name": "Planka",
+      "url": "https://planka.app",
+      "desc": "Open-source Trello clone with real-time collaboration"
+    }
+  ],
+  "relatedSlugs": [
+    "jira",
+    "linear",
+    "clickup"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": true,
+  "notes": "One of the most straightforward apps to clone. Basic kanban is just CRUD with drag-and-drop.",
+  "prompt": "",
+  "promptCurated": false
+}

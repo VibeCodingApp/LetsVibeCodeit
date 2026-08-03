@@ -1,0 +1,56 @@
+{
+  "slug": "calendly",
+  "name": "Calendly",
+  "domain": "calendly.com",
+  "category": "scheduling",
+  "subcategory": null,
+  "tagline": "Easy automated scheduling — send a link, they pick a time",
+  "priceMonthly": 12,
+  "pricing": {
+    "plan": "Standard",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "calendly.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$12/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "Core booking UI + Google Calendar API is doable in one sitting. The hard parts are timezone edge cases, team routing, and CRM integrations.",
+  "coreLoopDIY": "Booking page with Google Calendar integration",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "Google Calendar API",
+    "Google OAuth"
+  ],
+  "whatYouLose": [
+    "Timezone intelligence across 200+ zones",
+    "Round-robin team routing",
+    "CRM integrations (Salesforce, HubSpot)",
+    "Workflows and reminders"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "Calendly's scheduling intelligence for large teams is genuinely hard to replicate",
+  "whyPeopleStillPay": "Teams needing advanced routing and CRM sync",
+  "priorArt": [
+    {
+      "name": "Cal.com",
+      "url": "https://cal.com",
+      "desc": "Open-source Calendly alternative"
+    }
+  ],
+  "relatedSlugs": [
+    "savvycal",
+    "cal-com"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": false,
+  "notes": "Popular entry-level replacement project",
+  "prompt": "",
+  "promptCurated": false
+}

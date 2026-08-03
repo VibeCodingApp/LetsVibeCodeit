@@ -1,0 +1,61 @@
+{
+  "slug": "slack",
+  "name": "Slack",
+  "domain": "slack.com",
+  "category": "social media",
+  "subcategory": "team chat",
+  "tagline": "Business communication platform with channels, threads, and integrations",
+  "priceMonthly": 8.75,
+  "pricing": {
+    "plan": "Pro",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "slack.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$8.75/mo"
+  },
+  "verdict": "no",
+  "verdictConfidence": "high",
+  "verdictSummary": "Chat is easy. Real-time sync across devices with offline support, message history, search across millions of messages, and the integration ecosystem — that's the product.",
+  "coreLoopDIY": "Basic chat room with WebSockets",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "WebSocket server",
+    "Database"
+  ],
+  "whatYouLose": [
+    "Message sync across all devices",
+    "Search across years of history",
+    "Threaded conversations",
+    "File sharing and previews",
+    "2600+ app integrations",
+    "Enterprise compliance (eDiscovery, DLP)",
+    "Huddles (audio/video)",
+    "Workflow builder"
+  ],
+  "moatTags": [
+    "network-effects",
+    "integrations",
+    "scale-infra"
+  ],
+  "moatNotes": "Slack's moat isn't the chat UI — it's that every person in your company uses it and every tool integrates with it",
+  "whyPeopleStillPay": "Enterprise communication with compliance, integrations, and message retention",
+  "priorArt": [
+    {
+      "name": "Mattermost",
+      "url": "https://mattermost.com",
+      "desc": "Open-source Slack alternative"
+    }
+  ],
+  "relatedSlugs": [
+    "discord",
+    "teams"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": false,
+  "notes": "For a small team, use Discord or Zulip. For enterprise, Slack or Mattermost.",
+  "prompt": "",
+  "promptCurated": false
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "notion",
+  "name": "Notion",
+  "domain": "notion.so",
+  "category": "notes & knowledge",
+  "subcategory": null,
+  "tagline": "All-in-one workspace — notes, docs, wikis, databases",
+  "priceMonthly": 12,
+  "pricing": {
+    "plan": "Plus",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "notion.so/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$12/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "medium",
+  "verdictSummary": "A block-based editor with markdown is doable. But Notion's database views, formula engine, and real-time collaboration are genuine engineering challenges.",
+  "coreLoopDIY": "Block-based note editor with markdown",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "TipTap or Slate.js",
+    "IndexedDB"
+  ],
+  "whatYouLose": [
+    "Database views (table, calendar, board, timeline)",
+    "Formula engine",
+    "Real-time collaboration",
+    "Template gallery",
+    "API and integrations",
+    "AI features"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "Notion's block editor is complex but not impossible. The collaboration layer is the real challenge.",
+  "whyPeopleStillPay": "Teams using Notion as their knowledge base with interconnected databases",
+  "priorArt": [
+    {
+      "name": "AppFlowy",
+      "url": "https://appflowy.io",
+      "desc": "Open-source Notion alternative"
+    }
+  ],
+  "relatedSlugs": [
+    "evernote",
+    "obsidian",
+    "roam-research"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": false,
+  "notes": "For personal note-taking with basic blocks, DIY is viable. For team wikis, use Notion or AppFlowy.",
+  "prompt": "",
+  "promptCurated": false
+}

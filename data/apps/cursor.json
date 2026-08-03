@@ -1,0 +1,61 @@
+{
+  "slug": "cursor",
+  "name": "Cursor",
+  "domain": "cursor.com",
+  "category": "dev tools",
+  "subcategory": null,
+  "tagline": "AI-first code editor built on VS Code with inline completions and chat",
+  "priceMonthly": 20,
+  "pricing": {
+    "plan": "Pro",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "cursor.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$20/mo"
+  },
+  "verdict": "no",
+  "verdictConfidence": "high",
+  "verdictSummary": "You can install Continue.dev or Cody as a VS Code extension and get AI code completion in minutes. But Cursor's magic is deep IDE integration — inline diffs, whole-repo context, apply-in-editor, and custom models trained on editing behavior. Forking VS Code and adding AI is a team-scale effort, not a one-shot.",
+  "coreLoopDIY": "VS Code extension with chat panel calling an LLM API",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "VS Code Extension API",
+    "OpenAI or Anthropic API key",
+    "TypeScript"
+  ],
+  "whatYouLose": [
+    "Inline diff apply and accept/reject UX",
+    "Full codebase indexing (RAG over entire repo)",
+    "Composer (multi-file edits)",
+    "Custom fine-tuned completion models",
+    "Tab-to-accept predictions",
+    "Terminal AI commands",
+    "Agent mode (autonomous coding)"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "integrations"
+  ],
+  "moatNotes": "Cursor's custom models and VS Code fork-level integration are deep moats — you can't replicate that as a side project",
+  "whyPeopleStillPay": "AI completions that understand entire codebases and apply edits inline — way faster than copy-pasting from a chat window",
+  "priorArt": [
+    {
+      "name": "Continue.dev",
+      "url": "https://continue.dev",
+      "desc": "Open-source AI code assistant for VS Code and JetBrains"
+    }
+  ],
+  "relatedSlugs": [
+    "github-copilot",
+    "windsurf",
+    "cody"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": false,
+  "notes": "Continue.dev gets you 70% there as an open-source option. Cursor's proprietary models are the remaining 30%.",
+  "prompt": "",
+  "promptCurated": false
+}

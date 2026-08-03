@@ -1,0 +1,61 @@
+{
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "domain": "github.com",
+  "category": "dev tools",
+  "subcategory": null,
+  "tagline": "AI pair programmer with inline code suggestions, chat, and agent mode",
+  "priceMonthly": 10,
+  "pricing": {
+    "plan": "Individual",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "github.com/features/copilot/plans",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "Free tier available; $10/mo for Pro",
+    "native": "$10/mo"
+  },
+  "verdict": "no",
+  "verdictConfidence": "high",
+  "verdictSummary": "You can install an open-source alternative like Continue.dev and get similar completion UX. But Copilot's moat is GitHub's training data, the specialized fill-in-the-middle models, IDE-level integration across VS Code/JetBrains/Neovim, and the code review and PR summarization features. The model quality and deep editor integration are not one-shot replicable.",
+  "coreLoopDIY": "VS Code extension with inline completions calling a code LLM API",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "VS Code Extension API",
+    "Code-focused LLM API (Claude, GPT-4o)",
+    "TypeScript"
+  ],
+  "whatYouLose": [
+    "Fill-in-the-middle model architecture (specialized for completions)",
+    "GitHub training data advantage",
+    "Multi-IDE support (JetBrains, Neovim, Xcode)",
+    "Code review and PR summarization",
+    "Copilot Chat with workspace context",
+    "Agent mode with terminal access",
+    "Security vulnerability filtering"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "integrations"
+  ],
+  "moatNotes": "The models are trained on GitHub's unique corpus of code with permissive licenses — that data advantage is nearly impossible to replicate",
+  "whyPeopleStillPay": "Deep integration with the GitHub ecosystem and models trained on the world's largest code corpus",
+  "priorArt": [
+    {
+      "name": "Continue.dev",
+      "url": "https://continue.dev",
+      "desc": "Open-source AI code assistant supporting multiple LLM providers"
+    }
+  ],
+  "relatedSlugs": [
+    "cursor",
+    "tabnine",
+    "cody"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": false,
+  "notes": "Continue.dev is the open-source alternative. For a one-shot, build a simpler completion extension.",
+  "prompt": "",
+  "promptCurated": false
+}

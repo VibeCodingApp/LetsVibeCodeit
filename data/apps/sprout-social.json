@@ -1,0 +1,62 @@
+{
+  "slug": "sprout-social",
+  "name": "Sprout Social",
+  "domain": "sproutsocial.com",
+  "category": "social media",
+  "subcategory": null,
+  "tagline": "Social media management platform with scheduling, analytics, and engagement",
+  "priceMonthly": 249,
+  "pricing": {
+    "plan": "Standard",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "sproutsocial.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$249/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "Posting to social media APIs is straightforward — each platform has a publishing API. A content calendar with scheduling, draft management, and a basic analytics dashboard is a weekend project. But Sprout Social's moat is the breadth of platform integrations (10+ networks), the unified inbox for engagement, the AI-powered listening and sentiment analysis, and the enterprise approval workflows.",
+  "coreLoopDIY": "Content calendar + multi-platform post scheduling + basic analytics dashboard",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "Twitter/X API",
+    "Meta Graph API",
+    "LinkedIn API",
+    "Next.js"
+  ],
+  "whatYouLose": [
+    "Unified social inbox (all comments/DMs in one view)",
+    "AI-powered social listening and sentiment analysis",
+    "Competitor benchmarking and share of voice",
+    "Enterprise approval workflows and compliance",
+    "Employee advocacy platform",
+    "Automated link tracking and UTM builder",
+    "Report builder with white-label PDF exports"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "The breadth of platform integrations and keeping them working through API changes is a full-time maintenance burden",
+  "whyPeopleStillPay": "Enterprise teams need the unified inbox, approval flows, and compliance features that a DIY tool can't offer",
+  "priorArt": [
+    {
+      "name": "Postiz",
+      "url": "https://postiz.com",
+      "desc": "Open-source social media scheduling tool"
+    }
+  ],
+  "relatedSlugs": [
+    "buffer",
+    "hootsuite",
+    "later"
+  ],
+  "pagePriority": 1,
+  "verifiedOneShot": false,
+  "notes": "Postiz is a solid open-source starting point for social scheduling. The enterprise features are where Sprout wins.",
+  "prompt": "",
+  "promptCurated": false
+}

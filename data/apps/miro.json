@@ -1,0 +1,61 @@
+{
+  "slug": "miro",
+  "name": "Miro",
+  "domain": "miro.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "Online collaborative whiteboard for brainstorming, diagramming, and workshops",
+  "priceMonthly": 10,
+  "pricing": {
+    "plan": "Starter",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "miro.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$10/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "An infinite canvas with shapes, sticky notes, and freehand drawing is buildable with a canvas library (tldraw or Excalidraw). But Miro's real complexity is multiplayer — real-time collaboration with cursor presence, the template marketplace, integrations, and advanced features like voting, timers, and facilitation tools. A basic canvas is easy; multiplayer at scale is hard.",
+  "coreLoopDIY": "Infinite canvas with shapes, sticky notes, text, and freehand drawing",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "tldraw or Fabric.js",
+    "WebSocket server for multiplayer (optional)",
+    "Next.js"
+  ],
+  "whatYouLose": [
+    "Real-time multiplayer with cursor presence",
+    "Template marketplace (1,000+ workshop templates)",
+    "Video chat and screen sharing",
+    "Voting, timers, and facilitation tools",
+    "Integrations (Jira, Asana, Slack, Google Drive)",
+    "Smart diagramming (UML, flowcharts, mind maps)",
+    "Miro Assist (AI features)"
+  ],
+  "moatTags": [
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "CRDT-based multiplayer on an infinite canvas is the deep engineering challenge — it's not the shapes, it's the sync",
+  "whyPeopleStillPay": "Real-time collaboration at scale, plus the template ecosystem for running workshops and design sprints",
+  "priorArt": [
+    {
+      "name": "tldraw",
+      "url": "https://tldraw.com",
+      "desc": "Open-source infinite canvas whiteboard SDK"
+    }
+  ],
+  "relatedSlugs": [
+    "figma",
+    "excalidraw",
+    "whimsical"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": false,
+  "notes": "tldraw is an excellent open-source base for a Miro clone. Add multiplayer and you have a solid MVP.",
+  "prompt": "",
+  "promptCurated": false
+}

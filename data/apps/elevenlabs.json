@@ -1,0 +1,60 @@
+{
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "domain": "elevenlabs.io",
+  "category": "automation",
+  "subcategory": null,
+  "tagline": "AI text-to-speech and voice cloning with natural-sounding synthetic voices",
+  "priceMonthly": 22,
+  "pricing": {
+    "plan": "Starter",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "elevenlabs.io/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$22/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "A text-to-speech app is an API wrapper around OpenAI TTS, ElevenLabs API, or browser-native SpeechSynthesis. You type text, pick a voice, get an MP3. That's an afternoon project. The voice quality depends on the API you use — call ElevenLabs API from your own app and you get the same voices for API credit costs instead of a monthly subscription.",
+  "coreLoopDIY": "Text-to-speech converter with voice selection and audio playback/download",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "OpenAI TTS API or ElevenLabs API",
+    "Next.js",
+    "Audio player component"
+  ],
+  "whatYouLose": [
+    "Voice cloning (upload samples, train custom voice)",
+    "Voice design (create synthetic voices from scratch)",
+    "Multi-language dubbing studio",
+    "Speech-to-speech voice changer",
+    "Projects (long-form content with chapter-level voice settings)",
+    "Pronunciation dictionaries and custom lexicons",
+    "Audio Native (website audio widgets)"
+  ],
+  "moatTags": [
+    "proprietary-models"
+  ],
+  "moatNotes": "Voice quality and emotional range of ElevenLabs models are currently unmatched — your DIY app relies on their API or a worse model",
+  "whyPeopleStillPay": "The voice quality and naturalness are substantially better than free alternatives like browser SpeechSynthesis or open-source TTS models",
+  "priorArt": [
+    {
+      "name": "Coqui TTS",
+      "url": "https://github.com/coqui-ai/TTS",
+      "desc": "Open-source text-to-speech toolkit"
+    }
+  ],
+  "relatedSlugs": [
+    "murf",
+    "wellsaid",
+    "play-ht"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": true,
+  "notes": "The simplest app on the list. A TTS wrapper is basically a form + audio player. The voice quality is the only differentiator.",
+  "prompt": "",
+  "promptCurated": false
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "canva",
+  "name": "Canva",
+  "domain": "canva.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "Drag-and-drop graphic design platform with templates, stock assets, and AI tools",
+  "priceMonthly": 18,
+  "pricing": {
+    "plan": "Pro",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "canva.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$18/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "You can one-shot a basic photo editor with text overlays, shapes, and image filters using a canvas library. But Canva's moat is the template library (500k+ professionally designed templates), the stock photo/video/audio library, Brand Kit, and the real-time collaboration engine. A simple editor covers 20% of Canva use cases.",
+  "coreLoopDIY": "Canvas-based image editor with drag-and-drop shapes, text, and filters",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "Fabric.js or Konva.js",
+    "Unsplash API for stock images"
+  ],
+  "whatYouLose": [
+    "500k+ professional templates",
+    "Stock photo, video, and audio library",
+    "Brand Kit (logos, colors, fonts)",
+    "Real-time collaboration",
+    "AI Magic Studio (background remover, Magic Write)",
+    "Print-on-demand integration",
+    "Social media scheduling",
+    "Team design approval workflows"
+  ],
+  "moatTags": [
+    "brand-trust",
+    "network-effects"
+  ],
+  "moatNotes": "Canva's template marketplace and asset library are network-effect moats — designers upload templates, users buy them",
+  "whyPeopleStillPay": "Professional templates and stock assets so non-designers can produce marketing-ready graphics instantly",
+  "priorArt": [
+    {
+      "name": "Polotno Studio",
+      "url": "https://studio.polotno.com",
+      "desc": "Open-source Canva-like editor built on Konva.js"
+    }
+  ],
+  "relatedSlugs": [
+    "figma",
+    "adobe-express",
+    "piktochart"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": false,
+  "notes": "The editor itself is buildable — the content library is the actual product",
+  "prompt": "",
+  "promptCurated": false
+}

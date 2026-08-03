@@ -1,0 +1,61 @@
+{
+  "slug": "grammarly",
+  "name": "Grammarly",
+  "domain": "grammarly.com",
+  "category": "ai writing",
+  "subcategory": null,
+  "tagline": "AI writing assistant with grammar, tone detection, and style suggestions",
+  "priceMonthly": 30,
+  "pricing": {
+    "plan": "Premium",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "grammarly.com/plans",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$30/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "A grammar checker that calls an LLM API with a proofreading prompt works well for basic spelling and grammar. You can one-shot a text editor with a 'check grammar' button. But Grammarly's real product is tone detection (confidence, formality, politeness scores), real-time inline suggestions across every text field (browser extension at OS level), and the clarity/engagement rewrites that require sophisticated language models.",
+  "coreLoopDIY": "Text editor with AI-powered grammar and style checking via LLM API",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "Anthropic or OpenAI API key",
+    "TipTap or rich text editor",
+    "Next.js"
+  ],
+  "whatYouLose": [
+    "Real-time inline suggestions everywhere (browser extension)",
+    "Tone detection with scores (confident, formal, friendly, etc.)",
+    "Full-sentence rewrites for clarity and engagement",
+    "Plagiarism checker",
+    "Style guide and brand tone customization",
+    "Generative AI writing (compose from prompts)",
+    "Enterprise admin dashboard and analytics"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "integrations"
+  ],
+  "moatNotes": "Tone detection is a custom NLP pipeline trained on labeled datasets — generic LLM APIs don't provide the same granularity or consistency",
+  "whyPeopleStillPay": "Real-time corrections in every text field (email, docs, social media) via the browser extension, plus tone guidance that generic AI can't match",
+  "priorArt": [
+    {
+      "name": "LanguageTool",
+      "url": "https://languagetool.org",
+      "desc": "Open-source grammar and style checker"
+    }
+  ],
+  "relatedSlugs": [
+    "pro-writing-aid",
+    "hemingway",
+    "quillbot"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": false,
+  "notes": "LanguageTool is a solid open-source alternative. The tone detection is Grammarly's unique selling point.",
+  "prompt": "",
+  "promptCurated": false
+}

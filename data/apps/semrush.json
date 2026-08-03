@@ -1,0 +1,58 @@
+{
+  "slug": "semrush",
+  "name": "Semrush",
+  "domain": "semrush.com",
+  "category": "seo & marketing",
+  "subcategory": "seo tool",
+  "tagline": "All-in-one SEO toolkit — rank tracking, keyword research, competitor analysis",
+  "priceMonthly": 139.95,
+  "pricing": {
+    "plan": "Pro",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "semrush.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$139.95/mo"
+  },
+  "verdict": "no",
+  "verdictConfidence": "high",
+  "verdictSummary": "The value is the data: billions of keywords, backlink graphs, SERP history, and competitor ad intelligence. You can't one-shot a web-scale crawler and data pipeline.",
+  "coreLoopDIY": "Basic keyword position checker",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "Google Search Console API",
+    "Database"
+  ],
+  "whatYouLose": [
+    "42 trillion backlinks database",
+    "25 billion keywords",
+    "Competitor ad intelligence",
+    "Site audit with 140+ checks",
+    "Content marketing platform",
+    "SERP feature tracking"
+  ],
+  "moatTags": [
+    "proprietary-data",
+    "scale-infra"
+  ],
+  "moatNotes": "Semrush's moat is their web-scale data collection infrastructure, not the UI",
+  "whyPeopleStillPay": "The data is irreplaceable for professional SEO work",
+  "priorArt": [
+    {
+      "name": "Ahrefs",
+      "url": "https://ahrefs.com",
+      "desc": "Similar web-scale SEO tool"
+    }
+  ],
+  "relatedSlugs": [
+    "ahrefs",
+    "moz-pro"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": false,
+  "notes": "The UI is easy. The data is the moat.",
+  "prompt": "",
+  "promptCurated": false
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "airtable",
+  "name": "Airtable",
+  "domain": "airtable.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "Spreadsheet-database hybrid with views, automations, and app-building",
+  "priceMonthly": 24,
+  "pricing": {
+    "plan": "Team",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "airtable.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$24/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "A table with rows, columns, and basic filtering is buildable with a spreadsheet-like grid component. But Airtable's real product is the relational database engine underneath — linked records, calculated fields, multiple views (grid, kanban, calendar, gallery), form builder, and the automation engine. You can build a basic grid, but the relational magic that makes Airtable powerful is hard.",
+  "coreLoopDIY": "Spreadsheet-like table editor with filtering, sorting, and multiple views",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "React grid/spreadsheet component",
+    "PostgreSQL with relational schema",
+    "Drag-and-drop for reordering"
+  ],
+  "whatYouLose": [
+    "Linked records between tables (relational joins)",
+    "Calculated fields and formula engine",
+    "Multiple view types (kanban, calendar, gallery, Gantt, timeline)",
+    "Form builder and form submissions",
+    "Automations and triggers",
+    "Interfaces (app builder)",
+    "Sync with external data sources",
+    "Granular permissions per table/view"
+  ],
+  "moatTags": [
+    "collaboration",
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "The relational database under a spreadsheet UI is genuinely hard — linked records, rollup fields, and cross-table filtering are the deep moat",
+  "whyPeopleStillPay": "Non-technical teams get a relational database they can actually use without writing SQL",
+  "priorArt": [
+    {
+      "name": "NocoDB",
+      "url": "https://nocodb.com",
+      "desc": "Open-source Airtable alternative that turns databases into smart spreadsheets"
+    }
+  ],
+  "relatedSlugs": [
+    "notion",
+    "baserow",
+    "noco-db"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": false,
+  "notes": "NocoDB is the go-to open-source alternative. For a DIY, focus on the spreadsheet UI and skip the relational complexity.",
+  "prompt": "",
+  "promptCurated": false
+}

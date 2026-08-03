@@ -1,0 +1,61 @@
+{
+  "slug": "webflow",
+  "name": "Webflow",
+  "domain": "webflow.com",
+  "category": "website builders",
+  "subcategory": null,
+  "tagline": "Visual web design platform with CMS, hosting, and ecommerce",
+  "priceMonthly": 25,
+  "pricing": {
+    "plan": "CMS",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "webflow.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$25/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "You can build a static site generator with a CMS backend (Next.js + a headless CMS) that covers the output side. But Webflow's visual editor — a WYSIWYG that outputs production-ready HTML/CSS — is a genuinely hard engineering problem. The visual CMS, interactions builder, and hosting CDN are each full products. You get the output, not the editor.",
+  "coreLoopDIY": "Next.js site with headless CMS for content editing, deployed to Vercel",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "Next.js",
+    "Headless CMS (Sanity, Strapi, or Payload)",
+    "Vercel or Netlify for hosting"
+  ],
+  "whatYouLose": [
+    "Visual drag-and-drop page builder",
+    "Interactions and animations builder (no-code)",
+    "Webflow CMS with collection lists and dynamic pages",
+    "Ecommerce with checkout and inventory",
+    "Built-in SEO and Open Graph controls",
+    "Form builder with email notifications",
+    "Webflow hosting CDN with global edge caching"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "The visual canvas that generates clean HTML/CSS is the core moat — it's a code generator disguised as a design tool",
+  "whyPeopleStillPay": "Professional designers who want pixel-perfect control without writing code, plus managed hosting and CMS",
+  "priorArt": [
+    {
+      "name": "Plasmic",
+      "url": "https://plasmic.app",
+      "desc": "Open-source visual builder for React"
+    }
+  ],
+  "relatedSlugs": [
+    "squarespace",
+    "framer",
+    "wordpress"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": false,
+  "notes": "The visual editor is the hard part. If you just need a website, Next.js + a CMS gives you the same output.",
+  "prompt": "",
+  "promptCurated": false
+}

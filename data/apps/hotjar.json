@@ -1,0 +1,58 @@
+{
+  "slug": "hotjar",
+  "name": "Hotjar",
+  "domain": "hotjar.com",
+  "category": "analytics",
+  "subcategory": null,
+  "tagline": "Website heatmaps, session recordings, and user feedback tools",
+  "priceMonthly": 39,
+  "pricing": {
+    "plan": "Plus",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "hotjar.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$39/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "Tracking clicks and mouse movements on a webpage is fundamentally a JavaScript snippet that records DOM events and sends them to a server for replay. A basic heatmap is a 2D density plot of click coordinates. One-shot doable with rrweb for recording and a simple canvas for heatmap rendering.",
+  "coreLoopDIY": "Click/move tracking script + heatmap renderer + session replay viewer",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "rrweb (session recording library)",
+    "Simple heatmap renderer (Canvas/JS)"
+  ],
+  "whatYouLose": [
+    "Frustration scoring (rage clicks, dead clicks)",
+    "Conversion funnel analysis",
+    "Feedback widgets (incoming feedback, surveys)",
+    "User segmentation and filtering",
+    "Large-scale data pipeline for high-traffic sites",
+    "GDPR/CCPA compliance tooling built in"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": null,
+  "whyPeopleStillPay": "Turnkey setup, no infrastructure to manage, and built-in compliance for enterprise data privacy",
+  "priorArt": [
+    {
+      "name": "Matomo",
+      "url": "https://matomo.org",
+      "desc": "Open-source analytics with heatmap plugin"
+    }
+  ],
+  "relatedSlugs": [
+    "posthog",
+    "clarity",
+    "crazy-egg"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": false,
+  "notes": "Great DIY candidate for small sites. At scale, the data pipeline becomes the real challenge.",
+  "prompt": "",
+  "promptCurated": false
+}

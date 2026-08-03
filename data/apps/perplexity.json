@@ -1,0 +1,61 @@
+{
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "domain": "perplexity.ai",
+  "category": "ai writing",
+  "subcategory": null,
+  "tagline": "AI-powered search engine with citations, deep research, and conversational follow-ups",
+  "priceMonthly": 20,
+  "pricing": {
+    "plan": "Pro",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "perplexity.ai",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$20/mo"
+  },
+  "verdict": "no",
+  "verdictConfidence": "high",
+  "verdictSummary": "You can build a UI that sends queries to an LLM with a web search API (Brave, SerpAPI) and displays results with citations. That takes an afternoon. But Perplexity's real engineering is the retrieval-augmented generation pipeline — crawling, indexing, chunking, reranking, and the query reformulation that produces those crisp accurate answers. The RAG infrastructure is a full-time engineering team's work.",
+  "coreLoopDIY": "Search UI with LLM-powered answer generation and source citations",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "Brave Search API or SerpAPI",
+    "OpenAI or Anthropic API key",
+    "Next.js"
+  ],
+  "whatYouLose": [
+    "Proprietary web-scale crawling and indexing infrastructure",
+    "Query reformulation and disambiguation",
+    "Multi-source reranking for answer accuracy",
+    "Pro search with multi-step reasoning",
+    "Deep Research (autonomous multi-query research)",
+    "Real-time knowledge graph integration",
+    "Academic paper and PDF search"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "scale-infra"
+  ],
+  "moatNotes": "The search index and RAG pipeline at scale is the real product — not the chat interface that wraps it",
+  "whyPeopleStillPay": "Faster, more accurate answers than Google because Perplexity's pipeline synthesizes across multiple sources with citations",
+  "priorArt": [
+    {
+      "name": "SearXNG",
+      "url": "https://searx.space",
+      "desc": "Open-source metasearch engine"
+    }
+  ],
+  "relatedSlugs": [
+    "chatgpt",
+    "gemini",
+    "you-com"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": false,
+  "notes": "A weekend project gives you a search+LLM wrapper. Production-quality search infrastructure is a different league.",
+  "prompt": "",
+  "promptCurated": false
+}

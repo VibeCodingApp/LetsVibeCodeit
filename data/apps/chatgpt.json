@@ -1,0 +1,59 @@
+{
+  "slug": "chatgpt",
+  "name": "ChatGPT",
+  "domain": "chatgpt.com",
+  "category": "ai assistants",
+  "subcategory": null,
+  "tagline": "General-purpose AI chat with GPT models",
+  "priceMonthly": 20,
+  "pricing": {
+    "plan": "Plus",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "openai.com/chatgpt/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$20/mo"
+  },
+  "verdict": "no",
+  "verdictConfidence": "high",
+  "verdictSummary": "You can build a chat UI calling the OpenAI API in 10 minutes. But the moat isn't the UI — it's the models, the fine-tuning infrastructure, the RLHF pipeline, and the multi-modal capabilities.",
+  "coreLoopDIY": "Chat UI calling API",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "OpenAI API key",
+    "Any frontend framework"
+  ],
+  "whatYouLose": [
+    "GPT-4o model access without API costs",
+    "DALL-E image generation",
+    "Code Interpreter",
+    "GPTs and plugins",
+    "Memory across conversations",
+    "Voice mode"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "scale-infra"
+  ],
+  "moatNotes": "The moat is the models themselves, not the wrapper",
+  "whyPeopleStillPay": "Access to the actual models at a fixed monthly price, cheaper than API usage for heavy users",
+  "priorArt": [
+    {
+      "name": "Open WebUI",
+      "url": "https://openwebui.com",
+      "desc": "Self-hosted chat UI"
+    }
+  ],
+  "relatedSlugs": [
+    "claude",
+    "perplexity",
+    "gemini"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": true,
+  "notes": "You can build the wrapper, but you still need the models",
+  "prompt": "",
+  "promptCurated": false
+}

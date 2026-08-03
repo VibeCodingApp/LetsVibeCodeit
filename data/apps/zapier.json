@@ -1,0 +1,59 @@
+{
+  "slug": "zapier",
+  "name": "Zapier",
+  "domain": "zapier.com",
+  "category": "automation",
+  "subcategory": "workflow automation",
+  "tagline": "Connect apps and automate workflows without code",
+  "priceMonthly": 29.99,
+  "pricing": {
+    "plan": "Professional",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "zapier.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$29.99/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "medium",
+  "verdictSummary": "A few webhooks + simple logic is trivial. The 7000+ app integrations, OAuth management, polling infrastructure, and reliability — that's the real product.",
+  "coreLoopDIY": "Webhook-to-webhook relay with simple logic",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "Vercel/Edge Functions",
+    "Webhook handling"
+  ],
+  "whatYouLose": [
+    "7000+ pre-built integrations",
+    "OAuth management for 100s of services",
+    "Error handling and retries",
+    "Scheduling and polling",
+    "Multi-step branching logic",
+    "Team collaboration"
+  ],
+  "moatTags": [
+    "integrations",
+    "scale-infra"
+  ],
+  "moatNotes": "Zapier's value is maintaining integration pipes for thousands of evolving APIs",
+  "whyPeopleStillPay": "Maintaining even 10 API integrations yourself is a full-time job. Multiply by 7000.",
+  "priorArt": [
+    {
+      "name": "n8n",
+      "url": "https://n8n.io",
+      "desc": "Open-source workflow automation"
+    }
+  ],
+  "relatedSlugs": [
+    "make",
+    "ifttt",
+    "n8n"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": false,
+  "notes": "For personal use with 5-10 integrations, DIY is viable. For teams, use n8n or Zapier.",
+  "prompt": "",
+  "promptCurated": false
+}

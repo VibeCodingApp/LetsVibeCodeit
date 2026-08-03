@@ -1,0 +1,99 @@
+import { FilterState, SortOption } from './types';
+
+export const CATEGORIES: Record<string, string> = {
+  'meeting-notes': 'Meeting Notes',
+  'voice-dictation': 'Dictation',
+  'link-in-bio': 'Link in Bio',
+  'social-media': 'Social Media',
+  'seo-marketing': 'SEO & Marketing',
+  devtools: 'Dev Tools',
+  'ai-writing': 'AI Writing',
+  'ai-assistant': 'AI Assistants',
+  automation: 'Automation',
+  analytics: 'Analytics',
+  design: 'Design',
+  'website-builders': 'Website Builders',
+  'notes-knowledge': 'Notes & Knowledge',
+  hosting: 'Hosting',
+  commerce: 'Commerce',
+  scheduling: 'Scheduling',
+  'forms-surveys': 'Forms & Surveys',
+  'screen-recording': 'Screen Recording',
+  'photo-editing': 'Photo Editing',
+  'sales-outreach': 'Sales Outreach',
+  newsletters: 'Newsletters',
+  'customer-support': 'Customer Support',
+  'project-management': 'Project Management',
+  'personal-finance': 'Personal Finance',
+  security: 'Security',
+  'docs-databases': 'Documents & DBs',
+  'video-conferencing': 'Video Calls',
+  podcasting: 'Podcasting',
+};
+
+export const CATEGORY_EMOJI: Record<string, string> = {
+  all: '⚡',
+  'meeting-notes': '🎙️',
+  'voice-dictation': '🗣️',
+  'link-in-bio': '🔗',
+  'social-media': '🐦',
+  'seo-marketing': '📈',
+  devtools: '🛠️',
+  'ai-writing': '✍️',
+  'ai-assistant': '🤖',
+  automation: '⚙️',
+  analytics: '📊',
+  design: '🎨',
+  'website-builders': '🧱',
+  'notes-knowledge': '🧠',
+  hosting: '☁️',
+  commerce: '🛒',
+  scheduling: '📅',
+  'forms-surveys': '📋',
+  'screen-recording': '🎬',
+  'photo-editing': '📸',
+  'sales-outreach': '📧',
+  newsletters: '📰',
+  'customer-support': '💬',
+  'project-management': '📐',
+  'personal-finance': '💰',
+  security: '🔒',
+  'docs-databases': '🗄️',
+  'video-conferencing': '📹',
+  podcasting: '🎧',
+};
+
+export const MOAT_TAGS: Record<string, string> = {
+  'network-effects': 'Network Effects',
+  'marketplace-liquidity': 'Marketplace Liquidity',
+  'proprietary-data': 'Proprietary Data',
+  'proprietary-models': 'Proprietary Models',
+  'switching-costs': 'Switching Costs',
+  integrations: 'Integrations',
+  'compliance-regulatory': 'Compliance',
+  'brand-trust': 'Brand Trust',
+  'scale-infra': 'Scale / Infra',
+  hardware: 'Hardware',
+  collaboration: 'Collaboration',
+  'content-rights': 'Content Rights',
+  'execution-polish': 'Execution Polish',
+};
+
+export const INITIAL_FILTER: FilterState = {
+  verdict: 'all',
+  category: 'all',
+  teamSize: 1,
+  sort: 'votes',
+  search: '',
+};
+
+export const AD_INTERVAL = 10;
+export const AGENT_VARIANTS = ['raw', 'claude-code', 'codex', 'cursor'] as const;
+export type AgentVariant = (typeof AGENT_VARIANTS)[number];
+
+export const AGENT_LABELS: Record<AgentVariant, string> = {
+  raw: 'Copy prompt',
+  'claude-code': 'Claude Code',
+  codex: 'Open in Codex',
+  cursor: 'Open in Cursor',
+};

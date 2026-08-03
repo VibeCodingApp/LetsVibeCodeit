@@ -1,0 +1,61 @@
+{
+  "slug": "figma",
+  "name": "Figma",
+  "domain": "figma.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "Collaborative interface design tool",
+  "priceMonthly": 20,
+  "pricing": {
+    "plan": "Professional",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "figma.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$20/mo"
+  },
+  "verdict": "no",
+  "verdictConfidence": "high",
+  "verdictSummary": "You cannot one-shot a collaborative vector editor with multiplayer, component variants, auto-layout, and a plugin ecosystem. The rendering engine alone is years of work.",
+  "coreLoopDIY": "Single-user vector canvas",
+  "diyTimeEstimate": "months",
+  "requirements": [
+    "Canvas API or WebGL",
+    "SVG knowledge"
+  ],
+  "whatYouLose": [
+    "Multiplayer editing with CRDTs",
+    "Component system with variants",
+    "Auto-layout engine",
+    "Plugin ecosystem",
+    "Design system libraries",
+    "Prototyping",
+    "Dev mode handoff"
+  ],
+  "moatTags": [
+    "collaboration",
+    "network-effects",
+    "execution-polish"
+  ],
+  "moatNotes": "Figma's canvas rendering and multiplayer are genuinely world-class engineering",
+  "whyPeopleStillPay": "Nothing comes close for professional collaborative design",
+  "priorArt": [
+    {
+      "name": "Penpot",
+      "url": "https://penpot.app",
+      "desc": "Open-source design tool"
+    }
+  ],
+  "relatedSlugs": [
+    "sketch",
+    "adobe-xd",
+    "canva"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": false,
+  "notes": "Replacing Figma is a full startup, not a side project",
+  "prompt": "",
+  "promptCurated": false
+}

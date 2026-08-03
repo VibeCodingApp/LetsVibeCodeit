@@ -1,0 +1,61 @@
+{
+  "slug": "mailchimp",
+  "name": "Mailchimp",
+  "domain": "mailchimp.com",
+  "category": "seo & marketing",
+  "subcategory": null,
+  "tagline": "Email marketing platform with campaign builder, automation, and audience management",
+  "priceMonthly": 20,
+  "pricing": {
+    "plan": "Essentials",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "mailchimp.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "Based on 500 contacts; price scales with audience size",
+    "native": "$20/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "Sending email is solved by providers like Resend or AWS SES. A template builder with drag-and-drop blocks is buildable with a block-based editor. Audience management is a CRUD contacts database. The core value — design email, manage list, hit send — is all DIY-friendly.",
+  "coreLoopDIY": "Email campaign builder + contact list management + send via Resend/SES",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "Resend or AWS SES API",
+    "Rich text or block-based template editor",
+    "Contact database"
+  ],
+  "whatYouLose": [
+    "Deliverability optimization (dedicated IPs, domain reputation)",
+    "Pre-built template library",
+    "Advanced segmentation and personalization",
+    "A/B testing engine",
+    "Marketing automations (journeys, triggers)",
+    "Landing page builder",
+    "GDPR/CCPA email compliance tooling"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "Email deliverability at scale is surprisingly hard — inbox placement, bounce handling, and domain reputation are real moats",
+  "whyPeopleStillPay": "Deliverability guarantees and the marketing automation workflows that connect email to their CRM, ecommerce, and analytics",
+  "priorArt": [
+    {
+      "name": "Sendy",
+      "url": "https://sendy.co",
+      "desc": "Self-hosted email newsletter app using SES"
+    }
+  ],
+  "relatedSlugs": [
+    "convertkit",
+    "brevo",
+    "sendgrid"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": false,
+  "notes": "Sendy is the classic DIY approach. For a one-shot, use Resend for email delivery and build the template editor yourself.",
+  "prompt": "",
+  "promptCurated": false
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "granola",
+  "name": "Granola",
+  "domain": "granola.com",
+  "category": "meeting notes",
+  "subcategory": null,
+  "tagline": "AI notepad for meetings — summarizes and organizes what matters",
+  "priceMonthly": 14,
+  "pricing": {
+    "plan": "Pro",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "granola.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$14/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "Transcribe → summarize → store is a well-trodden AI pipeline. One GPT-4o-mini prompt handles real-time transcription, another summarizes by topic. Local storage via IndexedDB.",
+  "coreLoopDIY": "Real-time transcription + AI summary + searchable history",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "Browser SpeechRecognition API",
+    "OpenAI API key"
+  ],
+  "whatYouLose": [
+    "No native desktop app",
+    "No team collaboration features",
+    "No calendar integration",
+    "No voice-activity detection polish"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": null,
+  "whyPeopleStillPay": "Teams that need shared meeting notes with calendar sync",
+  "priorArt": [
+    {
+      "name": "Otter.ai",
+      "url": "https://otter.ai",
+      "desc": "Original AI transcription tool"
+    }
+  ],
+  "relatedSlugs": [
+    "otter",
+    "fireflies"
+  ],
+  "pagePriority": 5,
+  "verifiedOneShot": true,
+  "notes": "One of the highest-voted apps on the site. The prompt is battle-tested.",
+  "prompt": "",
+  "promptCurated": false
+}

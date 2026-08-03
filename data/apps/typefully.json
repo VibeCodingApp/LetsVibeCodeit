@@ -1,0 +1,56 @@
+{
+  "slug": "typefully",
+  "name": "Typefully",
+  "domain": "typefully.com",
+  "category": "social media",
+  "subcategory": "twitter thread editor",
+  "tagline": "Write, schedule, and analyze Twitter threads",
+  "priceMonthly": 15,
+  "pricing": {
+    "plan": "Creator",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "typefully.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$15/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "A tweet composer with thread preview and scheduling is a single-page app. OpenAI API integration for AI-assisted writing. Schedule via X API or just store drafts.",
+  "coreLoopDIY": "Thread editor with preview and AI assistance",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "X API (for posting)",
+    "OpenAI API (optional)"
+  ],
+  "whatYouLose": [
+    "Advanced analytics (engagement predictions)",
+    "Multi-account management",
+    "Team collaboration",
+    "Cross-platform scheduling",
+    "Draft version history"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": null,
+  "whyPeopleStillPay": "Convenience and analytics for professional Twitter creators",
+  "priorArt": [
+    {
+      "name": "Hypefury",
+      "url": "https://hypefury.com",
+      "desc": "Similar Twitter growth tool"
+    }
+  ],
+  "relatedSlugs": [
+    "hypefury",
+    "tweet-hunter"
+  ],
+  "pagePriority": 3,
+  "verifiedOneShot": true,
+  "notes": "Surprisingly easy to build. The thread visualization is the hardest part.",
+  "prompt": "",
+  "promptCurated": false
+}

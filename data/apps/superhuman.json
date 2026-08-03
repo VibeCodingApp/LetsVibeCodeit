@@ -1,0 +1,62 @@
+{
+  "slug": "superhuman",
+  "name": "Superhuman",
+  "domain": "superhuman.com",
+  "category": "automation",
+  "subcategory": null,
+  "tagline": "Premium email client with AI triage, keyboard shortcuts, and blazing speed",
+  "priceMonthly": 40,
+  "pricing": {
+    "plan": "Premium",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "superhuman.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$40/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "An email client that connects to Gmail/Outlook via IMAP or API and renders emails in a clean UI is buildable. But Superhuman's value is UX polish — the keyboard-first workflow (everything has a shortcut), the split inbox with AI triage, the instant search that indexes everything locally, and the read status tracking. The email client part is easy; the productivity workflow is hard.",
+  "coreLoopDIY": "Email client with Gmail API integration, inbox view, and compose/reply",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "Gmail API or IMAP library",
+    "Next.js",
+    "Email rendering (HTML sanitizer)"
+  ],
+  "whatYouLose": [
+    "Keyboard-first workflow (every action has a shortcut)",
+    "AI triage and inbox prioritization",
+    "Split inbox (important vs. other)",
+    "Read status and open tracking",
+    "Instant search across all mail (local index)",
+    "Undo send and scheduled send",
+    "Follow-up reminders and snooze",
+    "Social profiles and relationship insights"
+  ],
+  "moatTags": [
+    "execution-polish",
+    "integrations"
+  ],
+  "moatNotes": "The UX polish — sub-100ms interactions, keyboard shortcuts for everything, and the AI triage model — is built over years with a maniacal focus on speed",
+  "whyPeopleStillPay": "Power users who spend 3+ hours in email daily and will pay for every second saved per action",
+  "priorArt": [
+    {
+      "name": "Thunderbird",
+      "url": "https://thunderbird.net",
+      "desc": "Open-source email client"
+    }
+  ],
+  "relatedSlugs": [
+    "hey",
+    "spark",
+    "mimestream"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": false,
+  "notes": "The email client itself is buildable. The UX obsession — sub-100ms interactions, AI triage, keyboard shortcuts for everything — is the real product.",
+  "prompt": "",
+  "promptCurated": false
+}

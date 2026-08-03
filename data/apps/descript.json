@@ -1,0 +1,61 @@
+{
+  "slug": "descript",
+  "name": "Descript",
+  "domain": "descript.com",
+  "category": "design",
+  "subcategory": null,
+  "tagline": "AI-powered video and audio editor that works like a document — edit media by editing text",
+  "priceMonthly": 24,
+  "pricing": {
+    "plan": "Hobbyist",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "descript.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$24/mo"
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "The core idea — transcribe audio, then edit the transcript to cut the video — is buildable with Whisper for transcription and a basic timeline editor. But Descript's polish includes filler word removal, studio sound (AI noise reduction), AI voice cloning for corrections (Overdub), screen recording, and the collaborative editing workflow. You can build a transcript-based trimmer, but the AI audio magic is proprietary.",
+  "coreLoopDIY": "Upload video, auto-transcribe, edit transcript to cut corresponding video segments",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "OpenAI Whisper API for transcription",
+    "FFmpeg for video processing",
+    "React video player with timeline"
+  ],
+  "whatYouLose": [
+    "Overdub (AI voice cloning to fix mistakes)",
+    "Studio Sound (AI noise reduction and room correction)",
+    "Filler word automatic removal",
+    "Screen recording with webcam overlay",
+    "Multi-track video compositing",
+    "Real-time collaboration on projects",
+    "Green screen and background effects"
+  ],
+  "moatTags": [
+    "proprietary-models",
+    "execution-polish"
+  ],
+  "moatNotes": "Overdub and Studio Sound are trained on proprietary datasets — those AI audio models are the genuine moat, not the transcript editor",
+  "whyPeopleStillPay": "The Overdub voice cloning saves hours of re-recording, and Studio Sound makes any microphone sound professional",
+  "priorArt": [
+    {
+      "name": "Davinci Resolve",
+      "url": "https://blackmagicdesign.com/products/davinciresolve",
+      "desc": "Free professional video editor with transcription"
+    }
+  ],
+  "relatedSlugs": [
+    "riverside",
+    "capcut",
+    "premiere"
+  ],
+  "pagePriority": 2,
+  "verifiedOneShot": false,
+  "notes": "The transcript-based editing flow is buildable. The AI audio magic (Overdub, Studio Sound) is what people actually pay for.",
+  "prompt": "",
+  "promptCurated": false
+}

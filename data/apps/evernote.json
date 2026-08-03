@@ -1,0 +1,60 @@
+{
+  "slug": "evernote",
+  "name": "Evernote",
+  "domain": "evernote.com",
+  "category": "notes & knowledge",
+  "subcategory": null,
+  "tagline": "Note-taking app with web clipping, rich formatting, and cross-device sync",
+  "priceMonthly": 14.99,
+  "pricing": {
+    "plan": "Personal",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "evernote.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$14.99/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "A rich-text note editor with full-text search and file attachments is a straightforward CRUD app. Markdown-based notes stored in a database with a WYSIWYG editor (TipTap or similar) gives you 90% of what most people use Evernote for. The web clipper is harder, but a browser extension can handle it.",
+  "coreLoopDIY": "Rich-text note editor with notebooks, tags, full-text search, and file attachments",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "TipTap or Quill editor",
+    "PostgreSQL with full-text search",
+    "S3-compatible storage for attachments"
+  ],
+  "whatYouLose": [
+    "Web clipper browser extension",
+    "OCR for images and PDFs",
+    "Handwriting search",
+    "Scannable mobile app integration",
+    "Offline-first sync engine",
+    "Shared notebooks with permissions"
+  ],
+  "moatTags": [
+    "switching-costs",
+    "execution-polish"
+  ],
+  "moatNotes": "Users with thousands of notes face significant friction to migrate — that's the real retention moat",
+  "whyPeopleStillPay": "Years of notes already stored in Evernote — migrating thousands of notes with attachments is painful",
+  "priorArt": [
+    {
+      "name": "Joplin",
+      "url": "https://joplinapp.org",
+      "desc": "Open-source note app with markdown and sync"
+    }
+  ],
+  "relatedSlugs": [
+    "notion",
+    "obsidian",
+    "bear"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": true,
+  "notes": "Joplin is a great open-source alternative if you don't want to build your own",
+  "prompt": "",
+  "promptCurated": false
+}

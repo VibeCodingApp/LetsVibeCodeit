@@ -1,0 +1,57 @@
+{
+  "slug": "loom",
+  "name": "Loom",
+  "domain": "loom.com",
+  "category": "screen recording",
+  "subcategory": null,
+  "tagline": "Quick screen and video recordings with instant sharing",
+  "priceMonthly": 12.5,
+  "pricing": {
+    "plan": "Business",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "loom.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$12.50/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "Screen capture via MediaRecorder API + upload to S3/R2. Add a sharing link. Done in one sitting. The hard part is the native desktop app with system audio capture.",
+  "coreLoopDIY": "Browser-based screen recording with cloud upload",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "MediaRecorder API",
+    "S3-compatible storage (R2)"
+  ],
+  "whatYouLose": [
+    "Native desktop app",
+    "System audio capture",
+    "Drawing/annotation tools",
+    "Transcripts and captions",
+    "Viewer analytics",
+    "Team workspace"
+  ],
+  "moatTags": [
+    "execution-polish"
+  ],
+  "moatNotes": "Browser screen recording is straightforward. Loom's desktop app for system audio is the edge.",
+  "whyPeopleStillPay": "Teams needing the desktop app with system audio and viewer analytics",
+  "priorArt": [
+    {
+      "name": "Screenity",
+      "url": "https://screenity.io",
+      "desc": "Open-source screen recorder Chrome extension"
+    }
+  ],
+  "relatedSlugs": [
+    "berrycast",
+    "vidyard"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": true,
+  "notes": "Very doable as a browser app. Native desktop recording is harder.",
+  "prompt": "",
+  "promptCurated": false
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "postman",
+  "name": "Postman",
+  "domain": "postman.com",
+  "category": "dev tools",
+  "subcategory": null,
+  "tagline": "API development platform with request builder, collections, testing, and documentation",
+  "priceMonthly": 19,
+  "pricing": {
+    "plan": "Basic",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "postman.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$19/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "An HTTP client is one of the simplest dev tools to build. A fetch() wrapper with URL input, method selector, headers editor, JSON body editor, and response viewer (status, headers, formatted body) is a one-sitting project. VS Code extensions like Thunder Client prove how simple this is.",
+  "coreLoopDIY": "HTTP request builder with method/headers/body inputs and formatted response viewer",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "Next.js",
+    "fetch API",
+    "JSON formatter/syntax highlighter"
+  ],
+  "whatYouLose": [
+    "Team workspaces and collection sharing",
+    "Environment variables and secret management",
+    "Pre-request and post-response scripts (JavaScript)",
+    "API test runner with assertions",
+    "Mock servers",
+    "API documentation generation and publishing",
+    "API monitoring and uptime checking",
+    "GraphQL, WebSocket, and gRPC support"
+  ],
+  "moatTags": [
+    "collaboration",
+    "execution-polish"
+  ],
+  "moatNotes": "Postman's moat is the team collaboration — shared collections, workspaces, and the API lifecycle management beyond just making requests",
+  "whyPeopleStillPay": "Shared API collections across teams, automated testing, and generated documentation for API-first development workflows",
+  "priorArt": [
+    {
+      "name": "Hoppscotch",
+      "url": "https://hoppscotch.io",
+      "desc": "Open-source API development platform"
+    }
+  ],
+  "relatedSlugs": [
+    "insomnia",
+    "hoppscotch",
+    "thunder-client"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": true,
+  "notes": "Hoppscotch is already the open-source answer. Building your own is a great learning exercise.",
+  "prompt": "",
+  "promptCurated": false
+}

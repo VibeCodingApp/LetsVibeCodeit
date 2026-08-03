@@ -1,0 +1,60 @@
+{
+  "slug": "squarespace",
+  "name": "Squarespace",
+  "domain": "squarespace.com",
+  "category": "website builders",
+  "subcategory": null,
+  "tagline": "Drag-and-drop website builder with templates, ecommerce, and hosting",
+  "priceMonthly": 23,
+  "pricing": {
+    "plan": "Business",
+    "basis": "per seat",
+    "unit": "month",
+    "source": "squarespace.com/pricing",
+    "checkedOn": "2026-07-01",
+    "confidence": "high",
+    "notes": "",
+    "native": "$23/mo"
+  },
+  "verdict": "yes",
+  "verdictConfidence": "high",
+  "verdictSummary": "If you can build a Next.js site — which you're doing right now — you've already replaced Squarespace. A static or SSR Next.js site deployed to Vercel with a CMS (Contentful, Sanity, or markdown files) is faster, more flexible, and cheaper. Squarespace is a visual editor for people who can't code.",
+  "coreLoopDIY": "Next.js site with CMS-driven pages, deployed to Vercel",
+  "diyTimeEstimate": "one sitting",
+  "requirements": [
+    "Next.js",
+    "Vercel or Netlify",
+    "Contentful or markdown-based content"
+  ],
+  "whatYouLose": [
+    "Drag-and-drop visual editor (irrelevant if you code)",
+    "Built-in ecommerce with payment processing",
+    "Built-in email marketing",
+    "Scheduling and appointment booking",
+    "Member areas and gated content",
+    "Custom domain management and SSL in one dashboard"
+  ],
+  "moatTags": [
+    "brand-trust",
+    "execution-polish"
+  ],
+  "moatNotes": "Squarespace's moat is non-technical users — if you're reading this site, you're not their target market",
+  "whyPeopleStillPay": "Non-technical business owners who want a polished site without touching code",
+  "priorArt": [
+    {
+      "name": "WordPress",
+      "url": "https://wordpress.org",
+      "desc": "Open-source CMS that powers 43% of the web"
+    }
+  ],
+  "relatedSlugs": [
+    "webflow",
+    "wix",
+    "wordpress"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": true,
+  "notes": "This is less 'build a Squarespace clone' and more 'you already have a better solution by knowing Next.js'",
+  "prompt": "",
+  "promptCurated": false
+}

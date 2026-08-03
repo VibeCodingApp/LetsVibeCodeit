@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The leaderboard of SaaS apps you can replace with one AI prompt. Honest verdicts, the exact prompt to run, and what you lose by leaving.">
+<title>Can I Vibecode It — Which subscriptions are one prompt away from free</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #030504;
+    --bg-2: #070c09;
+    --surface: #0a110d;
+    --surface-2: #0f1712;
+    --surface-3: #151e18;
+    --border: #1a261d;
+    --border-2: #243328;
+    --fg: #e8efe8;
+    --fg-2: #c4ccc4;
+    --muted: #6d7a6d;
+    --muted-2: #4d584d;
+    --primary: #1ceb6b;
+    --primary-dim: #0f5c30;
+    --primary-glow: rgba(28, 235, 107, 0.15);
+    --primary-glow-strong: rgba(28, 235, 107, 0.3);
+    --accent: #7c5cfc;
+    --accent-glow: rgba(124, 92, 252, 0.15);
+    --danger: #ff4444;
+    --danger-bg: rgba(255, 68, 68, 0.12);
+    --warning: #ffb000;
+    --warning-bg: rgba(255, 176, 0, 0.12);
+    --yes-bg: rgba(28, 235, 107, 0.12);
+    --yes-fg: #1ceb6b;
+    --kinda-bg: rgba(255, 176, 0, 0.12);
+    --kinda-fg: #ffb000;
+    --no-bg: rgba(255, 68, 68, 0.12);
+    --no-fg: #ff5c5c;
+    --glass-bg: rgba(10, 17, 13, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.05);
+    --radius: 12px;
+    --radius-sm: 8px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --shadow: 0 4px 24px rgba(0,0,0,0.4);
+    --shadow-lg: 0 8px 48px rgba(0,0,0,0.6);
+    --font-display: 'Space Grotesk', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+    --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+    --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --transition: 200ms var(--ease-out);
+  }
+  [data-theme="light"] {
+    --bg: #f9faf7;
+    --bg-2: #f2f4ef;
+    --surface: #ffffff;
+    --surface-2: #f5f7f1;
+    --surface-3: #ecf0e7;
+    --border: #dde2d8;
+    --border-2: #cdd3c7;
+    --fg: #0e1210;
+    --fg-2: #2d342f;
+    --muted: #5f695f;
+    --muted-2: #8a9489;
+    --primary: #0da848;
+    --primary-dim: #c5f0d4;
+    --primary-glow: rgba(13, 168, 72, 0.08);
+    --primary-glow-strong: rgba(13, 168, 72, 0.15);
+    --accent: #5c3cf0;
+    --accent-glow: rgba(92, 60, 240, 0.08);
+    --danger: #dc2626;
+    --danger-bg: rgba(220, 38, 38, 0.06);
+    --warning: #ca8a04;
+    --warning-bg: rgba(202, 138, 4, 0.06);
+    --yes-bg: rgba(13, 168, 72, 0.08);
+    --yes-fg: #0ea83f;
+    --kinda-bg: rgba(202, 138, 4, 0.08);
+    --kinda-fg: #b77d00;
+    --no-bg: rgba(220, 38, 38, 0.08);
+    --no-fg: #dc2626;
+    --glass-bg: rgba(255, 255, 255, 0.75);
+    --glass-border: rgba(0, 0, 0, 0.06);
+    --shadow: 0 4px 24px rgba(0,0,0,0.06);
+    --shadow-lg: 0 8px 48px rgba(0,0,0,0.1);
+  }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: var(--font-mono);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--fg);
+    background: var(--bg);
+    min-height: 100vh;
+    overflow-x: hidden;
+    transition: background 0.4s, color 0.4s;
+  }
+  body::before {
+    content: ''; position: fixed; inset: 0; z-index: -2;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 0%, var(--primary-glow), transparent),
+      radial-gradient(ellipse 60% 50% at 80% 50%, var(--accent-glow), transparent),
+      radial-gradient(ellipse 50% 40% at 20% 80%, rgba(28,235,107,0.04), transparent);
+    pointer-events: none;
+  }
+  .grain {
+    position: fixed; inset: 0; z-index: -1; opacity: 0.015;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    background-repeat: repeat; background-size: 256px 256px; pointer-events: none;
+  }
+  /* ===== TYPOGRAPHY ===== */
+  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.02em; }
+  h1 { font-size: clamp(44px, 7vw, 80px); font-weight: 700; line-height: 1.05; }
+  h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 700; }
+  h3 { font-size: 18px; font-weight: 700; }
+  .section-label {
+    font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.08em; color: var(--primary);
+  }
+
+  /* ===== LAYOUT ===== */
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+  .section { padding: 100px 0; }
+
+  /* ===== HEADER ===== */
+  .header {
+    position: sticky; top: 0; z-index: 100;
+    background: var(--glass-bg); backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-bottom: 1px solid var(--glass-border);
+    transition: background 0.3s, border-color 0.3s;
+  }
+  .header-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    max-width: 1280px; margin: 0 auto; padding: 0 24px; height: 60px;
+  }
+  .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--fg); }
+  .logo-icon {
+    width: 32px; height: 32px; border-radius: var(--radius-sm);
+    background: var(--primary); color: #000; display: flex; align-items: center;
+    justify-content: center; font-family: var(--font-display); font-weight: 700;
+    font-size: 16px;
+  }
+  .logo-text { font-family: var(--font-display); font-weight: 700; font-size: 18px; }
+  .logo-accent { color: var(--primary); }
+  .nav { display: flex; align-items: center; gap: 8px; }
+  .nav-link {
+    text-decoration: none; color: var(--fg-2); font-family: var(--font-mono);
+    font-size: 13px; padding: 8px 14px; border-radius: var(--radius-sm);
+    transition: color var(--transition), background var(--transition);
+  }
+  .nav-link:hover { color: var(--fg); background: var(--surface-3); }
+  .nav-link.gh {
+    display: flex; align-items: center; gap: 6px;
+    background: var(--surface-3); border: 1px solid var(--border);
+  }
+  .nav-link.gh:hover { border-color: var(--border-2); }
+
+  /* ===== THEME TOGGLE ===== */
+  .theme-toggle {
+    width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--border);
+    background: var(--surface-2); cursor: pointer; display: flex; align-items: center;
+    justify-content: center; font-size: 18px; transition: all var(--transition);
+    flex-shrink: 0;
+  }
+  .theme-toggle:hover { border-color: var(--border-2); background: var(--surface-3); }
+
+  /* ===== HERO ===== */
+  .hero { padding: 80px 0 60px; text-align: center; position: relative; }
+  .hero h1 { margin-bottom: 16px; }
+  .hero-underline {
+    display: inline-block; border-bottom: 4px solid var(--primary);
+    padding-bottom: 4px; color: var(--primary);
+  }
+  .hero-sub {
+    font-size: 17px; color: var(--muted); max-width: 520px; margin: 0 auto 36px;
+    line-height: 1.6;
+  }
+
+  /* ===== SEARCH ===== */
+  .search-wrap { max-width: 600px; margin: 0 auto 28px; position: relative; }
+  .search-box {
+    position: relative; display: flex; align-items: center;
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: var(--radius); overflow: hidden;
+    transition: all var(--transition);
+  }
+  .search-box:focus-within {
+    border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-glow);
+  }
+  .search-prompt {
+    font-family: var(--font-mono); color: var(--primary); font-size: 15px;
+    padding-left: 16px; user-select: none; font-weight: 500;
+  }
+  .search-input {
+    flex: 1; background: none; border: none; outline: none;
+    color: var(--fg); font-family: var(--font-mono); font-size: 15px;
+    padding: 14px 16px 14px 4px; caret-color: var(--primary);
+  }
+  .search-input::placeholder { color: var(--muted-2); }
+  .search-results {
+    position: absolute; top: calc(100% + 8px); left: 0; right: 0;
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: var(--radius); max-height: 320px; overflow-y: auto;
+    display: none; z-index: 50; box-shadow: var(--shadow-lg);
+  }
+  .search-results.active { display: block; }
+  .search-result-item {
+    display: flex; align-items: center; gap: 12px; padding: 10px 16px;
+    cursor: pointer; transition: background var(--transition);
+    border-bottom: 1px solid var(--border);
+  }
+  .search-result-item:last-child { border-bottom: none; }
+  .search-result-item:hover { background: var(--surface-3); }
+  .search-no-result {
+    padding: 16px; text-align: center; color: var(--muted); font-size: 13px;
+  }
+  .search-no-result a { color: var(--primary); }
+
+  /* ===== CATEGORY CHIPS ===== */
+  .cats { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; max-width: 700px; margin: 0 auto; }
+  .cat-chip {
+    font-family: var(--font-mono); font-size: 12px; padding: 6px 14px;
+    border-radius: 100px; border: 1px solid var(--border); background: var(--surface-2);
+    color: var(--fg-2); cursor: pointer; transition: all var(--transition);
+    white-space: nowrap; user-select: none;
+  }
+  .cat-chip:hover { border-color: var(--border-2); color: var(--fg); transform: translateY(-1px); }
+  .cat-chip.active { background: var(--primary); border-color: var(--primary); color: #000; font-weight: 600; }
+
+  /* ===== TICKER ===== */
+  .ticker-section {
+    padding: 0; position: relative; overflow: hidden;
+    background: var(--surface-2); border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  .ticker-track {
+    display: flex; gap: 0; padding: 12px 0; width: max-content;
+    animation: ticker 120s linear infinite;
+  }
+  .ticker-track:hover { animation-play-state: paused; }
+  .ticker-item {
+    display: flex; align-items: center; gap: 6px; padding: 0 24px;
+    white-space: nowrap; font-family: var(--font-mono); font-size: 13px;
+    color: var(--fg-2); border-right: 1px solid var(--border);
+  }
+  .ticker-name { font-weight: 500; color: var(--fg); }
+  .ticker-price { color: var(--danger); text-decoration: line-through; }
+  .ticker-dot { color: var(--muted-2); padding: 0 4px; }
+  @keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ===== STATS ===== */
+  .stats-grid {
+    display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px;
+  }
+  .stat-card {
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 20px 20px 16px;
+    text-align: center; transition: all var(--transition);
+  }
+  .stat-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+  .stat-value {
+    font-family: var(--font-display); font-size: 36px; font-weight: 700;
+    color: var(--primary); line-height: 1.1; margin-bottom: 4px;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 500; }
+
+  /* ===== ODOMETER ===== */
+  .odometer-section {
+    background: var(--surface); border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border); padding: 20px 0; text-align: center;
+  }
+  .odo-wrap { display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
+  .odo-label { font-size: 13px; color: var(--muted); font-family: var(--font-mono); }
+  .odo-value {
+    font-family: var(--font-display); font-size: 42px; font-weight: 700; color: var(--danger);
+    font-variant-numeric: tabular-nums; line-height: 1;
+  }
+  .odo-sub { font-size: 12px; color: var(--muted); font-family: var(--font-mono); margin-top: 4px; }
+
+  /* ===== DEATH LIST ===== */
+  .table-controls {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .filter-group { display: flex; gap: 6px; align-items: center; }
+  .filter-chip {
+    font-family: var(--font-mono); font-size: 12px; padding: 6px 14px;
+    border-radius: 100px; border: 1px solid var(--border); background: var(--surface-2);
+    color: var(--fg-2); cursor: pointer; transition: all var(--transition);
+    font-weight: 500; user-select: none;
+  }
+  .filter-chip:hover { border-color: var(--border-2); }
+  .filter-chip.active { background: var(--primary); border-color: var(--primary); color: #000; font-weight: 600; }
+  .filter-chip[data-verdict="kinda"].active { background: var(--warning); border-color: var(--warning); color: #000; }
+  .filter-chip[data-verdict="no"].active { background: var(--danger); border-color: var(--danger); color: #fff; }
+  .stepper {
+    display: flex; align-items: center; gap: 0;
+    border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--border);
+  }
+  .stepper button {
+    width: 32px; height: 32px; border: none; background: var(--surface-3);
+    color: var(--fg); font-family: var(--font-mono); font-size: 16px;
+    cursor: pointer; transition: background var(--transition);
+  }
+  .stepper button:hover { background: var(--surface-2); }
+  .stepper .stepper-val {
+    height: 32px; padding: 0 12px; display: flex; align-items: center;
+    border-left: 1px solid var(--border); border-right: 1px solid var(--border);
+    font-family: var(--font-mono); font-size: 13px; background: var(--surface-2);
+    color: var(--fg); min-width: 48px; justify-content: center;
+  }
+  .stepper-label { font-size: 12px; color: var(--muted); font-family: var(--font-mono); margin-right: 4px; }
+  .sort-select {
+    margin-left: auto; padding: 8px 12px; border-radius: var(--radius-sm);
+    border: 1px solid var(--border); background: var(--surface-2); color: var(--fg);
+    font-family: var(--font-mono); font-size: 13px; cursor: pointer; outline: none;
+  }
+  .sort-select:focus { border-color: var(--primary); }
+
+  /* ===== TABLE ===== */
+  .table-wrap {
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow);
+  }
+  .table-scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  thead { background: var(--surface-3); }
+  th {
+    text-align: left; padding: 14px 16px; font-family: var(--font-mono);
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--muted);
+    border-bottom: 2px solid var(--border);
+  }
+  th:first-child { padding-left: 20px; border-radius: var(--radius-lg) 0 0 0; }
+  th:last-child { padding-right: 20px; border-radius: 0 var(--radius-lg) 0 0; }
+  tbody tr {
+    border-bottom: 1px solid var(--border); cursor: pointer;
+    transition: background var(--transition);
+  }
+  tbody tr:hover { background: var(--surface-3); }
+  tbody tr:last-child { border-bottom: none; }
+  td { padding: 14px 16px; font-size: 14px; white-space: nowrap; }
+  td:first-child { padding-left: 20px; }
+  td:last-child { padding-right: 20px; }
+  .td-rank { color: var(--muted); font-size: 12px; width: 40px; }
+  .td-app { display: flex; align-items: center; gap: 10px; }
+  .td-app-icon {
+    width: 32px; height: 32px; border-radius: 8px; background: var(--surface-3);
+    display: flex; align-items: center; justify-content: center; font-size: 14px;
+    font-weight: 700; font-family: var(--font-display); flex-shrink: 0;
+    border: 1px solid var(--border);
+  }
+  .td-app-name { font-weight: 600; font-family: var(--font-display); color: var(--fg); }
+  .td-category { color: var(--muted); font-size: 13px; }
+  .td-price { font-family: var(--font-mono); font-size: 13px; }
+
+  /* VERDICT BADGES */
+  .badge {
+    display: inline-flex; align-items: center; padding: 4px 12px;
+    border-radius: 100px; font-family: var(--font-mono); font-size: 11px;
+    font-weight: 600; letter-spacing: 0.02em;
+  }
+  .badge-yes { background: var(--yes-bg); color: var(--yes-fg); }
+  .badge-kinda { background: var(--kinda-bg); color: var(--kinda-fg); }
+  .badge-no { background: var(--no-bg); color: var(--no-fg); }
+  .badge-glow {
+    box-shadow: 0 0 12px var(--primary-glow);
+    animation: badgePulse 3s ease-in-out infinite;
+  }
+  @keyframes badgePulse {
+    0%, 100% { box-shadow: 0 0 8px var(--primary-glow); }
+    50% { box-shadow: 0 0 20px var(--primary-glow-strong); }
+  }
+  .td-votes { font-family: var(--font-mono); font-size: 13px; font-weight: 500; }
+  .td-votes strong { color: var(--primary); }
+
+  /* ===== DIGEST CTA ===== */
+  .digest-card {
+    background: linear-gradient(135deg, var(--surface-2) 0%, var(--surface-3) 100%);
+    border: 1px solid var(--border); border-radius: var(--radius-lg);
+    padding: 48px 40px; text-align: center; position: relative; overflow: hidden;
+  }
+  .digest-card::before {
+    content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+    background: radial-gradient(circle at 50% 50%, var(--primary-glow), transparent 70%);
+    pointer-events: none;
+  }
+  .digest-card h2 { margin-bottom: 8px; position: relative; }
+  .digest-card p { color: var(--muted); margin-bottom: 24px; position: relative; font-size: 15px; }
+  .digest-form {
+    display: flex; gap: 10px; max-width: 420px; margin: 0 auto;
+    position: relative;
+  }
+  .digest-form input {
+    flex: 1; padding: 14px 18px; border-radius: var(--radius-sm);
+    border: 1px solid var(--border); background: var(--surface);
+    color: var(--fg); font-family: var(--font-mono); font-size: 14px; outline: none;
+    transition: border-color var(--transition);
+  }
+  .digest-form input:focus { border-color: var(--primary); }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 12px 24px; border-radius: var(--radius-sm);
+    font-family: var(--font-display); font-size: 15px; font-weight: 600;
+    cursor: pointer; border: none; text-decoration: none;
+    transition: all var(--transition); white-space: nowrap;
+  }
+  .btn-primary {
+    background: var(--primary); color: #000;
+    box-shadow: 0 4px 16px var(--primary-glow);
+  }
+  .btn-primary:hover {
+    filter: brightness(1.1); transform: translateY(-1px);
+    box-shadow: 0 6px 24px var(--primary-glow-strong);
+  }
+  .btn-ghost {
+    background: var(--surface-3); color: var(--fg); border: 1px solid var(--border);
+  }
+  .btn-ghost:hover { border-color: var(--border-2); background: var(--surface-2); }
+  .digest-note {
+    font-size: 12px; color: var(--muted-2); margin-top: 16px; position: relative;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    border-top: 1px solid var(--border); padding: 40px 0;
+    color: var(--muted); font-size: 13px; text-align: center;
+  }
+  .footer-inner { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+  .footer a { color: var(--primary); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+  .footer-links { display: flex; gap: 20px; }
+  .footer-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 8px 16px; border-radius: var(--radius-sm);
+    background: var(--surface-2); border: 1px solid var(--border);
+    font-size: 12px; color: var(--fg-2);
+  }
+
+  /* ===== HONEYPOT ===== */
+  .hp { position: absolute; opacity: 0; height: 0; width: 0; z-index: -1; pointer-events: none; }
+
+  /* ===== REVEAL ANIMATION ===== */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out); }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .reveal-delay-1 { transition-delay: 0.1s; }
+  .reveal-delay-2 { transition-delay: 0.2s; }
+  .reveal-delay-3 { transition-delay: 0.3s; }
+
+  /* ===== MOBILE NAV ===== */
+  .menu-btn { display: none; background: none; border: none; color: var(--fg); cursor: pointer; }
+  @media (max-width: 860px) {
+    .nav { display: none; }
+    .nav.open {
+      display: flex; flex-direction: column; position: absolute; top: 60px; left: 0; right: 0;
+      background: var(--glass-bg); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border); padding: 16px; gap: 4px;
+    }
+    .menu-btn { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; font-size: 20px; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .digest-form { flex-direction: column; }
+    .table-controls { flex-direction: column; align-items: flex-start; }
+    .sort-select { margin-left: 0; }
+  }
+  @media (max-width: 600px) {
+    .hero { padding: 60px 0 40px; }
+    h1 { font-size: 36px; }
+    .section { padding: 60px 0; }
+    .container { padding: 0 16px; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .odo-value { font-size: 30px; }
+    .digest-card { padding: 32px 20px; }
+    .ticker-item { padding: 0 16px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+<div class="grain"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <span class="logo-icon">?</span>
+      <span class="logo-text">can i <span class="logo-accent">vibecode</span> it</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#deathlist" class="nav-link">the death list</a>
+      <a href="#stats" class="nav-link">stats</a>
+      <a href="#digest" class="nav-link">digest</a>
+      <a href="#" class="nav-link gh">&#8599; GitHub</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+      <span class="theme-icon">☀️</span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero section">
+  <div class="container">
+    <h1 class="reveal">Can I vibecode <span class="hero-underline">___</span> ?</h1>
+    <p class="hero-sub reveal reveal-delay-1">
+      942 apps. One question each: can AI replace it, or does a real moat keep it alive?
+    </p>
+    <div class="search-wrap reveal reveal-delay-1">
+      <div class="search-box">
+        <span class="search-prompt">&gt;</span>
+        <input type="text" class="search-input" id="searchInput" placeholder="search any app..." autocomplete="off">
+      </div>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+    <div class="cats reveal reveal-delay-2" id="categoryChips">
+      <button class="cat-chip active" data-cat="all">All</button>
+      <button class="cat-chip" data-cat="seo & marketing">SEO & Marketing</button>
+      <button class="cat-chip" data-cat="dev tools">Dev Tools</button>
+      <button class="cat-chip" data-cat="social media">Social Media</button>
+      <button class="cat-chip" data-cat="ai writing">AI Writing</button>
+      <button class="cat-chip" data-cat="automation">Automation</button>
+      <button class="cat-chip" data-cat="analytics">Analytics</button>
+      <button class="cat-chip" data-cat="design">Design</button>
+      <button class="cat-chip" data-cat="website builders">Website Builders</button>
+      <button class="cat-chip" data-cat="notes & knowledge">Notes & Knowledge</button>
+      <button class="cat-chip" data-cat="meeting notes">Meeting Notes</button>
+      <button class="cat-chip" data-cat="hosting">Hosting</button>
+      <button class="cat-chip" data-cat="commerce">Commerce</button>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-section" id="tickerSection">
+  <div class="ticker-track" id="tickerTrack"></div>
+</div>
+
+<!-- ODOMETER -->
+<div class="odometer-section reveal">
+  <div class="container">
+    <div class="odo-wrap">
+      <span class="odo-label">SaaS bills on the block:</span>
+      <span class="odo-value" id="odoValue">$16,619</span>
+      <span class="odo-label">/mo</span>
+    </div>
+    <p class="odo-sub">= 649 apps with listed prices &middot; mrr = sum(app.price/mo for app of deathList)</p>
+  </div>
+</div>
+
+<!-- STATS -->
+<section class="section" id="stats">
+  <div class="container">
+    <span class="section-label reveal">Site Analytics</span>
+    <h2 class="reveal reveal-delay-1" style="margin-bottom:8px">Public, because why not</h2>
+    <p class="reveal reveal-delay-1" style="color:var(--muted);margin-bottom:32px;font-size:14px">first-party numbers, refreshed every minute</p>
+    <div class="stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-value" data-count="26611">0</div>
+        <div class="stat-label">Peak Day Views</div>
+      </div>
+      <div class="stat-card reveal reveal-delay-1">
+        <div class="stat-value" data-count="773">0</div>
+        <div class="stat-label">Views Today</div>
+      </div>
+      <div class="stat-card reveal reveal-delay-1">
+        <div class="stat-value" data-count="56175">0</div>
+        <div class="stat-label">Views · 7d</div>
+      </div>
+      <div class="stat-card reveal reveal-delay-2">
+        <div class="stat-value" data-count="13336">0</div>
+        <div class="stat-label">Visitors · 7d</div>
+      </div>
+      <div class="stat-card reveal reveal-delay-2">
+        <div class="stat-value" data-count="942">0</div>
+        <div class="stat-label">Prompts Copied · 7d</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEATH LIST -->
+<section class="section" id="deathlist">
+  <div class="container">
+    <span class="section-label reveal">The Death List</span>
+    <h2 class="reveal reveal-delay-1" style="margin-bottom:24px">ranked by "I replaced this" votes</h2>
+
+    <div class="table-controls reveal reveal-delay-1" id="tableControls">
+      <div class="filter-group">
+        <span style="font-size:12px;color:var(--muted);margin-right:6px;font-family:var(--font-mono)">verdict:</span>
+        <button class="filter-chip active" data-verdict-filter="all">ALL</button>
+        <button class="filter-chip" data-verdict-filter="yes">YES</button>
+        <button class="filter-chip" data-verdict-filter="kinda" data-verdict="kinda">KINDA</button>
+        <button class="filter-chip" data-verdict-filter="no" data-verdict="no">NOT REALLY</button>
+      </div>
+      <div class="filter-group">
+        <span class="stepper-label">team of</span>
+        <div class="stepper">
+          <button id="stepperDown">−</button>
+          <div class="stepper-val" id="stepperVal">1</div>
+          <button id="stepperUp">+</button>
+        </div>
+      </div>
+      <select class="sort-select" id="sortSelect">
+        <option value="votes-desc">votes ↓</option>
+        <option value="votes-asc">votes ↑</option>
+        <option value="name">name A–Z</option>
+        <option value="price-asc">price: low→high</option>
+        <option value="price-desc">price: high→low</option>
+      </select>
+    </div>
+
+    <div class="table-wrap reveal reveal-delay-2">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:44px">#</th>
+              <th style="width:38%">app</th>
+              <th style="width:22%">category</th>
+              <th style="width:14%">price</th>
+              <th style="width:16%">verdict</th>
+              <th>replaced it</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:16px;font-size:13px;color:var(--muted)" class="reveal">verdicts are added daily &middot; thousands more on the way</p>
+  </div>
+</section>
+
+<!-- DIGEST -->
+<section class="section" id="digest">
+  <div class="container">
+    <div class="digest-card reveal">
+      <h2>Every week, more subscriptions die.</h2>
+      <p>New verdicts, new prompts, the week&rsquo;s most-doomed apps. One email. Unsubscribe in one click.</p>
+      <form class="digest-form" id="digestForm" onsubmit="handleDigest(event)">
+        <input type="email" id="digestEmail" placeholder="you@email.com" required>
+        <button type="submit" class="btn btn-primary">Get the digest</button>
+      </form>
+      <input type="text" class="hp" name="website" autocomplete="off" tabindex="-1" aria-hidden="true" placeholder="Leave this empty">
+      <p class="digest-note">free forever &middot; no scanner spam &middot; the prompt stays on the site, the deaths come to you</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-badge">
+      <span>+ your product — $1,799/30 days</span>
+    </div>
+    <p>Yes, you can vibecode this site too. <a href="#">Here&rsquo;s the prompt</a> &middot; <a href="#">Source on GitHub</a></p>
+    <p>built by <a href="#">@robj3d3</a> &middot; MIT &middot; no third-party trackers</p>
+    <p style="font-size:11px;color:var(--muted-2)">weekly: what got a verdict, what died.</p>
+  </div>
+</footer>
+
+<script>
+// ===== APP DATA =====
+const apps = [
+  // Meeting Notes
+  { name: "Granola",       cat: "meeting notes",     price: 14,    verdict: "yes",   votes: 93 },
+  { name: "Otter.ai",      cat: "meeting notes",     price: 16.99, verdict: "yes",   votes: 47 },
+  { name: "Fireflies.ai",  cat: "meeting notes",     price: 18,    verdict: "yes",   votes: 38 },
+  { name: "Fathom",        cat: "meeting notes",     price: 29,    verdict: "kinda", votes: 21 },
+  { name: "tl;dv",         cat: "meeting notes",     price: 20,    verdict: "yes",   votes: 15 },
+
+  // Design
+  { name: "Sleek",         cat: "design",            price: 24.99, verdict: "yes",   votes: 50 },
+  { name: "Figma",         cat: "design",            price: 20,    verdict: "no",    votes: 28 },
+  { name: "Canva",         cat: "design",            price: 18,    verdict: "kinda", votes: 35 },
+  { name: "Sketch",        cat: "design",            price: 10,    verdict: "yes",   votes: 22 },
+  { name: "Adobe XD",      cat: "design",            price: 29.99, verdict: "kinda", votes: 8  },
+
+  // Social Media
+  { name: "SuperX",        cat: "social media",      price: 49,    verdict: "yes",   votes: 37 },
+  { name: "Sprout Social", cat: "social media",      price: 249,   verdict: "kinda", votes: 18 },
+  { name: "Hootsuite",     cat: "social media",      price: 99,    verdict: "yes",   votes: 26 },
+  { name: "Buffer",        cat: "social media",      price: 6,     verdict: "yes",   votes: 31 },
+  { name: "Typefully",     cat: "social media",      price: 15,    verdict: "yes",   votes: 19 },
+
+  // SEO & Marketing
+  { name: "Semrush",       cat: "seo & marketing",   price: 139.95, verdict: "no",    votes: 14 },
+  { name: "Ahrefs",        cat: "seo & marketing",   price: 129,    verdict: "kinda", votes: 22 },
+  { name: "Moz Pro",       cat: "seo & marketing",   price: 99,     verdict: "kinda", votes: 9  },
+  { name: "Mailchimp",     cat: "seo & marketing",   price: 20,     verdict: "yes",   votes: 41 },
+  { name: "ConvertKit",    cat: "seo & marketing",   price: 29,     verdict: "yes",   votes: 27 },
+  { name: "HubSpot",       cat: "seo & marketing",   price: 50,     verdict: "no",    votes: 11 },
+
+  // Dev Tools
+  { name: "Vercel",        cat: "dev tools",         price: 20,    verdict: "no",    votes: 33 },
+  { name: "Netlify",       cat: "dev tools",         price: 19,    verdict: "kinda", votes: 18 },
+  { name: "GitHub Copilot",cat: "dev tools",         price: 10,    verdict: "no",    votes: 29 },
+  { name: "Cursor",        cat: "dev tools",         price: 20,    verdict: "no",    votes: 42 },
+  { name: "Postman",       cat: "dev tools",         price: 19,    verdict: "yes",   votes: 24 },
+  { name: "Sentry",        cat: "dev tools",         price: 26,    verdict: "kinda", votes: 12 },
+  { name: "Docker",        cat: "dev tools",         price: 9,     verdict: "no",    votes: 19 },
+
+  // AI Writing
+  { name: "Jasper",        cat: "ai writing",        price: 49,    verdict: "yes",   votes: 36 },
+  { name: "Copy.ai",       cat: "ai writing",        price: 49,    verdict: "yes",   votes: 28 },
+  { name: "Writesonic",    cat: "ai writing",        price: 20,    verdict: "kinda", votes: 16 },
+  { name: "Grammarly",     cat: "ai writing",        price: 30,    verdict: "kinda", votes: 25 },
+  { name: "Hemingway",     cat: "ai writing",        price: 19.99, verdict: "yes",   votes: 13 },
+
+  // Automation
+  { name: "Zapier",        cat: "automation",        price: 29.99, verdict: "kinda", votes: 44 },
+  { name: "Make",          cat: "automation",        price: 9,     verdict: "yes",    votes: 30 },
+  { name: "IFTTT",         cat: "automation",        price: 5,     verdict: "yes",    votes: 11 },
+  { name: "n8n",           cat: "automation",        price: 20,    verdict: "yes",    votes: 17 },
+
+  // Analytics
+  { name: "Mixpanel",      cat: "analytics",         price: 25,    verdict: "yes",   votes: 19 },
+  { name: "Amplitude",     cat: "analytics",         price: 0,     verdict: "kinda", votes: 14 },
+  { name: "Hotjar",        cat: "analytics",         price: 39,    verdict: "yes",   votes: 22 },
+  { name: "Google Analytics 360", cat: "analytics",  price: 50000, verdict: "kinda", votes: 7  },
+  { name: "Plausible",     cat: "analytics",         price: 9,     verdict: "yes",   votes: 15 },
+
+  // Website Builders
+  { name: "Webflow",       cat: "website builders",  price: 25,    verdict: "kinda", votes: 32 },
+  { name: "Squarespace",   cat: "website builders",  price: 23,    verdict: "yes",   votes: 19 },
+  { name: "Wix",           cat: "website builders",  price: 17,    verdict: "yes",   votes: 14 },
+  { name: "Framer",        cat: "website builders",  price: 10,    verdict: "kinda", votes: 26 },
+
+  // Notes & Knowledge
+  { name: "Notion",        cat: "notes & knowledge", price: 12,    verdict: "kinda", votes: 52 },
+  { name: "Evernote",      cat: "notes & knowledge", price: 14.99, verdict: "yes",   votes: 38 },
+  { name: "Roam Research", cat: "notes & knowledge", price: 15,    verdict: "kinda", votes: 21 },
+  { name: "Obsidian",      cat: "notes & knowledge", price: 0,     verdict: "no",    votes: 44 },
+  { name: "Mem.ai",        cat: "notes & knowledge", price: 14.99, verdict: "yes",   votes: 16 },
+
+  // Hosting
+  { name: "Heroku",        cat: "hosting",           price: 5,     verdict: "yes",   votes: 35 },
+  { name: "DigitalOcean",  cat: "hosting",           price: 6,     verdict: "yes",   votes: 28 },
+  { name: "Railway",       cat: "hosting",           price: 5,     verdict: "kinda", votes: 22 },
+  { name: "Fly.io",        cat: "hosting",           price: 0,     verdict: "kinda", votes: 17 },
+  { name: "Supabase",      cat: "hosting",           price: 25,    verdict: "no",    votes: 31 },
+
+  // Commerce
+  { name: "Shopify",       cat: "commerce",          price: 39,    verdict: "no",    votes: 25 },
+  { name: "WooCommerce",   cat: "commerce",          price: 0,     verdict: "kinda", votes: 19 },
+  { name: "Stripe",        cat: "commerce",          price: 0,     verdict: "no",    votes: 38 },
+  { name: "Gumroad",       cat: "commerce",          price: 10,    verdict: "yes",   votes: 33 },
+  { name: "Paddle",        cat: "commerce",          price: 0,     verdict: "kinda", votes: 15 },
+
+  // More apps
+  { name: "ChatGPT",       cat: "ai writing",        price: 20,    verdict: "no",    votes: 89 },
+  { name: "Claude",        cat: "ai writing",        price: 20,    verdict: "no",    votes: 72 },
+  { name: "Midjourney",    cat: "design",            price: 10,    verdict: "kinda", votes: 48 },
+  { name: "DALL·E",        cat: "design",            price: 20,    verdict: "kinda", votes: 23 },
+  { name: "ElevenLabs",    cat: "automation",        price: 22,    verdict: "yes",   votes: 29 },
+  { name: "Descript",      cat: "design",            price: 24,    verdict: "kinda", votes: 20 },
+  { name: "Loom",          cat: "automation",        price: 12.50, verdict: "yes",   votes: 34 },
+  { name: "Calendly",      cat: "automation",        price: 12,    verdict: "yes",   votes: 46 },
+  { name: "Typeform",      cat: "automation",        price: 29,    verdict: "yes",   votes: 27 },
+  { name: "Airtable",      cat: "analytics",         price: 24,    verdict: "kinda", votes: 39 },
+  { name: "Kajabi",        cat: "commerce",          price: 179,   verdict: "yes",   votes: 8  },
+  { name: "Teachable",     cat: "commerce",          price: 59,    verdict: "yes",   votes: 16 },
+  { name: "Linktree",      cat: "social media",      price: 9,     verdict: "yes",   votes: 12 },
+  { name: "Bento",         cat: "social media",      price: 20,    verdict: "yes",   votes: 9  },
+  { name: "Superhuman",    cat: "automation",        price: 40,    verdict: "kinda", votes: 18 },
+  { name: "Spark Mail",    cat: "automation",        price: 7.99,  verdict: "yes",   votes: 11 },
+  { name: "Bolt.new",      cat: "dev tools",         price: 20,    verdict: "kinda", votes: 27 },
+  { name: "v0",            cat: "dev tools",         price: 20,    verdict: "kinda", votes: 23 },
+  { name: "Replit",        cat: "dev tools",         price: 25,    verdict: "kinda", votes: 19 },
+  { name: "1Password",     cat: "dev tools",         price: 4.99,  verdict: "yes",   votes: 14 },
+  { name: "LastPass",      cat: "dev tools",         price: 3,     verdict: "yes",   votes: 8  },
+  { name: "Trello",        cat: "automation",        price: 6,     verdict: "yes",   votes: 33 },
+  { name: "Asana",         cat: "automation",        price: 13.49, verdict: "kinda", votes: 29 },
+  { name: "Monday.com",    cat: "automation",        price: 14,    verdict: "kinda", votes: 17 },
+  { name: "ClickUp",       cat: "automation",        price: 10,    verdict: "kinda", votes: 24 },
+  { name: "Miro",          cat: "design",            price: 10,    verdict: "kinda", votes: 21 },
+  { name: "Whimsical",     cat: "design",            price: 12,    verdict: "yes",   votes: 11 },
+  { name: "PhotoRoom",     cat: "design",            price: 14.99, verdict: "yes",   votes: 15 },
+  { name: "Remove.bg",     cat: "design",            price: 12,    verdict: "yes",   votes: 18 },
+  { name: "Perplexity",    cat: "ai writing",        price: 20,    verdict: "no",    votes: 62 },
+  { name: "You.com",       cat: "ai writing",        price: 20,    verdict: "kinda", votes: 11 },
+  { name: "Wordtune",      cat: "ai writing",        price: 24.99, verdict: "yes",   votes: 13 },
+  { name: "QuillBot",      cat: "ai writing",        price: 19.95, verdict: "yes",   votes: 10 },
+  { name: "Discord Nitro", cat: "social media",      price: 9.99,  verdict: "no",    votes: 8  },
+  { name: "Slack",         cat: "social media",      price: 8.75,  verdict: "no",    votes: 48 },
+];
+
+// State
+let currentVerdictFilter = 'all';
+let currentCat = 'all';
+let currentSort = 'votes-desc';
+let teamSize = 1;
+let searchQuery = '';
+
+// DOM refs
+const tableBody = document.getElementById('tableBody');
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
+const odoValue = document.getElementById('odoValue');
+const tickerTrack = document.getElementById('tickerTrack');
+const stepperVal = document.getElementById('stepperVal');
+
+// Compute MRR
+function computeMRR() {
+  return apps.reduce((sum, a) => sum + (a.price || 0), 0);
+}
+
+// Filter & sort apps
+function getFilteredApps() {
+  let filtered = [...apps];
+  if (currentCat !== 'all') filtered = filtered.filter(a => a.cat === currentCat);
+  if (currentVerdictFilter !== 'all') filtered = filtered.filter(a => a.verdict === currentVerdictFilter);
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    filtered = filtered.filter(a => a.name.toLowerCase().includes(q) || a.cat.toLowerCase().includes(q));
+  }
+  switch (currentSort) {
+    case 'votes-desc': filtered.sort((a,b) => b.votes - a.votes); break;
+    case 'votes-asc':  filtered.sort((a,b) => a.votes - b.votes); break;
+    case 'name':       filtered.sort((a,b) => a.name.localeCompare(b.name)); break;
+    case 'price-asc':  filtered.sort((a,b) => (a.price||0) - (b.price||0)); break;
+    case 'price-desc': filtered.sort((a,b) => (b.price||0) - (a.price||0)); break;
+  }
+  return filtered;
+}
+
+// Verdict icon for app cell
+function verdictBadge(v) {
+  switch (v) {
+    case 'yes':   return '<span class="badge badge-yes badge-glow">YES</span>';
+    case 'kinda': return '<span class="badge badge-kinda">KINDA</span>';
+    case 'no':    return '<span class="badge badge-no">NOT REALLY</span>';
+    default: return '';
+  }
+}
+
+// Generate app icon color
+function appColor(name) {
+  const colors = ['#1ceb6b','#7c5cfc','#ffb000','#ff5c5c','#3bc0db','#f97316','#ec4899','#6366f1','#14b8a6','#f43f5e'];
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) hash = ((hash << 5) - hash) + name.charCodeAt(i);
+  return colors[Math.abs(hash) % colors.length];
+}
+
+// Render table
+function renderTable() {
+  const filtered = getFilteredApps();
+  tableBody.innerHTML = filtered.map((a, i) => {
+    const priceStr = a.price === 0 ? 'Free' : `$${a.price}/mo`;
+    const init = a.name.charAt(0).toUpperCase();
+    const bgc = appColor(a.name);
+    return `<tr>
+      <td class="td-rank">${i + 1}</td>
+      <td class="td-app">
+        <span class="td-app-icon" style="background:${bgc}20;color:${bgc};border-color:${bgc}40">${init}</span>
+        <span class="td-app-name">${a.name}</span>
+      </td>
+      <td class="td-category">${a.cat}</td>
+      <td class="td-price">${priceStr}</td>
+      <td>${verdictBadge(a.verdict)}</td>
+      <td class="td-votes"><strong>${a.votes}</strong> votes</td>
+    </tr>`;
+  }).join('');
+
+  if (filtered.length === 0) {
+    tableBody.innerHTML = `<tr><td colspan="6" style="text-align:center;padding:40px;color:var(--muted)">
+      No apps found. <a href="#" style="color:var(--primary)">Submit it as a PR →</a>
+    </td></tr>`;
+  }
+}
+
+// Render ticker
+function renderTicker() {
+  const priced = apps.filter(a => a.price > 0);
+  const items = priced.map(a =>
+    `<span class="ticker-item"><span class="ticker-name">${a.name}</span> <span class="ticker-price">$${a.price}/mo</span></span>`
+  ).join('');
+  tickerTrack.innerHTML = items + items;
+}
+
+// Render search results
+function renderSearch() {
+  const q = searchQuery.trim();
+  if (!q) { searchResults.classList.remove('active'); return; }
+  const results = apps.filter(a =>
+    a.name.toLowerCase().includes(q.toLowerCase())
+  ).slice(0, 8);
+
+  if (results.length === 0) {
+    searchResults.innerHTML = `<div class="search-no-result">No results. <a href="#">Submit it as a PR →</a></div>`;
+  } else {
+    searchResults.innerHTML = results.map(a =>
+      `<div class="search-result-item" data-name="${a.name}">
+        <span class="td-app-icon" style="width:28px;height:28px;font-size:12px;border-radius:6px;background:${appColor(a.name)}20;color:${appColor(a.name)}">${a.name.charAt(0)}</span>
+        <span class="td-app-name" style="flex:1">${a.name}</span>
+        <span style="font-size:12px;color:var(--muted)">${a.cat}</span>
+        ${verdictBadge(a.verdict)}
+      </div>`
+    ).join('');
+  }
+  searchResults.classList.add('active');
+}
+
+// Update odometer
+function updateOdo() {
+  const mrr = computeMRR();
+  const target = Math.round(mrr);
+  let current = parseInt(odoValue.textContent.replace(/[$,]/g,'')) || 0;
+  const duration = 1500;
+  const start = performance.now();
+  function tick(ts) {
+    const progress = Math.min((ts - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    odoValue.textContent = '$' + Math.round(current + (target - current) * eased).toLocaleString();
+    if (progress < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+// Intersection Observer for reveals
+const revealObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+// Count-up animation for stats
+const countObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    const el = e.target;
+    const target = parseInt(el.dataset.count);
+    if (!target || el._counted) return;
+    el._counted = true;
+    const dur = 2000;
+    const start = performance.now();
+    function tick(ts) {
+      const p = Math.min((ts - start) / dur, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      el.textContent = Math.round(target * eased).toLocaleString();
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('.stat-value[data-count]').forEach(el => countObserver.observe(el));
+
+// Also observe odometer
+updateOdo();
+
+// EVENT HANDLERS
+searchInput.addEventListener('input', () => {
+  searchQuery = searchInput.value;
+  renderSearch();
+});
+
+searchInput.addEventListener('focus', () => { if (searchQuery.trim()) renderSearch(); });
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.search-wrap') && !e.target.closest('.search-box')) {
+    searchResults.classList.remove('active');
+  }
+});
+
+searchResults.addEventListener('click', (e) => {
+  const item = e.target.closest('.search-result-item');
+  if (item) {
+    searchQuery = item.dataset.name;
+    searchInput.value = '';
+    searchResults.classList.remove('active');
+    currentVerdictFilter = 'all';
+    currentCat = 'all';
+    document.querySelectorAll('.cat-chip').forEach(c => c.classList.remove('active'));
+    document.querySelector('.cat-chip[data-cat="all"]')?.classList.add('active');
+    document.querySelectorAll('.filter-chip[data-verdict-filter]').forEach(c => c.classList.remove('active'));
+    document.querySelector('.filter-chip[data-verdict-filter="all"]')?.classList.add('active');
+    renderTable();
+    document.getElementById('deathlist').scrollIntoView({ behavior: 'smooth' });
+  }
+});
+
+// Category chips
+document.getElementById('categoryChips').addEventListener('click', (e) => {
+  const chip = e.target.closest('.cat-chip');
+  if (!chip) return;
+  document.querySelectorAll('.cat-chip').forEach(c => c.classList.remove('active'));
+  chip.classList.add('active');
+  currentCat = chip.dataset.cat;
+  searchQuery = '';
+  searchInput.value = '';
+  searchResults.classList.remove('active');
+  renderTable();
+});
+
+// Verdict filter chips
+document.getElementById('tableControls').addEventListener('click', (e) => {
+  const chip = e.target.closest('.filter-chip[data-verdict-filter]');
+  if (!chip) return;
+  document.querySelectorAll('.filter-chip[data-verdict-filter]').forEach(c => c.classList.remove('active'));
+  chip.classList.add('active');
+  currentVerdictFilter = chip.dataset.verdictFilter;
+  renderTable();
+});
+
+// Sort
+document.getElementById('sortSelect').addEventListener('change', (e) => {
+  currentSort = e.target.value;
+  renderTable();
+});
+
+// Stepper
+document.getElementById('stepperUp').addEventListener('click', () => {
+  teamSize = Math.min(teamSize + 1, 100);
+  stepperVal.textContent = teamSize;
+});
+document.getElementById('stepperDown').addEventListener('click', () => {
+  teamSize = Math.max(teamSize - 1, 1);
+  stepperVal.textContent = teamSize;
+});
+
+// Theme toggle
+const themeToggle = document.getElementById('themeToggle');
+const themeIcon = themeToggle.querySelector('.theme-icon');
+const html = document.documentElement;
+const saved = localStorage.getItem('theme') || 'dark';
+html.setAttribute('data-theme', saved);
+themeIcon.textContent = saved === 'light' ? '🌙' : '☀️';
+themeToggle.addEventListener('click', () => {
+  const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  html.setAttribute('data-theme', next);
+  localStorage.setItem('theme', next);
+  themeIcon.textContent = next === 'light' ? '🌙' : '☀️';
+});
+
+// Mobile menu
+const menuBtn = document.getElementById('menuBtn');
+const nav = document.getElementById('nav');
+menuBtn.addEventListener('click', () => nav.classList.toggle('open'));
+nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+
+// Digest form
+function handleDigest(e) {
+  e.preventDefault();
+  const email = document.getElementById('digestEmail').value;
+  alert(`Subscribed ${email}! (demo only)`);
+  document.getElementById('digestEmail').value = '';
+}
+
+// Initial render
+renderTicker();
+renderTable();
+</script>
+</body>
+</html>
