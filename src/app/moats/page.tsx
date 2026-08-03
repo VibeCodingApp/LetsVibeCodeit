@@ -1,7 +1,14 @@
 import { getAllApps } from '@/lib/apps';
 import { MOAT_TAGS } from '@/lib/constants';
+import type { Metadata } from 'next';
 
 export const dynamic = 'force-static';
+
+export const metadata: Metadata = {
+  title: 'Moats',
+  description: 'The moats that keep SaaS subscriptions alive — network effects, integrations, trust, and ecosystems, one tag at a time.',
+  alternates: { canonical: '/moats' },
+};
 
 export default function MoatsPage() {
   const apps = getAllApps();

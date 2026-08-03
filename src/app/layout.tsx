@@ -11,9 +11,20 @@ const sg = Space_Grotesk({ subsets: ['latin'], weight: ['300','400','500','600',
 const jm = JetBrains_Mono({ subsets: ['latin'], weight: ['400','500','700'], variable: '--font-mono' });
 
 export const metadata: Metadata = {
-  title: 'LetsVibeCodeit.com - Which subscriptions are one prompt away from free',
+  metadataBase: new URL('https://letsvibecodeit.com'),
+  title: {
+    default: 'LetsVibeCodeit.com - Which subscriptions are one prompt away from free',
+    template: '%s · LetsVibeCodeit.com',
+  },
   description: 'The leaderboard of SaaS apps you can replace with a focused build, with honest verdicts and the trade-offs of leaving.',
-  openGraph: { title: 'LetsVibeCodeit.com', description: 'Which subscriptions are one prompt away from free' },
+  openGraph: {
+    type: 'website',
+    url: 'https://letsvibecodeit.com',
+    siteName: 'LetsVibeCodeit.com',
+    locale: 'en_US',
+    title: 'LetsVibeCodeit.com - Which subscriptions are one prompt away from free',
+    description: 'The leaderboard of SaaS apps you can replace with a focused build, with honest verdicts and the trade-offs of leaving.',
+  },
   twitter: { card: 'summary_large_image', title: 'LetsVibeCodeit.com', description: 'Which subscriptions are one prompt away from free' },
   robots: { index: true, follow: true },
 };

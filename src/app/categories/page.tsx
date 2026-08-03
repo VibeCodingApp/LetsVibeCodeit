@@ -1,7 +1,14 @@
 import { getAllApps, getCategoryCounts } from '@/lib/apps';
 import { categoryEmoji, categoryLabel } from '@/lib/constants';
+import type { Metadata } from 'next';
 
 export const dynamic = 'force-static';
+
+export const metadata: Metadata = {
+  title: 'Categories',
+  description: 'Browse the vibecoded list by category — every SaaS app here comes with its build prompt and honest trade-offs.',
+  alternates: { canonical: '/categories' },
+};
 
 export default function CategoriesPage() {
   const counts = getCategoryCounts();

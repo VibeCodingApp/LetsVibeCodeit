@@ -1,4 +1,13 @@
+import type { Metadata } from 'next';
+
 export const dynamic = 'force-static';
+
+export const metadata: Metadata = {
+  title: 'Sponsor',
+  description: 'Transparent, fixed-price sponsorship for LetsVibeCodeit.com — labeled placements in the rails, in-list ads, and the weekly digest.',
+  alternates: { canonical: '/sponsor' },
+  robots: { index: true, follow: true },
+};
 
 const slots = [
   {

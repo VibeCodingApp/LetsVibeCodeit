@@ -10,7 +10,8 @@
     "check:loc": "node scripts/check-loc.mjs",
     "posthog:synthetic": "node --env-file=.env.local scripts/posthog-synthetic.mjs",
     "browser:sim": "node scripts/browser-simulation.mjs",
-    "sync:vibelist": "node scripts/sync-vibelist.mjs D:/Work/vibelist/apps data/apps"
+    "sync:vibelist": "node scripts/sync-vibelist.mjs D:/Work/vibelist/apps data/apps",
+    "postinstall": "node scripts/patch-og-node.mjs"
   },
   "dependencies": {
     "next": "^14.2.0",

@@ -12,7 +12,15 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: { tag: string } }): Promise<Metadata> {
-  return { title: `${MOAT_TAGS[params.tag] || params.tag} · LetsVibeCodeit` };
+  const label = MOAT_TAGS[params.tag] || params.tag;
+  const apps = getAppsByMoat(params.tag);
+  if (!apps.length) return { title: 'Not Found' };
+  return {
+    title: label,
+    description: `${apps.length} apps defended by ${label} — why their moat survives a focused build.`,
+    alternates: { canonical: `/moat/${params.tag}` },
+    openGraph: { title: label, description: `${apps.length} apps where ${label} keeps the original alive` },
+  };
 }
 
 export default function MoatPage({ params }: { params: { tag: string } }) {

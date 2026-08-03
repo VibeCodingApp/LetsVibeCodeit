@@ -1,4 +1,12 @@
+import type { Metadata } from 'next';
+
 export const dynamic = 'force-static';
+
+export const metadata: Metadata = {
+  title: 'Vibecode This Site',
+  description: 'How LetsVibeCodeit.com is built: a public Next.js repository where every product page ships with its full build prompt.',
+  alternates: { canonical: '/vibecode-this-site' },
+};
 
 export default function VibecodePage() {
   return (

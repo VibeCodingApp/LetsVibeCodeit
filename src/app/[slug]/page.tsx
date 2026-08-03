@@ -20,10 +20,11 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const app = getAppBySlug(params.slug);
-  if (!app) return { title: 'Not Found - LetsVibeCodeit.com' };
+  if (!app) return { title: 'Not Found' };
   return {
-    title: `Can I vibecode ${app.name}? - LetsVibeCodeit.com`,
+    title: `Can I vibecode ${app.name}?`,
     description: app.verdictSummary,
+    alternates: { canonical: `/${app.slug}` },
     openGraph: { title: `Can I vibecode ${app.name}?`, description: app.verdictSummary },
   };
 }

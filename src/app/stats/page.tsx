@@ -1,6 +1,13 @@
 import { StatsDashboard } from '@/components/stats-dashboard';
+import type { Metadata } from 'next';
 
 export const dynamic = 'force-dynamic';
+
+export const metadata: Metadata = {
+  title: 'Site Analytics',
+  description: 'Live aggregate analytics for LetsVibeCodeit.com — sessions, votes, and prompt activity measured with PostHog.',
+  alternates: { canonical: '/stats' },
+};
 
 export default function StatsPage() {
   return (

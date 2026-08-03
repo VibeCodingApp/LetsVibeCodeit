@@ -11,7 +11,14 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: { cat: string } }): Promise<Metadata> {
-  return { title: `${categoryLabel(params.cat)} · LetsVibeCodeit` };
+  const apps = getAppsByCategory(params.cat);
+  if (!apps.length) return { title: 'Not Found' };
+  return {
+    title: categoryLabel(params.cat),
+    description: `${apps.length} apps in ${categoryLabel(params.cat)} — each one buildable with a focused prompt, with the trade-offs of leaving.`,
+    alternates: { canonical: `/category/${encodeURIComponent(params.cat)}` },
+    openGraph: { title: categoryLabel(params.cat), description: `${apps.length} vibecodeable apps in ${categoryLabel(params.cat)}` },
+  };
 }
 
 export default function CategoryPage({ params }: { params: { cat: string } }) {

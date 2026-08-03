@@ -7,8 +7,13 @@ import { StatsStrip } from '@/components/stats-strip';
 import { AppTable } from '@/components/app-table';
 import { DigestCard } from '@/components/digest-card';
 import { AdSlotHero } from '@/components/ad-hero';
+import type { Metadata } from 'next';
 
 export const dynamic = 'force-static';
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 export default function HomePage() {
   const allApps = getAllApps();
