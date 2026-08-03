@@ -20,7 +20,7 @@ export function SearchBar({ apps }: { apps: AppRow[] }) {
   }, []);
 
   const selectApp = (app: AppRow) => {
-    if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN) posthog.capture('app_search_selected', { app_slug: app.slug, query: q.trim() });
+    if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN && process.env.NEXT_PUBLIC_POSTHOG_HOST) posthog.capture('app_search_selected', { app_slug: app.slug });
     setQ('');
     setOpen(false);
   };

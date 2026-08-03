@@ -19,7 +19,7 @@ export function PromptBox({ prompt, appName }: { prompt: string; appName: string
 
   const copy = async () => {
     await navigator.clipboard.writeText(full);
-    if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN) {
+    if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN && process.env.NEXT_PUBLIC_POSTHOG_HOST) {
       posthog.capture('prompt_copied', { app_name: appName, agent_variant: agent });
     }
     setCopied(true);
