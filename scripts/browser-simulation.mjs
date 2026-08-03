@@ -175,6 +175,17 @@ async function runSession(browser, proxy, runId, baseUrl, minPages, maxPages) {
     const page = await context.newPage();
     watchCapture(page);
 
+    let exitIp = null;
+    try {
+      exitIp = await page.evaluate(async () => {
+        const response = await fetch('https://api.ipify.org?format=json', { signal: AbortSignal.timeout(8000) });
+        const data = await response.json();
+        return typeof data.ip === 'string' ? data.ip : null;
+      });
+    } catch {
+      exitIp = null;
+    }
+
     const entry = `${baseUrl}?ph_synthetic=1&ph_run=${runId}`;
     await page.goto(entry, { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT_MS });
     await humanRead(page, 1800, 4200);
@@ -204,6 +215,7 @@ async function runSession(browser, proxy, runId, baseUrl, minPages, maxPages) {
     }
 
     await page.waitForFunction(() => (window.__phWatch || 0) > 0, { timeout: CAPTURE_WAIT_MS });
+    return { exitIp };
   } finally {
     await context.close().catch(() => {});
   }
@@ -243,6 +255,7 @@ async function main() {
   let cursor = 0;
   let ok = 0;
   let failed = 0;
+  const exitIps = [];
 
   async function worker() {
     while (cursor < sessions) {
@@ -252,7 +265,8 @@ async function main() {
       for (let attempt = 0; attempt < 4 && !success; attempt += 1) {
         const proxy = liveProxies.length > 0 ? pick(liveProxies) : null;
         try {
-          await runSession(browser, proxy, runId, baseUrl, minPages, maxPages);
+          const { exitIp } = await runSession(browser, proxy, runId, baseUrl, minPages, maxPages);
+          exitIps.push(exitIp || 'unknown');
           success = true;
         } catch (error) {
           if (attempt === 2) {
@@ -268,9 +282,11 @@ async function main() {
 
   await Promise.all(Array.from({ length: Math.min(concurrency, sessions) }, worker));
   await browser.close();
+  const uniqueIps = [...new Set(exitIps)];
   console.log(
     `\ncomplete=true run=${runId} sessions_ok=${ok} sessions_failed=${failed} proxy_list=${proxies.length} live_proxies=${liveProxies.length} base_url=${baseUrl}`,
   );
+  console.log(`exit_ips=${exitIps.join(',')} distinct_ips=${uniqueIps.length}`);
 }
 
 main().catch(error => {
