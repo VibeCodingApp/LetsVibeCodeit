@@ -15,11 +15,10 @@ export function PostHogProvider({ children }: { children: ReactNode }) {
     if (!token || !host) return;
 
     const params = new URLSearchParams(window.location.search);
-    if (params.get('ph_synthetic') === '1') {
-      posthog.register({
-        synthetic_test: true,
-        test_run: params.get('ph_run') || 'unknown',
-      });
+    const synthetic = params.get('ph_synthetic') === '1';
+    const syntheticRun = params.get('ph_run') || 'unknown';
+    if (synthetic) {
+      posthog.register({ synthetic_test: true, test_run: syntheticRun });
     }
 
     posthog.init(token, {
@@ -30,6 +29,10 @@ export function PostHogProvider({ children }: { children: ReactNode }) {
       autocapture: true,
       capture_exceptions: true,
     });
+
+    if (synthetic) {
+      posthog.register({ synthetic_test: true, test_run: syntheticRun });
+    }
     initialized = true;
   }, []);
 

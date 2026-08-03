@@ -1,3 +1,4 @@
+import { connect as tcpConnect } from 'node:net';
 import { chromium } from 'playwright';
 import { fetchProxyList } from './proxy-list.mjs';
 
@@ -6,7 +7,10 @@ const DEFAULT_SESSIONS = 10;
 const DEFAULT_CONCURRENCY = 4;
 const DEFAULT_MIN_PAGES = 3;
 const DEFAULT_MAX_PAGES = 6;
+const DEFAULT_PROBE = 30;
 const NAV_TIMEOUT_MS = 25000;
+const CAPTURE_WAIT_MS = 8000;
+const PROBE_TIMEOUT_MS = 6000;
 
 const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
@@ -51,6 +55,44 @@ function pick(list) {
   return list[Math.floor(Math.random() * list.length)];
 }
 
+function shuffle(list) {
+  const copy = [...list];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const other = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[other]] = [copy[other], copy[index]];
+  }
+  return copy;
+}
+
+function probeProxy(proxy, targetHost, targetPort) {
+  return new Promise(resolve => {
+    const socket = tcpConnect({ host: proxy.ip, port: proxy.port });
+    let buffer = '';
+    const finish = ok => {
+      clearTimeout(timer);
+      socket.destroy();
+      resolve(ok);
+    };
+    const timer = setTimeout(() => finish(false), PROBE_TIMEOUT_MS);
+    socket.on('error', () => finish(false));
+    socket.on('connect', () => {
+      socket.write(`CONNECT ${targetHost}:${targetPort} HTTP/1.1\r\nHost: ${targetHost}:${targetPort}\r\n\r\n`);
+    });
+    socket.on('data', chunk => {
+      buffer += chunk.toString('latin1');
+      if (buffer.includes('\r\n\r\n')) finish(buffer.includes(' 200 '));
+    });
+  });
+}
+
+async function probeProxies(proxies, probeCount, targetHost) {
+  const candidates = shuffle(proxies).slice(0, probeCount);
+  const results = await Promise.all(candidates.map(proxy => probeProxy(proxy, targetHost, 443)));
+  const live = candidates.filter((proxy, index) => results[index]);
+  console.log(`probe=${candidates.length} live=${live.length}`);
+  return live.length > 0 ? live : proxies;
+}
+
 async function collectInternalLinks(page) {
   return page.$$eval('a[href]', anchors =>
     anchors
@@ -77,8 +119,21 @@ async function runSession(browser, proxy, runId, baseUrl, minPages, maxPages) {
     });
 
     const page = await context.newPage();
+    let captureOk = false;
+    page.on('response', response => {
+      const url = response.url();
+      if (
+        (url.includes('/e/') || url.includes('/batch/') || url.includes('/s/')) &&
+        url.includes('posthog') &&
+        response.ok()
+      ) {
+        captureOk = true;
+      }
+    });
+
     const entry = `${baseUrl}?ph_synthetic=1&ph_run=${runId}`;
     await page.goto(entry, { waitUntil: 'domcontentloaded', timeout: NAV_TIMEOUT_MS });
+    await page.waitForFunction(() => typeof window.posthog === 'object', { timeout: 10000 });
     await page.waitForTimeout(randomInt(1500, 3500));
 
     const visited = new Set(['/']);
@@ -104,6 +159,12 @@ async function runSession(browser, proxy, runId, baseUrl, minPages, maxPages) {
       await page.mouse.wheel(0, randomInt(300, 1400));
       await page.waitForTimeout(randomInt(300, 1000));
     }
+
+    const deadline = Date.now() + CAPTURE_WAIT_MS;
+    while (!captureOk && Date.now() < deadline) {
+      await page.waitForTimeout(500);
+    }
+    if (!captureOk) throw new Error('no PostHog capture response (proxy blocked analytics)');
   } finally {
     await context.close().catch(() => {});
   }
@@ -116,6 +177,7 @@ async function main() {
   const maxPages = readArg('--max-pages', DEFAULT_MAX_PAGES);
   const proxyMode = readStringArg('--proxy-mode', 'route');
   const proxyFile = readStringArg('--proxy-file', '');
+  const probeCount = readArg('--probe', DEFAULT_PROBE);
   const baseUrl = (readStringArg('--base-url', DEFAULT_BASE_URL) || DEFAULT_BASE_URL).replace(/\/+$/, '');
   const runId = process.env.POSTHOG_TEST_RUN || `browser-${Date.now()}`;
   const headed = hasFlag('--headed');
@@ -134,6 +196,9 @@ async function main() {
   if (proxyMode === 'route' && proxies.length === 0) {
     throw new Error('--proxy-mode route needs proxies; could not fetch the free proxy list. Use --proxy-file or retry.');
   }
+  if (!Number.isInteger(probeCount) || probeCount < 0) throw new Error('--probe must be a non-negative integer.');
+  const liveProxies =
+    proxyMode === 'route' && probeCount > 0 ? await probeProxies(proxies, probeCount, new URL(baseUrl).host) : proxies;
 
   const browser = await chromium.launch({ headless: !headed });
   let cursor = 0;
@@ -145,13 +210,13 @@ async function main() {
       const sessionIndex = cursor;
       cursor += 1;
       let success = false;
-      for (let attempt = 0; attempt < 2 && !success; attempt += 1) {
-        const proxy = proxies.length > 0 ? proxies[Math.floor(Math.random() * proxies.length)] : null;
+      for (let attempt = 0; attempt < 3 && !success; attempt += 1) {
+        const proxy = liveProxies.length > 0 ? pick(liveProxies) : null;
         try {
           await runSession(browser, proxy, runId, baseUrl, minPages, maxPages);
           success = true;
         } catch (error) {
-          if (attempt === 1) {
+          if (attempt === 2) {
             console.log(`  session_error(${sessionIndex + 1})=${error instanceof Error ? error.message : error}`);
           }
         }
@@ -165,7 +230,7 @@ async function main() {
   await Promise.all(Array.from({ length: Math.min(concurrency, sessions) }, worker));
   await browser.close();
   console.log(
-    `\ncomplete=true run=${runId} sessions_ok=${ok} sessions_failed=${failed} proxy_list=${proxies.length} base_url=${baseUrl}`,
+    `\ncomplete=true run=${runId} sessions_ok=${ok} sessions_failed=${failed} proxy_list=${proxies.length} live_proxies=${liveProxies.length} base_url=${baseUrl}`,
   );
 }
 
