@@ -23,15 +23,19 @@ function TableHead() {
   );
 }
 
+const PAGE_SIZE = 60;
+
 export function AppTable({ apps, categories }: { apps: AppRow[]; categories: string[] }) {
   const [f, setF] = useState<FilterState>(INITIAL_FILTER);
   const [activeAdIndex, setActiveAdIndex] = useState<number | null>(null);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const filtered = useMemo(() => filterApps(apps, f), [apps, f]);
+  const visible = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
   const listRef = useRef<HTMLElement>(null);
 
   const chunks: AppRow[][] = [];
-  for (let i = 0; i < filtered.length; i += AD_INTERVAL) {
-    chunks.push(filtered.slice(i, i + AD_INTERVAL));
+  for (let i = 0; i < visible.length; i += AD_INTERVAL) {
+    chunks.push(visible.slice(i, i + AD_INTERVAL));
   }
 
   const adSlots = chunks.slice(0, -1).map((_, index) => 'in-table-' + index);
@@ -41,6 +45,7 @@ export function AppTable({ apps, categories }: { apps: AppRow[]; categories: str
 
   useEffect(() => {
     setActiveAdIndex(null);
+    setVisibleCount(PAGE_SIZE);
   }, [filtered]);
 
   return (
@@ -113,6 +118,17 @@ export function AppTable({ apps, categories }: { apps: AppRow[]; categories: str
         )}
 
         <p className="text-center mt-6 text-xs text-muted-2">verdicts are added daily · thousands more on the way</p>
+
+        {visible.length < filtered.length && (
+          <div className="flex justify-center mt-6">
+            <button
+              onClick={() => setVisibleCount(c => c + PAGE_SIZE)}
+              className="chip chip-active px-6 py-2.5 text-sm"
+            >
+              load {Math.min(PAGE_SIZE, filtered.length - visible.length)} more · {filtered.length - visible.length} left
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
