@@ -25,7 +25,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: `Can I vibecode ${app.name}?`,
     description: app.verdictSummary,
     alternates: { canonical: `/${app.slug}` },
-    openGraph: { title: `Can I vibecode ${app.name}?`, description: app.verdictSummary },
+    openGraph: {
+      type: 'website',
+      url: `https://letsvibecodeit.com/${app.slug}`,
+      siteName: 'LetsVibeCodeit.com',
+      locale: 'en_US',
+      title: `Can I vibecode ${app.name}?`,
+      description: app.verdictSummary,
+    },
   };
 }
 

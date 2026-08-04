@@ -13,6 +13,15 @@ export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
+  openGraph: {
+    type: 'website',
+    url: 'https://letsvibecodeit.com',
+    siteName: 'LetsVibeCodeit.com',
+    locale: 'en_US',
+    title: 'Subscriptions one prompt away from free',
+    description: 'The leaderboard of SaaS apps you can replace with a focused build, with honest verdicts and the trade-offs of leaving.',
+  },
+  twitter: { card: 'summary_large_image', title: 'Subscriptions one prompt away from free' },
 };
 
 export default function HomePage() {
@@ -38,7 +47,7 @@ export default function HomePage() {
             <p className="text-muted text-base md:text-lg mx-auto mb-10">
               {appCount} apps. One question each: can AI replace it, or does a real moat keep it alive?
             </p>
-            <SearchBar apps={rows} />
+            <SearchBar />
           </div>
           <AdSlotHero side="right" />
         </div>
@@ -63,7 +72,7 @@ export default function HomePage() {
 
       <StatsStrip />
 
-      <AppTable apps={rows} categories={categories} />
+      <AppTable initialRows={rows.slice(0, 60)} categories={categories} />
 
       <DigestCard />
     </>

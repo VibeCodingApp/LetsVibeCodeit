@@ -5,11 +5,21 @@ import posthog from 'posthog-js';
 import type { AppRow } from '@/lib/types';
 import { VerdictBadge } from './verdict-badge';
 
-export function SearchBar({ apps }: { apps: AppRow[] }) {
+export function SearchBar() {
+  const [apps, setApps] = useState<AppRow[]>([]);
   const [q, setQ] = useState('');
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const results = q.trim() ? apps.filter(a => a.name.toLowerCase().includes(q.toLowerCase())).slice(0, 8) : [];
+
+  useEffect(() => {
+    let alive = true;
+    fetch('/api/rows')
+      .then(r => (r.ok ? r.json() : []))
+      .then((rows: AppRow[]) => { if (alive) setApps(rows); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, []);
 
   useEffect(() => {
     const handleOutsideClick = (event: MouseEvent) => {

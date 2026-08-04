@@ -25,11 +25,22 @@ function TableHead() {
 
 const PAGE_SIZE = 60;
 
-export function AppTable({ apps, categories }: { apps: AppRow[]; categories: string[] }) {
+export function AppTable({ initialRows, categories }: { initialRows: AppRow[]; categories: string[] }) {
+  const [rows, setRows] = useState(initialRows);
   const [f, setF] = useState<FilterState>(INITIAL_FILTER);
   const [activeAdIndex, setActiveAdIndex] = useState<number | null>(null);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
-  const filtered = useMemo(() => filterApps(apps, f), [apps, f]);
+
+  useEffect(() => {
+    let alive = true;
+    fetch('/api/rows')
+      .then(r => (r.ok ? r.json() : null))
+      .then((all: AppRow[] | null) => { if (alive && all && all.length) setRows(all); })
+      .catch(() => {});
+    return () => { alive = false; };
+  }, []);
+
+  const filtered = useMemo(() => filterApps(rows, f), [rows, f]);
   const visible = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
   const listRef = useRef<HTMLElement>(null);
 
