@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { retrieveCheckoutSession, SPONSOR_PLANS, type SponsorPlan } from '@/lib/stripe';
 import { SLOT_GROUPS } from '@/lib/sponsors';
 import { insertPlacement } from '@/lib/db';
+import { sendEmail } from '@/lib/resend';
 
 const MAX_BYTES = 2 * 1024 * 1024;
 const ALLOWED_TYPES = new Set(['image/png', 'image/webp']);
@@ -57,7 +58,17 @@ export async function POST(req: NextRequest) {
       expiresAt,
     });
 
-    return NextResponse.json({ ok: true, emailSent: false, expiresAt });
+    let emailSent = false;
+    const recipient = session.customer_details?.email || '';
+    if (recipient) {
+      try {
+        await sendEmail(recipient, `Your LetsVibeCodeit sponsorship is live: ${name}`, confirmationEmail({ name, description, website, expiresAt }));
+        emailSent = true;
+      } catch {
+        emailSent = false;
+      }
+    }
+    return NextResponse.json({ ok: true, emailSent, expiresAt });
   } catch (error) {
     const detail = error instanceof Error ? `${error.message} ${error.stack ?? ''}` : 'unknown_error';
     console.error('sponsor_claim_failed', detail.slice(0, 1200));
@@ -72,4 +83,13 @@ async function toBase64(file: File): Promise<string> {
 
 function isImageFile(value: FormDataEntryValue | null): value is File {
   return value instanceof File && ALLOWED_TYPES.has(value.type) && value.size > 0 && value.size <= MAX_BYTES;
+}
+
+function confirmationEmail(data: { name: string; description: string; website: string; expiresAt: number }): string {
+  const expiration = new Date(data.expiresAt).toLocaleDateString('en-US', { dateStyle: 'long' });
+  return `<div style="font-family:Arial,sans-serif;max-width:600px;margin:auto;color:#182018"><h1 style="color:#44d17a">Your sponsorship is live</h1><p><strong>${escapeHtml(data.name)}</strong> is now active in the LetsVibeCodeit sponsor inventory.</p>${data.description ? `<p>${escapeHtml(data.description)}</p>` : ''}<p><a href="${escapeHtml(data.website)}">${escapeHtml(data.website)}</a></p><p>It expires on <strong>${expiration}</strong>. It will not renew automatically.</p></div>`;
+}
+
+function escapeHtml(value: string): string {
+  return value.replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char] || char));
 }
