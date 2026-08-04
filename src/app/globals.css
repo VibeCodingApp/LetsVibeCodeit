@@ -81,7 +81,7 @@
   .hero-ad-right { left: calc(50% + (var(--content-max) / 2) + var(--hero-ad-gap)); }
   .site-header-inner { min-height: 54px; }
   .chip {
-    @apply font-mono text-xs px-3.5 py-1.5 rounded-full border cursor-pointer whitespace-nowrap select-none transition-all;
+     @apply font-mono text-xs px-3.5 py-1.5 rounded-none border cursor-pointer whitespace-nowrap select-none transition-all;
     border-color:var(--border); background:var(--surface-2); color:var(--fg-2);
   }
   .chip:hover { border-color:var(--border-2); color:var(--fg); transform:translateY(-1px); }

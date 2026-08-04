@@ -74,30 +74,32 @@ export function AppTable({ initialRows, categories }: { initialRows: AppRow[]; c
             <span className="text-[11px] font-medium uppercase tracking-[0.08em] text-primary font-mono">The Vibecoded List</span>
             <h2 className="font-display text-3xl md:text-4xl font-bold mt-1">ranked by &ldquo;I replaced this&rdquo; votes</h2>
           </div>
-          <div className="flex items-center gap-2">
-            <label htmlFor="sort-select" className="text-xs text-muted font-mono">sort:</label>
-            <select id="sort-select" value={f.sort} onChange={e => setF({ ...f, sort: e.target.value as FilterState['sort'] })}
-              className="px-3 py-1.5 rounded-lg text-fg font-mono text-xs cursor-pointer outline-none bg-transparent border border-[var(--border)] hover:border-[var(--border-2)] transition-colors">
-              <option value="votes">votes ↓</option><option value="name">name A–Z</option><option value="price">price: low→high</option>
-            </select>
-          </div>
         </div>
 
         <div className="mb-5">
           <CategoryChips categories={categories} active={f.category} onChange={c => setF({ ...f, category: c, search: '' })} />
         </div>
 
-        <div className="flex flex-wrap items-center gap-3 mb-6">
-          <button onClick={() => setF({ ...f, newListed: !f.newListed })} className={['chip', f.newListed ? 'chip-active' : ''].filter(Boolean).join(' ')}>NEW LISTED · 24H</button>
-          {(['all', 'yes', 'kinda', 'no'] as const).map(v => {
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-t border-[var(--border)] pt-5 mb-6">
+          <div className="flex flex-wrap items-center gap-3">
+            <button onClick={() => setF({ ...f, newListed: !f.newListed })} className={['chip', f.newListed ? 'chip-active' : ''].filter(Boolean).join(' ')}>NEW LISTED · 24H</button>
+            {(['all', 'yes', 'kinda', 'no'] as const).map(v => {
             const ac = f.verdict === v
               ? v === 'yes' ? 'chip-active'
                 : v === 'kinda' ? 'bg-[var(--kinda-bg)] !text-[var(--kinda-fg)] !border-[var(--warning)] font-semibold'
                 : v === 'no' ? 'bg-[var(--no-bg)] !text-[var(--no-fg)] !border-[var(--danger)] font-semibold'
                 : 'chip-active'
               : '';
-            return <button key={v} onClick={() => setF({ ...f, verdict: v })} className={['chip', ac].filter(Boolean).join(' ')}>{v === 'all' ? 'ALL' : v === 'yes' ? 'YES' : v === 'kinda' ? 'KINDA' : 'NOT REALLY'}</button>;
-          })}
+              return <button key={v} onClick={() => setF({ ...f, verdict: v })} className={['chip', ac].filter(Boolean).join(' ')}>{v === 'all' ? 'ALL' : v === 'yes' ? 'YES' : v === 'kinda' ? 'KINDA' : 'NOT REALLY'}</button>;
+            })}
+          </div>
+          <div className="flex items-center gap-2">
+            <label htmlFor="sort-select" className="text-xs text-muted font-mono">sort:</label>
+            <select id="sort-select" value={f.sort} onChange={e => setF({ ...f, sort: e.target.value as FilterState['sort'] })}
+              className="rounded-none border border-[var(--border)] bg-transparent px-3 py-1.5 font-mono text-xs text-fg outline-none transition-colors hover:border-[var(--border-2)] focus:border-primary">
+              <option value="votes">votes ↓</option><option value="name">name A–Z</option><option value="price">price: low→high</option>
+            </select>
+          </div>
         </div>
 
         {filtered.length === 0 ? (
