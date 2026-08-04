@@ -12,7 +12,7 @@ function Card({ labelled, slotId, sponsor }: { labelled: boolean; slotId: string
   }, [sponsor, slotId]);
   if (!sponsor) return <SponsorPurchaseButton plan="rail" slotId={slotId} labelled={labelled} ariaLabel={slotId === 'left-1' ? 'Open free test slot L1' : `Buy fixed rail slot ${slotId}`} className="mx-2 inline-flex shrink-0 items-center gap-2.5 rounded-full border border-[var(--border)] bg-[var(--surface-2)]/80 px-4 py-1.5 font-normal backdrop-blur-sm transition-colors hover:border-[var(--border-2)]"><span className="rounded-full border border-[var(--border)] bg-[var(--surface-3)] px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.1em] text-muted-2">{slotId === 'left-1' ? 'Test' : 'Ad'}</span><span className="whitespace-nowrap font-mono text-[12px] text-fg-2">{slotId === 'left-1' ? 'free test slot' : 'promote your product here'}</span><span className="whitespace-nowrap font-mono text-[12px] font-bold text-primary">{slotId === 'left-1' ? '$0' : '$199'}</span><span className="whitespace-nowrap font-mono text-[11px] text-muted-2">{slotId === 'left-1' ? 'no payment' : '/30 days'}</span></SponsorPurchaseButton>;
   return (
-    <a href={href} target={sponsor ? '_blank' : undefined} rel={sponsor ? 'sponsored noopener noreferrer' : undefined} onClick={() => sponsor && trackSponsorEvent(sponsor.sessionId, 'click', `marquee:${slotId}`)} aria-hidden={!labelled} tabIndex={labelled ? 0 : -1} className="mx-2 inline-flex shrink-0 items-center gap-2.5 rounded-full border border-[var(--border)] bg-[var(--surface-2)] px-4 py-1.5 no-underline transition-colors hover:border-[var(--border-2)]">
+    <a href={href} target={sponsor ? '_blank' : undefined} rel={sponsor ? 'sponsored noopener noreferrer' : undefined} onClick={() => sponsor && trackSponsorEvent(sponsor.sessionId, 'click', `marquee:${slotId}`)} aria-hidden={!labelled} tabIndex={labelled ? 0 : -1} className={`mx-2 inline-flex shrink-0 items-center gap-2.5 rounded-full border bg-[var(--surface-2)] px-4 py-1.5 no-underline transition-colors ${sponsor ? 'border-warning/80 shadow-[0_0_12px_var(--warning-dim)]' : 'border-[var(--border)] hover:border-[var(--border-2)]'}`}>
       {sponsor ? <img src={sponsor.marqueeIconUrl} alt="" className="h-5 w-8 rounded-md object-cover" /> : <span className="rounded-full border border-[var(--border)] bg-[var(--surface-3)] px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.1em] text-muted-2">Ad</span>}
       <span className="whitespace-nowrap font-mono text-[12px] text-fg-2">{sponsor ? sponsor.marqueeText : 'promote your product here'}</span>
       {sponsor ? null : <><span className="whitespace-nowrap font-mono text-[12px] font-bold text-primary">$199</span><span className="whitespace-nowrap font-mono text-[11px] text-muted-2">/30 days</span></>}
@@ -28,11 +28,17 @@ export function MobileAdMarquee({ position }: { position: 'top' | 'bottom' }) {
   const side = isTopPosition(position) ? 'left' : 'right';
   const slotIds = Array.from({ length: 7 }, (_, index) => `${side}-${index + 1}`);
   const sideSponsors = active.filter(sponsor => sponsor.plan === 'rail' && sponsor.slotId.startsWith(`${side}-`));
-  const sponsorsFirst = sideSponsors.map(sponsor => ({ slotId: sponsor.slotId, sponsor }));
-  const emptySlots = slotIds.filter(slotId => !sideSponsors.some(sponsor => sponsor.slotId === slotId)).map(slotId => ({ slotId, sponsor: undefined }));
+  const boostedSponsors = sideSponsors.length === 1
+    ? Array.from({ length: 3 }, () => sideSponsors[0])
+    : sideSponsors.length === 2
+      ? sideSponsors.flatMap(sponsor => [sponsor, sponsor])
+      : sideSponsors;
+  const sponsorsFirst = boostedSponsors.map((sponsor, index) => ({ slotId: `${side}-sponsor-${index}`, sponsor }));
+  const emptySlots = slotIds.slice(0, Math.max(0, 7 - sponsorsFirst.length)).map(slotId => ({ slotId, sponsor: undefined }));
   const sequence = [...sponsorsFirst, ...emptySlots];
   const cards = [...sequence, ...sequence];
-  const style = { '--ticker-duration': '60s' } as CSSProperties;
+  const duration = sideSponsors.length ? Math.max(18, Math.round(60 * Math.min(7, Math.max(2, sideSponsors.length)) / 7)) : 60;
+  const style = { '--ticker-duration': `${duration}s` } as CSSProperties;
   const isTop = position === 'top';
   const trackClass = isTop ? 'animate-ticker' : 'animate-ticker-rev';
   const sectionClass = isTop
