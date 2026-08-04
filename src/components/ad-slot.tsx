@@ -116,7 +116,7 @@ export function AdSlot({
     'border border-dashed border-[var(--border-2)] rounded-xl',
     sticky
       ? 'bg-[var(--glass-bg)] backdrop-blur-xl backdrop-saturate-150 shadow-[0_8px_32px_rgba(0,0,0,.28)]'
-      : 'bg-[var(--surface)]/90',
+       : 'bg-[var(--surface)]/90 backdrop-blur-sm',
   ].join(' ');
   const capacity = sponsorPoolCapacity(sponsors.length);
   const purchaseSlotId = `in-list-${(slotHash(slot) % capacity) + 1}`;
