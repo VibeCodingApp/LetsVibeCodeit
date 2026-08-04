@@ -98,9 +98,10 @@ export async function updateCheckoutMetadata(id: string, metadata: Record<string
 }
 
 export async function uploadSponsorAsset(file: File, purpose: 'business_icon' | 'business_logo'): Promise<string> {
+  const bytes = await file.arrayBuffer();
   const form = new FormData();
   form.append('purpose', purpose);
-  form.append('file', file, file.name || 'sponsor-icon');
+  form.append('file', new Blob([bytes], { type: file.type }), file.name || 'sponsor-icon');
   const response = await fetch(`${STRIPE_FILES_API}/files`, {
     method: 'POST',
     headers: { Authorization: `Bearer ${getKey()}` },
