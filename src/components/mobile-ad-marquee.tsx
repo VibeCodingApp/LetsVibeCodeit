@@ -11,24 +11,18 @@ function Card({ labelled }: { labelled: boolean }) {
   );
 }
 
-function Track({ direction, labelled }: { direction: 'fwd' | 'rev'; labelled: boolean }) {
+export function MobileAdMarquee({ position }: { position: 'top' | 'bottom' }) {
   const style = { '--ticker-duration': '60s' } as CSSProperties;
+  const isTop = position === 'top';
+  const trackClass = isTop ? 'animate-ticker' : 'animate-ticker-rev';
+  const sectionClass = isTop
+    ? 'sticky top-[54px] z-40 border-b border-[var(--border)] bg-[var(--surface)]'
+    : 'sticky bottom-0 z-40 border-t border-[var(--border)] bg-[var(--surface)] pb-[env(safe-area-inset-bottom)]';
   return (
-    <div
-      className={`flex w-max ${direction === 'fwd' ? 'animate-ticker' : 'animate-ticker-rev'} motion-reduce:animate-none py-2`}
-      style={style}
-      aria-hidden={!labelled}
-    >
-      {Array.from({ length: 14 }, (_, i) => <Card key={i} labelled={labelled && i === 0} />)}
-    </div>
-  );
-}
-
-export function MobileAdMarquee() {
-  return (
-    <section aria-label="Advertisement" className="lg:hidden overflow-hidden border-y border-[var(--border)] bg-[var(--surface)]">
-      <Track direction="fwd" labelled />
-      <Track direction="rev" labelled={false} />
+    <section aria-label="Advertisement" className={`${sectionClass} lg:hidden overflow-hidden`}>
+      <div className={`flex w-max ${trackClass} motion-reduce:animate-none py-2`} style={style}>
+        {Array.from({ length: 14 }, (_, i) => <Card key={i} labelled={i === 0} />)}
+      </div>
     </section>
   );
 }

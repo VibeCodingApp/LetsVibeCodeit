@@ -67,10 +67,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <PostHogProvider>
           <ThemeProvider>
             <Header />
-            <MobileAdMarquee />
+            <MobileAdMarquee position="top" />
             <SponsorRails />
             <main>{children}</main>
             <Footer />
+            <MobileAdMarquee position="bottom" />
           </ThemeProvider>
         </PostHogProvider>
       </body>
