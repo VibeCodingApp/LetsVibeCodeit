@@ -81,9 +81,9 @@ export async function updateCheckoutMetadata(id: string, metadata: Record<string
   await stripeRequest(`/checkout/sessions/${encodeURIComponent(id)}`, { method: 'POST', body: metadataParams(metadata) });
 }
 
-export async function uploadSponsorIcon(file: File): Promise<string> {
+export async function uploadSponsorAsset(file: File, purpose: 'business_icon' | 'business_logo'): Promise<string> {
   const form = new FormData();
-  form.append('purpose', 'business_icon');
+  form.append('purpose', purpose);
   form.append('file', file, file.name || 'sponsor-icon');
   const uploaded = await stripeRequest<{ id: string }>('/files', { method: 'POST', body: form });
   const linkParams = new URLSearchParams({ file: uploaded.id });

@@ -18,7 +18,7 @@ export default async function SponsorClaimPage({ searchParams }: { searchParams:
         <div className="mx-auto max-w-[680px]">
           <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-primary">Payment confirmed</p>
           <h1 className="mt-3 font-display text-4xl font-bold tracking-tight md:text-6xl">Make your slot yours.</h1>
-          <p className="mt-5 text-base leading-relaxed text-muted">Add the creative that will appear in your paid sponsorship. It runs for 30 days and does not renew automatically.</p>
+          <p className="mt-5 text-base leading-relaxed text-muted">Choose a full-fill banner or an icon with up to 70 characters of text, then add the URL visitors should open. It runs for 30 days and does not renew automatically.</p>
           <div className="mt-8"><SponsorClaimForm sessionId={sessionId} plan={session.metadata.plan || 'sponsorship'} slot={session.metadata.slotId || 'assigned slot'} /></div>
         </div>
       </div>

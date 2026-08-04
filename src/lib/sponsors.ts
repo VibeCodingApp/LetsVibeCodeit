@@ -11,6 +11,8 @@ export interface SponsorPlacement {
   description: string;
   website: string;
   iconUrl: string;
+  bannerUrl: string;
+  creativeMode: 'banner' | 'icon-text';
   expiresAt: number;
 }
 
@@ -27,17 +29,21 @@ export const SLOT_GROUPS: Record<SponsorPlan, SponsorSlot[]> = {
 function sessionPlacement(session: StripeCheckoutSession): SponsorPlacement | null {
   const metadata = session.metadata || {};
   const plan = metadata.plan as SponsorPlan;
+  const creativeMode = metadata.creativeMode === 'banner' ? 'banner' : 'icon-text';
   const expiresAt = Number(metadata.expiresAt || 0);
   if (!session.id || !SPONSOR_PLANS[plan] || !metadata.slotId || !expiresAt) return null;
-  if (!metadata.name || !metadata.description || !metadata.iconUrl || expiresAt <= Date.now()) return null;
+  const assetUrl = creativeMode === 'banner' ? metadata.bannerUrl : metadata.iconUrl;
+  if (!metadata.name || !assetUrl || creativeMode === 'icon-text' && !metadata.description || !metadata.website || expiresAt <= Date.now()) return null;
   return {
     sessionId: session.id,
     plan,
     slotId: metadata.slotId,
     name: metadata.name,
-    description: metadata.description,
-    website: metadata.website || '/sponsor',
-    iconUrl: metadata.iconUrl,
+    description: metadata.description || '',
+    website: metadata.website,
+    iconUrl: metadata.iconUrl || '',
+    bannerUrl: metadata.bannerUrl || '',
+    creativeMode,
     expiresAt,
   };
 }
