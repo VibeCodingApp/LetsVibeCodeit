@@ -32,7 +32,7 @@ export function MobileAdMarquee({ position }: { position: 'top' | 'bottom' }) {
   const emptySlots = sideSponsors.length < 7 ? [{ slotId: slotIds.find(slotId => !sideSponsors.some(sponsor => sponsor.slotId === slotId)) || `${side}-empty`, sponsor: undefined }] : [];
   const sequence = [...sponsorsFirst, ...emptySlots];
   const cards = [...sequence, ...sequence];
-  const duration = sideSponsors.length ? Math.max(45, sequence.length * 14) : 75;
+  const duration = sideSponsors.length ? Math.max(30, sequence.length * 10) : 60;
   const style = { '--ticker-duration': `${duration}s` } as CSSProperties;
   const isTop = position === 'top';
   const trackClass = isTop ? 'animate-ticker' : 'animate-ticker-rev';
