@@ -86,7 +86,7 @@
   .reveal.visible { opacity:1; transform:translateY(0); }
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1536px) {
   .hero-ad { display: block; }
 }
 
