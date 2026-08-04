@@ -49,7 +49,7 @@ const slots = [
 
 const rules = [
    'Every reservation lasts 30 days and does not renew automatically.',
-   'A slot is held by the Stripe checkout and becomes active after the paid claim form is submitted.',
+   'A paid slot becomes active after the claim form is submitted and the creative is stored in our sponsor database.',
    'Expired slots return to the available inventory automatically.',
    'We label every sponsor clearly and never mix sponsor copy with verdicts, rankings, or editorial decisions.',
 ];
@@ -125,20 +125,20 @@ export default async function SponsorPage() {
           <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-primary">Fixed vs rotating</p>
           <h2 className="mt-2 font-display text-3xl font-bold tracking-tight">Same site, two visibility models.</h2>
           <div className="mt-6 space-y-6">
-            <div>
-              <h3 className="font-display text-lg font-bold">L and R rails stay fixed.</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted">Side rail sponsors keep their exact L1-L7 or R1-R7 position for the whole reservation. They do not rotate with other sponsors. This is the clearest option when you want a persistent visual home.</p>
-            </div>
-            <div>
-              <h3 className="font-display text-lg font-bold">Everything else rotates fairly.</h3>
-              <p className="mt-2 text-sm leading-relaxed text-muted">Hero, in-list, and digest placements use a rotating sponsor pool. Like Amazon and other large ad platforms, the position stays consistent while eligible sponsors take turns. That lets multiple products share visibility across more than 1,000 pages and many user journeys.</p>
+             <div>
+               <h3 className="font-display text-lg font-bold">L and R rails stay fixed.</h3>
+               <p className="mt-2 text-sm leading-relaxed text-muted">On desktop, the 14 L1-L7 and R1-R7 positions are fixed at the sides of the page. On mobile, those same positions become the top and bottom marquee, preserving the rail inventory in a format that fits a narrow screen. This audience is developer-heavy and primarily browses from desktop, so the fixed PC rails are the main visibility product.</p>
+             </div>
+             <div>
+               <h3 className="font-display text-lg font-bold">Everything else rotates fairly.</h3>
+               <p className="mt-2 text-sm leading-relaxed text-muted">Hero and in-list placements use one shared rotating pool across every eligible page and slot. Every anonymous visitor sees the same pool cycle through its sponsors; with fewer sponsors, each one appears more often. The rotation uses equal turns, so available impressions are divided by the number of active sponsors rather than favoring one buyer.</p>
             </div>
           </div>
         </div>
         <div className="border-y border-[var(--border)] py-6 lg:border-y-0 lg:border-l lg:pl-10">
           <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-primary">Why rotation works</p>
-          <p className="mt-3 text-sm leading-relaxed text-muted">A visitor may open one app detail, browse a category, compare a moat, and return to the vibecoded list. Each page view creates another relevant opportunity. Rotation shares those opportunities across sponsors instead of letting one buyer occupy every view.</p>
-          <p className="mt-4 text-sm leading-relaxed text-muted">We do not promise a fixed impression count because traffic changes. We do promise honest placement rules, clear labeling, and a real chance to be seen as users navigate the catalog.</p>
+           <p className="mt-3 text-sm leading-relaxed text-muted">A visitor may open one app detail, browse a category, compare a moat, and return to the vibecoded list. Each page and each rotating slot joins the same eligible pool, so sponsors can be seen throughout the anonymous browsing journey instead of being trapped on one URL.</p>
+           <p className="mt-4 text-sm leading-relaxed text-muted">The client rotates the active sponsor on a short, equal interval and uses the same rule across all rotating locations. We do not promise a fixed impression count because traffic changes; we do promise that the pool is shared fairly and that fewer active sponsors means more frequent turns.</p>
         </div>
       </section>
 

@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import type { SponsorPlacement } from '@/lib/sponsors';
+import { SPONSOR_ROTATION_MS, sponsorRotationIndex } from '@/lib/sponsor-rotation';
 import { SponsorPurchaseButton } from './sponsor-purchase-button';
 
 export const SITE_HEADER_HEIGHT = 54;
@@ -97,8 +98,13 @@ export function AdSlot({
   anchorIndex,
 }: AdSlotProps) {
   const [sponsors, setSponsors] = useState<SponsorPlacement[]>([]);
+  const [rotationTick, setRotationTick] = useState(0);
   useEffect(() => {
     fetch('/api/sponsors/active', { cache: 'no-store' }).then(response => response.ok ? response.json() : []).then((items: SponsorPlacement[]) => setSponsors(items.filter(item => item.plan === 'inList'))).catch(() => undefined);
+  }, []);
+  useEffect(() => {
+    const timer = window.setInterval(() => setRotationTick(value => value + 1), SPONSOR_ROTATION_MS);
+    return () => window.clearInterval(timer);
   }, []);
   const anchorProps = anchorIndex === undefined
     ? {}
@@ -111,7 +117,8 @@ export function AdSlot({
       ? 'bg-[var(--glass-bg)] backdrop-blur-xl backdrop-saturate-150 shadow-[0_8px_32px_rgba(0,0,0,.28)]'
       : 'bg-[var(--surface)]/90',
   ].join(' ');
-  const inListSlotId = `in-list-${(hashSlot(slot) % 6) + 1}`;
+  const purchaseSlotId = `in-list-${(slotHash(slot) % 6) + 1}`;
+  const sponsor = sponsors.length ? sponsors[sponsorRotationIndex(sponsors.length, slot, rotationTick)] : null;
 
   return (
     <div
@@ -122,18 +129,18 @@ export function AdSlot({
       {...anchorProps}
       >
         <div className={surfaceClassName} data-sticky-surface={sticky ? 'true' : undefined}>
-          {sponsors.find(sponsor => sponsor.slotId === inListSlotId) ? <InListSponsor sponsor={sponsors.find(sponsor => sponsor.slotId === inListSlotId)!} /> : <InListPlaceholder slotId={inListSlotId} />}
+          {sponsor ? <InListSponsor sponsor={sponsor} /> : <InListPlaceholder slotId={purchaseSlotId} />}
         </div>
     </div>
   );
 }
 
-function hashSlot(slot: string): number {
-  return Array.from(slot).reduce((sum, char) => sum + char.charCodeAt(0), 0);
+function slotHash(slot: string): number {
+  return Array.from(slot).reduce((total, char) => total + char.charCodeAt(0), 0);
 }
 
 function InListSponsor({ sponsor }: { sponsor: SponsorPlacement }) {
-  if (sponsor.creativeMode === 'banner') return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" className="relative flex min-h-[88px] items-end overflow-hidden rounded-lg no-underline"><img src={sponsor.bannerUrl} alt="" className="absolute inset-0 h-full w-full object-cover" /><span className="relative m-3 rounded bg-black/70 px-2 py-1 font-display text-sm font-bold text-white">{sponsor.name}</span><span className="absolute right-3 top-3 rounded bg-black/70 px-2 py-1 font-mono text-[9px] uppercase text-white">Sponsored</span></a>;
+  if (sponsor.creativeMode === 'banner') return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" aria-label={`${sponsor.name} sponsored placement`} className="relative flex min-h-[88px] items-end overflow-hidden rounded-lg no-underline"><img src={sponsor.bannerUrl} alt={sponsor.name} className="absolute inset-0 h-full w-full object-cover" /></a>;
   return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" className="flex w-full flex-col items-start gap-1.5 text-left no-underline"><img src={sponsor.iconUrl} alt="" className="h-8 w-8 rounded-lg object-cover" /><span className="font-display text-sm font-bold text-fg">{sponsor.name}</span><span className="line-clamp-2 text-[11px] text-muted-2">{sponsor.description}</span><span className="font-mono text-[10px] uppercase tracking-[0.08em] text-warning">Sponsored</span></a>;
 }
 

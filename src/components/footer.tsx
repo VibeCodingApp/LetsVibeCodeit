@@ -7,8 +7,12 @@ export function Footer() {
           <p className="text-[13px] text-muted-2">
             Yes, you can vibecode this site too.{' '}
             <a href="/vibecode-this-site" className="text-primary underline underline-offset-2 hover:decoration-primary">How this site works</a>
-            {' '}·{' '}
-            <a href="https://github.com/VibeCodingApp/LetsVibeCodeit" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:decoration-primary">Source on GitHub</a>
+           {' '}·{' '}
+           <a href="https://github.com/VibeCodingApp/LetsVibeCodeit" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:decoration-primary">Source on GitHub</a>
+           {' '}·{' '}
+           <a href="/privacy" className="text-primary underline underline-offset-2 hover:decoration-primary">Privacy</a>
+           {' '}·{' '}
+           <a href="/terms" className="text-primary underline underline-offset-2 hover:decoration-primary">Terms</a>
           </p>
           <p className="text-[12px] leading-relaxed text-muted-2">built by @yanki3l · @worldofnovagame · @hunt3rd3v · MIT · no third-party trackers · weekly: what got a verdict, what died.</p>
         </div>
