@@ -10,12 +10,9 @@ export function sponsorPoolCapacity(count: number): number {
 
 export function rotatingSponsorForSlot<T>(sponsors: T[], slot: string, tick: number, capacity: number): T | null {
   if (!sponsors.length) return null;
-  const positions = shuffle(Array.from({ length: capacity }, (_, index) => index), tick + 17).slice(0, Math.min(sponsors.length, capacity));
-  const position = hash(`${slot}:${tick}`) % capacity;
-  const sponsorPosition = positions.indexOf(position);
-  if (sponsorPosition < 0) return null;
-  const order = shuffle(Array.from({ length: sponsors.length }, (_, index) => index), tick + 31);
-  return sponsors[order[sponsorPosition % order.length]];
+  void capacity;
+  const order = shuffle(Array.from({ length: sponsors.length }, (_, index) => index), hash(`${slot}:${tick}`) + 31);
+  return sponsors[order[0]];
 }
 
 function hash(value: string): number {
