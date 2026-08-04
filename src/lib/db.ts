@@ -80,3 +80,17 @@ export async function isSlotReserved(slotId: string): Promise<boolean> {
   );
   return result.rows[0]?.exists ?? false;
 }
+
+export async function getCatalogSyncSha(): Promise<string> {
+  await pool.query('CREATE TABLE IF NOT EXISTS catalog_sync_state (source TEXT PRIMARY KEY, source_sha TEXT NOT NULL, checked_at BIGINT NOT NULL)');
+  const result = await pool.query<{ source_sha: string }>('SELECT source_sha FROM catalog_sync_state WHERE source = $1', ['canivibecodeit/canivibecodeit']);
+  return result.rows[0]?.source_sha || '';
+}
+
+export async function saveCatalogSyncSha(sourceSha: string): Promise<void> {
+  await pool.query(
+    `INSERT INTO catalog_sync_state (source, source_sha, checked_at) VALUES ($1,$2,$3)
+     ON CONFLICT (source) DO UPDATE SET source_sha = EXCLUDED.source_sha, checked_at = EXCLUDED.checked_at`,
+    ['canivibecodeit/canivibecodeit', sourceSha, Date.now()],
+  );
+}
