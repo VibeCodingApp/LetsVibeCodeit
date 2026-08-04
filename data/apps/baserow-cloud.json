@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Baserow Cloud costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Baserow Cloud, use a managed open-source database workspace with grids, forms, and views. The hard boundary is managed hosting, upgrades, backups, collaboration, and premium features, plus data model flexibility, collaboration, and integrations.",

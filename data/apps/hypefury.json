@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Hypefury costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Hypefury, draft and schedule text-led social posts with reusable queues. The hard boundary is platform integrations, auto-reposting, cross-posting, analytics, and creator templates, plus api access, connector upkeep, and collaboration.",

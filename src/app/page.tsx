@@ -29,7 +29,7 @@ export default function HomePage() {
   const rows = getAppRows();
   const appCount = getAppCount();
   const mrr = computeMRR(allApps);
-  const pricedCount = allApps.filter(a => !!a.priceMonthly && a.priceMonthly > 0).length;
+  const pricedCount = allApps.filter(a => !!a.priceMonthly && a.priceMonthly > 0 && a.verdict !== 'no').length;
   const categories = getTopCategories(allApps, 13);
 
   return (

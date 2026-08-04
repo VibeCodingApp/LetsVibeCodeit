@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "high",
   "verdictSummary": "You can build a chat UI calling the OpenAI API in 10 minutes. But the moat isn't the UI — it's the models, the fine-tuning infrastructure, the RLHF pipeline, and the multi-modal capabilities.",
   "coreLoopDIY": "Chat UI calling API",

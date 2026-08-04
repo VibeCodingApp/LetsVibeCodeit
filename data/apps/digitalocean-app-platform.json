@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$5/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: DigitalOcean App Platform costs $5/mo ($60/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DigitalOcean App Platform, deploy a small containerized service with TLS, logs, and backups on one server. The hard boundary is managed builds, runtime, scaling, databases, networking, and support, plus infrastructure scale, operations, and reliability.",

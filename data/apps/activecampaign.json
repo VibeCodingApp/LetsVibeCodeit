@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$15/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: ActiveCampaign costs $15/mo ($180/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For ActiveCampaign, run a small email list and a handful of transparent automations. The hard boundary is deep lifecycle automation, crm, deliverability, integrations, and data history, plus deliverability, growth network, and integrations.",

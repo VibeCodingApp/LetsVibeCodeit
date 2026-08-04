@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$18/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "You can one-shot a basic photo editor with text overlays, shapes, and image filters using a canvas library. But Canva's moat is the template library (500k+ professionally designed templates), the stock photo/video/audio library, Brand Kit, and the real-time collaboration engine. A simple editor covers 20% of Canva use cases.",
   "coreLoopDIY": "Canvas-based image editor with drag-and-drop shapes, text, and filters",

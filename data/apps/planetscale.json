@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: PlanetScale has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For PlanetScale, operate a small MySQL-compatible database with migrations and backups on one server. The hard boundary is vitess operations, branching, nonblocking schema workflow, scale, and support, plus infrastructure scale, operations, and reliability.",

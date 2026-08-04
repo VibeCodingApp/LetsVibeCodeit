@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: PhotoRoom costs $12.99/mo ($155.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For PhotoRoom, remove or replace backgrounds and batch-export consistent product images. The hard boundary is specialized vision models, mobile capture, templates, and high-volume apis, plus frontier models, compute, and data.",

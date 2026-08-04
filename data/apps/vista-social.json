@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Vista Social costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Vista Social, schedule and review content across several profiles with a shared calendar. The hard boundary is social inbox, review tools, listening, analytics, and agency collaboration, plus api access, connector upkeep, and collaboration.",

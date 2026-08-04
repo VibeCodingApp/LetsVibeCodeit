@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$36/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Attio costs $36/mo ($432/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Attio, model contacts and companies flexibly, create views, and manage a pipeline. The hard boundary is real-time data model, enrichment, email sync, automations, and collaborative polish, plus integrations, data quality, and workflow lock-in.",

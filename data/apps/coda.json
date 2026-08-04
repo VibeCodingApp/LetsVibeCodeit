@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Coda costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A doc with tables and buttons is buildable; Coda's editor, formula engine, packs/integrations, permissions, and team workflows make full parity difficult.",

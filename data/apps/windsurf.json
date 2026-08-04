@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$15/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Windsurf costs $15/mo ($180/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Windsurf, build a VS Code extension that proposes and applies reviewed multi-file patches. The hard boundary is proprietary coding models, agent context, ide integration, and hosted inference, plus frontier models, context infrastructure, and execution safety.",

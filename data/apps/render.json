@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$7/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Render costs $7/mo ($84/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Render, deploy one containerized web service with automatic TLS and health checks. The hard boundary is managed runtime, databases, private networking, builds, scaling, and support, plus infrastructure scale, operations, and reliability.",

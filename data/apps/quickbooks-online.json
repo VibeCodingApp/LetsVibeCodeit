@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$38/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: QuickBooks Online costs $38/mo ($456/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "You can build invoicing and expense tables, but QuickBooks' value is accounting correctness, bank feeds, payroll/tax ecosystem, accountant workflows, compliance, and support.",

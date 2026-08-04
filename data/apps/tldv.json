@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: tl;dv costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A DIY app can record, transcribe, summarize, and generate clips, but tl;dv's team library, CRM integrations, and meeting-bot reliability are real work.",

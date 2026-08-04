@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$19/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Pebblely costs $19/mo ($228/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pebblely, generate product-photo backgrounds from uploaded cutouts and reusable prompts. The hard boundary is specialized model tuning, fast cloud generation, and commerce workflow, plus frontier models, compute, and data.",

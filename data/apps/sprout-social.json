@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$249/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "high",
   "verdictSummary": "Posting to social media APIs is straightforward — each platform has a publishing API. A content calendar with scheduling, draft management, and a basic analytics dashboard is a weekend project. But Sprout Social's moat is the breadth of platform integrations (10+ networks), the unified inbox for engagement, the AI-powered listening and sentiment analysis, and the enterprise approval workflows.",
   "coreLoopDIY": "Content calendar + multi-platform post scheduling + basic analytics dashboard",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$25/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Xero costs $25/mo ($300/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "Invoices and reports are buildable, but Xero's real product is bank feeds, accounting workflows, accountant collaboration, compliance expectations, integrations, and trust.",

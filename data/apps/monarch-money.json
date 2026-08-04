@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$14.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Monarch Money costs $14.99/mo ($179.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A manual finance dashboard is buildable, but high-quality bank aggregation, transaction cleaning, investment data, household collaboration, and mobile sync make it real work.",

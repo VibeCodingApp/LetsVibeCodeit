@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Shortcut costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Shortcut, manage software stories, epics, iterations, roadmaps, and engineering workflows. The hard boundary is git integrations, reporting, collaboration, and mature agile project semantics, plus collaboration, integrations, and organizational trust.",

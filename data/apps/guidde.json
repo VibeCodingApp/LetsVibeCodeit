@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$23/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Guidde costs $23/mo ($276/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Guidde, turn a captured workflow into a narrated step-by-step video guide. The hard boundary is browser capture, ai voice and text, templates, hosting, and team knowledge features, plus capture polish, hosting, and collaboration.",

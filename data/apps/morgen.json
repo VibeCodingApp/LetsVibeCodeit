@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$14/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Morgen costs $14/mo ($168/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Morgen, unify calendars and tasks, create booking pages, and plan work across time zones. The hard boundary is multiple calendar providers, task integrations, mobile apps, and sync reliability, plus cross-device reliability and workflow polish.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$19/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Chatwoot Cloud costs $19/mo ($228/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Chatwoot Cloud, use a managed shared inbox and website widget instead of operating Chatwoot yourself. The hard boundary is managed upgrades, backups, delivery infrastructure, support, and integrations, plus channel integrations and support operations.",

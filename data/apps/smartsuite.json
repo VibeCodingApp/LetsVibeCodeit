@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: SmartSuite costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SmartSuite, configure records, views, automations, and dashboards for one team. The hard boundary is template breadth, workflow, integrations, permissions, and hosted collaboration, plus data model flexibility, collaboration, and integrations.",

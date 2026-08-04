@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$34/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Motion costs $34/mo ($408/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "You can build an auto-scheduler for your own tasks, but robust calendar conflict handling, integrations, and productized rescheduling take real engineering.",

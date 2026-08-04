@@ -15,7 +15,7 @@ export function filterApps(rows: AppRow[], f: FilterState): AppRow[] {
 }
 
 export function computeMRR(apps: { priceMonthly: number | null; verdict: 'yes' | 'kinda' | 'no' }[]): number {
-  return apps.filter(a => a.verdict === 'yes').reduce((s, a) => s + (a.priceMonthly ?? 0), 0);
+  return apps.filter(a => a.verdict !== 'no').reduce((s, a) => s + (a.priceMonthly ?? 0), 0);
 }
 
 export function getTopCategories(apps: { category: string }[], limit = 12): string[] {

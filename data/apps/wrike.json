@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Wrike costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Wrike, track projects through tasks, boards, custom fields, and team dashboards. The hard boundary is enterprise workflow, approvals, integrations, reporting, and governance, plus collaboration, integrations, and organizational trust.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$59/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Apollo costs $59/mo ($708/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Apollo, run permissioned outbound sequences from an uploaded list without supplying contact data. The hard boundary is massive proprietary contact database, enrichment, intent data, and deliverability tooling, plus proprietary data, deliverability, and network effects.",

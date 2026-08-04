@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Tallymeter costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",

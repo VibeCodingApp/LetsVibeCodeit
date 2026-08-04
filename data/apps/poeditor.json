@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$14.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: POEditor costs $14.99/mo ($179.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For POEditor, manage translation keys, contributors, suggestions, and standard file exports. The hard boundary is hosted collaboration, integrations, translation memory, and simple workflow, plus translation memory, collaboration, and deployment integrations.",

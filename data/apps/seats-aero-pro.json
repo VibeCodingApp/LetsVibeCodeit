@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$9.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Seats.aero costs $9.99/mo ($119.88/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Seats.aero, save and compare user-entered award availability without crawling airline systems. The hard boundary is large award-availability dataset, alerts, route tools, and continuous collection, plus proprietary live data and network coverage.",

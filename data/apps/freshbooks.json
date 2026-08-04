@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$23/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: FreshBooks costs $23/mo ($276/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "For freelancers, invoices, time tracking, and expense logs are buildable; payments, tax/accounting reports, bank feeds, client portal, and reliability make it more than trivial.",

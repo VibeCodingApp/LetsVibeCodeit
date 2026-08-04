@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$2.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Pumble costs $2.99/mo ($35.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pumble, run straightforward team channels, direct messages, threads, and file sharing. The hard boundary is cross-platform apps, push, guest access, admin controls, and hosted reliability, plus network, moderation, and communication infrastructure.",

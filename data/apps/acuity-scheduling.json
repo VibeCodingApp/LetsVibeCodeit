@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Acuity Scheduling costs $20/mo ($240/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible appointment scheduling loop is buildable, but a credible replacement needs more than the first screen. Acuity Scheduling earns its keep through OAuth, calendar reliability, so expect a weekend or multi-day build and a narrower personal scope.",

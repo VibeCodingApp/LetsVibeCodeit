@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$9/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Brevo costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Brevo, send a low-volume newsletter and transactional messages with clear consent records. The hard boundary is deliverability infrastructure, multichannel messaging, crm, automation, and support, plus deliverability, growth network, and integrations.",

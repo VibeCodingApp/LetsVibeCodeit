@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$3.33/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: CleanMyMac costs $3.33/mo ($39.96/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For CleanMyMac, surface large files, caches, login items, and safe cleanup suggestions without deleting automatically. The hard boundary is os-specific cleanup knowledge, malware scanning, updater integrations, and support, plus os integration polish and maintenance.",

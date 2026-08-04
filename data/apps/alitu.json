@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$38/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Alitu costs $38/mo ($456/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Alitu, clean, assemble, publish, and package a recurring spoken-word podcast episode. The hard boundary is production automation, hosting integrations, support, and creator-specific polish, plus audio infrastructure, distribution, and production polish.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$4.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: NordPass costs $4.99/mo ($59.88/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For NordPass, build a local encrypted vault and simple autofill without claiming audited security. The hard boundary is security operations, cross-platform apps, breach scanning, recovery, and support, plus security assurance, infrastructure, and trust.",

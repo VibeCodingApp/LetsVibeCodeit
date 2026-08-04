@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$38/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Arcade costs $38/mo ($456/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Arcade, build an interactive product story from captured screens and hotspots. The hard boundary is capture polish, hosted playback, analytics, personalization, and collaboration, plus capture polish, hosting, and collaboration.",

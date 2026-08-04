@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Formsite has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible online forms loop is buildable, but a credible replacement needs more than the first screen. Formsite earns its keep through delivery, integrations, compliance, so expect a weekend or multi-day build and a narrower personal scope.",

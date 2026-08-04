@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Krea costs $10/mo ($120/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Krea, manage real-time and batch generation workflows from user-owned models or APIs. The hard boundary is proprietary real-time models, gpu fleet, enhancement stack, and creative tools, plus frontier models, compute, and data.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: WeWeb costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For WeWeb, build a responsive frontend over one API with reusable components and workflows. The hard boundary is visual frontend editor, hosting, connectors, code export, and collaboration, plus connectors, runtime reliability, and governance.",

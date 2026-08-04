@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Linearity Curve has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible vector design loop is buildable, but a credible replacement needs more than the first screen. Linearity Curve earns its keep through editor polish, assets, algorithms, so expect a weekend or multi-day build and a narrower personal scope.",

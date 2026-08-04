@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Tidio costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Tidio, run website chat, canned replies, and a simple support inbox. The hard boundary is hosted chat network, bots, ai agent, email, analytics, and ecommerce integrations, plus channel integrations and support operations.",

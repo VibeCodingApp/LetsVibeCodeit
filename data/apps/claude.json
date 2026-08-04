@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Claude costs $20/mo ($240/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A Claude-like UI is trivial; the model, safety/reliability layer, long-context performance, artifacts/projects, and platform distribution are not.",

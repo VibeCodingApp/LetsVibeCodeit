@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Phrase has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Phrase, manage a modest string catalog with review and CI sync. The hard boundary is enterprise translation management, automation, integrations, analytics, and global operations, plus translation memory, collaboration, and deployment integrations.",

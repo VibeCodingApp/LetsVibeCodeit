@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Dailygram costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The personal digest pipeline is a realistic weekend build if you bring feeds or a data provider. Reliable ingestion from Instagram, X, TikTok, and LinkedIn is not a one-shot project: access restrictions, changing page formats, rate limits, and connector maintenance are the product's durable edge.",

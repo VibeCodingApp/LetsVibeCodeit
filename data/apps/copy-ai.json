@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Copy.ai has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Copy.ai, build repeatable go-to-market drafting workflows from approved company context. The hard boundary is workflow templates, account data, team collaboration, and model routing, plus workflow, data, and model tuning.",

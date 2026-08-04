@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Activepieces Cloud has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Activepieces Cloud, use a managed open-source workflow runner instead of operating queues and upgrades. The hard boundary is managed hosting, connector updates, execution capacity, support, and reliability, plus connector breadth and execution reliability.",

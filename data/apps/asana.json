@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$13.49/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Asana costs $13.49/mo ($161.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Asana, track team work through projects, tasks, owners, dependencies, and status updates. The hard boundary is large integration ecosystem, automation, reporting, permissions, and organizational trust, plus collaboration, integrations, and organizational trust.",

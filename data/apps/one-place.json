@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: One Place costs $39/mo ($468/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "You can build a scheduled personal property monitor, but not One Place: the value is the maintained real-estate corpus, crawler fleet, AI extraction, deduplication, image/semantic search, geo enrichment, and constant source upkeep across millions of listings.",

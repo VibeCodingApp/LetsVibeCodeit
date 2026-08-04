@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: UserVoice has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For UserVoice, run a focused feedback portal and manual research repository. The hard boundary is enterprise customer identity, integrations, analytics, governance, and consulting, plus participant network, synthesis workflow, and collaboration.",

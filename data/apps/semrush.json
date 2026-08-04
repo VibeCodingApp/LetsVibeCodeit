@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$139.95/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "high",
   "verdictSummary": "The value is the data: billions of keywords, backlink graphs, SERP history, and competitor ad intelligence. You can't one-shot a web-scale crawler and data pipeline.",
   "coreLoopDIY": "Basic keyword position checker",

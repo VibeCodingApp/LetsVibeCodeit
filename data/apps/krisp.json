@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$16/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Krisp costs $16/mo ($192/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "You can build post-processing and maybe route audio through open models, but real-time low-latency virtual-device noise cancellation is not a one-sitting web app.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "You can build a UI that sends queries to an LLM with a web search API (Brave, SerpAPI) and displays results with citations. That takes an afternoon. But Perplexity's real engineering is the retrieval-augmented generation pipeline — crawling, indexing, chunking, reranking, and the query reformulation that produces those crisp accurate answers. The RAG infrastructure is a full-time engineering team's work.",
   "coreLoopDIY": "Search UI with LLM-powered answer generation and source citations",

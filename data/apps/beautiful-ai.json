@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$45/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Beautiful.ai costs $45/mo ($540/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "You can build a template deck generator, but auto-layout slide behavior, template polish, brand controls, PowerPoint import/export, and collaboration are real work.",

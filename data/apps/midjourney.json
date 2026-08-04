@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "high",
   "verdictSummary": "You can build a UI that calls Stable Diffusion via Replicate or the Stability AI API and get decent image generation. But Midjourney's proprietary models, curated aesthetic, style consistency, and creative control features (style references, character consistency, inpainting) come from custom training and fine-tuning that can't be replicated with off-the-shelf API calls.",
   "coreLoopDIY": "Image generation UI calling Stable Diffusion API with prompt input and gallery",

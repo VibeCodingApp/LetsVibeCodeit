@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Oncrawl has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Oncrawl, crawl one owned site locally and join pages to user-supplied analytics exports. The hard boundary is large-scale crawler, log analysis, data connectors, and enterprise support, plus crawl scale, rule depth, and operational polish.",

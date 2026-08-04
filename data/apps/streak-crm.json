@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$59/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Streak costs $59/mo ($708/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Streak, build a simple pipeline beside a local mailbox index without embedding inside Gmail. The hard boundary is deep gmail integration, shared mailboxes, email tracking, automations, and team adoption, plus integrations, data quality, and workflow lock-in.",

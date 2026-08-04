@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$5/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Stackby costs $5/mo ($60/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Stackby, build a small table-based operational tracker with views and API columns. The hard boundary is templates, integrations, api columns, collaboration, and hosted sync, plus data model flexibility, collaboration, and integrations.",

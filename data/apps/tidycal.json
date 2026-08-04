@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: TidyCal has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For TidyCal, publish simple booking pages connected to one calendar and send confirmations. The hard boundary is lifetime hosted service, calendar integrations, and extremely low maintenance cost, plus calendar integrations and reliability.",

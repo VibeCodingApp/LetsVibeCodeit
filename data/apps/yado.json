@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$9.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Yado costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "Claude Code was never built to leave the laptop. A chat interface is easy. A terminal into a remote container, also fine. The pain starts when you want Claude, the container, and the app to forget they're three completely distinct entities and behave as one thing: signing in with one tap, when on paper that can only happen in a terminal. A chat, when underneath it is always a terminal. Infra that's fast and that keeps one person's AI away from everyone else's code. I thought that was weeks of work. It was months.",

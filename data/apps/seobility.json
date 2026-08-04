@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$49.9/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Seobility costs $49.9/mo ($598.8/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Seobility, crawl an owned site, track selected keywords, and organize remediation tasks. The hard boundary is hosted crawling, keyword data, backlink monitoring, reports, and support, plus crawl scale, rule depth, and operational polish.",

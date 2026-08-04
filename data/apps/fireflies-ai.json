@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$18/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Fireflies.ai costs $18/mo ($216/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The summarizer is easy; the meeting bot, calendar routing, integrations, team search, and admin layer make it more than a one-prompt clone.",

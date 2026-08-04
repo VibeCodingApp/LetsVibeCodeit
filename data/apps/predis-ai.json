@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Predis.ai has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible AI social content loop is buildable, but a credible replacement needs more than the first screen. Predis.ai earns its keep through platform APIs, distribution, so expect a weekend or multi-day build and a narrower personal scope.",

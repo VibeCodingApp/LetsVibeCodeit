@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$4.08/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: TripIt Pro costs $4.08/mo ($48.96/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For TripIt Pro, parse user-forwarded reservations into an offline itinerary and calendar. The hard boundary is live flight alerts, fare monitoring, seat tracking, account integrations, and disruption data, plus proprietary live data and network coverage.",

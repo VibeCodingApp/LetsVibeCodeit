@@ -16,7 +16,7 @@
     "notes": "Plus transaction fees",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "high",
   "verdictSummary": "A product listing page with Stripe checkout is easy. The hard parts: PCI compliance, inventory management across channels, shipping integrations, tax calculation, fraud detection, and the app store ecosystem.",
   "coreLoopDIY": "Product catalog with Stripe checkout",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$13/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Copilot Money costs $13/mo ($156/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A beautiful spending dashboard can be vibecoded, but Copilot's bank/investment sync, categorization, native Apple apps, and data-security posture are the product.",

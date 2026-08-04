@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$14.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "A rich-text note editor with full-text search and file attachments is a straightforward CRUD app. Markdown-based notes stored in a database with a WYSIWYG editor (TipTap or similar) gives you 90% of what most people use Evernote for. The web clipper is harder, but a browser extension can handle it.",
   "coreLoopDIY": "Rich-text note editor with notebooks, tags, full-text search, and file attachments",

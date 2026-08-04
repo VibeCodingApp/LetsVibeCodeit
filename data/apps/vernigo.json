@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Vernigo costs $39/mo ($468/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "You can build filters, bookmarks, and an outlier score over a small set of YouTube channels, but Vernigo's product is the continuously refreshed corpus: millions of videos, channel baselines, niche-level supply and demand signals, and ranking data improved by how thousands of users interact with the library. A one-shot app can reproduce the interface and formula, not the dataset that makes the results useful.",

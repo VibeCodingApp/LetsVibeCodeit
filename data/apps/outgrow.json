@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$22/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Outgrow costs $22/mo ($264/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Outgrow, create a constrained calculator or quiz with formula-driven results. The hard boundary is template library, lead capture, analytics, integrations, and hosted embeds, plus integrations, deliverability, and workflow depth.",

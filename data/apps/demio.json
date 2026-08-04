@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$59/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Demio costs $59/mo ($708/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Demio, run a small live webinar on self-managed video and collect registrations. The hard boundary is webinar media infrastructure, registration, engagement, replay hosting, analytics, and support, plus real-time media infrastructure and reliability.",

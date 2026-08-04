@@ -16,7 +16,7 @@
     "notes": "Usage-based beyond Pro limits",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "You cannot vibecode global edge infrastructure. The product is the CDN, the build system, the serverless runtime, and the reliability at scale.",
   "coreLoopDIY": "Static site deploy via rsync",

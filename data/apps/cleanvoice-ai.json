@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Cleanvoice AI has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Cleanvoice AI, remove filler words, mouth sounds, and long silences from a transcript-aligned edit list. The hard boundary is specialized cleanup models, cloud processing, and batch speed, plus audio infrastructure, distribution, and production polish.",

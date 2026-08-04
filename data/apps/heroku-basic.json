@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$7/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Heroku costs $7/mo ($84/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Heroku, deploy one containerized app with logs and a managed reverse proxy on a user server. The hard boundary is managed runtime, add-ons, buildpacks, databases, support, and operational maturity, plus infrastructure scale, operations, and reliability.",

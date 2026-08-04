@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Neon has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Neon, operate one Postgres database with backups on a user-owned server. The hard boundary is serverless postgres architecture, branching, autoscaling, storage, and operational expertise, plus infrastructure scale, operations, and reliability.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$49/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: SocialBee costs $49/mo ($588/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SocialBee, organize posts into evergreen categories and schedule them across networks. The hard boundary is many connectors, content recycling, concierge services, and team workflow, plus api access, connector upkeep, and collaboration.",

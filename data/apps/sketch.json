@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Sketch costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible interface design loop is buildable, but a credible replacement needs more than the first screen. Sketch earns its keep through editor polish, assets, algorithms, so expect a weekend or multi-day build and a narrower personal scope.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$7.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Spark Premium costs $7.99/mo ($95.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Spark Premium, create a cross-platform focused email client with snooze, send later, and local search. The hard boundary is mobile and desktop apps, push, team drafts, sync, ai, and provider compatibility, plus mail infrastructure, integrations, and client polish.",

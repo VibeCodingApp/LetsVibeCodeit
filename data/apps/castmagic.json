@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Castmagic costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Castmagic, turn a recording into a transcript, summary, clips, quotes, and reusable content assets. The hard boundary is large prompt library, integrations, team workflow, and hosted processing, plus audio infrastructure, distribution, and production polish.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$19/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: IdeaFast costs $19/mo ($228/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",

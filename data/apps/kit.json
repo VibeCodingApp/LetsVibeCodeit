@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Kit costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A simple newsletter sender is buildable, but Kit's value is deliverability, subscriber forms, automations, recommendations, commerce, migrations, and creator-specific flows.",

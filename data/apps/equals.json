@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Equals costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Equals, query a database into a spreadsheet-style analysis workbook. The hard boundary is warehouse connectors, sql, collaboration, versioning, and finance workflow polish, plus data model flexibility, collaboration, and integrations.",

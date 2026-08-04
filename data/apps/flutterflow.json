@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$30/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: FlutterFlow costs $30/mo ($360/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For FlutterFlow, assemble a mobile interface from a schema and export maintainable Flutter code. The hard boundary is visual editor depth, native builds, integrations, collaboration, and code generation, plus connectors, runtime reliability, and governance.",

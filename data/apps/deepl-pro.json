@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10.49/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: DeepL Pro costs $10.49/mo ($125.88/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For DeepL Pro, connect a local translation memory editor to a user-supplied model API. The hard boundary is deepl's proprietary translation model, document handling, privacy operations, and language quality, plus translation memory, collaboration, and deployment integrations.",

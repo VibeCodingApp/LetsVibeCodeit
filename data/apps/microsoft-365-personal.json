@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$9.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Microsoft 365 Personal costs $9.99/mo ($119.88/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Microsoft 365 Personal, sync selected files and provide a personal document library on user-owned storage. The hard boundary is office applications, onedrive sync, device support, identity, and global infrastructure, plus reliability, durability, and cross-device sync.",

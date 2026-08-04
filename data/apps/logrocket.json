@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$69/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: LogRocket costs $69/mo ($828/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For LogRocket, collect explicit product events and small consented debug snapshots with privacy controls. The hard boundary is session replay, dom capture, redaction, storage, analytics, and integrations, plus independent infrastructure and reliable alerting.",

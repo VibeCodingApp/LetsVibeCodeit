@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Checkly costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Checkly, run scheduled API and browser checks from one independent worker. The hard boundary is global browser fleet, playwright operations, alerting, ci integration, and support, plus independent infrastructure and reliable alerting.",

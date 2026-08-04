@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8.33/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Opal costs $8.33/mo ($99.96000000000001/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible screen-time control loop is buildable, but a credible replacement needs more than the first screen. Opal earns its keep through polish, OS integration, so expect a weekend or multi-day build and a narrower personal scope.",

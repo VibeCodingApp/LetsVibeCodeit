@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Planable costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Planable, collaboratively draft and approve social posts before manual or API publishing. The hard boundary is high-fidelity previews, approvals, comments, multiple workspaces, and client workflow, plus api access, connector upkeep, and collaboration.",

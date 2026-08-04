@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Portfolio Coach has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A private dashboard for holdings, family members, projections, and CSV imports is a credible weekend build. Reliable live pricing for UK funds, a ledger-correct Vanguard importer, household data boundaries, maintained tax rules, and AI advice grounded in every account turn the complete product into a multi-day project.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$32/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Animam.ai costs $32/mo ($384/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The chat is a weekend. Everything that makes it safe to point at customers is not. Ingest a site, search it, stream an answer · that part is commoditised and the prompt below really does it. What resists is the boring half: an amount computed by the server and never by the model, a visitor email verified before it triggers anything, signed webhooks with retries, and a sending domain whose reputation you did not build in an afternoon.",

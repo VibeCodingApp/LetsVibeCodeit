@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$49/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Frase costs $49/mo ($588/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A content-brief generator over SERP pages and an LLM is reachable, but Frase's workflow combines SERP retrieval, scoring, editor UX, AI-search tracking, and reporting.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$18/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "Screen capture via MediaRecorder API + upload to S3/R2. Add a sharing link. Done in one sitting. The hard part is the native desktop app with system audio capture.",
   "coreLoopDIY": "Browser-based screen recording with cloud upload",

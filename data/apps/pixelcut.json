@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$9.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Pixelcut costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pixelcut, batch-remove backgrounds, resize product images, and apply simple local templates. The hard boundary is mobile polish, hosted models, team assets, and api scale, plus frontier models, compute, and data.",

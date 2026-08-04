@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$24/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: LOVO costs $24/mo ($288/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For LOVO, produce labeled voiceovers from licensed local voices and user-authored scripts. The hard boundary is large proprietary voice catalog, editor, cloning, rights, and hosted rendering, plus models, compute, rights, and safety operations.",

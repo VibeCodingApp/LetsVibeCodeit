@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$36/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Supademo costs $36/mo ($432/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Supademo, capture clicks and screenshots into an interactive walkthrough with editable annotations. The hard boundary is hosted embeds, analytics, personalization, integrations, and team libraries, plus capture polish, hosting, and collaboration.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Ideogram costs $20/mo ($240/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Ideogram, run reproducible prompt experiments with a user-selected model and compare outputs. The hard boundary is proprietary model quality, typography capability, compute, and rapid iteration, plus frontier models, compute, and data.",

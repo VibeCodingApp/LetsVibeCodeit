@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$60/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Glide costs $60/mo ($720/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "You can build one specific Glide app; you are not rebuilding the no-code app builder, data editor, permissions, and deployment platform in one sitting.",

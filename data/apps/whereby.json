@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Whereby costs $8.99/mo ($107.88/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Whereby, host one simple browser meeting room using a self-managed WebRTC stack. The hard boundary is browser media reliability, turn capacity, recording, embeds, and support, plus real-time media infrastructure and reliability.",

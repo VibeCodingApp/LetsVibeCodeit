@@ -96,6 +96,14 @@ function parseVerdict(value) {
   return 'yes';
 }
 
+function verdictFromSource(markdown) {
+  const firstLine = section(markdown, 'Descrip[^\\n]*|Description').split(/\r?\n/)[0].toLowerCase();
+  if (firstLine.startsWith('kinda')) return 'kinda';
+  if (firstLine.startsWith('not really') || firstLine.startsWith('no')) return 'no';
+  if (firstLine.startsWith('yes')) return 'yes';
+  return parseVerdict(field(markdown, 'Veredicto|Verdict'));
+}
+
 function extractDescription(markdown) {
   const value = section(markdown, 'Descrip[^\\n]*app|Description[^\\n]*app');
   return value.split('\n\n')[0] || value;
@@ -137,7 +145,7 @@ function parseSource(file, existingBySlug) {
       ...(existing?.pricing || {}),
       native: priceMonthly === null ? 'varies' : priceMonthly === 0 ? 'Free' : `$${priceMonthly}/mo`,
     },
-    verdict: parseVerdict(field(markdown, 'Veredicto|Verdict')),
+    verdict: verdictFromSource(markdown),
     verdictConfidence: existing?.verdictConfidence || 'medium',
     verdictSummary: existing?.verdictSummary || section(markdown, 'Descrip[^\\n]*|Description').split('\n\n')[0] || `${name} can be replaced with a focused build.`,
     coreLoopDIY: existing?.coreLoopDIY || extractDescription(markdown),
@@ -150,7 +158,7 @@ function parseSource(file, existingBySlug) {
     priorArt: priorArt.length ? priorArt : (existing?.priorArt || []),
     relatedSlugs: similar.length ? similar.map(item => item.url.split('/').filter(Boolean).pop()).filter(Boolean) : (existing?.relatedSlugs || []),
     pagePriority: existing?.pagePriority || 2,
-    verifiedOneShot: existing?.verifiedOneShot ?? parseVerdict(field(markdown, 'Veredicto|Verdict')) === 'yes',
+    verifiedOneShot: existing?.verifiedOneShot ?? verdictFromSource(markdown) === 'yes',
     notes: existing?.notes || extractDescription(markdown),
     reportedReplacements: existing?.reportedReplacements ?? replacements,
     prompt: existing?.prompt || promptFrom(markdown),

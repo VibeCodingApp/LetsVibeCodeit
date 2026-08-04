@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Gamma costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "An AI slide generator is buildable, but Gamma's strength is layouts, editing model, exports, hosting, analytics, and shareable deck/site UX.",

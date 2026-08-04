@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: SavvyCal costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core booking-link loop can be cloned, but calendar reliability, time-zone correctness, reminders, and polished link UX make it more than a trivial script.",

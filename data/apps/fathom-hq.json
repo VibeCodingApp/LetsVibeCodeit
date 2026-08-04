@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$53/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Fathom HQ costs $53/mo ($636/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A KPI dashboard over accounting exports is buildable, but Fathom's value is accounting integrations, consolidation, forecasting, polished board reports, and accountant workflows.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Routine costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Routine, combine calendar, tasks, notes, and a command palette into one personal workspace. The hard boundary is calendar integrations, cross-platform apps, capture speed, sync, and polish, plus cross-device reliability and workflow polish.",

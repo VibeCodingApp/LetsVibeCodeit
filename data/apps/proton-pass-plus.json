@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$4.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Proton Pass Plus costs $4.99/mo ($59.88/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Proton Pass Plus, create a local password and alias vault with portable encrypted backup. The hard boundary is proton identity, email alias infrastructure, audits, apps, recovery, and privacy operations, plus security assurance, infrastructure, and trust.",

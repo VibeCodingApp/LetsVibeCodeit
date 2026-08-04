@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "You can install Continue.dev or Cody as a VS Code extension and get AI code completion in minutes. But Cursor's magic is deep IDE integration — inline diffs, whole-repo context, apply-in-editor, and custom models trained on editing behavior. Forking VS Code and adding AI is a team-scale effort, not a one-shot.",
   "coreLoopDIY": "VS Code extension with chat panel calling an LLM API",

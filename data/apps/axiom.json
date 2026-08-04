@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$25/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Axiom costs $25/mo ($300/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Axiom, ingest bounded logs, search them, and retain a compact local event store. The hard boundary is high-performance cloud storage, query engine, integrations, and managed operations, plus independent infrastructure and reliable alerting.",

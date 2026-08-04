@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8.5/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Shortwave costs $8.5/mo ($102/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Shortwave, group Gmail conversations, add bundles and todos, and index mail locally. The hard boundary is deep gmail semantics, cloud search, ai, team features, and mobile sync, plus mail infrastructure, integrations, and client polish.",

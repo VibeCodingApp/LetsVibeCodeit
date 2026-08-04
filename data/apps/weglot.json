@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$17/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Weglot costs $17/mo ($204/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Weglot, translate a small static site build and generate localized routes at deploy time. The hard boundary is website proxy, automatic discovery, machine translation, seo routing, and hosted delivery, plus translation memory, collaboration, and deployment integrations.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$40/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "high",
   "verdictSummary": "An email client that connects to Gmail/Outlook via IMAP or API and renders emails in a clean UI is buildable. But Superhuman's value is UX polish — the keyboard-first workflow (everything has a shortcut), the split inbox with AI triage, the instant search that indexes everything locally, and the read status tracking. The email client part is easy; the productivity workflow is hard.",
   "coreLoopDIY": "Email client with Gmail API integration, inbox view, and compose/reply",

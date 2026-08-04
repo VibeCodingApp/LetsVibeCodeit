@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$6/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Buffer costs $6/mo ($72/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "Posting to one or two APIs is easy, but maintaining social platform auth, queues, previews, analytics, and API-policy compliance is real ongoing work.",

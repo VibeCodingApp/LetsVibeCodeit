@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Paperform costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Paperform, compose branded document-like forms with payments left out of scope. The hard boundary is editor polish, calculations, commerce, integrations, and hosted delivery, plus integrations, deliverability, and workflow depth.",

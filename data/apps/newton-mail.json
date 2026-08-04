@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$4.17/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Newton Mail costs $4.17/mo ($50.04/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Newton Mail, build a cross-platform email client with read receipts, snooze, and send later. The hard boundary is push infrastructure, provider compatibility, mobile apps, sync, and support, plus mail infrastructure, integrations, and client polish.",

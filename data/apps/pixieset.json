@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Pixieset costs $8/mo ($96/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pixieset, publish a simple password-protected client gallery from user-owned storage. The hard boundary is gallery hosting, proofing, downloads, store, mobile apps, and photographer workflow, plus image pipeline quality, models, and workflow polish.",

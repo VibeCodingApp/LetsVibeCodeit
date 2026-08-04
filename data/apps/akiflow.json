@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$34/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Akiflow costs $34/mo ($408/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The planner UI can be built, but bringing every task source into one reliable, two-way calendar workflow means OAuth, APIs, sync conflicts, and maintenance.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$30/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "A grammar checker that calls an LLM API with a proofreading prompt works well for basic spelling and grammar. You can one-shot a text editor with a 'check grammar' button. But Grammarly's real product is tone detection (confidence, formality, politeness scores), real-time inline suggestions across every text field (browser extension at OS level), and the clarity/engagement rewrites that require sophisticated language models.",
   "coreLoopDIY": "Text editor with AI-powered grammar and style checking via LLM API",

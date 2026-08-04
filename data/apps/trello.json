@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12.5/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "A kanban board is drag-and-drop columns with cards. That's a CRUD app with a drag-and-drop library (dnd-kit). Add card details, checklists, due dates, and labels. The core loop — create columns, add cards, drag between columns — is trivially one-shot buildable.",
   "coreLoopDIY": "Drag-and-drop kanban board with columns, cards, checklists, and labels",

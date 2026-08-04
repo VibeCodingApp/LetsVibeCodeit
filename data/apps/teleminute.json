@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$4.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: TeleMinute costs $4.99/mo ($59.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A single personal bot with commands, keyword replies, and a basic broadcast is a solid weekend build on Telegram's friendly Bot API. What you are really buying is the hosted no-code layer: a dashboard a non-technical shop owner edits from a phone, scheduled broadcasts, lead-capture forms, analytics, and native iOS/Android apps. If you can run code you can replace your own subscription, but you cannot hand the DIY version to a client who cannot.",

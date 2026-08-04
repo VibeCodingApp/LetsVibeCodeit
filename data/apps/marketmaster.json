@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: MarketMaster costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A solo campaign generator that scrapes one site and prompts an LLM for coordinated copy is a realistic weekend build. MarketMaster's paid value is the deeper research, multi-format media generation, deterministic quality gates, independent review, integrations, scheduling, and maintained publishing workflow.",

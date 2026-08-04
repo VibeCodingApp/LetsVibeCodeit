@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Leonardo AI costs $12/mo ($144/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Leonardo AI, organize local or API-backed image-generation workflows and retain parameters. The hard boundary is proprietary models, hosted gpu capacity, training tools, and asset ecosystem, plus frontier models, compute, and data.",

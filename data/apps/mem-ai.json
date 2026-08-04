@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$14.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Mem costs $14.99/mo ($179.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mem, capture notes quickly and retrieve them through semantic search and related-memory suggestions. The hard boundary is hosted ai memory, sync, ingest integrations, and continuously tuned retrieval, plus sync, collaboration, and capture polish.",

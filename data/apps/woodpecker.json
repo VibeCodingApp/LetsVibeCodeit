@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Woodpecker costs $29/mo ($348/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Woodpecker, send a careful low-volume outbound sequence with bounces and replies handled. The hard boundary is deliverability safeguards, inbox connections, agency workflow, and support, plus proprietary data, deliverability, and network effects.",

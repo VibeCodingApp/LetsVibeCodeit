@@ -16,7 +16,7 @@
     "notes": "Free tier available; $10/mo for Pro",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "You can install an open-source alternative like Continue.dev and get similar completion UX. But Copilot's moat is GitHub's training data, the specialized fill-in-the-middle models, IDE-level integration across VS Code/JetBrains/Neovim, and the code review and PR summarization features. The model quality and deep editor integration are not one-shot replicable.",
   "coreLoopDIY": "VS Code extension with inline completions calling a code LLM API",

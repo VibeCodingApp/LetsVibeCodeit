@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8.25/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Flickr Pro costs $8.25/mo ($99/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Flickr Pro, host a personal photo gallery and metadata archive on user-owned storage. The hard boundary is large photography community, discovery, hosting, moderation, and mobile apps, plus image pipeline quality, models, and workflow polish.",

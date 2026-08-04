@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$2.5/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: When I Work costs $2.5/mo ($30/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For When I Work, build a small shift schedule, availability form, and swap approval workflow. The hard boundary is mobile apps, time clock, notifications, scheduling edge cases, and support, plus compliance, payroll, and regulated integrations.",

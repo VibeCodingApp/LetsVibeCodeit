@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$135/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Transifex costs $135/mo ($1620/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Transifex, manage a small software localization project with translation memory and review. The hard boundary is enterprise workflows, integrations, continuous localization, vendors, and support, plus translation memory, collaboration, and deployment integrations.",

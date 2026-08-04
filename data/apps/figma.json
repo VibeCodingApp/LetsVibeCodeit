@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "high",
   "verdictSummary": "You cannot one-shot a collaborative vector editor with multiplayer, component variants, auto-layout, and a plugin ecosystem. The rendering engine alone is years of work.",
   "coreLoopDIY": "Single-user vector canvas",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$26/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Matomo Cloud costs $26/mo ($312/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Matomo Cloud, run first-party web analytics with goals, campaigns, and user-owned data. The hard boundary is mature analytics depth, privacy controls, hosted operations, and premium plugins, plus data pipeline reliability and analytical depth.",

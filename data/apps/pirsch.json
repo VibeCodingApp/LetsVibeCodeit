@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$6/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Pirsch costs $6/mo ($72/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pirsch, collect cookieless page views and custom events with compact dashboards. The hard boundary is hosted reliability, privacy operations, apis, email reports, and scale, plus data pipeline reliability and analytical depth.",

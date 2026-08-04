@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$24/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: LiveChat costs $24/mo ($288/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For LiveChat, provide reliable website chat with routing, transcripts, and canned replies. The hard boundary is global chat delivery, mobile apps, staffing tools, integrations, and support, plus channel integrations and support operations.",

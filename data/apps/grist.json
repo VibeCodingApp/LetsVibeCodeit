@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Grist costs $8/mo ($96/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Grist, combine spreadsheet formulas with relational records in a small self-hosted workspace. The hard boundary is mature formula engine, access rules, collaboration, integrations, and hosting, plus data model flexibility, collaboration, and integrations.",

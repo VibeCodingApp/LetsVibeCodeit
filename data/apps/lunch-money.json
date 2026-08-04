@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Lunch Money costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Lunch Money, import transactions and maintain a transparent personal ledger with rules and reports. The hard boundary is bank sync, multi-currency support, api, community, and hosted convenience, plus financial integrations, compliance, and trust.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: pCloud has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For pCloud, sync and version selected folders against a user-owned object store. The hard boundary is cross-platform clients, media playback, sharing, optional encryption, and lifetime operations, plus reliability, durability, and cross-device sync.",

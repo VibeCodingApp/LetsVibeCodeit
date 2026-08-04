@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$9/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: EmailOctopus costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For EmailOctopus, manage a small subscriber list and send compliant campaigns through a hosted provider. The hard boundary is deliverability, templates, automations, landing pages, and customer support, plus deliverability, growth network, and integrations.",

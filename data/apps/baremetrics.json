@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$129/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Baremetrics costs $129/mo ($1548/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible subscription analytics loop is buildable, but a credible replacement needs more than the first screen. Baremetrics earns its keep through ingestion, storage, reliability, so expect a weekend or multi-day build and a narrower personal scope.",

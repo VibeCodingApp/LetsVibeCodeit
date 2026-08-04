@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Framer costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "You can build a simple AI/site generator and host static pages, but Framer's animation/design editor, CMS, hosting, templates, and publishing polish are real product depth.",

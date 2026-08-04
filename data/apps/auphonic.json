@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Auphonic has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Auphonic, normalize loudness, reduce noise, and batch-process user-owned audio locally. The hard boundary is proprietary adaptive audio processing, cloud queues, and broad format delivery, plus audio infrastructure, distribution, and production polish.",

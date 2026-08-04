@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$24/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "The core idea — transcribe audio, then edit the transcript to cut the video — is buildable with Whisper for transcription and a basic timeline editor. But Descript's polish includes filler word removal, studio sound (AI noise reduction), AI voice cloning for corrections (Overdub), screen recording, and the collaborative editing workflow. You can build a transcript-based trimmer, but the AI audio magic is proprietary.",
   "coreLoopDIY": "Upload video, auto-transcribe, edit transcript to cut corresponding video segments",

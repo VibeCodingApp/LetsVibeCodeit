@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$100/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Caspio costs $100/mo ($1200/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Caspio, publish one database-backed business app with forms and reports. The hard boundary is managed database, app builder, integrations, security, scale, and support, plus data model flexibility, collaboration, and integrations.",

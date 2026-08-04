@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: AppSheet costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For AppSheet, generate a small operational app from a table and a limited rules engine. The hard boundary is google integrations, mobile offline support, governance, and managed sync, plus connectors, runtime reliability, and governance.",

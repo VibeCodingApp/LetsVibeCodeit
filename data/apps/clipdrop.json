@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$15/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Clipdrop costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Clipdrop, run background removal, cleanup, relighting, and upscaling on local images. The hard boundary is specialized hosted models, api capacity, and polished mobile tools, plus frontier models, compute, and data.",

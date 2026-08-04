@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$59/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Featurebase costs $59/mo ($708/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Featurebase, run a feedback portal, changelog, roadmap, and lightweight support widget. The hard boundary is integrated suite, ai, custom domains, sso, and hosted delivery, plus participant network, synthesis workflow, and collaboration.",

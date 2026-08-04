@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: SeaTable Cloud costs $8/mo ($96/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SeaTable Cloud, manage structured records in grids, forms, and simple views. The hard boundary is managed collaboration, automations, plugins, storage, and support, plus data model flexibility, collaboration, and integrations.",

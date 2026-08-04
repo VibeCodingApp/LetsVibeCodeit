@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$16/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Kumospace costs $16/mo ($192/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Kumospace, host a lightweight spatial room for a small team without production media guarantees. The hard boundary is real-time video infrastructure, office presence, moderation, analytics, and support, plus network, moderation, and communication infrastructure.",

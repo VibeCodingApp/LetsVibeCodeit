@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$2.49/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: RoboForm costs $2.49/mo ($29.880000000000003/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For RoboForm, build a local password vault and form filler with a deliberately narrow field set. The hard boundary is decades of form compatibility, browser extensions, sync, recovery, and support, plus security assurance, infrastructure, and trust.",

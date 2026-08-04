@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Mara costs $99/mo ($1188/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The first send is a weekend. An agent can absolutely wire product events to an LLM draft to an email API with an approval queue, and that covers the visible part of the product. What does not come out of one prompt is the part after the first send: your own domain's reputation, suppression and compliance, variants split across real sends with the results read back, replies classified and answered, and someone still tuning it in month four. Build the sender, then be honest about whether you will keep running it.",

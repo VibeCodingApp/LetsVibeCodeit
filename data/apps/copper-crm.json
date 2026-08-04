@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Copper costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Copper, run a basic sales pipeline closely tied to Google Workspace data. The hard boundary is gmail and calendar integration, automatic activity capture, reporting, and support, plus integrations, data quality, and workflow lock-in.",

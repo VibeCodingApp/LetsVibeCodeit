@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: CodeSandbox costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "You can self-host a browser IDE, but fast templates, previews, cloud VMs, collaboration, and workflow integrations are the product.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$15/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Memtime costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Memtime, record local app activity privately and convert selected blocks into timesheet entries. The hard boundary is calendar and project integrations, team reporting, sync, and enterprise controls, plus ubiquitous capture, coaching, and team workflow.",

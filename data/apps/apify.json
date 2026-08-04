@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Apify costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible web scraping platform loop is buildable, but a credible replacement needs more than the first screen. Apify earns its keep through connectors, auth, reliability, so expect a weekend or multi-day build and a narrower personal scope.",

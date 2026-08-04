@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$5/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Matter costs $5/mo ($60/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Matter, save articles and newsletters into a clean reading queue with highlights and notes. The hard boundary is email ingestion, mobile apps, text-to-speech, sync, and polished capture, plus capture polish, sync, and content partnerships.",

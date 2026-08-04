@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "An infinite canvas with shapes, sticky notes, and freehand drawing is buildable with a canvas library (tldraw or Excalidraw). But Miro's real complexity is multiplayer — real-time collaboration with cursor presence, the template marketplace, integrations, and advanced features like voting, timers, and facilitation tools. A basic canvas is easy; multiplayer at scale is hard.",
   "coreLoopDIY": "Infinite canvas with shapes, sticky notes, text, and freehand drawing",

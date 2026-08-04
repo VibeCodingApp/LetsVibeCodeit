@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Buzzsprout costs $12/mo ($144/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Buzzsprout, generate an RSS feed and organize episode files on user-owned hosting. The hard boundary is podcast hosting uptime, bandwidth, analytics, directory integrations, and support, plus audio infrastructure, distribution, and production polish.",

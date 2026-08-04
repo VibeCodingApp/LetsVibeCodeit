@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: SlideFast costs $8/mo ($96/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A personal prompt-to-carousel tool is a solid weekend build, but SlideFast's polished editor, reusable brand system, asset library, dependable multi-format exports, and publishing workflow take sustained product work.",

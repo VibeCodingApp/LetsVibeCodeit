@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$19/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Skribra costs $19/mo ($228/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",

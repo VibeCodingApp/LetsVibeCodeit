@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Mixpanel has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Mixpanel, collect a small transparent event stream and build funnels and retention locally. The hard boundary is large-scale ingestion, identity handling, query engine, governance, and product expertise, plus data pipeline reliability and analytical depth.",

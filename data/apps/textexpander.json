@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$4.16/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: TextExpander costs $4.16/mo ($49.92/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For TextExpander, expand local text snippets from abbreviations with forms and simple variables. The hard boundary is cross-platform apps, team libraries, sync, analytics, and enterprise administration, plus os integration polish and maintenance.",

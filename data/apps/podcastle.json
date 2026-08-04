@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$14.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Podcastle costs $14.99/mo ($179.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Podcastle, record or import spoken audio, clean it, transcribe it, and assemble a simple episode. The hard boundary is hosted studio, ai voices, collaboration, asset library, and cloud rendering, plus audio infrastructure, distribution, and production polish.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "A few webhooks + simple logic is trivial. The 7000+ app integrations, OAuth management, polling infrastructure, and reliability — that's the real product.",
   "coreLoopDIY": "Webhook-to-webhook relay with simple logic",

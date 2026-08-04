@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$19/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Albato costs $19/mo ($228/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Albato, connect two services and expose every transformation and retry. The hard boundary is connector library, app integrator, oauth, hosted execution, and support, plus connector breadth and execution reliability.",

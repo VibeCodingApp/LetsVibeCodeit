@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Make costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A handful of workflows can be coded quickly, but Make's paid value is the visual builder, app modules, scheduling, observability, and maintenance.",

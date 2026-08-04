@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$45/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Adalo costs $45/mo ($540/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adalo, build a constrained PWA from a schema and fixed mobile components. The hard boundary is native app builds, app-store workflow, marketplace components, hosting, and support, plus connectors, runtime reliability, and governance.",

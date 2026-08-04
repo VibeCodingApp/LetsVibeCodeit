@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Sudowrite has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sudowrite, brainstorm fiction, expand scenes, inspect story context, and generate constrained prose suggestions. The hard boundary is its fiction-tuned workflows, context handling, and model orchestration, plus polish, integrations, and proprietary language models.",

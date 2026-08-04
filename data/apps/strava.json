@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$11.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Strava costs $11.99/mo ($143.88/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Strava, log user-entered activities and map imported GPX files without recreating Strava's network. The hard boundary is athlete social graph, segment leaderboard, route data, device integrations, and scale, plus hardware data, content, coaching, and trust.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$19/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Proofling costs $19/mo ($228/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A collection form, approval queue, wall, and embed are one-session work. The real Proofling loop adds payment-triggered asks, dependable email follow-ups, consent history, video processing, and integrations, which makes an honest replacement a weekend project with ongoing operational work.",

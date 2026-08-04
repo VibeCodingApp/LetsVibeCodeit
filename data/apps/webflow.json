@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$25/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "You can build a static site generator with a CMS backend (Next.js + a headless CMS) that covers the output side. But Webflow's visual editor — a WYSIWYG that outputs production-ready HTML/CSS — is a genuinely hard engineering problem. The visual CMS, interactions builder, and hosting CDN are each full products. You get the output, not the editor.",
   "coreLoopDIY": "Next.js site with headless CMS for content editing, deployed to Vercel",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "A multi-step form with smooth transitions is a single React component. Add webhook submissions or email notifications. The one-question-at-a-time UX is the easiest part.",
   "coreLoopDIY": "Multi-step form builder with submission handling",

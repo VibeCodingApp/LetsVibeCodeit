@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$3/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Roadtrippers costs $3/mo ($36/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Roadtrippers, map a user-planned road trip with manually entered stops and notes. The hard boundary is proprietary place database, route intelligence, rv data, maps, and mobile navigation, plus proprietary live data and network coverage.",

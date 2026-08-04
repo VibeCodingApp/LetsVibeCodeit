@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$4.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Mimestream costs $4.99/mo ($59.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Mimestream, build a native Mac Gmail client over standards-based APIs with local cache. The hard boundary is deep gmail api use, native macos polish, sync reliability, and support, plus mail infrastructure, integrations, and client polish.",

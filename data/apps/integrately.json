@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Integrately costs $29.99/mo ($359.88/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Integrately, connect two services through a fixed trigger and action with retries. The hard boundary is integration catalog, prebuilt recipes, oauth, schema upkeep, and hosted execution, plus connector breadth and execution reliability.",

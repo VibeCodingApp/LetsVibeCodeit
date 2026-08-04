@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$9/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: YouCanBookMe costs $9/mo ($108/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For YouCanBookMe, offer booking pages with availability rules, confirmations, and rescheduling. The hard boundary is calendar integration maturity, forms, reminders, payments, and support, plus calendar integrations and reliability.",

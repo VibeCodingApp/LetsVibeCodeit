@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Postiz costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop (compose, queue, cron tick, publish) is one-shottable for networks with open APIs like Mastodon, Bluesky, and Telegram. What you cannot one-shot is the reason schedulers exist as products: OAuth apps for Instagram, LinkedIn, TikTok, and X are approval-gated or paid, and keeping 28+ integrations alive as platforms change policies is permanent maintenance. Postiz is also fully open source, so the honest DIY move for the full feature set is self-hosting it rather than rebuilding it.",

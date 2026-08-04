@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$99/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Maze costs $99/mo ($1188/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Maze, run small unmoderated prototype tasks with consent and basic completion analytics. The hard boundary is participant panel, prototype integrations, testing infrastructure, analytics, and recruitment, plus participant network, synthesis workflow, and collaboration.",

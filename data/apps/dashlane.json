@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$4.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Dashlane costs $4.99/mo ($59.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A simple vault is buildable, but matching Dashlane's extension/mobile autofill, passkey support, breach monitoring, sharing, and trust posture is not a casual clone.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$24/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Pipedrive costs $24/mo ($288/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Pipedrive, manage contacts and deals through a visual pipeline with activities and reminders. The hard boundary is email sync, automations, marketplace, reporting, mobile apps, and sales workflow polish, plus integrations, data quality, and workflow lock-in.",

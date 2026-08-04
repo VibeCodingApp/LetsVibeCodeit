@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Twist costs $8/mo ($96/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Twist, host asynchronous team threads organized by channel and topic. The hard boundary is cross-platform apps, notifications, email integration, search, and doist reliability, plus network, moderation, and communication infrastructure.",

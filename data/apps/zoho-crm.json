@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Zoho CRM costs $20/mo ($240/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Zoho CRM, manage a focused contact and deal pipeline without recreating the wider Zoho suite. The hard boundary is ecosystem breadth, integrations, automation, analytics, and enterprise controls, plus integrations, data quality, and workflow lock-in.",

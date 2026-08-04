@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$24/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "A table with rows, columns, and basic filtering is buildable with a spreadsheet-like grid component. But Airtable's real product is the relational database engine underneath — linked records, calculated fields, multiple views (grid, kanban, calendar, gallery), form builder, and the automation engine. You can build a basic grid, but the relational magic that makes Airtable powerful is hard.",
   "coreLoopDIY": "Spreadsheet-like table editor with filtering, sorting, and multiple views",

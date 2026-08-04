@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$16.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Otter.ai costs $16.99/mo ($203.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "You can build transcription and summaries, but Otter's value includes live meeting assistant behavior, account sync, speaker workflow, integrations, and mobile/web reliability.",

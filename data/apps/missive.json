@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$18/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Missive costs $18/mo ($216/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Missive, combine email with internal comments and assignments for a small team. The hard boundary is real-time collaboration, many channels, rules, integrations, and shared-inbox reliability, plus mail infrastructure, integrations, and client polish.",

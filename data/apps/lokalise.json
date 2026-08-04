@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$120/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Lokalise costs $120/mo ($1440/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Lokalise, manage translation keys, screenshots, reviews, and CI sync for a small product team. The hard boundary is integration breadth, translation memory, workflows, vendors, governance, and support, plus translation memory, collaboration, and deployment integrations.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$59/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Softr costs $59/mo ($708/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A client portal over Airtable can be built, but Softr's block library, auth, roles, data sources, payments, and publishing workflow are the product.",

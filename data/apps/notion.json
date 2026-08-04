@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "A block-based editor with markdown is doable. But Notion's database views, formula engine, and real-time collaboration are genuine engineering challenges.",
   "coreLoopDIY": "Block-based note editor with markdown",

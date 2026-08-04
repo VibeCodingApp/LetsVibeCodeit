@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$18/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Warp costs $18/mo ($216/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible AI terminal loop is buildable, but a credible replacement needs more than the first screen. Warp earns its keep through model, context, integration, so expect a weekend or multi-day build and a narrower personal scope.",

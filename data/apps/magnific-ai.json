@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Magnific AI costs $39/mo ($468/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Magnific AI, queue local upscaling and enhancement experiments with reproducible settings. The hard boundary is proprietary enhancement models, gpu capacity, and high-resolution rendering, plus frontier models, compute, and data.",

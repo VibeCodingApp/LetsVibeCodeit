@@ -16,7 +16,7 @@
     "notes": "Based on 500 contacts; price scales with audience size",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "Sending email is solved by providers like Resend or AWS SES. A template builder with drag-and-drop blocks is buildable with a block-based editor. Audience management is a CRUD contacts database. The core value — design email, manage list, hit send — is all DIY-friendly.",
   "coreLoopDIY": "Email campaign builder + contact list management + send via Resend/SES",

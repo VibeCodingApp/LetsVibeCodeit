@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "Core booking UI + Google Calendar API is doable in one sitting. The hard parts are timezone edge cases, team routing, and CRM integrations.",
   "coreLoopDIY": "Booking page with Google Calendar integration",

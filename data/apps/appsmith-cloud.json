@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$40/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Appsmith Cloud costs $40/mo ($480/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Appsmith Cloud, compose an internal dashboard from a database and a fixed widget library. The hard boundary is connectors, enterprise permissions, workflows, support, and managed hosting, plus connectors, runtime reliability, and governance.",

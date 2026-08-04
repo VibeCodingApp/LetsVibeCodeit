@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$18/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Freshdesk costs $18/mo ($216/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Freshdesk, manage tickets from email and a web form with priorities, owners, and a help center. The hard boundary is omnichannel features, automations, marketplace, reporting, and freshworks ecosystem, plus channel integrations and support operations.",

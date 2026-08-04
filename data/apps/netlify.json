@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Netlify costs $20/mo ($240/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "Static hosting and functions are easy to assemble, but Netlify's value is Git-based deploys, previews, forms, redirects, edge functions, and managed platform reliability.",

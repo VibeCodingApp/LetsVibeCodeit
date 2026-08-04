@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Productlane costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Productlane, connect interview notes and support feedback to product issues and decisions. The hard boundary is linear integration, call workflows, customer portal, sync, and team collaboration, plus participant network, synthesis workflow, and collaboration.",

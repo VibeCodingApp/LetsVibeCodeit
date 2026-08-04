@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: VerifiedDR costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A personal dashboard for an owned site is a weekend build with Search Console and model APIs, but TrueDR, backlink intelligence, historical monitoring, and the partner marketplace depend on paid data, operations, and a live network.",

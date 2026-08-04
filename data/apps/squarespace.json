@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$25/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "high",
   "verdictSummary": "If you can build a Next.js site — which you're doing right now — you've already replaced Squarespace. A static or SSR Next.js site deployed to Vercel with a CMS (Contentful, Sanity, or markdown files) is faster, more flexible, and cheaper. Squarespace is a visual editor for people who can't code.",
   "coreLoopDIY": "Next.js site with CMS-driven pages, deployed to Vercel",

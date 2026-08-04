@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$9.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: NaturalReader costs $9.99/mo ($119.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For NaturalReader, read user-provided text and documents aloud with a small set of licensed or local voices. The hard boundary is voice catalog, ocr, document formats, mobile apps, and commercial licensing options, plus models, compute, rights, and safety operations.",

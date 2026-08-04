@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$25/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Replit costs $25/mo ($300/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A dev container plus code-server plus deployment can replace some value, but Replit's beginner-friendly cloud IDE, agents, secrets, hosting, and zero-setup environment are a platform.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$9/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Backblaze Personal Backup costs $9/mo ($108/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Backblaze Personal Backup, continuously back up a selected computer to user-owned object storage and test restores. The hard boundary is unlimited backup economics, client reliability, restore logistics, support, and durable infrastructure, plus reliability, durability, and cross-device sync.",

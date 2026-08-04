@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Social Fetch costs $29/mo ($348/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A personal TikTok or Instagram profile fetcher with Playwright and SQLite is a one-sitting build. Social Fetch is not that. It is kept-alive scrapers on 20+ platforms, proxy routing, anti-bot handling, a stable response schema, and credit metering. Your DIY script breaks when TikTok changes markup. The API bill is for that not being your problem.",

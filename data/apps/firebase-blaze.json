@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Firebase Blaze has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Firebase Blaze, provide a local emulator-backed backend for one app without recreating Google's global services. The hard boundary is global database, auth, push, analytics, serverless, mobile sdks, and operations, plus infrastructure scale, operations, and reliability.",

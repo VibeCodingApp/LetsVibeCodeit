@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Bolt.new costs $20/mo ($240/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Bolt.new, generate and edit a small web project in a local sandbox from structured prompts. The hard boundary is browser sandbox, model orchestration, package execution, deployment, and hosted compute, plus frontier models, context infrastructure, and execution safety.",

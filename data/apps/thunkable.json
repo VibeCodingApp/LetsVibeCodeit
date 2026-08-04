@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$59/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Thunkable costs $59/mo ($708/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Thunkable, prototype a mobile app with fixed components and local data. The hard boundary is native build infrastructure, device integrations, publishing pipeline, and education ecosystem, plus connectors, runtime reliability, and governance.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: JetBrains AI Pro costs $10/mo ($120/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For JetBrains AI Pro, build a narrow IDE assistant for code explanation, tests, and reviewed patches. The hard boundary is deep jetbrains ide integration, proprietary models, context, and enterprise tooling, plus frontier models, context infrastructure, and execution safety.",

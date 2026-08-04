@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$20/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: v0 costs $20/mo ($240/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For v0, generate React components from a brief and write them into a local project with previews. The hard boundary is vercel models, design tuning, component data, deployment, and ecosystem integration, plus frontier models, context infrastructure, and execution safety.",

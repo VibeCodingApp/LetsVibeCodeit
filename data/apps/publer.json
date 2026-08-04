@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$12/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Publer costs $12/mo ($144/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Publer, schedule posts across a small set of networks and maintain reusable media. The hard boundary is connector breadth, bulk workflows, analytics, collaboration, and hosted reliability, plus api access, connector upkeep, and collaboration.",

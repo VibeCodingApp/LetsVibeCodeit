@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$33/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: PostFast costs $33/mo ($396/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "$ open in your agent (prompt prefilled, you press enter) or copy it raw",

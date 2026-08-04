@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$15/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Sembly AI costs $15/mo ($180/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Sembly AI, transcribe a call and produce structured minutes, tasks, and searchable topics. The hard boundary is meeting bots, team collaboration, automations, and broad integrations, plus capture reliability, integrations, and collaboration.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$6/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Fastmail costs $6/mo ($72/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Fastmail, build a clean client for an existing mailbox without running public mail infrastructure. The hard boundary is mail hosting, spam filtering, domains, calendars, contacts, deliverability, and support, plus mail infrastructure, integrations, and client polish.",

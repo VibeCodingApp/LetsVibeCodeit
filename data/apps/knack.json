@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$59/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Knack costs $59/mo ($708/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Knack, build a small hosted database app with pages, forms, and role-based views. The hard boundary is managed hosting, schema builder, permissions, integrations, and support, plus data model flexibility, collaboration, and integrations.",

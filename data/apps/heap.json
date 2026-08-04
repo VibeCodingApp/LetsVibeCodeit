@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Heap has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Heap, instrument explicit first-party events and avoid automatic capture of unrelated user behavior. The hard boundary is automatic capture engine, identity graph, data science, governance, and enterprise operations, plus data pipeline reliability and analytical depth.",

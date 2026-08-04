@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8.25/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Anytype costs $8.25/mo ($99/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Anytype, manage a local-first object graph with pages, collections, relations, and peer sync. The hard boundary is local-first sync protocol, mobile apps, collaboration, and identity infrastructure, plus sync, collaboration, and capture polish.",

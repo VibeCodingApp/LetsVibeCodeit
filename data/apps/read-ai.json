@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$19.75/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Read AI costs $19.75/mo ($237/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Read AI, capture meetings and turn them into transcripts, notes, and engagement summaries. The hard boundary is meeting-platform bots, email recaps, analytics, and team workspaces, plus capture reliability, integrations, and collaboration.",

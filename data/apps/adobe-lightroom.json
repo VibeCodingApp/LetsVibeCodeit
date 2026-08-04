@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$11.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Adobe Lightroom costs $11.99/mo ($143.88/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Adobe Lightroom, catalog local photos and apply basic non-destructive adjustments. The hard boundary is adobe raw engine, cloud sync, mobile apps, ai masks, ecosystem, and long-term camera support, plus image pipeline quality, models, and workflow polish.",

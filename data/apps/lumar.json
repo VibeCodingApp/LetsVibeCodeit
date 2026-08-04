@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Lumar has usage-based pricing. Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Lumar, run a limited technical crawl and maintain an auditable issue history. The hard boundary is enterprise crawl scale, monitoring, analytics, governance, and consulting support, plus crawl scale, rule depth, and operational polish.",

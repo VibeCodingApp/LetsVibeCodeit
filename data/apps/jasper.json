@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$69/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Jasper costs $69/mo ($828/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A branded prompt library over an LLM is buildable, but Jasper's paid value is brand memory, workflow templates, governance, collaboration, and marketing-specific agents.",

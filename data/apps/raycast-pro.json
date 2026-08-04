@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$10/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Raycast Pro costs $10/mo ($120/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "A personal launcher command or menubar utility is buildable, but Raycast's native polish, extension ecosystem, sync, AI, and Mac integration take serious product work.",

@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: SurveyMonkey costs $39/mo ($468/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For SurveyMonkey, run a structured survey, calculate transparent summaries, and export responses. The hard boundary is panel access, benchmarking, templates, advanced logic, and enterprise governance, plus integrations, deliverability, and workflow depth.",

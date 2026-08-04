@@ -16,7 +16,7 @@
     "notes": "",
     "native": "varies"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Usermaven has usage-based pricing. Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The visible product + web analytics loop is buildable, but a credible replacement needs more than the first screen. Usermaven earns its keep through ingestion, storage, reliability, so expect a weekend or multi-day build and a narrower personal scope.",

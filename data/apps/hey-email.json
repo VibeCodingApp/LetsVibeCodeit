@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$8.25/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: HEY costs $8.25/mo ($99/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "You can build an email client, but replacing HEY means running a trustworthy email service: deliverability, spam filtering, abuse handling, storage, mobile apps, and reputation.",

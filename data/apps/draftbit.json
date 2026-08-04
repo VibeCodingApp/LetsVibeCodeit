@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Draftbit costs $29/mo ($348/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Draftbit, compose a React Native app from constrained screens and export the source code. The hard boundary is visual mobile builder, device previews, integrations, collaboration, and build tooling, plus connectors, runtime reliability, and governance.",

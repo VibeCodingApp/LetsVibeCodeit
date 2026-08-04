@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$39/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Smartlead costs $39/mo ($468/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Smartlead, run small permission-based email sequences with reply and suppression handling. The hard boundary is multi-inbox scale, warm-up, deliverability infrastructure, routing, and agency features, plus proprietary data, deliverability, and network effects.",

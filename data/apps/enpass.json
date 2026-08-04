@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$1.99/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Enpass costs $1.99/mo ($23.88/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "The core loop is buildable, but a dependable replacement becomes a real weekend or multi-day project. For Enpass, store an encrypted vault locally and optionally sync it through the user's own cloud folder. The hard boundary is mature apps, browser extensions, platform biometrics, and ongoing security maintenance, plus security assurance, infrastructure, and trust.",

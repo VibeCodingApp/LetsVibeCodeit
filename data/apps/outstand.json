@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$19/mo"
   },
-  "verdict": "yes",
+  "verdict": "kinda",
   "verdictConfidence": "medium",
   "verdictSummary": "KINDA: Outstand costs $19/mo ($228/yr). Here is the practical trade-off and what you lose.",
   "coreLoopDIY": "Writing your own posting service is a weekend build, and for the networks with open APIs (Bluesky, Mastodon, Telegram) it genuinely is: a queue, a cron tick, one adapter per network, done. The wall is not code. Instagram, TikTok, YouTube, LinkedIn, and Pinterest each require your own developer app and a platform review before they will accept a single post, X meters writes on a paid tier, and then eleven integrations keep changing under you: token refresh, media specs, rate-limit budgets, deprecated endpoints. You can build the API. You cannot one-shot permission to use it.",

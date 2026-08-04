@@ -16,7 +16,7 @@
     "notes": "",
     "native": "$29/mo"
   },
-  "verdict": "yes",
+  "verdict": "no",
   "verdictConfidence": "medium",
   "verdictSummary": "NOT REALLY: Front costs $29/mo ($348/yr). Here's why it survives vibecoding.",
   "coreLoopDIY": "A consolation build is possible, but the paid product's decisive value sits outside a solo rebuild. For Front, operate a shared mailbox with assignments, comments, and simple rules. The hard boundary is email infrastructure, many channels, workflow automation, crm context, and enterprise governance, plus channel integrations and support operations.",
