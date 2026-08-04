@@ -4,12 +4,23 @@ import posthog from 'posthog-js';
 
 export function DigestCard() {
   const [email, setEmail] = useState('');
-  const handle = (e: React.FormEvent) => {
+  const [status, setStatus] = useState<'idle' | 'busy' | 'ok' | 'error'>('idle');
+  const handle = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) {
+    if (!email || status === 'busy') return;
+    setStatus('busy');
+    try {
+      const res = await fetch('/api/waitlist', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
+      });
+      if (!res.ok) throw new Error('bad');
       if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN && process.env.NEXT_PUBLIC_POSTHOG_HOST) posthog.capture('digest_subscription_submitted');
-      alert(`Subscribed ${email}! (demo)`);
       setEmail('');
+      setStatus('ok');
+    } catch {
+      setStatus('error');
     }
   };
   return (
@@ -21,9 +32,11 @@ export function DigestCard() {
           <form onSubmit={handle} className="flex flex-col sm:flex-row gap-3 mx-auto">
             <input type="email" value={email} onChange={e=>setEmail(e.target.value)} placeholder="you@email.com" required className="flex-1 px-4 py-3.5 rounded-lg border border-[var(--border)] bg-transparent text-fg font-mono text-sm outline-none focus:border-primary transition-colors placeholder:text-muted-2" />
             <input type="text" className="absolute opacity-0 h-0 w-0 -z-10 pointer-events-none" name="website" autoComplete="off" tabIndex={-1} placeholder="Leave this empty" />
-            <button type="submit" className="px-6 py-3.5 rounded-lg bg-primary text-black font-display font-semibold text-sm hover:brightness-110 hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_var(--primary-glow)] hover:shadow-[0_6px_24px_var(--primary-glow-strong)] whitespace-nowrap">Get the digest</button>
+            <button type="submit" disabled={status === 'busy'} className="px-6 py-3.5 rounded-lg bg-primary text-black font-display font-semibold text-sm hover:brightness-110 hover:-translate-y-0.5 transition-all shadow-[0_4px_16px_var(--primary-glow)] hover:shadow-[0_6px_24px_var(--primary-glow-strong)] whitespace-nowrap disabled:opacity-60">Get the digest</button>
           </form>
-          <p className="text-xs text-muted-2 mt-4">free forever - no spam - plain-language analysis</p>
+          {status === 'ok' && <p className="text-xs text-primary mt-4 font-mono">You&rsquo;re in. First digest lands this week.</p>}
+          {status === 'error' && <p className="text-xs text-danger mt-4 font-mono">Something broke. Try again in a bit.</p>}
+          {status === 'idle' && <p className="text-xs text-muted-2 mt-4">free forever - no spam - plain-language analysis</p>}
         </div>
       </div>
     </section>
