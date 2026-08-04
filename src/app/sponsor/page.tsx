@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { SponsorCheckout } from '@/components/sponsor-checkout';
-import { getActiveSponsors, SLOT_GROUPS } from '@/lib/sponsors';
+import { getActiveSponsors, getInListSlotCount, SLOT_GROUPS } from '@/lib/sponsors';
 import { SPONSOR_PLANS, type SponsorPlan } from '@/lib/stripe';
 
 export const dynamic = 'force-dynamic';
@@ -34,8 +34,8 @@ const slots = [
     price: '$79',
     cadence: '30 days',
     inventory: 'Rotating inventory',
-    size: 'Content width x approx. 100-120px',
-    detail: 'A labeled placement between app groups. The sticky layer shows one active sponsor at a time beneath the header.',
+     size: '2126 x 239px banner, scaled to content width',
+     detail: 'A labeled placement between app groups. The banner keeps this aspect ratio and the sticky layer shows one active sponsor at a time beneath the header.',
   },
   {
     name: 'Weekly digest',
@@ -57,11 +57,13 @@ const rules = [
 export default async function SponsorPage() {
   const planOrder: SponsorPlan[] = ['rail', 'hero', 'inList', 'digest'];
   const active = await getActiveSponsors();
+  const inListCount = getInListSlotCount(active.filter(sponsor => sponsor.plan === 'inList').length);
+  const inventory = { ...SLOT_GROUPS, inList: Array.from({ length: inListCount }, (_, index) => ({ id: `in-list-${index + 1}`, label: `In-list ${index + 1}` })) };
   const plans = planOrder.map(id => ({
     id,
     label: SPONSOR_PLANS[id].label,
     amount: SPONSOR_PLANS[id].amount,
-    slots: SLOT_GROUPS[id].map(slot => {
+    slots: inventory[id].map(slot => {
       const sponsor = active.find(item => item.plan === id && item.slotId === slot.id);
       return { id: slot.id, label: slot.label, occupied: sponsor ? { name: sponsor.name, expiresAt: sponsor.expiresAt } : undefined };
     }),

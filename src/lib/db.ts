@@ -84,6 +84,9 @@ export async function getActivePlacements(): Promise<SponsorPlacement[]> {
       expiresAt: Math.min(factur.expires_at, factur.activated_at + 7 * 24 * 60 * 60 * 1000),
     });
   }
+  const goGallery = result.rows.find(row => row.name.toLowerCase() === 'gogallery' && row.plan === 'inList' && row.slot_id === 'in-list-2');
+  const goGalleryPlacement = placements.find(placement => placement.sessionId === goGallery?.session_id);
+  if (goGallery && goGalleryPlacement) goGalleryPlacement.bannerUrl = '/gogallery-inlist.png';
   return placements;
 }
 

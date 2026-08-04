@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import type { SponsorPlacement } from '@/lib/sponsors';
-import { SPONSOR_ROTATION_MS, rotatingSponsorForSlot } from '@/lib/sponsor-rotation';
+import { SPONSOR_ROTATION_MS, rotatingSponsorForSlot, sponsorPoolCapacity } from '@/lib/sponsor-rotation';
 import { trackSponsorEvent } from '@/lib/sponsor-events';
 import { SponsorPurchaseButton } from './sponsor-purchase-button';
 
@@ -118,8 +118,9 @@ export function AdSlot({
       ? 'bg-[var(--glass-bg)] backdrop-blur-xl backdrop-saturate-150 shadow-[0_8px_32px_rgba(0,0,0,.28)]'
       : 'bg-[var(--surface)]/90',
   ].join(' ');
-  const purchaseSlotId = `in-list-${(slotHash(slot) % 6) + 1}`;
-  const sponsor = rotatingSponsorForSlot(sponsors, slot, rotationTick, 6);
+  const capacity = sponsorPoolCapacity(sponsors.length);
+  const purchaseSlotId = `in-list-${(slotHash(slot) % capacity) + 1}`;
+  const sponsor = rotatingSponsorForSlot(sponsors, slot, rotationTick, capacity);
   useEffect(() => {
     if (sponsor) trackSponsorEvent(sponsor.sessionId, 'impression', `in-list:${slot}`);
   }, [sponsor, slot]);

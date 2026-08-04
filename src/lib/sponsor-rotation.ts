@@ -1,4 +1,12 @@
 export const SPONSOR_ROTATION_MS = 15000;
+export const IN_LIST_BASE_SLOTS = 12;
+export const IN_LIST_SLOT_STEP = 4;
+
+export function sponsorPoolCapacity(count: number): number {
+  let capacity = IN_LIST_BASE_SLOTS;
+  while (count >= capacity) capacity += IN_LIST_SLOT_STEP;
+  return capacity;
+}
 
 export function rotatingSponsorForSlot<T>(sponsors: T[], slot: string, tick: number, capacity: number): T | null {
   if (!sponsors.length) return null;

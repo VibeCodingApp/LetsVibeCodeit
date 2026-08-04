@@ -23,7 +23,7 @@ async function toWebP(file: File): Promise<File> {
 
 export function SponsorClaimForm({ sessionId, testSlot = '', plan, slot }: { sessionId: string; testSlot?: string; plan: string; slot: string }) {
   const digestOnly = plan === 'digest';
-  const recommendedSize = plan === 'rail' ? '216px wide × 1/7 viewport height' : plan === 'hero' ? '200 × 360px' : plan === 'inList' ? 'Content width × approx. 100–120px' : 'Email-native × up to 600px wide';
+  const recommendedSize = plan === 'rail' ? '216px wide × 1/7 viewport height' : plan === 'hero' ? '200 × 360px' : plan === 'inList' ? '2126 × 239px banner, scaled to content width' : 'Email-native × up to 600px wide';
   const [mode, setMode] = useState<'banner' | 'icon-text'>(digestOnly ? 'icon-text' : 'banner');
   const [description, setDescription] = useState('');
   const [marqueeText, setMarqueeText] = useState('');
