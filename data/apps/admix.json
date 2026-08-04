@@ -1,0 +1,65 @@
+{
+  "slug": "admix",
+  "name": "Admix",
+  "domain": "admix.software",
+  "category": "ai-assistant",
+  "subcategory": "multi-model AI chat",
+  "tagline": "Multi-model AI chat that compares answers side by side across providers",
+  "priceMonthly": 10,
+  "pricing": {
+    "plan": "Starter",
+    "basis": "monthly",
+    "unit": "flat",
+    "native": "10 USD",
+    "source": "https://admix.software/pricing",
+    "checkedOn": "2026-08-03",
+    "confidence": "high",
+    "notes": "Official site lists Admix plans starting at $10/month; the Starter plan is $10/month."
+  },
+  "verdict": "kinda",
+  "verdictConfidence": "high",
+  "verdictSummary": "A local chat UI with side-by-side replies is a weekend project when it calls OpenRouter, but Admix's value depends on access to many hosted models, a current catalog, provider routing, and a maintained account and billing layer. You can reproduce the comparison workflow. You cannot reproduce the model access and service layer for a flat $10 subscription.",
+  "coreLoopDIY": "Send one prompt to selected models through OpenRouter, stream the replies into a side-by-side grid, and save the thread locally.",
+  "diyTimeEstimate": "weekend",
+  "requirements": [
+    "Node 22",
+    "OpenRouter API key in .env",
+    "SQLite",
+    "Provider and model IDs to compare"
+  ],
+  "whatYouLose": [
+    "Admix's bundled access to many providers under one subscription",
+    "A maintained model catalog and provider routing",
+    "Cross-device sync and account history",
+    "Built-in image, search, and document workflows",
+    "Usage limits, billing, and support handled for you"
+  ],
+  "moatTags": [
+    "integrations",
+    "execution-polish"
+  ],
+  "moatNotes": "bundled model access, catalog upkeep, and billing under one subscription",
+  "whyPeopleStillPay": "They pay for one bill and one interface instead of managing several provider accounts, API keys, model IDs, and usage limits. The comparison grid is easy to copy; keeping model access and the account, billing, and storage layer working is the service.",
+  "priorArt": [
+    {
+      "name": "Open WebUI",
+      "url": "https://github.com/open-webui/open-webui",
+      "desc": "Open-source self-hosted chat interface for local and hosted models."
+    },
+    {
+      "name": "LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "desc": "Open-source multi-model AI chat platform for self-hosting API-based assistants."
+    }
+  ],
+  "relatedSlugs": [
+    "chatgpt",
+    "claude",
+    "perplexity"
+  ],
+  "pagePriority": 4,
+  "verifiedOneShot": false,
+  "notes": "The interface is easy to reproduce; the useful question is whether the API bill and missing provider features still work for you.",
+  "prompt": "Build me a local multi-model comparison chat to replace Admix. Requirements:\n\n- Node 22 + Express + better-sqlite3, a server-rendered shell with a little vanilla\n  JS for streaming; no frontend framework, no build step.\n- One OpenRouter key in .env, kept server-side; the server proxies all model calls.\n- A model picker fed from OpenRouter's /models endpoint; select up to four models.\n- One prompt fans out to the selected models and streams each reply into a\n  side-by-side grid with model name, elapsed time, and token usage when reported;\n  a failed model shows its error in its own column without killing the others.\n- Markdown rendering with fenced code blocks and a copy button per reply.\n- Threads, prompts, model ids, replies, and timestamps in SQLite; full-text search\n  across saved threads; export a thread as Markdown.\n- A running cost estimate per thread from OpenRouter's usage and pricing fields.\n- Binds to localhost only. No accounts, no telemetry; prompts and replies leave the\n  machine only for OpenRouter, and the README says so.\n- Out of scope: auth, billing, mobile apps, image generation, hosted sync, and\n  provider-specific tools like web search or file upload.\n- README: setup, .env.example, and how to add a model id by hand if the catalog\n  fetch fails.",
+  "promptCurated": true
+}
