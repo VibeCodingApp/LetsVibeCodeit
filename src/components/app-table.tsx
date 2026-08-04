@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { AppRow, FilterState } from '@/lib/types';
 import { INITIAL_FILTER, AD_INTERVAL } from '@/lib/constants';
 import { filterApps } from '@/lib/filter-apps';
+import { getLocalVoteDeltas } from '@/lib/votes';
 import { AppRow as AppRowC } from './app-row';
 import { CategoryChips } from './category-chips';
 import { AdSlot, StickyAdLayer, useStickyAdIndex } from './ad-slot';
@@ -30,6 +31,11 @@ export function AppTable({ initialRows, categories }: { initialRows: AppRow[]; c
   const [f, setF] = useState<FilterState>(INITIAL_FILTER);
   const [activeAdIndex, setActiveAdIndex] = useState<number | null>(null);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [deltas, setDeltas] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    setDeltas(getLocalVoteDeltas());
+  }, []);
 
   useEffect(() => {
     let alive = true;
@@ -40,7 +46,8 @@ export function AppTable({ initialRows, categories }: { initialRows: AppRow[]; c
     return () => { alive = false; };
   }, []);
 
-  const filtered = useMemo(() => filterApps(rows, f), [rows, f]);
+  const rowsEff = useMemo(() => rows.map(r => (deltas[r.slug] ? { ...r, votes: r.votes + deltas[r.slug] } : r)), [rows, deltas]);
+  const filtered = useMemo(() => filterApps(rowsEff, f), [rowsEff, f]);
   const visible = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
   const listRef = useRef<HTMLElement>(null);
 

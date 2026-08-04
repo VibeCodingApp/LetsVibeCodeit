@@ -8,6 +8,7 @@ import { FAQ } from '@/components/faq';
 import { PriorArt } from '@/components/prior-art';
 import { RelatedApps } from '@/components/related-apps';
 import { ReplaceButton } from '@/components/replace-button';
+import { ReplacedCount } from '@/components/replaced-count';
 import { PromptViewer } from '@/components/prompt-viewer';
 import { VerdictBadge } from '@/components/verdict-badge';
 import { WhatYouLose } from '@/components/what-you-lose';
@@ -46,7 +47,7 @@ function AppMeta({ app }: { app: NonNullable<ReturnType<typeof getAppBySlug>> })
       <span><strong className="text-fg">you&apos;d save</strong> <span className="text-primary">{savings}</span></span>
       <span><strong className="text-fg">build time</strong> {app.diyTimeEstimate}</span>
       <span><strong className="text-fg">category</strong> {app.category}</span>
-      <span><strong className="text-fg">replaced by</strong> {app.reportedReplacements || 0} people</span>
+      <span><strong className="text-fg">replaced by</strong> <ReplacedCount slug={app.slug} initial={app.reportedReplacements || 0} /></span>
     </div>
   );
 }

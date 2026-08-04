@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import posthog from 'posthog-js';
 import type { Verdict } from '@/lib/types';
+import { getLocalVote, setLocalVote } from '@/lib/votes';
 
 export function VoteButton({ slug }: { slug: string }) {
   type V = Verdict | null;
@@ -10,12 +11,18 @@ export function VoteButton({ slug }: { slug: string }) {
   const [anim, setAnim] = useState<V>(null);
   const [toast, setToast] = useState('');
 
+  useEffect(() => {
+    const v = getLocalVote(slug);
+    if (v === 'yes' || v === 'kinda' || v === 'no') setVoted(v);
+  }, [slug]);
+
   const vote = async (v: Verdict) => {
     setAnim(v);
     setTimeout(() => setAnim(null), 300);
     try {
       const response = await fetch(`/api/vote/${slug}`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ verdict: v }) });
       if (!response.ok) throw new Error('Vote request failed');
+      setLocalVote(slug, v);
       if (process.env.NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN && process.env.NEXT_PUBLIC_POSTHOG_HOST) posthog.capture('verdict_vote', { app_slug: slug, verdict: v });
       setVoted(v);
       setToast(`Voted ${v.toUpperCase()} on ${slug}`);

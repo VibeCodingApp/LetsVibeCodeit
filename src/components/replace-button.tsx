@@ -1,18 +1,27 @@
 ﻿'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import posthog from 'posthog-js';
+import { getLocalVote, setLocalVote } from '@/lib/votes';
 
 export function ReplaceButton({ slug, appName, initialVotes = 0 }: { slug: string; appName: string; initialVotes?: number }) {
   const [votes, setVotes] = useState(initialVotes);
   const [voted, setVoted] = useState(false);
   const [message, setMessage] = useState('');
 
+  useEffect(() => {
+    if (getLocalVote(slug) === 'yes') {
+      setVoted(true);
+      setVotes(value => value + 1);
+    }
+  }, [slug]);
+
   const replace = async () => {
     if (voted) return;
     try {
       const response = await fetch(`/api/vote/${slug}`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ verdict: 'yes' }) });
       if (!response.ok) throw new Error('Vote failed');
+      setLocalVote(slug, 'yes');
       setVotes(value => value + 1);
       setVoted(true);
       setMessage(`Counted: you replaced ${appName}.`);
