@@ -1,8 +1,9 @@
 ﻿import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
-import type { AppData, AppRow } from './types';
+import type { AppData, AppRow, CatalogHistory } from './types';
 
 const DIR = join(process.cwd(), 'data', 'apps');
+const HISTORY_FILE = join(process.cwd(), 'data', 'catalog-history.json');
 
 let _cache: AppData[] | null = null;
 
@@ -41,4 +42,17 @@ export function getCategoryCounts(): { cat: string; count: number }[] {
   const m = new Map<string, number>();
   getAllApps().forEach(a => m.set(a.category, (m.get(a.category) || 0) + 1));
   return Array.from(m.entries()).map(([cat, count]) => ({ cat, count })).sort((a, b) => b.count - a.count);
+}
+
+export function getAppsAddedSince(since: Date): AppData[] {
+  let history: CatalogHistory;
+  try {
+    history = JSON.parse(readFileSync(HISTORY_FILE, 'utf8')) as CatalogHistory;
+  } catch {
+    return [];
+  }
+  return getAllApps().filter(app => {
+    const addedAt = history.apps[app.slug];
+    return Boolean(addedAt && new Date(addedAt).getTime() >= since.getTime());
+  });
 }

@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
+import { SponsorCheckout } from '@/components/sponsor-checkout';
+import { getAvailableSlots } from '@/lib/sponsors';
+import { SPONSOR_PLANS, type SponsorPlan } from '@/lib/stripe';
 
-export const dynamic = 'force-static';
+export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
   title: 'Sponsor',
@@ -45,13 +48,21 @@ const slots = [
 ];
 
 const rules = [
-  'Every reservation lasts 30 days and does not renew automatically.',
-  'You can reserve multiple months in advance. Three or more months automatically receive 10% off.',
-  'Availability is not guaranteed. A slot is only confirmed after payment and approval.',
-  'We label every sponsor clearly and never mix sponsor copy with verdicts, rankings, or editorial decisions.',
+   'Every reservation lasts 30 days and does not renew automatically.',
+   'A slot is held by the Stripe checkout and becomes active after the paid claim form is submitted.',
+   'Expired slots return to the available inventory automatically.',
+   'We label every sponsor clearly and never mix sponsor copy with verdicts, rankings, or editorial decisions.',
 ];
 
-export default function SponsorPage() {
+export default async function SponsorPage() {
+  const planOrder: SponsorPlan[] = ['rail', 'hero', 'inList', 'digest'];
+  const plans = await Promise.all(planOrder.map(async id => ({
+    id,
+    label: SPONSOR_PLANS[id].label,
+    amount: SPONSOR_PLANS[id].amount,
+    slots: await getAvailableSlots(id),
+  })));
+
   return (
     <div className="container-main py-12 md:py-20">
       <header className="max-w-[760px]">
@@ -151,9 +162,9 @@ export default function SponsorPage() {
         </div>
         <div className="flex flex-col justify-between border border-[var(--border)] p-6">
           <div>
-            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-muted-2">Longer reservation</p>
-            <p className="mt-3 font-display text-4xl font-bold text-primary">10% off</p>
-            <p className="mt-2 text-sm leading-relaxed text-muted">Applied automatically when you reserve three or more months. No coupon, negotiation, or hidden condition.</p>
+             <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-muted-2">Renewal policy</p>
+             <p className="mt-3 font-display text-4xl font-bold text-primary">One and done</p>
+             <p className="mt-2 text-sm leading-relaxed text-muted">Every sponsorship is a single 30-day payment. There is no automatic renewal, surprise charge, or recurring subscription.</p>
           </div>
           <a href="#availability" className="mt-7 inline-flex w-fit items-center gap-2 border-b border-primary pb-1 font-mono text-sm text-primary no-underline">Check availability -&gt;</a>
         </div>
@@ -162,11 +173,9 @@ export default function SponsorPage() {
       <section id="availability" className="mt-14 border-t border-[var(--border)] pt-8">
         <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-primary">Next step</p>
         <h2 className="mt-2 font-display text-3xl font-bold tracking-tight">Tell us what you want to promote.</h2>
-        <p className="mt-3 max-w-[620px] text-sm leading-relaxed text-muted">Include your product name, URL, preferred slot type, and the months you want. We will confirm availability before taking payment.</p>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <a href="https://github.com/VibeCodingApp/LetsVibeCodeit/issues/new?title=Sponsor%20availability" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-primary px-5 py-3 font-display text-sm font-bold text-black no-underline transition-transform hover:-translate-y-0.5">Request availability -&gt;</a>
-          <a href="/" className="inline-flex items-center border-b border-[var(--border-2)] px-1 py-3 font-mono text-sm text-muted no-underline hover:text-fg">Back to the catalog</a>
-        </div>
+         <p className="mt-3 max-w-[760px] text-sm leading-relaxed text-muted">Choose an available placement and pay securely with Stripe. After payment, you will be redirected to upload your PNG/WebP icon, name, and 70-character description. The slot activates after that form is submitted.</p>
+         <SponsorCheckout plans={plans} />
+         <p className="mt-4 font-mono text-xs text-muted-2">Payment is one-time for 30 days. No automatic renewal. Expired slots return to this inventory automatically.</p>
       </section>
     </div>
   );

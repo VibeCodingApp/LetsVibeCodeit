@@ -3,6 +3,7 @@ import { join, resolve } from 'node:path';
 
 const sourceDir = resolve(process.argv[2] || 'D:/Work/vibelist/apps');
 const targetDir = resolve(process.argv[3] || 'data/apps');
+const historyPath = join(targetDir, '..', 'catalog-history.json');
 
 const domainOverrides = {
   airtable: 'airtable.com',
@@ -187,9 +188,18 @@ for (const file of readdirSync(targetDir).filter(name => name.endsWith('.json'))
 for (const file of readdirSync(targetDir).filter(name => name.endsWith('.json'))) unlinkSync(join(targetDir, file));
 
 const files = readdirSync(sourceDir).filter(name => name.endsWith('.md')).sort().map(name => ({ name, path: join(sourceDir, name) }));
+const now = new Date().toISOString();
+const history = existsSync(historyPath)
+  ? JSON.parse(readFileSync(historyPath, 'utf8'))
+  : { baselineDate: now.slice(0, 10), apps: {} };
+
+history.baselineDate ||= now.slice(0, 10);
+history.apps ||= {};
 for (const file of files) {
   const app = parseSource(file, existingBySlug);
+  if (!history.apps[app.slug]) history.apps[app.slug] = existingBySlug.has(app.slug) ? history.baselineDate : now;
   writeFileSync(join(targetDir, `${app.slug}.json`), `${JSON.stringify(app, null, 2)}\n`, 'utf8');
 }
+writeFileSync(historyPath, `${JSON.stringify(history, null, 2)}\n`, 'utf8');
 
 console.log(`Synced ${files.length} apps from ${sourceDir} to ${targetDir}`);

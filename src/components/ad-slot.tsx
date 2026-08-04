@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect } from 'react';
+import { useState } from 'react';
+import type { SponsorPlacement } from '@/lib/sponsors';
 
 export const SITE_HEADER_HEIGHT = 54;
 
@@ -93,6 +95,10 @@ export function AdSlot({
   isActive = false,
   anchorIndex,
 }: AdSlotProps) {
+  const [sponsors, setSponsors] = useState<SponsorPlacement[]>([]);
+  useEffect(() => {
+    fetch('/api/sponsors/active', { cache: 'no-store' }).then(response => response.ok ? response.json() : []).then((items: SponsorPlacement[]) => setSponsors(items.filter(item => item.plan === 'inList'))).catch(() => undefined);
+  }, []);
   const anchorProps = anchorIndex === undefined
     ? {}
     : { 'data-ad-anchor': anchorIndex };
@@ -112,17 +118,24 @@ export function AdSlot({
       data-sticky-ad={sticky ? 'true' : undefined}
       aria-hidden={isActive && !sticky ? true : undefined}
       {...anchorProps}
-    >
-      <div className={surfaceClassName} data-sticky-surface={sticky ? 'true' : undefined}>
-        <div className="flex items-center gap-3">
-          <span className="text-[10px] uppercase tracking-[0.08em] text-muted-2 font-mono">In-List Ad</span>
-          <span className="text-primary font-display font-bold text-base">$79</span>
-          <span className="text-[10px] text-muted-2 font-mono">/30 days</span>
+      >
+        <div className={surfaceClassName} data-sticky-surface={sticky ? 'true' : undefined}>
+          {sponsors.length ? <InListSponsor sponsor={sponsors[hashSlot(slot) % sponsors.length]} /> : <InListPlaceholder />}
         </div>
-        <span className="text-[11px] text-muted-2 font-mono">promote your product in the vibecoded list</span>
-      </div>
     </div>
   );
+}
+
+function hashSlot(slot: string): number {
+  return Array.from(slot).reduce((sum, char) => sum + char.charCodeAt(0), 0);
+}
+
+function InListSponsor({ sponsor }: { sponsor: SponsorPlacement }) {
+  return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" className="flex items-center gap-3 no-underline"><img src={sponsor.iconUrl} alt="" className="h-9 w-9 rounded-lg object-cover" /><span className="font-display text-sm font-bold text-fg">{sponsor.name}</span><span className="text-[11px] text-muted-2">{sponsor.description}</span><span className="ml-auto font-mono text-[10px] uppercase tracking-[0.08em] text-warning">Sponsored</span></a>;
+}
+
+function InListPlaceholder() {
+  return <><div className="flex items-center gap-3"><span className="font-mono text-[10px] uppercase tracking-[0.08em] text-muted-2">In-List Ad</span><span className="font-display text-base font-bold text-primary">$79</span><span className="font-mono text-[10px] text-muted-2">/30 days</span></div><span className="font-mono text-[11px] text-muted-2">promote your product in the vibecoded list</span></>;
 }
 
 export function StickyAdLayer({ slot }: StickyAdLayerProps) {

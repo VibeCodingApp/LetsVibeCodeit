@@ -47,6 +47,11 @@ export interface AppData {
   prompt: string | null;
 }
 
+export interface CatalogHistory {
+  baselineDate: string;
+  apps: Record<string, string>;
+}
+
 export interface AppRow {
   slug: string;
   name: string;

@@ -32,6 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: { card: 'summary_large_image', title: 'LetsVibeCodeit.com', description: 'Which subscriptions are one prompt away from free' },
   robots: { index: true, follow: true },
+  verification: { google: 'google474d110e99df6c6e' },
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any', type: 'image/x-icon' },

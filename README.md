@@ -30,6 +30,12 @@ Ads are labeled so they are easy to distinguish from editorial content:
 - On mobile the same sponsor slots become sticky marquee bands below the header and above the footer.
 - In-list ads appear between content sections. Only one can become sticky below the header at a time; it changes as you scroll and uses blur so content passing underneath stays readable.
 
+## Sponsorships and digest
+
+Sponsors choose an available placement and pay a one-time 30-day Stripe Checkout session. After Stripe confirms payment, they upload a PNG/WebP icon, product name, optional website, and a description of up to 70 characters. The placement is stored with its expiration date, appears in the selected slot, and becomes available again automatically when the 30 days end. Sponsorships do not auto-renew.
+
+The weekly digest is sent by a protected Vercel Cron route through Resend. It includes apps recorded as newly added in the catalog history and only sponsors who purchased the Weekly digest placement. Production email delivery requires a verified Resend sender configured as `RESEND_FROM_EMAIL`.
+
 ## Public repository
 
 [github.com/VibeCodingApp/LetsVibeCodeit](https://github.com/VibeCodingApp/LetsVibeCodeit)
@@ -51,3 +57,12 @@ Open `http://localhost:8095`.
 - `npm run check:loc` — 400-line guard
 - `npm run build` — production build
 - `npm run sync:vibelist` — rebuild public-safe metadata from the private source
+
+## Server environment
+
+Keep server-only values in `.env.local` or the deployment provider, never in Git:
+
+- `STRIPE_SECRET_KEY` — Stripe Checkout and sponsorship file metadata
+- `RESEND_API_KEY` — digest audience, confirmations, and weekly sends
+- `RESEND_FROM_EMAIL` — verified sender used by Resend
+- `CRON_SECRET` — authorization for the weekly digest cron
