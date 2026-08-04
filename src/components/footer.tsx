@@ -14,7 +14,7 @@ export function Footer() {
            {' '}·{' '}
            <a href="/terms" className="text-primary underline underline-offset-2 hover:decoration-primary">Terms</a>
           </p>
-          <p className="text-[12px] leading-relaxed text-muted-2">built by @yanki3l · @worldofnovagame · @hunt3rd3v · MIT · no third-party trackers · weekly: what got a verdict, what died.</p>
+           <p className="text-[12px] leading-relaxed text-muted-2">built by <a href="https://x.com/yanki3l" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">@yanki3l</a> · <a href="https://x.com/worldofnovagame" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">@worldofnovagame</a> · <a href="https://x.com/hunt3rd3v" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2">@hunt3rd3v</a> · MIT · no third-party trackers · weekly: what got a verdict, what died.</p>
         </div>
       </div>
     </footer>

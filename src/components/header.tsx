@@ -7,6 +7,7 @@ const links = [
   { href: '/categories', label: 'Categories' },
   { href: '/stats', label: 'Stats' },
   { href: '/sponsor', label: 'Sponsor' },
+  { href: 'https://github.com/canivibecodeit/canivibecodeit/blob/main/CONTRIBUTING.md', label: 'Contribute' },
 ];
 
 export function Header() {
@@ -37,7 +38,7 @@ export function Header() {
 
           <nav className="hidden md:flex items-center gap-0.5">
             {links.map(l => (
-              <a key={l.href} href={l.href} className="group relative no-underline text-muted hover:text-fg px-3 py-2 font-mono text-[12.5px] tracking-[0.01em] transition-colors duration-200">
+              <a key={l.href} href={l.href} target={l.href.startsWith('http') ? '_blank' : undefined} rel={l.href.startsWith('http') ? 'noopener noreferrer' : undefined} className="group relative no-underline text-muted hover:text-fg px-3 py-2 font-mono text-[12.5px] tracking-[0.01em] transition-colors duration-200">
                 {l.label}
                 <span className="absolute bottom-1.5 left-3 right-3 h-px bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left" />
               </a>
@@ -58,7 +59,7 @@ export function Header() {
         {open && (
           <nav className="md:hidden absolute top-[54px] left-0 right-0 bg-[var(--surface)] border-b border-[var(--border)] p-4 flex flex-col gap-0.5 z-50 shadow-[0_8px_24px_rgba(0,0,0,.5)]">
             {links.map(l => (
-              <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="no-underline text-fg-2 hover:text-fg px-3 py-2.5 font-mono text-sm transition-colors border-b border-[var(--border)] last:border-b-0">
+              <a key={l.href} href={l.href} target={l.href.startsWith('http') ? '_blank' : undefined} rel={l.href.startsWith('http') ? 'noopener noreferrer' : undefined} onClick={() => setOpen(false)} className="no-underline text-fg-2 hover:text-fg px-3 py-2.5 font-mono text-sm transition-colors border-b border-[var(--border)] last:border-b-0">
                 {l.label}
               </a>
             ))}
