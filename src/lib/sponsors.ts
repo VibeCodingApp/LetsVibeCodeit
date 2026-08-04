@@ -1,6 +1,5 @@
 import { unstable_cache } from 'next/cache';
-import { getActivePlacements, isSlotReserved, type SponsorRow } from './db';
-import { SPONSOR_PLANS, type SponsorPlan } from './stripe';
+import { listCheckoutSessions, SPONSOR_PLANS, type SponsorPlan, type StripeCheckoutSession } from './stripe';
 
 export type SponsorSlot = { id: string; label: string };
 
@@ -29,7 +28,40 @@ export const SLOT_GROUPS: Record<SponsorPlan, SponsorSlot[]> = {
   digest: [{ id: 'weekly-digest', label: 'Weekly digest' }],
 };
 
-const cachedActiveSponsors = unstable_cache(getActivePlacements, ['active-sponsors-neon'], { revalidate: 60 });
+function sessionPlacement(session: StripeCheckoutSession): SponsorPlacement | null {
+  const metadata = session.metadata || {};
+  const plan = metadata.plan as SponsorPlan;
+  const creativeMode = metadata.creativeMode === 'banner' ? 'banner' : 'icon-text';
+  const expiresAt = Number(metadata.expiresAt || 0);
+  if (!session.id || !SPONSOR_PLANS[plan] || !metadata.slotId || !expiresAt) return null;
+  const assetUrl = creativeMode === 'banner' ? metadata.bannerUrl : metadata.iconUrl;
+  const marqueeIconUrl = metadata.marqueeIconUrl || metadata.iconUrl;
+  const marqueeText = metadata.marqueeText || metadata.name;
+  if (!metadata.name || !assetUrl || !marqueeIconUrl || !marqueeText || creativeMode === 'icon-text' && !metadata.description || !metadata.website || expiresAt <= Date.now()) return null;
+  return {
+    sessionId: session.id,
+    plan,
+    slotId: metadata.slotId,
+    name: metadata.name,
+    description: metadata.description || '',
+    website: metadata.website,
+    iconUrl: metadata.iconUrl || '',
+    marqueeIconUrl,
+    marqueeText,
+    bannerUrl: metadata.bannerUrl || '',
+    creativeMode,
+    expiresAt,
+  };
+}
+
+async function loadActiveSponsors(): Promise<SponsorPlacement[]> {
+  const [open, complete] = await Promise.all([listCheckoutSessions('open'), listCheckoutSessions('complete')]);
+  return [...open.filter(session => session.metadata?.test === 'true' && session.metadata?.claimed === 'true'), ...complete.filter(session => session.payment_status === 'paid')]
+    .map(sessionPlacement)
+    .filter(Boolean) as SponsorPlacement[];
+}
+
+const cachedActiveSponsors = unstable_cache(loadActiveSponsors, ['active-sponsors'], { revalidate: 60 });
 
 export async function getActiveSponsors(): Promise<SponsorPlacement[]> {
   try {
@@ -40,17 +72,21 @@ export async function getActiveSponsors(): Promise<SponsorPlacement[]> {
 }
 
 export async function getReservedSlotIds(): Promise<Set<string>> {
+  const [open, complete] = await Promise.all([listCheckoutSessions('open'), listCheckoutSessions('complete')]);
   const reserved = new Set<string>();
-  for (const group of Object.values(SLOT_GROUPS)) {
-    for (const slot of group) {
-      if (await isSlotReserved(slot.id)) reserved.add(slot.id);
-    }
-  }
+  [...open.filter(session => session.metadata?.test === 'true' && session.metadata?.claimed === 'true'), ...complete].forEach(session => {
+    const slotId = session.metadata?.slotId;
+    if (!slotId) return;
+    const claimedExpiresAt = Number(session.metadata?.expiresAt || 0);
+    const isTest = session.metadata?.test === 'true' && session.metadata?.claimed === 'true';
+    const stillActive = claimedExpiresAt > Date.now() && (session.payment_status === 'paid' || isTest);
+    if (stillActive) reserved.add(slotId);
+  });
   return reserved;
 }
 
 export async function getAvailableSlots(plan: SponsorPlan): Promise<SponsorSlot[]> {
-  if (!process.env.POSTGRES_URL) return SLOT_GROUPS[plan];
+  if (!process.env.STRIPE_SECRET_KEY) return SLOT_GROUPS[plan];
   try {
     const reserved = await getReservedSlotIds();
     return SLOT_GROUPS[plan].filter(slot => !reserved.has(slot.id));

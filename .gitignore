@@ -15,4 +15,3 @@ private-prompts/
 *.prompts.json
 
 .vercel
-.env*.local
