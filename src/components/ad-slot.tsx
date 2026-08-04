@@ -112,7 +112,7 @@ export function AdSlot({
     : { 'data-ad-anchor': anchorIndex };
 
   const surfaceClassName = [
-    'w-full flex flex-col items-center justify-center gap-2 py-8',
+     'relative w-full flex flex-col items-center justify-center gap-2 py-8',
     'border border-dashed border-[var(--border-2)] rounded-xl',
     sticky
       ? 'bg-[var(--glass-bg)] backdrop-blur-xl backdrop-saturate-150 shadow-[0_8px_32px_rgba(0,0,0,.28)]'
@@ -145,7 +145,7 @@ function slotHash(slot: string): number {
 
 function InListSponsor({ sponsor, placement }: { sponsor: SponsorPlacement; placement: string }) {
   const onClick = () => trackSponsorEvent(sponsor.sessionId, 'click', `in-list:${placement}`);
-  if (sponsor.creativeMode === 'banner') return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" onClick={onClick} aria-label={`${sponsor.name} sponsored placement`} className="relative flex min-h-[120px] w-full items-end overflow-hidden rounded-lg no-underline"><img src={sponsor.bannerUrl} alt={sponsor.name} className="absolute inset-0 h-full w-full object-cover" /></a>;
+  if (sponsor.creativeMode === 'banner') return <><div aria-hidden className="invisible flex flex-col items-center justify-center gap-2"><div className="flex items-center gap-3"><span className="font-mono text-[10px] uppercase tracking-[0.08em]">In-List Ad</span><span className="font-display text-base font-bold">$79</span><span className="font-mono text-[10px]">/30 days</span></div><span className="font-mono text-[11px]">promote your product in the vibecoded list</span></div><a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" onClick={onClick} aria-label={`${sponsor.name} sponsored placement`} className="absolute inset-0 z-10 block overflow-hidden rounded-lg no-underline"><img src={sponsor.bannerUrl} alt={sponsor.name} className="h-full w-full object-fill" /></a></>;
   return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" onClick={onClick} className="flex w-full flex-col items-start gap-1.5 text-left no-underline"><img src={sponsor.iconUrl} alt="" className="h-8 w-8 rounded-lg object-cover" /><span className="font-display text-sm font-bold text-fg">{sponsor.name}</span><span className="line-clamp-2 text-[11px] text-muted-2">{sponsor.description}</span><span className="font-mono text-[10px] uppercase tracking-[0.08em] text-warning">Sponsored</span></a>;
 }
 

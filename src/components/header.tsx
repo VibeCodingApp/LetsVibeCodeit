@@ -7,7 +7,7 @@ const links = [
   { href: '/categories', label: 'Categories' },
   { href: '/stats', label: 'Stats' },
   { href: '/sponsor', label: 'Sponsor' },
-  { href: 'https://github.com/canivibecodeit/canivibecodeit/blob/main/CONTRIBUTING.md', label: 'Contribute' },
+  { href: 'https://github.com/VibeCodingApp/LetsVibeCodeit/blob/main/CONTRIBUTING.md', label: 'Contribute' },
 ];
 
 export function Header() {
