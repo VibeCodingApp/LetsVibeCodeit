@@ -29,7 +29,7 @@ export default function HomePage() {
   const rows = getAppRows();
   const appCount = getAppCount();
   const mrr = computeMRR(allApps);
-  const pricedCount = allApps.filter(a => !!a.priceMonthly && a.priceMonthly > 0 && a.verdict !== 'no').length;
+  const pricedCount = allApps.filter(a => !!a.priceMonthly && a.priceMonthly > 0).length;
   const categories = getTopCategories(allApps, 13);
 
   return (
@@ -45,7 +45,7 @@ export default function HomePage() {
               </span>{' '}!
             </h1>
             <p className="text-muted text-base md:text-lg mx-auto mb-10">
-              {appCount} apps. One question each: can AI replace it, or does a real moat keep it alive?
+              {appCount} SaaS subscriptions. Honest verdicts, real moats, and the exact AI prompt to build your own. Search yours &rarr;
             </p>
             <SearchBar />
           </div>
@@ -58,14 +58,19 @@ export default function HomePage() {
       </div>
 
       <section className="py-6">
-        <div className="container-main border-y border-[var(--border)] py-5">
-          <div className="flex flex-col items-center gap-1">
-            <div className="flex items-center gap-3 flex-wrap justify-center">
-              <span className="text-[12px] text-muted-2 font-mono uppercase tracking-[0.08em]">Collective MRR Destroyed</span>
+        <div className="container-main relative overflow-hidden border-y border-[var(--border)] py-8 md:py-10">
+          <div aria-hidden className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_140%_at_50%_0%,var(--primary-glow),transparent)]" />
+          <div className="relative flex flex-col items-center gap-3 text-center">
+            <span className="inline-flex items-center gap-2.5 rounded-full border border-[var(--border-2)] bg-surface-2/80 px-4 py-1.5 font-mono text-[11px] uppercase tracking-[0.14em] text-muted-2 animate-pulse-glow">
+              <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-danger" aria-hidden />
+              Collective MRR Destroyed
+            </span>
+            <div className="flex flex-wrap items-baseline justify-center gap-x-3 gap-y-1">
               <Odometer target={mrr} />
-              <span className="text-muted text-sm font-mono">/mo</span>
+              <span className="font-mono text-sm text-muted">/mo</span>
+              <span className="rounded-full border border-[var(--border)] bg-surface-2 px-3 py-1 font-mono text-[11px] text-primary">≈ ${(mrr * 12).toLocaleString()}/yr</span>
             </div>
-            <p className="text-[11px] text-muted-2 font-mono mt-1">{pricedCount} apps with listed prices counted</p>
+            <p className="font-mono text-[11px] text-muted-2">{pricedCount} apps with listed prices counted</p>
           </div>
         </div>
       </section>
