@@ -15,14 +15,17 @@ export async function POST(req: NextRequest) {
   const name = String(form?.get('name') || '').trim();
   const creativeMode = String(form?.get('creativeMode') || '');
   const description = String(form?.get('description') || '').trim();
+  const marqueeText = String(form?.get('marqueeText') || '').trim();
   const website = String(form?.get('website') || '').trim();
-  const asset = form?.get(creativeMode === 'banner' ? 'banner' : 'icon');
+  const creativeAsset = form?.get(creativeMode === 'banner' ? 'banner' : 'icon');
+  const marqueeIcon = form?.get('marqueeIcon');
 
   if ((!sessionId && !isTest) || name.length < 2 || name.length > 70) return NextResponse.json({ error: 'Product name is required.' }, { status: 400 });
   if (!['banner', 'icon-text'].includes(creativeMode)) return NextResponse.json({ error: 'Choose a creative format.' }, { status: 400 });
   if (creativeMode === 'icon-text' && (!description || description.length > 70)) return NextResponse.json({ error: 'Icon + text requires text of 70 characters or fewer.' }, { status: 400 });
+  if (creativeMode === 'banner' && (!marqueeText || marqueeText.length > 25)) return NextResponse.json({ error: 'Banner mode requires marquee text of 25 characters or fewer.' }, { status: 400 });
   if (!URL_RE.test(website) || website.length > 300) return NextResponse.json({ error: 'Click destination must be a valid http(s) URL under 300 characters.' }, { status: 400 });
-  if (!(asset instanceof File) || !ALLOWED_TYPES.has(asset.type) || asset.size > MAX_ICON_BYTES) return NextResponse.json({ error: 'Upload a PNG or WebP image up to 2MB.' }, { status: 400 });
+  if (!isImageFile(creativeAsset ?? null) || creativeMode === 'banner' && !isImageFile(marqueeIcon ?? null)) return NextResponse.json({ error: 'Upload valid PNG or WebP images up to 2MB.' }, { status: 400 });
 
   try {
     const session = await retrieveCheckoutSession(sessionId);
@@ -33,10 +36,11 @@ export async function POST(req: NextRequest) {
     if (plan === 'digest' && creativeMode !== 'icon-text') return NextResponse.json({ error: 'Weekly digest sponsorships require icon + text.' }, { status: 400 });
     if (session.metadata.claimed === 'true' || session.metadata.expiresAt) return NextResponse.json({ error: 'This sponsorship has already been claimed.' }, { status: 409 });
 
-    const assetUrl = await uploadSponsorAsset(asset, creativeMode === 'banner' ? 'business_logo' : 'business_icon');
+    const assetUrl = await uploadSponsorAsset(creativeAsset as File, creativeMode === 'banner' ? 'business_logo' : 'business_icon');
+    const marqueeIconUrl = creativeMode === 'banner' ? await uploadSponsorAsset(marqueeIcon as File, 'business_icon') : assetUrl;
     const activatedAt = Date.now();
     const expiresAt = activatedAt + 30 * 24 * 60 * 60 * 1000;
-    const creativeMetadata = { name, description, website, creativeMode, bannerUrl: creativeMode === 'banner' ? assetUrl : '', iconUrl: creativeMode === 'icon-text' ? assetUrl : '', activatedAt: String(activatedAt), expiresAt: String(expiresAt), claimed: 'true' };
+    const creativeMetadata = { name, description, website, creativeMode, marqueeText: creativeMode === 'banner' ? marqueeText : name, marqueeIconUrl, bannerUrl: creativeMode === 'banner' ? assetUrl : '', iconUrl: creativeMode === 'icon-text' ? assetUrl : '', activatedAt: String(activatedAt), expiresAt: String(expiresAt), claimed: 'true' };
     await updateCheckoutMetadata(sessionId, { ...session.metadata, ...creativeMetadata });
 
     const recipient = session?.customer_details?.email || '';
@@ -54,6 +58,10 @@ export async function POST(req: NextRequest) {
     console.error('sponsor_claim_failed', error instanceof Error ? error.message : 'unknown_error');
     return NextResponse.json({ error: 'We could not activate this sponsorship yet. Try again.' }, { status: 502 });
   }
+}
+
+function isImageFile(value: FormDataEntryValue | null): value is File {
+  return value instanceof File && ALLOWED_TYPES.has(value.type) && value.size > 0 && value.size <= MAX_ICON_BYTES;
 }
 
 function confirmationEmail(data: { name: string; description: string; website: string; assetUrl: string; creativeMode: string; expiresAt: number }): string {
