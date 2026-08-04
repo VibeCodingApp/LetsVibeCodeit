@@ -23,7 +23,7 @@ function Card({ labelled, slotId, sponsor }: { labelled: boolean; slotId: string
 export function MobileAdMarquee({ position }: { position: 'top' | 'bottom' }) {
   const [active, setActive] = useState<SponsorPlacement[]>([]);
   useEffect(() => {
-    fetch('/api/sponsors/active', { cache: 'no-store' }).then(response => response.ok ? response.json() : []).then(setActive).catch(() => undefined);
+    fetch('/api/sponsors/active').then(response => response.ok ? response.json() : []).then(setActive).catch(() => undefined);
   }, []);
   const side = isTopPosition(position) ? 'left' : 'right';
   const slotIds = Array.from({ length: 7 }, (_, index) => `${side}-${index + 1}`);

@@ -31,7 +31,7 @@ function Slot({ n, side, sponsor }: { n: number; side: 'left' | 'right'; sponsor
 export function SponsorRails() {
   const [active, setActive] = useState<SponsorPlacement[]>([]);
   useEffect(() => {
-    fetch('/api/sponsors/active', { cache: 'no-store' }).then(response => response.ok ? response.json() : []).then(setActive).catch(() => undefined);
+    fetch('/api/sponsors/active').then(response => response.ok ? response.json() : []).then(setActive).catch(() => undefined);
   }, []);
   return (
     <>

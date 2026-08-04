@@ -10,7 +10,7 @@ export function AdSlotHero({ side }: { side: 'left' | 'right' }) {
   const [sponsors, setSponsors] = useState<SponsorPlacement[]>([]);
   const [rotationTick, setRotationTick] = useState(0);
   useEffect(() => {
-    fetch('/api/sponsors/active', { cache: 'no-store' }).then(response => response.ok ? response.json() : []).then((items: SponsorPlacement[]) => setSponsors(items.filter(item => item.plan === 'hero'))).catch(() => undefined);
+    fetch('/api/sponsors/active').then(response => response.ok ? response.json() : []).then((items: SponsorPlacement[]) => setSponsors(items.filter(item => item.plan === 'hero'))).catch(() => undefined);
     const timer = window.setInterval(() => setRotationTick(value => value + 1), SPONSOR_ROTATION_MS);
     return () => window.clearInterval(timer);
   }, []);

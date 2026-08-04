@@ -34,7 +34,7 @@ function toPlacement(row: SponsorRow): SponsorPlacement {
     iconUrl: isBanner ? '' : dataUri(row.icon_base64),
     marqueeIconUrl: isBanner ? dataUri(row.marquee_icon_base64) : dataUri(row.icon_base64),
     marqueeText: row.marquee_text || row.name,
-    bannerUrl: isBanner ? (facturRailOverride ? '/bannerfacturapp.png' : dataUri(row.banner_base64)) : '',
+    bannerUrl: isBanner ? (facturRailOverride ? '/bannerfacturapp.webp' : dataUri(row.banner_base64)) : '',
     creativeMode: (facturRailOverride || row.creative_mode === 'banner' ? 'banner' : 'icon-text') as 'banner' | 'icon-text',
     expiresAt: row.expires_at,
   };
@@ -79,14 +79,14 @@ export async function getActivePlacements(): Promise<SponsorPlacement[]> {
       sessionId: `${factur.session_id}:in-list-1`,
       plan: 'inList',
       slotId: 'in-list-1',
-      bannerUrl: '/inlistfacturapp.png',
+      bannerUrl: '/inlistfacturapp.webp',
       creativeMode: 'banner',
       expiresAt: Math.min(factur.expires_at, factur.activated_at + 7 * 24 * 60 * 60 * 1000),
     });
   }
   const goGallery = result.rows.find(row => row.name.toLowerCase() === 'gogallery' && row.plan === 'inList' && row.slot_id === 'in-list-2');
   const goGalleryPlacement = placements.find(placement => placement.sessionId === goGallery?.session_id);
-  if (goGallery && goGalleryPlacement) goGalleryPlacement.bannerUrl = '/gogallery-inlist.png';
+  if (goGallery && goGalleryPlacement) goGalleryPlacement.bannerUrl = '/gogallery-inlist.webp';
   return placements;
 }
 

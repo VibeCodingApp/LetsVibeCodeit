@@ -101,7 +101,7 @@ export function AdSlot({
   const [sponsors, setSponsors] = useState<SponsorPlacement[]>([]);
   const [rotationTick, setRotationTick] = useState(0);
   useEffect(() => {
-    fetch('/api/sponsors/active', { cache: 'no-store' }).then(response => response.ok ? response.json() : []).then((items: SponsorPlacement[]) => setSponsors(items.filter(item => item.plan === 'inList'))).catch(() => undefined);
+    fetch('/api/sponsors/active').then(response => response.ok ? response.json() : []).then((items: SponsorPlacement[]) => setSponsors(items.filter(item => item.plan === 'inList'))).catch(() => undefined);
   }, []);
   useEffect(() => {
     const timer = window.setInterval(() => setRotationTick(value => value + 1), SPONSOR_ROTATION_MS);

@@ -23,7 +23,7 @@ export function AppIcon({ domain, name, className = '' }: { domain: string; name
   return (
     <img
       ref={ref}
-      src={`https://www.google.com/s2/favicons?domain=${domain}&sz=128`}
+       src={`https://www.google.com/s2/favicons?domain=${domain}&sz=64`}
       alt=""
       loading="lazy"
       onError={() => setBroken(true)}
