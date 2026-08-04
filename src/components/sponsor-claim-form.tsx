@@ -2,6 +2,25 @@
 
 import { useState } from 'react';
 
+const WEBP_QUALITY = 0.78;
+const MAX_DIM = 2000;
+
+async function toWebP(file: File): Promise<File> {
+  if (file.type === 'image/webp' && file.size <= 500 * 1024) return file;
+  const bitmap = await createImageBitmap(file);
+  const { width, height } = bitmap;
+  const scale = Math.min(1, MAX_DIM / Math.max(width, height));
+  const canvas = document.createElement('canvas');
+  canvas.width = Math.round(width * scale);
+  canvas.height = Math.round(height * scale);
+  const ctx = canvas.getContext('2d');
+  if (!ctx) return file;
+  ctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+  bitmap.close();
+  const blob = await new Promise<Blob>((resolve, reject) => canvas.toBlob((b) => b ? resolve(b) : reject(new Error('bad canvas')), 'image/webp', WEBP_QUALITY));
+  return new File([blob], file.name.replace(/\.\w+$/i, '.webp'), { type: 'image/webp' });
+}
+
 export function SponsorClaimForm({ sessionId, testSlot = '', plan, slot }: { sessionId: string; testSlot?: string; plan: string; slot: string }) {
   const digestOnly = plan === 'digest';
   const recommendedSize = plan === 'rail' ? '216px wide × 1/7 viewport height' : plan === 'hero' ? '200 × 360px' : plan === 'inList' ? 'Content width × approx. 100–120px' : 'Email-native × up to 600px wide';
@@ -14,7 +33,13 @@ export function SponsorClaimForm({ sessionId, testSlot = '', plan, slot }: { ses
   async function submit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setStatus('busy');
+    setMessage('');
     const form = new FormData(event.currentTarget);
+    for (const [name, value] of Array.from(form)) {
+      if (value instanceof File && (value.type === 'image/png' || value.type === 'image/webp')) {
+        try { form.set(name, await toWebP(value)); } catch { }
+      }
+    }
     try {
       const response = await fetch('/api/sponsor/claim', { method: 'POST', body: form });
       const data = await response.json();
