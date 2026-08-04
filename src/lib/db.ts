@@ -24,6 +24,7 @@ export interface SponsorRow {
 function toPlacement(row: SponsorRow): SponsorPlacement {
   const isBanner = row.creative_mode === 'banner';
   const facturRailOverride = row.name.toLowerCase() === 'facturapp' && row.slot_id === 'left-1';
+  const expiresAt = Number(row.expires_at);
   return {
     sessionId: row.session_id,
     plan: row.plan as SponsorPlacement['plan'],
@@ -36,7 +37,7 @@ function toPlacement(row: SponsorRow): SponsorPlacement {
     marqueeText: row.marquee_text || row.name,
     bannerUrl: isBanner ? (facturRailOverride ? '/bannerfacturapp.webp' : dataUri(row.banner_base64)) : '',
     creativeMode: (facturRailOverride || row.creative_mode === 'banner' ? 'banner' : 'icon-text') as 'banner' | 'icon-text',
-    expiresAt: row.expires_at,
+    expiresAt,
   };
 }
 
@@ -73,7 +74,9 @@ export async function getActivePlacements(): Promise<SponsorPlacement[]> {
   );
   const placements = result.rows.map(toPlacement);
   const factur = result.rows.find(row => row.name.toLowerCase() === 'facturapp' && row.slot_id === 'left-1');
-  if (factur && factur.activated_at + 7 * 24 * 60 * 60 * 1000 > Date.now() && factur.expires_at > Date.now()) {
+  const facturActivatedAt = factur ? Number(factur.activated_at) : 0;
+  const facturExpiresAt = factur ? Number(factur.expires_at) : 0;
+  if (factur && facturActivatedAt + 7 * 24 * 60 * 60 * 1000 > Date.now() && facturExpiresAt > Date.now()) {
     placements.push({
       ...toPlacement(factur),
       sessionId: `${factur.session_id}:in-list-1`,
@@ -81,7 +84,7 @@ export async function getActivePlacements(): Promise<SponsorPlacement[]> {
       slotId: 'in-list-1',
       bannerUrl: '/inlistfacturapp.webp',
       creativeMode: 'banner',
-      expiresAt: Math.min(factur.expires_at, factur.activated_at + 7 * 24 * 60 * 60 * 1000),
+      expiresAt: Math.min(facturExpiresAt, facturActivatedAt + 7 * 24 * 60 * 60 * 1000),
     });
   }
   const goGallery = result.rows.find(row => row.name.toLowerCase() === 'gogallery' && row.plan === 'inList' && row.slot_id === 'in-list-2');
@@ -101,7 +104,7 @@ export async function isSlotReserved(slotId: string): Promise<boolean> {
     `SELECT activated_at, expires_at FROM sponsor_placements WHERE LOWER(name) = 'facturapp' AND slot_id = 'left-1' ORDER BY activated_at DESC LIMIT 1`,
   );
   const row = factur.rows[0];
-  return Boolean(row && row.expires_at > Date.now() && row.activated_at + 7 * 24 * 60 * 60 * 1000 > Date.now());
+  return Boolean(row && Number(row.expires_at) > Date.now() && Number(row.activated_at) + 7 * 24 * 60 * 60 * 1000 > Date.now());
 }
 
 export async function recordSponsorEvent(data: { sessionId: string; eventType: 'impression' | 'click'; placement: string; pagePath: string }): Promise<void> {
