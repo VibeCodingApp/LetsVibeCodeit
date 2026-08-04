@@ -62,6 +62,7 @@ export interface AppRow {
   votes: number;
   pagePriority: number;
   reportedReplacements: number;
+  addedAt: string;
 }
 
 export interface FilterState {
@@ -70,6 +71,7 @@ export interface FilterState {
   teamSize: number;
   sort: SortOption;
   search: string;
+  newListed: boolean;
 }
 
 export interface Stats {

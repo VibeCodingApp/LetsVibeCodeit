@@ -88,6 +88,7 @@ export function AppTable({ initialRows, categories }: { initialRows: AppRow[]; c
         </div>
 
         <div className="flex flex-wrap items-center gap-3 mb-6">
+          <button onClick={() => setF({ ...f, newListed: !f.newListed })} className={['chip', f.newListed ? 'chip-active' : ''].filter(Boolean).join(' ')}>NEW LISTED · 24H</button>
           {(['all', 'yes', 'kinda', 'no'] as const).map(v => {
             const ac = f.verdict === v
               ? v === 'yes' ? 'chip-active'

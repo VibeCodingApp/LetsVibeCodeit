@@ -4,6 +4,7 @@ export function filterApps(rows: AppRow[], f: FilterState): AppRow[] {
   let res = [...rows];
   if (f.category !== 'all') res = res.filter(a => a.category === f.category);
   if (f.verdict !== 'all') res = res.filter(a => a.verdict === f.verdict);
+  if (f.newListed) res = res.filter(a => Date.now() - new Date(a.addedAt).getTime() <= 24 * 60 * 60 * 1000);
   if (f.search.trim()) {
     const q = f.search.toLowerCase();
     res = res.filter(a => a.name.toLowerCase().includes(q) || a.category.toLowerCase().includes(q));

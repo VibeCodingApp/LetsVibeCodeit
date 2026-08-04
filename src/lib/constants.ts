@@ -220,6 +220,7 @@ export const INITIAL_FILTER: FilterState = {
   teamSize: 1,
   sort: 'votes',
   search: '',
+  newListed: false,
 };
 
 export const AD_INTERVAL = 10;
