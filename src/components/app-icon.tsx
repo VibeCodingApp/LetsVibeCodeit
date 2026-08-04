@@ -1,8 +1,15 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export function AppIcon({ domain, name, className = '' }: { domain: string; name: string; className?: string }) {
   const [broken, setBroken] = useState(false);
+  const ref = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    const img = ref.current;
+    if (img && img.complete && img.naturalWidth === 0) setBroken(true);
+  }, []);
+
   if (broken) {
     return (
       <span
@@ -15,6 +22,7 @@ export function AppIcon({ domain, name, className = '' }: { domain: string; name
   }
   return (
     <img
+      ref={ref}
       src={`https://www.google.com/s2/favicons?domain=${domain}&sz=128`}
       alt=""
       loading="lazy"
