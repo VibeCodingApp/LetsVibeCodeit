@@ -34,7 +34,8 @@ export async function POST(req: NextRequest) {
     const plan = session.metadata.plan as SponsorPlan;
     const slotId = session.metadata.slotId || 'left-1';
     if (!testSession && (session.status !== 'complete' || session.payment_status !== 'paid')) return NextResponse.json({ error: 'Payment has not been confirmed yet.' }, { status: 402 });
-    if (!SPONSOR_PLANS[plan] || !SLOT_GROUPS[plan]?.some(s => s.id === slotId)) return NextResponse.json({ error: 'Invalid sponsorship slot.' }, { status: 400 });
+    const validSlot = plan === 'inList' ? /^in-list-\d+$/.test(slotId) : SLOT_GROUPS[plan]?.some(s => s.id === slotId);
+    if (!SPONSOR_PLANS[plan] || !validSlot) return NextResponse.json({ error: 'Invalid sponsorship slot.' }, { status: 400 });
     if (plan === 'digest' && creativeMode !== 'icon-text') return NextResponse.json({ error: 'Weekly digest sponsorships require icon + text.' }, { status: 400 });
 
     const bannerBase64 = creativeMode === 'banner' ? await toBase64(creativeAsset as File) : '';
