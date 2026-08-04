@@ -1,4 +1,5 @@
 const STRIPE_API = 'https://api.stripe.com/v1';
+const STRIPE_FILES_API = 'https://files.stripe.com/v1';
 const SITE_URL = process.env.PUBLIC_SITE_URL || 'https://letsvibecodeit.com';
 
 export const SPONSOR_PLANS = {
@@ -94,7 +95,14 @@ export async function uploadSponsorAsset(file: File, purpose: 'business_icon' | 
   const form = new FormData();
   form.append('purpose', purpose);
   form.append('file', file, file.name || 'sponsor-icon');
-  const uploaded = await stripeRequest<{ id: string }>('/files', { method: 'POST', body: form });
+  const response = await fetch(`${STRIPE_FILES_API}/files`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${getKey()}` },
+    body: form,
+    cache: 'no-store',
+  });
+  const uploaded = await response.json().catch(() => ({}));
+  if (!response.ok || !uploaded.id) throw new Error(`stripe_file_upload_failed:${response.status}`);
   const linkParams = new URLSearchParams({ file: uploaded.id });
   const link = await stripeRequest<{ url: string }>('/file_links', { method: 'POST', body: linkParams });
   return link.url;

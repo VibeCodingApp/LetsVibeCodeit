@@ -54,7 +54,8 @@ export async function POST(req: NextRequest) {
       }
     }
     return NextResponse.json({ ok: true, emailSent, expiresAt });
-  } catch {
+  } catch (error) {
+    console.error('sponsor_claim_failed', error instanceof Error ? error.message : 'unknown_error');
     return NextResponse.json({ error: 'We could not activate this sponsorship yet. Try again.' }, { status: 502 });
   }
 }
