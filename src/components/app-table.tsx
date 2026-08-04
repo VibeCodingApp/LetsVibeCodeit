@@ -67,7 +67,7 @@ export function AppTable({ initialRows, categories }: { initialRows: AppRow[]; c
   }, [filtered]);
 
   return (
-    <section ref={listRef} className="section-pad" data-in-list-root>
+    <section ref={listRef} className="pb-20 pt-6 md:pb-24 md:pt-7" data-in-list-root>
       <div className="container-main">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-2">
           <div>

@@ -55,7 +55,7 @@ export function StatsStrip() {
   ];
 
   return (
-    <section className="section-pad">
+    <section className="pb-6 pt-6 md:pb-7 md:pt-7">
       <div className="container-main">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-8">
           <div>
