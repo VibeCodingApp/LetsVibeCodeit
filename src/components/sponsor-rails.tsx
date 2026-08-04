@@ -3,12 +3,16 @@
 import { useEffect, useState } from 'react';
 import type { SponsorPlacement } from '@/lib/sponsors';
 import { SponsorPurchaseButton } from './sponsor-purchase-button';
+import { trackSponsorEvent } from '@/lib/sponsor-events';
 
 function Slot({ n, side, sponsor }: { n: number; side: 'left' | 'right'; sponsor?: SponsorPlacement }) {
   const slotId = `${side}-${n}`;
+  useEffect(() => {
+    if (sponsor) trackSponsorEvent(sponsor.sessionId, 'impression', `rail:${slotId}`);
+  }, [sponsor, slotId]);
   if (sponsor?.slotId === slotId) {
     return (
-      <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" aria-label={`${sponsor.name} sponsored placement`} className={`relative overflow-hidden border border-primary/40 rounded px-3 py-2.5 text-center bg-[var(--surface)]/80 hover:border-primary transition-colors duration-200 flex flex-col ${sponsor.creativeMode === 'banner' ? 'justify-end' : 'items-start justify-start'} gap-1 no-underline`} style={{ height: 'calc((100vh - var(--rail-gap) * 8) / 7)' }}>
+      <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" onClick={() => trackSponsorEvent(sponsor.sessionId, 'click', `rail:${slotId}`)} aria-label={`${sponsor.name} sponsored placement`} className={`relative overflow-hidden border border-primary/40 rounded px-3 py-2.5 text-center bg-[var(--surface)]/80 hover:border-primary transition-colors duration-200 flex flex-col ${sponsor.creativeMode === 'banner' ? 'justify-end' : 'items-start justify-start'} gap-1 no-underline`} style={{ height: 'calc((100vh - var(--rail-gap) * 8) / 7)' }}>
         {sponsor.creativeMode === 'banner' ? <img src={sponsor.bannerUrl} alt={sponsor.name} className="absolute inset-0 h-full w-full object-cover" /> : <><img src={sponsor.iconUrl} alt="" className="h-8 w-8 rounded-lg object-cover" /><span className="text-left text-[12px] font-display font-bold text-fg">{sponsor.name}</span><span className="line-clamp-2 text-left text-[10px] text-muted-2 font-mono leading-tight">{sponsor.description}</span><span className="text-[9px] font-mono uppercase tracking-[0.08em] text-warning">Sponsored</span></>}
       </a>
     );

@@ -3,7 +3,8 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import type { SponsorPlacement } from '@/lib/sponsors';
-import { SPONSOR_ROTATION_MS, sponsorRotationIndex } from '@/lib/sponsor-rotation';
+import { SPONSOR_ROTATION_MS, rotatingSponsorForSlot } from '@/lib/sponsor-rotation';
+import { trackSponsorEvent } from '@/lib/sponsor-events';
 import { SponsorPurchaseButton } from './sponsor-purchase-button';
 
 export const SITE_HEADER_HEIGHT = 54;
@@ -118,7 +119,10 @@ export function AdSlot({
       : 'bg-[var(--surface)]/90',
   ].join(' ');
   const purchaseSlotId = `in-list-${(slotHash(slot) % 6) + 1}`;
-  const sponsor = sponsors.length ? sponsors[sponsorRotationIndex(sponsors.length, slot, rotationTick)] : null;
+  const sponsor = rotatingSponsorForSlot(sponsors, slot, rotationTick, 6);
+  useEffect(() => {
+    if (sponsor) trackSponsorEvent(sponsor.sessionId, 'impression', `in-list:${slot}`);
+  }, [sponsor, slot]);
 
   return (
     <div
@@ -129,7 +133,7 @@ export function AdSlot({
       {...anchorProps}
       >
         <div className={surfaceClassName} data-sticky-surface={sticky ? 'true' : undefined}>
-          {sponsor ? <InListSponsor sponsor={sponsor} /> : <InListPlaceholder slotId={purchaseSlotId} />}
+          {sponsor ? <InListSponsor sponsor={sponsor} placement={slot} /> : <InListPlaceholder slotId={purchaseSlotId} />}
         </div>
     </div>
   );
@@ -139,9 +143,10 @@ function slotHash(slot: string): number {
   return Array.from(slot).reduce((total, char) => total + char.charCodeAt(0), 0);
 }
 
-function InListSponsor({ sponsor }: { sponsor: SponsorPlacement }) {
-  if (sponsor.creativeMode === 'banner') return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" aria-label={`${sponsor.name} sponsored placement`} className="relative flex min-h-[88px] items-end overflow-hidden rounded-lg no-underline"><img src={sponsor.bannerUrl} alt={sponsor.name} className="absolute inset-0 h-full w-full object-cover" /></a>;
-  return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" className="flex w-full flex-col items-start gap-1.5 text-left no-underline"><img src={sponsor.iconUrl} alt="" className="h-8 w-8 rounded-lg object-cover" /><span className="font-display text-sm font-bold text-fg">{sponsor.name}</span><span className="line-clamp-2 text-[11px] text-muted-2">{sponsor.description}</span><span className="font-mono text-[10px] uppercase tracking-[0.08em] text-warning">Sponsored</span></a>;
+function InListSponsor({ sponsor, placement }: { sponsor: SponsorPlacement; placement: string }) {
+  const onClick = () => trackSponsorEvent(sponsor.sessionId, 'click', `in-list:${placement}`);
+  if (sponsor.creativeMode === 'banner') return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" onClick={onClick} aria-label={`${sponsor.name} sponsored placement`} className="relative flex min-h-[120px] w-full items-end overflow-hidden rounded-lg no-underline"><img src={sponsor.bannerUrl} alt={sponsor.name} className="absolute inset-0 h-full w-full object-cover" /></a>;
+  return <a href={sponsor.website} target="_blank" rel="sponsored noopener noreferrer" onClick={onClick} className="flex w-full flex-col items-start gap-1.5 text-left no-underline"><img src={sponsor.iconUrl} alt="" className="h-8 w-8 rounded-lg object-cover" /><span className="font-display text-sm font-bold text-fg">{sponsor.name}</span><span className="line-clamp-2 text-[11px] text-muted-2">{sponsor.description}</span><span className="font-mono text-[10px] uppercase tracking-[0.08em] text-warning">Sponsored</span></a>;
 }
 
 function InListPlaceholder({ slotId }: { slotId: string }) {

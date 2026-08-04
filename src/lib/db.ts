@@ -101,6 +101,15 @@ export async function isSlotReserved(slotId: string): Promise<boolean> {
   return Boolean(row && row.expires_at > Date.now() && row.activated_at + 7 * 24 * 60 * 60 * 1000 > Date.now());
 }
 
+export async function recordSponsorEvent(data: { sessionId: string; eventType: 'impression' | 'click'; placement: string; pagePath: string }): Promise<void> {
+  await pool.query(`CREATE TABLE IF NOT EXISTS sponsor_events (id BIGSERIAL PRIMARY KEY, sponsor_session_id TEXT NOT NULL, event_type TEXT NOT NULL CHECK (event_type IN ('impression','click')), placement TEXT NOT NULL, page_path TEXT NOT NULL, created_at TIMESTAMPTZ DEFAULT NOW())`);
+  await pool.query('CREATE INDEX IF NOT EXISTS sponsor_events_session_created_idx ON sponsor_events (sponsor_session_id, created_at)');
+  await pool.query(
+    'INSERT INTO sponsor_events (sponsor_session_id, event_type, placement, page_path) VALUES ($1,$2,$3,$4)',
+    [data.sessionId, data.eventType, data.placement, data.pagePath],
+  );
+}
+
 export async function getCatalogSyncSha(source = 'canivibecodeit/canivibecodeit'): Promise<string> {
   await pool.query('CREATE TABLE IF NOT EXISTS catalog_sync_state (source TEXT PRIMARY KEY, source_sha TEXT NOT NULL, checked_at BIGINT NOT NULL)');
   const result = await pool.query<{ source_sha: string }>('SELECT source_sha FROM catalog_sync_state WHERE source = $1', [source]);
