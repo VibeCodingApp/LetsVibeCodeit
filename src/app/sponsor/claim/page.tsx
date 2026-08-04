@@ -5,8 +5,10 @@ import { SponsorClaimForm } from '@/components/sponsor-claim-form';
 export const dynamic = 'force-dynamic';
 export const metadata: Metadata = { title: 'Claim sponsorship', robots: { index: false, follow: false } };
 
-export default async function SponsorClaimPage({ searchParams }: { searchParams: { session_id?: string } }) {
+export default async function SponsorClaimPage({ searchParams }: { searchParams: { session_id?: string; test_slot?: string } }) {
   const sessionId = searchParams.session_id || '';
+  const testSlot = searchParams.test_slot || '';
+  if (testSlot === 'left-1' && !sessionId) return <TestClaimPage />;
   if (!sessionId) return <ClaimMessage title="Missing payment session" copy="Return to the sponsor page and start checkout again." />;
 
   try {
@@ -26,6 +28,10 @@ export default async function SponsorClaimPage({ searchParams }: { searchParams:
   } catch {
     return <ClaimMessage title="Could not verify payment" copy="The session may be invalid or Stripe is temporarily unavailable. Contact us if you were charged." />;
   }
+}
+
+function TestClaimPage() {
+  return <div className="container-main py-12 md:py-20"><div className="mx-auto max-w-[680px]"><p className="font-mono text-[11px] uppercase tracking-[0.12em] text-primary">Free test slot · L1</p><h1 className="mt-3 font-display text-4xl font-bold tracking-tight md:text-6xl">Test your creative.</h1><p className="mt-5 text-base leading-relaxed text-muted">This is the reserved free test slot. No Stripe payment is required. Submit a banner or icon + text to preview the real placement flow.</p><div className="mt-8"><SponsorClaimForm sessionId="" testSlot="left-1" plan="rail" slot="L1 test" /></div></div></div>;
 }
 
 function ClaimMessage({ title, copy }: { title: string; copy: string }) {

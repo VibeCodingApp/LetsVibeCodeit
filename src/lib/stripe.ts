@@ -81,6 +81,15 @@ export async function updateCheckoutMetadata(id: string, metadata: Record<string
   await stripeRequest(`/checkout/sessions/${encodeURIComponent(id)}`, { method: 'POST', body: metadataParams(metadata) });
 }
 
+export async function getStripeAccountMetadata(): Promise<Record<string, string>> {
+  const account = await stripeRequest<{ metadata?: Record<string, string> }>('/account');
+  return account.metadata || {};
+}
+
+export async function updateStripeAccountMetadata(metadata: Record<string, string>): Promise<void> {
+  await stripeRequest('/account', { method: 'POST', body: metadataParams(metadata) });
+}
+
 export async function uploadSponsorAsset(file: File, purpose: 'business_icon' | 'business_logo'): Promise<string> {
   const form = new FormData();
   form.append('purpose', purpose);

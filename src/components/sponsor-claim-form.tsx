@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export function SponsorClaimForm({ sessionId, plan, slot }: { sessionId: string; plan: string; slot: string }) {
+export function SponsorClaimForm({ sessionId, testSlot = '', plan, slot }: { sessionId: string; testSlot?: string; plan: string; slot: string }) {
   const digestOnly = plan === 'digest';
   const recommendedSize = plan === 'rail' ? '216px wide × 1/7 viewport height' : plan === 'hero' ? '200 × 360px' : plan === 'inList' ? 'Content width × approx. 100–120px' : 'Email-native × up to 600px wide';
   const [mode, setMode] = useState<'banner' | 'icon-text'>(digestOnly ? 'icon-text' : 'banner');
@@ -31,6 +31,7 @@ export function SponsorClaimForm({ sessionId, plan, slot }: { sessionId: string;
   return (
     <form onSubmit={submit} className="space-y-5 border border-[var(--border)] bg-surface-2 p-5 md:p-7">
       <input type="hidden" name="sessionId" value={sessionId} />
+      {testSlot && <input type="hidden" name="testSlot" value={testSlot} />}
       <div className="flex flex-wrap gap-2 font-mono text-xs text-muted-2"><span className="rounded-full border border-[var(--border)] px-3 py-1">{plan}</span><span className="rounded-full border border-[var(--border)] px-3 py-1">{slot}</span><span className="rounded-full border border-primary/40 px-3 py-1 text-primary">paid</span></div><p className="font-mono text-xs text-muted-2">Recommended creative size: <span className="text-fg-2">{recommendedSize}</span></p>
       <label className="block"><span className="font-mono text-xs uppercase tracking-[0.08em] text-muted-2">Product name</span><input name="name" required maxLength={70} className="mt-2 w-full rounded-lg border border-[var(--border)] bg-transparent px-4 py-3 text-fg outline-none focus:border-primary" placeholder="Your product" /></label>
       {!digestOnly && <fieldset><legend className="font-mono text-xs uppercase tracking-[0.08em] text-muted-2">Creative format</legend><div className="mt-2 grid gap-3 sm:grid-cols-2"><label className={`cursor-pointer rounded-lg border p-3 ${mode === 'banner' ? 'border-primary bg-primary/10' : 'border-[var(--border)]'}`}><input type="radio" name="creativeMode" value="banner" checked={mode === 'banner'} onChange={() => setMode('banner')} className="sr-only" /><span className="block font-display text-sm font-bold">Full banner</span><span className="mt-1 block text-xs text-muted">Image fills the entire slot.</span></label><label className={`cursor-pointer rounded-lg border p-3 ${mode === 'icon-text' ? 'border-primary bg-primary/10' : 'border-[var(--border)]'}`}><input type="radio" name="creativeMode" value="icon-text" checked={mode === 'icon-text'} onChange={() => setMode('icon-text')} className="sr-only" /><span className="block font-display text-sm font-bold">Icon + text</span><span className="mt-1 block text-xs text-muted">Icon sits top-left with padded text.</span></label></div></fieldset>}

@@ -19,6 +19,7 @@ export async function POST(req: NextRequest) {
     if (!available.some(slot => slot.id === slotId)) {
       return NextResponse.json({ error: 'That slot was just reserved. Choose another one.' }, { status: 409 });
     }
+    if (plan === 'rail' && slotId === 'left-1') return NextResponse.json({ checkoutUrl: '/sponsor/claim?test_slot=left-1' });
     const session = await createCheckoutSession(plan, slotId);
     return NextResponse.json({ sessionId: session.id, checkoutUrl: session.url });
   } catch {

@@ -24,7 +24,7 @@ export function SponsorCheckout({ plans }: { plans: Plan[] }) {
         </select>
       </label>
       <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {selected?.slots.map(slot => <SponsorPurchaseButton key={slot.id} plan={selected.id} slotId={slot.id} ariaLabel={`Pay for ${slot.label}`} className="flex items-center justify-between gap-3 rounded-lg border border-[var(--border)] bg-surface-3 px-4 py-3 text-left transition-colors hover:border-primary"><span className="font-mono text-sm text-fg">{slot.label}</span><span className="font-display text-sm font-bold text-primary">${(selected.amount / 100).toFixed(0)} →</span></SponsorPurchaseButton>)}
+        {selected?.slots.map(slot => <SponsorPurchaseButton key={slot.id} plan={selected.id} slotId={slot.id} ariaLabel={`${slot.id === 'left-1' ? 'Open free test slot' : 'Pay for'} ${slot.label}`} className="flex items-center justify-between gap-3 rounded-lg border border-[var(--border)] bg-surface-3 px-4 py-3 text-left transition-colors hover:border-primary"><span className="font-mono text-sm text-fg">{slot.label}</span><span className="font-display text-sm font-bold text-primary">{slot.id === 'left-1' ? 'Free test →' : `$${(selected.amount / 100).toFixed(0)} →`}</span></SponsorPurchaseButton>)}
       </div>
       {!selected?.slots.length && <p className="mt-4 font-mono text-xs text-muted-2">No slots are currently available for this placement.</p>}
     </div>
