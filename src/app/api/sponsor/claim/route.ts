@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getStripeAccountMetadata, retrieveCheckoutSession, SPONSOR_PLANS, updateCheckoutMetadata, updateStripeAccountMetadata, uploadSponsorAsset, type SponsorPlan } from '@/lib/stripe';
+import { retrieveCheckoutSession, SPONSOR_PLANS, updateCheckoutMetadata, uploadSponsorAsset, type SponsorPlan } from '@/lib/stripe';
 import { SLOT_GROUPS } from '@/lib/sponsors';
 import { sendEmail } from '@/lib/resend';
 
@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
   const form = await req.formData().catch(() => null);
   const sessionId = String(form?.get('sessionId') || '');
   const testSlot = String(form?.get('testSlot') || '');
-  const isTest = !sessionId && testSlot === 'left-1';
+  const isTest = Boolean(sessionId && testSlot === 'left-1');
   const name = String(form?.get('name') || '').trim();
   const creativeMode = String(form?.get('creativeMode') || '');
   const description = String(form?.get('description') || '').trim();
@@ -25,23 +25,19 @@ export async function POST(req: NextRequest) {
   if (!(asset instanceof File) || !ALLOWED_TYPES.has(asset.type) || asset.size > MAX_ICON_BYTES) return NextResponse.json({ error: 'Upload a PNG or WebP image up to 2MB.' }, { status: 400 });
 
   try {
-    const session = isTest ? null : await retrieveCheckoutSession(sessionId);
-    const plan = isTest ? 'rail' : session?.metadata.plan as SponsorPlan;
-    if (!isTest && (session?.status !== 'complete' || session.payment_status !== 'paid')) return NextResponse.json({ error: 'Payment has not been confirmed yet.' }, { status: 402 });
-    if (!SPONSOR_PLANS[plan] || !SLOT_GROUPS[plan]?.some(slot => slot.id === (isTest ? testSlot : session?.metadata.slotId))) return NextResponse.json({ error: 'This payment is not a LetsVibeCodeit sponsorship.' }, { status: 400 });
+    const session = await retrieveCheckoutSession(sessionId);
+    const testSession = isTest && session.metadata.test === 'true' && session.metadata.slotId === 'left-1';
+    const plan = session.metadata.plan as SponsorPlan;
+    if (!testSession && (session.status !== 'complete' || session.payment_status !== 'paid')) return NextResponse.json({ error: 'Payment has not been confirmed yet.' }, { status: 402 });
+    if (!SPONSOR_PLANS[plan] || !SLOT_GROUPS[plan]?.some(slot => slot.id === session.metadata.slotId)) return NextResponse.json({ error: 'This payment is not a LetsVibeCodeit sponsorship.' }, { status: 400 });
     if (plan === 'digest' && creativeMode !== 'icon-text') return NextResponse.json({ error: 'Weekly digest sponsorships require icon + text.' }, { status: 400 });
-    if (!isTest && (session?.metadata.claimed === 'true' || session?.metadata.expiresAt)) return NextResponse.json({ error: 'This sponsorship has already been claimed.' }, { status: 409 });
+    if (session.metadata.claimed === 'true' || session.metadata.expiresAt) return NextResponse.json({ error: 'This sponsorship has already been claimed.' }, { status: 409 });
 
     const assetUrl = await uploadSponsorAsset(asset, creativeMode === 'banner' ? 'business_logo' : 'business_icon');
     const activatedAt = Date.now();
     const expiresAt = activatedAt + 30 * 24 * 60 * 60 * 1000;
     const creativeMetadata = { name, description, website, creativeMode, bannerUrl: creativeMode === 'banner' ? assetUrl : '', iconUrl: creativeMode === 'icon-text' ? assetUrl : '', activatedAt: String(activatedAt), expiresAt: String(expiresAt), claimed: 'true' };
-    if (isTest) {
-      const accountMetadata = await getStripeAccountMetadata();
-      await updateStripeAccountMetadata({ ...accountMetadata, testSponsorName: name, testSponsorDescription: description, testSponsorWebsite: website, testSponsorCreativeMode: creativeMode, testSponsorBannerUrl: creativeMetadata.bannerUrl, testSponsorIconUrl: creativeMetadata.iconUrl, testSponsorActivatedAt: String(activatedAt), testSponsorExpiresAt: String(expiresAt) });
-    } else {
-      await updateCheckoutMetadata(sessionId, { ...session!.metadata, ...creativeMetadata });
-    }
+    await updateCheckoutMetadata(sessionId, { ...session.metadata, ...creativeMetadata });
 
     const recipient = session?.customer_details?.email || '';
     let emailSent = false;

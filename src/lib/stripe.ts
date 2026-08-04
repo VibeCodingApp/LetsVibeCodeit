@@ -60,6 +60,21 @@ export async function createCheckoutSession(plan: SponsorPlan, slotId: string): 
   return { id: session.id, url: session.url };
 }
 
+export async function createTestCheckoutSession(): Promise<string> {
+  const params = new URLSearchParams({
+    mode: 'setup',
+    currency: 'usd',
+    success_url: `${SITE_URL}/sponsor/claim?test_slot=left-1&session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${SITE_URL}/sponsor`,
+    'metadata[plan]': 'rail',
+    'metadata[slotId]': 'left-1',
+    'metadata[test]': 'true',
+    'metadata[claimed]': 'false',
+  });
+  const session = await stripeRequest<{ id: string }>('/checkout/sessions', { method: 'POST', body: params });
+  return session.id;
+}
+
 export async function retrieveCheckoutSession(id: string): Promise<StripeCheckoutSession> {
   return stripeRequest<StripeCheckoutSession>(`/checkout/sessions/${encodeURIComponent(id)}`);
 }
@@ -80,15 +95,6 @@ export async function listCheckoutSessions(status: 'open' | 'complete'): Promise
 
 export async function updateCheckoutMetadata(id: string, metadata: Record<string, string>): Promise<void> {
   await stripeRequest(`/checkout/sessions/${encodeURIComponent(id)}`, { method: 'POST', body: metadataParams(metadata) });
-}
-
-export async function getStripeAccountMetadata(): Promise<Record<string, string>> {
-  const account = await stripeRequest<{ metadata?: Record<string, string> }>('/account');
-  return account.metadata || {};
-}
-
-export async function updateStripeAccountMetadata(metadata: Record<string, string>): Promise<void> {
-  await stripeRequest('/account', { method: 'POST', body: metadataParams(metadata) });
 }
 
 export async function uploadSponsorAsset(file: File, purpose: 'business_icon' | 'business_logo'): Promise<string> {

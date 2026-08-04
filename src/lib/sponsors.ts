@@ -1,5 +1,5 @@
 import { unstable_cache } from 'next/cache';
-import { getStripeAccountMetadata, listCheckoutSessions, SPONSOR_PLANS, type SponsorPlan, type StripeCheckoutSession } from './stripe';
+import { listCheckoutSessions, SPONSOR_PLANS, type SponsorPlan, type StripeCheckoutSession } from './stripe';
 
 export type SponsorSlot = { id: string; label: string };
 
@@ -48,32 +48,11 @@ function sessionPlacement(session: StripeCheckoutSession): SponsorPlacement | nu
   };
 }
 
-function testPlacement(metadata: Record<string, string>): SponsorPlacement | null {
-  const expiresAt = Number(metadata.testSponsorExpiresAt || 0);
-  const creativeMode = metadata.testSponsorCreativeMode === 'banner' ? 'banner' : 'icon-text';
-  const assetUrl = creativeMode === 'banner' ? metadata.testSponsorBannerUrl : metadata.testSponsorIconUrl;
-  if (!expiresAt || expiresAt <= Date.now() || !metadata.testSponsorName || !metadata.testSponsorWebsite || !assetUrl) return null;
-  return {
-    sessionId: 'test-l1',
-    plan: 'rail',
-    slotId: 'left-1',
-    name: metadata.testSponsorName,
-    description: metadata.testSponsorDescription || '',
-    website: metadata.testSponsorWebsite,
-    iconUrl: metadata.testSponsorIconUrl || '',
-    bannerUrl: metadata.testSponsorBannerUrl || '',
-    creativeMode,
-    expiresAt,
-  };
-}
-
 async function loadActiveSponsors(): Promise<SponsorPlacement[]> {
-  const [sessions, accountMetadata] = await Promise.all([listCheckoutSessions('complete'), getStripeAccountMetadata()]);
-  const test = testPlacement(accountMetadata);
-  return [test, ...sessions
-    .filter(session => session.payment_status === 'paid')
+  const [open, complete] = await Promise.all([listCheckoutSessions('open'), listCheckoutSessions('complete')]);
+  return [...open.filter(session => session.metadata?.test === 'true' && session.metadata?.claimed === 'true'), ...complete.filter(session => session.payment_status === 'paid')]
     .map(sessionPlacement)
-    .filter(Boolean) as SponsorPlacement[]].filter(Boolean) as SponsorPlacement[];
+    .filter(Boolean) as SponsorPlacement[];
 }
 
 const cachedActiveSponsors = unstable_cache(loadActiveSponsors, ['active-sponsors'], { revalidate: 60 });
@@ -87,14 +66,14 @@ export async function getActiveSponsors(): Promise<SponsorPlacement[]> {
 }
 
 export async function getReservedSlotIds(): Promise<Set<string>> {
-  const [complete, accountMetadata] = await Promise.all([listCheckoutSessions('complete'), getStripeAccountMetadata()]);
+  const [open, complete] = await Promise.all([listCheckoutSessions('open'), listCheckoutSessions('complete')]);
   const reserved = new Set<string>();
-  if (testPlacement(accountMetadata)) reserved.add('left-1');
-  complete.forEach(session => {
+  [...open.filter(session => session.metadata?.test === 'true' && session.metadata?.claimed === 'true'), ...complete].forEach(session => {
     const slotId = session.metadata?.slotId;
     if (!slotId) return;
     const claimedExpiresAt = Number(session.metadata?.expiresAt || 0);
-    const stillActive = claimedExpiresAt > Date.now() && session.payment_status === 'paid';
+    const isTest = session.metadata?.test === 'true' && session.metadata?.claimed === 'true';
+    const stillActive = claimedExpiresAt > Date.now() && (session.payment_status === 'paid' || isTest);
     if (stillActive) reserved.add(slotId);
   });
   return reserved;
