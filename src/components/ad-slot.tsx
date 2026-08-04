@@ -113,10 +113,10 @@ export function AdSlot({
 
   const surfaceClassName = [
      'relative w-full flex flex-col items-center justify-center gap-2 py-1 sm:py-8',
-    'border border-dashed border-[var(--border-2)] rounded-xl',
+    'border border-dashed border-[var(--border-2)]',
     sticky
-      ? 'bg-[var(--glass-bg)] backdrop-blur-xl backdrop-saturate-150 shadow-[0_8px_32px_rgba(0,0,0,.28)]'
-       : 'bg-[var(--surface)]/90 backdrop-blur-sm',
+      ? 'rounded-none md:rounded-xl bg-[var(--glass-bg)] backdrop-blur-xl backdrop-saturate-150 shadow-[0_8px_32px_rgba(0,0,0,.28)]'
+       : 'rounded-xl bg-[var(--surface)]/90 backdrop-blur-sm',
   ].join(' ');
   const capacity = sponsorPoolCapacity(sponsors.length);
   const purchaseSlotId = `in-list-${(slotHash(slot) % capacity) + 1}`;
@@ -159,8 +159,7 @@ export function StickyAdLayer({ slot }: StickyAdLayerProps) {
 
   return (
     <div
-      className="fixed left-1/2 z-40 container-main -translate-x-1/2 pointer-events-auto"
-      style={{ top: SITE_HEADER_HEIGHT }}
+      className="fixed left-0 right-0 top-[94px] z-30 w-full max-w-none -translate-x-0 pointer-events-auto md:left-1/2 md:right-auto md:top-[54px] md:w-[min(var(--content-max),calc(100%_-_var(--page-gutter)))] md:-translate-x-1/2"
       data-sticky-ad-layer
       data-sticky-state="active"
     >
