@@ -76,7 +76,7 @@
   }
   .detail-stack { display: flex; width: 100%; flex-direction: column; gap: 48px; }
   .hero-frame { position: relative; }
-  .hero-ad { display: none; position: absolute; top: 0; width: 200px; }
+  .hero-ad { display: none; position: absolute; top: 0; width: 200px; z-index: 45; }
   .hero-ad-left { right: calc(50% + (var(--content-max) / 2) + var(--hero-ad-gap)); }
   .hero-ad-right { left: calc(50% + (var(--content-max) / 2) + var(--hero-ad-gap)); }
   .site-header-inner { min-height: 54px; }

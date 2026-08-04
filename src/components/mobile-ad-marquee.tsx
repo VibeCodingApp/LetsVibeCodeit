@@ -28,16 +28,11 @@ export function MobileAdMarquee({ position }: { position: 'top' | 'bottom' }) {
   const side = isTopPosition(position) ? 'left' : 'right';
   const slotIds = Array.from({ length: 7 }, (_, index) => `${side}-${index + 1}`);
   const sideSponsors = active.filter(sponsor => sponsor.plan === 'rail' && sponsor.slotId.startsWith(`${side}-`));
-  const boostedSponsors = sideSponsors.length === 1
-    ? Array.from({ length: 3 }, () => sideSponsors[0])
-    : sideSponsors.length === 2
-      ? sideSponsors.flatMap(sponsor => [sponsor, sponsor])
-      : sideSponsors;
-  const sponsorsFirst = boostedSponsors.map((sponsor, index) => ({ slotId: `${side}-sponsor-${index}`, sponsor }));
-  const emptySlots = slotIds.slice(0, Math.max(0, 7 - sponsorsFirst.length)).map(slotId => ({ slotId, sponsor: undefined }));
+  const sponsorsFirst = sideSponsors.slice(0, 7).map((sponsor, index) => ({ slotId: `${side}-sponsor-${index}`, sponsor }));
+  const emptySlots = sideSponsors.length < 7 ? [{ slotId: slotIds.find(slotId => !sideSponsors.some(sponsor => sponsor.slotId === slotId)) || `${side}-empty`, sponsor: undefined }] : [];
   const sequence = [...sponsorsFirst, ...emptySlots];
   const cards = [...sequence, ...sequence];
-  const duration = sideSponsors.length ? Math.max(18, Math.round(60 * Math.min(7, Math.max(2, sideSponsors.length)) / 7)) : 60;
+  const duration = sideSponsors.length ? Math.max(45, sequence.length * 14) : 75;
   const style = { '--ticker-duration': `${duration}s` } as CSSProperties;
   const isTop = position === 'top';
   const trackClass = isTop ? 'animate-ticker' : 'animate-ticker-rev';
