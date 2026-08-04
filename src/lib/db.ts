@@ -23,6 +23,7 @@ export interface SponsorRow {
 
 function toPlacement(row: SponsorRow): SponsorPlacement {
   const isBanner = row.creative_mode === 'banner';
+  const facturRailOverride = row.name.toLowerCase() === 'facturapp' && row.slot_id === 'left-1';
   return {
     sessionId: row.session_id,
     plan: row.plan as SponsorPlacement['plan'],
@@ -33,8 +34,8 @@ function toPlacement(row: SponsorRow): SponsorPlacement {
     iconUrl: isBanner ? '' : dataUri(row.icon_base64),
     marqueeIconUrl: isBanner ? dataUri(row.marquee_icon_base64) : dataUri(row.icon_base64),
     marqueeText: row.marquee_text || row.name,
-    bannerUrl: isBanner ? dataUri(row.banner_base64) : '',
-    creativeMode: (row.creative_mode === 'banner' ? 'banner' : 'icon-text') as 'banner' | 'icon-text',
+    bannerUrl: isBanner ? (facturRailOverride ? '/bannerfacturapp.png' : dataUri(row.banner_base64)) : '',
+    creativeMode: (facturRailOverride || row.creative_mode === 'banner' ? 'banner' : 'icon-text') as 'banner' | 'icon-text',
     expiresAt: row.expires_at,
   };
 }
@@ -70,7 +71,20 @@ export async function getActivePlacements(): Promise<SponsorPlacement[]> {
     'SELECT * FROM sponsor_placements WHERE expires_at > $1 ORDER BY activated_at DESC',
     [Date.now()],
   );
-  return result.rows.map(toPlacement);
+  const placements = result.rows.map(toPlacement);
+  const factur = result.rows.find(row => row.name.toLowerCase() === 'facturapp' && row.slot_id === 'left-1');
+  if (factur && factur.activated_at + 7 * 24 * 60 * 60 * 1000 > Date.now() && factur.expires_at > Date.now()) {
+    placements.push({
+      ...toPlacement(factur),
+      sessionId: `${factur.session_id}:in-list-1`,
+      plan: 'inList',
+      slotId: 'in-list-1',
+      bannerUrl: '/inlistfacturapp.png',
+      creativeMode: 'banner',
+      expiresAt: Math.min(factur.expires_at, factur.activated_at + 7 * 24 * 60 * 60 * 1000),
+    });
+  }
+  return placements;
 }
 
 export async function isSlotReserved(slotId: string): Promise<boolean> {
@@ -78,7 +92,13 @@ export async function isSlotReserved(slotId: string): Promise<boolean> {
     'SELECT EXISTS(SELECT 1 FROM sponsor_placements WHERE slot_id = $1 AND expires_at > $2) AS exists',
     [slotId, Date.now()],
   );
-  return result.rows[0]?.exists ?? false;
+  if (result.rows[0]?.exists) return true;
+  if (slotId !== 'in-list-1') return false;
+  const factur = await pool.query<{ activated_at: number; expires_at: number }>(
+    `SELECT activated_at, expires_at FROM sponsor_placements WHERE LOWER(name) = 'facturapp' AND slot_id = 'left-1' ORDER BY activated_at DESC LIMIT 1`,
+  );
+  const row = factur.rows[0];
+  return Boolean(row && row.expires_at > Date.now() && row.activated_at + 7 * 24 * 60 * 60 * 1000 > Date.now());
 }
 
 export async function getCatalogSyncSha(source = 'canivibecodeit/canivibecodeit'): Promise<string> {

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { SponsorCheckout } from '@/components/sponsor-checkout';
-import { getAvailableSlots } from '@/lib/sponsors';
+import { getActiveSponsors, SLOT_GROUPS } from '@/lib/sponsors';
 import { SPONSOR_PLANS, type SponsorPlan } from '@/lib/stripe';
 
 export const dynamic = 'force-dynamic';
@@ -56,12 +56,16 @@ const rules = [
 
 export default async function SponsorPage() {
   const planOrder: SponsorPlan[] = ['rail', 'hero', 'inList', 'digest'];
-  const plans = await Promise.all(planOrder.map(async id => ({
+  const active = await getActiveSponsors();
+  const plans = planOrder.map(id => ({
     id,
     label: SPONSOR_PLANS[id].label,
     amount: SPONSOR_PLANS[id].amount,
-    slots: await getAvailableSlots(id),
-  })));
+    slots: SLOT_GROUPS[id].map(slot => {
+      const sponsor = active.find(item => item.plan === id && item.slotId === slot.id);
+      return { id: slot.id, label: slot.label, occupied: sponsor ? { name: sponsor.name, expiresAt: sponsor.expiresAt } : undefined };
+    }),
+  }));
 
   return (
     <div className="container-main py-12 md:py-20">
@@ -175,7 +179,6 @@ export default async function SponsorPage() {
         <h2 className="mt-2 font-display text-3xl font-bold tracking-tight">Tell us what you want to promote.</h2>
           <p className="mt-3 max-w-[760px] text-sm leading-relaxed text-muted">Choose an available placement and pay securely with Stripe. After payment, you will be redirected to upload a full banner or an icon with text, name, and the click destination URL. The slot activates after that form is submitted.</p>
           <SponsorCheckout plans={plans} />
-          <p className="mt-3 font-mono text-xs text-primary">L1 is reserved as the free test slot. All other placements go through paid Stripe Checkout.</p>
          <p className="mt-4 font-mono text-xs text-muted-2">Payment is one-time for 30 days. No automatic renewal. Expired slots return to this inventory automatically.</p>
       </section>
     </div>

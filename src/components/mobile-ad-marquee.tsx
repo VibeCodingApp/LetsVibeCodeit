@@ -11,7 +11,7 @@ function Card({ labelled, slotId, sponsor }: { labelled: boolean; slotId: string
     <a href={href} target={sponsor ? '_blank' : undefined} rel={sponsor ? 'sponsored noopener noreferrer' : undefined} aria-hidden={!labelled} tabIndex={labelled ? 0 : -1} className="mx-2 inline-flex shrink-0 items-center gap-2.5 rounded-full border border-[var(--border)] bg-[var(--surface-2)] px-4 py-1.5 no-underline transition-colors hover:border-[var(--border-2)]">
       {sponsor ? <img src={sponsor.marqueeIconUrl} alt="" className="h-5 w-8 rounded-md object-cover" /> : <span className="rounded-full border border-[var(--border)] bg-[var(--surface-3)] px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.1em] text-muted-2">Ad</span>}
       <span className="whitespace-nowrap font-mono text-[12px] text-fg-2">{sponsor ? sponsor.marqueeText : 'promote your product here'}</span>
-      {sponsor ? <span className="whitespace-nowrap font-mono text-[11px] text-warning">Sponsored</span> : <><span className="whitespace-nowrap font-mono text-[12px] font-bold text-primary">$199</span><span className="whitespace-nowrap font-mono text-[11px] text-muted-2">/30 days</span></>}
+      {sponsor ? null : <><span className="whitespace-nowrap font-mono text-[12px] font-bold text-primary">$199</span><span className="whitespace-nowrap font-mono text-[11px] text-muted-2">/30 days</span></>}
     </a>
   );
 }
@@ -21,11 +21,13 @@ export function MobileAdMarquee({ position }: { position: 'top' | 'bottom' }) {
   useEffect(() => {
     fetch('/api/sponsors/active', { cache: 'no-store' }).then(response => response.ok ? response.json() : []).then(setActive).catch(() => undefined);
   }, []);
-  const sponsors = active.filter(sponsor => sponsor.plan === 'rail');
-  const cards = Array.from({ length: 14 }, (_, index) => {
-    const slotId = `${index < 7 ? 'left' : 'right'}-${(index % 7) + 1}`;
-    return { slotId, sponsor: sponsors.find(item => item.slotId === slotId) };
-  });
+  const side = isTopPosition(position) ? 'left' : 'right';
+  const slotIds = Array.from({ length: 7 }, (_, index) => `${side}-${index + 1}`);
+  const sideSponsors = active.filter(sponsor => sponsor.plan === 'rail' && sponsor.slotId.startsWith(`${side}-`));
+  const sponsorsFirst = sideSponsors.map(sponsor => ({ slotId: sponsor.slotId, sponsor }));
+  const emptySlots = slotIds.filter(slotId => !sideSponsors.some(sponsor => sponsor.slotId === slotId)).map(slotId => ({ slotId, sponsor: undefined }));
+  const sequence = [...sponsorsFirst, ...emptySlots];
+  const cards = [...sequence, ...sequence];
   const style = { '--ticker-duration': '60s' } as CSSProperties;
   const isTop = position === 'top';
   const trackClass = isTop ? 'animate-ticker' : 'animate-ticker-rev';
@@ -39,4 +41,8 @@ export function MobileAdMarquee({ position }: { position: 'top' | 'bottom' }) {
       </div>
     </section>
   );
+}
+
+function isTopPosition(position: 'top' | 'bottom'): boolean {
+  return position === 'top';
 }
