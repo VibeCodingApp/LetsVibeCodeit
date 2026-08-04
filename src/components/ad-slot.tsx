@@ -112,7 +112,7 @@ export function AdSlot({
     : { 'data-ad-anchor': anchorIndex };
 
   const surfaceClassName = [
-     'relative w-full flex flex-col items-center justify-center gap-2 py-1.5 sm:py-8',
+     'relative w-full flex flex-col items-center justify-center gap-2 py-1 sm:py-8',
     'border border-dashed border-[var(--border-2)] rounded-xl',
     sticky
       ? 'bg-[var(--glass-bg)] backdrop-blur-xl backdrop-saturate-150 shadow-[0_8px_32px_rgba(0,0,0,.28)]'

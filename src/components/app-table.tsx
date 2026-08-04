@@ -68,7 +68,7 @@ export function AppTable({ initialRows, categories }: { initialRows: AppRow[]; c
 
   return (
     <section ref={listRef} className="pb-20 pt-6 md:pb-24 md:pt-7" data-in-list-root>
-      <div className="container-main rounded-2xl border border-[var(--border)] bg-[var(--surface)]/45 p-4 md:p-6">
+      <div className="container-main bg-[var(--surface)]/45 p-4 backdrop-blur-sm md:p-6">
         <div className="flex flex-wrap items-end justify-between gap-4 mb-2">
           <div>
             <span className="text-[11px] font-medium uppercase tracking-[0.08em] text-primary font-mono">The Vibecoded List</span>
