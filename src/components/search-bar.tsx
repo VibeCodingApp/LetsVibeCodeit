@@ -46,7 +46,7 @@ export function SearchBar() {
         <div className="absolute top-full mt-2 left-0 right-0 bg-surface-2 border border-[var(--border)] rounded-xl max-h-[320px] overflow-y-auto z-50 shadow-[0_8px_48px_rgba(0,0,0,.6)]">
           {results.map(app => (
             <a key={app.slug} href={`/${app.slug}`} className="flex items-center gap-3 px-4 py-2.5 cursor-pointer hover:bg-surface-3 transition-colors border-b border-[var(--border)] last:border-b-0 no-underline" onClick={() => selectApp(app)}>
-              <AppIcon name={app.name} className="w-4 h-4 rounded text-[8px]" />
+              <AppIcon domain={app.domain} name={app.name} className="w-4 h-4 rounded text-[8px]" />
               <span className="font-semibold font-display text-fg flex-1">{app.name}</span>
               <span className="text-xs text-muted">{app.category}</span>
               <VerdictBadge verdict={app.verdict} />

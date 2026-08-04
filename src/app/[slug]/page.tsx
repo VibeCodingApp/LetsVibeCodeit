@@ -86,7 +86,7 @@ export default function AppDetailPage({ params }: { params: { slug: string } }) 
             <section>
               <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
                 <div className="flex min-w-0 items-start gap-4">
-                  <AppIcon name={app.name} className="mt-1 h-14 w-14 rounded-2xl text-2xl" />
+                  <AppIcon domain={app.domain} name={app.name} className="mt-1 h-14 w-14 rounded-2xl bg-[var(--surface-2)] p-1 text-2xl" />
                   <div className="min-w-0">
                     <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-6xl">Can I vibecode {app.name}?</h1>
                     <div className="mt-5"><AppMeta app={app} /></div>

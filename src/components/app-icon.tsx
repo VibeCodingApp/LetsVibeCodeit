@@ -1,10 +1,25 @@
-export function AppIcon({ name, className = '' }: { name: string; className?: string }) {
+'use client';
+import { useState } from 'react';
+
+export function AppIcon({ domain, name, className = '' }: { domain: string; name: string; className?: string }) {
+  const [broken, setBroken] = useState(false);
+  if (broken) {
+    return (
+      <span
+        aria-hidden
+        className={`inline-flex shrink-0 select-none items-center justify-center border border-[var(--border)] bg-[var(--surface-2)] font-display font-bold text-primary ${className}`}
+      >
+        {name.charAt(0).toUpperCase()}
+      </span>
+    );
+  }
   return (
-    <span
-      aria-hidden
-      className={`inline-flex shrink-0 select-none items-center justify-center border border-[var(--border)] bg-[var(--surface-2)] font-display font-bold text-primary ${className}`}
-    >
-      {name.charAt(0).toUpperCase()}
-    </span>
+    <img
+      src={`https://www.google.com/s2/favicons?domain=${domain}&sz=128`}
+      alt=""
+      loading="lazy"
+      onError={() => setBroken(true)}
+      className={`shrink-0 ${className}`}
+    />
   );
 }
