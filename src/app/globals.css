@@ -12,6 +12,7 @@
   --muted: #9aa29a; --muted-2: #838c83;
   --primary: #33e667; --primary-dim: #1a4a2a; --primary-glow: rgba(51,230,103,0.1);
   --primary-glow-strong: rgba(51,230,103,0.2);
+  --grid-line: rgba(131,140,131,0.08);
   --accent: #8775ff; --accent-glow: rgba(135,117,255,0.08);
   --danger: #ff4444; --danger-dim: rgba(255,68,68,0.1);
   --warning: #ffb000; --warning-dim: rgba(255,176,0,0.1);
@@ -28,6 +29,7 @@
   --muted: #5f665f; --muted-2: #667066;
   --primary: #0e9c47; --primary-dim: #c8f0d4; --primary-glow: rgba(14,156,71,0.06);
   --primary-glow-strong: rgba(14,156,71,0.12);
+  --grid-line: rgba(32,48,38,0.08);
   --accent: #6955e0; --accent-glow: rgba(105,85,224,0.05);
   --danger: #e03131; --danger-dim: rgba(224,49,49,0.06);
   --warning: #ca8a04; --warning-dim: rgba(202,138,4,0.06);
@@ -50,6 +52,8 @@
   html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
   body {
     @apply bg-[var(--bg)] text-[var(--fg)] font-mono text-[15px] leading-relaxed;
+    background-image: linear-gradient(to right, var(--grid-line) 1px, transparent 1px), linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+    background-size: 48px 48px;
     transition: background .3s, color .3s; overflow-x: hidden;
   }
   body::before {

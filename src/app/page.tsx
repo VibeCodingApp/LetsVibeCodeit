@@ -7,6 +7,7 @@ import { StatsStrip } from '@/components/stats-strip';
 import { AppTable } from '@/components/app-table';
 import { DigestCard } from '@/components/digest-card';
 import { AdSlotHero } from '@/components/ad-hero';
+import { HeroVibeTags } from '@/components/hero-vibe-tags';
 import type { Metadata } from 'next';
 
 export const dynamic = 'force-static';
@@ -36,6 +37,7 @@ export default function HomePage() {
     <>
       <section className="pt-16 pb-10 md:pt-24 md:pb-14">
         <div className="container-main hero-frame">
+          <HeroVibeTags />
           <AdSlotHero side="left" />
           <div className="flex-1 max-w-[600px] text-center mx-auto">
             <h1 className="font-display font-bold text-[clamp(44px,7vw,80px)] leading-tight mb-3">

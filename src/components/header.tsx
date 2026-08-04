@@ -10,9 +10,12 @@ const links = [
   { href: 'https://github.com/VibeCodingApp/LetsVibeCodeit/blob/main/CONTRIBUTING.md', label: 'Contribute' },
 ];
 
+const moreLinks = ['Games', 'Art Prompts', 'Music', 'Tools', 'Chrome Extension', 'Bots', 'AI Agent'];
+
 export function Header() {
   const { theme, toggle } = useTheme();
   const [open, setOpen] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
 
   return (
     <>
@@ -43,6 +46,13 @@ export function Header() {
                 <span className="absolute bottom-1.5 left-3 right-3 h-px bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left" />
               </a>
             ))}
+            <div className="relative">
+              <button type="button" onClick={() => setMoreOpen(value => !value)} aria-expanded={moreOpen} className="group relative inline-flex items-center gap-1 border-0 bg-transparent px-3 py-2 font-mono text-[12.5px] tracking-[0.01em] text-muted transition-colors hover:text-fg">
+                More <span aria-hidden="true" className="text-[10px]">{moreOpen ? '▲' : '▼'}</span>
+                <span className="absolute bottom-1.5 left-3 right-3 h-px origin-left scale-x-0 bg-primary transition-transform group-hover:scale-x-100" />
+              </button>
+              {moreOpen && <div className="absolute right-0 top-11 z-50 w-52 rounded-xl border border-[var(--border)] bg-[var(--surface-2)] p-2 shadow-[0_12px_32px_rgba(0,0,0,.35)]">{moreLinks.map(label => <div key={label} className="flex items-center justify-between rounded-lg px-3 py-2 font-mono text-xs text-muted-2"><span>{label}</span><span className="rounded-full border border-[var(--border-2)] px-1.5 py-0.5 text-[9px] uppercase tracking-[0.08em]">Soon</span></div>)}</div>}
+            </div>
             <a href="https://github.com/VibeCodingApp/LetsVibeCodeit" target="_blank" rel="noopener noreferrer" className="ml-1 relative no-underline inline-flex items-center gap-1.5 px-3 py-2 font-mono text-[12.5px] text-muted hover:text-fg transition-colors duration-200">
               <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
               GitHub
@@ -63,6 +73,8 @@ export function Header() {
                 {l.label}
               </a>
             ))}
+            <button type="button" onClick={() => setMoreOpen(value => !value)} aria-expanded={moreOpen} className="flex items-center justify-between border-b border-[var(--border)] px-3 py-2.5 text-left font-mono text-sm text-fg-2">More <span aria-hidden="true">{moreOpen ? '▲' : '▼'}</span></button>
+            {moreOpen && <div className="border-b border-[var(--border)] pb-1">{moreLinks.map(label => <div key={label} className="flex items-center justify-between px-3 py-2 font-mono text-xs text-muted-2"><span>{label}</span><span className="rounded-full border border-[var(--border-2)] px-1.5 py-0.5 text-[9px] uppercase tracking-[0.08em]">Soon</span></div>)}</div>}
             <a href="https://github.com/VibeCodingApp/LetsVibeCodeit" target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)} className="no-underline inline-flex items-center gap-2 px-3 py-2.5 font-mono text-sm text-fg-2 hover:text-fg transition-colors">
               <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
               GitHub
