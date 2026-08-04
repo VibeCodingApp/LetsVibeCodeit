@@ -3,6 +3,7 @@ import { Space_Grotesk, JetBrains_Mono } from 'next/font/google';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { SponsorRails } from '@/components/sponsor-rails';
+import { MobileAdMarquee } from '@/components/mobile-ad-marquee';
 import { ThemeProvider } from '@/components/theme-provider';
 import { PostHogProvider } from '@/components/posthog-provider';
 import './globals.css';
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <PostHogProvider>
           <ThemeProvider>
             <Header />
+            <MobileAdMarquee />
             <SponsorRails />
             <main>{children}</main>
             <Footer />

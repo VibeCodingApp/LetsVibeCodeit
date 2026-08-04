@@ -27,6 +27,7 @@ module.exports = {
       },
       animation: {
         ticker: 'ticker var(--ticker-duration, 180s) linear infinite',
+        'ticker-rev': 'ticker-rev var(--ticker-duration, 180s) linear infinite',
         'pulse-glow': 'pulse-glow 3s ease-in-out infinite',
         'fade-up': 'fade-up 0.6s cubic-bezier(0.22,1,0.36,1) forwards',
         'badge-pop': 'badge-pop 0.3s cubic-bezier(0.34,1.56,0.64,1)',
@@ -35,6 +36,10 @@ module.exports = {
         ticker: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
+        },
+        'ticker-rev': {
+          '0%': { transform: 'translateX(-50%)' },
+          '100%': { transform: 'translateX(0)' },
         },
         'pulse-glow': {
           '0%, 100%': { boxShadow: '0 0 8px var(--primary-glow)' },

@@ -12,12 +12,12 @@ function TableHead() {
   return (
     <thead>
       <tr>
-        <th className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-8">#</th>
-        <th className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-[38%]">app</th>
-        <th className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-[22%]">category</th>
-        <th className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-[14%]">price</th>
-        <th className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-[16%]">verdict</th>
-        <th className="text-left py-2.5 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)]">replaced it</th>
+        <th scope="col" className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-8">#</th>
+        <th scope="col" className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-[38%]">app</th>
+        <th scope="col" className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-[22%]">category</th>
+        <th scope="col" className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-[14%]">price</th>
+        <th scope="col" className="text-left py-2.5 pr-4 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)] w-[16%]">verdict</th>
+        <th scope="col" className="text-left py-2.5 font-mono text-[11px] font-semibold uppercase tracking-[0.06em] text-muted-2 border-b-2 border-[var(--border)]">replaced it</th>
       </tr>
     </thead>
   );
@@ -68,8 +68,8 @@ export function AppTable({ initialRows, categories }: { initialRows: AppRow[]; c
             <h2 className="font-display text-3xl md:text-4xl font-bold mt-1">ranked by &ldquo;I replaced this&rdquo; votes</h2>
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-xs text-muted font-mono">sort:</span>
-            <select value={f.sort} onChange={e => setF({ ...f, sort: e.target.value as FilterState['sort'] })}
+            <label htmlFor="sort-select" className="text-xs text-muted font-mono">sort:</label>
+            <select id="sort-select" value={f.sort} onChange={e => setF({ ...f, sort: e.target.value as FilterState['sort'] })}
               className="px-3 py-1.5 rounded-lg text-fg font-mono text-xs cursor-pointer outline-none bg-transparent border border-[var(--border)] hover:border-[var(--border-2)] transition-colors">
               <option value="votes">votes ↓</option><option value="name">name A–Z</option><option value="price">price: low→high</option>
             </select>
@@ -106,7 +106,7 @@ export function AppTable({ initialRows, categories }: { initialRows: AppRow[]; c
                   <div key={ci}>
                     <div className="overflow-x-auto">
                       <table className="w-full border-collapse">
-                        {ci === 0 && <TableHead />}
+                        <TableHead />
                         <tbody>
                           {chunk.map((a, i) => (
                             <AppRowC key={a.slug} app={a} rank={offset + i + 1} />

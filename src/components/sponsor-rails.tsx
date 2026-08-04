@@ -2,7 +2,7 @@ function Slot({ n, side }: { n: number; side: 'left' | 'right' }) {
   return (
     <div className="border border-dashed border-[var(--border-2)] rounded px-3 py-2.5 text-center bg-[var(--surface)]/30 hover:border-primary/30 transition-colors duration-200 cursor-default flex flex-col justify-center gap-0.5"
       style={{ height: 'calc((100vh - var(--rail-gap) * 8) / 7)' }}>
-      <span className="text-[11px] font-mono text-muted-2 uppercase tracking-[0.06em] leading-none opacity-70">{side === 'left' ? 'L' : 'R'}{n}</span>
+      <span className="text-[11px] font-mono text-muted-2 uppercase tracking-[0.06em] leading-none">{side === 'left' ? 'L' : 'R'}{n}</span>
       <span className="text-[10px] text-muted-2 font-mono leading-tight">promote your product here</span>
       <span className="text-primary font-display font-bold text-[17px] leading-tight">$199</span>
       <span className="text-[9px] text-muted-2 font-mono leading-tight">/30 days</span>

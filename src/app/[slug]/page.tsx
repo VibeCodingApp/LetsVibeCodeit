@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getAppBySlug, getRelatedApps, getAllApps } from '@/lib/apps';
 import { AdSlotHero } from '@/components/ad-hero';
+import { AppIcon } from '@/components/app-icon';
 import { DetailAdBreak } from '@/components/detail-ad-break';
 import { FAQ } from '@/components/faq';
 import { PriorArt } from '@/components/prior-art';
@@ -85,7 +86,7 @@ export default function AppDetailPage({ params }: { params: { slug: string } }) 
             <section>
               <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
                 <div className="flex min-w-0 items-start gap-4">
-                  <img src={`https://www.google.com/s2/favicons?domain=${app.domain}&sz=128`} alt={`${app.name} icon`} width={56} height={56} className="mt-1 h-14 w-14 shrink-0 rounded-2xl border border-[var(--border)] bg-surface-2 p-2" />
+                  <AppIcon name={app.name} className="mt-1 h-14 w-14 rounded-2xl text-2xl" />
                   <div className="min-w-0">
                     <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight md:text-6xl">Can I vibecode {app.name}?</h1>
                     <div className="mt-5"><AppMeta app={app} /></div>
